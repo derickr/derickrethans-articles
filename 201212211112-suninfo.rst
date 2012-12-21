@@ -1,0 +1,228 @@
+Weather from the Norwegians, sunset and sunrise
+===============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-12-21 11:12 Europe/London
+   :Tags: blog, php
+   :Short: sun
+
+.. image:: /images/content/pi-sun.png
+   :align: right
+   :alt: Weather widget
+
+I have recently acquired a `Raspberry PI`_ and as a hacking project I am using
+it as status screen in the living room. As part of this, it has a weather
+widget.
+
+I use the weather data from http://yr.no ("the Norwegians") as they provide
+free_ weather data for the whole world. For each location, there is a nice `XML
+file`_ with the weather forecast. 
+
+The XML file has a forecast for several periods. See for example the first
+upcoming one::
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<weatherdata>
+	  …
+	  <forecast>
+		<tabular>
+		  <time from="2012-12-21T12:00:00" to="2012-12-21T13:00:00">
+			<symbol number="1" name="Fair" var="01d" />
+			<precipitation value="0" />
+			<windDirection deg="253.3" code="WSW" name="West-southwest" />
+			<windSpeed mps="4.8" name="Gentle breeze" />
+			<temperature unit="celsius" value="7" />
+			<pressure unit="hPa" value="1009.8" />
+		  </time>
+
+This shows among others, the period (December 21st, 12:00 to 13:00), the symbol
+to use (``number="1"``), the expected precipitation and temperature. There is a
+description of what the symbols_ mean. The page is in Norwegian, but that's all
+right, as I can actually read that.
+
+For most of the symbols there is both a day and a night variant of the symbol.
+And in some cases, there is also a "mørketid" variant - the period in which the
+sun never comes over the horizon.
+
+In each XML file, the coordinates of the location for which the forecast is are
+also present::
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<weatherdata>
+	  <location>
+		<name>London</name>
+		<type>Capital</type>
+		<country>United Kingdom</country>
+		<timezone id="Europe/London" utcoffsetMinutes="0" />
+		<location altitude="21" latitude="51.50853" longitude="-0.12574" geobase="geonames" geobaseid="2643743" />
+	  </location>
+
+The location information comes from http://geonames.org, which handily also
+includes the `Olson timezone ID`_ for the location. The *timezone ID* combined
+with the *time*, the *latitude* and the *longitude* are enough to calculate
+sunrise and sunset times with PHP's `date_sun_info()`_ function. 
+
+For example, to find out the sunset and sunrise for today in London
+(Europe/London, 51.50833°N, 0.12574°W)::
+
+	<?php
+	$result = date_sun_info( time(), 51.50853, -0.12574 );
+	print_r( $result );
+	?>
+
+This returns the following array::
+
+	Array
+	(
+		[sunrise] => 1356077046
+		[sunset] => 1356105238
+		[transit] => 1356091142
+		[civil_twilight_begin] => 1356074637
+		[civil_twilight_end] => 1356107647
+		[nautical_twilight_begin] => 1356072046
+		[nautical_twilight_end] => 1356110239
+		[astronomical_twilight_begin] => 1356069597
+		[astronomical_twilight_end] => 1356112687
+	)
+
+Each value is a `Unix timestamp`_. To display when the Sun rises and sets::
+
+	<?php
+	$result = date_sun_info( time(), 51.50853, -0.12574 );
+	echo 'Sunrise: ', date( 'H:i', $result['sunrise'] ), ", ";
+	echo 'Sunset: ', date( 'H:i', $result['sunset'] ), "\n";
+	?>
+
+Which shows (for today): ``Sunrise: 08:04, Sunset: 15:53``. The *transit* value
+is the time when the Sun is at its highest point, and the different
+twilight_begin/twilight_end values represent different start and end times of
+the three different forms of twilight_. From the above information, it is also
+trivial to calculate the length of day: ``echo $result['sunset'] -
+$result['sunrise']);`` (or today in London: *28192 seconds*, which is
+*7h49m52s*).
+
+Near the summer and winter solstices_ there are regions on Earth where the Sun
+never rises (the afore mentioned "mørketid") or when the Sun never sets. 
+If we take for example Kirkenes in Northern Norway (69.72°N, 30.04°E), we can
+calculate all the different values with::
+
+	<?php
+	date_default_timezone_set( 'Europe/Oslo' );
+	$result = date_sun_info( time(), 69.72, 30.04 );
+	foreach ( $result as $key => $value )
+	{
+		if ( gettype( $value ) == 'boolean' ) {
+			echo $key, ': always ', $value ? 'above' : 'below', "\n";
+		} else {
+			echo $key, ': ', date( 'H:i', $value ), "\n";
+		}
+	}
+	?>
+
+Which shows::
+
+	sunrise: always below
+	sunset: always below
+	transit: 10:58
+	civil_twilight_begin: 08:48
+	civil_twilight_end: 13:07
+	nautical_twilight_begin: 07:03
+	nautical_twilight_end: 14:53
+	astronomical_twilight_begin: 05:44
+	astronomical_twilight_end: 16:11
+
+Indicating that the Sun never rises. During summer (July 22nd, 13:45 CEST), it
+shows for Kirkenes::
+
+	sunrise: always above
+	sunset: always above
+	transit: 12:06
+	civil_twilight_begin: always above
+	civil_twilight_end: always above
+	nautical_twilight_begin: always above
+	nautical_twilight_end: always above
+	astronomical_twilight_begin: always above
+	astronomical_twilight_end: always above
+
+Which indicates that the Sun is always above the horizon.
+
+
+It is important to use the correct timezone in your script, otherwise you get
+weird results::
+
+	<?php
+	// Timezone for London, location for Los Angeles
+	date_default_timezone_set( 'Europe/London' );
+	$result = date_sun_info( time(), 34.0522, -118.2437 );
+	echo 'Sunrise: ', date( 'H:i', $result['sunrise'] ), ", ";
+	echo 'Transit: ', date( 'H:i', $result['transit'] ), ", ";
+	echo 'Sunset: ', date( 'H:i', $result['sunset'] ), "\n";
+	?>
+
+Which then shows::
+
+	Sunrise: 14:55, Transit: 19:51, Sunset: 00:48
+
+Which is clearly incorrect.
+
+Now we have figured out whether it's day, night or "mørketid" we can show the
+correct symbol. With "Partly Cloudy" (symbol ``$nr = 5``) we select the symbol as
+follows::
+
+	if ( $result['sunrise'] === false || $result['sunset'] === false )
+	{
+		$symbol = sprintf( "%02dm", $nr );
+	}
+	else if ( time() > $result['sunrise'] && time() < $result['sunset'] ) )
+	{
+		$symbol = sprintf( "%02dd", $nr );
+	}
+	else
+	{
+		$symbol = sprintf( "%02dn", $nr );
+	}
+
+.. image:: /images/content/weather-symbols.png
+   :align: center
+   :alt: Yr's weather symbols
+
+**Some last notes**
+
+If I would have paid more attention, I would have seen in the XML file::
+
+	<sun rise="2012-12-21T08:03:58" set="2012-12-21T15:53:39"/>
+
+which means I wouldn't have had to calculate the sunrise and sunset.
+
+I would also have seen the ``var="mf/01n.26"`` part of::
+
+      <time from="2012-12-21T16:00:00" to="2012-12-21T17:00:00">
+        <symbol number="1" name="Fair" var="mf/01n.26" />
+
+which means I wouldn't have to do the ugly trick to create the correct symbol
+in the first place… Of course, this article wouldn't have been as nearly as
+interesting then.
+
+**Happy Southern Solstice!**
+
+
+.. credit::
+   :Type: Weather forecast
+   :Description: Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute and the NRK
+   :Link: http://www.yr.no/place/United_Kingdom/England/London/
+
+.. credit::
+   :Type: Images
+   :Description: Weather symbols from yr.no
+   :Link: http://om.yr.no/forklaring/symbol/
+
+.. _`Raspberry PI`: http://www.raspberrypi.org/
+.. _free: http://om.yr.no/verdata/free-weather-data/
+.. _`XML file`: http://www.yr.no/place/United_Kingdom/England/London/forecast_hour_by_hour.xml
+.. _symbols: http://om.yr.no/forklaring/symbol/
+.. _`Olson timezone ID`: http://en.wikipedia.org/wiki/IANA_time_zone_database#Names_of_time_zones
+.. _`date_sun_info()`: http://php.net/manual/en/function.date-sun-info.php
+.. _`Unix timestamp`: http://en.wikipedia.org/wiki/Unix_timestamp
+.. _solstices: http://en.wikipedia.org/wiki/Solstice
+.. _twilight: http://en.wikipedia.org/wiki/Twilight
