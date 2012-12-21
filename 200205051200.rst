@@ -1,0 +1,27 @@
+Moving
+======
+
+.. articleMetaData::
+   :Where: Groessen, The Netherlands
+
+Moving, it's not my favorite hobby but you will almost always move to a better
+location. This weekend we decided to move to our new office, with a *lot*
+more space. No more crowded office, annoying people and parking problems.
+Finally some lebensraum for ourselves. Now you might wonder why I used this
+old german propaganda term, and that's because it's 'Liberation Day' in the
+Netherlands today. We celebrate the end of the German occupation, and ofcourse
+that means party!
+
+Anyway, beside the fun parts of moving, there are also drawbacks. These are
+mostly caused by other third parties, such as the company who installs your
+network and internet. They made a nice patchpanel for us, but they numbered
+the jacks wrong.. grrr. Anyway, they can fix it on monday. And they also need
+to fix the internet connection for us. We got a nice NATted line now, and that
+doesn't help much when you want a VPN from home to your office network.
+
+I now going into heavy partying, take care!
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`PHP 4.2.1RC2`: http://www.php.net/~derick/
+

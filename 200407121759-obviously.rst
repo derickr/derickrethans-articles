@@ -1,0 +1,17 @@
+Obviously...
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040712 1759 CEST
+   :Tags: 
+
+While listening to Michael Schumachers `press conference`_ at the end of the race at Silverstone, it became
+obvious that he uses the word obviously very often. Obviously that
+sounds rather weird, and obviously here is atleast somebody who
+needs to blog this. Yesterday he only used it 9 times though,
+obviously a mistake :)
+
+
+.. _`press conference`: http://f1.racing-live.com/en/headlines/news/detail/040711185205.shtml
+

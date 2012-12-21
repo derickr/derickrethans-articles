@@ -1,0 +1,25 @@
+Input Filter
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050815 1658 CEST
+   :Tags: cms, php, work
+
+With the extreme amount of security holes in PHP applications it looks
+like PHP is too blame. I don't agree with that statement as it's always
+up to the developers of those `Great Project`_ to write solid applications, not PHP.
+
+This does not mean that PHP can't offer better functionality to allow
+users deal with input parameters more safely. Point #3 of `Rasmus' PHP 6 Wishlist`_ is a filter extension to replace the arcane input
+handling functionality that is in PHP now. Although it's very flexible,
+using input validation is still a fine art. With input from many others,
+I wrote an RFC for the filter extension, which you can find online `here`_ .
+We will also be using this in a library component for eZ publish, as
+part of our Component library.
+
+
+.. _`Great Project`: http://netevil.org/node.php?uuid=42ff5c39-1409-3198-2704-2ff5c392504c
+.. _`Rasmus' PHP 6 Wishlist`: http://news.php.net/php.internals/17883
+.. _`here`: http://files.derickrethans.nl/filter_extension.html
+

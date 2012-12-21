@@ -1,0 +1,32 @@
+PHP 4.4.0 Released!
+===================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050711 2218 CEST
+   :Tags: cms, php, work
+
+Today I spend some time finalizing and releasing PHP 4.4.0, which
+address major memory corruption problems with returning references from
+functions. This should fix plenty of weird crashes in larger
+applications, such as `eZ publish`_ . The
+full release announcement is:
+
+The PHP Development Team would like to announce the immediate release of
+PHP 4.4.0. This is a maintenance release that addresses a serious memory
+corruption problem within PHP concerning references. If references were
+used in a wrong way, PHP would often create memory corruptions which
+would not always surface and be visible. The increased middle digit was
+required because the fix that corrected the problem with references
+changed PHP's internal API. PHP 4.4.0 does not have any new features,
+and is solely a bugfix release.
+
+A separate release announcement is also available. For changes in PHP
+4.4.0 since PHP 4.3.11, please consult the `PHP 4 ChangeLog`_ .
+You can download PHP 4.4.0 from `this URL`_ .
+
+
+.. _`eZ publish`: http://ez.no
+.. _`PHP 4 ChangeLog`: http://www.php.net/ChangeLog-4.php#4.4.0
+.. _`this URL`: http://www.php.net/downloads.php#v4
+

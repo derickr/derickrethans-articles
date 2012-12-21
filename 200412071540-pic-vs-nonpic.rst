@@ -1,0 +1,18 @@
+PIC vs. non-PIC
+===============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20041207 1540 CET
+   :Tags: php, work, cms
+
+While trying to figure out some scientific benchmarks about the
+performance of a statically compiled PHP module (non-PIC) versus a
+dynamically compiled PHP module (PIC), I luckily found some `information`_ on `George's Schlossnagles`_ blog. In order to preserve some data I copied
+his `raw data`_ .
+
+
+.. _`information`: http://www.schlossnagle.com/~george/blog/archives/241_The_DSO_Myth_Part_2.html
+.. _`George's Schlossnagles`: http://www.schlossnagle.com/~george/blog/
+.. _`raw data`: http://derickrethans.nl/files/stats2
+

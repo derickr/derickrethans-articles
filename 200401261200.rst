@@ -1,0 +1,69 @@
+Two baked potatoes to take-out please
+=====================================
+
+.. articleMetaData::
+   :Where: Vancouver, Canada
+
+.. image:: http://photos.derickrethans.nl/album/vancouver04/aab.thumb.jpg
+
+In the past week I've
+been in Vancouver to attend and speak at this conference. On tuesday January
+20th I left from Amsterdam airport to Vancouver, with a stop over in London.
+It wasn't even a normal stop over as I had to transit between London Gatwick
+and London Heathrow by a 1.5 hour coach trip. At Heathrow I had to wait a while
+before I got to know my gate, for some reason they only announce that 30 minutes
+before they start boarding the plane. When I finally got to the gate the stupid
+fire alarm went and they cleared a large part of the terminal... for no reason
+as it ended up being a false-alarm.
+
+The trip to Vancouver itself went pretty smooth and arriving at the hotel by
+taxi I went to visit `TechVibes`_ with
+Shane and Peter to kill the time until bed. The next day I took some time to
+finish my first presentation on `Playing Safe`_ and with the
+already arrived people we went to diner. The presentation went well, albeit I
+could have added some better real-life examples on how to use encryption and
+the rest of the day I spend on improving the mcrypt extension API, at the
+moment it's really horribly with really long function names. Of course, I 
+could have spend my time better at writing the second presentation.
+
+.. image:: http://photos.derickrethans.nl/album/vancouver04/aca.thumb.jpg
+
+In `Writing an Extension`_
+I did a live demo of writing an extension, without knowing much about the
+library I was going to wrap, libident. 90 minutes were to short to make things
+actually work, but one of the attendees came to me at the end and said that
+
+by doing a life demo he got a real feeling on how it is to write a (sample)
+extension. Other people also said the found the session practically useful.
+Dinner with all the speakers was held at a 'Samba' place with a Rendizio, a
+'all-you-can-eat' style grill diner accompanied with music and dancing.
+
+
+.. image:: http://photos.derickrethans.nl/album/vancouver04/ack.thumb.jpg
+
+The saterday was spend on a walking tour with Damien through the city. Starting
+from the hotel we walked and took an aquabus to Granville Island to have a look
+at the numerous galleries and art shops. Not finding anything really useful
+there we only bought bread, wine and Vacherin cheese to bring to the party
+at Shane's later that night. From Granville Island we then continued to Stanley
+Park, the green heart of Vancouver. It was pleasent weather and not too cold.
+We did take a short cut through the park in order to be back in time at the
+hotel and leave for the party.
+
+.. image:: http://photos.derickrethans.nl/album/vancouver04/ada.thumb.jpg
+
+Of course the party featured Beth's famous
+Margerita's and all of the PHP People seemed to enjoy themselves. Some people,
+like `John`_ took the drinking of the
+margeritas a little bit too serious though ;-) as the next morning he forgot
+to wake up and thus miss his plane home. But he wasn't the only one affected
+by the contents of the glasses and thus we went to find some baked potatoes,
+which is said to be a hang-over killer. On the waiters question 'Why do you
+want 2 baked potatoes at 3pm?' we just smiled and answered 'Because we bought
+80 limes yesterday'.
+
+.. _`TechVibes`: http://www.techvibes.com
+.. _`Playing Safe`: http://www.derickrethans.nl/.../talk.php
+.. _`Writing an Extension`: http://www.derickrethans.nl/.../talk.php
+.. _`John`: http://coggeshall.org
+

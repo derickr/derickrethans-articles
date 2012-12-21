@@ -1,0 +1,21 @@
+DST sucks
+=========
+
+.. articleMetaData::
+   :Where: Amsterdam, the Netherlands
+   :Date: 20050327 1009 CEST
+   :Tags: work, php
+
+I don't get why people invented DST (Daylight Savings Time, also called Summer Time). It's quite annoying
+and it seems I have to deal with it TWICE in spring this year. That's because I'm currently on my way to
+Montréal for the `PHP Québec`_ conference where I will
+be talking on Encryption and Data Security.
+
+Already tired from the `Skiing trip to Vrådal`_ of the past few days I
+now had to get up an hour earlier than the already early wake up time of 4.30am. Does not make me happy, and
+because North America (including Canada) switch to DST *next* week, I'll have an hour less sleep there too.
+
+
+.. _`PHP Québec`: http://conf.phpquebec.com/en/conf2005/
+.. _`Skiing trip to Vrådal`: /skiing_in_vraadal.php
+

@@ -1,0 +1,27 @@
+Back to Normal
+==============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20060626 2350 CEST
+   :Tags: cms, conference, travel, work
+
+The last week has been a bit crazy because of the `eZ publish`_ conference. The whole week was packed with all kinds of
+activities.
+
+Now that life returned to normal busyness I managed to recover my photos
+from New York. (I wiped them off my memory card... which is not smart).
+The photos from the New York trip are `here`_ .
+
+During last week there were several different events as well. On Tuesday
+we had a crew day where I for the first time met *all* of my
+collegues. And the last weekend there was `PHP Vikinger`_ - an unconference
+about PHP related things.
+
+All events were very succesful. Photos can be found `here`_ .
+
+
+.. _`eZ publish`: http://ez.no/company/events/ez_publish_conference_2006
+.. _`here`: http://photos.derickrethans.nl/ezconf2006
+.. _`PHP Vikinger`: http://phpvikinger.org/
+

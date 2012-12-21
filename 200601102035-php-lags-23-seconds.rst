@@ -1,0 +1,59 @@
+PHP lags 23 seconds
+===================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20060110 2035 CET
+   :Tags: cms, php, datetime
+
+Bug report # `35958`_ must have
+the most obscure one ever:
+
+"strftime usually returns a string from the number of seconds since
+1 jan 1970. Now, it lags and returns a string representing 23 seconds
+too late."
+
+If you know what's going on though, it isn't really that weird. Every
+once in a while the `IERS`_ announces a new `leap second`_ to
+"keep the broadcast standards for time of day close to `mean solar time`_ ". At the moment the difference is 23 seconds which is
+reflected in comparing the leap second adjusted time zone information
+file with the non-adjusted one. You can see the leap second with this
+little shell script:
+
+::
+
+	#!/bin/bash
+	export TZ=Europe/Amsterdam
+	date --date "@1136073621"
+	date --date "@1136073622"
+	date --date "@1136073623"
+	export TZ=right/Europe/Amsterdam
+	date --date "@1136073621"
+	date --date "@1136073622"
+	date --date "@1136073623"
+
+The output is:
+
+::
+
+	Sun Jan  1 01:00:21 CET 2006
+	Sun Jan  1 01:00:22 CET 2006
+	Sun Jan  1 01:00:23 CET 2006
+	Sun Jan  1 00:59:59 CET 2006
+	Sun Jan  1 00:59:60 CET 2006
+	Sun Jan  1 01:00:00 CET 2006
+
+The output with the "right/Europe/Amsterdam" timezone is
+actually the correct time, but this will obviously confused too many
+computer programs. Most often you will not see this one in use.
+
+The new date/time code in PHP 5.1 does not support the leap second
+either. I was playing with it while developing, but thought it to be to
+confusing. Seems I was right there :)
+
+
+.. _`35958`: http://bugs.php.net/35958
+.. _`IERS`: http://en.wikipedia.org/wiki/International_Earth_Rotation_and_Reference_Systems_Service
+.. _`leap second`: http://en.wikipedia.org/wiki/Leap_second
+.. _`mean solar time`: http://en.wikipedia.org/wiki/Mean_solar_time
+

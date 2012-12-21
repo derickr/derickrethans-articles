@@ -1,0 +1,15 @@
+New Year
+========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20050101 1430 CET
+   :Tags: php
+
+.. image:: /images/content/new-year.jpg
+   :align: center
+
+All the best for 2005!
+
+
+

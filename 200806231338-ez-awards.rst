@@ -1,0 +1,31 @@
+eZ Awards
+=========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20080623 1338 CEST
+   :Tags: blog, cms, php, work
+
+.. image:: /images/content/ezc-logo.png
+   :align: center
+
+Last Thursday, during the `Open Nordic Conference 2008`_  `eZ Systems`_ handed out its annual awards again. For the `eZ Components`_ award, there were
+four nominees, which are all recognised for their support of the eZ
+Components project.
+
+The nominees were *Stefan Marr and Falko Menge:* for the work on
+the upcoming Extended Reflection component, *James Pic:* for the
+work on the upcoming MVC additions, *Andreas Schamberger:* for
+contributions to the `Template and Translation tie-in`_ functionality, and *Freddie
+Witherden:* for the contribution of SVG font support in the `Graph`_ component.
+
+This year's eZ Components award has been awarded to *James Pic* ,
+congratulations!
+
+
+.. _`Open Nordic Conference 2008`: http://conference.ez.no/
+.. _`eZ Systems`: http://ez.no
+.. _`eZ Components`: http://ezcomponents.org
+.. _`Template and Translation tie-in`: http://ezcomponents.org/docs/api/latest/introduction_Template.html#translations
+.. _`Graph`: http://ezcomponents.org/s/Graph
+

@@ -1,0 +1,33 @@
+PHP Québec 2005
+===============
+
+.. articleMetaData::
+   :Where: Montréal, Canada
+   :Date: 20050412 0047 CEST
+   :Tags: conference, php, travel, work
+
+It has already been a week since I got back from the `PHP Québec`_ conference. I am
+simply too busy to keep my blog updated.
+
+The conference was - just like previous years - well organized and I
+think that attendees got a versatile program to chose from. Before the
+conference `Marcus`_ and I went
+on a two day skiing trip to Monte Sainte Anne. The skiing area is pretty
+large there with more than 50 pistes. We were at the end of the season
+which means that the pistes were quite empty too and the sun was shining
+well - which makes for excellent skiing although the snow was a bit slow
+due to the sun.
+
+The way back from Montréal was long, and I had a one and a half hour
+delay when leaving because first the wrong luggage was loaded into the
+plane, second because the correctly loaded luggage made the plane
+off-balanced and third because we had a "medical emergency".
+We were about 40 minutes late in Amsterdam where I had to wait another 6
+hours for my connecting flight to `Torp/Sandefjord`_ . I was pretty happy when I
+got home finally after 18 hours of travel.
+
+
+.. _`PHP Québec`: http://conf.phpquebec.com
+.. _`Marcus`: http://marcus-boerger.de
+.. _`Torp/Sandefjord`: http://torp.no
+

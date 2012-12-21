@@ -1,0 +1,48 @@
+Users vs. Developers
+====================
+
+.. articleMetaData::
+   :Where: Arnhem, The Netherlands
+
+*Users, they are both to love and to hate. Developers, they are to love and
+to hate.*
+
+As developer you have to deal with users, that's quite normal (unless you
+work for MicroSoft). Users can be very persuasive in annoying you. For example
+telling you that all you, as developer of an Open Source project, did is
+wrong. Mostly they have some point about the technical issues, but the tone
+with which their ideas are totally insane. For instance Mr M.L. from Brazil.
+Mr M likes to bitch about his own great project by plugging it in every
+possible way. His ideas about the project you are working on are of course
+always right and yours are never right. But he forgets that it is an Open
+Source project, on which alot of developers have their own ideas about. The
+most annoying thing is that Mr M doesn't do anything to fix things, he
+only bitches.
+
+Users can also bring pleasure, sometimes physical (Sterling's dancing girls
+for instance), but mostly emotional. For instance telling them they like the
+project or the things you are doing to help them or the project. Most developers
+need this kind of rewards to stay motivated, atleast it helps me to stay
+motivated. 
+
+As user you have to deal with developers. For the most time developers can
+be real pricks, deciding for you what is right or wrong. But face it, it's them
+who actually build your open source tool, and don't get paid *shit* for
+it. So if you want them to do something for you, you need to play it friendly.
+If you play it friendly, you will see that developers are friendly to you, and
+that they even might implement your function request, or help you solve a
+problem you have.
+
+As developer you have to deal with fellow developers. Mostly its great fun to
+talk with other developers about your project. Sometime the fights between
+developers are heavier than fights between users. It's fun to wave with RFCs,
+but not very constructive. Thank god these fights dont happen that often,
+the biggest piece of Open Source developing is just fun, fun, and more fun.
+
+With these last thought I conclude my ranting on users and developers, see 
+you next time
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`PHP 4.2.1RC1`: http://www.php.net/~derick/
+

@@ -1,0 +1,15 @@
+php|works 2006 slides
+=====================
+
+.. articleMetaData::
+   :Where: Toronto, Canada
+   :Date: 20060915 1704 CEST
+   :Tags: conference, php, travel, work
+
+Just a quick post to announce the availability of my `php|works`_ slides. You can find
+them on the `talks page`_ .
+
+
+.. _`php|works`: http://phparch.com/phpworks
+.. _`talks page`: /talks.php
+

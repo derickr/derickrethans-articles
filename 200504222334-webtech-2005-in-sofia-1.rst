@@ -1,0 +1,37 @@
+Webtech 2005 in Sofia (1)
+=========================
+
+.. articleMetaData::
+   :Where: Sofia, Bulgaria
+   :Date: 20050422 2334 EEST
+   :Tags: conference, php, travel, work
+
+Sofia is an interesting city. Unlike Budapest in Hungary it does not seem to have fully recovered from the
+communist area - the whole city seems to be in scaffolding still. The conference is well
+organised and our hosts, Bogomil, Kristina and Boyan are very friendly. After my session on SRM, we
+wanted `to see something of the city`_ and they were very pleased to come
+with us.
+
+Sofia is pretty nice, but it also has it's
+shabby sides. On our way from hotel Medic to the conference area it was pretty hard to miss the shelterless
+people looking for food in the trashcans. The conference area itself is huge, there where atleast 400 people
+in there for Richard Stallmans (repeated from FOSDEM) talk on Copyright and the "Information Age". For my
+talk on `SRM`_ and `eZ publish`_ there where less people - about 250 - but they did ask questions and they seemed guininely interested.
+
+For dinner
+we want to "The Parrot" and had food and some wine - a really nice social event with some of the organisers,
+the folks from `Maguma`_ (Alexander and Landon) and some other people.
+Stallman was already gone - too bad Bogomil still didn't tell us the "Stallman-story". But the
+"Alexander-story" was interesting too: he was denied access to the country after he tried to get into the
+country with his Italian ID card, because his passport was expired (3 years ago) - at the end he did manage
+to get into the country though on a provisional passport.
+
+And the end of the day I also made some shots of `the Moon in conjunction with Jupiter`_ .
+
+
+.. _`to see something of the city`: /sofia_pictures.php
+.. _`SRM`: http://derickrethans.nl/projects.html#srm
+.. _`eZ publish`: http://ez.no
+.. _`Maguma`: http://maguma.com
+.. _`the Moon in conjunction with Jupiter`: /moon_and_jupiter_conjunction.php
+

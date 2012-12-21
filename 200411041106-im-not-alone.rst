@@ -1,0 +1,18 @@
+I'm not alone!
+==============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20041104 1106 CET
+   :Tags: php, politics
+
+Apparently somebody at CNN doesn't like the guy either...
+
+.. image:: /images/content/bush.jpg
+   :align: center
+   :target: http://photos.derickrethans.nl/fun/aay?full=1
+
+(Click image for full screenshot)
+
+
+

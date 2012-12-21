@@ -1,0 +1,12 @@
+SRM Wiki
+========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050616 1648 CEST
+   :Tags: php, work
+
+One of the SRM users, Aric, set up a wiki for SRM documentation. It is
+quite empty right now, but it would be a nice place to quickly update
+documentation. When the DNS updates, the wiki's address will be wiki.vl-srm.net.
+

@@ -1,0 +1,21 @@
+I'm still here :)
+=================
+
+.. articleMetaData::
+   :Where: Vancouver, Canada
+   :Date: 20040121 1041 PST
+   :Tags: 
+
+It has been a while since the last blurp, have been busy getting to know my
+collegues at `eZ Systems`_ the last two weeks in Norway.
+
+I'm currently not home either, but attending the `Vancouver PHP Conference`_ where I'll be speaking on the Mcrypt extension, and on "How to
+write an extension". The trip here was a bit eventfull, as on
+Heathrow they had to clear about the whole terminal because of a
+firealarm. Anyway, with one and a half hour delay we left and made
+it in Vancouver about 20 mins late. It was a looong flight though.
+
+
+.. _`eZ Systems`: http://ez.no
+.. _`Vancouver PHP Conference`: http://vancouver.php.net
+

@@ -1,0 +1,185 @@
+East Coast USA and Canada
+=========================
+
+.. articleMetaData::
+   :Where: Baltimore, MD, USA
+
+Yeah yeah, finally a small vacation for me. I really needed it for numerous
+reasons (some people will understand this, believe me). Because of the lagging
+updates on the website I decided to write down a journal of the trip. Welcome
+to the world of crazy truckdrivers, homeland security and Quebecan
+anti-americanism.
+
+The whole trip started on the 16th of March, when `Jan`_ and I left for
+`Schiphol Airport`_ in the early morning. Being there two hours before our
+flight was more than enough, as we hardly needed to wait at all. The electronic
+ticket we were issued was really fast, no hassle with 'blonde' people at
+counters or such. The flight itself was long and boring, but that's the case
+with every cross-Atlantic flight I guess. From 10km high we could see New York
+and the statue of liberty, which was kinda cool. The only thing that annoyed me
+that our first leg was going to Atlanta which is 2 hours further than
+Baltimore, but on exactly the same course. So we needed to have another 2 hour
+flight back to get to Baltimore. Atlanta itself gave some problems too, after
+`Jan`_ got through immigration the system broke down, and I had to wait 20 mins
+for nothing, which was highly annoying. The good thing is that they let us in
+:).  At the airport in Baltimore `Dan`_ was supposed to pick us up, along with
+his sister Dana and a friend of hers. They forgot though that the last leg was
+a national flight, and not an international flight, so they ended up waiting
+for 30 mins at the international terminal, and we at the Domestic terminal. At
+last `Dan`_ came looking for us and we headed towards Baltimore.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/aaa.thumb.jpg
+
+The next day `Jan`_, Dana and I went to DC, to play for tourist. After a 45
+minute drive we got onto the MARC towards DC, where we started to look for the
+Washington Mall. We asked a fence guard for the way there, and the man summed
+it all up very quickly, as if he explained it atleast a few dozen times, which
+is likely to be true anyway :).  The Washington Mall is a place with a lot of
+museums around a small park with on one end the Capitol, and on the otherside
+the Washington monument.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/aad.thumb.jpg
+
+We decided to visit the Air & Space museum, as that was supposed the only one
+to be open. After about two hours in there we headed out to see the `White
+House`_, but not until after we had a look at the minerals and gems in the
+Natural History museum. Visiting the White House was harder than we thought as
+some weird guy drove a truck full (as he said) of explosives. A friendly copper
+explained that this whole event started earlier in the morning, and that the
+bottom line was that the guy didn't agree with the way tobacco farmers were
+treated. Disappointed by this event we headed back to Baltimore for a dinner at
+a Mexican restaurant with the 5 of us. After dinner we listened in the car to
+`Bush' statement`_ to the country, including the 48hour ultimatum. For me it
+was kinda weird to hear it 'live' in between Americans.  Still, everybody has
+it's own thoughts on the whole Iraq situation, but that's something not for
+this entry.  In the evening the plan was to celebrate `St. Patrick's Day`_ in
+full style, but unfortunately I was simply too tired for it.
+
+After a good rest the jetlag was almost gone, not much happened at all that
+day except we had a nice meal at a Thai restaurant. The original plan was to
+leave this Tuesday for Montreal, and stay the night some where, but we decided
+to do the trip in one day.
+
+After having lunch (bagels) we headed out for Montreal, the weather was pretty
+smooth and we made good progress. While driving through New Jersey all the
+electronical road signs were showing some text telling us to report all kinds
+of suspect activity, whatever that may mean. This was one of the signs that
+America was at war and the hightened terrorist attack level. In the
+Adirondacks, close to the border with Canada we stopped for a while to enjoy
+the snow.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/aap.thumb.jpg
+
+The border wasn't that much of a challenge either, except that they
+asked us to go inside and go through customs. For some reason they wanted to
+have a closer look at our passport, most likely because we weren't all
+Americans. At about 19.00 we arrived at hotel Seguy, where we were greeted by
+Damien and his wife Celine.  After a small supper we went to pick up Rasmus at
+the Montreal airport and dumped him at his hotel. Back at Damien's we went
+straight for bed, as the next day would start early.
+
+After a short night we headed off to the Ecole Polytechnique again, where we
+were attending the `conference`_ was held. While
+waiting for a traffic light a Quebecan summoned us to open the window, as if he
+wanted to ask us something. The question was if we were Americans (we were
+driving in Dan's car) and my answer was that I was not from the USA, so the
+Canadian started talking about how Dutchies like Canadians and Canadians like
+Dutchies. After that statement he threw another one, more specific at Dan: 'But
+we certainly don't like Americans over here'. I was kinda surprised by this
+statement, and all Dan could say was 'thanks to you too'. For some reason there
+are still people who think that all inhabitants of a country think like their
+government, or even that all Americans are evil.  At the conference I started
+finishing my slides, as my presentation would be the next day. There was plenty
+of time for it as most of the technical talks were done by fellow PHPers
+(Rasmus, `Andrei`_, Ilia and Zak) and I heard most of it before.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/aaq.thumb.jpg
+
+The organisers of the conference planned a dinner for the night, and a typical
+BYOW restaurant, which stands for 'Bring Your Own Wine'. We bought some wine,
+beer and Margarita at a local store and headed for the restaurant.  We were
+early so we started on the wine, the first bottle was gone by the time the
+other people arrived. Of course the whole menu was in French, so picking the
+food of choice was tricky, but by translations of our table guests we made our
+choices. The food tasted really good, and so did the wine :-) By the time the
+dinner was over the most attendees were in some state of drunkeness, including
+myself.
+
+Driving through Montreal is a whole story apart. Traffic is close to that in
+Paris, and having a Parisian driving doesn't make it less adventurous. In the
+car I did the last finishing touch on my presentation which was at 9am.  I was
+not totally happy with it, as I had a little bit too less material for the
+session itself. Fortunately there were some people interested and starting
+asking questions. I blew one of the answers by telling that `SRM`_ is 'stable
+to play with', which would suggest that SRM at the moment is not interesting at
+all. Something to remember for next times. For dinner we went to the Sushi bar
+Soto, 500 McGill st., as Zak suggested. Although the Sushi was great, the
+bill was not. The final damage was 1800 CAD, which is about 1200 USD/Euro and
+that was only for 16 people. Some of the Quebecians even consulted a lawyer on
+this, as the price was much higher as 16 times the most expensive item on the
+menu. After the bickering stopped Philippe brought us to 'les deux Pierrots', a
+typical local 'club' with lots of weird local entertainment. I didn't stay long
+as I felt sick, and went home with Damien to crash early.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/aau.thumb.jpg
+
+The Saturday was reversed for a visit to a Maple Sugar Shack,
+which is a place to enjoy a historical Quenbecan lunch/dinner, including some
+entertainment.  It was weird to hear Dutch there, but apperently one of the
+people working there emigrated to Canada in the late 50s. Remarkable she spoke
+Dutch quite well, although with a heavy accent. After visiting the fog machine
+we headed back home in order to prepare for dinner, which we had in a small
+cosy restaurant with a few `PHP`_ people.
+
+A crepe contest had place at hotel Seguy on Sunday morning, in which Dan,
+`Jan`_ and I competed. As I was the first to flip a crepe, I consider myself
+winner. After the breakfest we had of to New York City, to visit `Sterling`_
+and crash there for the night. The border security was a joke, within 3 minutes
+we were through it, after some army dude checked our luggage. At about 6pm we
+arrived at Sterlings place in Mamaroneck, NY. We had a real BBQ meal in a local
+restaurant which has 'the best ribs in the world'.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/abb.thumb.jpg
+
+On Monday Sterling took us on a tour through `New York`_.  We started by train
+from Mamaroneck to the Grand Station and went to look for Times Square.
+Sterling got lost after no less then 5 minutes but after consulting some fellow
+New Yorkers we managed our way there, also checking out Rockefeller Center in
+the meanwhile. The next main attraction was the Empire State building, since
+9/11 the highest building in NYC. From there we looked out over the whole city,
+and the things that miss now. There were not many people up there, perhaps
+because the people were afraid of another terrorist attack, especially now
+during the ongoing war with Iraq. After that we went looking for some hotdog
+vendors, one of the symbols of the city, and after having found one, and having
+indulged in the great 'dog' we headed for Central Park to rest and chill out.
+After having relaxed for a few minutes we headed back to `Sterling`_ s place by
+metro and train in order to leave in time for Baltimore. We departed at about 6
+after having said goodbye, and after having collected a large amount of food
+for our trip from Sterling's mom. The trip 'home' went smooth and we arrived at
+about 10pm, just in time for going to bed.
+
+.. image:: http://photos.derickrethans.nl/album/usacanada/abg.thumb.jpg
+
+Flying out of Baltimore gave no problems either, but I guess the people at the
+security booth don't ever dare to ask me to take of my shoes anymore :-).
+Another strange thing is that there were two 'moons' as Jan said it, but one
+happened to be our right wing tail light... and I was wondering why the moon
+looked so small and strange :-)
+
+So far the journal of the trip to the US, the final conclusion is that 'It
+rocked', and too bad that work starts again tomorrow.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Jan`: http://dahlia.dasmoped.net/
+.. _`Schiphol Airport`: www.schiphol.nl
+.. _`Dan`: http://www.deadmime.org/~dank/
+.. _`White House`: http://www.whitehouse.gov
+.. _`Bush' statement`: http://www.whitehouse.gov/news/releases/2003/03/20030317-7.html
+.. _`St. Patrick's Day`: http://wilstar.com/holidays/patrick.htm
+.. _`conference`: http://phpconf.phpquebec.com/?langue=en
+.. _`Andrei`: http://www.gravitonic.com
+.. _`SRM`: http://derickrethans.nl/projects.html#srm
+.. _`Sterling`: http://blog.edwardbear.org/
+.. _`New York`: http://www.newyork.com/
+

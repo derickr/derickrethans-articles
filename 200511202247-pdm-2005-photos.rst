@@ -1,0 +1,29 @@
+PDM 2005 photos
+===============
+
+.. articleMetaData::
+   :Where: Paris, France
+   :Date: 20051120 2247 CET
+   :Tags: conference, photography, php, travel
+
+.. image:: /images/content/eiffel.png
+   :align: left
+
+Last
+weekend we had a PHP developers meeting in Paris to discuss PHP 6.
+(More about that later). Ofcourse when you're in Paris you need to see
+some of the sights. Together with `Marcus`_ , `Andrei`_ and Jani we toured the famous
+landmarks in Paris. On the left you can see `the Eiffel Tour`_ and below the `Arc de Triomphe`_ .
+
+.. image:: /images/content/arc-de-triomphe.png
+   :align: center
+
+The other pictures can be found in my `gallery`_ .
+
+
+.. _`Marcus`: http://marcus-boerger.de
+.. _`Andrei`: http://gravitonic.com
+.. _`the Eiffel Tour`: http://en.wikipedia.org/wiki/Eiffel_Tower
+.. _`Arc de Triomphe`: http://en.wikipedia.org/wiki/Arc_de_Triomphe
+.. _`gallery`: http://photos.derickrethans.nl/pdm2005
+

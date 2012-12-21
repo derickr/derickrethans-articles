@@ -1,0 +1,13 @@
+Snowy Sunset
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20070203 1755 CET
+   :Tags: photography
+
+.. image:: /images/content/snow-sunset.jpg
+   :align: center
+
+
+

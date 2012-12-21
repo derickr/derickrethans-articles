@@ -1,0 +1,151 @@
+QuickHash extension
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-01-04 09:04 Europe/London
+   :Tags: blog, php, extensions
+   :Short: quickhash
+
+One of the first extensions that I worked on when I started_ working for
+myself a little less than two years ago was the QuickHash_ extension.
+StumbleUpon_ asked me to look for a way to store, retrieve and tests against
+large amounts of integers in a more performing way than PHP natively can do
+with its array functions.
+
+The data structures that they use include an integer set (QuickHashIntSet_),
+an integer hash with integer values (QuickHashIntHash_), and an integer hash
+with string values (QuickHashIntStringHash_) and a string hash with integer values
+(QuickHashStringIntHash_). Each of the data structures can be assembled through
+the QuickHash as well as loaded from disk and written to disk.
+
+This is all quite possible to do with the array structure (and
+serialize/unserialize) in PHP. However, storing 500.000 numbers in a PHP array
+takes up 144 MB. That's about 288 bytes per number. The storage for this
+number itself is 8 bytes (on a 64-bit platform) and PHP adds a lot of overhead
+in the form of hash buckets, associated variable information etc.
+
+**Memory Usage**
+
+The QuickHash extension's main advantage is that it uses a lot less memory
+than an implementation with arrays.  Where PHP takes 144 MB for storing
+500.000 numbers, the QuickHashIntSet_ data structure takes up 8.9 MB for the
+same amount of numbers. This is about 16 times less. 
+
+For the QuickHashIntHash_ class, 500.000 integer keys and values take up 11
+MB, where PHP's array implementation takes (again) 144 MB. PHP stays the same
+because it is not possible for an array key to not have a value.
+
+.. _started: /available-for-php-extension-writing.html
+.. _QuickHash: http://github.com/derickr/quickhash
+.. _StumbleUpon: http://stumbleupon.com
+.. _QuickHashIntSet: http://docs.php.net/manual/en/class.quickhashintset.php
+.. _QuickHashIntHash: http://docs.php.net/manual/en/class.quickhashinthash.php
+.. _QuickHashIntStringHash: http://docs.php.net/manual/en/class.quickhashintstringhash.php
+.. _QuickHashStringIntHash: http://docs.php.net/manual/en/class.quickhashstringinthash.php
+
+**Implementation**
+
+The implementation of the hashes inside the extension to PHP's hashes; except
+of course that only 32 bit integers and strings are supported for key and
+value—depending on the class. For integer keys a 4 byte hashing
+algorithm by `Robert Jenkins`_ is used by default.  It can also be
+configured__ to use an alternate hash by Jenkins or a simple modulo hash. The
+default was the fastest and created the least amount of collisions in my
+tests.
+
+For the QuickHashStringIntHash_ class where the keys are a string, the classic
+DJB2_ hashing algorithm is used.
+
+.. _`Robert Jenkins`: http://burtleburtle.net/bob/hash/integer.html
+__ http://docs.php.net/manual/en/class.quickhashintset.php#quickhashintset.constants.hasher-no-hash
+.. _DJB2: http://www.cse.yorku.ca/~oz/hash.html
+
+**Configurable**
+
+The extension's classes are quite configurable. You can for
+example set how many hash buckets it hashing implementation should use. As the
+extension doesn't know your data pattern it is something you need to play
+with. In the following example__/diagram we're loading 1 million integers from a
+file with a specific format into the extension; each time increasing the hash
+bucket size twofold. For each iteration, the file is loaded 50 times, then
+10000 tests are made whether keys in the index exist. 
+
+Running the script produces the following result (excerpted):
+
+======== =============  =============
+buckets  load time (s)  test time (s)
+======== =============  =============
+64       2.04           12.023
+128      2.11           6.242
+256      2.04           3.248
+512      2.24           1.638
+1024     2.27           0.840
+2048     2.11           0.424
+4096     2.42           0.204
+8192     2.68           0.101
+16384    2.74           0.061
+32768    3.00           0.044
+65536    3.99           0.038
+131072   5.82           0.036
+262144   7.31           0.037
+524288   8.17           0.034
+1048576  8.52           0.033
+======== =============  =============
+
+__ https://raw.github.com/derickr/quickhash/master/tests/bucketlist-size-benchmark.php
+
+
+**File formats**
+
+Another requirement was a fast way to load and save already populated hashes
+and sets. The data structure inside the extension is custom, which means that
+it can also be optimised for fast restoring from a string (or file). Each of
+the four classes has it's own file format. For QuickHashIntSet_ it's simply
+a packed array where every four bytes represents one number of the set. The
+other classes have more complex serialized representations, and also include a
+simple header (``QH<type>``).
+
+The format used for QuickHashIntHash_ serializes each element as a `key/value
+pair`__. The format for QuickHashIntStringHash_ contains a header, a string of
+data containing all the string values concatenated and a `key/index
+pair`__ where each index points into the data block containing all the
+concatenated string data. The serialized format for QuickHashIntStringHash_ is
+the most complex__ and will serialize the "bucket lists" so that the string
+index doesn't have to be hashed while restoring from file.
+
+The file formats are documented in detail on the ``loadFromFile`` method
+documentation for each of the four classes.
+
+__ http://docs.php.net/manual/en/quickhashinthash.loadfromfile.php
+__ http://docs.php.net/manual/en/quickhashintstringhash.loadfromfile.php
+__ http://docs.php.net/manual/en/quickhashstringinthash.loadfromfile.php
+
+**Benchmarks**
+
+Besides the already mentioned reduced memory usage, using the classes in the
+QuickHash extension also provides a faster way of loading a set, and checking
+whether an item is part of a set.
+
+For loading a million items, PHP takes 1.5 seconds, whereas the extension's
+QuickHashIntSet::loadFromFile() takes only 0.05 seconds. The memory usage in
+PHP is 168 MB and when the extension is used, only 16 MB. In a table, that
+looks like:
+
++-------------------------+------------------------+------------------------+
+|                         | Native PHP             | QuickHashIntSet        |
+|                         +===========+============+===========+============+					   
+|                         | time      | mem. usage | time      | mem. usage |
++-------------------------+-----------+------------+-----------+------------+
+| loading 1 million items | 1.90 sec  | 168 MB     | 0.05 sec  | 16 MB      |
++-------------------------+-----------+------------+-----------+------------+
+| testing 15 million items| 4.98 sec  |            | 21.5 sec  |            |
++-------------------------+-----------+------------+-----------+------------+
+
+**Conclusion**
+
+If you are also interested in having some of your PHP code ported into a PHP
+extension in C, please feel free to contact_ me.
+
+.. _contact: /who.html
+

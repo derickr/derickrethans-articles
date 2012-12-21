@@ -1,0 +1,18 @@
+PHP 4.4.6 Released
+==================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20070301 1702 CET
+   :Tags: php
+
+Today PHP 4.4.6 has been released, which addresses an issue that was
+introduced with PHP 4.4.5 unfortunately. This bug causes PHP to segfault
+when sessions are used with register_globals enabled. If you are
+affected by this, please upgrade.
+
+For more information see the `release announcement`_ .
+
+
+.. _`release announcement`: http://www.php.net/releases/4_4_6.php
+

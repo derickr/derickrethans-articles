@@ -1,0 +1,45 @@
+Xdebug 2.1.0 RC1 released
+=========================
+
+.. articleMetaData::
+   :Where: Schiphol, Netherlands
+   :Date: 2010-04-06 15:41 Europe/Amsterdam
+   :Tags: blog, php, cms, xdebug, extensions
+
+As earlier announced in my April Fools' announcement_ and on Xdebug's twitter_
+feed, I'm now releasing Xdebug_ 2.1.0RC1. This is the first Release Candidate
+and it addresses a number of issues_ found in the latest beta. As I usually do
+in release announcements, I will also be introducing a new feature in Xdebug
+2.1 in this one.
+
+In an article_ that I wrote a few months ago, I illustrated a few different
+reasons on why the shut-op operator (``@``) should be avoided. Although there
+are a few cases where it simple can not be avoided if you want to write
+notice-free code, the main reason why this operator should be avoided, is
+because it makes debugging quite a bit more difficult if errors are hidden.
+
+Xdebug is a debugging aid to make debugging easier. So from version 2.1.0
+there is a new configuration setting — ``xdebug.scream`` — that simply
+disables the effects of the ``@`` operator. That means that all errors will be
+shown, of course, still listening to the ``error_reporting`` and
+``display_errors`` settings. This functionality is not a novel thing, and the
+idea was lifted from the PECL scream_ package. However, I think this
+functionality fits in very well with all the other things that Xdebug has to
+offer.
+
+Just to mention it once more, I have no intention of making Xdebug closed
+source. I spend a considerable amount of time in adding new features and
+addressing issues, so I would appreciate it that if consider a donation_ in
+case Xdebug has saved you time and effort in debugging your application. If
+you have comments or suggestions to improve Xdebug, please write to the
+mailinglist_.
+
+
+.. _announcement: http://derickrethans.nl/xdebug-will-cost-money.html
+.. _twitter: http://twitter.com/xdebug/status/11687180290
+.. _Xdebug: http://xdebug.org
+.. _issues: http://xdebug.org/updates.php#x_2_1_0rc1
+.. _article: http://derickrethans.nl/five-reasons-why-the-shutop-operator-should-be-avoided.html
+.. _scream: http://pecl.php.net/scream
+.. _donation: http://xdebug.org/donate.php
+.. _mailinglist: http://xdebug.org/support.php#list

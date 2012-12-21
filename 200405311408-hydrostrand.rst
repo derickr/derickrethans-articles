@@ -1,0 +1,16 @@
+Hydrostrand
+===========
+
+.. articleMetaData::
+   :Where: Bamble, Norway
+   :Date: 20040531 1408 CEST
+   :Tags: work, nature
+
+.. image:: /images/content/hydrostrand.jpg
+   :align: center
+
+In this longer weekend I was invited to join Bård and Alexander at a cabin close to the sea.
+It was a really nice trip, although the weather was kinda sucky.more
+
+
+

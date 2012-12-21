@@ -1,0 +1,16 @@
+Reply-all
+=========
+
+.. articleMetaData::
+   :Where: Groessen, the Netherlands
+   :Date: 20031209 1124 
+   :Tags: 
+
+It seems that it is still hard to work with email programs. I do
+not understand why it is so hard to use "reply-all" (standard in
+most sane mail clients) when discussing things on a public
+mailinglist such as PHP's. Although I reply to mails directed at
+webmaster@php.net, that doesn't mean I'm the only one...
+
+
+

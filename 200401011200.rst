@@ -1,0 +1,309 @@
+PHP Look Back 2003
+==================
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+Happy New Year!
+
+By popular demand here is the PHP Look Back 2003. Just like last year I look
+back at the most interesting (and sometimes funny) happenings on the PHP
+mailinglist. I decided not to do any of the PEAR lists as I'm just not involved
+in that. If you want a look back on PEAR, feel free to bug the `PEAR People`_;
+I'm sure they will be happy to write one too ;-). As a small disclaimer: This
+might not always be a totally objective look back, as this is not an official
+thing. For now, have fun; we start in January.
+
+January: The new year started by a message by `Wez`_ to bring up the issue of
+switched by default to Zend Engine 2 for the HEAD branch (still 4.4 at that
+time). Not totally unexpected the idea of moving all extensions to PECL also
+came up but fortunately the thread was small enough. Only a day later on the
+2nd the Netware dudes `had some trouble`_ with the whole PHP build process
+again. `Nicos`_ thinks he found a big bug, on which Sterling has to say `'Its
+about as much of a bug as passing filetype(null) isn't a bug.'`_. We'll hear
+more of this Nicos fellow later this year. The discussion on the `CGI and CLI
+proposal`_ continued and the result was that for Unix if both SAPIs are built
+only the CGI version would have been installed, and on Windows there would be a
+new 'cli/' subdirectory to contain the new php.exe CLI executable. On the 13th
+Mike Robinson was asking if `it was possible to use both PHP 4 and  PHP 5 in
+the same webserver`_. Although James was `cooking a patch for it`_ it is still
+not possible because for some reason Apache starts crashing.  The current
+'best' way of doing it is to put the primary version as the webserver module
+and the secondary as CGI version. Some confusion existed by misunderstanding
+that there would be no `more point releases before PHP 5`_, but of course that
+was not the case. The first idea to release 4.3.1 was immediately around too.
+On the 15th Rasmus `announced`_ a request data filter, which is now available
+in the latest PHP 5 versions. This filter makes it possible to write custom
+extensions to enforce policies on the Evil User input.  A week later the first
+person `was asking`_ when PHP 5 would be released about. Of course he got the
+standard answer back but it also made the php5-dev list to `disband`_, still a
+shame if you ask me (and others).
+
+February was pretty boring actually. Except for announcements on `PHP and
+Mono`_, a new `Date extension`_ (Pierre where is it? :), and a new `ext_skel`_
+script by Hartmurt the only 'slightly' interesting discussions were the `hunt
+for`_ `system calls`_ by Rasmus and a `discussion on the`_ `addition of
+file_put_contents()`_. The release process for `PHP 4.3.2`_ started too.
+
+In March Sascha was still `advocating`_ the merging of fixes to the PHP_4
+branch, but other people (like `me`_) thought correctly that it would have been
+useles to do. We had `some`_ `encounters`_ with our friend Jumadi too. In the
+second week the first talk on `SQLite`_ bindings being added to the PHP
+distribution. Nobody really reacted on this though at that time, some `people`_
+even wanted to put it in PECL ;-). Some good work on `64bit`_ `issues`_ was
+done too by David Hill. At some point Jani `got pissed`_ at the huge amounts of
+crap that were posted to php-dev@ . Some of the `developers`_ agree, but
+`others`_ (of course) not. `Although the description`_ on our support page
+cleary says that it is *not* for 'developing WITH PHP' not really many people
+know this apparently. After a longish discussion we changed the name of the
+list to internals@ after finding out that the `MySQL`_ guys did the same. But
+it didn't `really`_ `work`_ :) In March the problems with `namespaces`_ began
+to be `known`_ too. `Andrei`_ implemented that our code parser also parses the
+embedded doc comments, after some problems this is now working fine in PHP 5.
+Sterling `added`_ a standard Exception class, Wez raised an `issue with
+filedescriptors`_ on Slowaris that should be fixed before 4.3.2 is released and
+Andrei `posted`_ an RFC on an reflection API for PHP 5.
+
+April started with a `discussion`_ on how to release binary PECL modules
+through PEAR without having problems with `untrusted modules`_ and a nice one
+on `Coding Standards`_; something that's highly valuable but almost never
+enforced which is a bad thing.  An extra API function safe_emalloc was `added`_
+to guard against integer overflows in allocating memory inside extensions. We
+also discovered that `flex 2.5.31`_ doesn't really work with PHP at all.
+
+In May Sascha posted a `patch`_ to eliminate the use of stdio and replaces it
+with a streams interface and put it `life`_ on `php.net`_ to test it. May also
+featured a flamewar on bundling XML which Sterling did on the `7th`_. Some
+`sane`_ `people`_ `agreed`_ `with`_ `Edin`_ that it should not be bundled, and
+definitely not as source. There were of course also a `couple`_ of stubborn
+people who want it bundled. Fortunately this the crap was removed again and the
+few PHP 5 betas we have work pretty fine without it and it didn't raise that
+much 'problems' by users. This shows that we can safely omit it from the
+distribution. People still `kept`_ asking about a release date for PHP 5 but
+the answer was again `'When it is ready'`_. `Helly`_ started a long thread on
+'exceptions' instead of errors by determining if we were executing in a class
+scope or not.  We stayed with the current way of doing things: errors. We were
+still doubting if `the fd patch`_ should go into 4.3.2. In the end it was
+`reverted`_ and queued for 4.3.3. Not everybody was pleased with this and some
+people even released their own unofficial 'gold' version.
+
+'Broken' support for namespaces was finally `removed`_ in June; after `some
+fuss`_ it looks like it was the best option though. A new `discussion`_ on
+moving all extensions to PECL was started, but 1. PECL doesn't `really work`_
+yet and 2. we still think PECL as `Siberia`_. `PHP 4.3.2RC1 was released`_ on
+the 18th and at that same day Sterling `posted`_ a PHP 5 Beta TODO list. Rasmus
+`raised the issue with the LGPL mbstring mess`_ which should be fixed before we
+release (a beta of) PHP 5. `Moriyoshi`_ promised to fix this issue with some
+new code, which later also seemed to be LGPL :).  `Jumadi`_ was back too. James
+started `messing`_ with the CVS repository which cause quite some `problems`_
+for me and `other developers`_, while non-developers thought `it was a good
+idea`_. Although James `claims`_ he warned us before he never `discussed`_
+anything what and when he was about to mess up the CVS again. Sascha came up
+with a `plan`_ on how to continue from that point. There were some hurdles that
+needed to be fixed, but I think almost nobody agreed with Sterling's `'I'm a
+very strong +1, so long as you are the one who implements this'`_.  Rasmus also
+drew a nice `diagram`_ too ;-). We also `removed`_ our bundled libmysql in PHP
+5, not only because of them changing libmysql to the viral GPL, but also
+because it's 'our policy' not to have any more bundled libs in our CVS. Instead
+we started `bundling SQLite`_ and didn't do what the `PostGreSQL dudes`_ really
+wanted: bundling the PostGreSQL library. At the end of the month `PHP5 Beta 1`_
+was released.
+
+July started with a nice little discussion on one of John's 'stupid' ideas of
+using `SQLite for sessions`_. Another `question on when PHP 5 would be
+released`_, this time by one of the Novell porting guys who `messed`_ with our
+CVS before already.
+
+`Georg`_ was tired of answering all the silly MySQL license questions,
+`George`_ nicely summerized what Sterling already replied to Georg: `'Just
+don't reply'`_. Andi wanted to start with `PHP 5 Beta 2`_ and release it on
+August 11th, Marcus sent an `updated TODO`_ list to the mailinglist.  I found a
+`little bug with the shutdown order`_ for PHP. Something that's still not
+addressed.
+
+About a month later in August Lars Torben submitted a `patch`_ to add a new
+function called 'variable_exists()' to check if a variable exists or not, there
+was a lot of arguing `for`_ and `against`_ this function, the decision was not
+to add it. There was another `feature request for user-defined super globals`_
+but just as before we did not add it. Later in the month we had a `discussion`_
+of adapting Thies' and Sterling's `Faster Harder Stronger`_ `patch`_. We also
+had a funny `support`_ question.
+
+September started with a little `post`_ on suckyCaps and PHP not being case
+sensitive for function names. Wez was `crowned as King of PECL`_ to boost the
+momemtum for our new `extension repository`_ which still had `some problems`_
+at that time. One of the things that we don't allow in PECL are extensions that
+wrap around GPL libraries or extensions that are GPL itself because of the
+`viral`_ nature of the GPL. At the end of the month we had a clown who wants to
+`serialize`_ DOM objects. We made it clear that he was `wrong`_.
+
+A discussion that `started`_ in September on the 'BC break' with array_merge()
+not allowing 'FALSE' being passed any more as argument continued in October.
+`Jay`_ pretty much describes why the arguments against the change are bogus.
+David `proposes`_ to add regex operators, a bit similar to Hartmut's proposal
+to add a callback to switch(); Rasmus' `reply`_ exactly described what most
+other people thought about it. Andi also released `PHP 5 Beta 2`_ at the end of
+the month. Marko posted an `email`_ which describes a difference in Mac OSX'
+bind sources and headers which of course causes some troubles. Melvyn
+summarizes this mess with `'Apple devs have re-invented the wheel and made it
+square'`_.  `Ilia`_ and others successfully argued against the inclusion of an
+`mbstring patch`_ to go into 4.3.4. Later it showed that it would have caused a
+major bug if it would have been included.
+
+November started with the `release`_ of PHP 4.3.4. After that we started
+quarelling over a new `array syntax`_ in the form of square brackets. At the
+end the idea was succesfully shot down.  Andi had the idea to release `PHP 5 RC
+1`_ but most `other`_ `people`_ `didn't`_ agree with this though. Instead we
+opted to release another Beta. We also added a `E_STRICT`_ error type to PHP 5
+which is not part of E_ALL and is meant for 'purists (like Jani :)'.
+
+FlameWar month (December) was busy. On the first day we discussed the inclusion
+of `ext/tidy`_ into the standard distribution.  After some `problems`_ were
+fixed it was added. One day later we `dropped support for Windows 95`_ and we
+started another *sigh* discussion on moving the standard methods and objects
+over to the `suckyCaps`_ way. I'm afraid that's what we'll be heading at; but
+not `without a fight`_. Wez `added`_ a new build system for Windows, the OCI
+extension was `put the PECL`_ (but also still available in the normal
+distribution). Following this Wez posted a `FUD buster`_ on PECL. Later we had
+a huge thread on the fgetcsv() function and `mbstring 'cruft'`_ in there.
+`__toString() magic`_ was removed too, but extensions (such as SimpleXML) can
+still implement this behavior. Another major disucssion we had was about an
+`optional parameter`_ to set_error_handler() which acts like an additional mask
+for when the user defined error handler should be called. We also `released`_
+as a birthday present for me. `Jumadi`_ was `back`_ too.
+
+With this I conclude the look back on PHP's 2003. Next year will hopefully
+bring PHP 5 and lots of 'interesting' dicussions for the developers. Happy
+New Year and let's hope that: James doesn't mess up the CVS anymore; Jumadi
+and Nicos stay quiet; Andi and Wez don't move to the US; Andrei finally stays at
+one place; Edin has great success with his new company; Jani keeps killin'
+(bugs); Steph stays put to her education; Zeev doesn't need to travel that 
+much; Ilia keeps fixing bugs and Marcus and Sebastian learn that OO isn't
+everything ;).
+
+.. _`PEAR People`: mailto:pear@lists.php.net
+.. _`Wez`: http://news.php.net/article.php?group=php.dev&amp;article=93021
+.. _`had some trouble`: http://news.php.net/article.php?group=php.dev&amp;article=93049
+.. _`Nicos`: http://news.php.net/article.php?group=php.dev&amp;article=93120
+.. _`'Its about as much of a bug as passing filetype(null) isn't a bug.'`: http://news.php.net/article.php?group=php.dev&amp;article=93128
+.. _`CGI and CLI proposal`: http://news.php.net/article.php?group=php.dev&amp;article=92682
+.. _`it was possible to use both PHP 4 and  PHP 5 in the same webserver`: http://news.php.net/article.php?group=php.dev&amp;article=93429
+.. _`cooking a patch for it`: http://news.php.net/article.php?group=php.dev&amp;article=93431
+.. _`more point releases before PHP 5`: http://news.php.net/article.php?group=php.dev&amp;article=93505
+.. _`announced`: http://news.php.net/article.php?group=php.dev&amp;article=93510
+.. _`was asking`: http://news.php.net/article.php?group=php.dev&amp;article=93605
+.. _`disband`: http://news.php.net/article.php?group=php.dev&amp;article=93633
+.. _`PHP and Mono`: http://news.php.net/article.php?group=php.dev&amp;article=93903
+.. _`Date extension`: http://news.php.net/article.php?group=php.dev&amp;article=94275
+.. _`ext_skel`: http://news.php.net/article.php?group=php.dev&amp;article=94345
+.. _`hunt for`: http://news.php.net/article.php?group=php.dev&amp;article=94491
+.. _`system calls`: http://news.php.net/article.php?group=php.dev&amp;article=94502
+.. _`discussion on the`: http://news.php.net/article.php?group=php.dev&amp;article=94407
+.. _`addition of file_put_contents()`: http://news.php.net/article.php?group=php.dev&amp;article=94431
+.. _`PHP 4.3.2`: http://news.php.net/article.php?group=php.dev&amp;article=94521
+.. _`advocating`: http://news.php.net/article.php?group=php.dev&amp;article=94741
+.. _`me`: http://news.php.net/article.php?group=php.dev&amp;article=94743
+.. _`some`: http://news.php.net/article.php?group=php.dev&amp;article=94756
+.. _`encounters`: http://news.php.net/article.php?group=php.dev&amp;article=94971
+.. _`SQLite`: http://news.php.net/article.php?group=php.dev&amp;article=94882
+.. _`people`: http://news.php.net/article.php?group=php.internals&amp;article=5344
+.. _`64bit`: http://news.php.net/article.php?group=php.dev&amp;article=94838
+.. _`issues`: http://news.php.net/article.php?group=php.dev&amp;article=94800
+.. _`got pissed`: http://news.php.net/article.php?group=php.dev&amp;article=95057
+.. _`developers`: http://news.php.net/article.php?group=php.dev&amp;article=95061
+.. _`others`: http://news.php.net/article.php?group=php.dev&amp;article=95060
+.. _`Although the description`: http://news.php.net/article.php?group=php.dev&amp;article=95071
+.. _`MySQL`: http://news.php.net/article.php?group=php.dev&amp;article=95076
+.. _`really`: http://news.php.net/article.php?group=php.dev&amp;article=192
+.. _`work`: http://news.php.net/article.php?group=php.dev&amp;article=657
+.. _`namespaces`: http://news.php.net/article.php?group=php.dev&amp;article=95158
+.. _`known`: http://news.php.net/article.php?group=php.internals&amp;article=315
+.. _`Andrei`: http://news.php.net/article.php?group=php.internals&amp;article=31
+.. _`added`: http://news.php.net/article.php?group=php.cvs&article=24840
+.. _`issue with filedescriptors`: http://news.php.net/article.php?group=php.internals&amp;article=255
+.. _`posted`: http://news.php.net/article.php?group=php.internals&amp;article=2401
+.. _`discussion`: http://news.php.net/article.php?group=php.internals&amp;article=4190
+.. _`untrusted modules`: http://news.php.net/article.php?group=php.internals&amp;article=637
+.. _`Coding Standards`: http://news.php.net/article.php?group=php.internals&amp;article=696
+.. _`flex 2.5.31`: http://news.php.net/article.php?group=php.internals&amp;article=955
+.. _`patch`: http://www.edwardbear.org/fasterharderstronger.diff
+.. _`life`: http://news.php.net/article.php?group=php.internals&amp;article=1277
+.. _`php.net`: http://www.php.net
+.. _`7th`: http://news.php.net/article.php?group=php.internals&amp;article=1323
+.. _`sane`: http://news.php.net/article.php?group=php.internals&amp;article=1324
+.. _`agreed`: http://news.php.net/article.php?group=php.internals&amp;article=1327
+.. _`with`: http://news.php.net/article.php?group=php.internals&amp;article=1328
+.. _`Edin`: http://news.php.net/article.php?group=php.internals&amp;article=1330
+.. _`couple`: http://news.php.net/article.php?group=php.internals&amp;article=1368
+.. _`kept`: http://news.php.net/article.php?group=php.internals&amp;article=1302
+.. _`'When it is ready'`: http://news.php.net/article.php?group=php.internals&amp;article=1308
+.. _`Helly`: http://news.php.net/article.php?group=php.internals&amp;article=1192
+.. _`the fd patch`: http://news.php.net/article.php?group=php.internals&amp;article=1795
+.. _`reverted`: http://news.php.net/article.php?group=php.internals&amp;article=1840
+.. _`removed`: http://news.php.net/article.php?group=php.internals&amp;article=2479
+.. _`some fuss`: http://news.php.net/article.php?group=php.internals&amp;article=2133
+.. _`really work`: http://news.php.net/article.php?group=php.internals&amp;article=2212
+.. _`Siberia`: http://news.php.net/article.php?group=php.internals&amp;article=2225
+.. _`PHP 4.3.2RC1 was released`: http://news.php.net/article.php?group=php.internals&amp;article=2396
+.. _`raised the issue with the LGPL mbstring mess`: http://news.php.net/article.php?group=php.internals&amp;article=2407
+.. _`Moriyoshi`: http://news.php.net/article.php?group=php.internals&amp;article=2428
+.. _`Jumadi`: http://news.php.net/article.php?group=php.internals&amp;article=6274
+.. _`messing`: http://news.php.net/article.php?group=php.internals&amp;article=2562
+.. _`problems`: http://news.php.net/article.php?group=php.internals&amp;article=5959
+.. _`other developers`: http://news.php.net/article.php?group=php.internals&amp;article=2606
+.. _`it was a good idea`: http://news.php.net/article.php?group=php.internals&amp;article=2605
+.. _`claims`: http://news.php.net/article.php?group=php.internals&amp;article=2608
+.. _`discussed`: http://news.php.net/article.php?group=php.internals&amp;article=2618
+.. _`plan`: http://news.php.net/article.php?group=php.internals&amp;article=2650
+.. _`'I'm a very strong +1, so long as you are the one who implements this'`: http://news.php.net/article.php?group=php.internals&amp;article=2655
+.. _`diagram`: http://news.php.net/article.php?group=php.internals&amp;article=2661
+.. _`bundling SQLite`: http://news.php.net/article.php?group=php.internals&amp;article=2563
+.. _`PostGreSQL dudes`: http://news.php.net/article.php?group=php.internals&amp;article=2747
+.. _`PHP5 Beta 1`: http://news.php.net/article.php?group=php.internals&amp;article=2971
+.. _`SQLite for sessions`: http://news.php.net/article.php?group=php.internals&amp;article=3096
+.. _`question on when PHP 5 would be released`: http://news.php.net/article.php?group=php.internals&amp;article=3359
+.. _`messed`: http://news.php.net/article.php?group=php.internals&amp;article=3378
+.. _`Georg`: http://news.php.net/article.php?group=php.internals&amp;article=3451
+.. _`George`: http://news.php.net/article.php?group=php.internals&amp;article=3471
+.. _`'Just don't reply'`: http://news.php.net/article.php?group=php.internals&amp;article=3452
+.. _`PHP 5 Beta 2`: http://news.php.net/article.php?group=php.internals&amp;article=4863
+.. _`updated TODO`: http://news.php.net/article.php?group=php.internals&amp;article=3507
+.. _`little bug with the shutdown order`: http://zend.com/lists/engine2/200307/msg00041.html
+.. _`for`: http://news.php.net/article.php?group=php.internals&amp;article=3946
+.. _`against`: http://news.php.net/article.php?group=php.internals&amp;article=3954
+.. _`feature request for user-defined super globals`: http://news.php.net/article.php?group=php.internals&amp;article=4147
+.. _`Faster Harder Stronger`: http://www.edwardbear.org/thieso/archives/000226.html
+.. _`support`: http://news.php.net/article.php?group=php.qa&article=15600
+.. _`post`: http://news.php.net/article.php?group=php.internals&amp;article=4375
+.. _`crowned as King of PECL`: http://news.php.net/article.php?group=php.internals&amp;article=4519
+.. _`extension repository`: http://pecl.php.net
+.. _`some problems`: http://news.php.net/article.php?group=php.pecl.dev&article=50
+.. _`viral`: http://news.php.net/article.php?group=php.pecl.dev&article=41
+.. _`serialize`: http://news.php.net/article.php?group=php.xml.dev&article=205
+.. _`wrong`: http://news.php.net/article.php?group=php.xml.dev&article=216
+.. _`started`: http://news.php.net/article.php?group=php.internals&amp;article=4552
+.. _`Jay`: http://news.php.net/article.php?group=php.internals&amp;article=4553
+.. _`proposes`: http://news.php.net/article.php?group=php.internals&amp;article=4825
+.. _`reply`: http://news.php.net/article.php?group=php.internals&amp;article=4837
+.. _`email`: http://news.php.net/article.php?group=php.qa&article=15714
+.. _`'Apple devs have re-invented the wheel and made it square'`: http://news.php.net/article.php?group=php.internals&amp;article=4884
+.. _`Ilia`: http://news.php.net/article.php?group=php.cvs&article=24247
+.. _`mbstring patch`: http://news.php.net/article.php?group=php.cvs&article=24244
+.. _`release`: http://news.php.net/article.php?group=php.internals&amp;article=5178
+.. _`array syntax`: http://news.php.net/article.php?group=php.internals&amp;article=5186
+.. _`PHP 5 RC 1`: http://news.php.net/article.php?group=php.internals&amp;article=5340
+.. _`other`: http://news.php.net/article.php?group=php.internals&amp;article=5343
+.. _`didn't`: http://news.php.net/article.php?group=php.internals&amp;article=5347
+.. _`E_STRICT`: http://news.php.net/article.php?group=php.internals&amp;article=5526
+.. _`ext/tidy`: http://news.php.net/article.php?group=php.internals&amp;article=5872
+.. _`dropped support for Windows 95`: http://news.php.net/article.php?group=php.internals&amp;article=6002
+.. _`suckyCaps`: http://news.php.net/article.php?group=php.internals&amp;article=6000
+.. _`without a fight`: http://news.php.net/article.php?group=php.internals&amp;article=6053
+.. _`put the PECL`: http://news.php.net/article.php?group=php.internals&amp;article=6306
+.. _`FUD buster`: http://news.php.net/article.php?group=php.internals&amp;article=6304
+.. _`mbstring 'cruft'`: http://news.php.net/article.php?group=php.internals&amp;article=6462
+.. _`__toString() magic`: http://news.php.net/article.php?group=php.internals&amp;article=6441
+.. _`optional parameter`: http://news.php.net/article.php?group=php.internals&amp;article=6594
+.. _`released`: http://news.php.net/article.php?group=php.internals&amp;article=6673
+.. _`back`: http://news.php.net/article.php?group=php.internals&amp;article=6277
+

@@ -1,0 +1,47 @@
+Fanmail
+=======
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20051013 1155 CEST
+   :Tags: cms, php, politics, work
+
+I got a very nice email in my inbox from a PHP user concerning my
+"extreme hostility to the PHP community in general". This is
+ofcourse regarding my "fix" to combat PHP's stability (in
+other words, the "memory corruption" bug). The guy in question
+was acusing me that I "have acted just like Microsoft and
+eliminated a HUGE reason for PHP's success". I am not so sure where
+he pulls this comparison from actually. We're pretty good
+at *fixing* memory corruptions, addressing security problems and
+fixing bugs in my opinion.
+
+Then my fan suggested that it is "time you [red. I] moved on, learn
+how to listen to a user base, or quit PHP before you kill it". I
+find those kinds of claims quite prepostruous as I probably spend more
+time on improving PHP then I spend on sleeping. Sure, some of the things
+that we do can be considered as "unpopular" as sometimes we
+need to fix a bug that breaks older scripts that relied on the buggy
+behavior. And yes, those scripts and applications needs to be fixed than
+which indeed takes time. `We`_ took that
+time to clean up our application and do the right thing, and had to
+delay our `3.7`_ release for
+a substantial amount of time, but in the end we ended up with a PHP
+version that doesn't segfault *and* a better application. This is
+called progress. If those "millions of users" had written
+proper tested code, they would not have had "broken websites"
+in the first place. Now they have the choice, just like `we`_ had, to either fix their scripts or use an
+older version of PHP.
+
+For the record in case the person who mailed me this reads this post: I
+did not have anything to do with PHP 5.0.5. And under no circumstances
+will I stop doing any "favors" or "go away" because
+I fixed a couple of bugs. You should respect the work that volunteers
+put into PHP, and if are not happy with what we do with our spare time,
+donate some of your own.
+
+
+.. _`We`: http://ez.no
+.. _`3.7`: http://ez.no/company/news/ez_publish_3_7_0
+.. _`we`: http://ez.no
+

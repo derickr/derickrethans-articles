@@ -1,0 +1,14 @@
+New talk
+========
+
+.. articleMetaData::
+   :Where: Vancouver, Canada
+   :Date: 20040122 1158 PST
+   :Tags: 
+
+I added some more upcoming talks to the `talks page`_ with entries from the International PHP Conference and
+the PHP Quebec conference.more
+
+
+.. _`talks page`: /talks.php
+

@@ -1,0 +1,48 @@
+Finding Ada
+===========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20090324 0927 CET
+   :Tags: blog, php
+
+Several months ago I signed a `pledge`_ that I
+would publish a blog post today about a woman in technology whom I
+admire. Well, when writing this post yesterday, I came to the conclusion
+that it's very hard for me to pick just one specific woman to talk
+about. So I am talking about more than one, and they're all
+rockstars—even the ones that I am not mentioning, you know who you
+are.
+
+In the `PHP community`_ there are quite a
+few ladies that are actively involved. On the C-side of things (not pun
+intended) there's `Sara Golemon`_ and `Elizabeth Smith`_ . Sara works at `Yahoo!`_ doing search engine things, and is the master of writing interesting,
+but dangerous extensions to PHP. She's also the author of the only
+dedicated book on `PHP's internals`_ . Elizabeth ( `in her own words`_ )
+"enjoys doing very perverse things to Windows using PHP" and
+is generally known as the person who among other things, fixes things on
+Windows, maintains the PHP-GTK bindings. She also occasionally fixes `my code`_ .
+
+With Sara and Elizabeth we also end up at `phpwomen`_ . Together with `Ligaya Turmelle`_ , `Elizabeth Naramore`_ , `Kathy Reid`_ and `Lorna Mitchell`_ they run this
+organization to "provide a network of support and mentorship to
+women, help women become more involved with PHP, increase our numbers at
+conferences as speakers and attendees, and provide a “female
+friendly” atmosphere." With their effort, I am sure we'll see
+more involvement in the PHP community from the other currently unknown
+female PHP types adding to the diversity of our community.
+
+
+.. _`pledge`: http://www.pledgebank.com/AdaLovelaceDay
+.. _`PHP community`: http://php.net
+.. _`Sara Golemon`: http://blog.libssh2.org/
+.. _`Elizabeth Smith`: http://elizabethmariesmith.com/
+.. _`Yahoo!`: http://yahoo.com
+.. _`PHP's internals`: http://www.amazon.co.uk/Extending-Embedding-PHP-Sara-Golemon/dp/067232704X
+.. _`in her own words`: http://elizabethmariesmith.com/about-me/
+.. _`my code`: http://elizabethmariesmith.com/2009/03/xdebug-thread-safety-and-php-53/
+.. _`phpwomen`: http://phpwomen.org
+.. _`Ligaya Turmelle`: http://blog.khankennels.com/
+.. _`Elizabeth Naramore`: http://naramore.net/blog/
+.. _`Kathy Reid`: http://blog.kathyreid.id.au/
+.. _`Lorna Mitchell`: http://www.lornajane.net/
+

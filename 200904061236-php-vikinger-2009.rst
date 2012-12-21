@@ -1,0 +1,18 @@
+PHP Vikinger 2009
+=================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 20090406 1236 BST
+   :Tags: blog, conference, php, travel, work
+
+I'll be organizing `PHP Vikinger`_ again this year. It will not be in Norway, but instead we'll be moving
+to Leuven in Belgium. It will be held on May 30th, very close to
+Leuven's central station at Café Sport (known from the `PHP Belgium`_ meetings). For the full
+invitation, see the `website`_ .
+
+
+.. _`PHP Vikinger`: http://phpvikinger.org
+.. _`PHP Belgium`: http://phpbelgium.be
+.. _`website`: http://phpvikinger.org/news/news-2009-05-06
+

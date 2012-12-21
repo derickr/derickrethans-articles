@@ -1,0 +1,16 @@
+PHP Look Back 2007
+==================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20071229 1808 CET
+   :Tags: php
+
+It's the end of the year again, and that means that I usually spend way
+too much time on writing an overview of PHP's development lists for the
+whole year. No more! It's taking too much of my time, so `last year's`_ is going to be last
+one. Sorry folks :-)
+
+
+.. _`last year's`: /php_look_back_2006.php
+

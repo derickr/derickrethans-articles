@@ -1,0 +1,15 @@
+LinuxTag 2004 report
+====================
+
+.. articleMetaData::
+   :Where: Karlsruhe, Germany
+   :Date: 20040626 2212 CEST
+   :Tags: php, work
+
+LinuxTag 2004 was held in Karlsruhe from June 23rd to June 26th.
+This year Georg Richter did an excellent job to gather AMP-related
+projects and companies to fill a shared booth including a speaker
+area.more
+
+
+

@@ -1,0 +1,13 @@
+New talks
+=========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20031209 2337 
+   :Tags: 
+
+I updated the `talks page`_ with upcoming events.more
+
+
+.. _`talks page`: /talks.php
+

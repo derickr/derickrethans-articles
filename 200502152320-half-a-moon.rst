@@ -1,0 +1,16 @@
+Half a Moon
+===========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050215 2320 CET
+   :Tags: photography
+
+.. image:: /images/content/moon2a.png
+   :align: center
+
+With a borrowed 300mm lens I just made this image of the moon (not scaled, just cropped). 300mm focal
+length, f=5.6 aperture and 1/400s exposure.
+
+
+

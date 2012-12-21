@@ -1,0 +1,14 @@
+Sinterklaas
+===========
+
+.. articleMetaData::
+   :Where: Groessen, the Netherlands
+   :Date: 20031205 1656 
+   :Tags: 
+
+Bah Sinterklaas... it's one of those festivates that requires
+creative thinking. While I usually don't have a problem with that
+while code, it *is* a problem if you need to write a poem...
+
+
+

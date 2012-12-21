@@ -1,0 +1,44 @@
+New website layout
+==================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date:  2009-12-26 15:13 UTC
+   :Tags: blog, php, work
+
+Just like Xdebug's server was moved[#]_ to a new VPS at XtraHosting_ so did
+my personal website (the one you're looking at). Hosting it on my own gives me
+full control over what software runs it, and which PHP version and extensions
+I run. I switched most of the code from a PHP 4.1 atrocity to PHP 5.3 goodness.
+
+At the same time, I also moved all the contents from some self-invented XML
+format to reStructuredText_. reStructuredText is a format that can be parsed
+and transformed into other formats by `eZ Components`_' Document_ component.
+Right now I am transforming to HTML only, but in the future I will also
+transform certain articles to PDFs. Comments can also make use of some of the
+reStructuredText formatting options, but there are still some things that need
+sorting out there.
+
+Besides changing the layout and converting the content to a more manageable
+format, I also introduced a stream of dopplr_, flickr_ and twitter_ updates on
+the right side. This is implemented by parsing the relative RSS feeds from
+the different sources. If location information is present, this is also shown
+in this feed. Previously I would only export an RSS feed for all of the
+content, but with this site update, there is now a feed for every tag that I've
+used. All RSS functionality is provided by the Feed_ component of `eZ
+Components`_ (although a patch is currently needed for the location
+information).
+
+I'm not a 100% happy with the new layout, so most likely I will be doing some
+changes in the near future.
+
+
+.. [#] http://derickrethans.nl/xdebug-moved-to-a-new-server.html
+.. _XtraHosting: http://www.xtrahost.co.uk/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _`eZ Components`: http://ezcomponents.org/
+.. _Document: http://ezcomponents.org/s/Document
+.. _Feed: http://ezcomponents.org/s/Feed
+.. _dopplr: http://dopplr.com
+.. _flickr: http://flickr.com
+.. _twitter: http://twitter.com

@@ -1,0 +1,18 @@
+3.2 mbit
+========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20050518 1057 CEST
+   :Tags: blog
+
+Over a year ago I `wrote`_ about my
+upgraded internet connection. Today I was wondering why I could download
+with more than 300kb/sec on a 2 megabit line. It seems that my provider, `XS4All`_ , upgraded the line to 3.2
+megabit without telling me. Nice! Now the only sad thing is that this is
+the line at my parents place - where I don't usually live :-I
+
+
+.. _`wrote`: /two_megabit.php
+.. _`XS4All`: http://xs4all.nl
+

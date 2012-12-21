@@ -1,0 +1,69 @@
+ADSL and a non-intelligent installation company
+===============================================
+
+.. articleMetaData::
+   :Where: Highway A348, The Netherlands
+
+At May 4th we moved into our new office, which should have been
+equipped with a 'working' ADSL connection. A 'working' ADSL connection
+for us is one of the things that is writing down in our
+rental-contract. If for some reason ADSL, or another type of Internet
+connection shouldn't be available on our location we could disband our
+contract without any problems. But a 'working' ADSL connection for us
+seems to be something else than what we got. We are no tied to a
+256/64kbit line behind NAT. There are two problems with this: It's too
+damn slow, and we can not have inbound connections. That means: no VPN,
+no web-based invoice system, no CVS server, no Internet accessible dev
+server, no centralized storage system. In short: We don't have a
+'working' ADSL connection.
+
+*How could all this happen?*
+
+Two months ago we asked `Telektra`_ to setup an
+ADSL line for us (they manage the infrastructure in our office
+building). They told us they did that, and that the ADSL connection
+would be delivered in time (before May 1st). Several weeks went by, and
+around April 15th, we decided to check the status of our brand new ADSL
+line. They could tell us they were waiting for the telco (KPN Telecom)
+to approve the connection. (It seems that takes more than 6 weeks for
+them to figure out what an ADSL line is.) So we waited....
+
+One week later, still nothing. So we called them again, and they told a
+college of my, the famous Mr J, that they had a nice line for us...
+whoohoo! But when our sysadmin went checking, it seems we got a
+connection with NAT, shared by 4 other companies in the same
+building. `Telektra`_ told us that the line was not
+ready yet, and that the situation would be like this for a few weeks
+until our new line was ready. (This was 9 weeks after the original
+request was made.
+
+Then I decided to call the provider, `KPN Telecom`_.
+They told me that there where already 3 connections on the address of
+the building in which our office is, but that there where no pending
+requests for a line... We got mad, and let our office manager ask for a
+fax of the request for a line with Telektra. They sent a fax back,
+showing that the request for an ADSL line was *refused* by the
+provider at March 7th. That's 8 weeks ago.
+
+Last Wednesday we offered to remove the NAT from the ADSL modem so that
+we could setup our firewall to do the NAT. They agreed to that, and they
+were going to give the password to the ADSL router to properly configure
+it. But that password never came. At Friday they explained to us that we
+would never get the password too, and that they refused any further help
+to us regarding this ADSL line. So now we're virtually screwed with bad
+connectivity. Thank god we got an offer today from another company in
+the same building to take over their line, and route them through our
+firewall. This is going to happen quickly we hope. But there is still a
+problem that the line is too slow (512/64kbit), so we called `KPN Telecom`_ if it would be possible to upgrade our line to
+1024/256kbit. They replied 'no problem', just send a fax with a request.
+And they also said that this would cause no Internet connectivity for
+one month. That's just not an option of course. The only hope for a
+faster connection now lies with a new provider, which can provide
+1/1mbit SDSL. May god preach with us for more bandwidth... we're
+depending on it.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Telektra`: http://www.telektra.nl
+.. _`KPN Telecom`: http://www.kpntelecom.nl
+

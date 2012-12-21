@@ -1,0 +1,16 @@
+Xdebug 2.0.0beta2
+=================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20041129 2143 CET
+   :Tags: php, xdebug
+
+I released `Xdebug`_ 2.0.0beta2 which fixes a couple of problems with Xdebug
+2.0.0beta1. See `the updates page`_ for
+more information.
+
+
+.. _`Xdebug`: http://xdebug.org
+.. _`the updates page`: http://xdebug.org/updates.php
+

@@ -1,0 +1,21 @@
+Schengen?
+=========
+
+.. articleMetaData::
+   :Where: Amsterdam, the Netherlands
+   :Date: 20051107 0050 CET
+   :Tags: conference, php, travel, work
+
+After my troubels with getting the correct ticket the problems where not
+over yet. When I got to Amsterdam I ended up in the non- `Schengen`_ area
+of the airport. This doesn't make sense as Norway is part of the
+Schengen treaty. The problem with getting from the non-Schengen area
+into the Schengen area is a 30 minute queue. Half an hour is a long
+time if you only have 55 minutes between flights. The person at the
+security check point was as confused as I was, but let me thru withough
+much problems. I just made it on the flight to Frankfurt where I'm now
+ready to hit the sack.
+
+
+.. _`Schengen`: http://en.wikipedia.org/wiki/Schengen_treaty
+

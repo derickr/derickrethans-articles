@@ -1,0 +1,32 @@
+OSCOM Day 2
+===========
+
+.. articleMetaData::
+   :Where: Zürich, Switzerland
+   :Date: 20041001 1651 CEST
+   :Tags: cms, php, work
+
+We slept in a bit but were in time to catch Harry's
+'controversial' talk on using PHP as a post processing tool by
+making it parse incoming requests including images. Although
+something like this is nothing really new, itwas interesting to
+see how he solved some of the problems.
+
+After this talk we went in search of a powersocket adapter to give
+some juice to our laptops as that was badly needed for the talks I
+had in the afternoon. After lunch I saw a talk on Viva, a MVC
+framework in PHP 5, but I found it not very convincing.
+Then it was time for my own two talks on Multi-lingual issues and
+Xdebug. I was luckily enough not totally rasmussed by the jsr170
+talk. The audience seemed pretty interested, which is of course
+always nice.
+
+In the evening we tried to find the restaurant -- Les Halles -- a
+not-so-easy task. After dinner Christian invited us to come to a
+bar close to his office... which apparently was in the middle of a
+red light district. It seems that Christian found the best
+location possible. (And no, the bar he took us was not a
+strip-club).
+
+
+

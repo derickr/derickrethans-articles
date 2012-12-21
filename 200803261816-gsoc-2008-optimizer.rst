@@ -1,0 +1,17 @@
+GSoC 2008: Optimizer
+====================
+
+.. articleMetaData::
+   :Where: Amsterdam, the Netherlands
+   :Date: 20080326 1816 CET
+   :Tags: blog, cms, php
+
+The new Google Summer of Code is starting, and the `PHP Project`_ is participating again. This
+year my pet-peeve is Ilia's `optimizer for APC`_ . I hope this will just as beneficial as last year's
+circular-reference project. If you're interested in becoming familiar
+with PHP's internals, this is the project for you.
+
+
+.. _`PHP Project`: http://php.net
+.. _`optimizer for APC`: http://wiki.php.net/gsoc/2008#make_ilia_s_optimizer_production_ready
+

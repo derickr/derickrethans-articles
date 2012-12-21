@@ -1,0 +1,16 @@
+More Pictures
+=============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050202 1831 CET
+   :Tags: photography
+
+.. image:: /images/content/moon1.png
+   :align: center
+
+This is one of the first images I made with a borrowed 105mm lens. Although the moon is not very large on the
+image it is still a nice picture. (f/5.0, 1/400s, 400ASA).
+
+
+

@@ -1,0 +1,20 @@
+Blåfjell
+========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040607 2358 CEST
+   :Tags: nature
+
+.. image:: /images/content/blafjell.png
+   :align: center
+
+After the `summer conference`_ Gunnstein, Gurudutt, Jan, Vera and I were not yet tired enough and
+decided to climb a nearby mountain, Blåfjell (Blue Mountain).
+Although the way up was tiresome the summit gave a terrific view.
+More photos are too be found in my `gallery`_ .more
+
+
+.. _`summer conference`: http://ez.no/
+.. _`gallery`: http://photos.derickrethans.nl/2004norway-blafjell
+

@@ -1,0 +1,36 @@
+The Y2K7 problem
+================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20070306 2304 CET
+   :Tags: php, work, datetime
+
+Right, that "Y2K7" is not a typo. It "refers to the Year
+2007 problem, caused by a US-mandated change to Daylight Saving
+Time" ( `wikipedia`_ ). From this
+year the US (and Canada) changed the dates on when daylight saving time
+is active. DST now starts three weeks earlier, and ends one week later.
+This causes quite a lot of problems with software that hard coded those
+rules. On Linux (and other Unix-like operating systems) this can be
+remedied by updating the zoneinfo information - check your Operating
+System's documentation on how to do that.
+
+PHP before PHP 5.1.0 relies on the Operating System to provide time zone
+information, while PHP versions 5.1.0 and higher come with a bundled
+time zone database. The database that ships with PHP 5.1.0 already
+covers the changes in the US and Canada, however, the US and Canada are
+not the only places changing rules. Many places on earth change those
+rules all the time which means PHP's database needs to be updated as
+well.
+
+Every PHP version comes with the latest release of the time zone
+database at the moment PHP is released. However, it is also possible to
+just update this data by installing the PECL extension `timezonedb`_ . This
+extension is released whenever a new version of the `Olson database`_ becomes available. The current version is 2007c (2007.3).
+
+
+.. _`wikipedia`: http://en.wikipedia.org/wiki/Y2K7
+.. _`timezonedb`: http://pecl.php.net/package/timezonedb
+.. _`Olson database`: http://www.twinsun.com/tz/tz-link.htm
+

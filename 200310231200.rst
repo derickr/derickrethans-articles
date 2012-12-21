@@ -1,0 +1,39 @@
+Jobs, part I
+============
+
+.. articleMetaData::
+   :Where: Merano, Italy
+
+For the people who are wondering what I'm currently working on a small update:
+At the moment I'm working on a PHP IDE in Bolzano, Italy with Maguma GmbH. More
+specifically I'm developing and implementing a common `Debugger Protocol`_,
+which I developed together with Shane Caraveo from `Active State`_. This new
+protocol is meant to be a powerfull cross-language protocol with which IDEs can
+communicate with different debug engines, such as `Xdebug`_, written by myself,
+but also with the engines from Active State for Perl, Python and TCL.
+
+.. image:: images/maguma_big.png
+
+The protocol uses a command line syntax for sending commands to the debug
+engine, and the reply from the debug engine to the IDE is in an XML format. For
+a full description of this open protocol, see `the draft`_. The protocol is not
+yet available in Xdebug, but will be in version 2.0.0 which is under
+development. The main features will be this new protocol, enhanced with support
+for getting profiling information from debug engine to the IDE.
+
+In Maguma Studio 2 this new protocol will be used to communicate with Xdebug,
+which will replace the current debugger engine DBG. Studio 2 is an in C++
+rewritten PHP IDE which will support tight integration with a cache, debugger
+and encoder. It will also feature a plugin interface so that third party
+modules can be made available. Besides C++ plugins can also be written Python,
+for which the IDE will also have support. Even some of the distributed core
+modules will be written in Python, because of the greater stability and easier
+development.
+
+.. _`Xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Maguma Studio`: http://www.maguma.com/
+.. _`Debugger Protocol`: http://xdebug.org/docs-dbgp.php
+.. _`Active State`: http://www.activestate.com/
+.. _`the draft`: http://xdebug.org/docs-dbgp.php
+

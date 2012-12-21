@@ -1,0 +1,18 @@
+Off to Zürich
+=============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040928 1336 CEST
+   :Tags: php, work, travel
+
+I'm off to Zürich together with Bård to attend `OSCOM 4`_ and to `talk`_ on `Xdebug`_ , Multi-lingual
+development and Speeding up PHP applications. I will also be
+holding a talk at the local PHP user group on `SRM`_ .
+
+
+.. _`OSCOM 4`: http://oscom.org/events/oscom4
+.. _`talk`: http://www.oscom.org/events/oscom4/program/
+.. _`Xdebug`: http://xdebug.org
+.. _`SRM`: http://derickrethans.nl/projects.html#srm
+

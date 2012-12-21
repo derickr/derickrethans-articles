@@ -1,0 +1,22 @@
+PHP 5 Symphony
+==============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050527 1712 CEST
+   :Tags: php
+
+Tomorrow evening I will be presenting on `Migrating from PHP 4 to PHP5`_ as part of php|architect's `php|symphony`_ series. In this live on-line session I will talk about PHP 5's new
+object model, features and incompatibilities. Although this is an
+on-line session, you will still be able to listen to my voice, ask
+questions just as I was sitting in your room (except that you can't see
+me). It should be a truly interesting experience, also for me as I never
+did something like this before. You can still sign up! See you tomorrow
+(10:00 PST, 13:00 EST, 17:00 GMT, 19:00 CEST)!
+
+Update! Times where wrong...
+
+
+.. _`Migrating from PHP 4 to PHP5`: http://www.phparch.com/shop_product.php?itemid=85
+.. _`php|symphony`: http://www.phparch.com/shop_dept.php?itemid=12
+

@@ -1,0 +1,64 @@
+Forum du PHP 2002 and Insane Ideas by Thies
+===========================================
+
+.. articleMetaData::
+   :Where: Paris, France
+
+The past few days i've been attending the Forum du PHP in Paris. This
+conference, organized by the AFUP and Macromedia, had two days worth of
+talks on PHP related subjects. To make things cheaper for Macromedia, the main
+sponsor of the event I decided to fly in two days earlier; this also brought
+me about one and a half days of quality time in Paris. Thies Arntzen and Shane
+Caraveo were doing the same so we spend some time together in Paris.
+
+At Sunday we made the big tour through Paris, starting at the Louvre we walked
+a good part of the day looking for interesting sights. The Notre Dame and
+similar things did get attention from us. Walking makes tired so we took plenty
+of time sitting and drinking coffee, and of course discussing PHP related
+things.  One of the things that popped up was one of Thies weird, but
+interesting ideas:
+
+Because releasing PHP is becoming a real nightmare for the release master
+because there are simply just too much extensions to take care of, and all
+extensions are done in a different way, we need a way to simplify things.
+The first step would be to mode ext/standard/ into main/, the second step would
+be doing: rm -rf php4/ext to get rid of our nice pile of extensions and the last
+part would be to get rid of all our SAPI modules by doing rm -rf php4/sapi. Now
+we have a nice and clean PHP. But I guess you would say: "How useful is PHP then?"
+Of course we need to fix the removal of all usefulness.
+
+We get back our extensions by using SWIG to generate a mapping between the C
+api of the libraries the extensions are for. This won't result in extensions
+that are very easy to use, but instead we can wrap a PEAR library around it to
+make it as close to the original custom extension totally written in C. We can
+do exactly the same for our SAPIs, make a very thin wrapper around the C api
+and use PHP itself to make it actually workable. With this we can have the most
+optimal way of dealing with several aspects like file uploads, or handling GET
+and POST variables.
+
+After we have our extensions and SAPIs back as a C module and a PHP library to
+wrap around it PHP will still only be the engine and the old ext/standard. 
+To make use of the extensions we have to include the modules to our PHP script,
+but as everything is a library/class now, we for example don't have to include the
+GET/POST handling module if we are not using any request variables. This will
+result in a faster PHP as no time is wasted on attempting to do something with
+those. If for example you want to do something with input encoding like mbstring
+does currently you would include the mbstring_http library instead of the 
+"normal" http library for handling request variables. So instead of having to
+deal with everything in the core but have dedicated modules for everything.
+This will certainly make the life of out release master easier as every
+"extension" can have it's own release cycle. So, as inside as this idea might
+look, it's actually not. It will bring us: 1. easier release management, 2.
+simpler "extensions" which are very easy to "write", 3. more performance
+due to more efficient handling of things we really need in our scripts and 4. 
+more nice blog entries.
+
+Besides the serious things we also had lots of fun touring Paris, with the
+Eiffel Tower being the biggest success (although it was very cold there).  If
+you are looking for my slides, see `here`_ and for photos of the event
+check `this`_.
+
+.. _`PHP Magazine`: http://www.php-mag.net/
+.. _`here`: http://pres.derickrethans.nl/ze-ext
+.. _`this`: http://photos.derickrethans.nl/paris2002
+

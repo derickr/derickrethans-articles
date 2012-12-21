@@ -1,0 +1,59 @@
+Snowdon Hike
+============
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2010-07-20 00:08 Europe/London
+   :Tags: blog, hiking, photography
+
+This weekend I escaped London to enjoy two of my other hobbies: hiking and
+photography_. This time I headed to Wales to climb up the 1085 meter high
+mountain Snowdon_; Wales' highest peak. As opposed to staying in Llanberis_,
+the town closest to many of the routes up Snowdon, I stayed in the little
+quiet town Caernarfon_. Or rather, in the B&B `Tal Menai`_ not too far_ away
+from it. If you get there by bus though, make sure you don't get off on
+the one that's just a stop too far, because there is no way you can walk
+along the road. We ended up backtracking over a cycle path.
+
+.. image:: http://farm5.static.flickr.com/4142/4806515240_d3c5b55e1e_m.jpg
+   :align: right
+
+Caernarfon has a pretty nice castle and also a bit of town wall still. It's
+otherwise not very interesting but they do have a non-floating floating
+restaurant. As it's on the `Menai Strait`_ there are some pretty sunsets_
+however.
+
+.. image:: http://farm5.static.flickr.com/4116/4805931709_f9f773350f_m.jpg
+   :align: left
+
+There are several tracks up to Snowdon, also from different starting points.
+Our starting point was the Pen-y-Pass_ parking place at 359 meters above
+sea-leavel. From here on we went up the Pyg track to the summit. Unfortunately,
+the Welsh weather was doing it's normal thing: clouds. Which means we saw
+nothing of the view once we got to the summit at 1085 meters high. Basically,
+the view was the one that you can see here on the left.
+
+After tea and some snacks, we headed back down. And as soon as we did the
+clouds cleared up showing us the view_ that was denied us on the way upwards.
+We took the Miners track back to the parking place to take the bus back to
+Caernarfon for a very welcomed proper pub meal.
+
+I think I would like to go back once more, to try some of the other tracks.
+The Crib Goch one is supposed to be a really nice ridge walk; unfortunately
+it wasn't marked on the rendered OpenStreetmap_ at that point (it is now of
+course).
+
+To see all the pictures, please visit my `flickr set "Snowdon"`_.
+
+.. _photography: http://www.flickr.com/photos/derickrethans/
+.. _Snowdon: http://en.wikipedia.org/wiki/Snowdon
+.. _Llanberis: http://en.wikipedia.org/wiki/Llanberis
+.. _Caernarfon: http://en.wikipedia.org/wiki/Caernarfon
+.. _`Tal Menai`: http://www.talmenaiguesthouse.co.uk/
+.. _far: http://osm.org/go/euXrxrDlz-
+.. _`Menai Strait`: http://en.wikipedia.org/wiki/Menai_Strait
+.. _sunsets: http://www.flickr.com/photos/derickrethans/4805922697/
+.. _Pen-y-Pass: http://en.wikipedia.org/wiki/Pen-y-Pass
+.. _view: http://www.flickr.com/photos/derickrethans/4805926313/
+.. _OpenStreetMap: http://osm.org/go/eucX5xgY--
+.. _`flickr set "Snowdon"`: http://www.flickr.com/photos/derickrethans/sets/72157624539800410/detail/

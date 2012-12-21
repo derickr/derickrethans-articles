@@ -1,0 +1,19 @@
+Sun Pillar
+==========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050618 2213 CEST
+   :Tags: nature, photography
+
+.. image:: /images/content/astronomy/sunpillar.png
+   :align: center
+
+The sunset today looked a bit different than normally. It looked like
+there was a beam of light shining upwards from the sun. I think this is
+a `Sun Pillar`_ , although I'm not 100% sure. (focal length: 82mm, aperture:
+f=9.0, shutter speed: 1/800s)
+
+
+.. _`Sun Pillar`: http://www.sundog.clara.co.uk/halo/pillar.htm
+

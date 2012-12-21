@@ -1,0 +1,41 @@
+Holmenkollen
+============
+
+.. articleMetaData::
+   :Where: Oslo, Norway
+   :Date: 20060314 1115 CET
+   :Tags: blog, photography
+
+.. image:: /images/content/holmenkollen1.png
+   :align: left
+
+Every year there is a ski jumping event in Oslo, at the Holmenkollen
+venue. As I'm turning more and more Norwegian now (already been here
+for almost two years now) I could not let this slip. So together with
+some folks we drove to Oslo and walked up the hill to the venue. It's
+pretty impressive to see how high this hill they jump off actually is.
+Much more impressive then on TV.
+
+Normally Holmenkollen is always very foggy, but this year there was
+excellent weather: "warm" and sunny. We were a bit early so
+had to wait a bit but atleast there were some performances to get the
+audience going. Amazingly that seemed to work better than I expected.
+
+.. image:: /images/content/holmenkollen2.png
+   :align: left
+
+There were 50 participants and they started in the order they were
+ranked in `FIS`_ ' World
+Championship. After the first round the best 30 continue to the second
+heat where the best one from the first heat is the last man to jump.
+Adam Malysz `won`_ which didn't please the Norwegians too much (best Norwegian was 10th).
+There were a lot of Poles at the event though, and they were ofcourse
+quite happy.
+
+For more photos see my `gallery`_ .
+
+
+.. _`FIS`: http://www.fis-ski.com
+.. _`won`: http://www.fis-ski.com/uk/604/610.html?sector=JP&raceid=1987
+.. _`gallery`: http://photos.derickrethans.nl/holmenkollen
+

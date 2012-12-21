@@ -1,0 +1,87 @@
+Lunar Eclipse
+=============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+.. image:: images/content/moonbig.png
+
+May 16th, time to pick up my old hobby Astronomy again. Finally there was this
+nice opportunity to spot a lunar eclipse, but instead of only looking at it in
+the middle of the night I also decided to try to photograph this event.  But
+looking up the `exposure times`_ on the net I got intrigued by the cycles of
+Lunar (and Solar eclipses).
+
+Where I thought it was just pure luck if the Earth would be happen exactly in
+between the Sun and the Moon (of course I knew that the rotation of the moon
+around the earth, the 'month', has to do with it), it seems that it has nothing
+to do with luck at all. You see, the Moon circles around the Earth, but not in
+the same plane as the Earth circles around the Sun (also called the Eclipta).
+This is why there is not a lunar eclipse every 29.53059 days (also called the
+`Synodic Month`_, which is the time between two new moons). The moon passed
+through the Eclipta every 27.21222 days (also called the `Draconic Month`_).
+When those two cycles are in sync, which happens every 223 Synodic months or
+242 Draconic months, a lunar eclipse can be seen.  This period of 18 years 11
+days and 8 hours is called the `Saros`_. Because there is an 8 hours difference
+between eclipses of the same Saros the eclipses will shift about 120 degrees
+every time. A triple Saros is a period of 54 years and 34 days and produce
+about the same eclipse at the same location.
+
+.. image:: images/content/LE2003May16T.gif
+
+In every Saros there are about 70 to 80 eclipses, a Saros cyclus has a limited
+lifetime because the two cycles of Synodic and Draconic months don't match up
+exactly. This means that during a Saros series eclipses will shift either from
+South to North over the Earth, or from North to South with an average distance
+of about 350 km. But anyway, after all this complex matter it became clear that
+predicting Lunar eclipses (and of course also Solar eclipses) isn't that easy
+at all.  The May 16th, 2003 eclipse was one of `Saros series 121`_, a series
+that will only produce one more total eclipse (on May 26th, 2021).
+
+The diagram on the left shows the times and the path that the Moon follows
+through Earth's shadow. All times are in UTC so that meant that I needed to add
+two hours to these times (my hometown is in GMT+2 during D.S.T.). The Moon
+started to move into Earths Umbra (U1) at 4:02am and for some reason my alarm
+clock even woke me up a few minutes before. For once it was not cloudy at all,
+so I grabbed my camera (Minolta 404) and put my 210mm lens on it. For this
+event I was using a 200 ASA Fujicolor film. (I know, it's not the best one...
+but this happened to be the film in my camera :). After mounting the camera on
+a tripod I started to track the event with my eyes. In the first few minutes
+there was little to see of course so just configured my camera correctly (ie,
+turn off flasher and set the aperture and exposure times). From my previous
+errors with photographing the July 11th, 1999 solar eclipse I decided to
+alternate the settings a bit to have a better chance of making the best picture
+possible.
+
+.. image:: images/content/moon.png
+
+The composition of photos on the right are made at respectively 4:10am, 4:15am
+and 4:25am, all with an aperture of 8 and an exposure time of 1/125 second. I
+continued with taking photographs every 5 minutes, but I somehow set the
+exposure time too short to make the pictures look decent enough. (Also, they
+might have been nice, but they were not printed by the photoshop and I decided
+not to print them all). Because the Moon was setting I was not able to follow
+the progress of the eclipse after 4:43am. The next Lunar eclipse visible in
+Europe will be on Nov 9th, 2003 and should give much better circumstances to
+view the event as the Moon will be about at highest point in the sky when the
+eclipse is full. Totality will only last for 24 minutes though as it's the last
+eclipse in `Saros series 126`_ that will be a total one.
+
+Disclaimer: Most of the data presented on this page where gathered from Fred
+Espenaks excellent `eclipse resource`_ page. Photos are © by `Derick Rethans`_
+and can not be used in print or electronic publishing without written
+permission.
+
+
+.. _`International PHP Magazine`: http://www.php-mag.net/
+.. _`Xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`exposure times`: http://www.mreclipse.com/LEphoto/image/LEexpo.GIF
+.. _`Synodic Month`: http://www.hermit.org/Eclipse/why_months.html#Synodic
+.. _`Draconic Month`: http://www.hermit.org/Eclipse/why_months.html#Synodic
+.. _`Saros`: http://sunearth.gsfc.nasa.gov/eclipse/LEsaros/LEsaros.html
+.. _`Saros series 121`: http://sunearth.gsfc.nasa.gov/eclipse/LEsaros/LEsaros121.html
+.. _`Saros series 126`: http://sunearth.gsfc.nasa.gov/eclipse/LEsaros/LEsaros126.html
+.. _`eclipse resource`: http://sunearth.gsfc.nasa.gov/eclipse/lunar.html
+.. _`Derick Rethans`: /who.php
+

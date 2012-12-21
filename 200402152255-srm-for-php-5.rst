@@ -1,0 +1,17 @@
+SRM for PHP 5?
+==============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040215 2255 CET
+   :Tags: 
+
+I was sick of writing after 7 hours today, so I *needed* to do some
+coding. I started to update the `SRM`_ extension to work with `PHP`_ 5, but it is going to be a
+total rewrite as too many OO related things changed. Nothing in CVS
+yet, and that might take some time too.
+
+
+.. _`SRM`: http://derickrethans.nl/projects.html#srm
+.. _`PHP`: http://www.php.net
+

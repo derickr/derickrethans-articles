@@ -1,0 +1,605 @@
+PHP Look Back 2006
+==================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20070123 2146 CET
+   :Tags: blog, cms, php, work, xdebug
+
+It's the end of the year again, and that means that I (once again) spent
+way too much time writing this wrap up of PHP in 2006. In this, the
+fifth iteration of my annual PHP Look Back, we'll explore the happenings
+of the PHP world in 2006.
+
+Most of my time, in past years, went into figuring out all the links to
+the news server, so I decided to omit these links this year, and
+undoubtedly, readers will be happy with that as well, as it won't take
+up 3 pages of HTML links in *php|architect* . Of course, in the
+cases where I am quoting someone literally, I will still provide a
+link.
+
+As a little disclaimer I would like to mention that this Look Back is
+mostly my own opinion, and it contains my experiences. Some things
+should be taken with a grain of salt.
+
+*January*
+
+Andrew Yochum started the year with a thread on whether we should add a
+new magic method, "__iscallable", as a hint to the engine
+whether a specific method can be called trough the "__call"
+mechanism. Although I think this is a good idea, the discussion
+unfortunately turned to suggest throwing an exception later in the
+"__call()" method whenever a method could not be
+"called" through the "__call()" mechanism.
+
+Tim Starling wrote that PHP 5 has a large refcount value that allows you
+to have more than 65535 references to a variable. (Under
+"reference" we understand a refcount value, that does not
+necessarily mean that the code is using assign-by-reference or userland
+references.) In somewhat extreme cases, it is very easy to overflow this
+internal refcount value in PHP 4, and it is very difficult to track down
+where this might happen in your code. To "fix" the issue, you
+can apply either a patch that increases the refcount data type, or in
+cases where you can not do that, and you want to be able to debug weird
+crashes, I have a patch for PHP 4.4 that tells you when the refcount
+reaches `50000`_ .
+
+Leon Matthews made the suggestion to add "friend classes"
+support to PHP, but most people thought that `"friends ... seemed kind of hackish"`_ (and that's why nobody likes PHP anymore ;-)
+).
+
+`PHP 4.4.2`_ was
+released on January 13th while the rest of the mailing list was still
+discussing "Naming arguments"—the mechanism that allows you
+to remember the name of function parameters, but does not require you to
+remember their specific order. I don't quite understand why others thin
+this is better, though... people also forget that if the internal PHP
+functions are to support this, a lot of APIs need to be changed,
+resulting in a slower PHP, most likely.
+
+In the aftermath of the `PDM`_ , Dmitry
+started a discussion on revamping the internal data types that we will
+have for PHP 6. There will be two types from now on:
+"IS_STRING" for binary data, and "IS_UNICODE" for
+real text.
+
+Marco was falling into the trap that you can not mix pre/post-increment
+with variable use or `assignments`_ . An
+example of this is "$a = 10; echo ++$a + $a++;". Please folks,
+don't try to understand this, as it simply gives undefined behaviour,
+and not `only in PHP`_ . Another more direct remark came from Jani: `"references ARE NOT POINTERS"`_ . Later in the month, someone got brave and
+suggested that we use the "operator" extension to solve
+this... *MADNESS* .
+
+The JSON extension was added to the core distribution, but only after
+the license changed to the "PHP Licence." Another extension, `xmldbx`_ was suddenly
+added to the CVS tree as well, without any discussion up front. The
+author was not aware that *all* new extensions go to PECL first.
+
+There was also a very small discussion ( *AGAIN* ) that attempted
+to invent a new (and ambiguous) syntax to define arrays in PHP.
+
+*February*
+
+Sometimes people are not very happy when you `bogus a bug report`_ , and to show
+this, they write 14 page essays about the "PHP Support" of a
+"respectable company."
+
+Sara suggested the addition of a minor patch to the engine to facilitate
+proper overloading support for the greater-than operator, but
+unfortunately the idea did not make into the engine, yet—maybe for PHP
+6.
+
+Steph started a long thread about "true labeled breaks", which
+are basically a messed up version of a proper goto construct. A big
+"battle" between the people *for* and *against* "labeled breaks" started. This discussion ended up nowhere and
+we had to wait until March for the next iteration of a discussion on
+this topic.
+
+Andi came up with a suggestion about marking PECL modules
+"stable" to "crap/unfinished" and to indicate
+whether there is an active maintainer, etc. In the end nothing was done
+with the extensions, as apparently we think that it is very hard to do
+an audit of all PECL modules; with the possibility this becoming too
+subjective.
+
+Nuno submitted a patch trying to catch segmentation faults, something
+that might sound like a good idea, but it is very hard to do this
+portably—nor can you always do this correctly. I remember trying this
+with SRM some years ago, and all I would get is an infinite loop of
+segmentation faults. The same patch also had an idea for limits in the
+PCRE extension, which made it into PHP 5.2 as a set of INI settings.
+
+There was another idea that suggested we create some sort of stack
+protection to prevent infinite recursion, which is something that `Xdebug`_ has implemented for a few years
+now. In my opinion (and that of others), this does not belong in the
+core, as it is way too tricky and it's pretty hard to guess how many
+stack levels you can go before things start getting hairy.
+
+In the last week of the month, Mike Lively submitted a patch that
+implements "Late Static Binding," something that was also
+discussed at the PDM.
+
+The patch had some technical issues, but there was also some opposition
+from people who didn't understand why this sort of functionality is
+wanted. There was also some opposition from people who attended the
+meeting and had no objections, there. Mike made a second stab at an
+implementation but it was never committed. Please Mike, don't give up!
+
+*March*
+
+At the start of the month, Marcus fixed the issue that prevented users
+from enforcing constructor usage in interfaces. There were some
+questions about the implementation, but everything was fine after all.
+Dmitry thought it was a reply to his slightly earlier (committed) patch
+that implemented "labeled breaks" that would allow you to jump
+out of a break. The syntax looked something like:
+
+::
+
+	Label: while(1) { break Label; }
+
+Many people found this the exact opposite of PHP's normally renowned
+"KISS" approach. Andi then suggested two options: a) forget
+about jumping, completely, or b) implement the real "goto"
+that we already have a patch for. Dmitry increased the number of
+possible options to 4 (1: goto and break label, 2: goto only, 3: break
+label only and 4: nothing). After a vote option 2 was chosen, and
+luckily the idea of calling our "goto" "jump" was
+axed, as well. Now we can finally write nice spaghetti code with PHP!
+
+More things from the PDM where done this month, as well. For example,
+the removal of the notorious "register_globals", and
+"safe_mode" was already axed.
+
+A long standing problem with PHP is its incompatibility with newer
+versions of flex. We only support version 2.5.4 and the latest (2.5.33
+or so) breaks some things that PHP uses (the custom skeleton). Nuno
+forwarded a bug report from the flex project to this extent. In this
+report was the offer to look at this problem together, but this never
+happened. Maybe this should be revisited in 2007?
+
+*April*
+
+In April, some of the PHP developers where contacted by `Coverity`_ about detected defects
+in PHP. The Coverity scans analyze code in order to find (security)
+bugs. Although there where quite a few false positives, the service did
+(and does) help us to squash some bugs.
+
+The old discussion on why "empty", unlike "isset",
+takes only one argument popped up, as well. To summarize it again: if we
+use the same algorithm for "empty()" as we do for
+"isset()", things are unintuitive. "isset()" returns
+true when *all* of its arguments are set, but
+
+"empty()" would be more useful if it returned "true"
+if *any* of its arguments were empty. Because of this
+inconsistency, we're not going to support multiple arguments to this
+language construct.
+
+Rasmus mentioned that Google was doing their `Summer of Code`_ thing again. As
+part of this project, William Candillion was wondering about whether
+PHP's compiler could be changed to use an Abstract Syntax Tree. Dmitry
+responded that the concept wouldn't really work. William later wrote a
+PECL extension to generate such a `parse tree`_ .
+
+Another SoC project that resulted in something useful is the new `GCOV`_ service we now have running for
+the PHP source base. This service checks for memory leaks and code
+coverage, similar to what `PHPUnit`_ does for PHP code.
+
+Meanwhile, Michael Waller reimplemented PHP's output layer with the idea
+of replacing it in PHP 5.2. However, it was postponed for inclusion into
+PHP 6.0 instead, due to the enormous number of changes that it
+entailed.
+
+PHP's reference issues where also still not fully forgotten. Brian Moon
+raised the issue of whether or not it was a good idea to pass the result
+of functions (temp vars) as arguments to other functions that take their
+arguments by reference.
+
+Antony nominated some more extensions for (re)moval to
+Sib"^W"PECL. Steph suggested that we put
+"ext/skeleton" on this list, questioning its validity as a
+skeleton for new extensions. Supposedly, the new "PECL_Gen"
+(now called `CodeGen`_ and `CodeGen_PECL`_ )
+obsoletes this small extension. Many of the developers where against
+this, and only "hwapi" and "filepro" where actually
+moved.
+
+Edin started a (small) discussion on why it was not possible to create
+static class properties on the fly, in a similar fashion to how you can
+create dynamic class variables on the fly. In this discussion, the
+saga-like wars between "strict and proper OO support" and
+"lousy and broken OO support" came back. It was not the last
+time, this year.
+
+*May*
+
+In May, Lukas offered himself to be `PHP 5.2's`_ personal
+secretary and keep track of all the things we needed to do for this
+release. That started a little discussion on how to make PHP 5.2 faster
+again, with some cool new optimization tricks by Dmitry. This turned
+into a new and improved memory manager that made its way into PHP 5.2.
+An unfortunate side effect of this was that it brought up the long
+standing issue of "ifsetor", or, as other people call it,
+"coalesce". A branch for PHP 5.2 was created not much later.
+
+We had a little discussion whether "filter" and
+"json" where going to be enabled by default, it took some time
+to convince Ilia to agree with this.
+
+I got a bit annoyed by some changes in the OO workings that started to
+break some of my (experimental) code. This time somebody committed a
+patch that stopped "abstract static" functions from working.
+(Yes, I know it doesn't make sense to allow this.) Marcus got a bit
+annoyed by people complaining that there are no tests for this kind of
+stuff so that it's hard to see whether things broke, and slammed back
+with a post about PHP being Open Source and how it is free for everyone
+to write test cases.
+
+Ilia summed up two of the bigger "flamewars" (I would prefer
+words "heated discussion"). One of them was about including
+"E_STRICT" and
+
+`E_RECOVERABLE_ERROR`_ into "E_ALL", which was first merged from PHP 6 (HEAD)
+"accidentally" by Marcus. The other discussion was about
+support for dynamic statics, such as:
+
+::
+
+	class foo {} foo::$bar = 1;
+
+Some people where not quite aware what "E_RECOVERABLE_ERROR"
+was actually a demotion of previously fatal "E_ERROR"s, but
+after that was cleared up, the new error level made it into
+"E_ALL". The other two items ("E_STRICT" and dynamic
+statics) were not implemented as discussed.
+
+Another feature suggested this month was "readonly"
+properties. During the PDM, this was already suggested as a new feature.
+Marcus quickly cooked up a patch, but later we found out that it would
+be quite hard to create readonly properties, correctly, because of
+references and splitting and some other stuff.
+
+*June*
+
+Marcus started a longish discussion on how to support objects as array
+indeces. Currently this is not possible, and support for it would not be
+trivial. The conclusion was that if people want to do this, they can use
+the "__toString" magic method and "$a[(string)$obj] =
+'value';"
+
+Dmitry cooked up a patch end the mess that deals with freeing globals
+when modules are unloaded. After some quarelling about whether we want
+it in PHP 5.2 or not, everybody seemed happy and now PHP 5.2 has a
+cleaner method of freeing those pesky globals.
+
+Andrei started on a `new function`_ to "transliterate" strings, and Stefan was
+wondering why there is "No easy installation for users
+anymore?" because of an incorrect flex version. We still only
+support flex 2.5.4 (see April, above).
+
+Daniel wondered how to determine the length of a string in bytes in PHP
+6's unicode strings, which brought up an issue about how useful that
+would actually be. Luckily, there is still a workaround to get to the
+number of bytes a Unicode string takes:
+"strlen(unicode_encode($string, "UTF-16BE"));"
+
+Nuno came up with a patch that should help GCC generate better code by
+providing hints on which code branch is more "important."
+Although most thought that this was a nice idea, many were sceptical
+about the performance boosts it could actually give. It wouldn't make
+the (already somewhat bad) maintainability of the code any better,
+either, and consequently the patch did not make it into CVS.
+
+*July*
+
+Stefan announced a patch for file upload hooks. This patch allows
+extensions to keep track of files being uploaded. Later in the month, he
+committed the patch, ignoring the policy that new features first go into
+HEAD, and then are later merged into branches.
+
+Gwynne, "the daughter of the code" (?), suggested that PHP
+should have a nicer summary of "./configure" output, while not
+going as far as providing all the information that is provided in
+"phpinfo()". Most of us were not in favor of extending the
+extension API to facilitate such a summary, though. Matt W started
+fiddling with the number formatting and reading things in PHP, including
+many optimizations.
+
+Michael suggested three new error handling functions:
+"error_get_last()" to return the last error, and two other
+functions that allow you to retrieve *all* errors, and reset that
+list. Only the first function made it in, and it even works when
+track_errors is disabled.
+
+Ilia announced that he wanted to make the first RC of PHP 5.2, by July
+20, of course that meant that many people wanted to get their features
+in before that time. For example, Dmitry added the new memory manager
+that was discussed in April, we finally got our first `quadrouple pointer`_ —something that is used when parsing a variable list of
+arguments through the internal "zend_parse_parameters" API
+function, and I enabled the new "DateTime" support that had
+been dormant since PHP 5.1. Of course, the usual suspects where not
+happy that this was "sneaked in," and the whole discussion of
+renaming the classes to something extremely silly like
+"PhpDate" just in order to make sure that user applications
+could continue ignoring the recommended naming guidelines. Let me repeat
+it in the words of Rasmus: "...PHP owns the top-level name space,
+but we should use decent descriptive names and avoid any obvious
+clashes." After a number of stupid ideas for names, the new Date
+and Time classes made it in as "DateTime" and
+"DateTimeZone", as Sara humourously `suggested`_ . We sort
+of agreed not to pick very commonly used names, however that didn't stop
+another person from trying to get a class with an ambiguous and wrong
+three letter class name into the core in PHP 5.2.
+
+Marcus and Andrei collaborated on a patch that normalizes and lowercases
+identifiers in the engine. The normalization is needed because of
+various Unicode-related things, the lower casing because PHP's
+identifiers are not case-sensitive, unfortunately.
+
+Richard came up with an idea to allow slightly more variations of the
+names of the PHP ini file. Previously, you could have different php.ini
+files based on the chosen SAPI, but his suggestion added ini separation
+for different versions of PHP. We did not end up applying this whole
+patch, but only the part that allows this sort of selective
+configuration through Windows' registry.
+
+Christian found some issues while using arrays returned by overloaded
+"__get" methods in "foreach()". Suddenly, this
+started throwing fatal errors pointing out that items returned from
+overloaded methods can not be used in write context.
+"foreach()" iterates over the array and therefore has to
+update the internal array pointer—which is a write operation. The
+error was demoted to "E_STRICT", and later it was fixed
+properly in PHP 5.2.1.
+
+John Mertic started work on an brand new installer for PHP on Windows.
+This new installer features a bit more configuration and installation
+through MSI which should make life easier for system administrators on
+that platform.
+
+In the last few days of July, Jani announced that he'd stop contributing
+to the project. For the past 6 years, he has contributed in the form of
+sifting trough the thousands of (bogus) bug reports, and he is the only
+person still familiar enough with the PHP build system. Take care Jani!
+
+Michael started a *big* discussion on the way how we currently deal
+with OO "strictness." Unfortunately, there are a lot of people
+who don't really care about decent OO coding and want to use PHP for
+hacks only without thinking about making life easier for people who want
+to write decent code—where the language helps spot thinking and
+implementation errors whenever you make a mistake. Marcus worded that as
+"I am not going to let people run into problem hell." From the
+way that most of the people that matter replied to the thread, it seems
+that our general course is now to try to be lenient where possible, but
+still warn for OO strictness through "E_STRICT" notices. This
+allows the people that write hacks not to worry, and people that want to
+write quality OO code to still get their warnings/notices when they mess
+up while developing. Zeev describes this paradigm `nicely`_ .
+
+In July, also sort of reached consensus to split "E_STRICT"
+into "E_STRICT" and "E_DEPRECATED"; this has not
+happened yet, but will hopefully make it into PHP 6.
+
+*August*
+
+Unlike July, August was not so much filled with discussions. The only
+things worth mentioning are the inclusion of support for HTTP-Only
+cookies; a discussion on why calling undeclared functions aborts the
+script. There were also a few new releases: 4.4.3, 4.4.4 and 5.1.5.
+
+*September*
+
+The month's discussions were started by Andrei, posting about whether we
+want a per-directory/vhost/script setting to turn Unicode semantics on
+or off, or just per installation. Many of the developers where against
+having a setting that can be turned off on a per-directory/vhost basis
+because it would complicate the already very complex internals of the
+engine even more. Maciej even suggested that we get rid of the whole
+setting as it's bad "to even give the chance of disabling it."
+I actually agree with that, but the consensus turned out to be in favor
+of a per-installation configuration setting only.
+
+Terje suggested we add autoloading for functions, but as Stas explained
+it is going to be a complex task to find which file to load for the
+autoloaded function. As you often group your functions logically into
+some form of module (class), adding support for autoloading functions
+doesn't buy you very much.
+
+Dan started a discussion about ext/filter's API. In the past months,
+many things had been added in a quite inconsistent way, the result of
+Dan's discussion was that we rethought some parts of the API and ended
+up with what we have now.
+
+Another user wondered what was wrong with "dl()". Again it was
+explained that "dl()" would never work in multi-threaded
+environments, and the whole concept of loading and unloading
+".so" files in a Web server process brings problems, as well.
+Because of this, PHP 6 will only support "dl()" in the CLI,
+CGI and embed SAPIs.
+
+The same Terje brought up the issue of type hinted return values, which
+is marked as a todo in the PDM notes. Marcus simply replied that we'd
+get to it when we'd get to it.
+
+The last last thing in September: Christian announced that he wrote ( `an extension`_ that uses the new file upload hooks to allow a meter to
+be displayed to the user. This extension now lives in PECL.
+
+*October*
+
+The "ext/filter" discussion concluded, and the road to PHP
+5.2.0RC5 was free.
+
+We were still discussing the "remove OO strictness" issue, as
+mentioned above. The general conclusion seems to be again that we have
+"E_STRICT" for this, and please, for God's sake, let this be
+the end of it!
+
+Richard was wondering about the default latitude and longitude settings
+that seemed to be pointing at the middle of the Atlantic Ocean. If he
+would have correctly interpreted east and west, he would have noticed
+that the default values are actually for Jerusalem—the original
+implementor of the sunrise functions is from the area. I suggested to
+move the defaults to 59.21 N, 9.608 E instead, but with that I also
+provided the coordinates that can help people bomb my house :). It's a
+good thing that I'm never at home, I guess.
+
+Sebastian did some benchmarking on a lot of different PHP versions,
+compilers and optimization flags. While running his benchmark, he found
+a couple of crashes—but they didn't turn out to be more than simple
+stack overflows. The results of the benchmarks are available `here`_ ,
+and interestingly show that PHP 5.2 is about 3 times faster for many of
+the benchmarks than PHP 4.4.
+
+We also got a new RC for PHP 5.2, the sixth one and Lukas made a last
+plead to reduce some of the new errors in PHP 5.2 to
+"E_STRICT" warnings. This happened in a commit by Ilia.
+However, some people were quite surprised by this commit and another
+lengthy discussion started about this same subject rehashing things, yet
+again.
+
+Richard was then wondering why "mktime(0, 0, 0, 0, 0, 0)"
+generates an "E_STRICT" warning. Actually, this type of
+warning should have been an "E_DEPRECATED" warning instead,
+but that error level doesn't yet exist. Lukas then sent an RFC trying to
+figure out if adding "E_DEPRECATED" into PHP 5.2 was
+feasible—but that would only have meant delaying it, again. "Not
+going to happen" was the release master's (Ilia's) comment on that
+one. In a longer post, he explained it a bit better, luckily.
+
+*November*
+
+Just before 5.2.0 was finally released, there was a post by a user that
+the new "DateTime" class is breaking his application. Rasmus
+was swift to reply with: "More people had one named Date, so we
+changed it from Date to DateTime. You are going to have to change yours.
+Sorry."
+
+After PHP 5.2.0 was released, Dmitry committed a patch that fixed
+several internal errors related to arrays and the "__get()"
+method. Unfortunately his patch broke quite a bit of code and the error
+was demoted to an "E_STRICT" warning—which was still
+annoying enough and I kept on bugging Dmitry to fix it properly. That
+has happened now, and the fix will make it into PHP 5.2.1.
+
+After speaking with Rasmus and Andrei in Paris about the binary cast
+operator, I submitted a patch that backported the (binary) cast to PHP
+5.2.x in order to make migrating to PHP 6.0 easier for users. Not
+everybody was happy with that, but in the end everyone saw the light. I
+overlooked the "b""" type strings, however, but Matt
+submitted a patch to fix this, a bit later in the month.
+
+Although PHP 6 might breaks some applications, the goal is to make
+applications written for PHP 5.1/PHP 5.2 work as much as possible,
+without any real issues. From my own `experience`_ that seems to be
+working fine, so far.
+
+Hannes suggested a patch that implements type hinting for scalars. I
+already wrote a quick patch for `that`_ during the NYPHP conference in June. This time, the response wasn't so
+pleasant either.
+
+We also had an interesting discussion about the behavior of the
+"fgets()" function. At the moment it accepts a parameter that
+tells the function how many characters (bytes) shall maximally be
+returned. There is one catch, however: the documentation on this
+function reads "From the number you pass shall be subtracted one,
+one shall be subtracted from the number and not null or two." When
+upgrading this function Sara "quasi-intentionally" fixed this
+behavior. The "fix" was reverted because BC even prevails in
+cases where it does not matter—sigh.
+
+Dmitry was wondering whether we should support array dereferencing on
+functions' return values—such as "echo foo()[4];". Although
+it does look like a good idea up front, we found out that this might
+have some "interesting" implications and it was not added in
+the end.
+
+Oh yeah, we also discussed namespaces again.
+
+*December*
+
+Lukas started with a post wondering about APC's "inability" to
+work with autoload. His thoughts came from statements made by Rasmus
+about how you will not get the full performance out of an opcode cache
+when you use autoload as classes have to be re-initialized at every
+request, and as they are conditionally included. In other words, APC
+works fine, but it's just a bit slower when you use autoload.
+
+There were two different threads about how variables are destroyed when
+dealing with circular references. At the moment, PHP's memory manager
+will not free this type of variable as it does not know which one to
+free first—it's the traditional egg-and-chicken problem. In somewhat
+larger applications (or unit test suites—hint hint), this can cause a
+problem as memory is not adequately freed. Solving this is unfortunately
+a major task, and I hope that in the next year we can have a good look
+at possible solutions for this issue.
+
+Ilia suggested we move a couple of extensions to PECL because they are
+no longer maintained. One of the extensions he brought up for removal
+was the COM extension, which seems to have quite a bit of issues
+(according to the bug tracker). There were quite a few people that
+disagreed with the move, and suggested that we try to find a new
+maintainer for this extension. The mhash and sockets extensions were,
+however, moved to PECL.
+
+As PHP 5.2 now always has memory limit enabled (since PHP 5.2.1), Dmitry
+raised the default memory limit value to 128MB the memory limit would
+now be enabled for everyone. This also makes people on Windows happy as
+they previously had to build PHP themselves in order to have memory
+limit supported.
+
+The single biggest discussion of the month (and actually year) was on
+Wietse's proposal for taint-mode support in PHP. I did not find the time
+to go through the whole discussion so you would have to read it yourself
+if you're interested in all the different opinions.
+
+As part of some closer working relations with Microsoft, Andi suggested
+we drop support for Windows 98 and ME in order to use more advanced
+Windows APIs. Those versions of Windows are no longer supported by
+Microsoft anyway, so we didn't see any reasons why we would still have
+to do so.
+
+On the last day of the year, Kevin suggested we include the fileinfo in
+the core. This has been on my list for quite some time as well, as it's
+in my (and others) opinion extremely important that a language used for
+the Web can correctly detect file types. A slightly annoying point
+however is that the fileinfo extension requires a database file and in
+order to bundle it with the core distribution, we should get rid of this
+dependency (and compile it into the binary, just like the timezone
+database).
+
+*2007*
+
+That was it for this year. I hope that I didn't miss any important
+discussions in this wrap up. Have a good 2007!
+
+
+.. _`50000`: http://files.derickrethans.nl/patches/refcount-overflow-check-2006-11-06.diff.txt
+.. _`"friends ... seemed kind of hackish"`: http://news.php.net/php.internals/21478
+.. _`PHP 4.4.2`: http://www.php.net/release_4_4_2.php
+.. _`PDM`: http://php.net/~derick/meeting-notes.html
+.. _`assignments`: http://news.php.net/php.internals/21578
+.. _`only in PHP`: http://en.wikipedia.org/wiki/C_syntax#Undefined_behavior
+.. _`"references ARE NOT POINTERS"`: http://news.php.net/php.internals/21584
+.. _`xmldbx`: http://news.php.net/php.cvs/36657
+.. _`bogus a bug report`: http://bugs.php.net/36249
+.. _`Xdebug`: http://xdebug.org
+.. _`Coverity`: http://scan.coverity.com/
+.. _`Summer of Code`: http://code.google.com/soc/
+.. _`parse tree`: http://pecl.php.net/package/Parse_Tree
+.. _`GCOV`: http://gcov.php.net
+.. _`PHPUnit`: http://phpunit.de
+.. _`CodeGen`: http://pear.php.net/codegen
+.. _`CodeGen_PECL`: http://pear.php.net/codegen_pecl
+.. _`PHP 5.2's`: http://oss.backendmedia.com/PhP52
+.. _`E_RECOVERABLE_ERROR`: http://derickrethans.nl/erecoverableerror.php
+.. _`new function`: http://www.gravitonic.com/blog/archives/000157.html
+.. _`quadrouple pointer`: http://news.php.net/php.zend-engine.cvs/5087
+.. _`suggested`: http://news.php.net/php.internals/24719
+.. _`nicely`: http://news.php.net/php.internals/25165
+.. _`an extension`: http://pecl.php.net/package/uploadprogress
+.. _`here`: http://sebastian-bergmann.de/archives/634-PHP-GCC-ICC-Benchmark.html
+.. _`experience`: http://ez.no/ezcomponents
+.. _`that`: http://derickrethans.nl/typehints_for_scalar_types.php
+

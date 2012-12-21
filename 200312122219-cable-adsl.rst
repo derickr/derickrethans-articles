@@ -1,0 +1,14 @@
+Cable -> ADSL
+=============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20031212 2219 
+   :Tags: 
+
+I finally got my ADSL which makes it possible to get rid of my
+sucky cable connection from Chello. Cheers to `XS4ALL`_ for the speedy delivery!
+
+
+.. _`XS4ALL`: http://www.xs4all.nl/
+

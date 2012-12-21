@@ -1,0 +1,13 @@
+Why OO sucks...
+===============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040416 0906 CEST
+   :Tags: php
+
+`Bloat!`_
+
+
+.. _`Bloat!`: http://www.phppatterns.com/index.php/article/articleview/103
+

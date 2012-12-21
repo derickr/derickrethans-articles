@@ -1,0 +1,19 @@
+Red Moon-set
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050420 2118 CEST
+   :Tags: photography
+
+.. image:: /images/content/moon-red.png
+   :align: center
+   :target: http://photos.derickrethans.nl/moon/aas
+
+When I had to go to the toilet this night at 5am, I noticed a very red
+moon that was about to set behind the roof tops. I quickly took some
+shots - unfortunately none of them are very sharp - I really need to get
+some decent equipment for this :).
+
+
+

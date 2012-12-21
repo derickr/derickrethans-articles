@@ -1,0 +1,97 @@
+Mongo is dead, long live MongoClient
+====================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-11-27 15:09 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: mongoclient
+
+This afternoon we published_ version 1.3.0 of the MongoDB PHP driver.
+Besides a number of bug fixes
+since RC2 and RC3, this new release also includes a new ``MongoClient`` class.
+This new MongoClient_ class serves as a replacement for the 
+``Mongo`` class. The old ``Mongo`` class is now deprecated and will be
+removed in a future release, although we are keeping it in place for now
+because of backwards compatibility reasons. We have already removed it mostly from the
+documentation, and are working to update all our other material as well.
+
+All of the other MongoDB_ drivers are making a similar change.
+
+Now, you may be wondering why we are replacing ``Mongo`` with ``MongoClient``
+across the board.  The biggest reason is that the new class will have
+**acknowledged** writes on by default—or expressed in deprecated wording:
+**MongoClient has safe mode on by default**. We are moving away from the word
+*safe* though, mainly because the definition of the word has very little to
+do with its meaning in the MongoDB context.  Your data is perfectly safe without
+safe mode on as well (in fact, that is what journaling is for). The *safe*
+option determined whether or not the driver would wait for the MongoDB server
+to acknowledge a write operation.
+
+Together with the addition of the ``MongoClient`` class we will
+deprecate the *safe* option to methods handling writes, such as
+MongoCollection::`insert()`_, MongoCollection::`update()`_, and others. We do
+provide a new way of controlling how the driver waits for the server
+to acknowledge writes (or not). The connection string now supports the
+``w`` option, which you can use as shown in the following examples:
+
+ - Turning off acknowledged writes:
+
+   ``$m = new MongoClient('mongodb://localhost/?w=0');``
+
+ - Turning on acknowledged writes (the default): 
+
+   ``$m = new MongoClient('mongodb://localhost/?w=1');``
+
+ - Turning on replica set acknowledged writes:
+
+   ``$m = new MongoClient('mongodb://localhost/?w=2');``
+
+Setting ``w`` in the connection strings makes that the default *write
+concern* for any write operation. You can of course override this per
+write operation as well, by specifying the ``w`` option::
+
+	<?php
+	$m = new MongoClient('mongodb://localhost/');
+	/* By default writes are now acknowledged */
+	$m->demoDb->collection->insert(
+		[ 'client' => 'awesome' ], // ← document
+		[ 'w' => 0 ]  // ← don't acknowledge writes for this insert
+	);
+	?>
+
+If the server acknowledges that the write operation could *not* succeed,
+for example when you have a duplicate ``_id`` key violation, then the
+driver will throw a `MongoCursorException`_. The driver uses
+acknowledged writes by default with ``MongoClient``, which means you are
+required to handle the cases where the write did not succeed and the
+exception is thrown::
+
+	<?php
+	$m = new MongoClient('mongodb://localhost/');
+	try
+	{
+		$m->demoDb->collection->insert( [ '_id' => 'awesome' ]);
+	}
+	catch ( MongoCursorException $e )
+	{
+		echo $e->getCode(), ': ', $e->getMessage(), "\n";
+	}
+	?>
+
+You can either retry the write yourself, or not, depending on the reason
+why the write did not succeed. In case of a duplicate key violation, you
+probably do not want to retry. In case a connection could not be made,
+you probably do want to retry (after a certain timeout).
+
+So to repeat our major change:
+**The new MongoClient class uses acknowledged writes by default**.
+
+.. image:: /images/content/elephpant-ice.jpg
+
+.. _published: http://groups.google.com/forum/?hl=en_US&fromgroups=#!topic/mongodb-announce/Oc6UkdvPcvM 
+.. _MongoDB: http://mongodb.org
+.. _`MongoClient`: http://php.net/manual/en/class.mongoclient.php
+.. _`insert()`: http://php.net/manual/en/mongocollection.insert.php
+.. _`update()`: http://php.net/manual/en/mongocollection.update.php
+.. _`MongoCursorException`: http://php.net/manual/en/class.mongocursorexception.php

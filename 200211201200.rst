@@ -1,0 +1,42 @@
+Pasta alla Carbonara
+====================
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+Here is a recipe for a simple but delicious meal: Pasta alla Carbonara.
+This special version is compiled by Jani Taskinen:
+
+*Sniper's Pasta alla Carbonara*
+
+Ingredients:
+
+
+- spaghetti (enough for persons eating)
+- egg yolts (2 per person)
+- dized smoked bacon
+- sliced leek
+- crushed, chopped garlic (if you like it, a lot of it)
+- grated fresh parmesan cheese
+- olive oil
+- black pepper
+- salt
+- cream
+
+
+
+Steps to prepare it:
+
+- Cook spaghetti in salted water (don't cook it too soft..al dente)
+- While cooking spaghetti, fry the bacon, onion, leek
+- When pasta is ready, dry it, add some olive oil and mix
+- Mix the bacon, onion, leek, crushed sliced garlic and some
+  parmesan with the spaghetti (optionally 1dl of cream too)
+- Add some black peppar and depending on your taste, some salt
+- Add the egg yolts, mix and serve immediately.
+  (with some parmesan tossed on top)
+
+Bon appetit!
+
+.. _`PHP Magazine`: http://www.php-mag.net/
+

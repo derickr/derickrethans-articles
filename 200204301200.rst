@@ -1,0 +1,103 @@
+Mail etiquette
+==============
+
+.. articleMetaData::
+   :Where: Dieren, The Netherlands
+
+The use of e-mail is a skill that many people don't master. By writing e-mail
+to me, and to other persons, they manage to annoy me, piss me of and even
+insult me just by not thinking on how the reciever of the e-mail might percieve
+it.
+
+Take for instance the *subject* in email messages. Gore didn't invent
+that so that it just can be ignored. USE it, damnit! Message with no subjects
+move to /dev/null immediately and I tend to ignore message with stupid subjects
+like 'reminder' or 'urgent: I need this' or 'help' or '[customername]'. This
+won't help me finding back a message between 500 others. Subjects should be
+short, descriptive and help me find things back. For example '[customer] has
+called, please call back' or 'problems with connection to the database' are
+just fine. Some people, especially co-workers, just don't understand this, even
+after saying around 50 times how to do it.
+
+Well after the subject *appealed* me, and the message didn't end up in
+/dev/null, I get severly annoyed by messages like:
+
+::
+	
+	Please call [customer] back.
+
+
+That is without greeting, without providing information who called me, what
+(s)he wanted and signature. This kind of stuff doesn't help me at ALL! Be
+spefic in email so that I can prepare myself calling back. Something like this
+would be fine:
+
+::
+	
+	Hello,
+	
+	[customer] called and asked what the status of his site is. Please call him
+	back.
+	
+	[co-worker-name]
+
+
+This message looks nice, provides information, and I know who I can kick if
+the information was not correct.
+
+I love messages in all *caps*. This is the fastest way to delete your
+message. It is rude and NOBODY REALLY LIKES TO READ TEXT IN ALL CAPS. I just
+got this email:
+
+::
+	
+	PLEASE WEEK 14 UNTIL 17
+	
+	I AM WAITING ON IT
+	
+	AFZ [name]
+
+
+and this from a chick who needs something from me. Well, if you need something
+from me she should use: a. A subject, b. NO FRICKING CAPS, c. Be patient. I have
+more to for other customers which pay better.
+
+This brings me on the next subject, *patience*. Don't ever expect me to
+write back within 5 minutes. I won't ever answer you immediately, unless 1. i'm
+having an email conversation with you, 2. it's very urgent, 3. you're an
+extremely hot chick. Message with the words 'urgent', 'fast', and 'now' in it
+only annoy me and cause me to respond much later, or even never. Sending the
+same message twice, or with the word 'reminder' in it won't help. I hate this!
+
+Okay, that was some ranting about content of emails, but there is more! Like
+*auto-responders*. I really don't appreciate receiving an 'I got your
+message' email without useful information in it 10 seconds after I send you
+a message. Just answer me, doesn't need to be NOW, but telling me you got my
+message only wastes bandwidth.
+
+*Replying* to emails is a special profession too. If you reply to my
+emails:
+
+*Don't delete* ALL my text and show me only your response. I forget things
+and retaining the relevent original parts of my message eases processing your
+reponse a lot.
+
+Be *relevent* to the original email if you retain the same subject line.
+It's much easier to seperate different discussions if the subject is different.
+Mixing different subjects in an email is also a big no-no.
+
+The last thing I want to rant about is that you need to *tell who you are*.
+Nothing is more annoying than having to guess who you are. Thus, set your 
+mailer to use your FULL name. I know 20 Eric's so specify which one you are.
+Names like 'info' don't help me either. Also, set your From: address correctly
+so that I can reply by pressing 'reply' in my mailer and don't have to search
+for your email addres and type it in manually. If you are too lazy to write
+your email addres down, then I'm as lazy too.
+
+This concludes my ranting about email, the best way is: 'Use common sense' and
+try not to piss me off. That won't help you getting a response.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`PHP 4.2.1RC1`: http://www.php.net/~derick/
+

@@ -1,0 +1,17 @@
+Motorschau
+==========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20031206 2300 
+   :Tags: 
+
+Today I went with some friends to visit the Motorschau in Essen,
+Germany. On this fair the car manufacturers show their newest
+models, and also you can find all kinds of tuning gear. Not exactly
+the things I find very intersting, but it's always fun to go
+something like this with friends. For photos, see `here`_ .
+
+
+.. _`here`: http://photos.derickrethans.nl/motorschau
+

@@ -1,0 +1,17 @@
+Job Change
+==========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040102 2022 CET
+   :Tags: 
+
+.. image:: /images/ez.png
+   :align: left
+
+From January 5th 2004 I will be working with `eZ Systems`_ , the Norwegian company that
+develops eZ Publish.
+
+
+.. _`eZ Systems`: http://ez.no
+

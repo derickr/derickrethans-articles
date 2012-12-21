@@ -1,0 +1,99 @@
+New in Xdebug 2.2: Colours on the command line
+==============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-03-21 09:43 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: clicolor
+
+This is the first article in a series about new features in Xdebug_ 2.2. Besides
+support for PHP 5.4, there are a few that might be of interest.
+
+Xdebug has overloaded `var_dump()`_ with `xdebug_var_dump()`_ for a long time
+and the overloaded function could be configured with a few configuration
+settings.  There is `xdebug.var_display_max_data`_ to configure how much of a
+string should be shown; `xdebug.var_display_max_children`_ to configure how
+many children in an array should be shown and `xdebug.var_display_max_depth`_
+to configure how many levels "deep" the ``var_dump()`` should go on for.
+This functionality was available for when PHP had its `html_errors`_ setting
+on as is usually the case in a web environment[1]_.
+
+.. _`var_dump`: http://php.net/var_dump
+.. _`xdebug_var_dump`: http://xdebug.org/docs/all_functions#xdebug_var_dump
+.. _`xdebug.var_display_max_data`: http://xdebug.org/docs/display#var_display_max_data
+.. _`xdebug.var_display_max_children`: http://xdebug.org/docs/display#var_display_max_children
+.. _`xdebug.var_display_max_depth`: http://xdebug.org/docs/display#var_display_max_depth
+.. _`html_errors`: http://www.php.net/manual/en/errorfunc.configuration.php#ini.html-errors
+
+Xdebug 2.2 adds this same functionality to the non-HTML environment: the
+command line. Now the overloaded ``var_dump()`` and native ``xdebug_var_dump()``
+functions also accept the three aforementioned settings::
+
+	derick@whisky:~$ php \
+		-dxdebug.var_display_max_data=8 \
+		-dxdebug.var_display_max_children=4 \
+		-r 'var_dump( "a longer string", array( 1, 2, 3, 4, 5, 6, 7 ) );'
+
+outputs::
+
+	string(15) "a longer"...
+	array(7) {
+	  [0] =>
+	  int(1)
+	  [1] =>
+	  int(2)
+	  [2] =>
+	  int(3)
+	  [3] =>
+	  int(4)
+
+	  (more elements)...
+	}
+
+Now, to be fair. This is all a side effect; and merely an add-on to a patch
+by `Michael Maclean`_. He wrote a patch_ that adds colours to the output
+on the command line by using `ANSI escape codes`_. This patch also made
+the overloaded ``var_dump()`` listen to the limiting settings for variable
+display. After his patch, the following was the behaviour on the command line
+as long as stdout_ is a tty_ and `xdebug.cli_color`_ is set to ``1``.
+
+.. image:: /images/content/cli-color-linux.png
+
+I have extended this so that the settings regarding data display also work
+without ``xdebug.cli_color`` set to ``1``. Further more, in `Xdebug 2.2.0RC1`_,
+setting ``xdebug.cli_color`` to ``2`` forces the colours from being shown,
+even if stdout is not a tty.
+
+Initially, the colour coding of errors and ``var_dump()`` output, would only
+work on a Unix system where ANSI escape codes are commonly supported. After the
+release of Xdebug 2.2.0RC1, `Chris Jones`_ submitted a `bug report`_ suggesting
+that this functionality could also be available on the Windows console. I
+wasn't aware that Windows could do this anymore since they dropped `ANSI.SYS`_
+but apparently there is a tool, ANSICON_, that reimplements this. From the next
+release, Xdebug 2.2.0RC2, Xdebug will now also check whether the ``ANSICON``
+environment variable is set, just like Xdebug would check whether stdout is a
+tty on a Unix platform. As a result, the equivalent console output as shown
+before looks like the following on Windows (providing ANSICON is installed):
+
+.. image:: /images/content/cli-color-windows.png
+
+Now the only thing left is adding complete documentation for this feature ;-)
+
+As always, if you think Xdebug is a valuable tool, have a look at
+http://xdebug.org/buy-support.php.
+
+.. _Xdebug: http://xdebug.org
+.. _`Michael Maclean`: http://mgdm.net
+.. _patch: https://github.com/mgdm/xdebug/commit/23c5739ee923938aba0c029d3971db563cb43606
+.. _stdout: http://en.wikipedia.org/wiki/Stdout#Standard_output_.28stdout.29
+.. _tty: http://en.wikipedia.org/wiki/Tty_%28Unix%29
+.. _`xdebug.cli_color`: http://xdebug.org/docs/display#cli_color
+.. _`Xdebug 2.2.0RC1`: http://xdebug.org/updates.php#x_2_2_0rc1
+.. _`ANSI escape codes`: http://en.wikipedia.org/wiki/ANSI_escape_code
+.. _`Chris Jones`: http://heyleek.com
+.. _bug report: http://bugs.xdebug.org/view.php?id=794
+.. _`ANSI.SYS`: http://en.wikipedia.org/wiki/ANSI_escape_code#Windows_and_DOS
+.. _ANSICON: http://adoxa.3eeweb.com/ansicon/
+
+.. [1]: Except for in PHP 5.3, where this sadly was turned off by default.

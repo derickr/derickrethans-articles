@@ -1,0 +1,25 @@
+Xdebug 2.0.0RC3
+===============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20070131 2059 CET
+   :Tags: blog, cms, php, xdebug
+
+.. image:: /images/content/xdebug_logo.png
+   :align: left
+
+I
+just released `Xdebug`_ 2.0.0RC3
+through the `web site`_ and also
+through `PECL`_ . This
+hopefully last release candidate of Xdebug 2.0.0 addresses a number of
+segfaults and other small bugs that crept in in Xdebug 2.0.0RC2.
+
+Now is the time to test :-)
+
+
+.. _`Xdebug`: http://xdebug.org
+.. _`web site`: http://xdebug.org
+.. _`PECL`: http://pecl.php.net/package/Xdebug
+

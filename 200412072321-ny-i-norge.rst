@@ -1,0 +1,16 @@
+Ny i Norge
+==========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20041207 2321 CET
+   :Tags: work
+
+After staying for a couple of months as 'tourist' in Norway, I am
+now formally allowed to live and work here for the next five years. Yippie!
+
+.. image:: /images/content/norge.jpg
+   :align: center
+
+
+

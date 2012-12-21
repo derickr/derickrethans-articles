@@ -1,0 +1,23 @@
+Dutch "iPOD" tax
+================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050429 1049 CEST
+   :Tags: php, politics
+
+The Dutch "Stichting Thuiskopie" got totally out of their
+mind. They're proposing to tax digital music players with €3.28 per GB
+because they can be used to store *pirated* music. I've always found the
+tax on empty CD stupid as hell because it also taxes people who just use
+empty CDs to make backups - but asking €3.28 per GB is a bit too
+bloody much. Especially also because if you buy music from iTunes, you
+already *pay* for the copyright.
+
+This so-called tax is to compensate "artists" for people who
+make copies of copyrighted works but this same organization claims it's
+illegal to copy... really really strange. See also the article at `The Register`_ .
+
+
+.. _`The Register`: http://www.theregister.co.uk/2005/04/27/netherlands_ipod_tax/
+

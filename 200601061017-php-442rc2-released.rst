@@ -1,0 +1,20 @@
+PHP 4.4.2RC2 Released
+=====================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20060106 1017 CET
+   :Tags: php, work
+
+Yesterday I `released`_ PHP 4.4.2RC2, which should be the final release candidate for PHP
+4.4.2. The major fixes in this release will be the problems with `current() and key()`_ , the problem
+with Apache 2 subrequests and we modified the behavior of `header()`_ so that it does not allow
+more than one header to be set at once. This prevents header injection.
+Please `test`_ !
+
+
+.. _`released`: http://news.php.net/php.qa/26633
+.. _`current() and key()`: http://bugs.php.net/35063
+.. _`header()`: http://php.net/header
+.. _`test`: http://php.net/~derick/
+

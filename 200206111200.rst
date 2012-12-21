@@ -1,0 +1,26 @@
+LinuxTag und earth displacements
+================================
+
+.. articleMetaData::
+   :Where: Between Duisburg and Emmerich, Germany
+
+After a four day visit in Karlsruhe to attend LinuxTag and doing sessions on
+PHP, it was time to go home. With the nice ICE train nach Holland... no
+problem. Well.... it became a problem when some hill near Koblenz started a
+life on it's own and decided to break the traintrack.
+
+This situation made me miss the ICE connection in Cologne to my hometown. We
+could get as far as Duisburg by "normal" trains, but from there the only
+possibility was go by a stop train to Emmerich. Luckily the guys of the german
+rail corporation were so nice to figure out cabs to Arnhem; but that's still
+not were I needed to go to. At the moment the estimated arrival time in
+Emmerich is 0.25, the last train in Arnhem going to my town leaves at 0.30. But
+every rocket scientist can figure out that it's going to take more than 5
+minutes to go from Emmerich to Arnhem by taxi.
+
+When we reached Emmerich I got my sister to get me from the trainstation in Arnhem
+at 1.30am, so I actually made it home that evening (around 2)
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+

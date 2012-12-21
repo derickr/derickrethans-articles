@@ -1,0 +1,32 @@
+Xdebug 2.1.0beta2 released
+==========================
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 2010-02-03 18:51 Europe/London
+   :Tags: blog, php, xdebug, extensions
+
+I've just released Xdebug 2.1.0beta2 which features a few small bug fixes only.
+With this release the Windows 5.3/VC6 binaries also return. 
+
+One of the bug fixes is in a new feature that allows you to configure that the
+debugger should connect back to the IDE running on the machine that initiated
+the HTTP request. This feature, that originally was contributed by Lucas Nealan
+and Brian Shire of Facebook, allows more easy use of multiple IDEs (users)
+working on the same code base. In order to enable this, set
+`xdebug.remote_connect_back`_ to 1. See the documentation for more information.
+
+Of course, this feature should only be enabled if *nobody* besides authorized
+developers can access the machine on which the xdebug.remote_connect_back
+callback feature has been enabled. Instead of enabling this setting, you can
+also support multiple developers through the proxy functionality that the DBGp
+protocol supports. For more information on that, see `Debugging with multiple
+users`_.
+
+You can find the full changelog here_ and get the latest version from the
+`download page`_.
+
+.. _`Debugging with multiple users`: http://derickrethans.nl/debugging-with-multiple-users.html
+.. _`xdebug.remote_connect_back`: http://xdebug.org/docs/all_settings#remote_connect_back
+.. _here: http://xdebug.org/updates.php#x_2_1_0beta1
+.. _`download page`: http://xdebug.org/download.php

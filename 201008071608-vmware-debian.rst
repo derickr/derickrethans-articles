@@ -1,0 +1,99 @@
+VMWare on Debian Unstable
+=========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2010-08-07 16:08 Europe/London
+   :Tags: blog, php, vmware, linux
+
+In the past week I've been doing some work on the `MongoDB PHP Driver`_, and
+while running the test cases I noticed that there are some issues with
+it when you run out of disk space. It's sadly hard to reproduce so I set out
+to create a VMWare image for the MongoDB developers to reproduce this issue.
+
+Compiling the kernel modules
+----------------------------
+
+However, since a while my VMWare install had some issues I decided to re-install
+it. I'm on Debian unstable with kernel 2.6.32 and on this platform the
+VMWare 2.0.2 distribution has issues with compiling the VMWare kernel modules
+during the ``vmware-config.pl`` stage. 
+
+In order to address this, I had to do the things below.  Please note that I've
+installed VMWare into ``/usr/local`` instead of the default ``/usr``, so adjust
+the paths accordingly. The steps are (as root)::
+
+	cd /tmp
+	wget http://derickrethans.nl/files/vmware-server.2.0.1_x64-modules-2.6.30.4-fix.patch
+	wget http://derickrethans.nl/files/vmware-7.0-2.6.32.patch
+	mkdir tmp-vmware-modules
+	cd tmp-vmware-modules
+	cp /usr/local/lib/vmware/modules/source/*.tar .
+	for i in *tar; do tar xvf $i; done
+	for i in *tar; do mv $i old-$i; done
+	patch -p0 < /tmp/vmware-server.2.0.1_x64-modules-2.6.30.4-fix.patch 
+	patch -p1 < /tmp/vmware-7.0-2.6.32.patch
+	for i in *only; do j=`echo $i | sed 's/-only//'`; tar cvf $j.tar $i; done
+	cp *.tar /usr/local/lib/vmware/modules/source
+	vmware-config.pl
+
+The first patch I found on the VMWare communities_ site (do *not* use the
+``vmware-server.2.0.1_x64-modules-2.6.30-fix.sh`` file that's listed there!).
+The second patch I found at http://communities.vmware.com/message/1401588
+(again, do not use the ``patch-modules.sh`` script).
+
+VMWare Web Access
+-----------------
+
+With this, I could get VMWare started, but unfortunately the web access
+interface through http://192.168.42.34:8333 gave as error "503 Service
+Unavailable Error". After a bit looking around, I found out that this is
+caused by IPv4/IPv6 compatibility issues. Drixter_ posted a very simple
+solution to this issue. Simply add ``-Djava.net.preferIPv4Stack=true``
+in ``/etc/init.d/vmware-mgmt`` to the line (line 678 for me) starting with
+``webAccessOpts="-client``. I've added it just before ``-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager``
+so that the full line now reads::
+
+	webAccessOpts="-client -Xmx64m -XX:MinHeapFreeRatio=30 -XX:MaxHeapFreeRatio=30 -Djava.net.preferIPv4Stack=true -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.endorsed.dirs=$CATALINA_HOME/common/endorsed -classpath $CATALINA_HOME/bin/bootstrap.jar:$CATALINA_HOME/bin/commons-logging-api.jar -Dcatalina.base=$CATALINA_HOME -Dcatalina.home=$CATALINA_HOME -Djava.io.tmpdir=$CATALINA_HOME/temp org.apache.catalina.startup.Bootstrap" 
+
+Arrow keys in the client
+------------------------
+
+With this sorted out, I created a new VMWare image to install Linux.
+Unfortunately while trying to do so, I noticed that my arrow keys weren't
+working (which makes it rather difficult to select options). Through
+http://ubuntuforums.org/showthread.php?t=967530 I found out that you need to
+make some changes in ``/etc/vmware/config`` for this. It is important that you
+do this on the *client* side, and not on the server side where your VMWare
+Server instance is running. You need to add the following lines (or create the
+file if it doesn't exist yet) to ``/etc/vmware/config``::
+
+	xkeymap.keycode.108 = 0x138 # Alt_R
+	xkeymap.keycode.106 = 0x135 # KP_Divide
+	xkeymap.keycode.104 = 0x11c # KP_Enter
+	xkeymap.keycode.111 = 0x148 # Up
+	xkeymap.keycode.116 = 0x150 # Down
+	xkeymap.keycode.113 = 0x14b # Left
+	xkeymap.keycode.114 = 0x14d # Right
+	xkeymap.keycode.105 = 0x11d # Control_R
+	xkeymap.keycode.118 = 0x152 # Insert
+	xkeymap.keycode.119 = 0x153 # Delete
+	xkeymap.keycode.110 = 0x147 # Home
+	xkeymap.keycode.115 = 0x14f # End
+	xkeymap.keycode.112 = 0x149 # Prior
+	xkeymap.keycode.117 = 0x151 # Next
+	xkeymap.keycode.78 = 0x46 # Scroll_Lock
+	xkeymap.keycode.127 = 0x100 # Pause
+	xkeymap.keycode.133 = 0x15b # Meta_L
+	xkeymap.keycode.134 = 0x15c # Meta_R
+	xkeymap.keycode.135 = 0x15d # Menu
+	xkeymap.keycode.107 = 0x137 # Print Scrn
+
+Don't forget to restart the client though!
+
+With all those three things sorted out, it's time to see if I can reproduce
+the original MongoDB PHP Driver issue...
+
+.. _Drixter: http://drixter.e-utp.net/2010/06/19/vmware-server-2-na-linuxie/
+.. _`MongoDB PHP Driver`: http://github.com/mongodb/mongo-php-driver
+.. _communities: http://communities.vmware.com/thread/215985?start=0&amp;tstart=0

@@ -1,0 +1,99 @@
+Derick's MongoDB tour
+=====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-08-20 09:12 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: mongotour
+
+It has been a while since I have written anything. In the last few months I
+have been busy rewriting the connection handling parts of the `MongoDB driver`_
+for PHP. The next post will go deeper into that, and what else will be new
+in version 1.2 of the driver. Anyway.
+
+Some time ago, my friend `Ligaya Turmelle`_ suggested that I should come and
+talk at the `JaxPHP/JaxWeb`_, the PHP and web developers usergroup in
+Jacksonville, Florida. And while I was there, why not visit a few other user
+groups too?
+
+At all the meetups, 10gen_ (my employer) has kindly provided some swag - and
+rumours go that I get to buy you guys and girls a drink as well.
+
+In the end, after discussing with other web/PHP usergroups in the South
+East of the US, we came to the following schedule:
+
+.. image:: /images/content/mongo-tour.png
+   :align: left
+
+**Boca Raton, Florida - SoFloPHP - Tuesday, September 18**
+
+The first stop is the South Florida group (SoFloPHP`_) in Boca Raton. On the
+evening of the 18th, I will introduce MongoDB for PHP developers:
+
+*This talk introduces MongoDB for developers who aren't familiar with it with a
+detailed introduction of how to work with MongoDB from PHP.  The talk will
+cover the basics from installing the PHP driver and connecting to mongoDB to
+creating, inserting, querying for, and updating documents. We will also briefly
+touch on aggregation, geospatial indexes, GridFS and running database
+commands.*
+
+I will focus on schema design and indexes, although I will also quickly cover
+the basics.
+
+**Orlando, Florida - The Orlando PHP User Group - Wednesday, September 19**
+
+After South Florida I will be making a stop at the `Orlando PHP`_ User Group.
+The abstract:
+
+*This talk introduces MongoDB for developers who aren't familiar with it
+through a detailed introduction of how to work with MongoDB from PHP. Derick
+will cover the basics: from installing the PHP driver and connecting to a
+MongoDB server to creating, inserting, querying, and updating documents.  He'll
+also cover some accepted best practices in schema design and indexing.*
+
+There is also a related MongoDB event in Orlando, on September 6th there is
+an `evening with MongoDB`_.
+
+**Jacksonville, Floria - JaxPHP/JaxWeb - Thursday, September 20**
+
+The third stop is in Jacksonville. In Jacksonville, the presentation will
+not be very PHP specific, and members of other user groups are most welcome
+to attend as well. You can RSVP at http://mongodb-jax.eventbrite.com/, and
+more information is available on the JaxPHP/JaxWeb website__.
+
+As other user groups are invited as well, I will keep my presentation as
+language agnostic as possible, and focus on schema design and indexing.
+
+**Atlanta, Georgia - Atlanta PHP User Group - Friday, September 21**
+
+I then leave Florida and head to Atlanta to talk at the `Atlanta PHP`_ User
+Group. In Atlanta, I will give a similar presentation as at the other user
+groups.
+
+**Nashville, Tennessee - Nashville PHP User Group - Monday, September 24**
+
+In Nashville, I will speak after the weekend at the `Nashville PHP`_ User Group.
+In this location, my talk focusses on:
+
+*Derick will be giving an introductory presentation covering the do's and
+don'ts, best practices and design schemas for MongoDB.*
+
+**Holiday!**
+
+After the five user group appearences, I head to the North West of the USA
+for some R&R - after three weeks on the road (I speak at PFCongres_ before
+traveling to the USA) - I think I will need one!
+
+.. _`MongoDB driver`: http://pecl.php.net/mongodb
+.. _`Ligaya Turmelle`: http://www.khankennels.com/blog/
+.. _`JaxPHP/JaxWeb`: http://www.meetup.com/JaxPHP-JaxWeb/
+
+.. _SoFloPHP: http://www.soflophp.org/events/71930042/
+.. _`Orlando PHP`: http://www.meetup.com/OrlandoPHP/events/73968932/
+.. _`evening with MongoDB`: http://www.meetup.com/OrlandoPHP/events/75843562/
+__ http://www.meetup.com/JaxPHP-JaxWeb/events/63085372/
+.. _`Atlanta PHP`: http://meetup.atlantaphp.org/events/73155922
+.. _`Nashville PHP`: http://www.nashvillephp.org/events/67112052/
+.. _10gen: http://10gen.com
+.. _PFCongres: http://pfcongres.com/

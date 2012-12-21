@@ -1,0 +1,56 @@
+Providing Support
+=================
+
+.. articleMetaData::
+   :Where: Arhnem, The Netherlands
+
+Following up on my ranting about users and developers I now want to discuss
+the meaning of 'User Support' a litte.
+
+With Open Source projects the gap between developers and users if very small.
+Users can interact with the devs very easily, as devs tend to write their
+e-mail address in credit files to show their ego as much as possible.
+Unfortunately this brings also a non-pleasent side effect: users mailing devs
+directly with support questions.
+
+Most of these emails are either ignored, or replied upon with a pointer to a
+mailinglist. The reason of this is that either 1. the question is waaay too
+stupid, 2. the user didn't RTFM\*, 3. the user is just too lazy to
+try things on his own or 4. the message is written in a language they dont understand.
+
+To make sure a dev even thinks of helping you out you need to follow a few
+basic rules:
+
+*THINK* before you decide to bully a developer. Nothing is more annoying
+than a simple question of which the answer is written on the first page of
+the user manual. The response to these kind of questions will be mostly 'RFTM', or it will just be ignored.
+
+Try to find the *correct* developer for your question. Asking questions
+about Windows to a Unix guru isn't going to help, it only makes your support
+question move faster to /dev/null\*\*.
+
+Write in the *correct language*. If you are not sure which language is
+the most compatible with a dev, try English. Without the correct language, the
+dev won't be able to read your mail, and thus not respond to it.
+
+*Be nice*. We are not paid to do support, but ofcourse you can bribe us
+with `gifts`_
+The nicer the gift, the faster we respond. Also you can buy us something nice
+after we helped you. If you take in mind the few guidelines I wrote down here,
+make sure you follow the `e-mail etiquette`_ ask your
+question in a nice way and show that you thought about the problem yourself,
+then you will see that most devs will help you gladly. Though don't expect us
+to help, as we may be short on time, or just don't feel to answer your
+questions right away. Good luck with seeking support!
+
+\*RTFM: Read The F(ine)|(ucking) Manual.
+
+\*\*/dev/null: the place where nothing comes out after it has been
+put in.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Jani's CVS access isn't removed`: http://marc.theaimsgroup.com/?l=php-cvs&m=102034571103298
+.. _`gifts`: http://www.amazon.co.uk/exec/obidos/registry/SLCB276UZU8B
+.. _`e-mail etiquette`: http://www.derickrethans.nl/20020430.php
+

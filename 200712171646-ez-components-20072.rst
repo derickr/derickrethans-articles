@@ -1,0 +1,37 @@
+eZ Components 2007.2
+====================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20071217 1646 CET
+   :Tags: cms, php, work
+
+.. image:: /images/content/logo-indigo-150x91.png
+   :align: left
+   :target: http://ezcomponents.org
+
+Today we released
+the next version of `eZ Components`_ . In this release, there are two new components.
+
+*Tree* : This component enables you to create, manipulate and query
+tree structures. There are several back-ends available, each with
+different performance-related properties. There are two tie-ins for this
+extension: TreeDatabaseTiein stores tree structures in a database
+(recommended) and TreePersistentObjectTiein enables you to store the
+data belonging to the tree structure as a persistent object.
+
+*Webdav* : The Webdav component enables you to easily set up a
+WebDAV-enabled HTTP server. Users can then create and edit site content
+by uploading and downloading files to and from their desktop. The
+current implementation is compatible with RFC 2518. It also supports
+clients that do not conform to the standard and provides an interface to
+support these clients. This component does not have any other
+dependencies besides PHP (and the required extensions), nor does it
+require any Apache modules.
+
+For the full thing, see the `release announcement`_ .
+
+
+.. _`eZ Components`: http://ezcomponents.org
+.. _`release announcement`: http://ezcomponents.org/resources/news/news-2007-12-17/
+

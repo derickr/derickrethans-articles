@@ -1,0 +1,17 @@
+MySQL 5 is out
+==============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20051024 1526 CEST
+   :Tags: php, work
+
+`MySQL`_ 5 seems to be out. I
+wanted to see what is new, but apperently the link on their main page
+just links to a `page where you need to log-in`_ to download some White Paper. This is
+silly, this documentation should be a normal web page.
+
+
+.. _`MySQL`: http://www.mysql.com/
+.. _`page where you need to log-in`: http://www.mysql.com/why-mysql/white-papers/mysql_wp_inside50.php
+

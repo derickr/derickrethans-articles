@@ -1,0 +1,22 @@
+ApacheCon
+=========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050718 1402 CEST
+   :Tags: cms, conference, php, travel, work
+
+Tomorrow I'll be traveling to Stuttgart to speak at `ApacheCon Europe`_ . I
+will have two presentations, one on "Localization and
+Internationalization" and another one on the improved Date &
+Time support in PHP 5.1.1. I hope I don't have as much problems going to
+Stuttgart as `Ken`_ or `myself last time`_ .
+
+Presentation slides will be online at the `talks page`_ as soon as the presentations are done.
+
+
+.. _`ApacheCon Europe`: http://apachecon.com/2005/EU/index.html
+.. _`Ken`: http://ken.coar.org/burrow/index.html?entry=1513
+.. _`myself last time`: /linuxtag_not_today.php
+.. _`talks page`: /talks.php
+

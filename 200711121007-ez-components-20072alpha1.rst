@@ -1,0 +1,33 @@
+eZ Components 2007.2alpha1
+==========================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20071112 1007 CET
+   :Tags: cms, php, work
+
+.. image:: /images/content/logo-indigo-150x91.png
+   :align: left
+   :target: http://ezcomponents.org
+
+We've just released the first alpha version of the new eZ Components
+release, for which the full version is due to be released somewhere next
+month. There are two new components, but also many improvements to
+existing components. The new components are:
+
+Tree, which handles the creating, manipulating and querying of tree
+structures. The component supports different storage algorithms for
+optimal performance. There are two tieins for this component,
+TreeDatabaseTiein, providing functionality to store tree-data in a
+database, and TreePersistentObjectTiein, providing data storage in the
+form of persistent objects.
+
+Webdav, which allows you to set up and run your own WebDAV (RFC 2518)
+server, to enable online content editing for the users of your system
+through the WebDAV HTTP extension.
+
+You can find the full announcement `here`_ .
+
+
+.. _`here`: http://ezcomponents.org/resources/news/news-2007-11-12
+

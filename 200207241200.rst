@@ -1,0 +1,36 @@
+ActiveState Awards
+==================
+
+.. articleMetaData::
+   :Where: Groessen, The Netherlands
+
+Apperently I've won the `ActiveState Activators' Choice Award`_
+together with Jani.
+*"The Active Awards are presented annually, to honor members of the open source
+community who actively contribute to open languages and display excellence in
+their programming efforts. Programmers' Choice Award winners were nominated
+and chosen by the open source community. Activators' Choice Award winners were
+chosen by ActiveState's development team".* The reason they posted for awarding
+me and `Jani`_ was this:
+
+	Derick is heavily involved in developing processes for QA and Release
+	Management, and Jani has been one of the largest contributors to QA and support
+	of the Bug database. The contributions of these two PHP developers towards the
+	progress and quality of PHP over the past year has been outstanding. They
+	deserve the ActiveAwards for their relentless work in an area that is often
+	difficult and unending.
+
+	-- http://www.activestate.com/Corporate/Awards/ActiveAwards.html
+
+Right, working on QA and bughunting is not always difficult, but it is
+certainly unending, but that's normal for such an moving target
+as `PHP`_. Luckily PHP is getting more and more stable in 
+spite of the `Security Update Release`_
+that was recently issued. Lets go for PHP 4.3.0 now!
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`ActiveState Activators' Choice Award`: http://www.activestate.com/Corporate/Awards/ActiveAwards.html
+.. _`Jani`: mailto:sniper@php.net
+.. _`Security Update Release`: http://www.php.net/release_4_2_2
+

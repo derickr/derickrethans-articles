@@ -1,0 +1,15 @@
+two megabit
+===========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040128 2311 CET
+   :Tags: 
+
+.. image:: /images/2mbit.png
+   :align: left
+
+Wee, free upgrade to 2mbit... now I need to figure out what to do with it ;-)
+
+
+

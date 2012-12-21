@@ -1,0 +1,18 @@
+Sun and Moon
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050715 2241 CEST
+   :Tags: photography
+
+.. image:: /images/content/astronomy/fingers-of-god.png
+   :align: center
+   :target: http://photos.derickrethans.nl/asmosphere/aat
+
+.. image:: /images/content/astronomy/moon-in-clouds.png
+   :align: center
+   :target: http://photos.derickrethans.nl/moon/aay
+
+
+

@@ -1,0 +1,13 @@
+RSS 2.0 feed
+============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040408 2133 CEST
+   :Tags: blog
+
+I finally converted my `RSS feed`_ to RSS 2.0.
+
+
+.. _`RSS feed`: http://derickrethans.nl/rss.xml
+

@@ -1,0 +1,29 @@
+Xdebug 2.0.0RC2
+===============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20061224 1600 CET
+   :Tags: php, xdebug
+
+.. image:: /images/content/xdebug_logo.png
+   :align: left
+
+This
+second (and hopefully last) Release Candidate comes just before
+Christmas as some form of present I guess. There are not many new things
+in this version but there are lots of bug fixes. The display of stack
+traces has been optimized a bit more, you can find a screen shot of that
+here below. Instead of showing the full path and function arguments it
+instead shows only the file name, and the type of argument. If you hover
+your mouse of the items the full path and full variables' contents
+appear.
+
+.. image:: /images/content/stacktrace3b-thumb.png
+   :align: left
+   :target: /images/content/stacktrace3b.png
+
+(Click to see the full version)
+
+
+

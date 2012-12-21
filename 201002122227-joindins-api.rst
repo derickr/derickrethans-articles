@@ -1,0 +1,90 @@
+Joind.in's API
+==============
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2010-02-12 22:27 Europe/London
+   :Tags: blog, php, conference, talks
+
+I speak at many conferences_ and more and more of those conferences are using a
+service called `joind.in`_. The joind.in website allows attendees of
+conferences to leave feedback for the speakers, organisers and sponsors. For me
+as a speaker_ this feedback by attendees is very important (as long as the
+comments are constructive). I use those comments to tweak and improve my
+presentations if I give them at a later moment.
+
+The joind.in website also provides an API_ that allows you to talk to the
+service from other applications and sites. I've now integrated this in my site
+(at the talks_ page). It uses `JQuery's ajax`_ functionality to talk to the
+backend which queries (and caches) the joind.in API requests. In order to make
+API calls, you need to make POST requests to a specific URL. The URL depends on
+what type of object you want to use. For example, there is
+``http://joind.in/api/talk`` for requesting information about talks, and
+``http://joind.in/api/user`` for fetching information about users.
+
+Requests can be either made in XML, or with JSON. A simple example to request
+all comments for a specific talk can be done with something like::
+
+	<?php
+	$id = 1240;
+
+	$requestData = <<<ENDD
+	{"request":{
+	    "action":{
+	        "type":"getcomments",
+	        "data":{"talk_id":$id}
+	    }
+	}}
+
+	ENDD;
+
+	$data = do_post_request(
+		'http://joind.in/api/talk',
+		$requestData,
+		'Content-type: application/json'
+	);
+	foreach( json_decode( $data ) as $comment )
+	{
+		/* ... */
+	}
+	?>
+
+
+The ``do_post_request()`` code I lifted from `Wez'`_ page, and looks like::
+
+	<?php
+	function do_post_request($url, $data, $optional_headers = null)
+	{
+		$params = array(
+			'http' => array(
+				'method' => 'POST',
+				'content' => $data
+			)
+		);
+		if ( $optional_headers !== null) {
+			$params['http']['header'] = $optional_headers;
+		}
+		$ctx = stream_context_create( $params );
+		$fp = fopen( $url, 'rb', false, $ctx );
+		$response = stream_get_contents( $fp );
+		return $response;
+	}
+	?>
+
+I am also fetching the full name for each user. Because this could mean that I
+have to do a lot of requests I am caching them with eZ Components' Cache_
+component.
+
+You can see the code operational on the talks_ page, by clicking on
+the little joind.in logo after each talk that is on the site. If JavaScript is
+disabled, the logo turns into a link that takes you to the joind.in site
+with all the comments.
+
+.. _conferences: http://derickrethans.nl/talks.html
+.. _`joind.in`: http://joind.in
+.. _speaker: http://joind.in/user/view/30
+.. _API: http://joind.in/api
+.. _talks: http://derickrethans.nl/talks.html
+.. _`JQuery's ajax`: http://api.jquery.com/category/ajax/
+.. _`Wez'`: http://netevil.org/blog/2006/nov/http-post-from-php-without-curl
+.. _Cache: http://ezcomponents.org/s/Cache

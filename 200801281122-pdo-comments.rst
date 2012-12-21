@@ -1,0 +1,117 @@
+PDO comments
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20080128 1122 CET
+   :Tags: blog, php, politics
+
+I've been quiet so far about the PDO/CLA issues because I wanted to
+think a bit more about it so the reply would not be an impulsive one. I
+am `copying`_ it here for
+additional comments:
+
+*-*
+
+I've been deliberating looking at all the comments regarding PDO2 and
+the CLA proposal to allow for some more thinking-before-writing. My
+first impression was not much unlike Pierre's though. Now that I have
+spend some time thinking about it, I am replying with my thoughts and
+comments. They are my *personal* thoughts on this and can not be
+attributed to any other entity.
+
+First of all, it's good that some attention is give to PDO. PDO is
+useful, but also has many rough edges in the ways that it behaves
+different depending on different database connection libraries. This is
+highly annoying, even more because it's not really documented. Anything
+to improve this is good, and support from the vendors themselves
+definitely would help here. However, love to PDO should be given in a
+similar way as to the rest of PHP. I disagree, but understand, how PDO2
+got started. It's not that much an issue to start with a small group to
+talk about certain new things, but it should have been possible for
+other people to join as well.
+
+The outcome of this process is however what went into the wrong hole for
+me. From the start with Wez' commit to create a closed off module in *our* CVS repository I was skeptical. I've now seen the proposed
+CLA and PDO license and it seems my scepticism is justified. PHP has
+been an Open Source project for more than 10 years now, and I've spend a
+good deal of my spare time in the last 6 years on it. Never was there
+any need for a CLA although there were some minor IP related issues
+which got cleared up pretty quickly. It happens, and a CLA can *not* prevent this. An example here is that when one of the
+CLA-signed PHP developers talks at a conference with another person
+(that did not sign the CLA) on some PDO related issues, the ideas that
+this other person brings up can not be used as it's not own
+contribution. This effectively stops discussing relevant technical
+issues with peers at conferences for example. I know the CLA only talks
+about actually stuff that makes it in (into the spec or code), but can
+you really rightfully claim it your contribution if somebody else
+suggested it orally? Another issue here is that we can't really have a
+public bug tracker for PDO where people can put in patches. The PDO
+developers (that signed a CLA) can not even look for issues as they
+might be tainted with evil patches. This practise is in spirit against
+Open Source as we've been practising it in the PHP project.
+
+For now this CLA is only covering PDO, but once this precedence is set,
+it can easily expand over the rest of PHP as "it works fine for
+PDO". Another expansion could easily turn a CLA into an NDA if you
+really make it look black.
+
+Another issue I see with the CLA is the patent clause. Where I live
+(Norway) and where I've lived (The Netherlands, Italy) there are no
+software patents. The practise does simply not exist, and for good
+reasons. Thoughts are free, and should stay free. It's absurd that
+trivial patents such as amazon's "One click patent" are even *considered* to be granted. Because software patents are such a
+moronic thing I would never agree to sign anything that mentions that I
+"warrant that the submission of My Contribution will include
+accurate details of" "related patents" "of which I
+am aware off". Although the FAQ writes that we're not expected to
+do a patent search, nothing is done to prevent the litigation against
+individual contributers in case their contribution *was* to be
+covered by a US software patent. This CLA does not give this protection
+to the contributors that is mentioned in the FAQ. It merely serves the
+interests of the big vendors which have 10.000s of patents themselves.
+In order to do real good for Open Source, those patents should be
+provided to the Open Source community free-of-charge. When IBM, MS and
+other big ones (Sun, here is your chance) provide their patents
+portfolio to Open Source projects other companies will think twice
+before trying to sue PHP (or their contributors) for patent
+infringement.
+
+Besides some of the more legal issues, I've also concerns about
+developer interest in maintaining, or contributing, towards CLA covered
+bits of code. For eZ's projects we also have a CLA. There have been a
+few occasions where this CLA prevented people from contributing code.
+This is not what Open Source is about. It's not only about being able to
+use code freely, it's just as much as making it easy to contribute back.
+A CLA hinders this process, even more in the cases where simple updates
+(API changes in PHP f.e., proto updates, operating system support
+improvements) can not be done by every PHP contributor because they
+didn't sign a CLA. I do know that there were not many contributors
+actually looking at PDO before, but I think that has no influence on
+whether a CLA is good or not. I think the lack of developers is more
+because of the mostly (undocumented) complex workings of the extension
+and its drivers.
+
+Besides this, the PHP project is *our* project, and if the big
+vendors want to make money through the PHP project by making PHP connect
+to their products better, I don't see why they should not follow *our* rules instead of dictating their own. There have been plenty
+of occasions as well where code (tests, fixes) were already contributed
+by either IBM and Oracle anyway.
+
+I also have an issue with the license for the PDO parts. Although the
+FAQ writes correctly that there are some parts of PHP that do not fall
+under the PHP License, all of those parts have not been written *for* the PHP project specifically - they were always adopted from
+other sources. PDO is part of the PHP project, and should therefore not
+come with its own license that has to be OSI approved again.
+
+I hope that I didn't forget anything in this longish email, but it
+should be clear that I'm totally against having a CLA on any part of
+PHP.
+
+regards,
+
+Derick
+
+
+.. _`copying`: http://news.php.net/php.pdo/24
+

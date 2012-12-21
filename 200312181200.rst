@@ -1,0 +1,60 @@
+MTU
+===
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+Since a week or so I have an ADSL connection by `XS4ALL`_ because I was so sick
+of having too much trouble with my cable connection. The installation went
+pretty fast and everything worked fine after (ab)using an extra DSL splitter as
+inline low-band filter for another telephone in the house. This is not really
+supported, but it works quite fine as described `here`_.
+
+There was one problem that I couldn't figure out though. Some sites,
+including my Internet banking, a TV Guide site and the service site of
+XS4ALL where unable to show me any reply to my HTTP requests. I could
+see with tcpdump that the three way handshake worked fine, but after
+that no data came back to me (some information has been removed to
+make it look better on the site):
+
+::
+	
+	:22.073702 kossu.41688 > website.http:
+		S 4228908137:4228908137(0) win 5840
+	:22.106315 website.http > kossu.41688:
+		S 2750130311:2750130311(0) ack 4228908138 win 5792 (DF)
+	:22.107974 kossu.41688 > website.http:
+		. ack 1 win 5840
+	:22.109591 kossu.41688 > website.http:
+		. 1:501(500) ack 1 win 5840 
+	:22.110054 kossu.41688 > website.http:
+		P 501:548(47) ack 1 win 5840
+	:22.339458 kossu.41688 > website.http:
+		. 1:501(500) ack 1 win 5840
+	:22.799424 kossu.41688 > website.http:
+		. 1:501(500) ack 1 win 5840
+
+
+But then after a tip from Stefan Esser, which told me that it could
+be a problem with the MTA or something and other sites totally
+disabling ICMP to negotiate a new MTU, I found something interesting
+in the output of tcpdump:
+
+::
+	
+	:25.559806 fw > kossu: icmp:
+		website unreachable - need to frag (mtu 500) [tos 0xc0]
+
+
+I was wondering why the hell the MTU would be "500" as the default
+for Ethernet is 1500 iirc. Then I remembered that I changed this a
+couple of weeks before because of problems with my Chelloween
+connection and apparently I forgot to change it back. Issuing
+"ifconfig eth0 mtu 1500" made everything work perfect again so I can
+finally enjoy the full power ofmy DSL line.
+
+.. _`Xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`XS4ALL`: http://www.xs4all.nl/
+.. _`here`: http://www.fwiarda.com/adsl/
+

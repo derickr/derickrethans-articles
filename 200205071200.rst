@@ -1,0 +1,49 @@
+Freedom
+=======
+
+.. articleMetaData::
+   :Where: Groessen, The Netherlands
+
+I don't know exactly what to say, I'm stunned, perplexed and confused.  Why
+would somebody slaughter another for his ideas. Of course this happens in
+Banana republics, but not in Europe. If you have no clue what I'm talking
+about, `Pim Fortuyn`_, leader of the far-right wing
+party 'Lijst Fortuyn' was shot yesterday after having an interview on Dutch
+radio. Although his ideas where controversional, and he didn't offer real solutions
+for the policital problems he addressed, killing him just before the national
+elections for the parliament makes no fucking sense.
+
+One day before The Netherlands celebrated 'Liberation Day', with as motto
+'Freedom needs good listening' to stress the importance of free speech. Free
+speech is the base of a democracy, but even at the same location of the
+biggest festival around Liberation Day there where organised individuals
+trying to make the following point: 'Banning discrimincation is more
+important as the right on Free Speach'. At that time, two days ago, I thought
+about this statement, and it has a point. But how far should you go with that,
+Should you arrest people who shout 'gay!' at another person? Should you arrest
+people who shout 'weisses niggah' at people of Turkish nature? Should you arrest
+people who shout 'yo stupid niggah'? It's very hard to draw a line here, and I
+think that's something that should be seen per incident.
+
+`Pim Fortuyn`_ made some (in my opinion) too right-wing
+statements like 'I think 16 million Dutchmen are about enough - this is a full
+country' and calling the Islamic culture 'stupid'. But this still doesn't
+warrant killing him, this is supposed to be a free country. And his ideas
+appealed a lot of people here, his party (which didn't exist until 4 months
+ago) would have gained around 20 of the 150 seats in parliament with next
+weeks elections. The killing of Pim by a 33 year old ultra-left guy will have
+quite a lot of impact on Dutch politics. They are speaking of postponing
+elections for some time, and the security of politicians will be increased.
+But in my opinion this is not the worst thing that will happen, the point lies
+in killing politicians to make sure they can not express their ideas anymore.
+It was a black day in Dutch politics yesterday, and perhaps a black day for
+modern democracy in general. All in all Pim's dead will have a big impact on
+politics here in the Netherlands, but I hope this deed will be not be followed
+by more.
+
+Rest now Pim.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Pim Fortuyn`: http://news.bbc.co.uk/hi/english/world/europe/newsid_1971000/1971423.stm
+

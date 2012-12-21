@@ -1,0 +1,19 @@
+Xdebug 2.0.0beta1
+=================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040915 1502 CEST
+   :Tags: php, xdebug
+
+I just released `Xdebug`_ 2.0.0beta1 which has a lot of new features such as an improved `profiler`_ ,
+better tracing capabilities, support for the `DBGp`_ debugger
+protocol and much more. See `the updates page`_ for
+more information.
+
+
+.. _`Xdebug`: http://xdebug.org
+.. _`profiler`: http://xdebug.org/docs-profiling2.php
+.. _`DBGp`: http://xdebug.org/docs-dbgp.php
+.. _`the updates page`: http://xdebug.org/updates.php
+

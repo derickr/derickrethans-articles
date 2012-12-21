@@ -1,0 +1,16 @@
+Slides
+======
+
+.. articleMetaData::
+   :Where: Toronto, Canada
+   :Date: 20040924 1242 EDT
+   :Tags: php, work
+
+I put the slides for my `php|works`_ presentations
+online: `Multi-lingual development`_ and `Xdebug`_ .
+
+
+.. _`php|works`: http://phparch.com/phpworks/
+.. _`Multi-lingual development`: http://www.derickrethans.nl/files/wereldveroverend-phpworks04.pdf
+.. _`Xdebug`: http://www.derickrethans.nl/files/xdebug-phpworks04.pdf
+

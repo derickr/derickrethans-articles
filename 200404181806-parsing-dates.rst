@@ -1,0 +1,30 @@
+Parsing dates
+=============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040418 1806 CEST
+   :Tags: php
+
+For some reason I started maintaining PHP's `strtotime()`_ function, which
+parses a strings containing a date/time representation, such as
+"2004-04-18 17:59 CEST", "April 18, 2004" and the like. With so
+many different formats one guy in the past crafted a parser for
+this basing the syntax on `GNU tar`_ . The original function had some problems, or was missing
+some formats (such as the highly useful ISO 8601 formats) and
+during time this original parser was extended. it might have been a
+nice and simple bison parser, with a hand craften lexer, but I can
+assure you that it is now shitty, buggy and totaly unmaintainable.
+Nobody knows what formats it's supposed to parse either.
+
+With those four problems in my head I decided to redo this shitty
+old and messy parser by using re2c to do the parsing. Their is a
+problem though as I don't know which format it's supposed to parse
+at all (except the GNU tar things and ISO 8601 stuff) so I'm asking
+you guys which formats it should be able to parse, and which
+formats you already parse with the strtotime() function.
+
+
+.. _`strtotime()`: http://php.net/strotime
+.. _`GNU tar`: http://www.gnu.org/software/tar/manual/html_chapter/tar_7.html
+

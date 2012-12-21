@@ -1,0 +1,28 @@
+Xdebug on github
+================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2011-06-22 21:47 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-github
+
+I've just opened my Xdebug_ repository_ on github_. Importing my old
+SVN repository was a bit of a task. With the help of Ole Marius Smestad
+I managed to cook up a bash script to import and fix-up the repository.
+In the meanwhile I've learned more about git than I ever wanted to know,
+but still not enough. I maintain that, although git is very powerful,
+it is also a lot less intuitive than SVN (or even CVS).
+
+In any case, Xdebug is now on github, as well as the Xdebug website_
+(http://xdebug.org), my proof-of-concept debugging client GtkDBGp_ and
+the specification of the protocol that Xdebug uses: DBGp_. The issue tracker is
+still at the old location—http://bugs.xdebug.org—and I am not intending to
+change that.  I will keep the SVN repository active for now.
+
+.. _Xdebug: http://xdebug.org
+.. _repository: https://github.com/derickr/xdebug
+.. _github: https://github.com
+.. _website: https://github.com/derickr/xdebug.org
+.. _GtkDBGp: https://github.com/derickr/gtkdbgp
+.. _DBGp: https://github.com/derickr/dbgp

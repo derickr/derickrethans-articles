@@ -1,0 +1,38 @@
+Autumn Plans
+============
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 20090914 1326 BST
+   :Tags: blog, openmoko, php, work, xdebug
+
+I've been missing-in-action on my own blog for some time. Moving to
+London does that to you. Anyway, I've not been idle in the meanwhile at
+all, and been working on some cool side-projects. First of all I've been
+adding some features to `Xdebug`_ .
+Xdebug is now slow reaching beta-status for the 2.1 release. New feature
+will include proper PHP 5.3 support, variable tracing,
+"scream" support and other minor features.
+
+Besides Xdebug I've also been hacking on PHP-GTK applications for my `phone`_ . The
+major new thing that I have now is a PHP-GTK twitter client that works
+like I want it... and I even use it on my desktop instead of all the
+other stuff that's out there. I will soon be publishing this client in
+my CVS repository.
+
+Now that the conference season is starting again I'm working on
+improving several talks, as well as rewriting some parts for them. The
+first conference that I will be speaking at, are part of `"Marco's Crazy PHP Conference Tour"`_ aka `CodeWorks`_ .
+I'll be giving three different talks here, one on "Debugging with `Xdebug`_ ", one on PHP's `DateTime support`_ and one on
+"Improving your development process" where I'll be talking
+about Test-Driven Development and other tricks associated by running a
+project. As CodeWorks is a bit like a rock-star tour, I'll be keeping a
+video blog of it somewhere on the intertubes.
+
+
+.. _`Xdebug`: http://xdebug.org
+.. _`phone`: http://wiki.openmoko.org/wiki/Main_Page
+.. _`"Marco's Crazy PHP Conference Tour"`: http://mtabini.blogspot.com/
+.. _`CodeWorks`: http://cw.mtacon.com
+.. _`DateTime support`: http://phpdatebook.com
+

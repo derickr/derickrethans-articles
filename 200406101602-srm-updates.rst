@@ -1,0 +1,18 @@
+SRM Updates
+===========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040610 1602 CEST
+   :Tags: php, work
+
+Finally some time to work on `SRM`_ again. At `work`_ we're looking into using SRM for eZ
+publish to speed up general initialization and object creation and
+this required some more stability in SRM. And that's the reason
+why I replaced the semaphore based locking with message queues to send and
+receive events from the Bananas. More will follow!
+
+
+.. _`SRM`: http://derickrethans.nl/projects.html#srm
+.. _`work`: http://ez.no
+

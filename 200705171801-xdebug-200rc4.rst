@@ -1,0 +1,22 @@
+Xdebug 2.0.0RC4
+===============
+
+.. articleMetaData::
+   :Where: Chicago, US
+   :Date: 20070517 1801 CDT
+   :Tags: php, work, xdebug
+
+I just published `Xdebug 2.0.0RC4`_ ,
+which fixes a lot of bugs and also changes some behavior. There are two
+major changes that needs some introduction. The first one is that the
+profiler_output_name and trace_output_name settings no longer accept
+simple values such as "crc32", but instead now accept
+different format specifiers, very similar to `printf`_ () and `strftime`_ () modifiers. This will
+show up in the `newly organized documentation`_ very soon as well.
+
+
+.. _`Xdebug 2.0.0RC4`: http://xdebug.org
+.. _`printf`: http://php.net/printf
+.. _`strftime`: http://php.net/strftime
+.. _`newly organized documentation`: http://xdebug.org/docs
+

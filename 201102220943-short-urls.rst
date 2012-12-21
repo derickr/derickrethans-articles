@@ -1,0 +1,103 @@
+Short URLs
+==========
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2011-02-22 09:43 Europe/London
+   :Tags: blog, php, opensource
+   :Short: shrturl
+
+When using twitter, or other mobile devices where space is a premium, it is
+quite common to use shortened URLs. Many people will not be keen on typing
+http://www.openstreetmap.org/?lat=51.5073&lon=-0.1278&zoom=14&layers=M, and
+will prefer something like http://osm.org/go/euu4gY@w- instead [#]_.
+
+The URLs for my articles are automatically generated from the title. There
+is a little function that uses translit_'s *transliterate()* function
+to ASCII-ify the titles. It transforms for example "pfcongrez, P2P Конференция,
+php|tek, PHP Vikinger, DPC and eZ Conference and Awards" to
+"pfcongrez-p2p-konferenciya-phptek-php-vikinger-dpc-and-ez-conference-and-awards"
+with code similar to::
+
+    $titleShort = transliterate( $fullTitle,
+        array(
+            'cyrillic_transliterate', 'lowercase_latin',
+            'normalize_ligature', 'diacritical_remove',
+            'normalize_punctuation', 'remove_punctuation',
+            'spaces_to_underscore', 'compact_underscores'
+        ),
+        'utf8', 'us-ascii'
+    );
+
+.. _translit: http://derickrethans.nl/projects.html#translit
+
+However,
+http://derickrethans.nl/pfcongrez-p2p-konferenciya-phptek-php-vikinger-dpc-and-ez-conference-and-awards.html
+is hardly a short URL. What we want is something short and descriptive. First
+of all, I thought it would work to generate short URLs automatically, following
+the following algorithm:
+
+ #. Strip out all chars that are not ``A-Z``, ``a-z``, ``0-9``, ``.``,
+    space and ``-``.
+ #. Split the title up in words, splitting on space.
+ #. If the sanitized URL is shorter than 14 chars: join the words back together
+    with a "-", otherwise:
+ #. Loop over each word, replacing each word with the first letter of the word,
+    unless it is one of the important words (such as "php" or "xdebug").
+ #. Add a marker for the date, to ensure that short URLs are unique. The date
+    marker is generated like:
+
+    #. Format the date as ``two digit year``, ``ISO week`` and ``ISO weekday``
+    #. Convert the created number to base 36 with::
+
+       php -r "echo date_create( '20090410' )->format( 'yWN' );"
+       09155
+
+       php -r 'echo base_convert("09155", 10, 36), "\n";'
+       72b
+
+Our long title from above, then turns into ``pp-p-php-vdaecaa-72b``. Although
+relatively short, it is still not a descriptive URL. To be honest, it's a bit
+difficult to come up with a short, descriptive URL for this title, so let us
+examine another one, of a more recent post.
+
+The title "64-bit integers in MongoDB" is converted into "6iim-7yp", which is
+again short, but not very informative; and "Xdebug 2.1 Released" is
+converted into "xdebug-2.1-7x2", which *does* make sense. 
+
+Because I did not get very good results with automatically converting
+titles into sort URLs, I decided that for all new articles I will just
+define my own.
+
+Now, once we have the short URLs, they need to be used. Instead of my long main
+domain http://derickrethans.nl, I registered a new one just for short URLs:
+http://drck.me to reduce the URL length even more. For the current article,
+the length of the URL shrinks from 39 to 26 characters. The short URL is
+also embedded in the HTML source with a ``rev=canonical`` tag and a
+``rel=shortlink`` tag, such as::
+
+    <link rev="canonical" type="text/html" href="http://drck.me/shrturl-8ju">
+    <link rel="shortlink" type="text/html" href="http://drck.me/shrturl-8ju">
+
+This tag is meant to provide alternative URLs for the current one. For more
+information on ``rev=canonical`` see http://revcanonical.appspot.com/ or Chris
+Shiflett's entry_, and for ``rel=shortlink`` see the microformats_ site. The
+`shortlink specification`_ also recommends the use of the HTTP ``Link:``
+header::
+
+	Link: <http://drck.me/shrturl-8ju>; rel=shortlink
+
+The two tags and the HTTP header make it possible for services that prefer an
+as short as possible URL to
+automatically discover a shorter version. Sadly, it doesn't see that the
+twitter home page does this. I hope they will add support for that in the
+future. From my side, I am going to implement this in Haunt_, my twitter
+client build in PHP-GTK.
+
+.. _entry: http://shiflett.org/blog/2009/apr/save-the-internet-with-rev-canonical
+.. _Haunt: http://derickrethans.nl/projects.html#haunt
+.. _microformats: http://microformats.org/wiki/rel-shortlink
+.. _`shortlink specification`: http://code.google.com/p/shortlink/wiki/Specification
+
+.. [#] This actually uses a very clever form of shortening geo-locations:
+   http://wiki.openstreetmap.org/wiki/Shortlink

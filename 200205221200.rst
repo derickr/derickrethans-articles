@@ -1,0 +1,78 @@
+Routing is a profession
+=======================
+
+.. articleMetaData::
+   :Where: Dieren, The Netherlands
+
+*[21-05-2002 09:27]* Mr S., a customer reports that his ADSL
+connection doesn't work anymore. The first thing I did was pinging his
+machine, but of course this timed-out. The next thing I tried was a
+traceroute:
+
+::
+	
+	[root@kossu /root]# traceroute 62.131.156.x
+	traceroute to 62.131.156.x (62.131.156.x), 30 hops max, 38 byte packets
+	1  vuurmuur (10.1.1.1)  0.693 ms  0.274 ms  0.178 ms
+	2  10.0.0.138 (10.0.0.138)  1.862 ms  2.206 ms  1.285 ms
+	3  195.190.241.151 (195.190.241.151)  12.833 ms  12.523 ms  13.047 ms
+	4  195.190.245.70 (195.190.245.70)  22.285 ms  23.375 ms  22.010 ms
+	5  195.190.245.69 (195.190.245.69)  21.932 ms  20.835 ms  22.726 ms
+	6  10.26.2.3 (10.26.2.3)  30.100 ms  30.902 ms  27.864 ms
+	7  * * *
+
+
+Yup, you see it correctly, there is a 10.26.2.3 address there. Clearly
+a problem with some router in the ISP's network.
+
+*[21-05-2002 09:33]* I started calling the provider, `Planet Internet (+31 33 454 0100)`_, and told them what
+the problem is. After some annoying 'what is your customer number'
+bullshit they still didn't have *any* clue what I tried to tell
+them, so I asked for the second line helpdesk, those people are usually
+more clueful. Again, I explained the problem to Richard and showed them
+a traceroute. They could see that the same hop was faulty, and decided
+after 20! minutes of asking around that it is a problem with the telco's
+infrastructure and decided to feed them a ticket. So they did and told
+me somebody from `KPN Telecom`_ would call be back
+about *their* problem.  I wondered what this had to do with the
+infrastructure, because it seemed clear to my that a router was doign
+bad things... but a la, I do not know everything of their mess so I gave
+them the benefit of the doubt.
+
+*[21-05-2002 16:28]* Mr Merol of `KPN Telecom`_ called me to discuss the problem. After around 45 minutes (yeah,
+they're very fast at KPN) we came to the conclusion that it was not a
+problem in KPN's network, cause the machine of the customer logged in
+every 10 minutes. So they decided to give the ticket back to `Planet Internet`_. It was also clear to me that it indeed
+was a problem with the routers of the ISP (Planet).
+
+*[21-05-2002 17:23]* I gave them some time and then called `Planet`_ again, but they didn't got the ticket back yet.
+So they went looking for it (yeah, it's by email, but looking for it
+takes 15 minutes for them) and of course they couldn't find it. But they
+decided to check again... and after 25 minutes of static I decided the
+drop the phone and go home... I've had enough of them for one day...
+
+*[22-05-2002 08:41]* Well assuming an email doesn't take more than
+15 hours to travel from one building to another I decided to call `Planet Internet`_ again. I explained the problem again to
+a nice girl, and she reviewed the ticket send back by KPN. Instandly by
+reading the word 'router' she told me that because it is a problem with
+the customer's router she couldn't help us and that we should try to
+connect with a Windows 95 box. I was a little confused by this and
+explained her that *we* don't have a router and that the KPN dude
+meant a router on their (the ISPs network). Promptly she said *'We
+don't have routers'*. Now I expect helpdesk employees to be dumb, but
+not this stupid, so I asked for 2nd line helpdesk. Mr Pim didn't want to
+help me and send the ticket back to KPN for further analyses. Of course
+I didn't agree with that and demanded to listen to me and try to make a
+tracerout themselves. After a ten minute speech about procedures I
+finally got him to do a traceroute and YES YES YES he thought that
+10.26.2.3 is not a normal IP address either. So his action was to make
+the tech people solve it... that didn't happen until 18:00, but atleast
+it works again :)
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Planet Internet (+31 33 454 0100)`: http://www.planet.nl
+.. _`KPN Telecom`: http://www.kpntelecom.nl
+.. _`Planet Internet`: http://www.planet.nl
+.. _`Planet`: http://www.planet.nl
+

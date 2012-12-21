@@ -1,0 +1,16 @@
+Xdebug 2.0.3
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20080411 1116 CEST
+   :Tags: blog, cms, php, xdebug
+
+I just released `Xdebug 2.0.3`_ which addresses some minor bugs. The main new thing is PHP
+5.3 support. You can get Xdebug through PECL (pecl install xdebug) or
+from `the Xdebug site`_ .
+
+
+.. _`Xdebug 2.0.3`: http://xdebug.org/#x_2_0_3
+.. _`the Xdebug site`: http://xdebug.org
+

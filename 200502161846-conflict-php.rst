@@ -1,0 +1,28 @@
+Conflict PHP
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050216 1846 CET
+   :Tags: php
+
+I wrote an e-mail to the editors of DevShed because of an article on DevShed:
+
+Dear Editors,
+
+I stumbled upon: `http://www.devshed...Conflict-PHP/`_ and I was wondering if you ever fact-checked
+this article. I've never read so much bullshit about PHP in my life. How could you guys publish this? It's
+even worse than `http://www.devshed...e-Owned-by-Sun/`_ which is
+untrue in many ways too.
+
+I don't really care about reading it, I just laugh about this much stupidity - but on the other hand people
+that read this article might take it seriously, making PHP (and Zend) look extremely bad. Please consider
+removing this non-sense article.
+
+regards,
+Derick
+
+
+.. _`http://www.devshed...Conflict-PHP/`: http://www.devshed.com/c/a/PHP/Conflict-PHP/
+.. _`http://www.devshed...e-Owned-by-Sun/`: http://www.devshed.com/c/a/PHP/PHP-5-A-Sign-that-PHP-Could-Soon-be-Owned-by-Sun/
+

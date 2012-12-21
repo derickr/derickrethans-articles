@@ -1,0 +1,27 @@
+Logging
+=======
+
+.. articleMetaData::
+   :Where: Arnhem, The Netherlands
+
+You see it more and more often, people writing their stuff thoughts
+down and putting them on the Internet. You might wonder who is interested in
+this crap they spit out; but it is clearly that people actually read those
+weblogs.
+
+For example a fellow weblogger (from which I stole most of the
+design of this site), `Marko Karppinen`_
+was asked by a contact at Apple how camp X-ray was going. (To find out what the
+heck camp X-ray is, see Marko's blog).
+
+But what do people actually want with those weblogs of them? Do they want to
+show how bored they are at work? Are they some kind of exhibitionists? This
+are questions which mostly will never be answered. For most people weblogging
+is simply a way to write down their frustrations and annoy other human persons
+with it, this is clearly the case for me. For me weblogging is a way to write
+down what is on my mind at this very moment.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Marko Karppinen`: http://www.markokarppinen.com/
+

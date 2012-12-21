@@ -1,0 +1,149 @@
+PHP and Ordnance Survey Mapping
+===============================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2010-04-27 14:27 Europe/London
+   :Tags: blog, php, mapping, extensions, openstreetmap
+
+About a month ago, `Ordnance Survey`_ opened_ up some of their data for public
+consumption under a brand called OpenData_. The data is licenced_ under a
+"Creative Commons Attribute"-like license. One of the data sets they provide is
+`Code-Point Open`_ and provides a dataset "that contains postcode units, each
+of which have a precise geographical location". I've always been a bit of a
+map-geek, and have always geotagged my pictures_ and some of my tweets_. So I
+was wondering what cool thing I could do with this newly released data.  I
+decided to map all the postcodes onto the UK map where more postcodes for a
+specific place would create a "lighter" colour. Each postcode has on average
+about 15 addresses, so in more densely populated areas you have more
+"postcodes-per-area". Doing this wasn't very difficult and it resulted in the
+following map:
+
+.. image:: /images/content/postcode-uk-scaled.jpg
+
+You can very clearly see the more densely populated areas such as London.
+
+This generated postcode-density map I wanted to overlay on a real map, such as
+OpenStreetMap provides. When I tried to align the image that I generated with
+the OSM map, I ended up with this:
+
+.. image:: /images/content/uk-osm-postcode-overlay.jpg
+
+Obviously, the maps don't align. In order to fix this, I ended up learning a
+lot more about map projections.
+
+The `Code-Point Open`_ data uses the UK's `National Grid`_ to store location
+data in. The National Grid consists of 100*100 km squares that are then further
+subdivided into smaller squares creating grid references such as
+*TQ3012780512*, or the numerical version *530128 180512*. *TQ* translates into
+the "hundred thousands" of the *Eastings* and *Northings* according to the grid
+that you can see here__. In this case, it specifies a point 530 128 meters East
+and 180 512 meters North of the origin.  (If you work it out, you'll end up in
+London).
+
+OpenStreetMap_ uses a Mercator_ projection to visualize maps. The Mercator
+projection is a cylindrical map projection, and it distorts the size and shape
+of large objects, as the scale increases from the Equator to the poles.
+Therefore it only works from about 85°N to 85°S (why it is 85° only be came
+clear after doing all the maths for it). Google Maps uses the same projection.
+
+There were a few challenges plotting the `Code-Point Open`_ data on an OpenStreetMap map:
+
+- The National Grid coordinates need to be converted to Latitude/Longitude pairs
+- Latitude/Longitude pairs need to be mapped to pixels to align with the
+  Mercator projection of OpenStreetMap maps.
+
+For **converting National Grid** references to Latitude/Longitude pairs I found
+some `JavaScript code`_. I converted this code to PHP and to verify whether my
+code was working properly, I used `this site`__.
+
+**Converting Latitude/Longitude** pairs to the pixel coordinates of OSM
+required a bit of maths. OSM provides maps in different zoom levels, from 2__
+to 17__. Each zoom level having twice the amount of pixels horizontally and
+vertically.  Zoom level 2 has 4 times 4 tiles, where each tile is 256*256
+pixels. At zoom level two, the whole world fits into 1024*1024 pixels. The
+number of pixels for each axis for a specific zoom-level can be calculated by::
+
+	pow(2^zoom) * 256
+
+For a zoom level of 7 that makes 16384 pixels in each direction. To convert a
+longitude (in the range -180° to 180°) we can simply apply::
+
+    x = ((lon + 180) / 360) * (pow(2^zoom) * 256)
+
+For a Longitude of 0.003117° E at zoom-level 13 that turns out to be
+pixel 1048594.
+
+Longitude conversions are more difficult due to the Mercator projection itself.
+To convert we apply::
+
+    y = ((atanh(sin(deg2rad(-lat))) / π) + 1) * (pow(2^(zoom-1)))
+
+For a Latitude of 51.502817° N at zoom-level 13 that turns out to be
+pixel 697399.
+
+Creating an image for the whole world at zoom level 13 is impractical as it is
+2097152*2097152 pixels and downloading all the 67 million tiles for this zoom
+level is probably not liked by the OSM people either. So instead we take a cut
+out for a specific area only. For the UK (61.37°N -9.49° W, 49.76°N +3.63°E) at
+zoom level 7 we end up with a 1536x2048 map with the North-Western pixel being
+15360,9216. On this map, we can draw the latitudes and longitudes as well as
+the National Grid lines (full image is on flickr_):
+
+.. image:: /images/content/uk-osm-lines-crop.jpg
+
+The only thing left to do now, is to map the postcode density information to
+the map. I picked zoom level 6 for this, and the result is (after cropping it
+to 640 pixels width):
+
+.. image:: /images/content/uk-osm-postcode.jpg
+
+As you can see, this is perfect fit to the outlines of the country. But
+unfortunately, when we look very closely at the plotted map data, for example
+for the *NW10 3* postcodes, we notice that the mapping is slightly off. The
+blue dots are what we plotted, and the red dots are what the locations
+**should** have been:
+
+.. image:: /images/content/uk-osm-nw103-1.png
+
+The reason for this is that when we converted the National Grid locations to
+Latitude/Longitude pairs to plot on the OSM maps, I forgot to take into account
+the different `Datums`_ that are used in the projections. The Earth is not a
+perfect sphere, and an approximation of the ellipsoid of the whole Earth is not
+necessarily the best fitting for a specific area such as the UK. Therefore, the
+National Grid uses the OSGB36_ Datum which fits more closely to the UK, where
+as OpenStreetMap uses the WGS84 Datum that is also used by GPS. The `Ordnance
+Survey Ireland`_ has a more thorough explanation_ on their site. As you can see
+above, using the wrong Datum can mean locations can be off. In our example
+about 100 meters. Converting between different Datums is possible, albeit
+processor intensive.
+
+After I figured out all the maths for this, the only problem that remains that
+implementing those algorithms in PHP is show—calculating all the
+positions from the 1.6 million postcode locations takes up to 10 minutes. This
+is why I am not presenting any code yet. I am planning to implement all the
+necessary calculations in a `PHP extension`_ to speed up the calculations
+
+
+.. _`Ordnance Survey`: http://www.ordnancesurvey.co.uk/
+.. _opened: http://www.ordnancesurvey.co.uk/oswebsite/media/news/2010/April/OpenData.html
+.. _OpenData: http://www.ordnancesurvey.co.uk/oswebsite/opendata/
+.. _licenced: http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/docs/licence.pdf
+.. _`Code-Point Open`: http://www.ordnancesurvey.co.uk/oswebsite/products/code-point-open/
+.. _pictures: http://www.flickr.com/photos/derickrethans/map
+.. _tweets: http://twitter.com/derickr
+.. _OpenStreetMap: http://www.openstreetmap.org/
+.. _`National Grid`: http://en.wikipedia.org/wiki/British_national_grid_reference_system#Grid_letters
+__ http://en.wikipedia.org/wiki/File:National_Grid_for_Great_Britain_with_central_meridian.gif
+.. _Mercator: http://en.wikipedia.org/wiki/Mercator_projection
+.. _'JavaScript code`: http://www.movable-type.co.uk/scripts/latlong-gridref.html
+__ http://www.fieldenmaps.info/cconv/cconv_gb.html
+__ http://www.openstreetmap.org/?lat=0&lon=0&zoom=2&layers=B000FTFT
+__ http://www.openstreetmap.org/?lat=51.500834&lon=-0.142455&zoom=17&layers=B000FTFT
+.. _flickr: http://farm4.static.flickr.com/3001/4557130189_af995cab6b_o.png
+.. _Datums: http://en.wikipedia.org/wiki/Datum_%28geodesy%29
+.. _OSGB36: http://en.wikipedia.org/wiki/OSGB36#Datum_shift_between_OSGB_36_and_WGS_84
+.. _WGS84: http://en.wikipedia.org/wiki/WGS84
+.. _`Ordnance Survey Ireland`: http://osi.ie/
+.. _explanation: http://www.osi.ie/GetAttachment.aspx?id=b2bd07a6-858e-4eb1-9d09-25917f0c713a
+.. _`PHP extension`: http://derickrethans.nl/available-for-php-extension-writing.html

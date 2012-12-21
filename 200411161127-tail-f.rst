@@ -1,0 +1,13 @@
+tail -f
+=======
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20041116 1127 CET
+   :Tags: php, work
+
+Unix humor:
+
+::
+	derick@kossu:~$ tail -f
+	tail: warning: following standard input indefinitely is ineffective

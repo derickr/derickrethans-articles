@@ -1,0 +1,36 @@
+Working at 10gen
+================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-04-05 13:00 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: 10gen
+
+.. image:: /images/content/mongodb-logo.png
+   :align: left
+
+As of today I am working for 10gen_, the company behind MongoDB_. I have been
+contracting with them for a few months to work on the PHP driver_ for MongoDB.
+I am now making the switch to a full time position.
+
+I am responsible for supporting MongoDB in the PHP ecosystem through driver
+development, integration with open source tools, community support, and
+developer advocacy. For now, I will concentrate to get the driver into
+a better shape, and speaking about MongoDB and PHP.
+
+I have already given a few talks_ on the subject, and if you would like me to
+speak at your user group or conference, please let me know_. If you have any
+comments on using MongoDB with PHP, I would love to hear them too.
+
+I am looking forwards with the awesome team at 10gen. Both with team in London,
+as well as with the folks in Palo Alto, New York and Dublin. 10gen is also
+hiring a few more people for a similar position in New York and Palo Alto. Have
+a look at the job posting here_ if you are interested.
+
+.. _10gen: http://10gen.com
+.. _MongoDB: http://mongodb.org
+.. _driver: http://php.net/mongodb
+.. _talks: http://derickrethans.nl/talks.html
+.. _know: http://derickrethans.nl/who.html
+.. _here: http://jobvite.com/m?3kW8hfwp 

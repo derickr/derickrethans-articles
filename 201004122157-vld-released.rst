@@ -1,0 +1,23 @@
+VLD released
+============
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2010-04-12 21:57 Europe/London
+   :Tags: blog, php, xdebug, vld, extensions
+
+I just released a new version of VLD_ through PECL_. This release features the
+path analytics code that I've outlined in an `earlier article`_. There are also a
+few fixes for PHP's current trunk, as well as the possibility to format output
+slightly like a CSV file. That feature was used to make this_ documentation of
+opcodes.
+
+The path analysis algorithm that VLD_ now has, can possibly also be used to get
+path/branch coverage working within `Xdebug's`_ code-coverage framework. This
+is however not a minor task.
+
+.. _PECL: http://pecl.php.net/package/vld
+.. _VLD: http://derickrethans.nl/projects.html#vld
+.. _`earlier article`: http://derickrethans.nl/more-source-analysis-with-vld.html
+.. _this: http://www.zapt.info/opcodes.html
+.. _`Xdebug's`: http://xdebug.org

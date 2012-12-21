@@ -1,0 +1,18 @@
+K.I.S.S.
+========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20041216 2328 CET
+   :Tags: php, work
+
+It always annoys me why printing on Linux is so goddamn hard all
+the time. Strange errors, broken filters... etc. Instead of using
+fancy stuff, it seems that the following little script prints any
+kind of format just fine to our office printer:
+
+::
+
+	#!/bin/sh
+	gs '-dBATCH' '-dPARANOIDSAFER' '-dNOPAUSE' '-sDEVICE=pxlmono' '-r600x600' '-sOutputFile=/tmp/test' $1
+	cat /tmp/test | nc -q 1 10.0.2.163 9100

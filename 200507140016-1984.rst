@@ -1,0 +1,47 @@
+1984
+====
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050714 0016 CEST
+   :Tags: cms, php, politics
+
+Perhaps a bit of a cliche title, but Mr Orwell did have a point :) The
+same thing seem to be happening here now in Europe after the horrible
+attacks in London last week, as were happening in the US after the 11-9
+attacks: it is used as an excuse to take away civil
+liberties.
+
+The European Commission, and also the national parliaments, have been
+discussing for some time the idea of forcing ISPs and telecom companies
+to store traffic data - records that contain the websites your visited,
+the email addresses you send mail to and whom you called at which time
+from which cell tower - and this all in the name of fighting
+criminality. Although that's a noble cause, they forget a couple of
+things (examples from the Netherlands):
+
+The governments are not paying for the huge investments that ISPs need
+to make to store this traffic data for three! years. The costs for this
+are millions of euros per ISP which they will never see back, and will
+likely cause them to charge more to their customers.
+
+All research that was done on this subject in the Netherlands show that
+collecting this data does not buy the autorities anything.
+
+In the `news`_ today I read that "UK Home Secretary Charles Clarke" now wants
+to accelerate this hole process because of fighting *terrorism*. But
+with these regulations, the European People will also get stripped of
+important civil liberties, for something that is *proven* to be useles.
+Luckily the European Parliament's civil liberties committee doesn't
+agree with these new regulations either. One MEP said that
+"...introducing measures which sounded tough did not mean they
+would be effective. Fears were also raised about intrusion into
+privacy."
+
+Besides this, it seems that `some countries`_ are giving up on the Schengen treaty, that allows
+freedom of travel inside the treaty's area.
+
+
+.. _`news`: http://news.bbc.co.uk/2/hi/uk_news/politics/4677241.stm
+.. _`some countries`: http://news.bbc.co.uk/2/hi/europe/4680163.stm
+

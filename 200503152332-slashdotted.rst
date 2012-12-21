@@ -1,0 +1,15 @@
+Slashdotted!
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050315 2332 CET
+   :Tags: php
+
+Our `book`_ finally got a review posted to `Slashdot`_ - and it's a good
+review too ;-)
+
+
+.. _`book`: http://php5powerprogramming.com
+.. _`Slashdot`: http://books.slashdot.org/books/05/03/15/1934213.shtml?tid=169&tid=6
+

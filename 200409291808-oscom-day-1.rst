@@ -1,0 +1,19 @@
+OSCOM Day 1
+===========
+
+.. articleMetaData::
+   :Where: Zürich, Switzerland
+   :Date: 20040929 1808 CEST
+   :Tags: php, work
+
+We did not see many presentatons due to yesterays delays. We did
+see a presentation on the oscom-project BXE, an xml editor based
+on mozilla and javascript. Another presentation was about an
+php-gtk client interacting with eZ publish 2.
+
+Bård's presentation started a bit delayed due to his shitty Dell
+which didn't like any of the beamers here, so he used my laptop to
+access his eZ publish installation.
+
+
+

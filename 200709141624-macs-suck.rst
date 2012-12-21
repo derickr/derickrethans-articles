@@ -1,0 +1,16 @@
+Macs Suck
+=========
+
+.. articleMetaData::
+   :Where: Atlanta, US
+   :Date: 20070914 1624 CEST
+   :Tags: blog, conference, php
+
+They do because whenever you put a writable medium in them they start
+adding all sorts of crap to my drive:
+
+.. image:: /images/content/mac-crap.png
+   :align: center
+
+
+

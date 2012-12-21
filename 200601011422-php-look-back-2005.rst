@@ -1,0 +1,495 @@
+PHP Look Back 2005
+==================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20060101 1422 CET
+   :Tags: cms, php
+
+*Update* : some of the links were pointing to a wrong URL.
+
+Welcome to the fourth installment of the PHP Look Back. Just as in
+previous years, we'll look back on PHP development discussions,
+bloopers and accomplishments of the last year. This is not supposed to
+be a fully objective review of last year--note that the opinions in
+this article are that of the author, and not of the PHP development
+team.
+
+*January* was a quiet month, with not much going on. After about `8 months`_ , we
+finally `added`_ a
+PIC/non-PIC detection mechanism to the configure script, that will
+select non-PIC object generation for supported platforms (Linux and
+FreeBSD). Non-PIC code is about 30% faster, as measured in earlier
+benchmarks. A week later, `Leonardo`_ was
+wondering whether we planned on adding type hints for scalar types to
+PHP. As PHP is a weakly-typed language, this is not something we wanted
+to add, although we did add support for an "array" type hint,
+later in the year. With PHP 5.1's new GOTO execution method (added last
+August), variable name lookups are cached internally. This caused some
+problems for `Xdebug`_ , as it needs
+some information to find out which variables are used in a specific
+scope. Andi `committed`_ a
+patch that made this possible, again. Michael started working on his
+HTTP extension (which generates way too many commit mails ;-) and
+encountered a problem with a `naming clash`_ between
+PEAR's HTTP class and his PECL extension. Greg `responded`_ and said
+that this problem will be solved when PEAR 1.4 comes out, with its
+channel support.
+
+Andi started discussions in *February* by pointing out a date for
+the first beta of PHP 5.1: March 1st. He declared that `"both PDO and Date should be included in the default distro"`_ and others
+suggested that `XML Reader`_ should be included by default, as well. In reply to Andi,
+Rasmus `mentioned`_ that he
+would like to see the filter extension included as well. The discussion
+about this extension quickly transitioned to data mangling of input
+request variables that would not be influencable by the script authors,
+but only by the system administrator. In the end, this discussion made
+place for the topic of `Operator overloading`_ , where certain people kept reiterating that operator
+overloading is a `good thing`_ . Andrei
+tried to stop this discussion by being `funny`_ , but that
+didn't work `very well`_ . Around the same time, Wez `announced`_ the
+first beta of PDO--PHP Data Objects. Wez wanted people to `test`_ PDO, and of
+course, over the next couple of months, there were various PDO-related `concerns`_ and
+issues raised. Another discussion in January was about `auto boxing`_ in
+PHP. Auto boxing is the encapsulation of all primitive types as
+objects. Naturally, people asked `WHY`_ we would want
+to have this, and no sound reason was given. In the end, this
+discussion suggested that `phpDocumentor`_ should handle type
+determining, instead. Having a `doc block`_ parsing
+extension to the reflection API would be nice, although a bit hard. We
+also had an `often-recurring discussion`_ on why `GPL`_ is a bad idea for `PECL`_ extensions. John added the `first version`_ of XMLRPCi to CVS; why he chose this silly name is still unknown. Jani
+wrote about a problem with `overwriting globals`_ , an issue that--later in the year--warranted a new PHP
+release, and Greg `introduced`_ PEAR 1.4,
+with channel support. Halfway through the month, `Marcus`_ mentioned a
+few things that should go into PHP 5.1; most notably the __toString()
+fix, which unfortunately, did not actually make it into the release.
+Type hinting with = NULL did `make it in`_ though. Martin Sarsale `reported`_ an issue
+with references and segfaults, something which had been annoying `us`_ for quite some time, too. This issue got
+fixed in PHP 4.4, albeit not without a little bickering. (More about
+that later.)
+
+In *March* , Ilia `proposed`_ a patch
+that adds a special token that tells PHP's parser to abort parsing when
+the token is encountered. This allows us to attach binary data to the
+end of a PHP script. This is highly useful for one-script installers,
+such as the one that `FUDForum`_ uses. On the 14th of the month, Zeev released the first `RCs`_ of both 5.0.4
+and 4.3.11. We also encountered further `reference issues`_ .
+The same guy that mailed tons of "fixes" to the internals
+list `last June`_ , was back with `more`_ patches.
+Andrei, once again, `pointed out`_ that
+it is a good idea to check with an extension's maintainer before
+applying patches, and Greg `published`_ the
+package2.xml documentation. Lukas, once more, pointed out the weird
+naming scheme that new `extensions`_ seem to
+be getting, and luckily Debian's PHP packages `got rid`_ of some of
+the insanity that was present in `previous`_ releases
+by not always building in ZTS mode. Unfortunately, their packages still
+force PIC mode for the libraries. A user brought up the idea of an `upload meter patch`_ again, and although we all seemed to `remember`_ that the
+original patch was `rejected`_ , no one
+could find the original `thread`_ where this
+was discussed. Last year's Look Back discussed this too, and there, the
+reason was `mentioned`_ . In the
+last week of the month, we had some `fuss`_ about `"FreeBSD doing stupid things"`_ regarding their naming of `auto tools executables`_ .
+
+*April* started with `a suggestion`_ by
+Zeev to change the way that __autoload() works, by allowing multiple
+instances of this magic function. In the end we, didn't end up
+implementing this, and as Lukas `describes`_ ,
+"Frameworks should provide __autoload() helper methods, but should
+never implement the function itself. Its up to the end user to do
+this." (This is exactly how we implemented it for the `eZ components`_ ). Andi
+wanted to release `PHP 5.1 Beta 1`_ really soon, but as Jani `mentioned`_ , there
+where quite a few things that were still not fully ready, and thus the
+suggestion to call it `"Alpha"`_ was made, instead. During the thread some `pet-features`_ where `brought up`_ .
+Kamesh from the Netware porting team, found `another reference issue`_ . Marcus added `File`_ class to his SPL
+extension, causing a small stir--the new class clashed with
+applications that already define a File class. Although this is a valid
+point, projects defining a "File" class should know better and
+always prefix their class names. This same issue will pop up later in
+the year. A last, somewhat larger, discussion erupted when a `question`_ about
+whether APC could be used as a content cache was posted to the list.
+Rasmus `found it an interesting idea`_ , although this functionality can also be
+accomplished in user space. In the last point of the thread, Rasmus `mentioned`_ that
+APC will soon support PHP 5.
+
+*May* had a slow start, and things only got interesting at the end
+of the month. The first thing that came up was Ilia's removal of
+dangling commas from enums, something that `"was in c language from the first day"`_ . Apparently, GCC 4 is `"becoming worse and worse"`_ , but luckily we can still just `ignore the warnings`_ .
+After a small private discussion with Dmitry about Marcus' and my `reference fix patch`_ , he came to the conclusion that this patch breaks binary
+compatibility and that this problem doesn't warrant a PHP 4.4 release.
+As this reference problem has been affecting many users, and definitely `us`_ over the past months, I `wrote an email`_ to
+the list stating that it is "totally irresponsible" not to
+release a fix for such a grave bug. `Zeev`_ also said
+that "we should probably not fix this at all in the 4.x tree"
+because of the hassles that accompany "breaking module binary
+compatibility". He also seemed to think that the bug can easily be
+worked around. Other users were a bit `happier`_ that we
+finally nailed this bug, and Jani replied to Zeev that the `magnitude of this bug is pretty damn high`_ . Rasmus added that `he "will be deploying the patch and happily breaking binary compatibility"`_ as soon as the patch is ready. Breaking
+binary compatibility is only a "burden on the maintainers of these
+packages" (of the various distributions). Wez thought that `"the only logical move forward is a 4.4 branch and release"`_ . In the end the
+Zeev almighty was `"tired of going through the reasons again and again"`_ and noted that
+"everyone appears to prefer the upsides to the downsides".
+This resulted in the `creation of the PHP_4_4 branch`_ in the first week of *June* .
+
+Wez added a new patch to our CVS server that allows us to `block access`_ to
+specific branches--with this, we closed the PHP_4_3 branch for good. A
+week later, I `announced 4.4.0RC1`_ which features the reference bug fix. Andi `wrote another PHP 5.1 mail`_ , which spawned a nice long discussion on `adding goto`_ to PHP
+and comparing goto to exceptions. Magnus smartly `added`_ that
+"people are talking about hypothetical messy code because of
+goto" and that they forget that you don't have to use a language
+construct if it is available. The same thread also went into a branch
+that `discussed the ifsetor()`_ language construct. After Andi returned, he decided not
+to do `anything with goto or ifsetor`_ , and that it was now the time to branch, so that
+we can merge the Unicode support that was developed in parallel by
+mostly Andrei and Dmitry, although `Rasmus is "pretty sure the current discussions will pale in comparison to the chaos that will be created when the Unicode stuff goes into HEAD!"`_ Johannes wondered when the new `date stuff`_ was
+going in; it was added a week later, just before PHP 5.1 beta 2. Lukas `suggested that we add`_ the public keyword to PHP 4.4 for forward compatibility.
+Rasmus again `wondered about "the reasoning ... for not having var be a synonym for public in PHP5"`_ . Andi `mentioned`_ that
+this "was meant to help people find vars so that they can be
+explicit about the access modifiers" when moving to PHP 5. A few
+days later, Andi `read a blog posting`_ which described how PHP 4.4 is breaking backwards
+compatibility by issuing an E_STRICT in cases where you abuse
+return-by-reference. This, however, was `not actually the case`_ . Yasuo started a `long thread`_ on
+allow_url_fopen() and claimed it was `dangerous`_ . The
+main result of this thread seemed to be that we wanted to split the
+setting into two different ones: one for allowing remote opening of
+URLs and one on including remote URLs. However, this is something we
+could not yet change. The last thread of the month was by Andi, `writing about the PHP 5.1 release process`_ .
+
+In *July* , Jessie `suggested`_ a String
+extension that declares only one class: String. This class is meant to
+prevent copying of the string's data for most operations (which is
+currently done with PHP's string functions). Most of the other
+developers where against it for different reasons: `"String is such a generic name for a non-core class"`_ and `"the savings gained by this will be more than offset by OO overhead"`_ , so we will
+not let `"this get anywhere near the core"`_ . In the same week, I `made more changes to the date extension`_ that allow users to more easily select the timezone
+that they want, instead of having to rely on the TZ environment
+variable. This is also needed because the `TZ environment variable`_ can most likely not be used in a thread safe way, and it
+is `certainly not portable`_ . Also in the same week, I proposed an API for `new Date and Timezone functionality`_ . After some `pressure`_ , I `added`_ an OO API,
+too. Near the end of the month, I `committed the implementation of the new date functionality`_ . It was, however, #ifdef-ed out to
+facilitate discussions at a later date. Jessie came up with `Yet Another Namespace Proposal`_ , and tried to come up with a solution for all the
+previous problems we had with the implementation. He also made several `patches`_ that
+added namespaces to PHP. We had some more `fuss`_ about PHP 4.4
+breaking BC, where some people `didn't see`_ why we *had* to do this fix. Unfortunately, there were some `quirks`_ that we
+still had to sort out. In this same month, Rasmus released `APC 3.0.0`_ which came
+with PHP 5.1 support and numerous fixes.
+
+*August* was the month of PHP 5.1 RC 1. It started with a
+discussion on `instanceof`_ being
+"broken," as it raises a fatal error in the case where the
+class that is being checked for doesn't exist. Andi declared `"if you're referencing classes/exceptions in your code that don't exist, then something is very bogus with your code"`_ and `"the only problem is if the class does not exist in your code base, in which case, your application should blow up!"`_ I raised a question about
+whether the new PHP with Unicode `should be called PHP 5.5 or PHP 6.0`_ . As most of us, Andi wants to go `"with PHP 6 and aim to release it before Perl 6"`_ . After PHP_5_1 was branched,
+Andrei merged the Unicode branch and `gave us some instructions`_ on how to get going with it. He also `introduced the general ideas behind the implementation`_ . RC1 was finally rolled, about
+half way through the month, followed by `PHP 5.0.5 RC2`_ a
+week later. During the development of the `eZ components`_ we
+discovered various things in PHP OO's model that we wanted to see
+changed. One of those issues was described in the `Property Overloading RFC`_ . Unfortunately, not everybody could be `convinced`_ , and no
+changes where made. I will try again though :). The other issue that we
+raised was that failed typehints `throw a fatal error`_ , while that is not strictly necessary. Instead of throwing `exceptions`_ in
+this case, the discussion turned towards adding a new `error mode`_ ( `E_RECOVERABLE`_ )
+that will be used for non-engine-corrupting fatal errors at the language
+level--this is exactly the case with failed typehints. The longest
+thread of the month however, was started by Rasmus when he posted his `PHP 6`_ wish
+list which featured controversial changes such as "removing
+magic_quotes" and "making identifiers case-sensitive",
+to which most developers quickly `agreed`_ . Following
+his initial wish list, the crowd went wild and started suggesting all
+kinds of weird changes, such as `"Radically change all of the operator syntaxes"`_ , `adding "<?php6"`_ as a BC breaking mode, and `"Named parameters"`_ . Marcus made a `list of his own`_ which would later become the first draft of the meeting agenda for a
+PHP Developers Meeting.
+
+In *September* , Antony `committed`_ an upgraded
+OCI8 extension which fixes `a lot of bugs`_ . We
+also decided to play a bit nicer with version_compare(), regarding `naming`_ release
+candidates. Zeev `wanted to roll`_ PHP
+5.0.5 but there was an `issue`_ with the
+shutdown order. The reference issues ( `1`_ , `2`_ ) returned too.
+The first one turned out to be an incorrect merge to the PHP 5.0
+branch, where suddenly some of the notices turned into `errors`_ . The second
+one is simply a small change in behaviour which previously created
+memory corruption. Rasmus explained the issue a `bit more`_ , once
+again. Ilia tried to implement a `clever fix`_ which turned
+out to be a problem later on. Pierre started a discussion on supporting
+Unicode in identifiers, something he didn't want to see. PHP already
+supports `using UTF-8 encoded characters`_ in identifiers, so removing this feature
+will break BC unnecessarily. Besides breaking BC, many people simply
+want to use their own language for writing code, as `Tex`_ writes. Zeev
+had another attempt at `PHP 5.1.0 RC2`_ with
+the latest PEAR being the only thing missing. Marcus brought up the
+issue of `__toString()`_ again, and finally managed to get it into CVS, but unfortunately not in
+time for PHP 5.1. `Stanislav`_ noticed
+some problems with detecting time zones, as the new date/time code did
+not try to attempt detection in favour of the `new date.timezone setting`_ . After some discussion, we came up with a `solution`_ , which
+was then implemented. It should guess the timezone correctly in most
+cases, even on Windows. I also added support for an external `timezone database`_ .
+
+In *October* , I noticed some weird `notices`_ with
+"make install-pear", without a clue as to why they were
+showing up. This discussion turned into a `why does PEAR not support PHP 5.1`_ thread. In the end, Greg managed to nail down the
+weird notices though. I also noticed a commit by `Dmitry`_ that
+ignores "&" when $this is passed. I pointed out that this
+should not be supported (in PHP 5), as it doesn't make really sense that
+people won't see a warning/notice/error when they're doing something
+silly. Dmitry `explained`_ that
+disallowing it would break code, but he also writes that by "using
+'=& $this' a user can break the $this value"--which is
+something we definitely should prevent. He `suggested`_ we make
+this an E_STRICT warning, and Andi `suggested`_ we
+escalate this to an E_ERROR in PHP 6, but neither of those things
+happened. A week later `Piotr`_ was asking
+for a tarball of our CVS to make it "possible to convert it to
+Subversion repository ... so browsing the repositories would be much
+easier". We were `wondering`_ why he
+needed that, as we offer our own `browser`_ already. `Matthias`_ said that
+we "do not want to set off yet another discussion about the changes
+4.4 brought", but that is exactly what he did. Again, there is
+something wrong with his code, and thus the warning is legal. After
+resolving the timezone issues last month, we were `surprised`_ by a
+message from Zeev. He `simply missed`_ the
+conclusion in the "lengthly thread". After the negative
+comments on the PHP 4.4.0 release, Lukas, Ilia and I set up a `routine`_ for
+involving some of the more known projects to the `PHP 4`_ and `PHP 5`_ release
+processes. As part of this effort, we send `out`_ a mail to all
+participating projects whenever we have a release candidate to test. I `raised`_ some
+concern regarding our current Unicode implementation because of
+maintenance issues. In part of my mail, I also indicated that I wanted `"to clean up PHP 6 for real"`_ , after private discussions with Marcus and
+Ilia. Behind the scenes, we prepared some material to organise a PHP
+Developers Meeting to discuss the Unicode implementation and the
+extended "PHP 6 Wishlist". I also `committed`_ a
+patch that allows `typehints for classes to work with = NULL`_ . Another guy raised the issue of `"that new isset() like language construct"`_ , but this ended up going nowhere as
+people were suggesting very `Perl-like`_ operators. Jani replied to this thread with `"How about a good ol' beating with a large trout?"`_ On the last day of the
+month, we released `PHP 4.4.1`_ which
+addresses some of the reference issues we've seen in PHP 4.4.0.
+
+In *November* , we prepared to finally release PHP 5.1, and one of
+the efforts was to make an `upgrade guide`_ for
+people switching to PHP 5.1. Sean `noticed`_ a problem
+with the parameter parsing API's automatic type conversion. Like `Andrei`_ , many
+people think that "passing '123abc' and having it interpreted as
+123" is still wrong. Dmitry `implemented`_ support for "= null" as default to array type hinting,
+something that `I did not do`_ on purpose because "= array()" is the logically correct way
+of doing this. Andi `agreed`_ with
+me on this. Ilia implemented, in `PHP 5.1RC5`_ , one of
+the items that was on the outcome list of the PHP Developers Meeting:
+adding a notice that warns people that `curly braces`_ for
+addressing a character in a string is now deprecated in favour of the
+[] operator--contrary to the current explanation in our manual. {} and
+[] are `exactly the same thing`_ and "having two constructs for the same behaviour
+is silly and leads to confusing, hard to read code". The outcome of
+this discussion was the removal of the notice in PHP 5.1 and the likely
+conclusion is that it is not going to get removed. Another change that
+was made PHP 5.1RC6 was the creation of the "Date" class,
+which caused quite a stir after the release of `PHP 5.1`_ . The
+reason to introduce it in 5.1 was simply to make sure that no
+applications were going to break if we introduced the Date class later
+in the 5.1.x series. Unfortunately a lot of projects, including PEAR,
+never heard of "prefixing" class names, causing class name
+clashes. Marcus describes the problem as `"PEAR ignores coding standards"`_ , but others suggested that we `rename the internal class`_ to something silly like php_date. `Andrei`_ asked
+"what does renaming really buy us? The only purpose of introducing
+this class in RC6, as far as I can tell, was to reserve the 'Date' name
+for future use." Now that we know about this issue, it's time for
+PEAR to start prefixing its classes, so that we finally can do the
+right thing and add our Date (and Timezone) classes, code that has been
+around for months now, and I'm quite tired of waiting for it to be in a
+release where I can use it. We ended up reverting the change that
+claimed the Date and Timezone classes, and released 5.1.1 with this
+change. After the PDM I `posted`_ the `meeting notes`_ to
+the list. Most of the outcome was well appreciated, except the curly
+braces idea which had already been discussed. With these notes, we hope
+to make PHP 6 a success. The notes also spawned `numerous`_  `polls`_ on the
+symbol to use for separating namespaces from class names/function
+names. We also discussed our version of a goto: `labelled`_  `breaks`_ . The `filter extension`_ , which I've been
+developing for quite some time, did not make it into PHP 5.1, although `it is a good idea`_ to add it, now, with an "experimental" status, so
+that this wanted extension gets more testing. Perhaps for PHP 5.1.2...
+
+*December* was a quiet month with not too many things going on.
+Ilia `proposed`_ a plan for PHP 5.1.2 and released `PHP 5.1.2RC1`_ , Zeev `committed`_ Dmitry's
+re-implementation of the FastCGI API and some `user`_ was whining
+about our "official" IRC channel (which doesn't exist).
+
+That was it for 2005! I hope you enjoyed reading this, and have a happy
+new year. Extra thanks go to Ilia, for being release master, Dmitry for
+maintaining the engine, Jani for hunting down bug reports, Andrei for
+his work on Unicode, Mike for his enormous stream of useless commit
+messages ;-), and to all others who made PHP happen this year.
+
+
+.. _`8 months`: http://news.php.net/php.internals/14013
+.. _`added`: http://news.php.net/php.internals/17177
+.. _`Leonardo`: http://news.php.net/php.internals/14329
+.. _`Xdebug`: http://xdebug.org
+.. _`committed`: http://news.php.net/php.cvs/36211
+.. _`naming clash`: http://news.php.net/php.pecl.dev/1847
+.. _`responded`: http://news.php.net/php.pecl.dev/1852
+.. _`"both PDO and Date should be included in the default distro"`: http://news.php.net/php.internals/14469
+.. _`XML Reader`: http://news.php.net/php.internals/14692
+.. _`mentioned`: http://news.php.net/php.internals/16703
+.. _`Operator overloading`: http://news.php.net/php.internals/14558
+.. _`good thing`: http://news.php.net/php.internals/14701
+.. _`funny`: http://news.php.net/php.internals/14713
+.. _`very well`: http://news.php.net/php.internals/14717
+.. _`announced`: http://news.php.net/php.internals/14736
+.. _`test`: http://news.php.net/php.internals/14845
+.. _`concerns`: http://news.php.net/php.pecl.dev/2083
+.. _`auto boxing`: http://news.php.net/php.internals/14741
+.. _`WHY`: http://news.php.net/php.internals/14803
+.. _`phpDocumentor`: http://phpdoc.org
+.. _`doc block`: http://news.php.net/php.internals/14904
+.. _`often-recurring discussion`: http://news.php.net/php.pecl.dev/1884
+.. _`GPL`: http://www.gnu.org/licenses/gpl.txt
+.. _`PECL`: http://pecl.php.net
+.. _`first version`: http://news.php.net/php.pecl.cvs/2559
+.. _`overwriting globals`: http://news.php.net/php.internals/14971
+.. _`introduced`: http://news.php.net/php.pecl.dev/2041
+.. _`Marcus`: http://news.php.net/php.internals/15052
+.. _`make it in`: http://derickrethans.nl/typehints_and_null.php
+.. _`reported`: http://news.php.net/php.internals/15137
+.. _`us`: http://ez.no
+.. _`proposed`: http://news.php.net/php.internals/20929
+.. _`FUDForum`: http://fud.prohost.org
+.. _`RCs`: http://news.php.net/php.internals/15424
+.. _`reference issues`: http://news.php.net/php.internals/15473
+.. _`last June`: http://derickrethans.nl/php_look_back_2004.php
+.. _`more`: http://news.php.net/php.internals/15490
+.. _`pointed out`: http://news.php.net/php.internals/15452
+.. _`published`: http://news.php.net/php.pecl.dev/2189
+.. _`extensions`: http://news.php.net/php.internals/15524
+.. _`got rid`: http://news.php.net/php.internals/15593
+.. _`previous`: http://news.php.net/php.internals/14712
+.. _`upload meter patch`: http://news.php.net/php.internals/15558
+.. _`remember`: http://news.php.net/php.internals/15559
+.. _`rejected`: http://news.php.net/php.internals/15561
+.. _`thread`: http://news.php.net/php.internals/15567
+.. _`fuss`: http://news.php.net/php.internals/17242
+.. _`"FreeBSD doing stupid things"`: http://news.php.net/php.internals/15657
+.. _`auto tools executables`: http://news.php.net/php.internals/15655
+.. _`a suggestion`: http://news.php.net/php.internals/15739
+.. _`describes`: http://news.php.net/php.internals/15788
+.. _`eZ components`: http://ez.no/products/ez_components
+.. _`PHP 5.1 Beta 1`: http://news.php.net/php.internals/15735
+.. _`"Alpha"`: http://news.php.net/php.internals/15767
+.. _`pet-features`: http://news.php.net/php.internals/15767
+.. _`brought up`: http://news.php.net/php.internals/15813
+.. _`another reference issue`: http://news.php.net/php.internals/15953
+.. _`File`: http://news.php.net/php.cvs/31242
+.. _`question`: http://news.php.net/php.pecl.dev/2313
+.. _`found it an interesting idea`: http://news.php.net/php.pecl.dev/2316
+.. _`"was in c language from the first day"`: http://news.php.net/php.cvs/31895
+.. _`"becoming worse and worse"`: http://news.php.net/php.cvs/31898
+.. _`ignore the warnings`: http://news.php.net/php.cvs/31924
+.. _`reference fix patch`: http://files.derickrethans.nl/patches/ze1-return-reference-20050429.diff.txt
+.. _`wrote an email`: http://news.php.net/php.internals/16312
+.. _`Zeev`: http://news.php.net/php.internals/16314
+.. _`happier`: http://news.php.net/php.internals/16329
+.. _`magnitude of this bug is pretty damn high`: http://news.php.net/php.internals/16325
+.. _`he "will be deploying the patch and happily breaking binary compatibility"`: http://news.php.net/php.internals/16328
+.. _`"the only logical move forward is a 4.4 branch and release"`: http://news.php.net/php.internals/16323
+.. _`"tired of going through the reasons again and again"`: http://news.php.net/php.internals/16335
+.. _`creation of the PHP_4_4 branch`: http://news.php.net/php.zend-engine.cvs/3716
+.. _`block access`: http://news.php.net/php.internals/16461
+.. _`announced 4.4.0RC1`: http://news.php.net/php.internals/16637
+.. _`wrote another PHP 5.1 mail`: http://news.php.net/php.internals/16375
+.. _`adding goto`: http://news.php.net/php.internals/16398
+.. _`discussed the ifsetor()`: http://news.php.net/php.internals/16749
+.. _`anything with goto or ifsetor`: http://news.php.net/php.internals/16583
+.. _`Rasmus is "pretty sure the current discussions will pale in comparison to the chaos that will be created when the Unicode stuff goes into HEAD!"`: http://news.php.net/php.internals/16588
+.. _`date stuff`: http://news.php.net/php.internals/16392
+.. _`suggested that we add`: http://news.php.net/php.internals/16685
+.. _`wondered about "the reasoning ... for not having var be a synonym for public in PHP5"`: http://news.php.net/php.internals/16698
+.. _`read a blog posting`: http://news.php.net/php.internals/16793
+.. _`not actually the case`: http://news.php.net/php.internals/16802
+.. _`long thread`: http://news.php.net/php.internals/16903
+.. _`dangerous`: http://news.php.net/php.internals/16923
+.. _`writing about the PHP 5.1 release process`: http://news.php.net/php.internals/17026
+.. _`suggested`: http://news.php.net/php.internals/19381
+.. _`"String is such a generic name for a non-core class"`: http://news.php.net/php.pecl.dev/2513
+.. _`"the savings gained by this will be more than offset by OO overhead"`: http://news.php.net/php.pecl.dev/2522
+.. _`"this get anywhere near the core"`: http://news.php.net/php.pecl.dev/2517
+.. _`made more changes to the date extension`: http://news.php.net/php.cvs/32642
+.. _`TZ environment variable`: http://news.php.net/php.internals/17116
+.. _`certainly not portable`: http://news.php.net/php.internals/17109
+.. _`new Date and Timezone functionality`: http://news.php.net/php.internals/17169
+.. _`pressure`: http://news.php.net/php.internals/17177
+.. _`committed the implementation of the new date functionality`: http://news.php.net/php.cvs/33011
+.. _`Yet Another Namespace Proposal`: http://news.php.net/php.internals/17154
+.. _`patches`: http://news.php.net/php.internals/17332
+.. _`didn't see`: http://news.php.net/php.internals/17244
+.. _`quirks`: http://news.php.net/php.internals/17287
+.. _`APC 3.0.0`: http://news.php.net/php.pecl.dev/2543
+.. _`instanceof`: http://news.php.net/php.internals/17579
+.. _`"if you're referencing classes/exceptions in your code that don't exist, then something is very bogus with your code"`: http://news.php.net/php.internals/17638
+.. _`"the only problem is if the class does not exist in your code base, in which case, your application should blow up!"`: http://news.php.net/php.internals/17653
+.. _`should be called PHP 5.5 or PHP 6.0`: http://news.php.net/php.internals/17668
+.. _`"with PHP 6 and aim to release it before Perl 6"`: http://news.php.net/php.internals/17719
+.. _`gave us some instructions`: http://news.php.net/php.internals/17848
+.. _`introduced the general ideas behind the implementation`: http://news.php.net/php.internals/17771
+.. _`PHP 5.0.5 RC2`: http://news.php.net/php.internals/18340
+.. _`Property Overloading RFC`: http://news.php.net/php.internals/17491
+.. _`convinced`: http://news.php.net/php.internals/17610
+.. _`throw a fatal error`: http://news.php.net/php.internals/17581
+.. _`exceptions`: http://news.php.net/php.internals/17588
+.. _`error mode`: http://news.php.net/php.internals/17820
+.. _`E_RECOVERABLE`: http://derickrethans.nl/erecoverableerror.php
+.. _`PHP 6`: http://news.php.net/php.internals/17883
+.. _`agreed`: http://news.php.net/php.zend-engine.cvs/4359
+.. _`"Radically change all of the operator syntaxes"`: http://news.php.net/php.internals/17890
+.. _`adding "<?php6"`: http://news.php.net/php.internals/18055
+.. _`"Named parameters"`: http://news.php.net/php.internals/17952
+.. _`list of his own`: http://news.php.net/php.internals/17930
+.. _`a lot of bugs`: http://news.php.net/php.internals/18696
+.. _`naming`: http://news.php.net/php.internals/18806
+.. _`wanted to roll`: http://news.php.net/php.internals/18671
+.. _`issue`: http://news.php.net/php.internals/18691
+.. _`1`: http://news.php.net/php.internals/18794
+.. _`2`: http://news.php.net/php.internals/19048
+.. _`errors`: http://news.php.net/php.internals/18884
+.. _`bit more`: http://news.php.net/php.internals/18884
+.. _`clever fix`: http://news.php.net/php.cvs/33934
+.. _`using UTF-8 encoded characters`: http://news.php.net/php.internals/18823
+.. _`Tex`: http://news.php.net/php.internals/18862
+.. _`PHP 5.1.0 RC2`: http://news.php.net/php.internals/18869
+.. _`__toString()`: http://news.php.net/php.internals/19155
+.. _`Stanislav`: http://news.php.net/php.internals/19181
+.. _`new date.timezone setting`: http://news.php.net/php.internals/19187
+.. _`solution`: http://news.php.net/php.internals/19257
+.. _`timezone database`: http://pecl.php.net/timezonedb
+.. _`notices`: http://news.php.net/php.internals/19310
+.. _`why does PEAR not support PHP 5.1`: http://news.php.net/php.internals/19313
+.. _`Dmitry`: http://news.php.net/php.internals/19336
+.. _`explained`: http://news.php.net/php.internals/19343
+.. _`Piotr`: http://news.php.net/php.internals/19465
+.. _`wondering`: http://news.php.net/php.internals/19470
+.. _`browser`: http://cvs.php.net
+.. _`Matthias`: http://news.php.net/php.internals/19519
+.. _`surprised`: http://news.php.net/php.internals/19508
+.. _`simply missed`: http://news.php.net/php.internals/19512
+.. _`routine`: http://oss.backendmedia.com/ReleaseChecklist
+.. _`PHP 4`: http://oss.backendmedia.com/PhP4yz
+.. _`PHP 5`: http://oss.backendmedia.com/PhP5yz
+.. _`out`: http://news.php.net/php.qa/26069
+.. _`raised`: http://news.php.net/php.internals/19448
+.. _`"to clean up PHP 6 for real"`: http://news.php.net/php.internals/19491
+.. _`typehints for classes to work with = NULL`: http://derickrethans.nl/typehints_and_null.php
+.. _`"that new isset() like language construct"`: http://news.php.net/php.internals/19801
+.. _`Perl-like`: http://news.php.net/php.internals/19825
+.. _`"How about a good ol' beating with a large trout?"`: http://news.php.net/php.internals/19851
+.. _`PHP 4.4.1`: http://news.php.net/php.internals/19860
+.. _`upgrade guide`: http://news.php.net/php.internals/20003
+.. _`noticed`: http://news.php.net/php.internals/20004
+.. _`Andrei`: http://news.php.net/php.internals/20491
+.. _`implemented`: http://news.php.net/php.zend-engine.cvs/4336
+.. _`I did not do`: http://news.php.net/php.zend-engine.cvs/4335
+.. _`PHP 5.1RC5`: http://news.php.net/php.internals/20066
+.. _`curly braces`: http://news.php.net/php.internals/20102
+.. _`exactly the same thing`: http://news.php.net/php.internals/20112
+.. _`PHP 5.1`: http://news.php.net/php.internals/20321
+.. _`"PEAR ignores coding standards"`: http://news.php.net/php.internals/20337
+.. _`rename the internal class`: http://news.php.net/php.internals/20466
+.. _`posted`: http://news.php.net/php.internals/20236
+.. _`meeting notes`: http://php.net/~derick/meeting-notes.html
+.. _`numerous`: http://news.php.net/php.internals/20586
+.. _`polls`: http://news.php.net/php.internals/20682
+.. _`labelled`: http://news.php.net/php.internals/20863
+.. _`breaks`: http://news.php.net/php.internals/20277
+.. _`filter extension`: http://pecl.php.net
+.. _`it is a good idea`: http://news.php.net/php.internals/21188
+.. _`PHP 5.1.2RC1`: http://news.php.net/php.qa/26614
+.. _`user`: http://news.php.net/php.internals/21333
+

@@ -1,0 +1,19 @@
+PDM 2005 notes
+==============
+
+.. articleMetaData::
+   :Where: Paris, France
+   :Date: 20051122 1909 CET
+   :Tags: conference, php, work
+
+Past weekend a bunch of the PHP developers (Zeev, Dmitri, Andrei, Jani,
+Wez, Marcus, Rasmus and me) got together in Paris to discuss PHP 6. On
+our agenda were Unicode support, the items from Rasmus' wishlist and
+many other issues.
+
+I finally had the time to finish the report of the discussions (as you
+can see we discussed quite a lot) and publish the `notes`_ .
+
+
+.. _`notes`: http://php.net/~derick/meeting-notes.html
+

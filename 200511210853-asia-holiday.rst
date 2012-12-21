@@ -1,0 +1,18 @@
+Asia Holiday
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20051121 0853 CET
+   :Tags: holiday, nature, travel
+
+I will be going on holiday the next weeks. First visiting relatives in `Singapore`_ and
+then off to `Bangkok`_ in `Thailand`_ . This will
+be first trip to Asia, and I'm excited about going there. I hope to get
+a lot of good time, and return with plenty of pictures (and stories).
+
+
+.. _`Singapore`: http://en.wikipedia.org/wiki/Singapore
+.. _`Bangkok`: http://en.wikipedia.org/wiki/Bangkok
+.. _`Thailand`: http://en.wikipedia.org/wiki/Thailand
+

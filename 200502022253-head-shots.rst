@@ -1,0 +1,17 @@
+Head Shots
+==========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050202 2253 CET
+   :Tags: photography, php, work
+
+.. image:: /images/derick/derick_white_color_small.jpg
+   :align: left
+
+Today I had some new `pictures`_ made that people can use for conference
+programs, and to accompany interviews and stuff.
+
+
+.. _`pictures`: /pictures.php
+

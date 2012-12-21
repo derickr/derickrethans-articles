@@ -1,0 +1,13 @@
+Tsunamis
+========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20041231 1304 CET
+   :Tags: cms, php, work
+
+Did you `donate`_ already?
+
+
+.. _`donate`: http://donate.ifrc.org/
+

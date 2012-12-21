@@ -1,0 +1,64 @@
+HOWTO: Booking flights
+======================
+
+.. articleMetaData::
+   :Where: Stuttgart, Germany
+
+Introduction
+------------
+
+At some point in time there will be a point when you need to book a flight for
+yourself or other persons. This is a rather complicated action and this HOWTO
+will assist you with the basic steps that are required to book a flight.
+
+The book a flight you will need several things: patience, more patience, some
+paper and some intelligence. The next sections in this HOWTO will explain all
+in detail.
+
+Required steps
+--------------
+
+Step one: Deciding where to go to
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is of course very important, without a pace to go booking a flight is
+rather useless. The fastest way to get to your destination by is in a straight
+line, from A to B. A straight line is NOT a travel plan with 6 transfers at
+several airports, especially make sure that none of your flight plans need a
+transfer at Charles de Gaule in Paris, France.  Write your source and
+destination location on paper. Your travel agent will need it.
+
+Step two: The date to travel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When you need to fly to a conference somewhere in the world, it would really
+help to book your flight so that you are in time for your conference. Being in
+time means that you should be at your destination location around 1 day before
+the conference starts to make sure you don't have to much problems with your
+jetlag. Watch especially that you are booking the correct month; it doesn't
+really help to book your flight for July, when the conference is in June.
+
+Step three: With how many people are we going
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After you decided where to go you can make of people who are coming with you.
+For instance you might want to ask your girlfriend to come along. It would be
+nice if you were able to book the same flight for both yourself and your
+girlfriend, so that you don't have to wait on you destination location for
+over 7 hours.
+
+Conclusion
+----------
+
+I hope these three steps will guide you on the next planning of booking a
+flight.
+
+Resources
+---------
+
+Most of this material was provided by Georg Richter, and especially written
+for my friend Zak Greant.
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+

@@ -1,0 +1,83 @@
+Up and downs of the New Economy
+===============================
+
+.. articleMetaData::
+   :Where: Groessen, The Netherlands
+
+A friend of me pointed me to the following article, that appeared in a
+`Italian newspaper`_. I decided to translate it, as almost nobody is be
+able to read German:
+
+	
+	When Burger &amp; Koler Consulting presented their analysis in September,
+	the gentlemen in the board were shocked: "...extraordinary large fluctuations
+	in the workforce", "shitty communications", "shocking awareness that the
+	developed products could be copied very easily", "way to high salary...".
+	Looking at the balances shows what both advisors found out: Maguma AG
+	is not looking fine. The by Tobias Ratschiller, 23, and Robert Finazzer, 46,
+	as Pentap Technologies founded software-corporation was known as one of the
+	most innovative companies in South Tyrol. An IPO was even planned for 2002.
+
+	-- ff - Südtiroler Wochenmagazin, Norbert Dall
+
+	
+	But an anti-climax occured. Ratschiller, who was international-known as
+	Computer-guru developed a new way to publish websites based on the new
+	scripting language
+	PHP. He was planning to seek for investors who wanted him to join in his
+	project, as first the Lanataller contractor Serafin Underholzner, who invested
+	over 1.6 million euros. Ratschiller hired 18 employees, under them high paid
+	professionals like the American Keith Fredericks, who got a position as CTO.
+	Software developers and web-designers from the USA, Russia and Finland came
+	to Bolzana, and the Bic (Business Innovation Center) quickly became the 
+	South Tyrolian version of Silicon Valley. But then came the worldwide New Economy
+	crisis. Ratschiller, following critics, may know about Software Development,
+	but he has overestimated his knowledge of running a business.
+	He flew between Boston, Nowosibirsk (where a dependence was founded) and 
+	Munich, and the expenses rose quickly, but the products didn't leave stock.
+	And when the very good producet (the "Maguma PHP 4 Enterprise Edition" Kit
+	for publishing Websites, priced at 2000 euro) finaly hit the market,
+	it got a very good press coverage, but almost no customers. Of the 100 kits
+	which they were planning to sell every month, not even a tenth was sold.
+	On of the reasons of the flop: PHP products can, maybe not as perfect as the
+	Maguma EE, be
+	downloaded from the Internet for free. "Open Source" is the name of the trend:
+	In the New Economy you only buy what is free.  The investors' millions 
+	were quickly burned, and Pentap, now renamed to Maguma, needed fresh
+	capital. Investors, who hardly know anything about the IT branch
+	invested another 200 thousand euros. Alfred Guariello again manages the
+	investment money while hoping to see the New Economy crisis coming to an end.
+	But the downfall of Bill Gates' children went even faster. By Maguma -
+	extremely high expenses, extremely low gains - was it still ablaze. By the
+	presentation
+	of the company analysis only one option showed up: fire employees, reduce
+	costs, and find more investments in the form of 500.000 euros. Serafin also bailed
+	out. The contractor told ff: "I wont invest a dime anymore in this company. I believed
+	in them, I invested in them, and now it seems that I will never see my
+	money again." Robert Finazzer, Ratschillers partner since the beginning of
+	the adventure bailed out a year ago too.
+
+	-- ff - Südtiroler Wochenmagazin, Norbert Dall
+
+	
+	Anyway, as Alfred Guariello, while he invested less, sees not soo black clouds:
+	"In this branch is it always up or down. I am confdent. The product has
+	been developed, we have important partners like Siemens and Sun. We should
+	keep believing that the market opens up." He still wants to bet at that, just
+	like Ratschiller of course. Presently he is mostly away and he has realized that
+	a it's hard for a "little software company" to keep it's head above the water.
+	Also you must realize
+	that the company started in a very bad market environment: "We started, while
+	it went down worldwide. That's the problem, too bad!". The IPO has been
+	cancelled and seven of the nine desks are empty, the foreign professionals went back,
+	the guys who stayed are anonymously mailing bad words over the internet. We
+	asked Ratschiller how Maguma should go further: "Or new investments are made,
+	or we need to sell the company". Begin November the board will make the
+	decision about the faith of the company of the Southtirolian Bill Gates.
+
+	-- ff - Südtiroler Wochenmagazin, Norbert Dall
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`Italian newspaper`: http://www.ff-bz.com/php/article.phtml?issue_id=1783&bgcolor=1
+

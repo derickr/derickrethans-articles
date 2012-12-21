@@ -1,0 +1,28 @@
+Fahrenheit 8/27
+===============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040827 2217 CEST
+   :Tags: politics
+
+I just came back from the Norwegian premiere of `Fahrenheit 9/11`_ which I
+watched with a couple of collegues. While I
+don't think it is as good a movie as Bowling For Columbine, I *is* a really good movie. I can only hope the American people
+are smart enough not to re-elect this Bush person.
+
+Another intersting this is that after the movie a few people from
+the `Democrats Abroard`_ organization asked if one of us was American. We
+said we weren't and one of the ladies said: "We're trying people
+abroard to register as voter and see if we can get rid of Bush".
+Not evading political discussions we started the following short
+discussion:i"But is Kerry any better then?"i"Yes of course, he's going to straighten things up."i"But who started this mess in the first place, it was not the Bush
+admistration." "No", she said, "it was us [democrats]. As they
+said [in the movie], they were just waiting for a good reason."
+This stroke me as odd - I would not have expected them to
+actually admit that.
+
+
+.. _`Fahrenheit 9/11`: http://fahrenheit911.com
+.. _`Democrats Abroard`: http://democratsabroad.org
+

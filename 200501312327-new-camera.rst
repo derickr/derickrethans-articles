@@ -1,0 +1,22 @@
+New Camera
+==========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050131 2327 CET
+   :Tags: photography
+
+I finally took the effort to buy a new camera. It's a Nikon D70. I decided against buying one of the
+(crappy) bundled lenses but instead bough a f=1.2 55mm second hand. As soon as I got the camera and lens
+assembled I started playing with it ofcourse, and fortunately the sky was looking really nice.
+
+.. image:: /images/content/sky1.jpg
+   :align: center
+
+I'm not sure how this effect occurs, but the sun is already below the horizon and shining from below on the
+clouds. If anybody can explain why it colours so nices, please leave a comment. You can find a high(er)
+resolution version `here`_ .
+
+
+.. _`here`: http://photos.derickrethans.nl/astro/aac?full=1
+

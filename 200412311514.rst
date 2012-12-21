@@ -1,0 +1,274 @@
+PHP Look Back 2004
+==================
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+Hello! Here is this years look back, it takes a little more work then Zend's
+weeklies, and I can not say that it is 100% objective but it should give a
+fairly good overview of this years developments in PHP. Here we go...
+
+The year 2004 started in January with
+`Andi wanting to release PHP 5 RC1`_ and Pierre-Alain
+`announcing pecl/date`_ which is still not
+finished, but that's more my fault ;-). A couple of days later
+`Andi started another thread`_ on "Ability to lower PHP memory
+usage" where he suggested to remove a couple of functions from
+ext/standard because they were hardly used. The thread went on for a
+while without concluding if it was a good idea (less memory) or not
+(more headaches and installation diversity). We also had a nice thread
+on SimpleXML in which Sterling wanted (and changed it) back to
+`it's basics`_. We also `voted`_ to make SPL part of the
+standard PHP 5 distribution. And some `guy`_ wanting to have the $
+as an optional thing in front of variables.
+
+In February we had our first thread on `Apache 2 and threads`_,
+certainly not the last one. We also decided on `including SOAP`_
+into PHP 5 after dicussing `RC1`_ again. We saw also some
+interesting behavior with "echo -2147483648/-1" `giving a FPE`_.
+At the end of the month we
+`discussed problems with signatures for inherited methods`_.
+
+March `started`_ with more talks on `RC1`_ and we decided to
+hold off until some `little problems`_ were fixed. We were also
+getting some `problems`_ with our bugs and master servers hosted at
+Redundant. Later we would move our bug system (and other services) to
+new servers. Boulat `mailed`_ the internals list about a new
+security related directive for PHP. Ilia `answered`_ that no new
+features are added to PHP 4.3.x any more, besides this there is also a
+architectural reason for it, and thus nothing was added in the end. John
+started a topic on `"Studlycaps and MySQLi"`_ with "Not to start a
+big flame war here...", but that didn't help. A long thread we had
+discussing if the new MySQLi extension should use suckyCaps for it's
+method and property names or not. In the end we ended not using the more
+readable underscore seperation as Georg smartly denied to change it.
+
+On the first day of April Andi called for both `PHP 5 RC2`_ and
+`PHP 4.3.5pl1`_. The latter because PHP 4.3.5 had some problems
+with shared extensions and destructors for resources and some other
+issues. Instead of releasing PHP 4.3.5pl1, we instead
+`released PHP 4.3.6`_. Somebody also `suggested`_ to make all
+normal functions also raise exceptions instead of throwing errors, the
+answer `'NO'`_ was the answer (and not 42), although we had another
+thread started by `John`_ about extensions with an OO interface
+throwing exceptions instead of errors. Sterling `argued`_ that
+"Tidy's current error handling scheme is totally messed up" as too many
+things where not warnings but exceptions. This was fixed later by John.
+Jason Garber `wrote to the list`_ suggesting a new operator or construct to
+do
+"$nCustID = (integer) (isset($_POST['nCustID']) ? $_POST['nCustID'] : 0));".
+This sparked a long thread discussing a `new construct`_ or
+`a new function`_. The conclusion is to go with a new function, but
+this has not been added yet.
+
+In May David Sklar `wrote`_ to the list suggesting to add a
+form display and processing module to the PHP distribution. Wez 
+`pointed out`_ that this is not desired as discussed before.
+Lukas was rallying to make `require`_ throw exceptions 
+when a file could not be found. It stayed with a short thread, as this is
+obvious that we won't want internal functions suddenly to start throw
+exceptions. Marcus started a `discussion`_ about some mechanism to allow
+"null" variables together with classes as type hints. Current status: still
+nothing done with it.
+Rasmus sent a `patch`_ to the list to make PHP compile as
+a non-pic module for Apache, increasing performance up to 30%. This
+item came back a couple of times later, but it is `still not`_ added to CVS.
+`Andrei added a patch`_ to the INI system to allow already defined
+entries to be reused later on. After some `discussion`_ it was decided
+though to postpone this to PHP 5.1. We also spoke briefly about the
+`strange hacks`_ for floatingpoint and serialization. This issue is
+now finally fixed in PHP 4.3.10/PHP 5.0.3 due to our own implementation of
+a string to float algorithm. Wez `cooked up a patch`_ to fix the 
+order in which extensions are initialized when starting PHP, to satisfy
+dependencies. This feature will be in PHP 5.1.
+
+June was the month in which the internals list was `receiving`_ `'bugfixes'`_,
+which weren't `fixes`_ at all, and some `improvements`_ which `weren't`_
+`improvements`_ either.  Some of the patches `even broke BC`_. Christian summed
+it up `nicely`_ to the guy, but `he didn't seem to get it`_. The discussion
+later turned into another discussion on Apache 2, in which Rasmus `explained`_
+the problems once more. Andi `suggested to upgrade`_ http://www.php.net to PHP
+5 to show that it is ready, but we ended up `not doing it`_.
+
+The memory leaks `were fixed`_ in July, but Andi `decided`_ to turn it off for
+5.0.0 anyway. We received a `funny CVS account request`_ just after we
+discussed about the `ifsetor()`_ operator again. On July 13th `PHP 5`_ was
+finally released. Marcus `tried`_ a patch to speed up null, true and false but
+this was reverted. George Wiffen `wrote a very intersting mail`_ discussing all
+the different problems with floating point numbers in PHP, but we did not do
+any changes related to this. On the 20th we had some moron spamming the bug
+system because he did not agree on his bugs being bogussed.  Sara wrote code
+for a `goto operator`_, which we later removed as we could not agree on the
+implementation of it, this spawned Stefan's `reaction`_ to kill exceptions too.
+
+In August Jason `asked about better date/time support`_ in PHP. This got myself
+working on the date parsing stuff in PHP again, but I did not have the time to
+finish it yet. Andi also rolled PHP 5.0.1, but still not everybody `was happy`_
+with namespaces not being in PHP 5.  `Adam Q`_ started a thread about SQLite's
+insecurity because it could be downloaded from the webroot. Both `Zeev`_ and
+`Ilia`_ told him that was non-sense. At the end of the month Roshan wrote a
+`rant`_ to the mailinglist about extensions being "experimental" for too long.
+Rasmus `pointed out`_ once more that we're just a bunch of volunteers, and both
+`Sterling`_ and `Robert Amos`_ summerize things nicely.  Sebastian `wrote to
+the list`_ about adopting PEP (Python Enhancement Proposals) for PHP to
+structurize development a bit. And although `some ideas`_ might be useful it's
+unlikely they will be adopted any time soon. We also discussed `multi-byte
+support`_ again, and it looks like some people are going to kick start this for
+PHP 5.2 finally.
+
+In September Andi committed a new VM for PHP 5.1, including `an explanation.`_
+This new VM should perform better in a lot of cases.  After some discussions
+Andi `modified it`_ so that the old executor can still be used `for debuggers
+and the like`_.  Also Joe's DVAL_TO_LVAL `patch was committed`_, which would
+later cause quite some `problems`_ with code using the 32th bit in integer
+values.  Subsequently this patch was reverted later. I put some work in
+converting Rasmus' `statcallpatch`_ to something usable with a configure
+switch. Although this patch really does `quite a lot`_ for FreeBSD systems, the
+patch was discarded unfortunately. Andi *did* put some work into a `realpatch
+cache`_ which solves a bit of the problems. Joe `submitted a patch`_ to build
+PHP as a non-PIC DSO, but again, nothing was done with this patch even though
+it's `proven`_ to be 10-30% faster. Hans Zaunere `wrote about problems`_ on
+64bit platforms' library locations. Support for a different library directory
+than /lib was added in PHP 4.3.10 and PHP 5.0.3 in December. Andrey was
+`claiming`_ that "Only bugs are backported to 4.3", which is ofcourse not true
+;-).
+
+Sebastian `ran some benchmarks`_ in October with different GCC optimization
+flags showing `interesting results`_. Andi added another performance patch to
+PHP 5.1, but unfortunately this one breaks listing used variables in Xdebug.
+Ron `suggested to extend empty()`_ to use multiple arguments, but this was
+`discussed`_ a lot in the past already. Kamesh from the Netware porting team
+wanted to `add two new switches`_ to the CLI SAPI of PHP for special Netware
+`related`_ problems. In the end we ended up not doing it because `it's not
+CLI's task`_.  We also discussed plans for `PHP 5.1`_. One of the things is
+unicode support, but we will most likely do that for `PHP 5.2`_.  At the end of
+the month Sean `forwarded a note`_ about curl not caring about safemode. `Adam
+Greenfeld`_ summarizes all the points why it should not be PHP's job to guard
+against. Besides that you can `configure cURL`_ to not allow file:// URLs.
+
+In November Klaus `sent in`_ an "Upload Meter Patch" but it can not work at
+all, or atlease not `reliable`_. We also had somebody `wanting fork() for
+Windows`_ - but that concept does not exist and `emulating it is quite
+impossible too`_. We also went ahead exporting iconv functions, and installing
+headers for them. This will be useful for unicode support later on.
+
+In December Alan `suggested the outsourcing`_ the activation of new CVS
+accounts, to which `Nuno`_ suggested to clean up non-used accounts. Rasmus was
+`wondering what problem he was trying to solve`_.  Sebastian `forwarded`_ a
+link to one of the Apache developers' posting about the "anti-Apache 2 FUD".
+This spawned a discussion about why people are not switching to Apache 2. The
+reasons is simply that PHP developers `don't really need it`_. The same
+discussion also touched why people are `not switching to PHP 5`_. Although
+Jochem used `the wrong example application`_. PHP 4.3.10 and PHP 5.0.3 were
+released as a result of a `list of security platforms`_.  At the same time the
+`Santy`_ worm was attacking phpBB. Although the phpBB people `put out`_ a
+totally `bogus`_ statement, more bad things about PHP were said. I wrote a
+little `FUD buster`_ and PHP.net now also has `a statement`_.
+
+.. _`Andi wanting to release PHP 5 RC1`: http://news.php.net/php.internals/6795
+.. _`announcing pecl/date`: http://news.php.net/php.pecl.dev/315
+.. _`Andi started another thread`: http://news.php.net/php.internals/6845
+.. _`it's basics`: http://news.php.net/php.internals/6997
+.. _`voted`: http://news.php.net/php.internals/7170
+.. _`guy`: http://news.php.net/php.internals/7340
+.. _`Apache 2 and threads`: http://news.php.net/php.internals/7471
+.. _`including SOAP`: http://news.php.net/php.internals/7609
+.. _`RC1`: http://news.php.net/php.internals/8396
+.. _`giving a FPE`: http://news.php.net/php.internals/8060
+.. _`discussed problems with signatures for inherited methods`: http://news.php.net/php.internals/8128
+.. _`started`: http://news.php.net/php.internals/8377
+.. _`little problems`: http://news.php.net/php.internals/8407
+.. _`problems`: http://news.php.net/php.internals/13199
+.. _`mailed`: http://news.php.net/php.internals/8610
+.. _`answered`: http://news.php.net/php.internals/8611
+.. _`"Studlycaps and MySQLi"`: http://news.php.net/php.internals/8639
+.. _`PHP 5 RC2`: http://news.php.net/php.internals/8848
+.. _`PHP 4.3.5pl1`: http://news.php.net/php.internals/8859
+.. _`released PHP 4.3.6`: http://news.php.net/php.internals/8872
+.. _`suggested`: http://news.php.net/php.internals/8990
+.. _`'NO'`: http://news.php.net/php.internals/8997
+.. _`John`: http://news.php.net/php.internals/9048
+.. _`argued`: http://news.php.net/php.internals/9298
+.. _`wrote to the list`: http://news.php.net/php.internals/12367
+.. _`new construct`: http://marc.theaimsgroup.com/?l=php-dev&m=108205754402394&w=2
+.. _`a new function`: http://marc.theaimsgroup.com/?l=php-dev&m=108214435225556&w=2
+.. _`wrote`: http://marc.theaimsgroup.com/?l=pecl-dev&m=108386137923670&w=2
+.. _`pointed out`: http://news.php.net/php.internals/12356
+.. _`require`: http://marc.theaimsgroup.com/?l=php-dev&m=108401035824996&w=2
+.. _`discussion`: http://news.php.net/php.internals/9871
+.. _`patch`: http://marc.theaimsgroup.com/?l=php-dev&m=108441860003724&w=2
+.. _`still not`: http://news.php.net/php.internals/14013
+.. _`Andrei added a patch`: http://news.php.net/php.zend-engine.cvs/2640
+.. _`strange hacks`: http://news.php.net/php.internals/9938
+.. _`cooked up a patch`: http://news.php.net/php.internals/9979
+.. _`receiving`: http://news.php.net/php.internals/10317
+.. _`'bugfixes'`: http://news.php.net/php.internals/10344
+.. _`fixes`: http://news.php.net/php.internals/10366
+.. _`improvements`: http://news.php.net/php.internals/10413
+.. _`weren't`: http://news.php.net/php.internals/10419
+.. _`even broke BC`: http://news.php.net/php.internals/10533
+.. _`nicely`: http://news.php.net/php.internals/10434
+.. _`he didn't seem to get it`: http://news.php.net/php.internals/10500
+.. _`explained`: http://news.php.net/php.internals/10491
+.. _`suggested to upgrade`: http://news.php.net/php.internals/10795
+.. _`not doing it`: http://news.php.net/php.internals/10802
+.. _`were fixed`: http://news.php.net/php.internals/10881
+.. _`decided`: http://news.php.net/php.internals/10910
+.. _`funny CVS account request`: http://news.php.net/php.internals/11082
+.. _`ifsetor()`: http://news.php.net/php.internals/10962
+.. _`PHP 5`: http://news.php.net/php.internals/11209
+.. _`tried`: http://news.php.net/php.internals/11274
+.. _`wrote a very intersting mail`: http://news.php.net/php.internals/11502
+.. _`goto operator`: http://news.php.net/php.internals/11599
+.. _`reaction`: http://news.php.net/php.internals/11658
+.. _`asked about better date/time support`: http://news.php.net/php.internals/11839
+.. _`was happy`: http://news.php.net/php.internals/12174
+.. _`Adam Q`: http://news.php.net/php.internals/12293
+.. _`Zeev`: http://news.php.net/php.internals/12296
+.. _`Ilia`: http://news.php.net/php.internals/12304
+.. _`rant`: http://news.php.net/php.internals/12349
+.. _`Sterling`: http://news.php.net/php.internals/12358
+.. _`Robert Amos`: http://news.php.net/php.internals/12360
+.. _`some ideas`: http://news.php.net/php.internals/12374
+.. _`multi-byte support`: http://news.php.net/php.internals/12437
+.. _`an explanation.`: http://news.php.net/php.internals/12681
+.. _`modified it`: http://news.php.net/php.zend-engine.cvs/3019
+.. _`for debuggers and the like`: http://news.php.net/php.zend-engine.cvs/3042
+.. _`patch was committed`: http://news.php.net/php.internals/12731
+.. _`statcallpatch`: http://news.php.net/php.internals/12793
+.. _`quite a lot`: http://news.php.net/php.internals/12838
+.. _`realpatch cache`: http://news.php.net/php.internals/12919
+.. _`submitted a patch`: http://news.php.net/php.internals/12854
+.. _`proven`: http://derickrethans.nl/month-2004-12.php?item=200412101411#200412101411
+.. _`wrote about problems`: http://news.php.net/php.internals/12974
+.. _`claiming`: http://news.php.net/php.pecl.dev/1392
+.. _`ran some benchmarks`: http://news.php.net/php.internals/13146
+.. _`interesting results`: http://news.php.net/php.internals/13151
+.. _`suggested to extend empty()`: http://news.php.net/php.internals/13412
+.. _`discussed`: http://news.php.net/php.internals/13423
+.. _`add two new switches`: http://news.php.net/php.internals/13521
+.. _`related`: http://news.php.net/php.internals/13523
+.. _`it's not CLI's task`: http://news.php.net/php.internals/13554
+.. _`PHP 5.1`: http://news.php.net/php.internals/13426
+.. _`PHP 5.2`: http://news.php.net/php.internals/13441
+.. _`forwarded a note`: http://news.php.net/php.internals/13584
+.. _`Adam Greenfeld`: http://news.php.net/php.internals/13648
+.. _`configure cURL`: http://bugs.php.net/bug.php?id=30609
+.. _`sent in`: http://news.php.net/php.internals/13724
+.. _`reliable`: http://news.php.net/php.internals/13792
+.. _`wanting fork() for Windows`: http://news.php.net/php.internals/13839
+.. _`emulating it is quite impossible too`: http://news.php.net/php.internals/13852
+.. _`suggested the outsourcing`: http://news.php.net/php.internals/14081
+.. _`Nuno`: http://news.php.net/php.internals/14085
+.. _`wondering what problem he was trying to solve`: http://news.php.net/php.internals/14095
+.. _`forwarded`: http://news.php.net/php.internals/14121
+.. _`don't really need it`: http://news.php.net/php.internals/14139
+.. _`not switching to PHP 5`: http://news.php.net/php.internals/14176
+.. _`the wrong example application`: http://news.php.net/php.internals/14184
+.. _`list of security platforms`: http://www.php.net/release_4_3_10.php
+.. _`Santy`: http://news.bbc.co.uk/2/hi/technology/4117711.stm
+.. _`put out`: http://www.phpbb.com/phpBB/viewtopic.php?f=14&t=248046
+.. _`bogus`: http://ilia.ws/archives/31-phpBB-unserialize-bug.html
+.. _`FUD buster`: http://derickrethans.nl/month-2004-12.php?item=200412241207#200412241207
+.. _`a statement`: http://php.net/
+

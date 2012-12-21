@@ -1,0 +1,40 @@
+RIP PHP 4
+=========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20080807 2040 CEST
+   :Tags: blog, cms, php, work
+
+PHP 4 has been with us (as "stable" release) since May 22nd,
+2000. In the past 8 years it brought us lots of joy, but in the later
+years lots of pain. A better PHP, PHP 5, as been a better alternative
+for close to 3 years now so it's time to get rid of the old stuff that
+PHP 4 really is.
+
+PHP 4 had quite some changes over the past years though. The main
+changes came with new mini releases:
+
+4.1.0 (10 Dec 2001): The introduction of the super globals.
+
+4.2.0 (22 Apr 2002): Register globals was turned off by default. The
+release announcement shouts "External variables (from the
+environment, the HTTP request, cookies or the web server) are no longer
+registered as global variables".
+
+4.3.0 (27 Dec 2002): Introduces "CLI", PHP's Command Line
+Interface and streams.
+
+4.4.0 (11 Jul 2005): Addresses the " `reference issue`_ ".
+
+Now, more than 3 years after the last major PHP 4 release, it is time to
+die down. With hardly any support for OO, sub-standard XML support and
+generally lots of other suckyness as well, it's time to focus on the
+future: PHP 6. So please die PHP 4 - and quickly. Today, August 7th,
+2008 is the last release of PHP 4 - PHP 4.4.9. After today there will be
+no more PHP 4 releases, regardless of whether there are security issues
+found in PHP 4. It's time to upgrade *now* .
+
+
+.. _`reference issue`: /php_440_release_candidate_1.php
+

@@ -1,0 +1,13 @@
+Look Back
+=========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040101 2020 CET
+   :Tags: 
+
+Just like last year I took some time to dive into the PHP
+development lists' archives and wrote a summary.more
+
+
+

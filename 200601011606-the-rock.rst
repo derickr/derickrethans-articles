@@ -1,0 +1,23 @@
+The Rock
+========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20060101 1606 CET
+   :Tags: blog, php
+
+At the center of `this image`_ you can see a faint rock - the largest one in our solar
+system. It is larger than every known asteroid, moon, and comet
+nucleus. It is larger than any other local rocky planet. This rock is
+so large its gravity makes it nearly spherical, and holds heavy gases
+near its surface. Today, this rock starts another orbit around its
+parent star, for roughly the 5 billionth time, spinning over 350 times
+during each trip. Happy New Year to all the human inhabitants of this
+rock we call Earth.
+
+(Didn't think of this text myself though, "borrowed" it from `here`_ .)
+
+
+.. _`this image`: http://antwrp.gsfc.nasa.gov/apod/image/0601/earth_vg1_big.jpg
+.. _`here`: http://antwrp.gsfc.nasa.gov/apod/
+

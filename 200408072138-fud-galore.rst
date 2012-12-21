@@ -1,0 +1,44 @@
+FUD Galore
+==========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040807 2138 CEST
+   :Tags: php
+
+`Devshed`_  `published`_ an article by Ian Felton titled " `PHP5: Could PHP Soon Be Owned by Sun?`_ " which is as close to paranoia
+as you can get. A few quotes from the article:
+
+iWrong! We
+wanted to make a better OO model, and it just ended up being like
+Java.
+
+iYes, the Zend people has some influence, but there is no way they
+"own" the PHP source code, nor can they ever make it something
+non-open source. Why? Because Zend only has a few persons working
+on the engine, and there are more non-Zend people working on it,
+nor can Zend force people to stop working on an open-source PHP.
+If they want, they can fork it into something commercial but that
+would be a very stupid move.
+
+iWe don't support MySQL less with PHP 5. There are a couple of
+reasons why the library is no longer bundled: 1. it was often
+outdated cause all sorts of problems; 2. a lot of people used the
+external library anyway, because not doing so will cause problems
+when using another Apache module that makes use of MySQL (such as
+auth_mysql or mod_perl); 3. we have a policy of not bundling
+libraries unless there is a really good reason to do it; 4. (the
+least important) MySQL's client library is now GPL and not LGPL
+anymore.
+
+Conclusion: It's fine if you write articles about PHP 5, but make
+sure you check facts and do not spread paranoia about things you
+have no clue about. Also, PHP can never be commercialized as there
+is always the option of creating a fork of the BSD-style licensed
+PHP source and Zend Engine.
+
+
+.. _`Devshed`: http://www.devshed.com
+.. _`published`: http://www.devshed.com/c/a/PHP/PHP-5-A-Sign-that-PHP-Could-Soon-be-Owned-by-Sun
+.. _`PHP5: Could PHP Soon Be Owned by Sun?`: http://www.devshed.com/c/a/PHP/PHP-5-A-Sign-that-PHP-Could-Soon-be-Owned-by-Sun
+

@@ -1,0 +1,75 @@
+Weekly babble - part #1
+=======================
+
+.. articleMetaData::
+   :Where: Groessen, The Netherlands
+
+As there are no big things happenings right now I'll be putting some
+minor things here. As first I'd like to apologize to Mr Zak for my `howto on booking flights`_. I had the great
+pleasure on booking some flights for myself, and of course (Murphy is
+everywhere) I fucked it up. Instead of booking a flight from  Trondheim
+(that's in Norway) to Amsterdam, I booked the wrong way around. Luckily
+the guys at the travel agency could fix it quickly for me.
+
+Then the *Manuel phenomenon* happened again, with some very annoying
+posts to the PHP-QA list he tried to annoy everybody again. Of course
+this succeeded very well. (See the update `here`_).
+
+Then we have had *Independence Day* in the US of A. No terrorist
+attacks were carried out, atleast that's what the FBI was telling.
+There was some shooting incident at LAX, and that may be classified as a
+terrorist attack against the state of Israel. You can find some
+interesting insight on Israel and this situation below:
+
+	
+	Let's put it this way. The fact that there are people trying to cross
+	the Egyptian border into Israel, who usually get caught either by the
+	Egyptian army or by the IDF and admit in their questioning that they
+	wanted to get inside in order to either shoot Israelis or blow
+	themselves up in the presence of Israelis and the fact that on the other
+	side of the world, an Egyptian person did exactly that, and not to some
+	random Lufthansa or Swiss counter, but to the El Al counter, it's not
+	rocket science to compute that those trying to cross the borders are
+	terrorists, even though they're not 'organized', and this guy in LA
+	is one just the same.  You know that most of the suicide bombers are not
+	'organized'?  They either prepare their own bomb belt, or get it from
+	someone a day before they blow themselves up. It's organized on the
+	nation level, as far as anti west, and primarily anti-Israeli propaganda
+	when the 'small person' just gets up and does something about it,
+	it's too late. And it's a part of the overall effort.
+
+	-- Zeev Suraski
+
+	
+	Let's make a (currently) imaginary experiment: Let's say someone
+	downtown Boston wakes up tomorrow, tunes in to whatever Osama has to say
+	believes in it wholeheartedly, goes to his work room in the back and
+	prepares a big ass bomb and blows himself up in a busy shopping mall
+	(something which is much closer to reality than some care to think).  Is
+	he a random whacko, or a terrorist?
+
+	-- Zeev Suraski
+
+	
+	The organization in this case is fundamental Islam and the fierce anti
+	Israeli and anti-west propaganda in most of the Arab states.  That's
+	the bond, and it's stronger than you may think.  As I wrote a friend a
+	few minutes ago - Terrorism is when someone gets up in the morning and
+	goes out killing people, typically indiscriminantly, because of
+	political or racial views he may hold.  That it.  It doesn't have to be
+	planned, it doesn't have to be big.  It can be just a stupid
+	Palestinian girl trying to slay a Jewish Yeshiva student with a box
+	cutter in the suburbs of Jerusalem, and it can be a well trained Saudi
+	using the same box cutter to drive a plane into the twin towers.
+	They're both terrorists.  What drives them is identical.  The rest is
+	details (important details, no doubt, but not important or even relevant
+	to their tagging as terrorists).
+
+	-- Zeev Suraski
+
+.. _`PHP Bug Hunt Event`: http://www.php.net/~derick/bugpacks.html
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`howto on booking flights`: http://www.derickrethans.nl/20020608.php
+.. _`here`: http://www.derickrethans.nl/ppl_lemos.php
+

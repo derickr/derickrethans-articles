@@ -1,0 +1,22 @@
+eZ Camp 2005
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050530 0015 CEST
+   :Tags: cms, conference, work
+
+Next weekend I will be presenting on Clustering and Caching at the `eZ publish Camp`_ . In this session I
+will talk about our new static cache features in eZ publish 3.6 and how
+we've set-up our cluster. The Camp will be at the foot of `Gaustablikk`_ ,
+Telemarks heighest mountain.
+
+Besides the conference this means some time to hike to the top, and take
+some more pictures of the mountain, it's environment and `Rjukan`_ .
+Unfortunately, there is no chance of registering anymore.
+
+
+.. _`eZ publish Camp`: http://ez.no/camp2005
+.. _`Gaustablikk`: http://www2.skiinfo.no/gaustablikk/english/main.html
+.. _`Rjukan`: http://www.tellus.no/tellus/db.dll?PR=75_14_35&icp=rjukan/index&sp=GB
+

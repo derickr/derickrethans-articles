@@ -1,0 +1,16 @@
+PHP 4.4 branching
+=================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050606 1457 CEST
+   :Tags: php, work
+
+Due to a patch for a bug with references in PHP 4.3 that breaks binary
+compability for extension modules the PHP projectjust created a PHP 4.4
+branch. This is only because of a backwards compability break. No new
+features will be added on the PHP 4.4 branch, only bug fixes are
+allowed.
+
+
+

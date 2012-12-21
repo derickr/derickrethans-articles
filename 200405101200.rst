@@ -1,0 +1,36 @@
+Patent issues revised
+=====================
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+Apparently the EU is not totally democratic either. A few months ago the
+`Software Patents Working Group`_ of the `Foundation for a Free Information
+Infrastructure`_ managed to lobby succesfully against software patents and
+managed that the EU Parliament restricted `patentability`_ of software. But
+`now`_ the EU Council just send that agreement to the scrap heap and made a
+draft behind close doors to allow `direct patentability of computer programs,
+data structures and process descriptions.`_, which is something truly evil as
+it breaks with the traditional system of patent law.
+
+Luckily there are a few `MEPs`_ who are rallying against this insult of the
+European Parliament. It was bound to happen of course with Ireland being the
+chair of the EU, with a website `sponsorred`_ by Micro$oft. So what can *you*
+do? Go to `this`_ site and sign up for the `Call for Action II`_.  You can also
+start calling your MEP, and make sure to vote for an anti-patent candidate in
+the june 10's European Parliament elections. (In the Netherlands for example
+`Johanna Boogerd`_).  But also, spreading the word about this blatent violation
+of democracy and make sure there is more coverage in the press is always a good
+thing.
+
+.. _`Software Patents Working Group`: http://swpat.ffii.org
+.. _`Foundation for a Free Information Infrastructure`: http://ffii.org
+.. _`patentability`: http://swpat.ffii.org/news/03/plen0924/index.en.html
+.. _`now`: http://swpat.ffii.org/news/04/cons0507/index.en.html
+.. _`direct patentability of computer programs, data structures and process descriptions.`: http://swpat.ffii.org/papers/europarl0309/cons0401/index.en.html#prog
+.. _`MEPs`: http://swpat.ffii.org/news/04/cons0507/index.en.html#reag
+.. _`sponsorred`: http://www.eu2004.ie/sitetools/sponsorship.asp
+.. _`this`: http://swpat.ffii.org/group/todo/index.en.html
+.. _`Call for Action II`: http://swpat.ffii.org/papers/europarl0309/demands/index.en.html
+.. _`Johanna Boogerd`: http://www.johannaboogerd.nl/
+

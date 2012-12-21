@@ -1,0 +1,19 @@
+Niagara Falls
+=============
+
+.. articleMetaData::
+   :Where: Niagara Falls, Canada
+   :Date: 20040922 1559 EDT
+   :Tags: nature
+
+.. image:: /images/content/niagara.jpg
+   :align: center
+
+Today I made a small trip to the Niagara Falls which is at about a
+90 minute drive from Toronto, where I'm attending the `php|works`_ conference. The
+Falls are pretty impressive, have a look at the `gallery`_ .
+
+
+.. _`php|works`: http://phparch.com/phpworks
+.. _`gallery`: http://photos.derickrethans.nl/phpworks04
+

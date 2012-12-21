@@ -1,0 +1,19 @@
+NGC confused
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040917 2149 CEST
+   :Tags: 
+
+.. image:: /images/content/ngc.jpg
+   :align: center
+
+While watching one of the only English channels here in Norway -
+National Geopgraphic - I was wondering if they were having some
+sort of problem with their subtitles. The ones in the picture
+appeared at one of their documentaries. The first line is
+Norwegian and the second Dutch.
+
+
+

@@ -1,0 +1,26 @@
+LinuxTag 2005
+=============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050620 2215 CEST
+   :Tags: cms, conference, php, work
+
+Tomorrow I will be traveling to `LinuxTag`_ in Karsrule, Germany where
+together with my collegues Bård, `Sandro`_ and `Zak`_ I will be manning `eZ systems'`_ booth to answer questions and demo
+eZ publish to the attendees.
+
+Besides the booth there are other activities too, such as `OSCOMTag`_ where Sandro and Bård have talks. (Sandro opens OSCOMTag and Bård
+talks on "Object Oriented Information Management" and takes
+part in a panel discussion.) I will give a talk on the `LAMP-day`_ on "Migrating from PHP 4 to PHP 5".
+
+I hope to see you at LinuxTag!
+
+
+.. _`LinuxTag`: http://www.linuxtag.org
+.. _`Sandro`: http://www.sandrozic.de/
+.. _`Zak`: http://zak.greant.com
+.. _`eZ systems'`: http://ez.no
+.. _`OSCOMTag`: http://www.linuxtag.org/typo3site/oscom.html?&L=0
+.. _`LAMP-day`: http://www.linuxtag.org/typo3site/foren-do.html?&L=0
+

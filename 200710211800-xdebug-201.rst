@@ -1,0 +1,39 @@
+Xdebug 2.0.1
+============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20071021 1800 CEST
+   :Tags: blog, php, xdebug
+
+I just `released Xdebug 2.0.1`_ . This
+version comes with a `few bug fixes`_ but the
+main thing is greatly improved performance of Xdebug's `Code Coverage`_ functionality. To give an idea on what kind of improvement I'm talking,
+I am including very rough benchmark results. For this benchmark I ran
+the test suite of the `eZ Components'`_  `Graph`_ component without
+code coverage checking, with Xdebug 2.0.0 and Xdebug 2.0.1. The results
+are as follows:
+
+::
+
+	Without code coverage: 1m00s
+	With code coverage, old Xdebug (2.0.0): 132m38s
+	With code coverage, new Xdebug (2.0.1): 4m57s
+
+That's quite something if you ask me :-)
+
+When I `released Xdebug 2.0.0`_ , I
+asked users (you!) to send me a postcard if you appreciate my work on
+Xdebug. So far, I received (only) 19 of them. I put them online at `flickr`_ .
+I am waiting for more ;-) (Address is `here`_ ).
+
+
+.. _`released Xdebug 2.0.1`: http://xdebug.org
+.. _`few bug fixes`: http://xdebug.org/updates.php#x_2_0_1
+.. _`Code Coverage`: http://xdebug.org/docs/code_coverage
+.. _`eZ Components'`: http://components.ez.no
+.. _`Graph`: http://components.ez.no/doc/Graph
+.. _`released Xdebug 2.0.0`: /xdebug_2_released.php
+.. _`flickr`: http://flickr.com/photos/derickrethans/sets/72157601485462007/map
+.. _`here`: /who.php
+

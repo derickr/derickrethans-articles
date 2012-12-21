@@ -1,0 +1,20 @@
+PHP in Brasil
+=============
+
+.. articleMetaData::
+   :Where: São Paulo, Brasil
+   :Date: 20061201 1455 BRST
+   :Tags: cms, conference, php, work, xdebug
+
+My first trip to South America has a busy schedule. Yesterday I flew
+from Norway to São Paulo to present at the `PHP Conference Brasil`_ . Tomorrow I will present `Xdebug`_ , and explain how it can help with
+debugging PHP applications quicker and easier.
+
+On Monday the 4th I will give a workshop on the `eZ components`_ where attendees will learn on how to use the most important components
+that are parts of the `eZ components`_ . There are still places open, so feel free to sign up!
+
+
+.. _`PHP Conference Brasil`: http://www.temporealeventos.com.br/?area=13
+.. _`Xdebug`: http://xdebug.org
+.. _`eZ components`: http://ez.no/ezcomponents
+

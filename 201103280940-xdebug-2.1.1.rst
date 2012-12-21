@@ -1,0 +1,49 @@
+Xdebug 2.1.1
+============
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2011-03-28 09:40 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-211
+
+I've just released_ Xdebug 2.1.1. It is a bug fix release that primarily
+addresses issues in the debugging and profiling functionality of Xdebug_.
+
+Among the bug fixes is a fix that solves an issue_ with newer versions of the
+KCacheGrind_ profiling GUI. The newer versions are more strict with input which
+causes an issue with Xdebug profiler_'s files. Xdebug 2.1.1 solves this_.
+
+As an experiment_ I set up a pledge system to allow myself to work on this (and
+related issues) during my "work time".  Twenty-four pledges were made, in about
+two weeks; matching the goal. Sebastian, Jan, Michael, `Pale
+Purple`_, Jeff, Christoph, Karel, Yannick, Jake, Venakis, Brian, Simon,
+Kenneth, DM Baker, "gizmola", Ladislav, Volker, React_, Michal and three
+anonymous supporters—thanks for your support!
+
+Another_ main issue that was fixed was that line numbers (in function traces,
+profile files and while debugging) for "magic" function calls (such as __get(),
+__call() etc) were always recorded as 0. This made it impossible to set
+breakpoints for example.
+
+You can find Xdebug 2.1.1's source and Windows binaries at the download_ page. A
+full ChangeLog_ is available as well.  Through twitter_ you can kept up-to-date
+about Xdebug's development efforts and support is available through the
+mailinglist_. If you think that Xdebug is a valuable tool, you can donate_ via
+PayPal.
+
+.. _released: http://xdebug.org/
+.. _Xdebug: http://xdebug.org/
+.. _issue: https://bugs.kde.org/show_bug.cgi?id=256425#c10
+.. _KCacheGrind: http://kcachegrind.sourceforge.net/html/Home.html
+.. _`Pale Purple`: http://www.palepurple.co.uk/
+.. _`React`: http://www.react.nl/
+.. _download: http://xdebug.org/download.php#releases
+.. _ChangeLog: http://xdebug.org/updates.php#x_2_1_1
+.. _donate: http://xdebug.org/donate.php
+.. _Another: http://bugs.xdebug.org/bug_view_page.php?bug_id=00000642
+.. _this: http://bugs.xdebug.org/bug_view_page.php?bug_id=00000639
+.. _experiment: http://drck.me/sponsor-xdebug-8ky
+.. _twitter: https://twitter.com/xdebug
+.. _mailinglist: http://xdebug.org/support.php#list
+.. _profiler: http://xdebug.org/docs/profiler

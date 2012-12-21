@@ -1,0 +1,39 @@
+A Decade of PHP
+===============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050607 1135 CEST
+   :Tags: blog, php, work
+
+About seven years ago I was hacking up some small sites in HTML for
+small businesses in my neighbourhood. One of them wanted to collect some
+address details and we were using some crappy CGI script to talk to
+MySQL - something that looked like server side includes. After a couple
+of months the customer wanted some more features related to this contact
+database - but the simple CGI script couldn't handle this. Then my
+co-worker found something called PHP (version 3.0.5 or so).
+
+This language has since then been part of my life, it started growing on
+me quite fast as it was easy to learn, and free. I think it even made me
+realize that Windows was crap and made me switch to Linux. After some
+time I needed to figure out the size of a Shockware Flash movie -
+something PHP couldn't just do yet. Instead of whining and bitching I
+decided it to `code it myself`_ - my first contribution to the PHP project. But this was
+certainly not the last one. Now I spend most of my professional time
+working `with`_ , and working `on`_ PHP - and most of my spare time
+working on various patches for PHP (although I now try to use some of my
+spare time for `other things`_ too ;-) ).
+
+PHP changed my life quite a lot, and without `Rasmus`_ there would have been no PHP. I'd like to thank him for coming up with
+something that allow "you to implement a guestbook or any other
+form" - allthough you can do a little bit more with PHP now ;-).
+Let's get ready for the next 10 years!
+
+
+.. _`code it myself`: http://viewcvs.php.net/viewcvs.cgi/php-src/ext/standard/image.c.diff?r1=1.18&r2=1.19
+.. _`with`: http://ez.no
+.. _`on`: http://viewcvs.php.net
+.. _`other things`: http://photos.derickrethans.nl
+.. _`Rasmus`: http://groups.google.ch/group/comp.infosystems.www.authoring.cgi/msg/cc7d43454d64d133?oe=UTF-8&output=gplain
+

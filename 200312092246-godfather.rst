@@ -1,0 +1,32 @@
+Godfather?
+==========
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20031209 2246 
+   :Tags: 
+
+Apparently `Zend`_ made Dmitry an offer he couldn't refuse :)
+
+From chat log of July 2nd, 2003:
+
+::
+
+	<@Zeev> Turck_ is copying every darn thing that we're doing
+	<@Zeev> I'm really not sure why this Dmitri guy is doing it
+	<@Derick> Zeev: ever asked him?
+
+On `internals@php.net`_ yesterday:
+
+::
+
+	From: Dmitry Stogov <dmitry - zend - com>
+	To: internals@lists.php.net
+	Subject: [PHP-DEV] CVS Account Request: dmitry
+
+	Overall & engine development
+
+
+.. _`Zend`: http://www.zend.com/
+.. _`internals@php.net`: http://news.php.net/article.php?group=php.internals&article=6287
+.. _`Turck`: http://www.turckware.ru/en/e_mmc.htm

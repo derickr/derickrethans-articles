@@ -1,0 +1,22 @@
+The Shiphole
+============
+
+.. articleMetaData::
+   :Where: Amsterdam, the Netherlands
+   :Date: 20050311 0938 CET
+   :Tags: work, php
+
+I'm on my way to Budapest for the `yearly PHP conference`_ there.
+I'll be speaking on Multi-Lingual development and PHP and Performance. I need to take two planes to get from
+Torp/Sandefjord in Norway to Budapest, through Amsterdam. Well that is all fine and dandy, what is not nice
+is that I've to wait 5 hours here at Schiphol (Amsterdam's airport) AND I had to get up at 4:15am to get my
+early morning flight at 6:30am. Annoying. For some reason they did give me a business class seat, allthough
+that's totally pointless on a Fokker 70.
+
+At Schiphol they have some new directive I think. Instead of just calling the names of passengers when they
+are late, the new announcement goes like: "Passenger John Doe, immediate boarding at gate D7 - you are
+delaying the flight. We will proceed to unload your luggage from the plane." Frightening :)
+
+
+.. _`yearly PHP conference`: http://www.phpconf.hu/2005/
+

@@ -1,0 +1,38 @@
+PHP infringes patents
+=====================
+
+.. articleMetaData::
+   :Where: Dieren, The Netherlands
+
+*The PHP development team has discovered that the PHP scripting
+language infringes on patent number EP0646864 (click on the
+"Claims" button to see the description), granted by the European
+Patent Office to Nippon Electric Co in 1995. This is a software patent
+on the principle of optimising compilers. Unfortunately, it appears we
+have unknowingly stolen this incredible invention and added
+optimisation functionality to our compiler without asking them for a
+license first.*
+
+*Did you know that the above paragraph could turn into reality if the
+European Parliament approves the proposed directive on software
+patents September 1st?*
+
+Although software and business method patents are currently illegal in
+
+.. image:: images/content/patent_banner.png
+
+Europe, the European Patents Office (EPO) has been granting them
+anyway (because they make good money doing so). Now, certain people in
+the European Parliament are trying to legalise this kind of unlimited
+patentability, instead of telling the EPO to respect the law!
+
+- `I want an  overview of the dangers of software patents and what I can do about it`_
+- `I want to learn more about this action from its organizers (FFII)`_
+- `I want to learn more about the demonstration today in Brussels`_
+
+.. _`Xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+.. _`I want an  overview of the dangers of software patents and what I can do about it`: http://jonagold.elis.ugent.be:8080/~jonas/why.html
+.. _`I want to learn more about this action from its organizers (FFII)`: http://swpat.ffii.org/group/demo/index.en.html
+.. _`I want to learn more about the demonstration today in Brussels`: http://swpat.ffii.org/news/03/demo0819/
+

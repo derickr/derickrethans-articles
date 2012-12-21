@@ -1,0 +1,56 @@
+User questions and support fees
+===============================
+
+.. articleMetaData::
+   :Where: Groessen, The Netherlands
+
+A friend of me sent in a "stupid user" question. However I found out later
+the the thing this user attempted was even more funnier. That is why there
+is no new "stupid" user entry, but a full blown blog entry.
+
+It started all with the following conversation:
+
+	Dear Mr. Hughes,
+
+	Could you please send me the Zip
+	extension for PHP, already compiled
+	for Microsoft Windows as a PHP
+	library?
+
+	-- Willie
+
+	
+	Hi Willie,
+
+	I require a consultancy fee of 200 USD for these services.
+
+	-Sterling
+
+	-- Sterling Hughes
+
+That sounds like a new tactic for Sterling, not charging for code, but for
+things that users can get for free :)
+
+Of course it was not a totally expected to get such a response from an Open
+Source devellopper and decided to search to find support elsewhere.  He was even
+so nice to tell Sterling that:
+
+	
+	Hi Sterling,
+
+	Fortunately I found a PHP class on the WWW that does what I need.
+
+	Thanks, anyway...
+
+	-- Willie
+
+Quoting Sterling on his response: "Isn't it nice how the respect your time
+enough to annoy you when in *under* 5 minutes users can find the answer when it
+comes to shelling out money?". It's pretty sad actually, but it gets even
+worse :) A few days later I found a new comment in the "Assorted Funny User Questions". Yes, you
+see that correctly. He found support on my "forum"!  Of course nobody responded
+yet :)
+
+.. _`xdebug`: http://xdebug.org/
+.. _`PHP`: http://www.php.net/
+

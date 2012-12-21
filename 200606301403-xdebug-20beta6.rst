@@ -1,0 +1,27 @@
+Xdebug 2.0beta6
+===============
+
+.. articleMetaData::
+   :Where: Sofia, Bulgaria
+   :Date: 20060630 1403 EEST
+   :Tags: conference, php, work, xdebug
+
+I am currently in Sofia attending the `webtech`_ conference. However some of the talks are in Bulgarian which makes it
+quite hard to follow. (There is translation available, but it is still
+not easy). So, instead of going to the sessions I finalized some
+optimization patches for `Xdebug`_ . I
+managed to find and fix some performance bottlenecks with cachegrind.
+Xdebug usually tries to figure out which variables are available in a
+specific function's scope by iterating over the op array that is being
+excuted. However, in many cases this is totally useles as the
+information is never used in any way. With the patch Xdebug will only
+try to figure out this information when either remote debugging is
+enabled, or when the setting xdebug.show_local_vars is activated. This
+speeds up certain applications by as much as 50%. This patch, and many
+others, made it into Xdebug 2.0.0beta6 which I just released through
+PECL. The source code is also avaible through the Xdebug website.
+
+
+.. _`webtech`: http://www.wtconferences.com/2006/index.php?id=6,0,0,1,0,0
+.. _`Xdebug`: http://xdebug.org
+

@@ -1,0 +1,14 @@
+VLD 0.8.0 released
+==================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050119 2312 CET
+   :Tags: php
+
+I released a new version of `VLD`_ today with some new things, and PHP 5.0 and PHP
+5.1 support.
+
+
+.. _`VLD`: /vld.php
+

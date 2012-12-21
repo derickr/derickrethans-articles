@@ -1,0 +1,15 @@
+I made it!
+==========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040525 2154 CEST
+   :Tags: work
+
+After a `long drive`_ to Fredrikshavn, and a ship full of bickering old
+german people I made it to Skien today. Finding an appartment was
+easy enough too, next tuesday I can move in.
+
+
+.. _`long drive`: http://photos.derickrethans.nl/2004norway
+

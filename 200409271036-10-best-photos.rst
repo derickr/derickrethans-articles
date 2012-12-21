@@ -1,0 +1,14 @@
+10 best photos
+==============
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040927 1036 CEST
+   :Tags: nature, travel, photography
+
+I added a new `image gallery`_ listing the -- what I think -- best images that I took including a
+description.
+
+
+.. _`image gallery`: /photos.php
+

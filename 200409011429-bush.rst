@@ -1,0 +1,14 @@
+</BUSH>
+=======
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040901 1429 CEST
+   :Tags: politics
+
+Through Damien I saw a `photo`_ of a geek protesting against Bush outside the RNC fair. But I
+guess Bush wouldn't understand the joke behind it..
+
+
+.. _`photo`: http://www.boingboing.net/2004/08/30/rncnyc_daily_geek_pr.html
+

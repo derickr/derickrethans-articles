@@ -1,0 +1,22 @@
+PaWSCon
+=======
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20040208 1538 CET
+   :Tags: 
+
+.. image:: /images/content/hand.png
+   :align: left
+
+In about 10 days I will be speaking at `PaWSCon`_ in Manchester on PHP
+& Encryption and `Xdebug`_ . In
+case you're interested in those topics, and in the 'neighbourhood',
+this conference might be worthwhile to visit. See `the schedule`_ and the `website`_ .more
+
+
+.. _`PaWSCon`: http://www.pawscon.com
+.. _`Xdebug`: http://xdebug.org
+.. _`the schedule`: http://www.pawscon.com/timetable
+.. _`website`: http://www.pawscon.com
+

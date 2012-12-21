@@ -1,0 +1,20 @@
+OSCOM Day 3
+===========
+
+.. articleMetaData::
+   :Where: Zürich, Switzerland
+   :Date: 20041001 1655 CEST
+   :Tags: cms, php, work
+
+I had to give a talk at 9.15, the first slot of the day. It went
+alright, but I had the feeling that some attendees decided to
+sleep in. I went to the "Legal Issues" talk by Rolf Auf Der Maur,
+who was talking about legal issues and risk for developing Open
+Source; it was kinda interesting, but he made me a bit sad by
+saying that "Anti-Patent Activists" have no chance of winning the
+war here in Europe. But the discussion that followed concluded
+that the "activists" will definitely have an impact on how
+Software Patents will be implemented here in Europe.
+
+
+

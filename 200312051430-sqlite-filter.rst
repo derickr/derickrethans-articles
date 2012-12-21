@@ -1,0 +1,16 @@
+SQLite filter
+=============
+
+.. articleMetaData::
+   :Where: Groessen, the Netherlands
+   :Date: 20031205 1430 
+   :Tags: 
+
+For the `International PHP Magazine`_ , Issue 1.2004 I wrote an article on the new Input
+Filter SAPI hooks in PHP 5. I added an (empty) `project page`_ for it for when people
+are interested in it.more
+
+
+.. _`International PHP Magazine`: http://www.php-mag.net/
+.. _`project page`: sqlite_filter.php
+

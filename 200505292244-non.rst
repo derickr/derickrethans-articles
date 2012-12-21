@@ -1,0 +1,19 @@
+NON!
+====
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050529 2244 CEST
+   :Tags: politics
+
+It looks like the `French`_ voted
+against the European Constitution. The Dutch will probably do the same
+on Wednesday. I already cast my vote for it, also a No. I don't want a
+constitution that still leaves the European Parliament without powers,
+so that things like the `Software Patents`_ are not pushed through by the European Commision. (And no,
+this is not the only reason why I'm against).
+
+
+.. _`French`: http://news.bbc.co.uk/2/hi/europe/4592243.stm
+.. _`Software Patents`: http://www.ffii.se/dokument/filmpatent_eng.html
+

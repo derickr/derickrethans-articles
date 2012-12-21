@@ -1,0 +1,20 @@
+What would you ask...
+=====================
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+
+.. image:: images/content/laden.jpg
+
+World's most wanted bandit, `Mr Bin Laden`_.  My `sister`_ was asking on her
+`blog`_ (in Dutch) three questions to her audience. I started wondering and
+though, why not ask *my* audience what they would ask Usama, if they ever met
+him. So here is my question for you:
+
+*What would you ask Usama bin Laden if you ever met him?* (add your answer by
+entering a comment)
+
+.. _`Mr Bin Laden`: http://www.fbi.gov/mostwant/topten/fugitives/laden.htm
+.. _`sister`: http://www.bijfemme.nl/
+.. _`blog`: http://www.bijfemme.nl/pivot/entry.php?id=91
+

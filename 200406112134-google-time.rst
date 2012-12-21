@@ -1,0 +1,17 @@
+Google Time
+===========
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20040611 2134 CEST
+   :Tags: work
+
+As you might know Google engineers can use 20% of their time to
+work on 'personal' projects. That's how orkut started for example.
+From today we also do this at `eZ systems`_ ; every friday after lunch we can use to work on
+personal, though slightly relevant, projects. This gives an
+opportunity to seek out some new tools and projects.
+
+
+.. _`eZ systems`: http://ez.no
+

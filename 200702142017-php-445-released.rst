@@ -1,0 +1,24 @@
+PHP 4.4.5 Released
+==================
+
+.. articleMetaData::
+   :Where: Vancouver, Canada
+   :Date: 20070214 2017 
+   :Tags: php, work
+
+As a counterpart to PHP 5.2.1 that was released a few days ago there is
+now an equivalent security release of PHP 4.4. This `addresses`_ most of the
+same issues as PHP 5.2.1, but also some PHP 4.4 specific issues. I
+recommend to upgrade as soon as possible to PHP 4.4.5 if you're still
+using either PHP 4.3.x or PHP 4.4.y [with 0 <= y < 5]. You can
+download PHP 4.4.5 from the [link
+http://www.php.net/downloads.php#v4]PHP website[/link].
+
+The PHP 4.4 branch is "maintenance" only, meaning that
+releases are primarily only made for security and other important fixes.
+Of course, less important fixes can also make it into the release in
+case this is deemed useful.
+
+
+.. _`addresses`: http://php.net/releases/4_4_5.php
+

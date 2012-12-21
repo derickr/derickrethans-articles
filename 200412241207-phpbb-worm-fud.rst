@@ -1,0 +1,19 @@
+phpBB worm FUD
+==============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20041224 1207 CET
+   :Tags: php
+
+Everybody who thinks that the Santy.A worm uses one of the security problems addressed in PHP's latest `bugfix releases`_ is wrong. It was `NOT`_ due to any bug in PHP, but merely a badly
+checked input variable which was passed to preg with the /e modifier. Besides this, phpBB is `also vulnarable`_ for some of the things
+address by PHP's new releases. But they are wrong saying that it is not their fault. `Not-checked usage of serialized data`_ is still their problem. Short version: use `FUDforum`_ .
+
+
+.. _`bugfix releases`: http://www.php.net/release_4_3_10.php
+.. _`NOT`: http://www.phpbb.com/phpBB/viewtopic.php?t=244451
+.. _`also vulnarable`: http://www.phpbb.com/phpBB/viewtopic.php?f=14&t=248046
+.. _`Not-checked usage of serialized data`: http://ilia.ws/archives/31-phpBB-unserialize-bug.html
+.. _`FUDforum`: http://fud.prohost.org
+

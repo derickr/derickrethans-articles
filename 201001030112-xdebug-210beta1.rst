@@ -1,0 +1,69 @@
+Xdebug 2.1.0beta1 released
+==========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2010-01-03 02:08 Europe/London
+   :Tags: blog, php, xdebug
+
+It has been two years since I released_ Xdebug_ 2.0.0. Since then  I've
+added many new features to Xdebug. For some of those new features you can
+find a little description below—I will write more about these, and other
+features later.
+
+Besides the features, I also fixed a whole array of bugs and Xdebug
+2.1.0 comes with PHP 5.3 support. From now on I will not be supporting
+any PHP versions less than PHP 5.1 anymore. But now on to the
+descriptions:
+
+**Header Setting Interception**
+
+All functions that set HTTP headers such as with `header()`_ and
+`setcookie()`_ are now intercepted by Xdebug. The intercepted headers
+are stored internally in an array that can be retrieved by calling the
+`xdebug_get_headers()`_ function. This is very useful in cases where you
+need to test certain functionality that sets headers somewhere deep in
+code. This function is also used in `eZ Components'`_ test suite to
+test_ whether the correct HTTP headers are set in the MvcTools_
+component.
+
+**Variable Assignment Tracing**
+
+Allows you to record changes to variables in scripts to `trace files`_.
+I've already written more about it in `Variable tracing with Xdebug`_.
+
+**"Scream" Support**
+
+The scream_ PECL extension disables the @ (shut-up) operator to actually
+see all notices, warnings and errors that PHP generates. The scream
+extension's functionality have been duplicated as Xdebug's xdebug.scream
+php.ini setting. Why disabling the @-operator is a good thing, I've
+already outlined in `Five reasons why the shut-op operator (@) should be
+avoided`_.
+
+**What's Next?**
+
+There are still a few bugs left that need some attention, but this first
+beta should have most of them fixed. Please test the beta as much as you
+can and provide feedback in the `issue tracker`_. After this initial
+beta it is like that one more more betas will follow before I prepare a
+release candidate. Xdebug 2.1.0beta1 can be obtained through the `Xdebug
+website`_ and a full changelog is also available_. You can also `follow
+Xdebug on twitter`_ to be kept up-to-date with the latest developments.
+
+.. _released: http://derickrethans.nl/xdebug-2-released.html
+.. _Xdebug: http://xdebug.org
+.. _`header()`: http://php.net/header
+.. _`setcookie()`: http://php.net/setcookie
+.. _`xdebug_get_headers()`: http://xdebug.org/docs/all_functions#xdebug_get_headers
+.. _`eZ Components'`: http://ezcomponents.org
+.. _test: http://svn.ez.no/svn/ezcomponents/trunk/MvcTools/tests/response_writers/http.php
+.. _MvcTools: http://ezcomponents.org/s/MvcTools
+.. _`trace files`: http://xdebug.org/docs/execution_trace
+.. _`Variable tracing with Xdebug`: http://derickrethans.nl/variable-tracing-with-xdebug.html
+.. _`Five reasons why the shut-op operator (@) should be avoided`: http://derickrethans.nl/five-reasons-why-the-shutop-operator-should-be-avoided.html
+.. _scream: http://pecl.php.net/scream
+.. _`issue tracker`: http://bugs.xdebug.org
+.. _`Xdebug website`: http://xdebug.org/download.php
+.. _`follow Xdebug on twitter`: http://twitter.com/xdebug
+.. _available: http://xdebug.org/updates.php#x_2_1_0beta1

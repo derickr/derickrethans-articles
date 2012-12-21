@@ -1,0 +1,19 @@
+P.I.T.
+======
+
+.. articleMetaData::
+   :Where: Porsgrunn, Norway
+   :Date: 20040613 0036 CEST
+   :Tags: nature
+
+.. image:: /images/content/pit.png
+   :align: center
+   :target: http://photos.derickrethans.nl/2004norway-pit
+
+Today the Porsgrunn International Theater festival started with a
+performance by the French group 'Trance Express'. Together with
+Gurudutt and Bjørn we had a look at this spectacle with sound and
+light.more
+
+
+

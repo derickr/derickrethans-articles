@@ -1,0 +1,23 @@
+PHP 4.4.3 Released
+==================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20060803 1146 CEST
+   :Tags: cms, php
+
+I just released PHP 4.4.3 which brings a number of security fixes (and
+other fixes) that were backported from the PHP 5.1 branch. None of the
+security issues are *very* critical, but it is a good idea to
+upgrade anyway as you never know what clever ways people come up with
+to try to hack your servers :)
+
+For more information, see `the release announcement`_ and `The ChangeLog`_ .
+
+This is not the last PHP 4.4 relase and the PHP team will continue to
+support it for some years to come.
+
+
+.. _`the release announcement`: http://www.php.net/release_4_4_3.php
+.. _`The ChangeLog`: http://www.php.net/ChangeLog-4.php#4.4.3
+

@@ -1,0 +1,21 @@
+Xdebug 2.0.4
+============
+
+.. articleMetaData::
+   :Where: Dieren, the Netherlands
+   :Date: 20081230 1646 CET
+   :Tags: blog, cms, php, xdebug
+
+.. image:: /images/content/xdebug_logo.png
+   :align: left
+
+I
+just released `Xdebug 2.0.4`_ which addresses bugs from the Xdebug 2.0 branch, including
+bug fixes related to crashes on Vista. You can get Xdebug through PECL
+(pecl install xdebug) or from the `Xdebug`_ site. Windows binaries will be
+made available later.
+
+
+.. _`Xdebug 2.0.4`: http://xdebug.org/updates.php#x_2_0_4
+.. _`Xdebug`: http://xdebug.org
+

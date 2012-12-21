@@ -1,0 +1,61 @@
+OpenStreetMap: A Year of Edits
+==============================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2012-01-01 00:00 Europe/London
+   :Tags: blog, openstreetmap, maps, php
+   :Short: osmyoe11
+
+In the past weeks I've been working on some visualisations related to additions
+and changes being made to OpenStreetMap. To start of the new year, I hereby
+present: **OpenStreetMap: A Year of Edits (2011)**:
+
+.. vimeo::
+   :ID: 34404102
+   :Width: 599
+   :Height: 337
+   :Title: OpenStreetMap: A Year of Edits (2011)
+
+You can see the video in HD on Vimeo__.
+**Happy New Year!**
+
+__ http://vimeo.com/derickr/osm-2011
+
+
+*How Did He Do That?*
+
+This animation is all made with Open Source software. I haven't had the time to
+clean up the code to make it releasable yet, but I am intending to do that in
+the near feature and add it to my `OpenStreetMap tools`_ git repository on
+github.
+
+.. _`OpenStreetMap tools`: https://github.com/derickr/osm-tools
+
+The first thing I did, was download all the hourly replication files from
+http://planet.openstreetmap.org/hour-replicate for the year.
+
+With a script, I scanned over all those XML files and for every three hours I
+created an image showing the edits of those last three hours (in white), as
+well as all the other edits in the background (in purple). With 4 frames per
+day, this gives me 1460 frames.
+
+Each of the frames is an equirectangular projection which I then map onto a
+sphere with a faded background of "earthmap10k" of
+http://planetpixelemporium.com/earth.html (I downloaded it *years* ago when it
+was still free to download). For the 3D rendering of the Earth with the edits
+layed on top of it I used POV-Ray_.
+
+.. _POV-Ray: http://www.povray.org/
+
+I generated two different loops so that I can make two full rotations at
+different angles. This gives me in total 2882 frames which is about two
+minutes. The POV-Ray generated images I post-processed by overlaying the
+progress bar in the lower left and added the fading and merging effects. Then I
+used mencoder_ to create a MPEG video out of it.  Finally I added the `sound
+track`_ again by using mencoder and uploaded it to Vimeo_.
+
+.. _mencoder: http://www.mplayerhq.hu/
+.. _`sound track`: http://www.archive.org/details/TBECD005-MP3-192k-VBR
+.. _Vimeo: http://vimeo.com/derickr/osm-2011
+

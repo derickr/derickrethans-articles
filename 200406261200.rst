@@ -1,0 +1,65 @@
+LinuxTag 2004
+=============
+
+.. articleMetaData::
+   :Where: Karlsruhe, Germany
+
+LinuxTag 2004 was held in Karlsruhe from June 23rd to June 26th. I
+left my place in the Netherlands a day earlier to help with setting up the LAMP
+Area booth. This year Georg Richter did an excellent job to gather AMP-related
+projects and companies to fill a shared booth including a speaker area. Besides
+`eZ	systems`_ four other companies: `Zend`_, `100 days`_, `ThinkPHP`_ and
+`MySQL`_.
+
+The first day of the conference, Wednesday, was quite
+uninteresting with only a few people wandering around the
+fairgrounds. The talk I head on debugging PHP with
+`Xdebug`_ was unfortunately only attended by a
+few interested people. But there was one highlight of the day, when the
+Netherlands qualified for the quarter final of the European Soccer
+Championship and the Germans did not make it. Wearing an orange
+t-shirt didn't make the Germans happier ;-).
+
+Thursday wasn't much more crowded either, but it
+*was* more interesting. At the end of the day, Jan Wildeboer of
+the `FFII`_ led the demonstration against 'No
+Software Patents' which was a success with about 900 people
+participating. The march from the fairgrounds to the 'Marktplatz'
+was witnessed by a couple of policemen and a few dozen interesting
+Germans. Arriving at the 'Marktplatz' a few speakers, including
+Florian Müller of MySQL, once more explained the problems of
+software patents.
+
+Because free beer goes together hand in hand with free speech, the
+people from the LAMP Area where invited by
+`MySQL`_ to join a "free beer" evening in
+Vogelbrau in Ettlingen.
+
+Starting on Friday was a bit of a problem after all the beer, but
+fortunately the day went quickly with much more attendees then the
+two previous days. The same was true for the first part of
+Saturday, but around 4 in the afternoon we packed up and went back
+to the hotel to have dinner. The evening was filled with laughter
+where `Ken`_, `Wez`_, myself
+and some other people where telling all sorts of anecdotes.
+
+On Sunday we left the hotel around 9.30 and began our trip back to
+Skien in Norway. Airport Frankfurt Hahn is about two and a half
+hours of driving from Karlsruhe, but it is the place from which
+RyanAir flies to Torp-Sandefjord (or Oslo as they call it). While
+RyanAir is cheap, it's obviously not a company with a lot of
+service. Anyway, we made it on the plane on time and managed to
+save big time on the alcohol from the tax-free shop.
+
+
+.. _`Xdebug`: http://xdebug.org
+.. _`PHP`: http://www.php.net/
+.. _`eZ	systems`: http://ez.no
+.. _`Zend`: http://zend.com
+.. _`100 days`: http://100days.de
+.. _`ThinkPHP`: http://mayflower.de
+.. _`MySQL`: http://mysql.com
+.. _`FFII`: http://swpat.ffii.org
+.. _`Ken`: http://ken.coar.org
+.. _`Wez`: http://netevil.org
+

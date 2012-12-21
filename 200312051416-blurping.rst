@@ -1,0 +1,15 @@
+Blurping
+========
+
+.. articleMetaData::
+   :Where: Groessen, the Netherlands
+   :Date: 20031205 1416 
+   :Tags: 
+
+You might have noticed a new look at my site. It's not really new,
+just a bit restyled. In this new design I also have the
+possibilities to add 'blurps'. From now on I will be blurping my
+thoughts frequently.
+
+
+

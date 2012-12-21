@@ -1,0 +1,13 @@
+LinuxTag 2005: slides
+=====================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20050629 1507 CEST
+   :Tags: conference, php, work
+
+I just put the slides of my LinuxTag presentation `online`_ .
+
+
+.. _`online`: /talks.php
+

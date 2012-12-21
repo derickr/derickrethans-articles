@@ -1,0 +1,14 @@
+SRM 0.7.0 released!
+===================
+
+.. articleMetaData::
+   :Where: Skien, Norway
+   :Date: 20041102 1332 CET
+   :Tags: php, xdebug
+
+I just released `SRM`_ 0.7.0 which has been updated for PHP 4.3.x (tested with 4.3.7 and
+higher) and adds some new features.more
+
+
+.. _`SRM`: http://derickrethans.nl/projects.html#srm
+
