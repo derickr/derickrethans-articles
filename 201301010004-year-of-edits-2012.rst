@@ -1,0 +1,35 @@
+OpenStreetMap: A Year of Edits 2012
+===================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-01-01 00:04 Europe/London
+   :Tags: blog, openstreetmap, maps, php
+   :Short: osmyoe12
+
+Just like `last year`_ I've analysed all the edits to OpenStreetMap and
+produced a visualisation. It was a bit trickier this year as I also wanted to
+visualize the work of the redaction bot as well as the "redaction period" and
+the switch to ODbL_ for OpenStreetMap data.
+
+The result is: **OpenStreetMap: A Year of Edits (2012)**:
+
+.. vimeo::
+   :ID: 34404102
+   :Width: 599
+   :Height: 337
+   :Title: OpenStreetMap: A Year of Edits (2012)
+
+You can see the video in HD on Vimeo__.
+
+I have started to make the code for this available through GitHub, but the code_
+is very much not modularized and it is likely it will only work on my set-up.
+Expect this to change for next year!
+
+**Happy New Year!**
+
+__ http://vimeo.com/derickr/osm-2012
+
+.. _`last year`: /year-of-edits.html
+.. _ODbL: http://en.wikipedia.org/wiki/ODbL
+.. _code: https://github.com/derickr/osm-year-in-edits
