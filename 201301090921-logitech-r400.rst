@@ -1,0 +1,87 @@
+Tweaking the Logitech R400 presenter tool on Linux
+==================================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-01-09 09:21 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: r400
+
+For Christmas I received a `Logitech R400`_ presenter tool as a replacement
+for the `php|architect`_ one that has now fallen apart. However, to use it
+together with my presentation system—pres2, about which I previously_ wrote—I
+need it to provide left and right arrow keypresses. By default its *left* and
+*right* buttons generate *Prior* and *Next* events in X.
+
+It took me a while to get this to work, so in short, this is how I changed it.
+First of all, I created the file ``/lib/udev/keymaps/logitech-r400`` as root
+with contents::
+
+	0x70037 f5
+	0x70029 f11
+	0x7003E f11
+	0x7004B left
+	0x7004E right
+
+.. image:: /images/content/logitech-r400.png
+   :align: left
+
+This maps the two scan codes that the *Play* button (lower-left) both to *f11*,
+the empty screen button to *f5* and the left and right buttons to the left
+and right arrow keys. 
+
+The first column represents the scancode, which I obtained by first looking up
+with input event the device was tied to::
+
+	stat -t /dev/input/by-id/usb-Logitech_USB_Receiver-event-kbd --printf "%N\n"
+
+Which showed the following for me::
+
+	‘/dev/input/by-id/usb-Logitech_USB_Receiver-event-kbd’ -> ‘../event16’
+
+Then with ``event16`` I ran::
+
+	/lib/udev/keymap -i input/event16
+
+And pressed all four buttons (and the *Play* button twice). This then showed up
+on the screen::
+
+	scan code: 0x7004B   key code: pageup
+	scan code: 0x7004E   key code: pagedown
+	scan code: 0x7003E   key code: f5
+	scan code: 0x70029   key code: esc
+	scan code: 0x70037   key code: dot
+
+After creating the file, to test things I ran::
+
+	sudo /lib/udev/keymap input/event16 /lib/udev/keymaps/logitech-r400
+
+Which showed::
+
+	Remapped scancode 0x70037 to 0x3f (prior: 0x34)
+	Remapped scancode 0x70029 to 0x57 (prior: 0x01)
+	Remapped scancode 0x7003e to 0x57 (prior: 0x3f)
+	Remapped scancode 0x7004b to 0x69 (prior: 0x68)
+	Remapped scancode 0x7004e to 0x6a (prior: 0x6d)
+
+After this ran, the presenter tool now sends the key presses that I want. To
+make this permanent, I added as root to the end of
+``/lib/udev/rules.d/95-keymap.rules``, but before the ``LABEL="keyboard_end"``
+line::
+
+	ENV{ID_VENDOR}=="Logitech*", ATTRS{idProduct}=="c52d", RUN+="keymap $name logitech-r400"
+
+The changes will now also persist after rebooting as well.
+
+My first possibility to test the new tool will be at `PHP Benelux`_ where
+I will be giving a MongoDB_ tutorial_ on January 25th. Tickets are still
+available_.
+
+
+.. _`Logitech R400`: http://www.amazon.co.uk/gp/product/B002L3TSLQ/ref=as_li_ss_tl?ie=UTF8&tag=derickrethans-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B002L3TSLQ
+.. _`php|architect`: http://www.phparch.com/
+.. _previously: /presentations.html
+.. _`PHP Benelux`: http://conference.phpbenelux.eu/2013/
+.. _tutorial: http://conference.phpbenelux.eu/2013/sessions/#mongodb-workshop
+.. _MongoDB: http://mongodb.org
+.. _available: http://myupcoming.com/en/event/35892/phpbenelux-conference-2013
