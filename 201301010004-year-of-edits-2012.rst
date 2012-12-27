@@ -15,7 +15,7 @@ the switch to ODbL_ for OpenStreetMap data.
 The result is: **OpenStreetMap: A Year of Edits (2012)**:
 
 .. vimeo::
-   :ID: 34404102
+   :ID: 56374742
    :Width: 599
    :Height: 337
    :Title: OpenStreetMap: A Year of Edits (2012)
@@ -26,7 +26,7 @@ I have started to make the code for this available through GitHub, but the code_
 is very much not modularized and it is likely it will only work on my set-up.
 Expect this to change for next year!
 
-**Happy New Year!**
+**Mappy New Year!**
 
 __ http://vimeo.com/derickr/osm-2012
 
