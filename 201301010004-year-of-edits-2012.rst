@@ -20,6 +20,12 @@ The result is: **OpenStreetMap: A Year of Edits (2012)**:
    :Height: 337
    :Title: OpenStreetMap: A Year of Edits (2012)
 
+This animation shows all additions and modifications of nodes (flashes) and
+cumulative edits (fading to purple) in 2012. Additional visualisations are the
+redaction bot's work (flying away yellow spheres) and the shift to ODbL (green
+flash). It gives a good overview of the effort that 1000s of contributors put
+in to make OpenStreetMap the best source of mapping data.
+
 You can see the video in HD on Vimeo__.
 
 I have started to make the code for this available through GitHub, but the code_
