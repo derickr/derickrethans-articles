@@ -7,6 +7,8 @@ Tweaking the Logitech R400 presenter tool on Linux
    :Tags: blog, php, mongodb
    :Short: r400
 
+**Updated on April 9th, 2013, after comments by Jim Diamond**
+
 For Christmas I received a `Logitech R400`_ presenter tool as a replacement
 for the `php|architect`_ one that has now fallen apart. However, to use it
 together with my presentation system—pres2, about which I previously_ wrote—I
@@ -14,7 +16,7 @@ need it to provide left and right arrow keypresses. By default its *left* and
 *right* buttons generate *Prior* and *Next* events in X.
 
 It took me a while to get this to work, so in short, this is how I changed it.
-First of all, I created the file ``/lib/udev/keymaps/logitech-r400`` as root
+First of all, I created the file ``/etc/udev/logitech-r400`` as root
 with contents::
 
 	0x70037 f5
@@ -54,7 +56,7 @@ on the screen::
 
 After creating the file, to test things I ran::
 
-	sudo /lib/udev/keymap input/event16 /lib/udev/keymaps/logitech-r400
+	sudo /lib/udev/keymap input/event16 /etc/udev/logitech-r400
 
 Which showed::
 
@@ -65,11 +67,10 @@ Which showed::
 	Remapped scancode 0x7004e to 0x6a (prior: 0x6d)
 
 After this ran, the presenter tool now sends the key presses that I want. To
-make this permanent, I added as root to the end of
-``/lib/udev/rules.d/95-keymap.rules``, but before the ``LABEL="keyboard_end"``
-line::
+make this permanent, I added as root a new file
+``/etc/udev/rules.d/logitech.rules``, with as contents::
 
-	ENV{ID_VENDOR}=="Logitech*", ATTRS{idProduct}=="c52d", RUN+="keymap $name logitech-r400"
+	ENV{ID_VENDOR}=="Logitech*", ATTRS{idProduct}=="c52d", RUN+="keymap $name /etc/udev/logitech-r400"
 
 The changes will now also persist after rebooting as well.
 
