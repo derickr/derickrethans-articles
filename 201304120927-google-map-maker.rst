@@ -70,7 +70,7 @@ If you are contributing time and knowledge, why not allow yourself to
 benefit from it as well? I realise that OpenStreetMap might not be as
 accessible, and the map-tiles on their web site aren't the prettiest,
 but the real benefit is in the access to the raw data that makes up the
-images in the map. 
+images in the map. The OpenStreetMap wiki also has an article_ on this.
 
 Access to the data allows you to do so many more things. From creating
 your own fancy `map-styles`_, creating *"washable, wearable, all-weather
@@ -106,3 +106,4 @@ also run mapping parties).
 .. _`do awesome things`: https://vimeo.com/56374742
 .. _Mali: https://vimeo.com/61282773
 .. _places: http://hot.openstreetmap.org/
+.. _article: http://wiki.openstreetmap.org/wiki/Google_Map_Maker
