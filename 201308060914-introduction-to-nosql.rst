@@ -25,7 +25,9 @@ MongoDB_ belong to the last category, "Document databases".
 .. _XXX: http://webandphp.com/April2013
 .. _memcache: http://en.wikipedia.org/wiki/Memcache
 .. _Redis: http://en.wikipedia.org/wiki/Redis
+.. _`Apache CouchDB`: http://en.wikipedia.org/wiki/CouchDB
 .. _Cassandra: http://en.wikipedia.org/wiki/Cassandra_%28database%29
+.. _MongoDB: http://mongodb.org
 .. _Hadoop: http://en.wikipedia.org/wiki/Hadoop
 .. _Neo4j: http://en.wikipedia.org/wiki/Neo4J
 .. _OrientDB: http://en.wikipedia.org/wiki/OrientDB
