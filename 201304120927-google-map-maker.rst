@@ -7,7 +7,7 @@ Crowd-serfing
    :Tags: blog, php, openstreetmap
    :Short: gmm
 
-Earlier today, Google announced_ that they have made Google Map Maker
+Yesterday, Google announced_ that they have made Google Map Maker
 available in the United Kingdom. Like OpenStreetMap_ it allows
 everybody to update and add things to the map. But there is one big
 difference: With MapMaker you don't get access to the data.
@@ -65,6 +65,9 @@ that commercial entities state. An except from MapMaker's reads:
 
 Note that it never mentions that you can do anything with the data
 yourself…
+
+.. image:: /images/content/stamen-hydepark.jpg
+   :align: left
 
 If you are contributing time and knowledge, why not allow yourself to
 benefit from it as well? I realise that OpenStreetMap might not be as
