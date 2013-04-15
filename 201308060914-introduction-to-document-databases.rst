@@ -5,7 +5,7 @@ Introduction to Document Databases with MongoDB
    :Where: London, UK
    :Date: 2013-08-06 09:11 Europe/London
    :Tags: blog, mongodb, php
-   :Short: nosqlint
+   :Short: docdb
 
 This article originally appeared in Web & PHP issue XXX_.
 
