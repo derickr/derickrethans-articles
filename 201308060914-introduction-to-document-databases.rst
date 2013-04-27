@@ -9,15 +9,15 @@ Introduction to Document Databases with MongoDB
 
 This article originally appeared in Web & PHP issue XXX_.
 
-By now most you will probably have heard of the term "NoSQL". It's a vague
+By now most you will probably have heard of the term *NoSQL*. It's a vague
 term that covers a lot of different types of database engines. The main
-classes of "NoSQL" databases are "key/value stores", "column databases",
-"graph databases" and "document databases". Examples of a key/value stores
+classes of *NoSQL* databases are *key/value stores*, *column databases*,
+*graph databases* and *document databases*. Examples of a key/value stores
 are memcache_ or Redis_, where data can only be stored and retrieved through a
-specific key. "Column databases", such as Cassandra_ and Hadoop_, are great
-for processing large amounts of data. "Graph databases" such as Neo4j_ and
+specific key. Column databases, such as Cassandra_ and Hadoop_, are great
+for processing large amounts of data. Graph databases such as Neo4j_ and
 OrientDB_ model the *relations* between entities. `Apache CouchDB`_ and
-MongoDB_ belong to the last category, "Document databases". We will be
+MongoDB_ belong to the last category, Document databases. We will be
 looking extensively at MongoDB in this article.
 
 In a document database such as MongoDB the smallest unit is a *document*.  In
@@ -123,7 +123,7 @@ tables:
 2           2
 =========== ============
 
-And queries for both meta-data and the tags for the bunny (id = 2) are as
+And queries for both meta-data and the tags for the bunny (``id = 2``) are as
 follows::
 
 	SELECT *
