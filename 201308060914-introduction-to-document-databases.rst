@@ -190,6 +190,42 @@ Or if you use PHP 5.4 you can use the following::
 PHP 5.4's short array syntax can come in quite handy when dealing with MongoDB
 documents with nested arrays and objects.
 
+**Getting Started**
+
+MongoDB can be downloaded for free from http://mongodb.org/downloads. If you
+are on Debian or Ubuntu, I would greatly advice to follow the `specific
+instructions`_ with packages because they make updating easy. After
+downloading, please make sure that MongoDB runs by running on the command line
+``mongo test``. This opens up a shell like interface for the *test* database.
+If that works, then you can issue commands in JavaScript syntax such as::
+
+	db.persons.insert( { 'name': 'Derick Rethans', 'twitter': 'derickr' } );
+	db.persons.find( { 'twitter': 'derickr' } );
+
+In order to use MongoDB from PHP, you also need to install the `PHP driver for
+MongoDB`_. In most situations you should be able to do so by running::
+
+	pecl install mongo
+
+Please refer to the `PECL manual`_ for further installation instructions.
+
+Analogous to the previous example on the shell in PHP we would do::
+
+	<?php
+	$m = new MongoClient;
+	$db = $m->test;
+	$col = $db->persons;
+
+	$col->insert( array( 'name' => 'Derick Rethans', 'twitter' => 'derickr' ) );
+	foreach ( $col->find( array( 'twitter' => 'derickr' ) ) as $record )
+	{
+		var_dump( $record );
+	}
+
+The PHP documentation also includes a section for working with the MongoDB
+driver, including a tutorial_. A handy `cheat sheet`_ gives you a quick
+overview on how to map SQL queries to the MongoDB query syntax.
+
 **Closing Words**
 
 MongoDB is not a straight replacement for your relational database. Questions
@@ -211,3 +247,8 @@ a breeze.
 .. _Neo4j: http://en.wikipedia.org/wiki/Neo4J
 .. _OrientDB: http://en.wikipedia.org/wiki/OrientDB
 .. _`EAV pattern`: http://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model
+.. _`specific instructions`: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian-or-ubuntu-linux/
+.. _`PHP driver for MongoDB`: http://pecl.php.net/mongo
+.. _`PECL manual`: http://php.net/manual/en/mongo.installation.php
+.. _tutorial: http://php.net/manual/en/mongo.tutorial.php
+.. _`cheat sheet`: http://www.php.net/manual/en/mongo.sqltomongo.php
