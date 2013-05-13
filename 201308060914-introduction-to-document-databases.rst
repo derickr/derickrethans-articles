@@ -7,7 +7,7 @@ Introduction to Document Databases with MongoDB
    :Tags: blog, mongodb, php
    :Short: docdb
 
-This article originally appeared in Web & PHP issue XXX_.
+This article originally appeared in the June 2013 issue of `Web & PHP`_.
 
 By now most you will probably have heard of the term *NoSQL*. It's a vague
 term that covers a lot of different types of database engines. The main
@@ -237,7 +237,7 @@ approach it differently, and when you do so you should find working with MongoDB
 a breeze. Try it out, and stay tuned for future articles!
 
 
-.. _XXX: http://webandphp.com/April2013
+.. _`Web & PHP`: http://webandphp.com/June2013
 .. _memcache: http://en.wikipedia.org/wiki/Memcache
 .. _Redis: http://en.wikipedia.org/wiki/Redis
 .. _`Apache CouchDB`: http://en.wikipedia.org/wiki/CouchDB
