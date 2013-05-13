@@ -234,7 +234,7 @@ sense as such a different approach is required to write applications with
 MongoDB. That doesn't mean that MongoDB is not a general purpose database—it
 can replace a relational database in almost every situation. You just need to
 approach it differently, and when you do so you should find working with MongoDB
-a breeze.
+a breeze. Try it out, and stay tuned for future articles!
 
 
 .. _XXX: http://webandphp.com/April2013
