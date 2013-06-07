@@ -3,16 +3,16 @@ Importing OpenStreetMap data into MongoDB
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2013-05-07 09:49 Europe/London
+   :Date: 2013-06-11 09:49 Europe/London
    :Tags: blog, mongodb, php, openstreetmap
    :Short: mongosm
 
 In many recent MongoDB_ related presentations_ I have used OpenStreetMap_ data
 as basis for most of my examples. I wrote a script that imports OpenStreetMap
-nodes and ways into MongoDB with a specific and high performant schema. I
-have written about this briefly before in `Indexing Freeform-Tagged Data`_, but
-now MongoDB received numerous updates to geo indexes I find it warrants a new
-article.
+(OSM) nodes, ways and to a lesser extend relations into MongoDB with a
+specific and optimal schema. I have written about this briefly before in
+`Indexing Freeform-Tagged Data`_, but now MongoDB received numerous updates to
+geospatial indexes I find it warrants a new article.
 
 In MongoDB 2.2 and before, the index type that MongoDB used was the *2d* type,
 which was basically a two dimensional flat earth coordinate system index—with
@@ -23,9 +23,10 @@ strings* and *polygons* as defined by GeoJSON_.
 
 I have modified my import script to use those new types, and also added
 support for very simple multi-polygons that OpenStreetMap records through its
-*relation* tag.
+*relation* tag. The script also creates an indexes on *{ l: '2dsphere' }* (the
+GeoJson object), *{ ts: 1 }*' (the tags), and *{ ty: 1 }* (the type).
 
-The structure it converts an OSM node_ to is::
+The structure it converts a node_ from OpenStreetMap to looks like::
 
 	{
 		"_id" : "n26486695",
@@ -71,14 +72,14 @@ There are several sections that make up the document:
 
 	   db.poiConcat.find( { ts: 'name=The Nightingale' } );
 
-   But it would also be included when we look for all amenitties::
+   And the index would also be used when we look for all amenities::
 
        db.poiConcat.find( { ts: /^amenity=/ } );
 
  - *m*: Contains meta information that describes the node. The following
    fields are currently present:
 
-    - *v*: The objects version. This is the version number of the version that
+    - *v*: The object's version. This is the version number of the version that
       was found in the imported file. There is always just one version per
       object.
     - *cs*: The changeset ID in which this object was last updated.
@@ -86,8 +87,7 @@ There are several sections that make up the document:
       latest version.
     - *ts*: The Unix timestamp of when this object was last updated.
 
-
-OpenStreetMap ways are stored in two different types. Unclosed ways are stored
+OpenStreetMap ways are stored in two different types. `Unclosed ways`_ are stored
 as GeoJSON_ LineStrings (think roads)::
 
 	{
@@ -106,7 +106,7 @@ as GeoJSON_ LineStrings (think roads)::
 		},
         …
 
-And closed ways are stored as GeoJSON_ Polygons (think buildings and parks)::
+And `closed ways`_ are stored as GeoJSON_ Polygons (think buildings and parks)::
 
     {
         "_id" : "w24257746",
@@ -137,12 +137,25 @@ And closed ways are stored as GeoJSON_ Polygons (think buildings and parks)::
     }
 
 Both ways and areas (closed ways) will have a *ty* value of 2, as they both
-come from a way primitive as stored in OpenStreetMap.
+come from a *way* primitive as stored in OpenStreetMap.
 
-The script is available through
+The script is available on GitHub as part of the 3angle_ repository. The
+latest version is at
+https://raw.github.com/derickr/3angle/master/import-data.php and it also
+requires https://raw.github.com/derickr/3angle/master/classes.php for some
+GeoJSON helper classes and
+https://raw.github.com/derickr/3angle/master/config.php where you can set the
+database name and collection name (in my case, *demo* and *poiConcat*).
+
+*Map data © OpenStreetMap contributors (terms_).*
 
 .. _MongoDB: http://mongodb.org
 .. _presentations: /talks.html
 .. _OpenStreetMap: http://openstreetmap.org
 .. _`Indexing Freeform-Tagged Data`: /indexing-free-tags.html
 .. _GeoJSON: http://www.geojson.org/
+.. _3angle: https://github.com/derickr/3angle
+.. _node: http://www.openstreetmap.org/browse/node/26486695
+.. _`Unclosed ways`: http://www.openstreetmap.org/browse/way/2423886
+.. _`closed ways`: http://www.openstreetmap.org/browse/way/24257746
+.. _terms: http://www.openstreetmap.org/copyright
