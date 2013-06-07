@@ -3,7 +3,7 @@ Introduction to Document Databases with MongoDB
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2013-08-06 09:11 Europe/London
+   :Date: 2013-09-06 09:11 Europe/London
    :Tags: blog, mongodb, php
    :Short: docdb
 
