@@ -68,13 +68,13 @@ There are several sections that make up the document:
    concatenation of its *key* and its *value*. This creates both a smaller
    index and it still allows for exact tag/value matches as well as matching
    against specfic keys through a regular expression match. For example, we
-   could find the above document with::
+   could find the above document with: 
 
-	db.poiConcat.find( { ts: 'name=The Nightingale' } );
+   ``db.poiConcat.find( { ts: 'name=The Nightingale' } );``
 
-   And the index would also be used when we look for all amenities::
+   And the index would also be used when we look for all amenities:
 
-	db.poiConcat.find( { ts: /^amenity=/ } );
+   ``db.poiConcat.find( { ts: /^amenity=/ } );``
 
  - *m*: Contains meta information that describes the node. The following
    fields are currently present:
