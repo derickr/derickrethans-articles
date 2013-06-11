@@ -24,7 +24,7 @@ strings* and *polygons* as defined by GeoJSON_.
 I have modified my import script to use those new types, and also added
 support for very simple multi-polygons that OpenStreetMap records through its
 *relation* tag. The script also creates an indexes on *{ l: '2dsphere' }* (the
-GeoJson object), *{ ts: 1 }*' (the tags), and *{ ty: 1 }* (the type).
+GeoJson object), *{ ts: 1 }* (the tags), and *{ ty: 1 }* (the type).
 
 The structure it converts a node_ from OpenStreetMap to looks like::
 
@@ -70,11 +70,11 @@ There are several sections that make up the document:
    against specfic keys through a regular expression match. For example, we
    could find the above document with::
 
-	   db.poiConcat.find( { ts: 'name=The Nightingale' } );
+	db.poiConcat.find( { ts: 'name=The Nightingale' } );
 
    And the index would also be used when we look for all amenities::
 
-       db.poiConcat.find( { ts: /^amenity=/ } );
+	db.poiConcat.find( { ts: /^amenity=/ } );
 
  - *m*: Contains meta information that describes the node. The following
    fields are currently present:
