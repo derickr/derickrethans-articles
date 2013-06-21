@@ -16,7 +16,9 @@ class.
 
 __ /mongodb-connection-handling.html
 
-**Mongo::getConnections()**
+-----------------------
+Mongo::getConnections()
+-----------------------
 
 Mongo::``getConnections()`` returns information about all the connections
 that the connection manager knows about. Besides basic information
@@ -116,7 +118,9 @@ Which returns::
         )
     )
 
-**MongoLog**
+--------
+MongoLog
+--------
 
 The MongoLog_ class already existed in earlier versions of the driver, but
 the debugging *information* it provided was not really useful. While we were
