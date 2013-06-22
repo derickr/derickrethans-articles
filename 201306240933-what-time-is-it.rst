@@ -1,0 +1,358 @@
+What Time is It Here?
+=====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-06-24 09:33 Europe/London
+   :Tags: blog, mongodb, php, openstreetmap
+   :Short: whattime
+
+Finding out what time it is, is often as simple as looking at a clock. But when
+you need to know the time on another place on Earth, you also need to know in
+which timezone you are in. Timezones are a bit more complicated than the
+UTC-offset, or a timezone abbreviation (such as GMT or EST). In order to
+correctly identify a set of Daylight Saving Time rules (and other changes in
+UTC-offset) for a specific location you need to know its `Timezone Identifier`_. These
+have the form of *Europe/London* or *America/India/Knox* and any decent sysadm
+(and hopefully every developer!) will know what the Timezone Identifier for
+their specific area is. It becomes more difficult if you need to know the
+Timezone Identifier in a unfamiliar location, such as Indiana_ in the US,
+where there are eleven different identifiers.
+
+The *`Olson Database`_* stores for each Identifier a region, but it does not
+record which geographical area is associated with that region. Eric Muller
+provides (ESRI) shape files containing that information through his website:
+http://efele.net/maps/tz/world/ . For each Timezone Identifier there are one or
+more polygons, where some polygons also have holes in them. In the case of
+Italy, that is to exclude `San Marino`_ and `The Vatican`_ for example but
+there are a few other examples as well. But we still need to go from a
+latitude/longitude pair to a Timezone Identifier.
+
+Importing the Data
+------------------
+
+I already have written about `importing OpenStreetMap data`_ into MongoDB_ and
+I am going to use the same script to import the shape files into MongoDB. But
+we need to get to ``.osm`` files (which are XML) first. The quickest way I
+found to do this is by opening the shape file in JOSM_. As it is a rather big
+file, this will take some time. I've just opened it by adding it as an argument
+on the command line::
+
+	wget http://efele.net/maps/tz/world/tz_world.zip
+	unzip tz_world.zip
+	josm world/world.shp
+
+And you get an extract that looks something like this:
+
+.. image:: /images/content/josm-tzshapefile2.png 
+
+JOSM then allows us to save it as an OSM file that we subsequently can import
+with the MongoDB/OSM import script that I wrote about in `importing
+OpenStreetMap data`_::
+
+	php import-data.php /tmp/tz-world.osm timezone
+
+We use the extra argument ``timezone`` here to import it into a different
+MongoDB collection.
+
+Over Land
+---------
+
+To find out all the areas that uses the same timezone at a given location,
+we could use the follow data queries (as psuedo code):
+
+	#. Find the Timezone Identifier of the area that our current location
+	   points at.
+	#. Select all areas that have the same Timezone Identifier.
+
+In the examples scripts, the center point's location is stored in the
+``$center`` variable which is a ``GeoJSONPoint`` object. Its class is defined
+in https://raw.github.com/derickr/3angle/master/classes.php. My co-worker
+`Jeremy Mikola`_ has started on a `GeoJSON library`_ which I might start using
+instead of keeping my own (hacky) variant in the future.
+
+var_dump'ing ``$center->getGeoJson()`` renders::
+
+	array(2) {
+	  'type' =>
+	  string(5) "Point"
+	  'coordinates' =>
+	  array(2) {
+		[0] => double(5.3009033203125)
+		[1] => double(53.388242750108)
+	  }
+	}
+
+This is a GeoJSON structure that MongoDB's `$geoIntersects`_ operator uses. In
+this case, we try to find all documents in our collection that intersect with
+the center point, or in other words, find all the documents in the collection
+where the timezone polygon includes our center point.
+
+The PHP script to do this, looks like:: 
+
+	<?php
+	include 'classes.php';
+
+	// defines and setup our center point variable
+	define( 'LOC', 'l' );
+	$center = new GeoJSONPoint( 5.3009033203125, 53.38824275010831 );
+
+	// connect and select database 'demo'
+	$m = new MongoClient;
+	$d = $m->demo;
+
+	// Select timezone collection
+	$tzc = $d->selectCollection( 'timezone' );
+
+	// Construct geo query for current center point.
+	$query = array(
+		LOC => array(
+			'$geoIntersects' => array(
+				'$geometry' => $center->getGeoJson(),
+			),
+		),
+	);
+
+	// this finds the first TZID
+	$s = $tzc->findOne( $query );
+
+	var_dump( $s );
+	?>
+
+It's output (after formatting) is::
+
+	array(4) {
+	  '_id' => string(9) "w-1643005"
+	  'ty' => int(2)
+	  'l' => array(2) {
+		'type' => string(7) "Polygon"
+		'coordinates' => array(1) {
+		  [0] => array(76) {
+			...
+		  }
+		}
+	  }
+	  'ts' => array(1) {
+		[0] => string(21) "TZID=Europe/Amsterdam"
+	  }
+	}
+
+If we represent that as an image, we'll see:
+
+.. image:: /images/content/tz-terschelling.png
+
+With the Timezone Identifier that we find (``$s['ts']``) we can now find all
+the other documents that have the same Timezone Identifier:
+
+.. image:: /images/content/tz-nederland.png
+	:align: right
+
+::
+
+	<?php
+	include 'classes.php';
+
+	// defines
+	define( 'TAGS', 'ts' );
+
+	// connect and select database 'demo' and
+	// collection 'timezone'
+	$m = new MongoClient;
+	$d = $m->demo;
+	$tzc = $d->selectCollection( 'timezone' );
+
+	$s = $tzc->find( array(
+		TAGS => 'TZID=Europe/Amsterdam'
+	) );
+
+	foreach ( $s as $part )
+	{
+		var_dump( $part );
+	}
+	?>
+
+
+Territorial Waters
+------------------
+
+.. image:: /images/content/tz-france.png
+	:align: left
+
+With the above two snippets we can now find the timezone, and hence the time,
+for the areas that cover **land**. However, the same timezone is valid inside
+the `territorial waters`_ that belong to that specific area. The territorial
+waters in general extend up to 22km off the coast. The downloaded shape files
+however don't cover the territorial waters and we hence need to find which
+shape, as contained in our documents in the MongoDB collection, is closest, but
+no further than 22km from our "center point". We could use `$near`_ for this,
+but instead I am using the Aggregation Framework to show that it is possible
+to calculate and return the distance as well.
+
+A ``$near`` or ``$geoIntersects`` query always returns a full document,
+similar to normal queries in MongoDB, but with the `Aggregation Framework`_
+you can also modify the returned documents. In our case, we use that to
+calculate the distance between our center point and the polygon that is
+stored in the documents in MongoDB and add this information to the result.
+Aggregation is done through a command, which in PHP
+is implemented as the `aggregate()`_ helper on the MongoCollection_ class.
+Commands don't return a cursor, but just one document containing some
+meta-information, and an array of results. See the article
+`MongoDB's aggregation framework`_ for an introduction into the Aggregation
+Framework. Let's have a look at how we use the `$geoNear`_ aggregation in
+PHP::
+
+	<?php
+	include 'classes.php';
+
+	// defines
+	define( 'TYPE', 'ty' );
+	$center = new GeoJSONPoint( 0.99, 50.097 );
+
+	// connect and select database 'demo' and collection 'timezone'
+	$m = new MongoClient;
+	$d = $m->demo;
+	$tzc = $d->selectCollection( 'timezone' );
+
+	// run the aggregation
+	$s = $tzc->aggregate(
+		[ '$geoNear' => [
+			'near' => $center->getGeoJSON(),
+			'distanceField' => 'd',
+			'distanceMultiplier' => 1,
+			'maxDistance' => 22000,
+			'spherical' => true,
+			'query' => [
+				TYPE => [ '$gte' => 2 ],
+			],
+			'limit' => 4,
+		] ],
+		[ '$sort' => [ 'd' => 1 ] ],
+		[ '$limit' => 1 ]
+	);
+
+	var_dump( $s['result'][0] );
+	?>
+
+The ``aggregate()`` call in the above example includes three items in the pipeline:
+`$geoNear`_, `$sort`_ and `$limit`_. In the ``$geoNear`` step we query for
+all the documents ``near`` our center, with a maximum distance of ``22000``
+meters. We only ``query`` for types 2 and 3 (ie.: no points) and we ``limit``
+the result to 4 results. We add a new field ``d`` with the ``distanceField``
+option and we use as ``distanceMultiplier`` ``1``. The multiplier is only
+needed in case you **don't** use a GeoJSON document, but instead use an
+old-fashioned *latitude/longitude* pair as argument to ``near``. In that case
+you need to multiply by the radius of the Earth and divide ``maxDistance``'s
+argument by the radius of the Earth. In our case, we use a GeoJSON document
+so this is not needed. It is however required to use the ``spherical = true``
+option.
+
+The second step (``$sort``) sorts by the newly added ``d`` field and the last
+step uses ``limit`` to restrict the result to just one document.
+
+The output of the above script is (after formatting)::
+
+	array(5) {
+	  '_id' => string(9) "r-1341698"
+	  'ty' => int(3)
+	  'ts' =>
+	  array(2) {
+		[0] => string(17) "TZID=Europe/Paris"
+		[1] => string(17) "type=multipolygon"
+	  }
+	  'l' =>
+	  array(2) {
+		'type' => string(7) "Polygon"
+		'coordinates' =>
+		array(2) {
+		  [0] => array(7502) { ... }
+		  [1] => array(19) { ... }
+		}
+	  }
+	  'd' => double(19065.053638333)
+	}
+
+In this case the polygon that covers mainland France - which apparently has a
+`hole in it`__. It also tells us that our point is ``19065 meters`` away from
+the coast.
+
+From this output, we find out which Timezone Identifier was associated with the
+nearest polygon so that we can find all other ares with the same Timezone
+Identifier just like before. 
+
+__ http://osm.org/go/xVI8lB9
+
+Nautical Time
+-------------
+
+In the case even the Aggregation Framework query doesn't return anything
+we have to assume that we are not in territorial waters and we need to
+calculate `Nautical Time`_. Nautical Time is the "ideal" timezone for a given
+longitude. Each each zone is exactly 15° wide. The Greenwich time zone runs
+from 7.5°W to 7.5°E longitude. Although not technically linked to UTC (but
+rather GMT or UT1), in my example I will be using Timezone Identifiers using
+UTC. If you want to learn more about UTC vs GMT vs UT1, see
+my article `Leap Seconds and What To Do With Them`_.
+
+To calculate which UTC±x zone belongs to the current longitude, we can use
+the following code::
+
+	$ew1 = -7.5 + 15 * ceil(($center->p[0] - 7.5) / 15);
+	$ew2 = 7.5 + 15 * ceil(($center->p[0] - 7.5) / 15);
+
+	$offset = (int) (($center->p[0] - 7.5) / 15);
+	$sign = $offset < 0 ? '-' : '+';
+
+We create a fake polygon to show the area::
+
+	$s[0] = array(
+		'_id' => 'tz' . $offset,
+		'l' => array(
+			'type' => 'Polygon',
+			'coordinates' => array( array(
+				array( $ew1,  85 ),
+				array( $ew1, -85 ),
+				array( $ew2, -85 ),
+				array( $ew2,  85 ),
+				array( $ew1,  85 ),
+			) ),
+		),
+		'ts' => array(
+			sprintf( "TZID=UTC%s%d", $sign, abs($offset) )
+		),
+	);
+
+Which results in:
+
+.. image:: /images/content/tz-nautical.png
+
+A demo is available at http://maps.derickrethans.nl/?q=timezone&zoom=5 and
+the code is available through https://github.com/derickr/3angle with the
+timezone maps specific parts at
+https://github.com/derickr/3angle/tree/master/maps-timezone
+
+In a future version I would like to have all the timezones as shapefiles,
+including the territorial waters with regions and separate polygons for the
+Nautical timezones. Stay tuned for more!
+
+.. _`Timezone Identifier`: http://en.wikipedia.org/wiki/Zoneinfo
+.. _`Olson Database`: http://en.wikipedia.org/wiki/Zoneinfo
+.. _Indiana: http://en.wikipedia.org/wiki/Time_in_Indiana
+.. _`San Marino`: http://en.wikipedia.org/wiki/San_marino
+.. _`The Vatican`: http://en.wikipedia.org/wiki/Vatican_City
+.. _`importing OpenStreetMap data`: /importing-osm-into-mongodb.html
+.. _MongoDB: http://mongodb.org
+.. _JOSM: http://en.wikipedia.org/wiki/JOSM
+.. _`Jeremy Mikola`: http://jmikola.net/
+.. _`GeoJSON library`: https://github.com/jmikola/geojson
+.. _`$geoIntersects`: http://docs.mongodb.org/manual/reference/operator/geoIntersects/
+.. _`territorial waters`: https://en.wikipedia.org/wiki/Territorial_waters
+.. _`$near`: http://docs.mongodb.org/manual/reference/operator/near/
+.. _`Aggregation Framework`: http://docs.mongodb.org/manual/core/aggregation/
+.. _`aggregate()`: http://php.net/mongocollection.aggregate
+.. _MongoCollection: http://php.net/mongocollection
+.. _`MongoDB's aggregation framework`: /aggregation-framework.html
+.. _`$geoNear`: http://docs.mongodb.org/manual/reference/aggregation/#stage._S_geoNear
+.. _`$sort`: http://docs.mongodb.org/manual/reference/aggregation/#stage._S_sort
+.. _`$limit`: http://docs.mongodb.org/manual/reference/aggregation/#stage._S_limit
+.. _`Nautical Time`: http://en.wikipedia.org/wiki/Nautical_time
+.. _`Leap Seconds and What To Do With Them`: /leap-seconds-and-what-to-do-with-them.html
