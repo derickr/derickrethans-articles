@@ -13,7 +13,7 @@ which timezone you are in. Timezones are a bit more complicated than the
 UTC-offset, or a timezone abbreviation (such as GMT or EST). In order to
 correctly identify a set of Daylight Saving Time rules (and other changes in
 UTC-offset) for a specific location you need to know its `Timezone Identifier`_. These
-have the form of *Europe/London* or *America/India/Knox* and any decent sysadm
+have the form of *Europe/London* or *America/Indiana/Knox* and any decent sysadm
 (and hopefully every developer!) will know what the Timezone Identifier for
 their specific area is. It becomes more difficult if you need to know the
 Timezone Identifier in a unfamiliar location, such as Indiana_ in the US,
