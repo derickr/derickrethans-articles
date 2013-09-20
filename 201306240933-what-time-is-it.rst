@@ -38,9 +38,9 @@ found to do this is by opening the shape file in JOSM_. As it is a rather big
 file, this will take some time. I've just opened it by adding it as an argument
 on the command line::
 
-	wget http://efele.net/maps/tz/world/tz_world.zip
-	unzip tz_world.zip
-	josm world/world.shp
+	wget http://efele.net/maps/tz/world/tz_world_mp.zip
+	unzip tz_world_mp.zip
+	josm world/tz_world_mp.shp
 
 And you get an extract that looks something like this:
 
