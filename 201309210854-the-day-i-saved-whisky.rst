@@ -10,7 +10,7 @@ The day I saved whisky
 I don't usually write about non-technical things on this blog, but for once I
 will be describing my holiday adventures. A week and a bit ago I returned from
 a week long trip to Edinburgh and Speyside to get up and close with some of my
-favourite products: Scots Single Malt Whisky. I think that I managed, as
+favourite products: Scotch Single Malt Whisky. I think that I managed, as
 during the week I probable tasted around 50 different whiskies. Some of that
 was on our own accord at Albanach_ in Edinburgh, but we also participated in a
 three day Whisky tasting tour with `Rabbie's Trail Blazers`_ in Speyside_,
@@ -19,11 +19,11 @@ home to more than 50 distilleries.
 .. image:: /images/content/scotland-georgianhouse.jpg
    :align: left
 
-But before we embarked on the boozy tour, we spend some time in Edinburgh. I
+But before we embarked on the boozy tour, we spent some time in Edinburgh. I
 love the city. Although I have been to Edinburgh before, I had never visited
 many of the tourist attractions. So this time we went out and visited 
 the `National Trust`_ property `Georgian House`_ on `Charlotte Square`_, the
-`Royal Yacht Brittania`_, the `Royal Botanic Garden Edinburgh`_. In the
+`Royal Yacht Brittania`_, and the `Royal Botanic Garden Edinburgh`_. In the
 evenings we tried many many different whiskies at Albanach_ (a list will
 follow at the end).
 
@@ -42,24 +42,27 @@ works. We tasted four different Dalwhinnies. After Dawhinnie we headed for
 `Grantown-on-Spey`_ where we would stay for two nights at `Dunallan House`_, a
 lovely bed and breakfast with a friendly host. We had pie for dinner at `The
 Craig Bar`_ (they only do pies), and after dinner we went for a stroll in
-`Anagach Woods`_ along the river Spey.
+`Anagach Woods`_ along the river Spey, followed by a few drams at the `Garth
+Hotel`_.
+
+.. _`Garth Hotel`: http://www.garthhotel.com/
 
 .. image:: /images/content/scotland-dalwhinnie.jpg
 
 The following morning we got up early for a 9:30! tour of the Benromach_
 distillery. This tour of one of the smallest distilleries was led by a veteran
 whisky maker with an unbelievable amount of knowledge about whisky making. Not
-only was the tour itself a lot better, the gentleman also talked us through
+only was the tour itself excellent, the gentleman also talked us through
 the whisky tasting instead of just giving us four whiskies. Morag ended up
 buying a `Benromach Origins Batch 4`_. After lunch our next stop was at the
 famous `Gordon and MacPhail`_ shop in Elgin. They are actually the owners of
 the Benromach distillery as well. The shop is mostly known for their own
 special bottlings of whiskies. I ended up buying a bottle of a bottling of an
-Imperial. The distillery is now closed, and has had its buildings demolished.
+Imperial. This distillery is now closed, and has had its buildings demolished.
 I still have to try it. 
 
 In the afternoon we visited another distillery, Cardhu_. It is, like
-Dalwhinnie, also owned by Diageo and sometimes called "the spirit of Johnny
+Dalwhinnie, also owned by Diageo and sometimes called "the heart of Johnnie
 Walker". When we came to the spirit still during our tour, we noticed that
 there was a liquid spurting out of one of the stills. And with this being our
 third tour, I didn't think that was supposed to happen. After notifying our
@@ -117,11 +120,13 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
  - `Ancnoc 16`_
  - `Ardbeg Uigeadail`_
  - `Balblair 2002`_
+ - `Balvenie 15 Single Barrel #1225`_
  - `Benromach 10`_
  - `Benromach 2002`_
  - `Benromach Organic`_
  - `Benromach Origins Batch 4`_
  - `Bowmore`_
+ - Gordon & MacPhail "Exclusive": Bunnahabhein
  - `Bruichladdich Islay Barley 2006`_
  - `Cardhu 12`_
  - `Cardhu Special Cask Reserve`_
@@ -133,6 +138,7 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
  - Dalwhinnie 1997 Single Cask
  - `Fettercairn Fior`_
  - `Glen Garioch 1995`_
+ - Gordon & MacPhail "Exclusive": Glenburgie
  - `GlenDronach`_
  - `Glencadam`_
  - `Glenfarclas 21`_
@@ -142,13 +148,15 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
  - `Glenmorangie Nectar D'or`_
  - The Whisky Castle Cask Collection No 23 (Glenrothes)
  - `Glentauchers 1991`_
- - Gordon & MacPhail "Exclusive": Bunnahabhein
- - Gordon & MacPhail "Exclusive": Glenburgie
+ - `Kilchoman Machir Bay`_
  - `Ledaig 10`_
  - `Linkwood 15`_
+ - `Macallan Amber`_
  - `Mortlach 16`_
+ - `Rosebank 21`_
  - `Royal Brackla 1991`_
  - `Strathmill 12`_
+ - `Talisker Distiller's Edition`_
  - `Teannich 10`_
  - `Tobermory 15`_
  - `Tomatin 15`_
@@ -157,11 +165,13 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
  - `Tomintoul 16`_
  - "Malt of the moment" - Tomintoul
  - `Tormore 12`_
+ - `Yamazaki 18`_
 
 .. _`Aberfeldy 21`: http://www.amazon.co.uk/gp/product/B004CFD9FW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004CFD9FW&linkCode=as2&tag=derickrethans-21
 .. _`Ancnoc 16`: http://www.amazon.co.uk/gp/product/B008CYXA3A/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008CYXA3A&linkCode=as2&tag=derickrethans-21
 .. _`Ardbeg Uigeadail`: http://www.amazon.co.uk/gp/product/B008U7SUE8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008U7SUE8&linkCode=as2&tag=derickrethans-21
 .. _`Balblair 2002`: http://www.amazon.co.uk/gp/product/B00CA7RMJS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CA7RMJS&linkCode=as2&tag=derickrethans-21
+.. _`Balvenie 15 Single Barrel #1225`: http://www.amazon.co.uk/gp/product/B00E5OK8PY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00E5OK8PY&linkCode=as2&tag=derickrethans-21
 .. _`Benromach 10`: http://www.amazon.co.uk/gp/product/B002VPW39S/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002VPW39S&linkCode=as2&tag=derickrethans-21
 .. _`Benromach 2002`: http://www.amazon.co.uk/gp/product/B008CYXTCM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008CYXTCM&linkCode=as2&tag=derickrethans-21
 .. _`Benromach Organic`: http://www.amazon.co.uk/gp/product/B00BM3BUK8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BM3BUK8&linkCode=as2&tag=derickrethans-21
@@ -184,11 +194,15 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
 .. _`Glenmorangie Astar`: http://www.amazon.co.uk/gp/product/B00BEWGYC6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BEWGYC6&linkCode=as2&tag=derickrethans-21
 .. _`Glenmorangie Nectar D'or`: http://www.amazon.co.uk/gp/product/B009GJR15I/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009GJR15I&linkCode=as2&tag=derickrethans-21
 .. _`Glentauchers 1991`: http://www.amazon.co.uk/gp/product/B003ZIU3VU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003ZIU3VU&linkCode=as2&tag=derickrethans-21
+.. _`Kilchoman Machir Bay`: http://www.amazon.co.uk/gp/product/B008CYZP74/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008CYZP74&linkCode=as2&tag=derickrethans-21
 .. _`Ledaig 10`: http://www.amazon.co.uk/gp/product/B003ZIQMKG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003ZIQMKG&linkCode=as2&tag=derickrethans-21
 .. _`Linkwood 15`: http://www.amazon.co.uk/gp/product/B0043A2RZY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0043A2RZY&linkCode=as2&tag=derickrethans-21
+.. _`Macallan Amber`: http://www.amazon.co.uk/gp/product/B00CP2WES2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CP2WES2&linkCode=as2&tag=derickrethans-21
 .. _`Mortlach 16`: http://www.thewhiskyexchange.com/P-4085.aspx
+.. _`Rosebank 21`: http://www.amazon.co.uk/gp/product/B008CYYIA4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008CYYIA4&linkCode=as2&tag=derickrethans-21
 .. _`Royal Brackla 1991`: http://www.amazon.co.uk/gp/product/B005IMZSI4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005IMZSI4&linkCode=as2&tag=derickrethans-21
 .. _`Strathmill 12`: http://www.amazon.co.uk/gp/product/B001LLZUIY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001LLZUIY&linkCode=as2&tag=derickrethans-21
+.. _`Talisker Distiller's Edition`: http://www.amazon.co.uk/gp/product/B0043A3TGU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0043A3TGU&linkCode=as2&tag=derickrethans-21
 .. _`Teannich 10`: http://www.amazon.co.uk/gp/product/B0043A1PF2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0043A1PF2&linkCode=as2&tag=derickrethans-21
 .. _`Tobermory 15`: http://www.amazon.co.uk/gp/product/B006Z51ELS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006Z51ELS&linkCode=as2&tag=derickrethans-21
 .. _`Tomatin 15`: http://www.amazon.co.uk/gp/product/B003ZIOQKE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003ZIOQKE&linkCode=as2&tag=derickrethans-21
@@ -196,6 +210,7 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
 .. _`Tomintoul 12 Sherry Finish`: http://www.amazon.co.uk/gp/product/B00439ZTIW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00439ZTIW&linkCode=as2&tag=derickrethans-21
 .. _`Tomintoul 16`: http://www.amazon.co.uk/gp/product/B00439Y8FC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00439Y8FC&linkCode=as2&tag=derickrethans-21
 .. _`Tormore 12`: http://www.amazon.co.uk/gp/product/B0029ZFVXA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0029ZFVXA&linkCode=as2&tag=derickrethans-21
+.. _`Yamazaki 18`: http://www.amazon.co.uk/gp/product/B00F7SHURG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00F7SHURG&linkCode=as2&tag=derickrethans-21
 
 I have tasting notes for most of those, but that will have to wait until a new
 post. Slàinte!
