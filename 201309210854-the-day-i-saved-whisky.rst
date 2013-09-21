@@ -107,6 +107,10 @@ On the last day we visited another National Trust property right on the Royal
 Mile, `Gladstone's Land`_. Some retail (whisky) therapy, a last drink at
 Albanach, and a climb up `Calton Hill`_ marked the end of the holiday.
 
+The photos of this trip can be found on flickr__.
+
+__ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
+
 *The tasted whiskies*
 
  - `Aberfeldy 21`_
