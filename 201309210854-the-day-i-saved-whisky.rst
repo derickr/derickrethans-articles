@@ -130,7 +130,7 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
  - `Bruichladdich Islay Barley 2006`_
  - `Cardhu 12`_
  - `Cardhu Special Cask Reserve`_
- - Càrn Mòr "Speyside" from Mortlach distillery
+ - `Càrn Mòr "Speyside" from Mortlach distillery`_
  - `Dailuaine 16`_
  - `Dalwhinnie 15`_
  - `Dalwhinnie 25`_
@@ -180,6 +180,7 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
 .. _`Bruichladdich Islay Barley 2006`: http://www.amazon.co.uk/gp/product/B009T47W4A/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009T47W4A&linkCode=as2&tag=derickrethans-21
 .. _`Cardhu 12`: http://www.amazon.co.uk/gp/product/B00439YHT4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00439YHT4&linkCode=as2&tag=derickrethans-21
 .. _`Cardhu Special Cask Reserve`: http://www.amazon.co.uk/gp/product/B001GLKC9Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001GLKC9Q&linkCode=as2&tag=derickrethans-21
+.. _`Càrn Mòr "Speyside" from Mortlach distillery`: http://www.masterofmalt.com/whiskies/mortlach/mortlach-16-year-old-1996-strictly-limited-carn-mor-whisky/
 .. _`Dailuaine 16`: http://www.amazon.co.uk/gp/product/B004EAHJLK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004EAHJLK&linkCode=as2&tag=derickrethans-21
 .. _`Dalwhinnie 15`: http://www.amazon.co.uk/gp/product/B002FAVFDE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002FAVFDE&linkCode=as2&tag=derickrethans-21
 .. _`Dalwhinnie 25`: http://www.amazon.co.uk/gp/product/B00AFC1XYK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00AFC1XYK&linkCode=as2&tag=derickrethans-21
