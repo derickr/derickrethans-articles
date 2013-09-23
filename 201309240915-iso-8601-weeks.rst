@@ -1,5 +1,5 @@
-ISO 8601 weeks
-==============
+ISO 8601 week dates
+===================
 
 .. articleMetaData::
    :Where: London, UK
