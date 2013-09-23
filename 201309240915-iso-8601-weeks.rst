@@ -1,0 +1,97 @@
+ISO 8601 week dates
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-09-24 09:15 Europe/London
+   :Tags: blog, php
+   :Short: week
+
+Back in 2009 I wrote__ that PHP calendar implementation uses the `ISO 8601
+calendar`_ for year numbers. In the past few weeks I've seen a few bug reports
+in the PHP bug system (65694_ and 65730_) that deal with another aspect of this
+same calendar: week numbers.
+
+Week numbers are defined in this same ISO 8601 standard. Each year has 52 or
+53 weeks and weeks always start on a Monday. Week number 1 of each year is
+the first week in a year that has the first Thursday of the year, or in other
+words, the week containing January 4th. 
+
+With the year number (2012, 2013, etc), the week number (01-53) and the day
+number (1-31) you can described a day. PHP supports the formats ``yyyy "W" ww
+d`` where ``yyyy`` is the **ISO 8601 year**, ``"W"`` a delimiter, ``ww``
+the week number and ``d`` the day of the week (with ``1`` being Monday, and 7
+being Sunday). It is also possible to omit the day-of-week (``yyyy "W" ww``) to
+represent the start of the week (Monday) and to add ``-`` in the format (such
+as in ``yyyy "-W" ww "-" d``. Examples are: ``2013-W39-2`` for today and
+``2013-W40`` for next Monday. 
+
+*Tuesday January 1st, 2013* is represented as ``2013-W01-2``, and *Tuesday
+December 31st, 2013* as ``2014-W01-2``. As you see with December 31st, the
+**ISO 8601 year** (``2014``) is not the same as the calendar year (``2013``).
+The ISO year starts with (ISO) week 1, day 1, which is always a Monday. If
+you do the following in PHP, you get an unexpected answer::
+
+	<?php
+	$d = new DateTime("2013-12-31");
+	echo $d->format('Y-\WW-N'), "\n";
+	?>
+
+Which outputs ``2013-W01-2``. The ``Y`` format specifier gives the
+**calendar** year which is not the same as the **ISO 8601 year**. To show the
+ISO 8601 year, you need to use the ``o`` specifier. See the following::
+
+	<?php
+	echo date_create("2013-12-28")->format('Y-m-d o-\WW-N'), "\n";
+	echo date_create("2013-12-29")->format('Y-m-d o-\WW-N'), "\n";
+	echo date_create("2013-12-30")->format('Y-m-d o-\WW-N'), "\n";
+	echo date_create("2013-12-31")->format('Y-m-d o-\WW-N'), "\n";
+	echo date_create("2014-01-01")->format('Y-m-d o-\WW-N'), "\n";
+	echo date_create("2014-01-02")->format('Y-m-d o-\WW-N'), "\n";
+	?>
+
+This outputs::
+
+	2013-12-28 2013-W52-6
+	2013-12-29 2013-W52-7
+	2013-12-30 2014-W01-1
+	2013-12-31 2014-W01-2
+	2014-01-01 2014-W01-3
+	2014-01-02 2014-W01-4
+
+Parsing an ISO year/week/day combination displays the same issues::
+	
+	<?php
+	$d = new DateTime("2014-W01-2");
+	echo $d->format("Y-m-d"), "\n";
+	?>
+
+Which outputs ``2013-12-31``. The ISO week date ``2014-W01-2`` is part of
+calendar year ``2013``.
+
+In most ISO 8601 years, there are 52 weeks. But once in a while, there are 53.
+This is because a year is 52 weeks and one day (or two days for leap years).
+In every 400 years there are 71 years with 53 weeks (and 329 years with 52
+weeks). The next year for which the ISO year has 53 weeks is 2015::
+
+	<?php
+	$d = new DateTime("2015-12-31");
+	echo $d->format('Y-\WW-N'), "\n";
+	?>
+
+Week 53 in ISO year 2015 goes from ``Monday 2015-12-28`` to ``Sunday
+2016-01-03``. In 2018 the ISO year and calendar year start on the same date—
+``2018-01-01`` or ``2018-W01-1``.
+
+As conlusion, this article shows that there are two ways representing dates
+in PHP. In the Gregorian[#]_ calendar with *year*, *month* and *day (of
+month)*, and in the ISO 8601 calendar with *year*, *week* and *day (of
+week)*. The format characters for the two different years are either ``Y`` or
+``o`` and they should not be confused.
+
+__ /unix-epoch-and-phps-calendar-system.html
+
+.. _`ISO 8601 calendar`: http://en.wikipedia.org/wiki/ISO_8601#Years
+.. _65694: https://bugs.php.net/bug.php?id=65694a
+.. _65730: https://bugs.php.net/bug.php?id=65730
+.. [#] PHP uses a special form of the Gregorian calendar, where it includes the year 0. This is called "astronomical year numbering" (http://en.wikipedia.org/wiki/Astronomical_year_numbering). PHP's calendar also does not use the Julian calendar before 1582.
