@@ -18,7 +18,7 @@ the first week in a year that has the first Thursday of the year, or in other
 words, the week containing January 4th. 
 
 With the year number (2012, 2013, etc), the week number (01-53) and the day
-number (1-31) you can described a day. PHP supports the formats ``yyyy "W" ww
+number (1-7) you can describe a day. PHP supports the formats ``yyyy "W" ww
 d`` where ``yyyy`` is the **ISO 8601 year**, ``"W"`` a delimiter, ``ww``
 the week number and ``d`` the day of the week (with ``1`` being Monday, and 7
 being Sunday). It is also possible to omit the day-of-week (``yyyy "W" ww``) to
