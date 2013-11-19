@@ -277,8 +277,8 @@ in the following way::
         }
     }
 
-The above (greatly simplified) example can read documents of both version 1 and
-2. Internally it is stored as a one-to-one translation of the version 2
+The above (greatly simplified) example can read documents of both version 1
+and 2. Internally it is stored as a one-to-one translation of the version 2
 document, where for version 1 we fake the contacts as an array and hash the
 password upon **reading**.
 
