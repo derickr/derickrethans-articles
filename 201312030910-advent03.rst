@@ -1,0 +1,65 @@
+Contributing Advent 3: Zetacomponent's Mail 
+===========================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-03 09:10 Europe/London
+   :Tags: blog, php
+   :Short: adv1303
+
+Years ago when I was working for `eZ Systems`_ I worked on "eZ Components",
+which then became the now defunct "Apache Zeta Components", and now finally
+it's hosted on GitHub as `Zeta Components`_. In the last weeks `Thomas
+Bachem`_ has been providing a few fixes to the Mail_ component. The Mail
+component in Zeta Components has by far the most extensive implementation of
+various email, MIME and header RFCs. This allows it to parse almost every mail
+that is thrown at it. Combined with an excellent POP3, IMAP and SMTP
+implementation is is **the** best Mail utility for PHP—and I am not only saying
+that because I wrote parts of it.
+
+However, just like as many other components in the package, it has not seen a
+lot of love lately, and its test suite is still using some of the old hard
+coded email servers that we used to use for testing when still at eZ Systems.
+
+My first patch_ fixes a few notices that were raised while running the tests.
+The notices were all through by the following line in the code::
+
+	declare(encoding="latin1");
+
+These lines were initially added because of PHP 6 functionality that allowed
+you to set a character set for each file. As PHP 5 didn't really care, these
+lines didn't hurt either. However, now PHP supports the line as part of the
+Zend multibyte functionality, which I hadn't enabled, it started spewing
+errors like:
+
+	Warning: declare(encoding=...) ignored because Zend multibyte feature is
+	turned off by settings in
+	/home/derick/dev/zeta-new/Mail/src/transports/file/file_set.php on line 2
+
+This tiny patch made those warnings go away, but there are still plenty of
+things to fix left over::
+
+	PHPUnit 3.7.10 by Sebastian Bergmann.
+
+	Configuration read from /home/derick/dev/zeta-new/Mail/phpunit.xml.dist
+
+	....................FS..............F.......F..................  63 / 639 (  9%)
+	...F.F................F........................................ 126 / 639 ( 19%)
+	....................................................S.S.FFFFFF. 189 / 639 ( 29%)
+	.....S......................................................... 252 / 639 ( 39%)
+	......................F..S.............FEEEEEEEEEEEEEEEEEEEEEEE 315 / 639 ( 49%)
+	EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 378 / 639 ( 59%)
+	EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE 441 / 639 ( 69%)
+	EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE................. 504 / 639 ( 78%)
+	.............EEEEE.......E.EEEEEEEEEEEEEEEE.EEE.E...E......EE.. 567 / 639 ( 88%)
+	.E......E...E....E.E..F.....FFFFFF....FSSSSSSS........EEEEEEEEE 630 / 639 ( 98%)
+	EEEEE....
+ 
+
+So I've a bit more to do to make this test suite work fine again…
+
+.. _`eZ Systems`: http://ez.no
+.. _`Zeta Components`: http://zetacomponents.org/
+.. _`Thomas Bachem`: https://github.com/thomasbachem
+.. _Mail: https://packagist.org/packages/zetacomponents/mail
+.. _patch: https://github.com/zetacomponents/Mail/pull/14

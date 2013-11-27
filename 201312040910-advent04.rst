@@ -1,0 +1,51 @@
+Contributing Advent 4: MongoDB driver variable names
+====================================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-04 09:10 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: adv1304
+
+A while ago I started reading `Expert C Programming`_, a book on the
+intricacies of C, written almost 20 years ago (in 1994). I can very greatly
+recommend this book, even for seasoned C developers. Even although I know
+about most of the subjects addressed in the book, I picked up a few new things
+as well.
+
+Anyway, the book made me look at my default compiler flags again. I tended not
+to use ``-Wall`` at all, but I've since then expanded my ``CFLAGS`` to ``-Wall
+-Wextra -Wdeclaration-after-statement -Wmissing-field-initializers
+-Wshadow -Wno-unused-parameter``. When running with the new flags, the `MongoDB
+driver for PHP`_ started throwing (among others) the following warning during
+compilation::
+
+    /home/derick/dev/php/derickr-mongo-php-driver/bson.c:1069:12: warning: declaration of ‘buffer’ shadows a global declaration [-Wshadow]
+      char *buffer;
+            ^
+
+At first I found this odd, as I could not find the declaration at all, until I
+looked closer at the location where the compiler though I had the error::
+
+    In file included from /home/derick/dev/php/derickr-mongo-php-driver/bson.c:26:0:
+    /home/derick/dev/php/derickr-mongo-php-driver/php_mongo.h:301:3: warning: shadowed declaration is here [-Wshadow]
+    } buffer;
+      ^
+
+And this pointed me to the ``buffer struct``::
+
+    typedef struct {
+        char *start;
+        char *pos;
+        char *end;
+    } buffer;
+
+This ``typedef`` declares ``buffer`` into the global scope and therefore the
+compiler rightfully warns us about this when trying to compile ``char
+*buffer;`` in a function. The fix_ was to add the prefix ``mongo_`` so that
+the new name becomes ``mongo_buffer``. The ``mongo_`` prefix is what we use
+for all the other structs we define as well.
+
+.. _`Expert C Programming`: http://www.amazon.co.uk/gp/product/B00E0LASCU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00E0LASCU&linkCode=as2&tag=derickrethans-21
+.. _`MongoDB driver for PHP`: http://pecl.php.net/mongo
+.. _fix: https://github.com/mongodb/mongo-php-driver/pull/561
