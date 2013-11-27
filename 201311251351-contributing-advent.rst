@@ -2,7 +2,7 @@ Contributing Advent
 ===================
 
 .. articleMetaData::
-   :Where: London, United Kingdom
+   :Where: London, UK
    :Date: 2013-11-25 13:51 Europe/London
    :Tags: blog, mongodb, php, openstreetmap, opensource
    :Short: contribadvent
