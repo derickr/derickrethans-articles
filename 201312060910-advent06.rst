@@ -1,0 +1,132 @@
+Contributing Advent 6: C is for Cookie
+======================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-06 09:10 Europe/London
+   :Tags: blog, php, datetime
+   :Short: adv1306
+
+Today we start with bugs in PHP's Date/Time extension. There are a `fair
+amount`_ of them and they require some hard needed attention. So this post
+addresses a number of bugs.
+
+.. _`fair amount`: https://bugs.php.net/search.php?cmd=display&search_for=date&project=&php_os=&php_os_not=&author_email=&bug_type=&boolean=0&bug_age=0&bug_updated=0&order_by=&direction=DESC&limit=30&phpver=&cve_id=&cve_id_not=&patch=&pull=&assign=&package_name[]=Date%2Ftime+related
+
+Bug #63776
+----------
+
+As usual I started with the most recently filed bugs and ran into `bug
+#63776`_, which turned out to not be a bug. Titled *"strtotime fails with
+'at'"* it goes about how a date string with ``at`` in it (like in ``"Nov 19,
+2012 at 7:03 PM"``) does not get parsed properly with ``strtotime()`` (or
+really any other parsing routing). `strtotime()`_'s documentation page
+mentions *The function expects to be given a string containing an English
+date format and will* **try** *to parse that format into a Unix timestamp*.
+The word "try" is quite important here. In general, people are a lot better
+at this sort of thing than computers, as they sense what is part of the data
+and what is noise. In this case, the parser routine sees the phrase ``at``
+as a timezone abbreviation, which it does not understand. And because of
+this, it refuses to parse the string. If you use `date_parse()`_ you will
+see what it actually parsers out of the string::
+
+	var_dump( date_parse( "Nov 19, 2012 at 7:03 PM" ) );
+
+which outputs (reformatted)::
+
+    array(13) {
+      'year' => int(2012)
+      'month' => int(11)
+      'day' => int(19)
+      'hour' => int(19)
+      'minute' => int(3)
+      'second' => int(0)
+      'fraction' => double(0)
+      'warning_count' => int(0)
+      'warnings' => array(0) { }
+      'error_count' => int(1)
+      'errors' => array(1) {
+        [13] => string(47) "The timezone could not be found in the database"
+      }
+      'is_localtime' => bool(true)
+      'zone_type' => int(0)
+    }
+
+Which mentions very clearly **[13] => string(47) "The timezone could not be
+found in the database"** — the key 13 is the position in the original
+string.
+
+.. _`bug #63776`: https://bugs.php.net/bug.php?id=63776&thanks=1
+.. _`strtotime()`: http://php.net/strtotime
+.. _`date_parse()`: http://php.net/date_parse
+
+Bug #64294
+----------
+
+The next one, `bug #64294`_, with the title *"date conversion problem when
+dst present"* turned out not to be a bug either. Simply forgotten that
+Daylight Saving Time already had gone away for the year. However, I should
+point out that parsing a timestamp with: ``$date = new \DateTime('@
+1382954400');`` **always** sets the timezone ``UTC``, and **not** the
+configured default. This means that::
+
+    <?php
+    $timestamp = 1382954400;
+    $date = new \DateTime('@'.$timestamp);
+    echo $date->format('Y-m-d H:i O'), "\n";
+    ?>
+
+Will always show a timezone of ``+0000``::
+
+    2013-10-28 10:00 +0000
+
+Bug #53879
+----------
+
+However, there was a bug_ that needed a fix. Bug #53879,
+*"DateTime::createFromFormat() fails to parse cookie expiration date"* talks
+about parsing a date string such as ``Mon, 21-Jan-2041 15:24:52 GMT`` with
+the factory method `DateTime::createFromFormat()`_. This method takes as
+first argument a series of format specifiers to signal how the date string
+should be parsed. It mostly uses the same format letters that the
+`DateTime::format()`_ method uses to output a DateTime object in a specific
+format.
+
+In this case, the user did not specify his own format, but used one of the
+`predefined constants`_ that is meant for displaying a DateTime object in a
+format that HTTP Cookies want. The constant ``DateTime::COOKIE`` was in fact
+just the string ``l, d-M-y H:i:s T``. The ``y`` here stands for a two-digit
+year. Specifying the year in two digits appeared in the original `RFC 850`_
+but has since then be superseded by a whole bunch of interconnecting and
+contradicting standards.
+
+The general consensus seems to be what is now on
+http://curl.haxx.se/rfc/cookie_spec.html, but that was formerly hosted on a
+now-defunct netscape.com page. This pages defines the date format as needed
+for cookies as:
+
+    The date string is formatted as:
+
+    Wdy, DD-Mon-YYYY HH:MM:SS GMT
+
+    This is based on `RFC 822`_, `RFC 850`_, `RFC 1036`_, and `RFC 1123`_,
+    with the variations that the only legal time zone **is GMT** and the
+    separators between the elements of the date must be **dashes**.
+
+In PHP, ``Wdy, DD-Mon-YYYY HH:MM:SS GMT`` is represented as 
+``l, d-M-Y H:i:s T`` to which I now changed_ PHP's ``DateTime::COOKIE``
+constant.
+
+
+There are plenty more issues, so we'll be coming back to the DateTime
+extension.
+
+.. _bug: https://bugs.php.net/bug.php?id=53879
+.. _`DateTime::createFromFormat()`: http://php.net/datetime.createfromformat
+.. _`DateTime::format()`: http://php.net/datetime.format
+.. _`predefined constants`: http://uk1.php.net/manual/en/class.datetime.php#datetime.constants.types
+.. _`RFC 822`: http://curl.haxx.se/rfc/rfc0822.txt
+.. _`RFC 850`: http://curl.haxx.se/rfc/rfc0850.txt
+.. _`RFC 1036`: http://curl.haxx.se/rfc/rfc1036.txt
+.. _`RFC 1123`: http://curl.haxx.se/rfc/rfc1123.txt
+.. _changed: http://git.php.net/?p=php-src.git;a=blobdiff;f=ext/date/php_date.c;h=b7da07c7bdba9e6c10289c5dde1a7ab8a9e7fd9a;hp=7e4de09c1ec7e812d9efa400df7b88bd29b30d4b;hb=23ab2575e1be062c2d5e3f80d3ff40cabe14fa2c;hpb=504c60dc4451b8ede8814530dbfec0ef485f0ca6

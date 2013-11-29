@@ -1,0 +1,75 @@
+Contributing Advent 8: The magic __FILE__ constant
+==================================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-08 09:10 Europe/London
+   :Tags: blog, php
+   :Short: adv1308
+
+This issue came up in the ``#xdebug`` IRC channel on Freenode_::
+
+	18:25 <user> no magic constants for PHP ?
+	18:27 <user> __FILE__ evaluates to "xdebug://debug-eval"
+
+The user noticed this issue in the Eclipse expression evaluator. A similar
+issue is also described a few times on the internet: 
+
+ - https://netbeans.org/bugzilla/show_bug.cgi?id=228981
+ - http://ru-php.livejournal.com/1557788.html
+ - http://stackoverflow.com/questions/4924676/how-can-i-get-the-php-magic-constant-file-work-with-eclipse-and-pdt
+
+With the hint in *comment 2* in the first URL, I answered the report in an
+answer on StackOverflow (the third URL). I am repeating this answer (with
+some modifications) here:
+
+----
+
+The output you get is not incorrect. ``__FILE__`` is a special constant that
+gets evaluated at **parser time**. In fact, even though it looks like a
+constant, it is really not. When the PHP script gets compiled, it would really
+read something like this::
+
+    // test.php
+    <?php
+        "test.php";
+    ?>
+
+even though the script source was::
+
+    // test.php
+    <?php
+        __FILE__;
+    ?>
+
+This means that after parsing, there is no such "constant" ``__FILE__`` at
+all, as it has already been replaced.
+
+This means that if you evaluate ``__FILE__`` in an IDE, through DBGp's
+``eval`` command with ``eval -- __FILE__`` it can **not** return you a
+filename that is represented through the ``__FILE__`` "constant". Instead,
+it uses the filename for the current context which is ``xdebug eval`` or in
+later versions, ``xdebug://debug-eval``. 
+
+In essence, it's the same as doing this::
+
+    php -r 'eval("__FILE__;");'
+
+Which also outputs::
+
+    Command line code(1) : eval()'d code
+
+Xdebug looks for this sort of output format, and changes it to
+``xdebug://debug-eval`` so that it can actually debug into eval'ed code.
+
+``__FILE__`` works as expected in "normal" PHP source code, as can be proven
+with this snippet::
+
+    <?php
+    $currentFilename = __FILE__;
+    ?>
+
+And after it has been assigned to a variable, you can evaluate
+``$currentFilename`` in your IDE.
+
+.. _freenode: http://freenode.net

@@ -1,0 +1,48 @@
+Contributing Advent 10: Dragons in Dollis Hill
+==============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-10 09:10 Europe/London
+   :Tags: blog, openstreetmap
+   :Short: adv1310
+
+I had previous managed to clear out all the discrepencies on ITO World's
+Analysis for Camden_, `Kensington and Chelsea`_ and the 
+`City of Westminster`_. But I have so far not yet managed to address all of
+the issues in Brent_, my home borough of Brent_. I guess this is mostly
+because the "issues" are not really in the nicest parts of the borough, sort
+of akin to "Here be dragons". But I am trying to make a point to get to them
+anyway, so I set out by bus to Dollis Hill to tackle `Grunwick Close`_,
+`Flowers Close`_ and `St Andrews Close`_. 
+
+The first one, Grunwick Close was a new road and I couldn't find any street
+sign at all. I had to ask a local resident which indeed confirmed that I had
+the correct street name. The latter two actually had a "FIXME" tag on them,
+and no name tag. The first one, Flowers Close, was previously_ incorrectly
+mapped as Flower Road (and OS Locator had it right), but the second one was
+wrong on OS Locator as it had thought there was an apostrophe in "Andrews"—the
+street sign disagreed.
+
+.. image:: /images/content/advent2013-10a.png
+   :align: right
+
+The `platform at Dollis Hill`_ had this annoyingly nagging "FIXME" tag on it
+and I couldn't let that go unfixed of course. (Did I mention OpenStreetMap is
+addictive and that I have some form of OCD?) So I spend some time mapping all
+the aspects of the tube station: entrances, tunnels, stairs, platforms, tracks
+and stop positions—all following the "new" `public transport scheme`_. The
+image here shows how the new station looks like on the map.
+
+You can see it on the website at http://www.openstreetmap.org/browse/relation/3350099
+
+.. _Camden: http://www.itoworld.com/product/data/osm_analysis/area?name=Camden
+.. _`Kensington and Chelsea`: http://www.itoworld.com/product/data/osm_analysis/area?name=Kensington+And+Chelsea
+.. _`City of Westminster`: http://www.itoworld.com/product/data/osm_analysis/area?name=City+Of+Westminster
+.. _Brent: http://www.itoworld.com/product/data/osm_analysis/area?name=Brent
+.. _`Grunwick Close`: http://www.openstreetmap.org/browse/way/248940442
+.. _`Flowers Close`: http://www.openstreetmap.org/browse/way/67752051
+.. _`St Andrews Close`: http://www.openstreetmap.org/browse/way/4081584
+.. _previously: http://www.openstreetmap.org/browse/way/67752051/history
+.. _`platform at Dollis Hill`: http://www.openstreetmap.org/browse/way/67254155/history
+.. _`public transport scheme`: http://wiki.openstreetmap.org/wiki/Proposed_features/Public_Transport

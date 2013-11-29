@@ -1,0 +1,32 @@
+Contributing Advent 7: Snapshots
+================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-07 09:10 Europe/London
+   :Tags: blog, php
+   :Short: adv1307
+
+Today we look at a non-code contribution. The PHP project makes snapshots of
+the current state of the Git repository available through
+http://snaps.php.net. There is a two hourly cronjob that goes over all the
+active branches and then builds a ``.tar.gz``, a ``.tar.bz2`` and an ``.xv``
+bundle.
+
+After the recent branching of ``PHP 5.6`` the snapshots started failing_.
+I have always been involved with making the snapshots work so I had a look to
+see what was wrong.
+
+I discovered that "somebody" had use the root account to try to
+fix/change/update things, but the snapshots are build under a different uses,
+the ``snapbuilder`` user. With some file now having been updated by root, the
+snapbuilder user was unable to read and/or write to those files anymore,
+resulting in broken snapshots.
+
+I also discovered that the directory that contains the master branch of the
+code was missing altogether. I can't explain how that happened, but I
+restored it by cloning a new version from the Git repository. A similar thing
+I did for the PHP 5.6 branch so that we now also have snapshots for that
+branch.
+
+.. _failing: https://bugs.php.net/bug.php?id=66149
