@@ -1,0 +1,33 @@
+Contributing Advent 9: Day of the week
+======================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-08 09:10 Europe/London
+   :Tags: blog, php, datetime
+   :Short: adv1309
+
+This is another one in the Date/Time extension series. Bugs `#63391`_ and
+`#61599`_ both deal with PHP getting the Day of Week wrong in years 
+before 1600. Technically I did not write the *patch* for this contribution,
+but I did add tests, verified it and merged it to all the four branches (PHP
+5.4, 5.5, 5.6 and master). 
+
+However, it does seem that I introduced the bug in the first
+place. When writing the new date/time support about 7 years ago I was looking
+for an algorithm that would tell me the day of the week for any given
+(Gregorian calendar) date. Wikipedia has quite a good article_ on it.
+The article outlines the calculation of the `century number`_. For the
+Gregorian calendar, that's quite straight forwards: ``6 - (j % 4) * 2``. For
+the Julian calendar it's not very difficult either. Although PHP uses the
+proleptic Gregorian calendar that I wrote_ about before, I mistakenly had used a formula that
+**combined** the Julian and Gregorian calendar calculations. This then
+resulted in wrong calculations before the year 1600. This is now corrected_
+and ready for inclusion into PHP 5.4.24, 5.5.7, and later versions.
+
+.. _`#63391`: https://bugs.php.net/bug.php?id=63391
+.. _`#61599`: https://bugs.php.net/bug.php?id=61599
+.. _article: http://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week
+.. _`century number`: http://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#A_tabular_method_to_calculate_the_day_of_the_week
+.. _wrote: /unix-epoch-and-phps-calendar-system.html
+.. _corrected: https://github.com/php/php-src/commit/d22cc5c816fdb6017ce9e22b4594d1566939e4ec#diff-36b3674cd399914fbf08d7ba4d817478L27
