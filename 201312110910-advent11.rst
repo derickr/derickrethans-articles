@@ -1,0 +1,47 @@
+Contributing Advent 11: Mozilla's geolocation services
+======================================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-11 09:10 Europe/London
+   :Tags: blog, php, openstreetmap
+   :Short: adv1311
+
+About a months and a half ago Mozilla announced_ its `Location Services`_. It is
+"an experimental pilot project to provide geolocation lookups based on
+publicly observable cell tower and WiFi access point information". In other
+words, it is going to provide a similar service as Google's location service
+that Firefox currently uses for its `location aware browsing`_. 
+
+.. image:: /images/content/advent2013-11a.png
+   :align: left
+
+In order to provide this service, they need geolocated data so that they know
+where WiFi access points and cell towers are. They have released a tool,
+MozStumbler_, that allows everybody to collect this data and provide it to
+Mozilla. I believe that there should be open alternatives for important
+services like this, and I think that Mozilla seems like a good caretaker of
+this data, respecting privacy. So I have installed MozStumbler_ and turn it on
+whenever I go on a new route through town. 
+
+.. image:: /images/content/advent2013-11b.png
+   :align: right
+
+The application isn't the prettiest as you can see, but it does work well.
+There is also a "Test Mozilla Location Services" which uses their API to
+lookup the location—without using the GPS. Ichnaea_ is the public API that you
+can use to do lookups yourself. The Geolocate_ API implements the same
+interface as the `Google Maps Geolocation API endpoint`_. But there is a more
+extensive Search_ API as well. I will soon be upgrading Haunt_ to use this new
+API as the one it currently uses is discontinued.
+
+
+.. _announced: https://blog.mozilla.org/services/2013/10/28/introducing-the-mozilla-location-service/
+.. _`Location Services`: https://wiki.mozilla.org/CloudServices/Location
+.. _`location aware browsing`: http://www.mozilla.org/en-GB/firefox/geolocation/
+.. _MozStumbler: https://github.com/dougt/MozStumbler/releases
+.. _Ichnaea: https://mozilla-ichnaea.readthedocs.org/en/latest/
+.. _Geolocate: https://mozilla-ichnaea.readthedocs.org/en/latest/api/geolocate.html
+.. _`Google Maps Geolocation API endpoint`: https://developers.google.com/maps/documentation/business/geolocation/
+.. _Search: https://mozilla-ichnaea.readthedocs.org/en/latest/api/search.html
+.. _Haunt: http://derickrethans.nl/projects.html#haunt

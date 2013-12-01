@@ -1,0 +1,92 @@
+Contributing Advent 12: Geospatial algorithms
+=============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-11 09:10 Europe/London
+   :Tags: blog, php, openstreetmap
+   :Short: adv1312
+
+This is technically not a new contribution, but one I've been working on and
+off at for the past months. The geospatial_ PHP extension contains a whole
+bunch of algorithms that deal with geospatial problems. The Haversine_ and
+Vincenty_ functions calculate distances on a globe, an implementation of the
+`Helmert transformation`_ algorithm converts between different datums_, and
+some general functions to convert from f.e. 16°45'12" N to 16.7533° N.
+
+.. image:: /images/content/advent2013-12a.png
+   :align: left 
+
+These are all useful functions, but I'd like to talk about an algorithm that
+I've added some time ago now. It is an implementation of
+Ramer-Douglas-Peucker_ that can be used to simplify a polyline. I have used
+that for the display of the timezone boundaries that I show in one of my maps
+examples: http://maps.derickrethans.nl/?l=timezone&lat=51.5&lon=0&zoom=8.
+The boundary data that I have for the UK for example, is so complex that it
+takes quite a bit of time to render them on the map. On higher zoom levels
+where that amount of detail simply does not show up, we can of course do with
+a simpler line, and that is what RDP helps us to achieve.
+
+The algorithm has as input an array of coordinate pairs::
+
+	$points = [
+		[  0,  10 ],
+		[  1,   6 ],
+		[  3,   0 ],
+		[  5,   6 ],
+		[  7,   8 ],
+		[  8,   7 ],
+		[  9,   4 ],
+		[  13, 10 ],
+	];
+
+As well as a parameter (called ε) that determines the maximum distance from a
+line that a point is allowed to be so that it is included in the returned
+array. The algorithm is recursive and will for each segment—starting with the
+whole array:
+
+ - Find the further point from the line as marked by the first and last point
+ - If the point is closer than ε to the line segment then any points not
+   currently marked to keep can be discarded without the simplified curve
+   being worse than ε.
+ - If the point furthest from the line segment is greater than ε from the
+   approximation then that point must be kept. The algorithm recursively calls
+   itself with the first point and the worst point and then with the worst
+   point and the last point (which includes marking the worst point being
+   marked as kept).
+
+With the above ``$points`` array, we can run the function like::
+
+	$points = rdp_simplify( $points, 2.75 );
+
+We are left with::
+
+	$points = [
+		[  0,  10 ],
+		[  3,   0 ],
+		[  5,   6 ],
+		[  9,   4 ],
+		[  13, 10 ],
+	];
+
+The image below shows the effect of ``ε = 2.75`` and other values:
+
+.. image:: /images/content/advent2013-12b.png
+
+In case you do not want to install a PHP extension to get that functionality,
+I also have an example implementation in PHP at
+https://github.com/derickr/3angle/blob/master/rdp.php, however, the time it
+takes to run the algorithm in PHP is about the same as the browser needs to
+draw the additional points of the lines.
+
+Expect to see an updated version in the geospatial_ extension that also
+handles multi-polygons in the future. This should speed up running this over
+the large amount of UK polygons, as there are plenty of islands that also need
+to be done.
+
+.. _geospatial: https://github.com/php-geospatial/geospatial
+.. _Haversine: http://en.wikipedia.org/wiki/Haversine_formula
+.. _Vincenty: http://en.wikipedia.org/wiki/Vincenty%27s_formulae
+.. _`Helmert transformation`: http://en.wikipedia.org/wiki/Helmert_transformation
+.. _datums: http://en.wikipedia.org/wiki/Datum_%28geodesy%29
+.. _`Ramer-Douglas-Peucker`: http://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
