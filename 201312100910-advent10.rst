@@ -7,7 +7,7 @@ Contributing Advent 10: Dragons in Dollis Hill
    :Tags: blog, openstreetmap
    :Short: adv1310
 
-I had previous managed to clear out all the discrepencies on ITO World's
+I had previous managed to clear out all the discrepancies on ITO World's
 Analysis for Camden_, `Kensington and Chelsea`_ and the 
 `City of Westminster`_. But I have so far not yet managed to address all of
 the issues in Brent_, my home borough of Brent_. I guess this is mostly
