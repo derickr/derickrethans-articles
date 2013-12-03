@@ -1,0 +1,38 @@
+Contributing Advent 14: Brown Hart Gardens
+==========================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-14 09:10 Europe/London
+   :Tags: blog, openstreetmap
+   :Short: adv1314
+
+
+Besides fixing bugs from `ITO World`_ or `OpenStreetMap notes`_ I also tend to
+do some general mapping when I am out and about. Coinciding with my "buying
+the whisky of the month" event (if you want to contribute to this, see the
+wishlist_ ;-) ), we ended up walking past a rather curious building with a park
+on top in London: `Brown Hart Gardens`_.
+
+The gardens, new café, and the "Duke Street Electricity Substation" that lays
+underneath were not mapped at all, and of course I could not let that be. From
+photos and memory, I re-created the gardens_ in JOSM_, my preferred
+OpenStreetMap editor and now it is available on the map_ — including the steps_
+and the elevator_:
+
+.. image:: /images/content/advent2013-14a.png
+
+There is also a 3D rendering available_:
+
+.. image:: /images/content/advent2013-14b.png
+
+.. _`ITO World`: /advent02.html
+.. _`OpenStreetMap notes`: /advent05.html
+.. _wishlist: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
+.. _`Brown Hart Gardens`: http://en.wikipedia.org/wiki/Brown_Hart_Gardens
+.. _JOSM: http://josm.openstreetmap.de/
+.. _gardens: http://www.openstreetmap.org/relation/3354838#map=19/51.51315/-0.15145
+.. _steps: http://www.openstreetmap.org/way/249455143
+.. _elevator: http://www.openstreetmap.org/node/2560520283
+.. _map: http://www.openstreetmap.org/#map=19/51.51310/-0.15151
+.. _available: http://map.f4-group.com/#lat=51.5129156&lon=-0.1514470&zoom=19&ui.discoveryOpen=false&camera.theta=71.087&camera.phi=141.853
