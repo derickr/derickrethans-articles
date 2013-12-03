@@ -1,5 +1,5 @@
-Contributing Advent 5: OpenStreetBugs - part 1
-==============================================
+Contributing Advent 5: OpenStreetBugs
+=====================================
 
 .. articleMetaData::
    :Where: London, UK

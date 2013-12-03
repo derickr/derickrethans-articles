@@ -1,0 +1,53 @@
+Contributing Advent 13: Haiyan Progress Video
+=============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-13 09:10 Europe/London
+   :Tags: blog, openstreetmap
+   :Short: adv1313
+
+Once in a while, the `London OpenStreetMap group`_ organises a `hack weekend`_
+where a bunch of us hack on various different projects, such as the 
+`new design`_, `project OSRM`_ or `using Food Hygiene Open Data`_ to improve
+OpenStreetMap.
+
+The last few that I have attended were always close to the end of the year, so
+I tend to use them to make my "year of edits" videos:
+
+ - 2010: https://vimeo.com/34406096
+ - 2011: https://vimeo.com/34404102
+ - 2012: https://vimeo.com/56374742
+
+This year instead I focussed on creating a mapping party progress video for
+the great work that the Humanitarian OpenStreetMap Team (HOT) has been
+doing for organising and mapping the destruction of Typhoon Haiyan_ in the
+Philippines. There have been lots of `media coverage`_ but I wanted to show
+how much they have added in the two weeks since the thyphoon hit—and what
+better to do this then with a progress video.
+
+I have made many videos before, mostly for mapping parties in London, but
+also for other areas, such as Burgos_ in Spain, and for the `Carse of
+Gowrie`_. At first I wanted to make them for the large area around Tacloban
+but in the end it made more sense to just do a slightly smaller area:
+
+.. vimeo::
+   :ID: 80922315
+   :Width: 599
+   :Height: 337
+   :Title: HOT: Tacloban (Typhoon Haiyan mapping)
+
+I have used a slightly tweaked variant of my OSM progress software that you
+can find on GitHub: https://github.com/derickr/osm-progress — I'll soon clean
+up my changes and push them to the repository as well.
+
+.. _`London OpenStreetMap group`: http://wiki.openstreetmap.org/wiki/London/Winter_2013-2014_events
+.. _`hack weekend`: http://wiki.openstreetmap.org/wiki/London/London_Hack_Weekend_Nov_2013
+.. _`new design`: https://www.mapbox.com/blog/redesigning-openstreetmap-org/
+.. _`project OSRM`: http://project-osrm.org
+.. _`using Food Hygiene Open data`: http://sk53-osm.blogspot.co.uk/2013/12/harry-we-missed-you-london-osm-hack.html
+.. _`Humanitarian OpenStreetMap Team`: http://hot.openstreetmap.org/projects/typhoon_haiyan_0
+.. _Haiyan: http://en.wikipedia.org/wiki/Typhoon_Haiyan
+.. _`media coverage`: http://wiki.osm.org/wiki/Typhoon_Haiyan#Media_coverage
+.. _Burgos: https://vimeo.com/channels/osm/54113868
+.. _`Carse of Gowrie`: https://vimeo.com/channels/osm/62772466
