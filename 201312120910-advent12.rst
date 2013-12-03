@@ -3,7 +3,7 @@ Contributing Advent 12: Geospatial algorithms
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2013-12-11 09:10 Europe/London
+   :Date: 2013-12-12 09:10 Europe/London
    :Tags: blog, php, openstreetmap
    :Short: adv1312
 
