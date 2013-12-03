@@ -26,7 +26,7 @@ the data directly from OS Locator, a survey is required. In some cases, the
 data in OS Locator is actually wrong, even though it's supposed to be an
 official source. So I went past the road, checked whether the name "Opal Mews"
 was visible, and added the name to OpenStreetMap:
-http://www.openstreetmap.org/browse/changeset/19099382
+http://www.openstreetmap.org/browse/changeset/19136631
 
 Now ITO World's OSM analysis does not have it listed as an inconsistency
 anymore:
