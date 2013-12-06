@@ -1,0 +1,80 @@
+Contributing Advent 15: Xdebug connection timeout
+=================================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-15 09:10 Europe/London
+   :Tags: blog, php, xdebug, mongodb
+   :Short: adv1315
+
+For a while people have been complaining that when the remote debugger 
+is enabled, but there is no listening IDE, Xdebug hangs and prevents PHP from
+loading the script. `Bug report #963`_ is one of those reports, but there is
+also a report_ for the `Xdebug helper for Chrome`_.
+
+When Xdebug starts up, and debugging is enabled **and** requested, it tries to
+make a connection to the IDE that is supposed to accept the connection and
+then issue debugging commands. This works all fine if the IDE is actually
+listening, but if not, then depending on configuration two things can happen:
+
+ 1. The TCP/IP stack immediately returns with a "can not connect".
+
+ 2. The TCP/IP stack ignores the connection attempt, and doesn't signal this
+    back.
+
+There is no problem for case 1, as Xdebug will not block and for the duration
+of the request will not retry to make a debugging connection. But for case 2,
+Xdebug needs to wait for the Operating System to signal that the connection
+attempt failed. This time-out limit is `about 3 minutes`_ on Linux, and `72
+seconds on Windows`_. You can configure this default on either OS though.
+
+To remedy case 2, we need a way to make the connection attempt to not block in
+the application (Xdebug). The MongoDB PHP driver for PHP has a similar issue
+and solves this by putting the socket into non-blocking mode.
+
+I did some investigation and found that Xdebug very naïvely uses a simple call
+to `connect()`_. The ``connect()`` library function has no facility to specify
+a time-out, but there is a way around this. The trick is put the socket into
+non-blocking mode first with::
+
+	fcntl(sockfd, F_SETFL, O_NONBLOCK);
+
+This means that a call to ``connect()`` does not block, but immediately
+returns. In a loop, we then use the `select()`_ call to wait until some event
+happens on the socket, and for that we **can** set a timeout. In code, that
+looks (slightly simplified) like::
+
+	timeout.tv_sec = 0;
+	timeout.tv_usec = 200000;
+
+	while (1) {
+		fd_set rset, wset, eset;
+
+		FD_ZERO(&rset); FD_SET(sockfd, &rset);
+		FD_ZERO(&wset); FD_SET(sockfd, &wset);
+		FD_ZERO(&eset); FD_SET(sockfd, &eset);
+
+		if (select(sockfd+1, &rset, &wset, &eset, &timeout) == 0) {
+			return -2;
+		}
+
+		/* if our descriptor is ready break out */
+		if (FD_ISSET(sockfd, &wset) || FD_ISSET(sockfd, &rset)) {
+			break;
+		}
+	}
+
+Now we loop until the is either an error on the socket, or when ``select()``
+notices an event on the socket that tells us that the connection has been
+made. I did not add a configuration setting to select the maximum timeout, as
+I consider that overkill. However, the value of 200ms should be adequate. 
+
+Bug fixed! Perhaps the next one should be a feature addition…
+
+.. _`Bug report #963`: http://bugs.xdebug.org/view.php?id=963
+.. _report: https://github.com/mac-cain13/xdebug-helper-for-chrome/issues/37
+.. _`Xdebug helper for Chrome`: https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=en
+.. _`connect()`: http://man7.org/linux/man-pages/man2/connect.2.html
+.. _`about 3 minutes`: https://www.frozentux.net/ipsysctl-tutorial/chunkyhtml/tcpvariables.html#AEN477
+.. _`72 seconds on Windows`: http://technet.microsoft.com/en-us/library/cc739819%28WS.10%29.aspx
+.. _`select()`: http://man7.org/linux/man-pages/man2/select.2.html
