@@ -1,0 +1,87 @@
+Contributing Advent 16: St. Johns vs. St John's
+===============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-16 09:10 Europe/London
+   :Tags: blog, openstreetmap
+   :Short: adv1316
+
+I already wrote about comparing `OS Locator`_ data with OpenStreetMap for `day
+2`_ and `day 8`_, but there are plenty of other highlights in London that I
+can easily have a look at. So a certain lunch time walk brought me to the
+borough of `Kensington and Chelsea`_. I first looked at `Camborne Mews`_
+(which OS Locator had as Cambourne Mews) and `Cowling Close`_ (which OpenStreetMap
+had as Cowling Cross).
+
+But the more interesting thing to look at was the last one of the three.
+Apostrophes are always a tricky part, both for mappers
+as well as councils. I had already run into `St. Marks Road`_ `back in 2010`_
+but ITO World now also flagged up St. Johns Gardens. Both segments *were* mapped
+as St. John's Gardens in OpenStreetMap. OS Locator has the street as two
+**different** names. For the  `western segment`_ it has *St John's Gardens*:
+
+.. image:: /images/content/advent2013-16a.png
+
+For the `eastern segment`_ it has *St Johns Gardens*:
+
+.. image:: /images/content/advent2013-16b.png
+
+These images are extracts from another comparison tool between OS Locator and
+OpenStreetMap, called `OS Locator musical chairs`_, made by `Robert Scott`_.
+
+In any case, after visiting Cowling Close slightly to the west, I came through
+Clarendon Road and there on the corner with St John's Gardens, I spotted the
+following sign:
+
+.. image:: /images/content/advent2013-16c.png
+
+Ah! So I concluded, the name of the street is St John's Gardens, with
+apostrophe.
+
+I continued along the road towards St Johns Church, and on the corner with
+Lansdowne Road I found the following two signs:
+
+.. image:: /images/content/advent2013-16d.png
+
+.. image:: /images/content/advent2013-16e.png
+
+Argh, both without apostrophe! On the north end around the church, on the
+corner with Lansdowne Crescent, there two more signs without apostrophe
+(sorry, one was too blurry to add here):
+
+.. image:: /images/content/advent2013-16f.png
+
+I took another photo on the corner with Ladbroke Grove but didn't pay much
+attention to it and assumed it was without apostrophe as well. So with five
+signs saying *St Johns Gardens* (without apostrophe) and sign with *St John's
+Gardens* (with apostrophe), the street is surely just called *St Johns
+Gardens*. Back home, I then edited_ OpenStreetMap to say that the name of the
+streets are *St Johns Gardens* and **not** *St John's Gardens*. 
+
+Just now, while writing the article I had a better look at the sign on the
+corner with Ladbroke Grove:
+
+.. image:: /images/content/advent2013-16g.png
+
+And yes, there is indeed an apostrophe… What surprises me most however is that
+it's really up to the council to decide the spelling of street names, and
+convey that information to Ordnance Survey. Apparently, they can't make their
+minds up on what to print on the signs, and what to tell Ordnance Survey
+(considering they had two parts of the same street with two different names).
+In any case, OpenStreetMap *maps what is on the ground*, and right now, with
+three against two, *St Johns Gardens* (without apostrophe) wins.
+
+.. _`OS Locator`: http://data.gov.uk/dataset/os-locator1
+.. _`day 2`: /advent02.html
+.. _`day 8`: /advent08.html
+.. _`Kensington and Chelsea`: http://en.wikipedia.org/wiki/Kensington_and_Chelsea_London_Borough_Council
+.. _`Camborne Mews`: http://www.openstreetmap.org/way/34150447
+.. _`Cowling Close`: http://www.openstreetmap.org/way/34227497
+.. _`St. Marks Road`: http://www.openstreetmap.org/way/4981900/history
+.. _`back in 2010`: http://www.openstreetmap.org/changeset/5449937
+.. _`western segment`: http://ris.dev.openstreetmap.org/oslmusicalchairs/map?osl_id=695310
+.. _`eastern segment`: http://ris.dev.openstreetmap.org/oslmusicalchairs/map?osl_id=695945
+.. _`OS Locator musical chairs`: http://ris.dev.openstreetmap.org/oslmusicalchairs/map?osl_id=695310&zoom=18&lat=51.51014&lon=-0.20641&layers=B0TT&view_mode=pseudorandom
+.. _`Robert Scott`: http://wiki.openstreetmap.org/wiki/User:Robert
+.. _edited: http://www.openstreetmap.org/changeset/19256893
