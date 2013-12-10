@@ -8,13 +8,12 @@ Contributing Advent 10: Dragons in Dollis Hill
    :Short: adv1310
 
 I had previous managed to clear out all the discrepancies on ITO World's
-Analysis for Camden_, `Kensington and Chelsea`_ and the 
-`City of Westminster`_. But I have so far not yet managed to address all of
-the issues in Brent_, my home borough of Brent_. I guess this is mostly
-because the "issues" are not really in the nicest parts of the borough, sort
-of akin to "Here be dragons". But I am trying to make a point to get to them
-anyway, so I set out by bus to Dollis Hill to tackle `Grunwick Close`_,
-`Flowers Close`_ and `St Andrews Close`_. 
+Analysis for Camden_, `Kensington and Chelsea`_ and the `City of Westminster`_.
+But I have so far not yet managed to address all of the issues in my home
+borough Brent_. I guess this is mostly because the "issues" are not really in
+the nicest parts of the borough—perhaps there are even dragons there. But I am
+trying to make a point to get to them anyway, so I set out by bus to Dollis
+Hill to tackle `Grunwick Close`_, `Flowers Close`_ and `St Andrews Close`_. 
 
 The first one, Grunwick Close was a new road and I couldn't find any street
 sign at all. I had to ask a local resident which indeed confirmed that I had
