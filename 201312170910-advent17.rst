@@ -1,0 +1,72 @@
+Contributing Advent 17: Printing stacks
+=======================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-17 09:10 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: adv1317
+
+Anybody who is vaguely familiar with Xdebug_ probably has seen its glorious
+orange stack traces gracing their screens. In case you have not, they look
+like:
+
+.. image:: /images/content/advent2013-17d.png
+
+In this case, the ``tell_a_lie_and_hurt_you()`` function tried to call
+`strlen()`_ with incorrect arguments.
+
+Xdebug overloads PHP's internal error handler to do this, but it is also
+possible to trigger stack traces yourself. You can of course use
+`trigger_error()`_, but Xdebug also provides the
+`xdebug_print_function_stack()`_ function. Running
+``xdebug_print_function_stack()`` instead of the erroneous ``strlen()``
+results in:
+
+.. image:: /images/content/advent2013-17a.png
+
+As the documentation state, you can also provide your own message::
+
+    <?php
+
+    function tell_a_lie_and_hurt_you()
+    {
+        xdebug_print_function_stack("You have been rickrolled!");
+    }
+
+Which then results in:
+
+.. image:: /images/content/advent2013-17b.png
+
+This was all good, and then my friend Rob_ asked: 
+
+    hypothetically, how hard would it be to change
+    xdebug_print_function_stack() so that it didn't output the filename and
+    line number in the orange box?
+
+Well, it didn't turn out to be `very hard`_. Rob requested_ this feature
+because he was writing his own error handler. And with your own error handler
+it does not make a whole lot of sense to show where
+``xdebug_print_function_stack()`` was called from. After my commit, you can
+now supply a second argument to ``xdebug_print_function_stack()``::
+
+    <?php
+
+    function tell_a_lie_and_hurt_you()
+    {
+        xdebug_print_function_stack("You have been rickrolled!", XDEBUG_STACK_NO_DESC);
+    }
+
+Which then results in a stack trace without header:
+
+.. image:: /images/content/advent2013-17c.png
+
+This new feature will be part of Xdebug 2.3.
+
+.. _Xdebug: http://xdebug.org
+.. _`strlen()`: http://php.net/strlen
+.. _`trigger_error()`: http://php.net/trigger_error
+.. _`xdebug_print_function_stack()`: http://xdebug.org/docs/all_functions#xdebug_print_function_stack
+.. _Rob: http://19ft.com/
+.. _`very hard`: https://github.com/xdebug/xdebug/compare/4354f68c4990...d73d80b5eba4
+.. _requested: http://bugs.xdebug.org/view.php?id=1003
