@@ -1,0 +1,40 @@
+Contributing Advent 18: Mapping without access
+==============================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-18 09:10 Europe/London
+   :Tags: blog, openstreetmap
+   :Short: adv1318
+
+So, this is another one about chasing down issues on ITO World's analysis, and
+probably not the last one. However, in this case it needed a little bit more
+than photographing street name signs. This is the tale of `St. Mary's Place`_.
+
+OpenStreetMap had this street as St. Mary's Gate, a road in the same area_.
+ITO World's analysis had flagged this up as being incorrect, so before the
+last `OpenStreetMap winter meet-up`_ I went to have a look. After checking
+out an apparently `missing street`_, and adding it to OpenStreetMap I walked
+towards the supposed location of St. Mary's Place. However, I couldn't really
+get near as there was a gate_ blocking my way.
+
+Not really a problem I thought, so walked to the other side of the estate and
+encountered `another set of gates`_. Now I got annoyed as I had walked quite a
+bit, and I still had to check out `Palace Green`_ before the meet-up as well. 
+In any case, I was looking around to see whether there was a public entrance
+after all, when a pedestrian left through a gate. Instead of trying to sneak
+in, I just asked him about the name of the street… and that was it. He could
+confirm that indeed St. Mary's Gate and St. Mary's Place split in the middle.
+
+Getting to know information about Palace Green is tricky too, and that
+conclusion will have to wait until I've spoken to Paul_ who mapped it in the
+first place.
+
+.. _`St. Mary's Place`: http://www.openstreetmap.org/way/32954706#map=18/51.49746/-0.19013
+.. _area: http://www.openstreetmap.org/#map=18/51.49741/-0.19055
+.. _`OpenStreetMap winter meet-up`: http://bit.ly/londonosm10
+.. _`missing street`: http://www.openstreetmap.org/way/26741199
+.. _gate: http://www.openstreetmap.org/node/376497546
+.. _`another set of gates`: http://www.openstreetmap.org/node/371156450
+.. _`Palace Green`: http://www.openstreetmap.org/way/157471066
+.. _Paul: http://www.openstreetmap.org/user/Paul%20The%20Archivist
