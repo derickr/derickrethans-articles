@@ -1,0 +1,48 @@
+Contributing Advent 23: Timezone database
+=========================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-23 09:10 Europe/London
+   :Tags: blog, php
+   :Short: adv1323
+
+Timezones have always been a pain, and Daylight Saving(s) time does not make
+it a lot easier. Then of course you have governments that decide to **change**
+the rules. Often that is done nicely in advance, but once in a while the rule
+changes are announced at the absolutely `last moment`_, or, sometimes even after the new
+rules have come into effect. To track the craziness, have a look at `Time Zone
+News`_, and this image to see how many different rules there are!
+
+.. image:: /images/content/advent2013-23a.png
+
+The changes to rules, and the changes to them are tracked by a group of
+volunteers that maintain the `Olson TZ Database`_, named after the now retired
+`David Arthur Olson`_. Every so often a new release is made through `IANA's
+website`_. The last change happened last Tuesday, and hopefully this is the
+last release of this year.
+
+The Olson TZ Database is used_ by a whole lot of software stacks, for example
+by almost every Unix system, but there are also implementations for languages.
+There is `Yoda time`_ for Java, and PHP's DateTime_ support also uses the
+Olson database to be able to calculate the correct local time.
+
+Because the PHP release cycle can not keep up with the releases of the Olson
+database, you can update the rule set in PHP by installing newer versions of
+the `timezonedb PECL extension`_, which closely follows releases of the 
+Olson database.
+
+As I am the maintainer of PHP's DateTime support, I am also responsible for
+keeping the database, and it's accompanying PECL extension up-to-date.
+With the latest release available through the PECL extension, websites such as
+http://time.is can then show you the latest, and correct, local time.
+
+.. _`last moment`: http://en.wikipedia.org/wiki/Israel_Summer_Time#1992.E2.80.932005
+.. _`Time Zone News`: http://www.timeanddate.com/news/time/
+.. _used: http://en.wikipedia.org/wiki/Tz_database#Use_in_software_systems
+.. _`Olson TZ Database`: http://en.wikipedia.org/wiki/Tz_database
+.. _`David Arthur Olson`: 
+.. _`IANA's website`: http://www.iana.org/time-zones
+.. _`Yoda time`: 
+.. _DateTime: http://php.net/datetime
+.. _`timezonedb PECL extension`: http://pecl.php.net/timezonedb
