@@ -1,0 +1,58 @@
+Contributing Advent 22: Documenting changes
+===========================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2013-12-22 09:10 Europe/Amsterdam
+   :Tags: blog, php, xdebug
+   :Short: adv1322
+
+Probably one of the easier things to contribute to an Open Source project when
+you don't really have much experience, or simply don't know the language well
+enough—or in Xdebug's case, PHP's internals, is documentation. In the past a
+few people, such as `Wim Godden`_ and `Jarl Ostensen`_ have already
+contributed_ some documentation fixes.
+
+In the last few months I have added support for `serialized "collect
+params"`_, `XDEBUG_TRACE_NAKED_FILENAME`_ (issue `#971`_),
+`XDEBUG_STACK_NO_DESC`_ (issue `#1003`_), and the `ability to halt on
+warning/notice`_ (issue `#1004`_). And neither of those are documented now. So
+this article is about adding the documentation of these new features.
+
+Xdebug's documentation is part of the website, which has a project_ on GitHub.
+However, it's not in any standard format. Functions are documented in single
+files, such as `here for xdebug_start_trace()`_, and in a rather rudimentary
+format that some other tools I have use to generate stuff as well. So a bit
+tricky, and this is something I'd like to improve, however it's rather easy
+to `add to`_.
+
+`Configuration settings`_ are all in `one file`_ and stored as an nested PHP
+array. I have now added a new supported value (5) for `xdebug.collect_params`_
+which needs documenting too, which is as simple as `adding a new line`_ to it.
+Of course, I have also documented_ the changes to
+`xdebug_print_function_stack()`_ and the addition of `xdebug.halt_level`_.
+
+Xdebug's documentation is (I think pretty good), but if you have sugggestions
+I would be more than happy to get suggestions, or of course even better would
+be a pull request.
+
+.. _`Wim Godden`: https://github.com/wimg
+.. _`Jarl Ostensen`: https://github.com/jarlostensen
+.. _contributed: https://github.com/derickr/xdebug.org/commit/4468cba59c8dd43ae08e8ba1c852e50e11438c25
+.. _`serialized "collect params"`: https://github.com/xdebug/xdebug/commit/c53907b8d776eb09a84deabb20bc1b7d8535ac7a
+.. _`XDEBUG_TRACE_NAKED_FILENAME`: https://github.com/xdebug/xdebug/commit/f7d19d17662feaa4a5cd10d0866cc4f8fa4d892c
+.. _`XDEBUG_STACK_NO_DESC`: https://github.com/xdebug/xdebug/commit/f13060eba1cf95aa7f9064c473e13cdc67d207a3
+.. _`ability to halt on warning/notice`: https://github.com/xdebug/xdebug/commit/2c93aa440b9a2163d6f099409e28a578a61869dc
+.. _`#971`: http://bugs.xdebug.org/view.php?id=971
+.. _`#1003`: http://bugs.xdebug.org/view.php?id=1003
+.. _`#1004`: http://bugs.xdebug.org/view.php?id=1004
+.. _project: https://github.com/derickr/xdebug.org
+.. _`here for xdebug_start_trace()`: https://github.com/derickr/xdebug.org/blob/master/html/docs/include/functions/xdebug_start_trace
+.. _`add to`: https://github.com/derickr/xdebug.org/commit/e71c56ba4f41bc43f1b7b83fdadb875c6a625662
+.. _`Configuration settings`: http://www.xdebug.org/docs/all_settings
+.. _`one file`: https://github.com/derickr/xdebug.org/blob/master/html/docs/include/settings.php
+.. _`xdebug.collect_params`: https://github.com/derickr/xdebug.org/blob/master/html/docs/include/settings.php#L142
+.. _`adding a new line`: https://github.com/derickr/xdebug.org/commit/a2aa6a9502baa60491e73b74d6e55d0b20a6bfec
+.. _documented: https://github.com/derickr/xdebug.org/commit/1e267fd17f2270a009e67c6da9fd7ac3e04e2336
+.. _`xdebug_print_function_stack()`: http://xdebug.org/docs/all_functions#xdebug_print_function_stack
+.. _`xdebug.halt_level`: http://xdebug/docs/all_settings#halt_level
