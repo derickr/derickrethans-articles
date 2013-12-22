@@ -7,4 +7,64 @@ Contributing Advent 23: Reproducing issues
    :Tags: blog, php, xdebug
    :Short: adv1323
 
+Many users that find flaws in software will just shrug and find a workaround,
+some will provide a cryptic bug report, but very few will actually write a
+coherent bug report that makes it very clear as to how to reproduce an issue.
+Without a reproducible case, it can be very tricky to find the bug, and then
+subsequently fix it.
 
+If people encounter bugs in `Xdebug's`_ `remote debugging`_ I very often ask
+them to produce a `remote log`_ file. This log file will contain the
+communication packets between Xdebug and the IDE. In some cases, this
+highlights that an IDE did something wrong, or perhaps there is a
+misconfiguration (often with path mappings!). Together with the script that was
+used to create a log it is often very simple for me to reproduce the issue, and
+then fix it. 
+
+.. _`Xdebug's`: http://xdebug.org
+.. _`remote debugging`: http://xdebug.org/docs/remote
+.. _`remote log`: http://xdebug.org/docs/remote#remote_log
+
+However, sometimes I get a bug report that goes along "the massive Symfony
+application causes an issue". I can not do anything with that. Even though it
+might be easy to reproduce (1. install Symfony, 2. install application, 3. run
+massive PHPUnit test suite), I do not have the time (and knowledge) to debug
+any random PHP application. As a user of the Open Source software that would
+like a bug fixed, you should spend some time making it easy for the developers
+of said software to figure out the problem. That means that you need to
+dissect your massive Symfony application and produce a **small** script that
+shows the behaviour. If possible, this script should also **never** rely on
+external resources such as a database, or some SOAP service.
+
+A reproducible issue is also one that you can **reliably** trigger. That
+means hitting a single URL or executing a single script on the command line. 
+With PHP or PHP extensions such as Xdebug there are sometimes issues that only
+show up once in a while, because memory corruption do not always result in 
+crashes. A few tools are available to more easily highlight those issues.
+
+In almost every case, you would want to set the environment variable ``export
+USE_ZEND_ALLOC=0``. Zend's memory allocator can sometimes hide issues because
+of "clever" memory management, and by making PHP use the standard OS memory
+management routines issues can show up earlier. Setting this environment
+variable is especially important if you also use the second tool: Valgrind_.
+
+Valgrind is a memory debugging tool which helps me find things like using
+uninitialised memory, memory that is already freed, writing out of bounds or
+memory leaks. It is an unmissable tool for me in very many cases. Providing a
+Valgrind log with a bug report is very helpful.
+
+Valgrind is only useful if you have PHP and Xdebug compiled in debug mode. If
+you use PHP from a Linux distribution's package you should install something
+like ``php5-dev`` or ``php5-devel`` to also have the debugging symbols
+available. For Xdebug you would need to compile it yourself (and not use PECL,
+or a distribution's package).
+
+In some cases, memory leaks and errors show up only when PHP or an extension
+is shutdown. If an extension is already unloaded, then Valgrind can not
+pinpoint exactly where in the code the issue occurred. If this happens, you
+see lines with ``???`` in the output. By setting yet another environment
+variable, you prevent PHP from unloading the module. This environment variable
+is: ``export ZEND_DONT_UNLOAD_MODULES=1``. With both ``USE_ZEND_ALLOC=0`` and
+``ZEND_DONT_UNLOAD_MODULES=1`` set, Valgrind gives the best results. And a bug
+where Valgrind shows that Xdebug (or something else) does something wrong is
+the best kind you can file!
