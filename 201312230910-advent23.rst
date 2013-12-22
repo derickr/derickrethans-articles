@@ -48,6 +48,8 @@ of "clever" memory management, and by making PHP use the standard OS memory
 management routines issues can show up earlier. Setting this environment
 variable is especially important if you also use the second tool: Valgrind_.
 
+.. _Valgrind: http://valgrind.org/
+
 Valgrind is a memory debugging tool which helps me find things like using
 uninitialised memory, memory that is already freed, writing out of bounds or
 memory leaks. It is an unmissable tool for me in very many cases. Providing a
