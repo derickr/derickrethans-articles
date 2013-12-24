@@ -2,7 +2,7 @@ Contributing Advent 22: Documenting changes
 ===========================================
 
 .. articleMetaData::
-   :Where: London, UK
+   :Where: Amsterdam, Netherlands
    :Date: 2013-12-22 09:10 Europe/Amsterdam
    :Tags: blog, php, xdebug
    :Short: adv1322

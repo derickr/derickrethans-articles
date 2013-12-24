@@ -2,7 +2,7 @@ Contributing Advent 23: Reproducing issues
 ==========================================
 
 .. articleMetaData::
-   :Where: London, UK
+   :Where: Amsterdam, Netherlands
    :Date: 2013-12-23 09:10 Europe/Amsterdam
    :Tags: blog, php, xdebug
    :Short: adv1323
