@@ -1,0 +1,121 @@
+Contributing Advent 24: Wrapping up!
+====================================
+
+.. articleMetaData::
+   :Where: Dieren, Netherlands
+   :Date: 2013-12-24 10:33 Europe/Amsterdam
+   :Tags: blog, php, xdebug, openstreetmap
+   :Short: adv1324
+
+Yay, the last one! Writing 24 blog posts in 24 days is a lot more work than
+actually contributing 24 times. Let's go over the different things that I
+managed to accomplish, and what you can do to continue some of that work
+yourself.
+
+**PHP Date/Time**
+
+A few of my contributions are related to PHP's DateTime support. On the 6th_
+and the 9th_ I wrote about a bug fixes in "Cookie formats" and "Day of the
+week" calculations. The bug reports (`#61599`_, `#63391`_, `#63776`_ and
+`#64294`_) mentioned issues all came with a good reproducible script. Please
+continue filing bug reports, and make sure you follow the guidelines (if
+possible/necessary) from the 23rd_.
+
+.. _6th: /advent06.html
+.. _9th: /advent09.html
+.. _`#63391`: https://bugs.php.net/bug.php?id=63391
+.. _`#61599`: https://bugs.php.net/bug.php?id=61599
+.. _`#63776`: https://bugs.php.net/bug.php?id=63776
+.. _`#64294`: https://bugs.php.net/bug.php?id=64294
+.. _23rd: /advent23.html
+
+The other DateTime issue that I touched on the 21st_ is probably something
+that you can't really contribute too—unless you want to start petitions and
+lobby to get rid of Daylight Saving Time altogether…
+
+.. _21st: /advent21.html
+
+**Xdebug**
+
+I have been working on and off on Xdebug_ for about 13 years now, and it is
+still a project I am very interested in. So it could not have come as a
+surprise that there were four posts about it. Some of them, such as on the 1st_
+("Xdebug and hidden properties)" were helped by a good `bug report`_. But
+there are plenty of more bugs_ in Xdebug. Some of them I can easily reproduce,
+others only with difficulty and some bugs are just weird. Going over the bug
+list of your favourite project and trying to reproduce and clarify them is of
+great help to project maintainers that do not always have a lot of time
+themselves. In some cases, they might not even have access to the same
+platforms (ugh, Windows) as what the bug report was filed for. 
+
+.. _Xdebug: http://xdebug.org
+.. _1st: /advent01.html
+.. _`bug report`: http://bugs.xdebug.org/view.php?id=987
+.. _bugs: http://bugs.xdebug.org/view_all_bug_page.php
+
+Other ways to help an Open Source project is by answering questions on the
+project's mailing list, or on IRC as I did in the post on the 8th_. Project
+maintainers are not awake 24 hours, and especially if you are in a different
+timezone, your knowledge can help other people. I often lurk in channels on
+IRC to help out on Xdebug, PHP, OpenStreetMap and MongoDB. 
+
+.. _8th: /advent08.html
+
+And of course you can contribute to Open Source projects by just submitting
+pull requests like I did for the 15th_ and the 20th_. Most projects will have 
+guidelines on how to contribute. For example Xdebug has a contributing_ page,
+and the MongoDB driver for PHP has a page_ on GitHub.
+
+.. _15th: /advent15.html
+.. _20th: /advent20.html
+.. _contributing: http://xdebug.org/contributing.php
+.. _page: https://github.com/mongodb/mongo-php-driver/blob/master/CONTRIBUTING.md
+
+**OpenStreetMap**
+
+Another large group of contributions (7!) are related to OpenStreetMap_. 
+There are many things you can do yourself to help fighting commercial
+monopolies on geographic data. Two of the
+posts on OpenStreetMap (on the 2nd_ and 10th_) dealt with ITO World's `OSM
+Analysis`_. This tool highlights differences between Ordnance Survey's OS
+Locator product and OpenStreetMap. If you are in the UK, why not have a look
+if there are any errors near you? For example, in Manchester_ there are 189
+discrepancies right now. If you don't know how to get the right data into
+OpenStreetMap, take a (geolocated) photo of the street sign and add a link to
+it in an *OpenStreetMap note*. Please do not just believe OS Locator's variant
+of the name, or copy any data of any other map. The only thing that will
+suffice is proof (a photo) that the name is different. In some cases, you
+might of course need more photos as I showed in the post for the 16th_.
+
+I posted an article on OpenStreetMap notes on the 5th_. Notes **can** be
+posted anonymously but then we see the text "This note includes comments from
+anonymous users which should be independently verified." You can `sign up`_ as
+an OpenStreetMap user, where it will be explained that you **can never copy
+data from other maps**, but a nice photo of a street sign is of course good
+enough as well. You can also add comments to notes as a user, and if you sign
+up as a user, then you can also add and modify the rest of the map like I
+demonstrated on the 19th_.
+
+.. _OpenStreetMap: http://openstreetmap.org
+.. _2nd: /advent02.html
+.. _10th: /advent10.html
+.. _`OSM Analysis`: http://www.itoworld.com/static/openstreetmap_tools/osm_analysis.html
+.. _Manchester: http://www.itoworld.com/product/data/osm_analysis/area?name=Manchester
+.. _16th: /advent16.html
+.. _5th: /advent05.html
+.. _`sign up`: https://www.openstreetmap.org/user/new
+.. _19th: /advent19.html
+
+**Hacking time!**
+
+The last group of contributions that I want to talk about are for your *own*
+project. I do lots of little things here and there, for example with the
+geospatial_ extension that I wrote about on the 12th_. In my opinion there is
+nothing more fun that to hack on your pet project. However, sometimes that
+results in a project that you work on for 12 years (Xdebug!), so be warned!
+
+Merry Christmas, and I hope this series of posts inspired you to make your own
+contributions. Perhaps make it a new year's resolution!
+
+.. _geospatial: https://github.com/php-geospatial/geospatial
+.. _12th: /advent12.html
