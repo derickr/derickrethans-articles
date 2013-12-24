@@ -43,6 +43,6 @@ http://time.is can then show you the latest, and correct, local time.
 .. _`Olson TZ Database`: http://en.wikipedia.org/wiki/Tz_database
 .. _`David Arthur Olson`: 
 .. _`IANA's website`: http://www.iana.org/time-zones
-.. _`Yoda time`: 
+.. _`Yoda time`: 201312241033-advent24.rst
 .. _DateTime: http://php.net/datetime
 .. _`timezonedb PECL extension`: http://pecl.php.net/timezonedb
