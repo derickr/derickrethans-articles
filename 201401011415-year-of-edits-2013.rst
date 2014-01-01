@@ -1,0 +1,46 @@
+OpenStreetMap: A Year of Edits 2013
+===================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-01-01 14:15 Europe/London
+   :Tags: blog, openstreetmap, maps, php
+   :Short: osmyoe13
+
+Just like the `last few years`_ I've analysed all the edits to OpenStreetMap and
+produced a visualisation. This year I wanted to highlight different projects
+that OpenStreetMap contributors have done and so instead of having an uniform
+rotational spinning globe it moved between interesting events.
+
+The result is: **OpenStreetMap: A Year of Edits (2013)**:
+
+.. vimeo::
+   :ID: 
+   :Width: 599
+   :Height: 337
+   :Title: OpenStreetMap: A Year of Edits (2013)
+
+This animation shows all additions and modifications of nodes (flashes) and
+cumulative edits (fading to purple) in 2013. 
+
+Some of the highlighted events in no particular order are:
+
+ - `Antarctica coastline imports`__
+ - `Completion of the boundary data in France`__ (In French)
+ - `Relief mapping in the Philippines`__
+
+You can see the video in HD on Vimeo__.
+
+I have started to make the code for this available through GitHub, but the code_
+is very much not modularized and it is likely it will only work on my set-up.
+Perhaps I manage to fix this better during the upcoming year!
+
+**Mappy New Year!**
+
+__ http://wiki.openstreetmap.org/wiki/Antarctica/Import_2013
+__ http://www.openstreetmap.fr/36680-communes
+__ http://hot.openstreetmap.org/updates/2013-11-10_remote_hot_activation_in_the_philippines_for_typhoon_yolandahaiyan
+__ http://vimeo.com/derickr/osm-2013
+
+.. _`last few years`: /year-of-edits-2013.html
+.. _code: https://github.com/derickr/osm-year-in-edits
