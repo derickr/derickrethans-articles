@@ -3,7 +3,7 @@ OpenStreetMap: A Year of Edits 2013
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2014-01-01 14:15 Europe/London
+   :Date: 2014-01-01 14:02 Europe/London
    :Tags: blog, openstreetmap, maps, php
    :Short: osmyoe13
 
