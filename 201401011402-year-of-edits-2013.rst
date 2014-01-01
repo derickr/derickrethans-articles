@@ -16,8 +16,8 @@ The result is: **OpenStreetMap: A Year of Edits (2013)**:
 
 .. vimeo::
    :ID: 83164362
-   :Width: 599
-   :Height: 337
+   :Width: 640
+   :Height: 360
    :Title: OpenStreetMap: A Year of Edits (2013)
 
 This animation shows all additions and modifications of nodes (flashes) and
