@@ -1,0 +1,95 @@
+Smoothing lines with splines
+============================
+
+.. articleMetaData::
+   :Where: La Clusaz, France
+   :Date: 2014-01-21 09:44 Europe/Paris
+   :Tags: blog, php, openstreetmap
+   :Short: spline
+
+For my `OpenStreetMap year of edits`_ videos I use PovRay_ to animate edits of
+OpenStreetMap_. Over the course of a year I show all the edits that have been
+made. In previous years, I used a simple sine function to rotate the Earth
+alone it's North/South and East/West axises. This year I wanted to highlight
+specific events so I needed a different method to rotate the Earth.
+
+.. _`OpenStreetMap year of edits`: /year-of-edits-2013.html
+.. _PovRay: http://povray.org
+.. _OpenStreetMap: http://openstreetmap.org
+
+I started out with finding events and created two paths for them:
+
+.. image:: /images/content/path2.png
+
+This one starts in Greenland, moves towards Brazil and then heads over Russia,
+India, the Philippines and ends in Indonesia.
+
+.. image:: /images/content/path1.png
+
+The second one starts in Korea, moves through Africa, heads towards Antarctica
+and then heads back to France over Brazil. 
+
+Each of the two paths have points highlighted which are (about) 15 days apart.
+The paths I converted into data files, which look like
+
+::
+
+	0000  -24   70   8500
+	0180  -64   58   9500
+	0240  -81   29  10000
+	0480  -43  -16  15000
+	0720   -8   36  20000
+	0840   27   44  15000
+	1020   76   20  15000
+	1140  115   25  15000
+	1320  127   -2   9000
+	1460  157  -24  10000
+
+The first column is the frame number (four frames per day), then the longitude
+and the latitude and finally the height of the camera over the point. As you
+can see, I have not included a line for each of the points in the path images.
+
+From the points in the data files, I then needed to generate all the
+intermediate points for each of the three columns. And my first (naive)
+attempt was to simply do a linear interpolation. Point *1*'s longitude can be
+calculated by: ``-24 + (1-0) * ((-64 - -24) / (180 - 0))`` and point *856*'s
+longitude with: ``27 + (855 - 840) * ((76 - 115) / (1020 - 840))``. Doing that
+for all of the three axis (for the first 300 frames) results in the following
+video:
+
+.. vimeo::
+   :ID: 83049723
+   :Width: 320
+   :Height: 192
+   :Title: Linear interpolation of a line between a set of points
+
+As you can see, the changes in direction (and height) are really abrupt, and
+doesn't make for a nice smooth rotating body. So I had to come up with
+something else: a smoothed line.
+
+There are various different ways of smoothing line, but one of the easier ones
+that I found was the Spline_. A spline is a smoothing function that connects
+all the data points with sufficiently smooth curves. I used the implementation
+at http://www.script-tutorials.com/smooth-curve-graphs-with-php-and-gd/
+
+If we now look at the same section of the video, we see that the turns and zoom
+level are much smoother:
+
+.. _Spline: http://en.wikipedia.org/wiki/Spline_%28mathematics%29
+
+.. vimeo::
+   :ID: 83049724
+   :Width: 320
+   :Height: 192
+   :Title: Interpolation between a set of points with a spline
+
+Just focussing on the zoom aspect, I am also reproducing a line graph of the
+interpolated points here:
+
+.. image:: /images/content/spline.png
+
+As you can see, between 1172 and 1328 it makes a very big dip—and that wrecked
+with my video as it zoomed in too much. I've fixed that manually for the
+video, but I would like to find an algorithm that did produce smooth lines
+without such a big "dip". Any ideas are most welcome.
+
