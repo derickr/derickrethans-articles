@@ -70,7 +70,9 @@ something else: a smoothed line.
 There are various different ways of smoothing line, but one of the easier ones
 that I found was the Spline_. A spline is a smoothing function that connects
 all the data points with sufficiently smooth curves. I used the implementation
-at http://www.script-tutorials.com/smooth-curve-graphs-with-php-and-gd/
+at http://www.script-tutorials.com/smooth-curve-graphs-with-php-and-gd/ with
+the other script available through
+https://github.com/derickr/osm-year-in-edits/blob/master/changes/create-camera-from-file.php
 
 If we now look at the same section of the video, we see that the turns and zoom
 level are much smoother:
