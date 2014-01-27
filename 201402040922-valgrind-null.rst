@@ -1,0 +1,112 @@
+Understanding Valgrind errors (1)
+=================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-02-04 09:22 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: valgrind1
+
+While debugging segmentation faults (crashes) in PHP and its extensions, I 
+often use Valgrind_ to assist me finding the root cause. Valgrind is an
+instrumentation framework for building dynamic analysis tools. It contains
+several tools, and its Memcheck_ tool is the one that detects
+memory-management problems. Memcheck is really valuable for C and C++
+developers and something you should learn, especially when you write PHP
+extensions.
+
+Memcheck's error messages can sometimes be difficult to understand, so with 
+this (infrequent series), I hope to shed some light on it.
+
+Let's have a look at the following Valgrind error output, which I encountered
+while debugging issue `PHP-963`_ of the MongoDB driver for PHP::
+
+	==18500== Invalid read of size 8
+	==18500==    at 0xC5FB7F1: zim_MongoCursor_info (cursor.c:866)
+	==18500==    by 0x9AF93F: execute_internal (zend_execute.c:1480)
+	==18500==    by 0xBF1B8FD: xdebug_execute_internal (xdebug.c:1565)
+	==18500==    by 0x9B0715: zend_do_fcall_common_helper_SPEC (zend_vm_execute.h:645)
+	==18500==    by 0x9B0D88: ZEND_DO_FCALL_BY_NAME_SPEC_HANDLER (zend_vm_execute.h:756)
+	==18500==    by 0x9AFCAA: execute (zend_vm_execute.h:410)
+	==18500==    by 0xBF1B47C: xdebug_execute (xdebug.c:1453)
+	==18500==    by 0x976CC6: zend_execute_scripts (zend.c:1315)
+	==18500==    by 0x8F3340: php_execute_script (main.c:2502)
+	==18500==    by 0xA172B9: do_cli (php_cli.c:989)
+	==18500==    by 0xA1825E: main (php_cli.c:1365)
+	==18500==  Address 0x38 is not stack'd, malloc'd or (recently) free'd
+
+An ``Invalid read`` means that the memory location that the process was trying
+to read is outside of the memory addresses that are available to the process.
+``size 8`` means that the process was trying to read 8 bytes. On 64-bit
+platforms this could be a *pointer*, but also for example a *long int*.
+
+The last line of the error report says ``Address 0x38 is not stack'd, malloc'd
+or (recently) free'd``, which means that the address that the process was
+trying to read 8 bytes from starts at ``0x38``. The line also says that the
+address is unavailable through stack space, heap space (malloc), or that it
+was recently a valid memory location.
+
+A very low address, such as ``0x38`` (``56 in decimal``), combined with ``size 8`` often indicates
+that you tried to dereference an element of a struct which was pointed to by a
+*NULL* pointer.
+
+When I checked line *866* of *cursor.c* I saw::
+
+	add_assoc_string(return_value, "server", cursor->connection->hash, 1);
+
+``cursor`` is a struct of type ``mongo_cursor`` which is defined as::
+
+	typedef struct {
+		zend_object std;
+
+		/* Connection */
+		mongo_connection *connection;
+		…
+	} mongo_cursor;
+
+The ``zend_object std;`` is a general struct that is part of every overloaded
+object (overloaded in the PHP Internals sense) and contains four pointers that
+make up the first *32* bytes. This means that ``connection`` starts at offset
+``32``.
+
+The ``connection`` member is a struct of type ``mongo_connection`` that is
+defined as::
+
+	typedef struct _mongo_connection
+	{
+		time_t last_ping;         //  0
+		int    ping_ms;           //  4
+		int    last_ismaster;     //  8
+		int    last_reqid;        // 16
+		void  *socket;            // 24
+		int    connection_type;   // 32
+		int    max_bson_size;     // 36
+		int    max_message_size;  // 40
+		int    tag_count;         // 44
+		char **tags;              // 48
+		char  *hash;              // 56
+		mongo_connection_deregister_callback *cleanup_list; // 64
+	} mongo_connection;
+
+I've added the offsets as they are on a 64-bit platform as comments.
+
+In C the code ``cursor->connection->hash`` gets converted to an address as
+follows:
+
+ #. Take the address in ``cursor``
+ #. Find the offset for the ``connection`` member (32)
+ #. Find the address that is stored at offset 32 (In my example, that'd be ``NULL``)
+ #. Find the offset of ``hash`` in the struct that ``connection`` represents (56)
+ #. Read the pointer data (8 bytes data) at the address from step 3 plus the
+    offset of step 4.
+
+This reads 8 bytes of data from address 56 (0x38) which is not valid, and
+hence Valgrind produces the error message, and then kills the process.
+
+In short, an error where ``Address 0x38 is not stack'd, malloc'd or (recently)
+free'd`` has a low address in the message often means a NULL-pointer
+dereference.
+
+.. _Valgrind: http://valgrind.org
+.. _Memcheck: http://valgrind.org/info/tools.html#memcheck
+.. _`PHP-963`: http://jira.mongodb.org/browse/PHP-963 
