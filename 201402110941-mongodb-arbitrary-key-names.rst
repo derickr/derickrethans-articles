@@ -34,7 +34,7 @@ possible to add steps from future walks atomically::
 	);
 	?>
 
-Because of the ``upsert`` options, this update query would even work if there
+Because of the ``upsert`` option, this update query would even work if there
 was no document for this person yet in the collection, and it would also work
 in case a specific date did not have an entry yet.
 
@@ -43,7 +43,7 @@ problems when storing data like this.
 
 The first problem is this schema makes it impossible to find the step counts
 for a range of dates—both as a normal query or as with the aggregation
-framework (A/F). This is because you can **not** query on key names. You
+framework. This is because you can **not** query on key names. You
 would have to request whole documents, and pick out the correct keys in the
 application. 
 
@@ -88,17 +88,6 @@ One alternative is to store the data like this::
 
 With this schema some of the previous issues go away.
 
-You can find all the step counts for a range of dates::
-
-	<?php
-	$m = new MongoClient;
-	$r = $m->demo->steps->find( [
-		'date' => [ '$gte' => "20140201", '$lt' <= "20140301" ]
-	] );
-	?>
-
-But that returns a whole document that you need to disect in your application.
-
 You can create an index on the ``date`` field::
 
 	<?php
@@ -126,7 +115,11 @@ And you can create an aggregation for the average per month::
 	var_dump( $r['result'] );
 	?>
 
-However, you can not easily find which dates had a step count larger than
+It is not yet possible to find all the step count for a range of dates, as they
+are collectively stored in one document and you would always get a whole
+document back.
+
+You can not easily find which dates had a step count larger than
 10000 with a normal query. However you can do that with the aggregation
 framework, albeit not in a very efficiant way::
 
@@ -143,10 +136,17 @@ framework, albeit not in a very efficiant way::
 	}
 	?>
 
+An additional problem with storing the step count for all the days in the same
+document is that the documents keep growing and growing when new days are
+added. It is unlikely to hit the 16MB document limit soon as it would take
+about 1050 years worth of "step data", but in general the recommendation is to
+avoid having such a data structure. Growing documents also mean that it will
+need to be moved around on disk a lot, which is not good for performance.
+
 In the last two aggregation framework queries you see a common theme: an
-``$unwind``. This is to break up the document into a document per day each.
-If we store the data like that ourselves, these aggregation framework queries,
-as well as other queries are easier.
+``$unwind``. This is to break up each document into a document that represents
+a single day. If we store the data like that ourselves, these aggregation
+framework queries, as well as other queries become easier.
 
 In our **second alternative** we therefore store the data like::
 
@@ -173,7 +173,8 @@ mostly the same::
 	);
 	?>
 
-Finding the step count for a range of dates is rather trivial::
+Finding the step count for a range of dates is now possible, and rather
+trivial::
 
 	<?php
 	$m = new MongoClient;
@@ -182,11 +183,12 @@ Finding the step count for a range of dates is rather trivial::
 	] );
 	?>
 
-And compared to the first alternative, the application doesn't need to filter
-anything out.
+Compared to the first alternative, the application doesn't need to filter
+anything out of the returned document either.
 
-Because we don't have to unwind on the ``steps_made`` field, calculating the
-average is now simpler with the following aggregation framework query::
+Because we don't have to unwind on the ``steps_made`` field while aggregating
+per-month, calculating the average is now simpler as the following
+aggregation framework query shows::
 
 	<?php
 	$m = new MongoClient();
@@ -215,4 +217,8 @@ query::
 	);
 	?>
 
-So which of the three alternatives is the most appropriate? In the second 
+So unless you have a requirement where you need to show all the step counts of
+one person, I would recommend the second alternative as it is the most
+flexible, and will likely provide the best performance. There are however
+(other) use cases where the first alternative option makes sense, but I will
+get back to that in a future article.
