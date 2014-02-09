@@ -1,5 +1,5 @@
-MongoDB is typed
-================
+Type juggling with MongoDB
+==========================
 
 .. articleMetaData::
    :Where: London, UK
@@ -62,7 +62,7 @@ which type the value is stored at through it's table schema.
 
 In SQL prepared statements are required to prevent SQL injections. If we
 look at MongoDB, you will see that because we are not creating an SQL string
-to be executed against the database, we do not have to be worried about SQL
+to be executed against the database, we do not have to be worried about (No)SQL
 injections::
 
 	<?php
@@ -70,7 +70,7 @@ injections::
 	$m->demo->test->insert( [ 'value' => $_GET['life'] ] );
 	?>
 
-Because MongoDB is schema less, the type of each field has not been defined
+Because MongoDB is schemaless, the type of each field has not been defined
 and hence you can store the value as any type you would like::
 
 	<?php
@@ -80,13 +80,97 @@ and hence you can store the value as any type you would like::
 	$m->demo->test->insert( [ 'value' => 42.0 ] );
 	?>
 
-MongoDB stores data as typed values however, and the above three inserts
-result in the following three documents in the database (as shown through the
-MongoDB Shell)::
+MongoDB stores data as typed values, and the above three inserts result in the
+following three documents in the database (as seen through the MongoDB Shell)::
 
 	> db.test.find();
 	{ "_id" : ObjectId("52f5691544670a8077b0dc51"), "value" : "42" }
 	{ "_id" : ObjectId("52f5691544670a8077b0dc52"), "value" : NumberLong(42) }
 	{ "_id" : ObjectId("52f5691544670a8077b0dc53"), "value" : 42 }
 
+Because they are stored as three different documents, essentially all three
+with a different schema each, it becomes important to use the correct type
+when querying the data as well.
 
+To find the string and integer variant, we have to run::
+
+	<?php
+	$m = new MongoClient;
+	var_dump( $m->demo->test->findOne( [ 'value' => "42" ] )['value'] );
+	var_dump( $m->demo->test->findOne( [ 'value' => 42 ] )['value'] );
+	?>
+
+Which outputs::
+
+	string(2) "42"
+	int(42)
+
+However, if we want to find the document where ``value`` is stored as a
+floating point number we fail to do that with::
+
+	<?php
+	$m = new MongoClient;
+	var_dump( $m->demo->test->findOne( [ 'value' => 42.0 ] ) );
+	?>
+
+Which outputs::
+
+	array(2) {
+	  '_id' =>
+	  class MongoId#6 (1) {
+		public $$id =>
+		string(24) "52f5691544670a8077b0dc52"
+	  }
+	  'value' =>
+	  int(42)
+	}
+
+As you can see it finds the variant with the integer value first. When using
+``find()`` to find **all** documents that match the query, we see the document
+with the floating point value turn up as well::
+
+	<?php
+	$m = new MongoClient;
+	foreach ( $m->demo->test->find( [ 'value' => 42.0 ] ) as $r )
+	{
+		var_dump( $r['value'] );
+	}
+	?>
+
+Which outputs::
+
+	int(42)
+	double(42)
+
+It is possible to get only the document back where the value is a floating
+point number by enforcing the value is of type float::
+
+	<?php
+	$m = new MongoClient;
+	$r = $m->demo->test->findOne(
+		[ '$and' => [
+			[ 'value' => 42.0 ],
+			[ 'value' => [ '$type' => 1 ] ]
+		] ]
+	);
+	var_dump( $r['value'] );
+	?>
+
+Which then outputs the expected::
+
+	double(42)
+
+The values for the ``$type`` operator can be found in the MongoDB documentation__.
+
+__ http://docs.mongodb.org/manual/reference/operator/query/type/
+
+**Conclusion**
+
+MongoDB stores values in the type that values have been inserted with.
+Unlike relational databases MongoDB does not coalesce this into the "defined"
+type, as there is no type defined.
+
+To find documents, make sure that you use the same type as what you inserted
+the value as, otherwise MongoDB will **not** find the document. The execption
+here is that the three numerical types (32 bit integer, 64 bit integer and
+double) are interchangable—as long as the value is the same.
