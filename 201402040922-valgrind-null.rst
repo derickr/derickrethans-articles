@@ -75,8 +75,8 @@ defined as::
 	typedef struct _mongo_connection
 	{
 		time_t last_ping;         //  0
-		int    ping_ms;           //  4
-		int    last_ismaster;     //  8
+		int    ping_ms;           //  8
+		int    last_ismaster;     // 12
 		int    last_reqid;        // 16
 		void  *socket;            // 24
 		int    connection_type;   // 32
