@@ -15,8 +15,8 @@ One of the examples is storing timed data points like this::
 	{
 		person: "derickr",
 		steps_made: [
-			"20140201": 10800,
-			"20140202":  5906,
+			{"20140201": 10800},
+			{"20140202":  5906}
 		]
 	}
 
