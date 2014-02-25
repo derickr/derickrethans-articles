@@ -8,7 +8,7 @@ DateTimeImmutable
    :Short: dti
 
 The first time that my improved DateTime support made its way into PHP was
-officially in PHP 5.1, although the more advance features such as the DateTime
+officially in PHP 5.1, although the more advanced features such as the DateTime
 class only made it appearance in PHP 5.2. Since its introduction the
 DateTime_ class implementation suffered from one design mistake —
 arguably not something that even an RFC would have highlighted.
