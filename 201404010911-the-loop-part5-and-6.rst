@@ -9,7 +9,7 @@ Walking the London LOOP - part 5 and 6
 
 
 Section 5
-=========
+---------
 
 While waking up we already knew this would be a glorious day. Blue skies with
 no clouds in sight. The moment I got out of the house I knew I was not going
@@ -72,7 +72,7 @@ section as well, section 6.
 .. _`Poppy Cafe`: http://www.poppycafe.co.uk/
 
 Section 6
-=========
+---------
 
 .. image:: /images/content/loop6-d36_5021.jpg
    :align: left
