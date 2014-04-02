@@ -11,11 +11,12 @@ With MongoDB 2.6 about to be released, the PHP driver for MongoDB has also
 seen many updates to support the features in the new MongoDB release. In this
 series of articles, I will illustrate some of those.
 
-In this article, I am introducing cursor aggregations. Last year, I already
-wrote about the `Aggregation Framework`_, but since then it has received a
-lot of updates and improvements. One of the improvements relates to how the
-Aggregation Framework (A/F) returns results. Up to MongoDB 2.6, the A/F only
-could return *one* document, with all the results stored under the
+In this article, I will introduce command cursors and demonstrate how they
+can be applied to aggregations. I previously wrote about the
+`Aggregation Framework`_ last year, but since then it has received a lot of
+updates and improvements. One of those improvements relates to how the
+Aggregation Framework (A/F) returns results. Before MongoDB 2.6, the A/F
+could only return *one* document, with all the results stored under the
 ``results`` key::
 
      <?php
@@ -34,7 +35,7 @@ could return *one* document, with all the results stored under the
      var_dump( $r['result'] );
      ?>
 
-Would output something like::
+This code would output something like::
 
      array(242) {
        [0] =>
@@ -78,8 +79,8 @@ call A/F through the `MongoDB::command()`_ method::
      ?>
 
 Because a database command only returns *one* document, the result is limited
-to a maximum of 16MB. In my example this is not a problem, but it could be
-for other A/F queries.
+to a maximum of 16MB. This is not a problem for my example, but it can
+can certainly be a limiting factor for other A/F queries.
 
 MongoDB 2.6 adds support for returning a cursor for an aggregation command.
 With the raw command interface, you simply add the extra ``cursor`` element::
@@ -91,7 +92,7 @@ With the raw command interface, you simply add the extra ``cursor`` element::
      ] );
      var_dump( $r );
 
-Instead of returning the results now, you get a cursor definition back::
+Instead of a document with all results inline, you get a cursor definition back::
 
      array(2) {
        'cursor' =>
@@ -113,20 +114,20 @@ Instead of returning the results now, you get a cursor definition back::
 
 The cursor definition contains the cursor ID (in ``id``), the namespace
 (``ns``), and whether the command succeeded (in ``ok``).
-The definition also includes one result. The number of items in
+The definition also a portion of the results. The number of items in
 ``firstBatch`` is configured by the value given to ``batchSize`` in the
 command.
 
 To create a cursor that you can iterate over in PHP, you need to convert this
 cursor definition to a `MongoCommandCursor`_ object. You can do that with the
-`MongoCommandCursor::createFromDocument()`_ factory method. However, this
-factory method takes three arguments: The ``MongoClient`` object (``$m`` in
-my example), the *connection hash*, and the cursor definition that was
-returned. The hash is required so that we can fetch new results from the
-same connection as where we sent the command to. 
+`MongoCommandCursor::createFromDocument()`_ factory method. This factory
+method takes three arguments: the ``MongoClient`` object (``$m`` in my
+example), the *connection hash*, and the cursor definition that was returned.
+The hash is required so that we can fetch new results from the same
+connection that executed the original command.
 
-To obtain the connection hash, we need to have a by-ref variable as third
-argument to ``MongoCollection::command()``::
+To obtain the connection hash, we need to include a by-ref variable as the
+third argument to ``MongoCollection::command()``::
 
      <?php
      $m = new MongoClient;
@@ -202,7 +203,7 @@ In general, you probably should not change the default batch sizes.
 
 The Aggregation Framework has some other new features in MongoDB 2.6 as well.
 Please refer to the `release notes`_ for more information. I might write
-another post on this later too.
+another post on some of those features later, too.
 
 .. _`Aggregation Framework`: /aggregation-framework.html
 .. _`MongoCollection::aggregate`: http://php.net/mongocollection.aggregate
