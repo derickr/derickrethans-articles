@@ -7,9 +7,9 @@ Cursors and the Aggregation Framework
    :Tags: blog, php, mongodb
    :Short: aggrcur
 
-With MongoDB 2.6 about to be released, the PHP driver for MongoDB has also
-seen many updates to support the features in the new MongoDB release. In this
-series of articles, I will illustrate some of those.
+With MongoDB 2.6 released, the PHP driver for MongoDB has also seen many
+updates to support the features in the new MongoDB release. In this series of
+articles, I will illustrate some of those.
 
 In this article, I will introduce command cursors and demonstrate how they
 can be applied to aggregations. I previously wrote about the
