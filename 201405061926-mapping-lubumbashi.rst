@@ -10,7 +10,7 @@ Mapping Lubumbashi
 .. image:: /images/content/hot-logo.png
    :align: right
 
-I spend last Saturday helping out HOT, the `Humanitarian OpenStreetMap Team`_,
+I spent last Saturday helping out HOT, the `Humanitarian OpenStreetMap Team`_,
 to improve the map of Lubumbashi, Congo. This session focussed on digitizing the
 data that was acquired on the ground by volunteers.
 
