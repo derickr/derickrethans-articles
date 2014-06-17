@@ -1,0 +1,118 @@
+Dead Code
+=========
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-06-18 09:13 Europe/London
+   :Tags: blog, php
+   :Short: deadcode
+
+Again and again I am being asked why Xdebug_ sees "dead code" in places where
+people don't expect it. Most often this is related_ to PHPUnit's Code Coverage
+in the following situations::
+
+    1:  <?php
+    2:  function foo()
+    3:  {
+    4:      if ( false )
+    5:      {
+    6:          throw new Exception();
+    7:      } /* line with dead code */
+    8:  
+    9:      return 42;
+    10: } /* line with dead code */
+    11: ?>
+
+The explanation for this is rather simple. Xdebug checks code coverage by
+adding hooks into certain opcodes. Opcodes are the building blocks of
+oparrays. PHP converts each element in your script—main body, method,
+function—to oparrays when it parses them. The PHP engine then executes those
+oparrays by running some code for each opcode. Opcodes are generated, but they
+are not optimised. Which means that it does not remove opcodes that can not be
+executed.
+
+With vld_ we can see which opcodes are generated. For the above script, there
+are two elements. The main body of the script, and the foo function. I used
+vld to show their opcodes, and after some trimming the main script body looks
+like::
+
+    line     #* I O op               ext  return  operands
+    --------------------------------------------------------
+       2     0  >   EXT_STMT                      
+             1      NOP                           
+      12     2      EXT_STMT                      
+             3    > RETURN                        1
+
+We'll ignore this one mostly, as there is nothing much in it, but do notice
+the ``RETURN`` opcode, which represents a ``return`` statement in a PHP
+script. We did not add a return statement, but PHP's parser **always** puts a
+``RETURN`` opcode at the end of each oparray.
+
+The **foo** function's oparray looks like::
+
+    line     #* I O op               ext  return  operands
+    --------------------------------------------------------
+       2     0  >   EXT_NOP                       
+       5     1      EXT_STMT                      
+             2    > JMPZ                          false, ->11
+       6     3  >   EXT_STMT                      
+             4      FETCH_CLASS        4  :0      'Exception'
+             5      EXT_FCALL_BEGIN               
+             6      NEW                   $1      :0
+             7      DO_FCALL_BY_NAME   0          
+             8      EXT_FCALL_END                 
+             9    > THROW              0          $1
+       7    10*     JMP                           ->11
+       9    11  >   EXT_STMT                      
+            12    > RETURN                        42
+      10    13*     EXT_STMT                      
+            14*   > RETURN                        null
+
+Xdebug's code coverage marks line 7 and 10 as "dead code". When we look at the
+*vld* output above, we see that line 10 has an ``EXT_STMT`` and a ``RETURN``
+statement. But they can never be reached as there is no path through the code
+that does not hit the ``RETURN`` on line 9 first. *vld* marks dead code with a
+``*``. The ``>`` in the ``I`` and ``O`` columns indicate points in the oparray
+that that are the end point of a jump instruction (ie., the start of a branch)
+and a location from where a jump is initiated respectively (ie., the exit
+point out of a branch).
+
+*vld* actually tells you which branches and paths are found::
+
+    branch: #  0; line: 2- 5; sop:  0; eop:  2; out1:   3; out2:  11
+    branch: #  3; line: 6- 6; sop:  3; eop:  9
+    branch: # 11; line: 9-10; sop: 11; eop: 14
+    path #1: 0, 3, 
+    path #2: 0, 11, 
+
+Each branch is "named" by its starting opcode entry. For each of the branches,
+Xdebug_, and *vld*, check whether there is a premature unconditional exit.
+Conditional exits and jumps are already checked when the oparray is split into
+branches. 
+
+From the three branch definitions you can already see that opcode ``10`` is
+not part of any branch as it sits between an exit point and an entry point.
+Hence it's marked as dead code on line 7. This line contains the closing brace
+(``}``) of the ``if`` statement. 
+
+In the branch covering opcodes ``3`` to ``9`` the ``THROW`` in opcode ``9`` is
+the exit point. For ``if`` statements, PHP's code generator always generates
+an extra ``JMP`` at the end. This opcode would simply jump to the next opcode
+(the jump target is shown as ``->11``). However, if the branch is exitted
+prematurely (due to the ``THROW``) in this case, it's not hit. Because it's
+the only opcode on line ``7``, the whole line gets marked as "dead code".
+
+In the branch covering opcodes ``11`` to ``14``, the ``RETURN`` statement in
+opcode ``12`` on line 9 is the exit point of the branch, and hence opcodes
+``13-14`` are marked as dead code.
+
+Hopefully this explains that sometimes lines which seem to have code, are
+marked as dead code. And this is in the cases where PHP gets the line numbers
+for opcodes right... which isn't always the case either.
+
+For Xdebug_, I am improving code coverage to also include path and branch
+coverage, which should come in Xdebug 2.3.
+
+.. _related: http://bugs.xdebug.org/view.php?id=1041
+.. _Xdebug: http://xdebug.org
+.. _vld: http://derickrethans.nl/projects.html#vld
