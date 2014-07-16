@@ -1,4 +1,4 @@
-No to a Uniform Variable Syntax 
+No to a Uniform Variable Syntax
 ===============================
 
 .. articleMetaData::
