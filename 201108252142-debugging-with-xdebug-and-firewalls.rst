@@ -32,7 +32,7 @@ headers.
 There could however be a firewall in the way that prevents Xdebug connecting
 directly to your IDE's IP address. That can be because the network you are on
 employs NAT_ in which case you could try (to convince) to get your system
-administrator to install a DBGp_ proxy_. In some cases, he might not be
+administrator to install a DBGp_ proxy_. In some cases, the system administrator might not be
 willing to do so, or perhaps, there is simply a black box that doesn't allow
 either a proxy to be run on it, or port forwarding to be set-up on. In this
 case, there is no way Xdebug can connect to your IDE's IP address and port.
