@@ -1,0 +1,88 @@
+Walking the London LOOP - part 16
+=================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-08-08 18:02 Europe/London
+   :Tags: blog, theloop
+   :Short: loop16
+
+Two months, getting married and a honeymoon later, it was finally time to
+continue walking the loop. Section 16 is the longest at 11 miles so we
+didn't double it up as we have done before.
+
+The section starts at Elstree, which would have been two stops on the
+Overground to West Hampstead and a Thames Link train to get to. But it being
+Sunday that didn't quite work. Instead we had to catch a Rail Replacement
+Bus to West Hampstead, which luckily turned up quickly. 
+
+After getting to Elstree, and turning on the GPS we set off. The first
+stretch was along a residential road__ that became steeper and steeper the
+further we got along it.
+
+At the top we turned left and proceeded besides busy Barnet Lane, passing
+two odd looking structures, which later turned out to be airvents for the
+`Midland Main Line`_ that we just got to Elstree by.
+
+.. image:: /images/content/loop16-d36_8831.jpg
+
+After the hill, we continued and followed a path into a forest, `Scratch
+Wood`_. Together with `Moat Mount Open Space`_ they are a local nature
+reserve. However, to get to Moat Mount Open Space, we had to make a nasty
+detour past the A1/Barnet Way. 
+
+Moat Mount Open Space is also the start of the `Dollis Valley Greenwalk`_, which
+you can follow all the way to Hampstead Heath. Wikepedia tells me that this
+is meant to be a link between the LOOP and the `Capital Ring`_, one of our
+likely future walking projects.
+
+.. image:: /images/content/loop16-d36_8855.jpg
+   :align: left
+
+In any case, the Greenway passes by some open spaces before crossing Hendon
+Wood Lane. Just after the lane we came upon a non-public path, that is open
+all year round, except for February 28th... not quite sure what the reason
+for that is!. We met a friendly horse, and soon we started following `Dollis
+Brook`_. First through farm land, but then soon through parks. At the end,
+just before hitting the Northern Line we went North and stopped at the `Old
+Red Lion`_ for a refreshing pint. 
+
+After the pint we continued past the High Barnet tube depot before climbing
+up the hill through King George's Fields up to Hadley Common. This climb was
+a bit longer than we liked, but the weather was good, a pint had been drunk
+and the view was great. At the top we crossed the street on to Hadley Green. 
+Here the houses are looking a lot larger and priciers than the houses down
+in Barnet.
+
+.. image:: /images/content/loop16-d36_8875.jpg
+   :align: right
+
+The east side of the green feature several mansions, and is also the home
+to the `Wilbraham Almshouses`_. After passing `St. Mary the Virgin`_ we
+crossed into `Monken Hadley Common`_, also called Hadley Woods for the
+remainder of the walk. After a quick detour to have a look at `Jack's Lake`_
+we made it to Cockfosters_, the end of the section.
+
+The weather was mostly sunny with a few clouds at the start, and a few more at
+the finish. It was warm at 26°C and not nearly as humid as we feared. We took
+four hours and a bit for this section's 19.0km.
+
+The photos that I took on this section, as well as the photos of the
+other sections of the LOOP, are available as a `Flickr set`_.
+
+__ http://www.openstreetmap.org/way/10363604#map=16/51.6488/-0.2811&layers=C
+.. _`Midland Main Line`: http://en.wikipedia.org/wiki/Midland_Main_Line
+.. _`Scratch Wood`: http://en.wikipedia.org/wiki/Scratchwood
+.. _`Moat Mount Open Space`: http://en.wikipedia.org/wiki/Moat_Mount_Open_Space
+.. _`Dollis Valley Greenwalk`: http://en.wikipedia.org/wiki/Dollis_Valley_Greenwalk
+.. _`Capital Ring`: http://en.wikipedia.org/wiki/Capital_Ring
+.. _`Dollis Brook`: http://en.wikipedia.org/wiki/Dollis_Brook
+.. _`Old Red Lion`: http://www.mcmullens.co.uk/oldredlion
+.. _`Wilbraham Almshouses`: http://en.wikipedia.org/wiki/Wilbraham_Almshouses
+.. _`St. Mary the Virgin`: http://www.stmarymh.co.uk/
+.. _`Monken Hadley Common`: http://en.wikipedia.org/wiki/Monken_Hadley_Common
+.. _`Jack's Lake`: http://www.monkenhadleycommon.net/tour.html
+.. _Cockfosters: http://en.wikipedia.org/wiki/Cockfosters_tube_station
+
+.. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
+.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14197856337
