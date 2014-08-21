@@ -58,7 +58,7 @@ not one of them.
 
 **Don't be Evil**
 
-.. _ email: http://news.php.net/php.internals/76752
+.. _ email: http://news.php.net/php.internals/76753
 .. _`wrote about`: /uniform-variable-syntax.html
 .. _`"Binary String Comparison`: https://wiki.php.net/rfc/binary_string_comparison
 .. _behaviour: https://wiki.php.net/rfc/integer_semantics
