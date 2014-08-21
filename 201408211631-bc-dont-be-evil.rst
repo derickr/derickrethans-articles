@@ -1,5 +1,5 @@
-On Backwards Compatibility and not Fucking Over Users
-=====================================================
+On Backwards Compatibility and not Being Evil
+=============================================
 
 .. articleMetaData::
    :Where: London, UK
