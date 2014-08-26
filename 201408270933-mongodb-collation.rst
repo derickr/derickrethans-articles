@@ -7,10 +7,10 @@ Natural Sorting with MongoDB
    :Tags: blog, php, mongodb
    :Short: mdbcoll
 
-Arranging English words in order is simple, well, most of the time. You simply
-arrange them in order of alphabet. However sorting a set of German words, or
-French with all their accents, or Chinese with their different characters is a
-*lot* harder than it even looks. Sorting rules are specified through
+Arranging English words in order is simple--well, most of the time. You simply
+arrange them in alphabetical order. However sorting a set of German words, or
+French words with all their accents, or Chinese with their different characters is a
+*lot* harder than it looks. Sorting rules are specified through
 "locales", which determine how accents are sorted, in which order the letters
 are in and how to do case-insensitive sorts. There is a good set of those
 sorting rules available through CLDR_, and there is a neat example to play
@@ -24,10 +24,11 @@ how the algorithms work, have a look at the Unicode Consortium's report on the
 
 Right now, MongoDB does not support indexes or sorting on anything but Unicode
 Code Points. Basically, that means, that it can't sort anything but English.
-There is a long standing issue, `SERVER-1920`_, that is somewhere at the top
-of the priority list, but has not made it into a release yet. I expect this to
-be addressed at a point in the near future. However, with some tricks there is
-a way to solve the sorting problem manually.
+There is a long standing issue, `SERVER-1920`_, that is at the top
+of the priority list, but is not scheduled to be added to a future release. 
+I expect this to be addressed at a point in the near future. 
+However, with some tricks there is a way to solve the 
+sorting problem manually.
 
 Many languages, have their own implementation of the Unicode Collation
 Algorithm, often implemented through ICU. PHP has an ICU based implementation
@@ -90,7 +91,7 @@ Which returns the following list::
 We can extend this script, to use multiple collations, and import each word
 including its sort keys into MongoDB.
 
-Define the words we want to sort on, and the collations we want to compare.
+Below, we define the words we want to sort on, and the collations we want to compare.
 They are in order: English, German with phone book sorting, Norwegian, Russian
 and two forms of Swedish: "default" and "standard"::
 
