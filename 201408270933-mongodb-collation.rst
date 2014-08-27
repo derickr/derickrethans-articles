@@ -7,7 +7,7 @@ Natural Sorting with MongoDB
    :Tags: blog, php, mongodb
    :Short: mdbcoll
 
-Arranging English words in order is simple--well, most of the time. You simply
+Arranging English words in order is simple—well, most of the time. You simply
 arrange them in alphabetical order. However sorting a set of German words, or
 French words with all their accents, or Chinese with their different characters is a
 *lot* harder than it looks. Sorting rules are specified through
