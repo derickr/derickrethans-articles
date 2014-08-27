@@ -1,5 +1,5 @@
-Natural Sorting with MongoDB
-============================
+Natural Language Sorting with MongoDB
+=====================================
 
 .. articleMetaData::
    :Where: London, UK
