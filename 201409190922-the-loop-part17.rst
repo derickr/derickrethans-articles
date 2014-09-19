@@ -30,16 +30,17 @@ Brooke Wood to get to the outskirts of of Enfield.
 
 .. image:: /images/content/loop17-d36_8965.jpg
 
-We did not enter the town, but instead went North over a very nice new paved
+We did not enter the town, but instead went north over a very nice new paved
 path, which continued onto an even nicer metalled path through woods and under
 a bridge with the `Hertfordshire loop rail line`_ going overhead. The nice
-path continued past friendly horses and green houses. A few of the remaining
-once of a once vast area full of them. After following more paved paths
-we wandered into `Hilly Fields park`_ from where we started to hear music.
-First fairly soft but constantly swelling. We abandoned our original plan of
-having a pint and lunch at `The Rose and Crown`_, apparently linked to the
-`Gunpowder Plot`_. Instead we continued onwards with `Turkey Brook`_ to our
-left, with the music slowly getting less loud over the next mile.
+path continued past friendly horses and green houses. Only a few of the
+green houses remained of a once vast area full of them. After following more
+paved paths we wandered into `Hilly Fields park`_ from where we started to hear
+music. First fairly soft but constantly swelling. We abandoned our original
+plan of having a pint and lunch at `The Rose and Crown`_, apparently linked to
+the `Gunpowder Plot`_, as it was *way* too loud in, and around the pub. Instead
+we continued onwards with `Turkey Brook`_ to our left, with the music slowly
+getting less loud over the next mile.
 
 .. image:: /images/content/loop17-d36_9028.jpg
    :align: left
@@ -48,12 +49,12 @@ We entered `Forty Hall estate`_ where we made a detour to have lunch at the
 `nice green café`_. Nice it was, but the service was also incredibly slow. We
 did get our lemonade and cake fix sorted though.
 
-The section continued by crossing the foot bridge over the A10 to Cambridge
+The section continued by crossing the foot bridge over the A10_ to King's Lynn,
 and past the `Enfield Crematorium`_. After a short section through Enfield, we
 finished the walk by going through Albany part. Crossing both the rail way and
 Turkey Brook took us to the end at `Enfield Lock station`_.
 
-So, remember that I set at the start of this post "turned on my GPS" — well, I
+So, remember that I said at the start of this post "turned on my GPS" — well, I
 had. But it decided to not see the SD card, and hence not log to it ☹. I had
 to use my wife's inaccurate "Moves" data, run some extrapolations with
 gpsbabel_, and do some other magic to geo-reference the photos that I took.
@@ -76,10 +77,11 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`Turkey Brook`: http://en.wikipedia.org/wiki/Turkey_Brook
 .. _`Forty Hall estate`: http://www.fortyhallestate.co.uk/
 .. _`nice green café`: http://www.fortyhallestate.co.uk/about_forty_hall_estate/nice_green_cafe_at_forty_hall
+.. _A10: http://en.wikipedia.org/wiki/A10_road_%28England%29
 .. _`Enfield Crematorium`: http://www.haringey.gov.uk/cemeteries-crematorium.htm#enfield_crem_and_cem
 .. _`Enfield Lock station`: http://www.nationalrail.co.uk/stations/ENL/details.html 
 .. _Wunderground: http://www.wunderground.com/
 .. _`August 16th, 2014`: http://www.wunderground.com/history/airport/EGLL/2004/8/16/DailyHistory.html?req_city=NA&req_state=NA&req_statename=NA
 .. _gpsbabel: http://www.gpsbabel.org/
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14652696350
+.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14752910700
