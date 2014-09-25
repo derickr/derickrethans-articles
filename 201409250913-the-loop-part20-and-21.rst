@@ -14,6 +14,9 @@ miles. That meant getting up early too, and not spending ages getting
 breakfast. By the time we finished breakfast, we were already an hour behind
 schedule…
 
+.. image:: /images/content/loop-logo.jpg
+   :align: left
+
 We traveled to Chigwell by means of Bakerloo to Oxford Circus and then the
 Central line out to Chigwell. On the way back from last time the trip via
 Woodford was recommended, instead of going the long way around via Hainault.
@@ -27,9 +30,6 @@ start.
 Section 20
 ----------
 
-.. image:: /images/content/loop20-d36_9524.jpg
-   :align: left
-
 After a short stretch along the High Road we turned into a first meadow just
 after passing by `St. Mary's Church`_ and an old Tudor Looking
 building—formerly `Ye Olde King's Head`_. After a few minutes we crossed
@@ -42,6 +42,9 @@ fallen over guidepost told us to cross a field, which was clearly just planted
 without any regard for the public right of way. After pondering about we
 decided to go around the field, although I think we really should have crossed
 it. The PROW blockage has been reported.
+
+.. image:: /images/content/loop20-d36_9524.jpg
+   :align: left
 
 After a while, we passed the `Chigwell Water Treatment Works`_ and wandered
 into another bit of meadow. Right after we crossed a stile we saw a little
@@ -61,12 +64,14 @@ Hopefully, on the last two walks these colours will be more pronounced. At the
 top of the field we had a great view over London, with the Shard, Canary Wharf
 and the City's skyscrapers barely visible through the haze.
 
+A while later we crossed a fairway of the `Hainault Golf Club`_ where I nearly
+got a golf ball on my head as it went the wrong way straight up into the
+trees.
+
 .. image:: /images/content/loop20-d36_9551.jpg
    :align: left
 
-A while later we crossed a fairway of the `Hainault Golf Club`_ where I nearly
-got a golf ball on my head as it went the wrong way straight up into the
-trees. We escaped the golf club through a stretch of wood, the Mile 
+We escaped the golf club through a stretch of wood, the Mile 
 Plantation and ended up at a corn field. This time, there was a neat path
 through the field and Morag and I had great fun pushing through it. However,
 we did not pay enough attention and ended walking along the wrong side of a
@@ -88,7 +93,7 @@ Section 21 (part 1)
 -------------------
 
 With the beer gone, we continued the walk, now section 21. On our right we
-spotted `The Round House`_. However we found the signage slightly lacking but
+spotted `The Round House`_. However we found the signage slightly lacking 
 and after a few minutes trying to figure out where we had to go, we realized
 we had to go through a gate which had horses just behind it trying to
 "escape". In our speed to open and close the gate, Morag let out quite a
