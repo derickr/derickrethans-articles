@@ -7,6 +7,10 @@ Tweaking the Logitech R400 presenter tool on Linux
    :Tags: blog, php, mongodb
    :Short: r400
 
+**This article is outdated, please refer to a `new version`__.**
+
+__ /logitech-r400-take2.html
+
 **Updated on April 9th, 2013, after comments by Jim Diamond**
 
 For Christmas I received a `Logitech R400`_ presenter tool as a replacement
