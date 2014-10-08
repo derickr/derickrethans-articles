@@ -11,7 +11,7 @@ This article is a updated version of `an earlier one`__.
 
 __ /logitech-r400.html
 
-Last Christmas I received a `Logitech R400`_ presenter tool as a replacement
+Christmas 2002, I received a `Logitech R400`_ presenter tool as a replacement
 for the `php|architect`_ one that has now fallen apart. However, to use it
 together with my presentation system—pres2, about which I previously_ wrote—I
 need it to provide left and right arrow keypresses. By default its *left* and
