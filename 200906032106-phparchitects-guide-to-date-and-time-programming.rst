@@ -33,6 +33,6 @@ things!
 
 .. _`php|architect's Guide to Date and Time Programming`: http://phpdatebook.com
 .. _`Skien`: http://en.wikipedia.org/wiki/Skien
-.. _`website`: http://phparch.com/c/books/id/9780981034508
+.. _`website`: http://www.phparch.com/books/phparchitects-guide-to-date-and-time-programming/
 .. _`Dutch PHP Conference`: http://phpconference.nl
 
