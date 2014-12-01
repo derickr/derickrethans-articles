@@ -1,0 +1,224 @@
+Code Coverage: The Present
+==========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-12-02 09:22 Europe/London
+   :Tags: blog, php
+   :Short: codecoverage
+
+Since ages Xdebug_ has provided code coverage support for `PHP Unit`_, a way
+to show which lines are covered by your test cases. But I never really wrote
+about how it works. A recently file bug_ prompted me to write this post, as
+well as a follow up post on Code Coverage's future.
+
+In its earliest incarnation, Code Coverage overloaded only the
+``EXT_STMT`` opcode. In a special mode of the Zend Engine, this extra opcode
+is generated between every statement — roughly whenever you use a semi-colon.
+Whenever that opcode is hit, I recorded on which line that was. Each line was
+then returned as part of a multi-dimensional array when you ran
+``xdebug_get_code_coverage()``. The top-level keys are the filename, the
+second level keys the line number, and its value a ``1`` if that line was hit.
+If a line was not hit, there would be no corresponding line number key in the
+array.
+
+This approach didn't work out too well, as PHP doesn't always generate an
+``EXT_STMT`` opcode when you want it too. Not only does this causes issues
+with breakpoints when single-stepping, but it also means that many lines in
+the code could never be hit. Take for example the following code::
+
+	1: <?php
+	2: $c = array(
+	3: 	'name' => 'derickr',
+	4: 	'age' => 'yeah right',
+	5: );
+	6: ?>
+
+This array definition produces the following opcodes, PHP's internal
+representation of your code (simplified from vld_ output)::
+
+	line     #* op                 return  operands
+	-------------------------------------------------
+	   3     0  EXT_STMT                   
+			 1  INIT_ARRAY         ~0      'derickr', 'name'
+	   4     2  ADD_ARRAY_ELEMENT  ~0      'yeah+right', 'age'
+	   5     3  ASSIGN                     !0, ~0
+	   7     4  EXT_STMT                   
+			 5  RETURN                     1
+
+There is only an ``EXT_STMT`` generate on line 3 (the first array element) and
+on line 7 (which doesn't actually even exist!). If I would run this script
+with code coverage enabled, it would only show lines 3 and 7, clearly not
+adequate. This is why Xdebug's code coverage overloads a lot more opcodes:
+``ZEND_JMP``, ``ZEND_JMPZ``, ``ZEND_JMPZ_EX``, ``ZEND_JMPNZ``,
+``ZEND_IS_IDENTICAL``, ``ZEND_IS_NOT_IDENTICAL``, ``ZEND_IS_EQUAL``,
+``ZEND_IS_NOT_EQUAL``, ``ZEND_IS_SMALLER``, ``ZEND_IS_SMALLER_OR_EQUAL``,
+``ZEND_BOOL_NOT``, ``ZEND_ADD``, ``ZEND_SUB``, ``ZEND_MUL``, ``ZEND_DIV``,
+``ZEND_ADD_ARRAY_ELEMENT``, ``ZEND_RETURN``, ``ZEND_RETURN_BY_REF``,
+``ZEND_EXT_STMT``, ``ZEND_RAISE_ABSTRACT_ERROR``, ``ZEND_SEND_VAR``,
+``ZEND_SEND_VAR_NO_REF``, ``ZEND_SEND_VAL``, ``ZEND_NEW``,
+``ZEND_EXT_FCALL_BEGIN``, ``ZEND_CATCH``, ``ZEND_BOOL``, ``ZEND_ADD_CHAR``,
+``ZEND_ADD_STRING``, ``ZEND_INIT_ARRAY``, ``ZEND_FETCH_DIM_R``,
+``ZEND_FETCH_OBJ_R``, ``ZEND_FETCH_OBJ_W``, ``ZEND_FETCH_OBJ_FUNC_ARG``,
+``ZEND_FETCH_DIM_FUNC_ARG``, ``ZEND_FETCH_DIM_UNSET``,
+``ZEND_FETCH_OBJ_UNSET``, ``ZEND_FETCH_CLASS``, ``ZEND_FETCH_CONSTANT``,
+``ZEND_CONCAT``, ``ZEND_ISSET_ISEMPTY_DIM_OBJ``, ``ZEND_PRE_INC_OBJ``,
+``ZEND_SWITCH_FREE``, ``ZEND_QM_ASSIGN``, ``ZEND_DECLARE_LAMBDA_FUNCTION``,
+``ZEND_ADD_TRAIT``, ``ZEND_BIND_TRAITS``. And sometimes I have to add new ones
+for newer PHP versions.
+
+**Tip:** Overloading opcodes makes PHP run slower and Xdebug will only do this
+when you have ``xdebug.coverage_enable`` set to *on*. This is the *default*
+value though, because of backwards compatibility reasons. You can speed up
+Xdebug a fair amount by turning this option *off* in your ``php.ini`` file.
+
+Which lines have code on them?
+------------------------------
+
+Just enabling code coverage with the `xdebug_start_code_coverage()`_ function
+will give you every single line that has been hit while running your script.
+But it does not say anything about which lines you have **not** hit. Xdebug
+can also calculate this. In order to do so, the option
+``XDEBUG_CC_UNUSED`` needs to be passed to
+``xdebug_start_code_coverage()``. Turning this specific option on makes Xdebug
+scan **every** execution unit (opcode) in your application. This adds a lot of
+overhead. Of course, Xdebug does try to analyse each function (or method) only
+once. A bug_ in this detection actually made it **not** scan as often as it
+should, but that will soon be fixed through `PR #134`_.
+
+Which lines can be executed?
+----------------------------
+
+Besides code coverage and finding out which lines *can* be covered, Xdebug
+can also find which parts of your code can never be reached: dead code.
+
+I implemented the algorithms to find dead code in another one of my side
+projects first: vld_. It is a tool that shows PHP's internal compilation units
+(opcodes), just like in the array example above. Because it is a much smaller
+and simpler tool, testing new algorithms out in it makes things a lot easier
+than trying to get it into Xdebug immediately.
+
+Anyway, the dead code analysis can be activated by passing in the
+``XDEBUG_CC_DEAD_CODE`` option. It does not make a lot of sense to do
+this without ``XDEBUG_CC_UNUSED`` and you can combine them with the
+``|`` operator as they are parts of a bitfield::
+
+	xdebug_start_code_coverage( XDEBUG_CC_DEAD_CODE | XDEBUG_CC_UNUSED );
+
+With dead code analysis enabled, Xdebug will scan each function and method's
+oparray as usual, but it will also follow all branch points (such as the ones
+created by ``if``, ``while``, ``for``, etc.), to see which branches can not be
+reached theoretically. This finds for example ``return;`` before some other
+code, or a ``throw`` with code following. After following all the branch and
+exit points, Xdebug then finds which opcodes are not part of any branch. It
+eliminates them from the lines that can be executed, as found by the checks
+run for ``XDEBUG_CC_UNUSED``.
+
+In the resulting array structure that `xdebug_get_code_coverage()`_ returns,
+there are now three possible values for each line: ``1``, to signal that code
+has been executed, ``-1`` if there was no code executed on that line, and
+``-2`` if there was no executable code at all on that specific line.
+
+An example script (``article-test.php``)::
+
+	<?php
+	function test()
+	{
+		if ( $a == 42 )
+		{
+			echo "The argument is 42\n";
+		}
+		else
+		{
+			throw new Exception( "Not 42!" );
+			echo "nope\n";
+		}
+	}
+
+	try
+	{
+		test( 42 );
+	}
+	catch ( Exception $e )
+	{
+		echo "Do nothing!\n";
+	}
+	?>
+
+Executed through a runner (``article-simple.php``)::
+
+	<?php
+	xdebug_start_code_coverage( XDEBUG_CC_DEAD_CODE | XDEBUG_CC_UNUSED );
+
+	include 'article-test.php';
+
+	var_dump( xdebug_get_code_coverage() );
+	?>
+
+Produces (after some formatting)::
+
+	Do nothing!
+	array(2) {
+	  '/home/httpd/html/test/xdebug/code-coverage/article-test.php' =>
+	  array(12) {
+		[2] => int(1)
+		[4] => int(1)
+		[5] => int(1)
+		[6] => int(-1)
+		[7] => int(-1)
+		[10] => int(1)
+		[11] => int(-2)
+		[13] => int(-1)
+		[17] => int(1)
+		[19] => int(1)
+		[21] => int(1)
+		[24] => int(1)
+	  }
+	  '/home/httpd/html/test/xdebug/code-coverage/article-simple.php' =>
+	  array(2) {
+		[4] => int(1)
+		[6] => int(1)
+	  }
+	}
+
+If we would to use PHP_CodeCoverage_ instead, the runner script
+(``article.php``) looks like::
+
+	<?php
+	require 'vendor/autoload.php';
+
+	$coverage = new PHP_CodeCoverage;
+
+	$coverage->start( 'article' );
+
+	include 'article-test.php';
+
+	$coverage->stop();
+
+	$writer = new PHP_CodeCoverage_Report_HTML;
+	$writer->process($coverage, '/tmp/code-coverage-article');
+	?>
+
+Which outputs:
+
+.. image:: /images/content/code-coverage-current.png
+
+Lines ``6`` and ``7`` have not been executed, because we didn't pass in the
+variable ``$a``. Line ``13`` has not been executed because the code never
+reached the end of the function as we jumped out with the ``throw`` in line
+``10``. The output also shows that the code on lines ``11`` and ``12`` can not
+be reached (because of the ``throw`` preceding it). 
+
+This concludes the current code coverage features in Xdebug, in the second
+part I will cover an upcoming feature.
+
+.. _`PHP Unit`: https://packagist.org/packages/phpunit/phpunit
+.. _`xdebug_start_code_coverage()`: http://xdebug.org/docs/code_coverage#xdebug_start_code_coverage
+.. _`xdebug_get_code_coverage()`: http://xdebug.org/docs/code_coverage#xdebug_get_code_coverage
+.. _Xdebug: http://xdebug.org
+.. _bug: http://bugs.xdebug.org/view.php?id=1088
+.. _vld: http://derickrethans.nl/projects.html#vld
+.. _`PR #134`: https://github.com/xdebug/xdebug/pull/134
+.. _PHP_CodeCoverage: https://packagist.org/packages/phpunit/php-code-coverage
+
+
