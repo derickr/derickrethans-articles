@@ -1,0 +1,34 @@
+Whisky Advent: part 1
+=====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-12-05 09:05 Europe/London
+   :Tags: blog, whisky
+   :Short: whiskyad1
+
+December 1st: Glenrothes 9, by Douglas (Sherry Butt)
+----------------------------------------------------
+
+.. image:: /images/content/whisky/day1-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day1-label.jpg
+   :align: left
+
+The first whisky on the calendar is a 9 year old Glenrothes_, bottled by
+Douglas_. It is one out of 210 bottles of a single cask (#9928) distilled in
+2004 and bottled in 2013, aged in a Sherry Butt.
+
+*Flavours:* Oily on the tongue. Sherry flavours with a hint of fruits. Smokey
+after taste.
+
+*About Glenrothes:* "Established by the burn of Rothes in Speyside in 1879, The
+Glenrothes distillery has been producing its characteristic Speyside single
+Malt for over 130 years. The maturity of The Glenrothes is determined not by
+age, but by Vintage, resulting in some memorable moments, captured forever in
+specific expressions of this remarkable spirit."
+
+.. _Glenrothes: http://www.theglenrothes.com/en/
+.. _Douglas: http://www.douglaslaing.com/home.php?WEBYEP_DI=1
+
