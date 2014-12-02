@@ -20,7 +20,7 @@ The first whisky on the calendar is a 9 year old Glenrothes_, bottled by
 Douglas_. It is one out of 210 bottles of a single cask (#9928) distilled in
 2004 and bottled in 2013, aged in a Sherry Butt.
 
-*Flavours:* Oily on the tongue. Sherry flavours with a hint of fruits. Smokey
+*Tasting notes*: Oily on the tongue. Sherry flavours with a hint of fruits. Smokey
 after taste.
 
 *About Glenrothes:* "Established by the burn of Rothes in Speyside in 1879, The
@@ -32,3 +32,24 @@ specific expressions of this remarkable spirit."
 .. _Glenrothes: http://www.theglenrothes.com/en/
 .. _Douglas: http://www.douglaslaing.com/home.php?WEBYEP_DI=1
 
+December 2nd: GlenGrant 170th anniversary
+-----------------------------------------
+
+.. image:: /images/content/whisky/day2-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day2-label.jpg
+   :align: left
+
+Tonight's dram is a GlenGrant_ `170th anniversary`_, bottled to commemorate
+the 170th anniversary of the Glen Grant distillery. Now owned by the Italian
+Gruppo Campari, the distillery was founded in 1840. It is a non-chill filtered
+whisky at 46% ABV.
+
+*Tasting notes*: Sweet, raisins and rich fruits. Long finish with hints of peat
+smoke. Actually, very long finish, perhaps like a sherry.
+
+.. _GlenGrant: http://en.wikipedia.org/wiki/Glen_Grant_distillery
+.. _`170th anniversary`: http://www.masterofmalt.com/whiskies/glen-grant/glen-grant-170th-anniversary-edition-whisky/
+
+----
