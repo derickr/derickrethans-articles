@@ -7,7 +7,7 @@ Code Coverage: The Present
    :Tags: blog, php
    :Short: codecoverage
 
-Since ages Xdebug_ has provided code coverage support for `PHP Unit`_, a way
+Since ages Xdebug_ has provided code coverage support for `PHPUnit`_, a way
 to show which lines are covered by your test cases. But I never really wrote
 about how it works. A recently file bug_ prompted me to write this post, as
 well as a follow up post on Code Coverage's future.
@@ -212,7 +212,7 @@ be reached (because of the ``throw`` preceding it).
 This concludes the current code coverage features in Xdebug, in the second
 part I will cover an upcoming feature.
 
-.. _`PHP Unit`: https://packagist.org/packages/phpunit/phpunit
+.. _`PHPUnit`: https://phpunit.de
 .. _`xdebug_start_code_coverage()`: http://xdebug.org/docs/code_coverage#xdebug_start_code_coverage
 .. _`xdebug_get_code_coverage()`: http://xdebug.org/docs/code_coverage#xdebug_get_code_coverage
 .. _Xdebug: http://xdebug.org
