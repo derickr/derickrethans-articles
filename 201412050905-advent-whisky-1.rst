@@ -52,4 +52,26 @@ smoke. Actually, very long finish, perhaps like a sherry.
 .. _GlenGrant: http://en.wikipedia.org/wiki/Glen_Grant_distillery
 .. _`170th anniversary`: http://www.masterofmalt.com/whiskies/glen-grant/glen-grant-170th-anniversary-edition-whisky/
 
+December 3rd: Benromach 2001 Cask Strength
+------------------------------------------
+
+.. image:: /images/content/whisky/day3-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day3-label.jpg
+   :align: left
+
+Tonight we have a dram from Benromach_, a distillery that I actually visted
+last year as part of our big `whisky trip`_ last year. Its `2001 cask
+strength`_ whisky is matured in first fill Bourbon barrels, and *no longer
+available*. At 59.9% ABV it is stronger and benefits from a drop of water.
+
+*Tasting notes*: Honey, sweet, and vanilla. I also taste some nuts, and a
+little bit of peat. Quite a nice dram, but does definitely need a drop or two
+of water.
+
+.. _Benromach: http://www.benromach.com/
+.. _`2001 cask strength`: http://www.dramming.com/2012/04/29/benromach-20012010-cash-strength/
+.. _`whisky trip`: /the-day-i-saved-whisky.html
+
 ----
