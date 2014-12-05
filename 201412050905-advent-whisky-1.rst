@@ -74,4 +74,29 @@ of water.
 .. _`2001 cask strength`: http://www.dramming.com/2012/04/29/benromach-20012010-cash-strength/
 .. _`whisky trip`: /the-day-i-saved-whisky.html
 
-----
+
+December 4th: Arran Single Cask Sherry
+--------------------------------------
+
+.. image:: /images/content/whisky/day4-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day4-label.jpg
+   :align: left
+
+A single cask whisky from Arran_ distillery ages in Sherry Casks. It's 16 years
+old and one of only `269 bottles`_, and it's going to be difficult to find
+`another bottle`_. Amazon has 8 left, and it's well worth its price. The
+whisky 55.3% ABV and of course no-chill filtered. It does need a drop of water
+for its flavours to fully develop. 
+
+*Tasting notes*: It's very much sweet sherry like, with hints of ginger and
+other spices. 
+
+-----
+
+This concludes the first four whiskies on the calendar. I am looking forwards
+to the following 20!
+
+.. _`another bottle`: http://www.amazon.co.uk/gp/product/B00JK07PUE/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00JK07PUE&linkCode=as2&tag=derickrethans-21&linkId=NKLUP2BNYE3TX7BG
+.. _`269 bottles`: http://www.masterofmalt.com/whiskies/arran/arran-premium-single-cask-1998-cask-815-sherry-cask-whisky/
