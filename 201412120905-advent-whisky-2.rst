@@ -17,12 +17,13 @@ December 5th: Blue Hanger, 8th Release
    :align: left
 
 This `Blue Hanger`_ is the only blend on the calendar, but this is an unusual
-blend so I am making an exception. This 8th release, is a 21 year old blend.
-It is named after William Hanger, the 3rd Lord Coleraine, a loyal customer of
-Berry Bros. & Rudd during the late 18th century. He was renowned for the
-striking blue clothes he wore and gained the soubriquet, "Blue Hanger".
+blend so I am making an exception. This 8th release is a 21 year old blend,
+bottled by Berry Bros. & Rudd. It is named after William Hanger, the 3rd Lord
+Coleraine, a loyal customer of Berry Bros. & Rudd during the late 18th
+century. He was renowned for the striking blue clothes he wore and gained the
+soubriquet, "Blue Hanger".
 
-It is bottled at 45.6% volume, with natural colouring and it is not chill
+It is bottled at 45.6% ABV, with natural colouring and it is not chill
 filtered. It is exclusive to `The Whisky Shop`_. 
 
 *Tasting notes*: Orange peel, vanilla, caramel. With a little bit of salt and
@@ -31,3 +32,30 @@ smoke.
 .. _`Blue Hanger`: http://www.whiskybase.com/whisky/59436/blue-hanger-8th-release
 .. _`The Whisky Shop`: https://www.whiskyshop.com/
 
+December 6th: Springbank 12 Green
+---------------------------------
+
+.. image:: /images/content/whisky/day6-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day6-label.jpg
+   :align: left
+
+As this month's whisky of the month, I went to my favourite whisky shop in
+London, `Cadenhead's`_. They are most known for their single cask whiskies,
+and indeed many of them on this advent calendar come from them. 
+
+This `Springbank 12 Green`_ whisky is however, not a single cask whisky. It
+is however a very new whisky. So new, that I couldn't find it through Google
+yet. The label on the bottle says it's one out of 9000 bottles. It is called
+"Green" because it is distilled from organic barley.
+
+It is matured entirely in bourbon casks and bottled at 46% ABV. The result is
+creamy and sweet with classic Springbank peatiness giving depth and a hint of
+coastal air. 
+
+*Tasting notes*: Very palei. Sweet fruits and a little bit peaty. The whisky
+lingers quite long with peat and a hint of sherry. 
+
+.. _`Cadenhead's`: http://www.whiskytastingroom.com/
+.. _`Springbank 12 Green`: http://www.whiskytastingroom.com/springbank-distillery-12-year-old-green-70cl-46-319.html
