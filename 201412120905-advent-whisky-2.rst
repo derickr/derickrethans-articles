@@ -59,3 +59,26 @@ lingers quite long with peat and a hint of sherry.
 
 .. _`Cadenhead's`: http://www.whiskytastingroom.com/
 .. _`Springbank 12 Green`: http://www.whiskytastingroom.com/springbank-distillery-12-year-old-green-70cl-46-319.html
+
+December 7th: Single Cask Ardmore 16
+------------------------------------
+
+.. image:: /images/content/whisky/day7-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day7-label.jpg
+   :align: left
+
+Tonight's dram is 16 years old, distilled in 1996 by Ardmore_ and bottled in
+2012. It is one of 315 bottles from a refill Hogshead, selected by `Douglas
+Laing`_. It forms part of Douglas Laing's Old Malt Cask range, and is now
+`sold out`_.
+
+*Tasting notes*: As an Ardmore_ it is quite peaty, with barley and all spice
+flavours. Spices, smoke and peppers are its overtones. There are hints of wood
+in the aftertaste.
+
+.. _Ardmore: http://www.ardmorewhisky.com/
+.. _`Douglas Laing`: http://www.douglaslaing.com/
+.. _`sold out`: http://www.masterofmalt.com/whiskies/ardmore/ardmore-16-year-old-1996-cask-8020-old-malt-cask-douglas-laing-whisky/
+
