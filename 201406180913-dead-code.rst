@@ -7,7 +7,7 @@ Dead Code
    :Tags: blog, php
    :Short: deadcode
 
-Frequently I've been asked why Xdebug_ sees "dead code" in places where
+Frequently I have been asked why Xdebug_ sees "dead code" in places where
 people don't expect it. Most often this is related_ to PHPUnit's Code Coverage
 in the following situations::
 
