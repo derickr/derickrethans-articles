@@ -11,26 +11,26 @@ Mapping Lubumbashi
    :align: right
 
 I spent last Saturday helping out HOT, the `Humanitarian OpenStreetMap Team`_,
-to improve the map of Lubumbashi, Congo. This session focussed on digitizing the
-data that was acquired on the ground by volunteers.
+to improve the map of Lubumbashi, Congo. This session focussed on digitizing
+the data that was acquired on the ground by volunteers (with pen and paper).
 
 But this was not where the effort started. It started a few weeks ago when
 Jorieke_ set off to Lubumbashi to organise the mapping party. You can read more
 about this on the `HOT blog`_.
 
 In cooperation with `Doctors without Borders`_/Médecins Sans Frontières UK (MSF
-UK), HOT organised this mapping effort. With help by students from the
-University of Lubumbashi, they idea is to map the whole or at least as much as
+UK), HOT organised this mapping effort, with the help of students from the
+University of Lubumbashi. The goal was to map the whole or at least as much as
 possible of the city of Lubumbashi. 
 
 At the start of the Mapathon_, `Harry Wood`_ went through his usual spiel of
-introducing OpenStreetMap to the crowd. I dropped in the moment he was done.
-Just in time to hear `Ivan Gayton`_'s talk on the work of MSF and their Congo
-mapping work. Mapping in Congo is not nearly as simple as it is here, where
-streets have street names that are neatly printed on street signs. This is not
-the case in Congo. There no street signs and often, people use names that are
-either not official, or have no official name anyway. The only way to find out
-how streets are called, is by asking the people living there!
+introducing OpenStreetMap to the crowd. I dropped in the moment he was done,
+just in time to hear `Ivan Gayton`_'s talk on the work of MSF and their Congo
+mapping work. Mapping in Congo is not nearly as simple as it is here in London,
+where streets have street names that are neatly printed on street signs. This
+is not the case in Congo. There no street signs and often, people use names
+that are either not official, or have no official name anyway. The only way to
+find out how streets are called, is by asking the people living there!
 
 MSF is interested in street name information, or more precisely, the
 neighbourhood names so that they have an identifier for statistical analysis
