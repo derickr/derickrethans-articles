@@ -8,9 +8,9 @@ Code Coverage: The Present
    :Short: codecoverage
 
 Since ages Xdebug_ has provided code coverage support for `PHPUnit`_, a way
-to show which lines are covered by your test cases. But I never really wrote
-about how it works. A recently filed bug_ prompted me to write this post, as
-well as a follow up post on Code Coverage's future.
+to show which lines are covered by your test cases. But I never wrote about how
+it works. A recently filed bug_ prompted me to write this post, as well as a
+follow up post on Code Coverage's future.
 
 In its earliest incarnation, Code Coverage overloaded only the
 ``EXT_STMT`` opcode. In a special mode of the Zend Engine, this extra opcode
