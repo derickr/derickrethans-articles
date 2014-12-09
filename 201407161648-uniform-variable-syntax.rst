@@ -22,7 +22,7 @@ Thirty people voted for, and one against: **Me**.
 
 Does that mean that I am against a unified variable syntax? No, I am not.
 I am actually quite a fan of having a consistent language, but we need to be
-careful when this hits existing users.
+careful when changes hits existing users.
 
 The already accepted RFC also has some negative aspects, in the form of
 backwards compatibility (BC) breaks. For example (quoted from the RFC)::
