@@ -82,3 +82,22 @@ in the aftertaste.
 .. _`Douglas Laing`: http://www.douglaslaing.com/
 .. _`sold out`: http://www.masterofmalt.com/whiskies/ardmore/ardmore-16-year-old-1996-cask-8020-old-malt-cask-douglas-laing-whisky/
 
+December 8th: anCnoc 22
+-----------------------
+
+.. image:: /images/content/whisky/day8-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day8-label.jpg
+   :align: left
+
+A typical winter warmer from anCnoc_. It is 22 years old, and as usual in a
+natural colour and non-chill filtered. It is a standard whisky, made from many
+different casks - but aged in both ex-bourbon casks and ex-sherry butts.
+
+*Tasting notes*: Honey, sweet and a few hints of all spice. A bit like
+Christmas cake. There is also a hint of smoke, and the whisky is general full
+of flavours. The finish is spicy.
+
+.. _anCnoc: http://ancnoc.com/
+
