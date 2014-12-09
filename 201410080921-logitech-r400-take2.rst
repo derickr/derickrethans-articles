@@ -11,12 +11,13 @@ This article is a updated version of `an earlier one`__.
 
 __ /logitech-r400.html
 
-Christmas 2002, I received a `Logitech R400`_ presenter tool as a replacement
-for the `php|architect`_ one that has now fallen apart. However, to use it
+In 2002, I received a `Logitech R400`_ presenter tool for Christmas as a
+replacement for the `php|architect`_ pointer that has now fallen apart.
+However, to use it
 together with my presentation system—pres2, about which I previously_ wrote—I
 need it to provide left and right arrow keypresses. By default its *left* and
 *right* buttons generate *Prior* and *Next* events in X. It took me a while to
-get this to work, so in short, this is how I changed it.
+get this to work, so in short, this article sets out how I changed it.
 
 First of all, I editted the file ``/lib/udev/hwdb.d/60-keyboard.hwdb`` as root.
 I searched for ``R400`` and changed its entry to::
