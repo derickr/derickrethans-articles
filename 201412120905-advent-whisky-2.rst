@@ -101,3 +101,30 @@ of flavours. The finish is spicy.
 
 .. _anCnoc: http://ancnoc.com/
 
+December 9th: Glenburgie 1994
+-----------------------------
+
+.. image:: /images/content/whisky/day9-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day9-label.jpg
+   :align: left
+
+This `17 year old whisky`_ is distilled by Glenburgie, and bottled by Gordon &
+MacPhail in 2012. It is specifically bottled for `La Maison du Whisky`_ `in
+Paris`_, not far from Métro station Maidelaine. It is in Paris that I bought
+this whisky when I was there for `Forum PHP`_ last year. La Maison du Whisky is in my opinion
+the best whisky shop outside of Scotland, and `Cadenhead's`_ in London.
+
+As is common to many of my whiskies, this is again a non-chill filtered
+natural colour single cask whisky—cask 10055 in case you care. It is 45% ABV
+and matured in 1st fill sherry butts.
+
+*Tasting notes*: The colour is slight red, and it is slightly oily on the
+tongue. Hints of caramel and honey, but more stronger spices such as cardamom
+and cloves. The after taste is a little bit zesty, and has hints of oak.
+
+.. _`17 year old whisky`: http://www.whiskybase.com/whisky/35311/glenburgie-1994-gm
+.. _`La Maison du Whisky`: http://www.whisky.fr/
+.. _`in Paris`: http://www.openstreetmap.org/node/2538000591
+.. _`Forum PHP`: http://afup.org/pages/forumphp2013/
