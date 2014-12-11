@@ -181,7 +181,7 @@ Produces (after some formatting)::
 	  }
 	}
 
-If we would to use PHP_CodeCoverage_ instead, the runner script
+If we were to use `PHP CodeCoverage`_ instead, the runner script
 (``article.php``) looks like::
 
 	<?php
@@ -219,6 +219,6 @@ part I will cover an upcoming feature.
 .. _bug: http://bugs.xdebug.org/view.php?id=1088
 .. _vld: http://derickrethans.nl/projects.html#vld
 .. _`PR #134`: https://github.com/xdebug/xdebug/pull/134
-.. _PHP_CodeCoverage: https://packagist.org/packages/phpunit/php-code-coverage
+.. _`PHP CodeCoverage`: https://packagist.org/packages/phpunit/php-code-coverage
 
 
