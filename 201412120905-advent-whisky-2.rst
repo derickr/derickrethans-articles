@@ -128,3 +128,50 @@ and cloves. The after taste is a little bit zesty, and has hints of oak.
 .. _`La Maison du Whisky`: http://www.whisky.fr/
 .. _`in Paris`: http://www.openstreetmap.org/node/2538000591
 .. _`Forum PHP`: http://afup.org/pages/forumphp2013/
+
+December 10th: Tomintoul 16
+---------------------------
+
+.. image:: /images/content/whisky/day10-bottle.jpg
+   :align: left
+
+I spoke at `Glasgow PHP`_ this evening, which meant that I couldn't do my
+regular bottle and a glass approach. I had to do with a miniature of a
+`Tomintoul 16`_ that I had brought along. The organisers were so kind to gift
+me a bottle of `Auchentoshan American Oak`_ though, but I am saving that for an
+upcoming night.
+
+*Tasting notes*: Overall quite bland, and I didn't pick out too many flavours.
+It's a bit fruity sweet, but the flavour doesn't linger and in a few seconds I
+had forgotten about it at all. 
+
+.. _`Glasgow PHP`: http://glasgowphp.co.uk
+.. _`Tomintoul 16`: http://www.whiskybase.com/whisky/51822/tomintoul-16-year-old
+.. _`Auchentoshan American Oak`: http://www.whiskybase.com/whisky/45865/auchentoshan-american-oak
+
+December 11th: Mannochmore 12
+-----------------------------
+
+.. image:: /images/content/whisky/day11-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day11-label.jpg
+   :align: left
+
+This latest whisky comes from the Mannochmore_ distillery, which produces for
+twelve months and then has a break of twelve months alternating with the nearby
+Glenlossie_ distillery, with which it shares the employees. A rather unusual
+arrangement if you ask me.
+
+In one of the years, they did manage to distill the spirits that now end up as
+the `Mannochmore 12`_, which I am enjoying tonight. It is part of Diageo's
+`Flora and Fauna`_ range. 
+
+*Tasting notes*: Honey and a hint of pepper? There is quite a lot of flavours
+coming into play after a while. And even a hint of ginger in the long
+lingering finish.
+
+.. _Mannochmore: http://www.whiskybase.com/distillery/133/mannochmore
+.. _Glenlossie: http://www.whiskybase.com/distillery/72/glenlossie
+.. _`Mannochmore 12`: http://www.whiskybase.com/whisky/31292/mannochmore-12-year-old
+.. _`Flora and Fauna`: http://www.whiskydesignaward.com/2012/01/flora-fauna-series-bottlings-by-united-distillers-now-diageo/
