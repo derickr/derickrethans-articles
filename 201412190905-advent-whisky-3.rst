@@ -1,0 +1,33 @@
+Whisky Advent: part 3
+=====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-12-19 09:05 Europe/London
+   :Tags: blog, whisky
+   :Short: whiskyad3
+
+December 12th: Auchentoshan American Oak
+----------------------------------------
+
+.. image:: /images/content/whisky/day12-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day12-label.jpg
+   :align: left
+
+Tonight's dram is an `Auchentoshan American Oak`_. It's from a bottle that I
+received as a gift for speaking at `Glasgow PHP_`. Thanks! This Auchentoshan_
+does not have an age statement, giving the bottlers a bit more freedom in
+which ages of barrels they use to blend with. It is possible that whiskies as
+young as three years are part of this "blend". This specific whisky is aged in
+first-fill Bourbon casks. Unlike many other whiskies on this calendar, it is
+both chill filtered and coloured. 
+
+*Tasting notes*: Over ripe fruits, oak, and a sour grapefruit finish. It's a
+little bland, but still quite enjoyable.
+
+
+.. _`Auchentoshan American Oak`: http://www.whiskybase.com/whisky/53396/auchentoshan-american-oak
+.. _`Glasgow PHP`: http://glasgowphp.co.uk
+.. _Auchentoshan: http://www.whiskybase.com/brand/81369/auchentoshan
