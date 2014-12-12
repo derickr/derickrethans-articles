@@ -25,9 +25,14 @@ first-fill Bourbon casks. Unlike many other whiskies on this calendar, it is
 both chill filtered and coloured. 
 
 *Tasting notes*: Over ripe fruits, oak, and a sour grapefruit finish. It's a
-little bland, but still quite enjoyable.
+little bland, and it has a short finish. It's still quite enjoyable.
+
+*Morag says*: Slightly sharp nose, a little bit like vanilla. Not the
+smoothest with a hint of roughness. Short finish. Tastes like cardboard (or
+woody). Does not compare well to the `Three Wood`_.
 
 
 .. _`Auchentoshan American Oak`: http://www.whiskybase.com/whisky/53396/auchentoshan-american-oak
 .. _`Glasgow PHP`: http://glasgowphp.co.uk
 .. _Auchentoshan: http://www.whiskybase.com/brand/81369/auchentoshan
+.. _`Three Wood`: http://www.whiskybase.com/whisky/1884/auchentoshan-three-wood
