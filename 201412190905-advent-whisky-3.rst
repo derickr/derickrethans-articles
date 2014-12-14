@@ -36,3 +36,27 @@ woody). Does not compare well to the `Three Wood`_.
 .. _`Glasgow PHP`: http://glasgowphp.co.uk
 .. _Auchentoshan: http://www.whiskybase.com/brand/81369/auchentoshan
 .. _`Three Wood`: http://www.whiskybase.com/whisky/1884/auchentoshan-three-wood
+
+December 13th: Cadenhead's Glen Moray 21 year old
+-------------------------------------------------
+
+.. image:: /images/content/whisky/day13-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day13-label.jpg
+   :align: left
+
+Another dram from Cadenhead's. It is a 21 year old whisky, distilled in 1992.
+It is part of their Wine Cask range and as usual, it is non-chill filtered and
+no colouring has been added. The `1992 CA`_ is bottled at 55.4% ABV cask
+strength. A little curious is that the distillery on the label is `Glen
+Moray-Glenlivet`_ — the "Glenlivet" addition is not often seen anymore. There
+were only 216, and I'm afraid they are all sold out.
+
+*Tasting notes*: It does need a drop of water to bring out some flavours—at
+55.4% it is just a little bit too strong. Hints of sweeter wine, and cake. 
+Perhaps a hint of aniseed and a finish of medicinal herbs. I'm not quite sure
+what to make of it really.
+
+.. _`1992 CA`: http://www.whiskybase.com/whisky/54391/glen-moray-1992-ca
+.. _`Glen Moray-Glenlivet`: http://www.whiskybase.com/brand/81455/glen-moray
