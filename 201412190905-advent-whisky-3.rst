@@ -60,3 +60,33 @@ what to make of it really.
 
 .. _`1992 CA`: http://www.whiskybase.com/whisky/54391/glen-moray-1992-ca
 .. _`Glen Moray-Glenlivet`: http://www.whiskybase.com/brand/81455/glen-moray
+
+December 14th: Single Cask Aberlour 22 years old
+------------------------------------------------
+
+.. image:: /images/content/whisky/day14-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day14-label.jpg
+   :align: left
+
+I recently found the whiskybase_ online, and noticed its extensive list of
+available whiskies. However, the whisky I had tonight was not known to them
+yet. 
+
+The whisky is a single cask, cask strength whisky bottled by `Speciality
+Drinks`_ . This casks rendered 250 bottles and at 54.1% ABV it is a bit on the
+stronger side, and needs a little bit of water. I bought it at the `Whisky
+Exchange`_ as the bottle of the month[#]_ for July. Interestingly the label on my
+bottle is different than what they have on their site.
+
+*Tasting notes*: It is a very clear whisky. I taste hints of apple and cream.
+And with more than a hint of toffee. It lingers quite long with a hint of more
+toffee.
+
+.. _Whiskybase: http://www.whiskybase.com/
+.. _`Speciality Drinks`: http://www.whiskybase.com/bottler/77370/speciality-drinks-ltd
+.. _`Whisky Exchange`: https://www.thewhiskyexchange.com/P-22544.aspx
+
+.. [#] The "bottle of the month" is a longer running project. I will blog
+   about that at some point later.
