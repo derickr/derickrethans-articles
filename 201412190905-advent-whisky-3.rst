@@ -74,7 +74,7 @@ I recently found the Whiskybase_ online, and noticed its extensive list of
 available whiskies. However, the whisky I had tonight was not known to them
 yet. I have since then added it.
 
-The whisky is a `22 year old`, single cask, cask strength whisky bottled by
+The whisky is a `22 year old`_, single cask, cask strength whisky bottled by
 `Speciality Drinks`_ . This casks rendered 250 bottles and at 54.1% ABV it is
 a bit on the stronger side, and needs a little bit of water. I bought it at
 the `Whisky Exchange`_ as the bottle of the month[#]_ for July. Interestingly
@@ -85,9 +85,37 @@ And with more than a hint of toffee. It lingers quite long with a hint of more
 toffee.
 
 .. _Whiskybase: http://www.whiskybase.com/
-.. _`22 year old`: 
+.. _`22 year old`: http://www.whiskybase.com/whisky/62399/aberlour-1990-sms
 .. _`Speciality Drinks`: http://www.whiskybase.com/bottler/77370/speciality-drinks-ltd
 .. _`Whisky Exchange`: https://www.thewhiskyexchange.com/P-22544.aspx
+
+.. [#] The "bottle of the month" is a longer running project. I will blog
+   about that at some point later.
+
+December 15th: Mortlach Càrn Mòr Strictly Limited
+-------------------------------------------------
+
+.. image:: /images/content/whisky/day15-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day15-label.jpg
+   :align: left
+
+Another whisky that the Whiskybase_ did not have! Tonight's dram is a
+whisky from the Mortlach_ distillery. It's not from a single cask, but rather
+from two casks yielding 652 bottles. The whisky is non-chill filtered and has
+no colouring added. It is bottled at 46% ABV by `Morrison and MacKay`_ for
+their Strictly Limited range. The `whisky is 16 years`_ old and aged in a
+Hogshead_ cask.
+
+*Tasting notes*: Smooth and creamy honey on the tongue. Light summer fruits
+and caramel after taste. Could do with a few drops of water to make the
+flavours come out more.
+
+.. _`whisky is 16 years`: 
+.. _Mortlach: http://www.whiskybase.com/distillery/75/mortlach
+.. _`Morrison and MacKay`: http://www.whiskybase.com/bottler/77630/morrison-and-mackay
+.. _Hogshead: https://en.wikipedia.org/wiki/Hogshead
 
 .. [#] The "bottle of the month" is a longer running project. I will blog
    about that at some point later.
