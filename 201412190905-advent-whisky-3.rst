@@ -101,18 +101,21 @@ December 15th: Mortlach Càrn Mòr Strictly Limited
 .. image:: /images/content/whisky/day15-label.jpg
    :align: left
 
-Another whisky that the Whiskybase_ did not have! Tonight's dram is a
-whisky from the Mortlach_ distillery. It's not from a single cask, but rather
-from two casks yielding 652 bottles. The whisky is non-chill filtered and has
-no colouring added. It is bottled at 46% ABV by `Morrison and MacKay`_ for
-their Strictly Limited range. The `whisky is 16 years`_ old and aged in a
-Hogshead_ cask.
+Tonight's dram is a whisky from the Mortlach_ distillery. Another whisky that
+the Whiskybase_ did not have! Or rather, I thought so. The search engine
+insisted that I spelled it "`Mortlach Càrn Mòr`_" and wouldn't find it if I used
+"Carn Mor" :-/ 
+
+This whisky is not from a single cask, but rather from two casks yielding 652
+bottles. The whisky is non-chill filtered and has no colouring added. It is
+bottled at 46% ABV by `Morrison and MacKay`_ for their Strictly Limited range.
+The "two" whiskies are at least 16 years old and aged in Hogshead_ casks.
 
 *Tasting notes*: Smooth and creamy honey on the tongue. Light summer fruits
 and caramel after taste. Could do with a few drops of water to make the
 flavours come out more.
 
-.. _`whisky is 16 years`: 
+.. _`Mortlach Càrn Mòr`: http://www.whiskybase.com/whisky/43267/mortlach-1997-cm
 .. _Mortlach: http://www.whiskybase.com/distillery/75/mortlach
 .. _`Morrison and MacKay`: http://www.whiskybase.com/bottler/77630/morrison-and-mackay
 .. _Hogshead: https://en.wikipedia.org/wiki/Hogshead
