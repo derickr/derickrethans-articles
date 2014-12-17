@@ -120,5 +120,28 @@ flavours come out more.
 .. _`Morrison and MacKay`: http://www.whiskybase.com/bottler/77630/morrison-and-mackay
 .. _Hogshead: https://en.wikipedia.org/wiki/Hogshead
 
+December 16th: Millstone 1999 from Milroy's
+-------------------------------------------
+
+.. image:: /images/content/whisky/day16-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day16-label.jpg
+   :align: left
+
+The first non Scottish whisky in this calendar. Tonight we have a Dutch
+whisky, distilled in 1999 by `Zuidam Distillery`_, and bottled by `Milroy's of
+Soho`_ in 2013. This `Millstone 1999`_ is one of 271 bottles of a 14 year old
+single cask whisky matured in Sherry Casks. It is 46% ABV and again, non-chill
+filtered and it does not have colouring added. The whisky itself is quite dark
+of colour, rather like a sherry.
+
+*Tasting notes*: Raisins, cinnamon, and a sweet sherry. The medium to longer
+finish is a bit oily and has a hint of oak and cherries.
+
+.. _`Zuidam Distillery`: http://www.whiskybase.com/distillery/81289/zuidam-distillery
+.. _`Milroy's of Soho`: http://www.whiskybase.com/bottler/77543/milroys-of-soho
+.. _`Millstone 1999`: http://www.whiskybase.com/whisky/54800/millstone-1999-soh
+
 .. [#] The "bottle of the month" is a longer running project. I will blog
    about that at some point later.
