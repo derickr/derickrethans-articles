@@ -143,5 +143,32 @@ finish is a bit oily and has a hint of oak and cherries.
 .. _`Milroy's of Soho`: http://www.whiskybase.com/bottler/77543/milroys-of-soho
 .. _`Millstone 1999`: http://www.whiskybase.com/whisky/54800/millstone-1999-soh
 
+December 17th: Yamazaki 18
+--------------------------
+
+.. image:: /images/content/whisky/day17-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day17-label.jpg
+   :align: left
+
+This `Yamazaki 18`_ from Suntory_ distillery is another non-Scottish whisky.
+As the name might hint at, this is Japanese. Some people might frown upon
+that, but "annoyingly", the Japanese actually make very good whiskies. This
+one, the Yamazaki is one of my favourites, but it does not come cheap.
+Luckily, it was given to me as a gift_ for my work on Xdebug_. Since this
+Yamazaki 18, I've had another whisky, the `Hakushu Distiller's Reserve`_ that
+I actually like better. But that's empty.
+
+*Tasting notes*: Very dark of colour. A little oily on the palette. Bubblegum,
+apricot and sweet fruits, a few herbs and spices. Fruits and woody flavours in
+the aftertaste that lingers quite a bit.
+
+.. _`Yamazaki 18`: http://www.whiskybase.com/whisky/5555/yamazaki-18-year-old
+.. _`Suntory`: http://www.whiskybase.com/distillery/171/yamazaki
+.. _`Hakushu Distiller's Reserve`: http://www.whiskybase.com/whisky/52853/hakushu-distillers-reserve
+.. _gift: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
+.. _Xdebug: http://xdebug.org
+
 .. [#] The "bottle of the month" is a longer running project. I will blog
    about that at some point later.
