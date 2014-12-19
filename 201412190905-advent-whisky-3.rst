@@ -170,5 +170,27 @@ the aftertaste that lingers quite a bit.
 .. _gift: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
 .. _Xdebug: http://xdebug.org
 
+December 18th: Imperial 1994
+----------------------------
+
+.. image:: /images/content/whisky/day18-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day18-label.jpg
+   :align: left
+
+This `Imperial 1994`_ is bottled by `Gordon & MacPhail`_ as part of their
+Distillery Labels range. It is a first fill sherry butt and refill American
+hogshead. As the name suggests, it was distilled in 1994. The Imperial_
+distillery is now closed though. This whisky was bottled in
+2012 making it 18 years old. It is 43% ABV.
+
+*Tasting notes*: Smells sweet, fruity and nutty. Smooth on the palette and
+vanilla, pepper and some tropical fruits in the aftertaste.
+
+.. _`Imperial 1994`: http://www.whiskybase.com/whisky/38765/imperial-1994-gm
+.. _Imperial: http://www.whiskybase.com/distillery/116/imperial
+.. _`Gordon & MacPhail`: http://www.whiskybase.com/bottler/77363/gordon-macphail
+
 .. [#] The "bottle of the month" is a longer running project. I will blog
    about that at some point later.
