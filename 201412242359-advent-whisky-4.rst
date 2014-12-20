@@ -1,0 +1,32 @@
+Whisky Advent: part 4
+=====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2014-12-24 23:59 Europe/London
+   :Tags: blog, whisky
+   :Short: whiskyad4
+
+December 19th: GlenDronach Parliament 21
+----------------------------------------
+
+.. image:: /images/content/whisky/day19-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day19-label.jpg
+   :align: left
+
+This is another bottle that I got given as a gift for Xdebug_. It is a 21 year
+old whisky from the GlenDronach_ distillery. This `GlenDronach Parliament`_
+has been matured in a combination of Oloroso *and* Pedro Ximinez sherry casks.
+It is a bit stronger at 48% ABV. 
+
+*Tasting notes*: Very dark colour. Also very sweet, a tad spicy and hints of
+plums and other fruits. The sherry flavours are have a big overtone, but don't 
+over power. The whisky ends with an oaky finish. A drop of water doesn't
+really help.
+
+.. _Xdebug: http://xdebug.org
+.. _GlenDronach: http://www.whiskybase.com/distillery/101/glendronach
+.. _`GlenDronach Parliament`: http://www.whiskybase.com/whisky/53238/glendronach-parliament
+
