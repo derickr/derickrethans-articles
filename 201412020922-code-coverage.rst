@@ -35,7 +35,7 @@ the code could never be hit. Take for example the following code::
 	6: ?>
 
 This array definition produces the following opcodes, PHP's internal
-representation of your code (simplified from vld_ output)::
+representation of your code (simplified from VLD_ output)::
 
 	line     #* op                 return  operands
 	-------------------------------------------------
@@ -93,7 +93,7 @@ Besides code coverage and finding out which lines *can* be covered, Xdebug
 can also find which parts of your code can never be reached: dead code.
 
 I implemented the algorithms to find dead code in another one of my side
-projects first: vld_. It is a tool that shows PHP's internal compilation units
+projects first: VLD_. It is a tool that shows PHP's internal compilation units
 (opcodes), just like in the array example above. Because it is a much smaller
 and simpler tool, testing new algorithms out in it makes things a lot easier
 than trying to get it into Xdebug immediately.
@@ -217,7 +217,7 @@ part I will cover an upcoming feature.
 .. _`xdebug_get_code_coverage()`: http://xdebug.org/docs/code_coverage#xdebug_get_code_coverage
 .. _Xdebug: http://xdebug.org
 .. _bug: http://bugs.xdebug.org/view.php?id=1088
-.. _vld: http://derickrethans.nl/projects.html#vld
+.. _VLD: http://derickrethans.nl/projects.html#vld
 .. _`PR #134`: https://github.com/xdebug/xdebug/pull/134
 .. _`PHP CodeCoverage`: https://packagist.org/packages/phpunit/php-code-coverage
 
