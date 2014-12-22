@@ -59,3 +59,29 @@ Well balanced.
 .. _12: http://www.whiskybase.com/whisky/11393/springbank-12-year-old-ca
 .. _15: http://www.whiskybase.com/whisky/358/springbank-15-year-old
 
+
+December 21th: Cradle Mountain from Cadenhead
+---------------------------------------------
+
+.. image:: /images/content/whisky/day21-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day21-label.jpg
+   :align: left
+
+Another unusual whisky. Tonight's `Cradle Mountain 15`_ is distilled by 
+`Small Concern Whisky Distillery`_, a distillery in Tasmania. It is bottled by 
+Cadenhead_ at 57.9% ABV as part of their World Whiskies series. It has been
+aged for 15 years in ex. Jim Beam Bourbon Barrels. It is one of 186 bottles,
+and as you would expect with a single cask whisky, it does not have colouring
+added, or has it been chill-filtered.
+
+*Tasting notes*: Very much in your face. It's sweet and syrup, but also oaky.
+The bourbon certainly has made its impression on this one. I would almost go
+as far as saying that it  has more of a liqueur flavour to it than a "normal"
+whisky. It gets better with a drop of water, and the finish is long lingering
+with tropical fruits.
+
+.. _`Cradle Mountain 15`: http://www.whiskybase.com/whisky/27929/cradle-mountain-1996-ca
+.. _`Small Concern Whisky Distillery`: http://www.whiskybase.com/distillery/296/cradle-mountain
+.. _Cadenhead: http://www.whiskybase.com/bottler/77375/cadenhead
