@@ -131,3 +131,27 @@ it's rather sharp, but there are hints of citrus and pepper.
 
 .. _`The English Whisky Company`: http://www.whiskybase.com/distillery/236/the-english-whisky
 .. _`Chapter 9`: http://www.whiskybase.com/whisky/55771/the-english-whisky-2010
+
+December 24nd: Glenmorangie Quarter Century
+-------------------------------------------
+
+.. image:: /images/content/whisky/day24-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day24-label.jpg
+   :align: left
+
+This is the most expensive whisky in my collection, but I don't think it is
+the best one. Some of the whiskies from Cadenhead's that I featured in earlier
+days in this advent calendar are several leagues ahead. Nonetheless, I am
+quite happy having a bottle of this `Glenmorangie Quarter Century`_. It comes
+in a nice box too. I like this whisky even better, as it was another gift due
+to my work on Xdebug_.
+
+*Tasting notes*: It is a very rounded whisky, floral hints and citrus. The
+flavours are quite a mouth full and a lot is going on. There is also a toasty
+sweetness. It lingers a little while with a oaky after taste. A very enjoyable
+dram.
+
+.. _`Glenmorangie Quarter Century`: http://www.whiskybase.com/whisky/29607/glenmorangie-quarter-century
+
