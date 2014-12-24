@@ -107,3 +107,27 @@ be aged more, as there is unfortunately very little character to it.
 
 .. _`batch 003`:
 .. _`Highland Harvest`: http://www.whiskybase.com/brand/83083/highland-harvest
+
+December 23nd: The English Whisky 2010 - Chapter 9
+--------------------------------------------------
+
+.. image:: /images/content/whisky/day23-glass.jpg
+   :align: right
+
+.. image:: /images/content/whisky/day23-label.jpg
+   :align: left
+
+Tonight's whisky is a dram from `The English Whisky Company`_. Yes, a
+distillery from England. This `Chapter 9`_ is the first ever English peated
+whisky, bottled at 46% ABV and is mixed from four casks. The distillery
+started distilling in 2006, and is therefore very young. The English Whisky
+Co. source their barley, yeast and water from within England, making this a
+truly English spirit. It is also a very young whisky, at only 3 years old. It
+is non-chill filtered, and it does not have colour added.
+
+*Tasting notes*: Peated, light smoke. A bit watery on the palette, with not
+much of an after taste. You can easily taste that it is a very young whisky as
+it's rather sharp, but there are hints of citrus and pepper.
+
+.. _`The English Whisky Company`: http://www.whiskybase.com/distillery/236/the-english-whisky
+.. _`Chapter 9`: http://www.whiskybase.com/whisky/55771/the-english-whisky-2010
