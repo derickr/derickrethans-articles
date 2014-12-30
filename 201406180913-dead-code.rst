@@ -10,6 +10,7 @@ Dead Code
 Frequently I have been asked why Xdebug_ sees "dead code" in places where
 people don't expect it. Most often this is related_ to PHPUnit's Code Coverage
 in the following situations::
+and the situation is likely as follows::
 
     1:  <?php
     2:  function foo()
@@ -28,8 +29,8 @@ adding hooks into certain opcodes. Opcodes are the building blocks of
 oparrays. PHP converts each element in your script—main body, method,
 function—to oparrays when it parses them. The PHP engine then executes those
 oparrays by running some code for each opcode. Opcodes are generated, but they
-are not optimised. Which means that it does not remove opcodes that can not be
-executed.
+are not optimised. Which means that opcodes that can not be executed are not
+removed by the runtime.
 
 With vld_ we can see which opcodes are generated. For the above script, there
 are two elements. The main body of the script, and the foo function. I used
