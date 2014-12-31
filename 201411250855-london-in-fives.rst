@@ -8,8 +8,8 @@ London in Fives: The Making Of
    :Short: ldni5s
 
 A few days ago I published a video called "London in Fives" on Vimeo. In this
-article I am explaining how I made this, including the hardware and software
-that I used.
+article I explain how I made this, including the hardware and software that I
+used.
 
 But first, let's have a look at the video itself:
 
@@ -19,29 +19,29 @@ But first, let's have a look at the video itself:
    :Width: 640
    :Height: 360
 
-There are 25 sections in this video, each taking 5 seconds. Because the
-frame rate is 25 fps, that means there are 125 frames per segment. All those
+There are 25 scenes in this video, each taking 5 seconds. Because the
+frame rate is 25 fps, that means there are 125 frames per scene. All those
 numbers are powers of 5, hence the title of the film: **London in Fives**.
 
-The first and last segments are merely the title and end credits, and are just
-a series of images. The more interesting bits are the 23 segments in between.
+The first and last scenes are merely the title and end credits, and are just
+a series of images. The more interesting bits are the 23 scenes in between.
 
 Hardware
 --------
 
-All these segments are made from single frame shots from my Nikon D300 DSLR
+All these scenes are made from single frame shots from my Nikon D300 DSLR
 camera. It has a feature that allows a picture to be taken every 5 seconds
-automatically. For all segments, except for the night time shot of Covent
+automatically. For all scenes, except for the night time shot of Covent
 Garden and the Ice Skating, that created the raw images.
 
-For each segment, I usually took a few more shots than the 125 required,
+For each scene, I usually took a few more shots than the 125 required,
 usually up to a 150, to have a bit of a choice of where to start and end the
-segment. In one case (the Regent's Park sunrise in the fog segment), I was happy
+scene. In one case (the Regent's Park sunrise in the fog scene), I was happy
 that I did! Due to a hard drive failure I fortunately managed to only lose
 a few images, so that I still had just 125 left!
 
 Of course it is important to keep the camera steady between all of the shots.
-In most of the segments I used a `GorillaPod`_, a three legged flexible
+In most of the scenes I used a `GorillaPod`_, a three legged flexible
 tripod where each leg can wrap around objects. In the later scenes, I used a
 normal stand-up tripod, a `Manfrotto befree`_.
 
@@ -49,14 +49,14 @@ normal stand-up tripod, a `Manfrotto befree`_.
    :align: right
 
 The camera movements are all done in post production, except for the night
-time shot of Covent Garden and the Ice Skating segments. Instead of
+time shot of Covent Garden and the Ice Skating scenes. Instead of
 using my camera's "take a photo every x seconds" feature, I relied on hardware
 to take both a photo every 5 seconds, but also rotate the camera slightly on
 top of its tripod. The time lapsing device that I used to rotate and instruct
 the camera to take a photo every 5 seconds is an Astro_. This is a disk like
 device that can rotate around one axis and instruct the camera through a cable
 to take a photo at specific intervals over a certain period of time. I think
-that for future time lapses I will not rotate more than 30° for a 125 segment
+that for future time lapses I will not rotate more than 30° for a 125 scene
 shoot as otherwise it goes a bit too fast. 
 
 To make sure I had my camera perfectly horizontal on my camera, I used a
@@ -69,10 +69,10 @@ After taking the photos, some post-processing was necessary. There are three
 types of post-processing that I had to do, depending on how the photos were
 shot.
 
-For the two segments created with the Astro, I really only had to rescale the
+For the two scenes created with the Astro, I really only had to rescale the
 photos from the camera's native resolution to 1280x720.
 
-For one other segment (Regent's Park sunrise in the fog), the GorillaPod was
+For one other scene (Regent's Park sunrise in the fog), the GorillaPod was
 sitting on a bench that didn't turn out to be stable enough and lots of
 instability was introduced among the different images. I used `Hugin's`_
 `align_image_stack`_ tool to align them in such a way they formed a stable
@@ -89,14 +89,14 @@ area that all images shared.
 
 .. image:: /images/content/londonin5s-align.png
 
-After the image alignment for this particular segment, I could process it the
-same as the other 20 segments that were not taken with help from the Astro.
+After the image alignment for this particular scene, I could process it the
+same as the other 20 scenes that were not taken with help from the Astro.
 
 For the sequences not taken with the Astro, the resulting video still shows
 camera movement. This is absolutely artificial, and is basically done by
 cropping the right section out of each image. I varied the size and location
 of the cut out sections for each image to emulate a moving, and zooming
-camera. For one segment, the Oxford Circus crossing one, I also had to adjust
+camera. For one scene, the Oxford Circus crossing one, I also had to adjust
 rotation as the horizon wasn't flush. The rotating and cropping was done
 through fairly simple PHP scripts using the GD library.
 
@@ -152,8 +152,8 @@ Creating Video from Images
 --------------------------
 
 After I post-processed all the image sequences, I used ffmpeg_ with a "magic
-incantation" to create video segments. I wanted to render to webm_ as that
-seemed to be the best encoder. For a sample segment, the ffmpeg_ arguments
+incantation" to create video scenes. I wanted to render to webm_ as that
+seemed to be the best encoder. For a sample scene, the ffmpeg_ arguments
 looked like::
 
 	ffmpeg -y -framerate 25 \
@@ -168,8 +168,8 @@ in directory ``12-south-bank/small/`` with file format ``tl3_%04d.jpg`` at
 ``50mbit`` and a rescaled result of ``1280:720`` pixels. The ``-crf 8``
 selects ultra-high quality for ``vp8``. The output file is ``12.webm``.
 
-I wanted ultra high quality for each segment, as later on I would be
-re-encoding all the segments into the final video file, keeping as much image
+I wanted ultra high quality for each scene, as later on I would be
+re-encoding all the scenes into the final video file, keeping as much image
 definition as I could.
 
 Music
@@ -188,7 +188,7 @@ but I do not think it hurt its original composition.
 Assembling
 ----------
 
-With the video segments and audio prepared, all I had to do is to stitch it
+With the video scenes and audio prepared, all I had to do is to stitch it
 all together. Again, I used ffmpeg_ with another magic incantation to do the
 dirty work. First I stitched all the videos together::
 
