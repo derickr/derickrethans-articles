@@ -3,7 +3,7 @@ Code Coverage: Finding Paths
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-11-04 08:55 Europe/London
+   :Date: 2015-01-07 09:44 Europe/London
    :Tags: blog, php
    :Short: pathcoverage
 
@@ -110,6 +110,53 @@ And then this graph looks like:
 
 .. image:: /images/content/paths.png
 
+With the functionaly added to VLD_, the next step was adding this code to
+Xdebug. Xdebug needs to know about all the paths, but also need figure out
+which branches and paths are actually followed. It needs to overload every
+opcode (PHP's smallest execution unit) handler, as any of them could be at the
+start of a branch. Overloading each opcode handler makes running your code,
+a lot slower unfortunately when with branch/path coverage is enabled. 
+
+Although PHP_CodeCoverage_ does not support it yet, it is possible to
+visualize the new path coverage with help from some helper scripts in Xdebug's
+contrib_ directory. As a similar example as above, the test script would look
+like::
+
+	<?php 
+	require '/home/derick/dev/php/xdebug-xdebug/contrib/branch-coverage-to-dot.php';
+	include 'article2-test.php';
+
+	xdebug_start_code_coverage( 
+		XDEBUG_CC_DEAD_CODE | 
+		XDEBUG_CC_UNUSED | 
+		XDEBUG_CC_BRANCH_CHECK 
+	);
+
+	ifthenelse( true, false );
+
+	ifthenelse( false, true );
+
+	$info = xdebug_get_code_coverage(); 
+	file_put_contents('/tmp/paths.dot', branch_coverage_to_dot( $info ) );
+	?>
+
+This again creates a ``paths.dot`` file that we can convert to an image just
+like above::
+
+    dot -Tpng /tmp/paths.dot > /tmp/paths-covered.png
+
+And then this graph looks like:
+
+.. image:: /images/content/paths-covered.png
+
+This clearly shows we have only covered two of the four possible paths through
+this particular function. PHP_CodeCoverage_ has not been updated yet to
+include this new functionality, so I made a mock-up in the mean while:
+
+.. image:: /images/content/paths-covered-mockup.png
+
+Now it's just waiting until Sebastian_ (or somebody else) has time to upgrade
+PHP_CodeCoverage_ to show the branch and path coverage. Happy hacking!
 
 .. _`last time`: /code-coverage.html
 .. _`#1034`: http://bugs.xdebug.org/view.php?id=1034
@@ -117,3 +164,5 @@ And then this graph looks like:
 .. _VLD: http://derickrethans.nl/projects.html#vld
 .. _`PHP CodeCoverage`: https://packagist.org/packages/phpunit/php-code-coverage
 .. _`GraphViz'`: http://www.graphviz.org/
+.. _contrib: https://github.com/derickr/xdebug/tree/master/contrib
+.. _Sebastian: http://sebastian-bergmann.de
