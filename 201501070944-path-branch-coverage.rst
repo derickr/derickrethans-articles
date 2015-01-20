@@ -7,7 +7,7 @@ Code Coverage: Finding Paths
    :Tags: blog, php
    :Short: pathcoverage
 
-Picking up from `where we left `last time`_, in this second article we will
+Picking up from where we left `last time`_, in this second article we will
 look at some upcoming functionality in Xdebug_. Sebastian has been pressuring
 me for years to add branch and path coverage to Xdebug, with issue `#1034`_. In
 the post I will show you what "branch and path coverage" is, and how it helps.
