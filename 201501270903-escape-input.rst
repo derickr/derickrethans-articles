@@ -17,3 +17,85 @@ thought it'd be wise to reply with this blog post.
 .. _`PHP Benelux`: https://conference.phpbenelux.eu/2015/about/
 .. _tutorial: http://derickrethans.nl/talks/sql2nosql-phpbnl15
 
+The short answer is: **yes, you do need to escape**.
+
+The longer answer is a bit more complicated:
+
+Unlike SQL, inserting, updating and deleting data, as well as querying data,
+does not require the creation of strings in MongoDB. All of the data is always
+used as a variable or a constant. Take for example::
+
+	<?php
+	$c = (new MongoClient())->demo->col;
+	$c->insert( [ 'name' => $_GET['name'] ] );
+	?>
+
+Because we don't need to create a string, there is no issue with SQL
+injections, as the context is very clear. But PHP's request parameters allow
+you to send not only scalar values, but also arrays. If we take the example
+code from above in mind, and request the URL
+``http://localhost/script.php?name[first]=Derick&name[last]=Rethans`` we end
+up inserting as a document::
+
+	[ 'name' => [
+		'first' => 'Derick',
+		'last' => 'Rethans'
+	] ]
+
+And that is probably not something that you would expect.
+
+The same trick is possible when doing queries. Look at this code::
+
+	<?php
+	$c = (new MongoClient())->demo->col;
+
+	$r = $c->findOne( [
+		'user_id' => $_GET['uid'],
+		'password' => $_GET['password']
+	] );
+	?>
+
+If we now would request the URL
+``http://localhost/script.php?uid=3&password[$neq]=foo`` we end up doing the
+following query::
+
+	<?php
+	$c = (new MongoClient())->demo->col;
+
+	$r = $c->findOne( [
+		'user_id' => '3',
+		'password' => [ '$neq' => 'foo' ]
+	] );
+	?>
+
+The password clause in that query, will likely always match. Of course, if you
+are not storing passwords as a hash, you have other problems too. This is just
+a simple example to illustrate the problem.
+
+This same example highlights the second issue - that is that all
+GET/POST/COOKIE parameters enter PHP as strings. Hence my use of ``'3'``
+instead of ``3`` in the above example. MongoDB treats ``'3'`` and ``3``
+differently while matching, and searching for ``'user_id' => '3'`` will not
+find documents where ``3`` is stored as a number. I wrote more extensively
+about that before_.
+
+.. _before: /mongodb-type-juggling.html
+
+So although MongoDB's query language does not require you to build strings,
+and hence to "escape" input, it is required that you either make sure that the
+data is of the correct data type, or you cast::
+
+	<?php
+	$c = (new MongoClient())->demo->col;
+
+	$r = $c->findOne( [
+		'user_id' => (int) $_GET['uid'],
+		'password' => (string) $_GET['password']
+	] );
+	?>
+
+For scalar values, often a cast like I've done above, is the easiest, but in
+some cases you might then end up converting an array to the string ``'Array'``
+or the number ``1``. In most cases, it probably means that if you want to do
+things right, you will need to check the data types of GET/POST/COOKIE
+parameters, and cast, convert, or bail out as appropriate.
