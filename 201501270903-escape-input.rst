@@ -7,11 +7,13 @@ Questions from the Field: Should I Escape My Input, And If So, How?
    :Tags: blog, php, mongodb
    :Short: escinput
 
-At last weekend's `PHP Benelux`_ I gave a tutorial titled "From SQL to NoSQL".
-Large parts of that where on using MongoDB - how to use it from PHP, schema
+At last weekend's `PHP Benelux`_ I gave a tutorial_ titled "From SQL to NoSQL".
+Large parts of that where on using MongoDB—how to use it from PHP, schema
 design, etc. I ran a little short of time, so since then I've been getting
 some questions. One of them being, "Should I Escape My Input, And If So,
 How?". Instead of trying to cram my answer in 140 characters on Twitter, I
 thought it'd be wise to reply with this blog post.
 
+.. _`PHP Benelux`: https://conference.phpbenelux.eu/2015/about/
+.. _tutorial: http://derickrethans.nl/talks/sql2nosql-phpbnl15
 
