@@ -8,10 +8,10 @@ Questions from the Field: Should I Escape My Input, And If So, How?
    :Short: escinput
 
 At last weekend's `PHP Benelux`_ I gave a tutorial_ titled "From SQL to NoSQL".
-Large parts of that where on using MongoDB—how to use it from PHP, schema
-design, etc. I ran a little short of time, so since then I've been getting
-some questions. One of them being, "Should I Escape My Input, And If So,
-How?". Instead of trying to cram my answer in 140 characters on Twitter, I
+Large parts of the tutorial covered using MongoDB—how to use it from PHP,
+schema design, etc. I ran a little short of time, and since then I've been
+getting some questions. One of them being: "Should I escape my input, and if
+so, how?". Instead of trying to cram my answer in 140 characters on Twitter, I
 thought it'd be wise to reply with this blog post.
 
 .. _`PHP Benelux`: https://conference.phpbenelux.eu/2015/about/
@@ -19,10 +19,10 @@ thought it'd be wise to reply with this blog post.
 
 The short answer is: **yes, you do need to escape**.
 
-The longer answer is a bit more complicated:
+The longer answer is a bit more complicated.
 
-Unlike SQL, inserting, updating and deleting data, as well as querying data,
-does not require the creation of strings in MongoDB. All of the data is always
+Unlike with SQL, inserting, updating and deleting data, as well as querying
+data, does not require the creation of strings in MongoDB. All data is always
 used as a variable or a constant. Take for example::
 
 	<?php
@@ -30,19 +30,22 @@ used as a variable or a constant. Take for example::
 	$c->insert( [ 'name' => $_GET['name'] ] );
 	?>
 
-Because we don't need to create a string, there is no issue with SQL
-injections, as the context is very clear. But PHP's request parameters allow
-you to send not only scalar values, but also arrays. If we take the example
-code from above in mind, and request the URL
-``http://localhost/script.php?name[first]=Derick&name[last]=Rethans`` we end
-up inserting as a document::
+Because we don't need to create a string with the full insert statement, there
+is need to escape with ``'`` to prevent issues like SQL injections. The
+context in which variables are used is immediately clear. 
+
+But be aware that PHP's request parameters (GET, POST, COOKIE, and others)
+allow you to send not only scalar values, but also arrays. If we take the
+example code from above in mind, and request the URL
+``http://localhost/script.php?name[first]=Derick&name[last]=Rethans``, we end
+up inserting the following document into the collection::
 
 	[ 'name' => [
 		'first' => 'Derick',
 		'last' => 'Rethans'
 	] ]
 
-And that is probably not something that you would expect.
+And this is probably not what you had in mind.
 
 The same trick is possible when doing queries. Look at this code::
 
@@ -69,21 +72,21 @@ following query::
 	?>
 
 The password clause in that query, will likely always match. Of course, if you
-are not storing passwords as a hash, you have other problems too. This is just
+are not storing passwords as a hash, you have other problems too! This is just
 a simple example to illustrate the problem.
 
 This same example highlights the second issue - that is that all
-GET/POST/COOKIE parameters enter PHP as strings. Hence my use of ``'3'``
-instead of ``3`` in the above example. MongoDB treats ``'3'`` and ``3``
-differently while matching, and searching for ``'user_id' => '3'`` will not
-find documents where ``3`` is stored as a number. I wrote more extensively
+request parameters are always represented by strings in PHP. Hence my use of
+``'3'`` instead of ``3`` in the above example. MongoDB treats ``'3'`` and
+``3`` differently while matching, and searching for ``'user_id' => '3'`` will
+not find documents where ``3`` is stored as a number. I wrote more extensively
 about that before_.
 
 .. _before: /mongodb-type-juggling.html
 
 So although MongoDB's query language does not require you to build strings,
-and hence to "escape" input, it is required that you either make sure that the
-data is of the correct data type, or you cast::
+and hence "escape" input, it **is** required that you either make sure that
+the data is of the correct data type. For example you can do::
 
 	<?php
 	$c = (new MongoClient())->demo->col;
@@ -94,8 +97,10 @@ data is of the correct data type, or you cast::
 	] );
 	?>
 
-For scalar values, often a cast like I've done above, is the easiest, but in
-some cases you might then end up converting an array to the string ``'Array'``
-or the number ``1``. In most cases, it probably means that if you want to do
-things right, you will need to check the data types of GET/POST/COOKIE
-parameters, and cast, convert, or bail out as appropriate.
+For scalar values, often a cast like I've done above, is the easiest, but you
+might end up converting an array to the string ``'Array'`` or the number
+``1``.
+
+In most cases, it means that if you want to do things right, you will need to
+check the data types of GET/POST/COOKIE parameters, and cast, convert, or bail
+out as appropriate.
