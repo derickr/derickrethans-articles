@@ -31,7 +31,7 @@ used as a variable or a constant. Take for example::
 	?>
 
 Because we don't need to create a string with the full insert statement, there
-is need to escape with ``'`` to prevent issues like SQL injections. The
+is no need to escape with ``'`` to prevent issues like SQL injections. The
 context in which variables are used is immediately clear. 
 
 But be aware that PHP's request parameters (GET, POST, COOKIE, and others)
