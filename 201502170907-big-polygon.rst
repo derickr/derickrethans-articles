@@ -43,7 +43,7 @@ The GeoJSON_ format specification does not mention anything about the
 direction or winding of points. The application is left to determine if the
 overall geometry defines an *inclusive* or *exclusive* search area. Both of
 the following images are possible interpretations when just taking the GeoJSON
-spec into account:
+specification into account:
 
 .. image:: images/bigp-london2a.png
 
@@ -56,9 +56,9 @@ address winding, sometimes applications make `wrong decisions`_.
 .. _GeoJSON: http://geojson.org/geojson-spec.html
 .. _`wrong decisions`: https://github.com/mapbox/tilemill/issues/2110
 
-MongoDB deterministicly chooses the area that is the "smallest of the two". For
-our query, it would consider the polygon as an *inclusive* search area, which is
-the first of the two interpretations shown above.
+MongoDB deterministically chooses the area that is the "smallest of the two".
+For our query, it would consider the polygon as an *inclusive* search area,
+which is the first of the two interpretations shown above.
 
 This logic works for most applications, but it falls apart when you want to find
 objects within a polygon that spans more than half of the Earth's surface.
@@ -78,9 +78,10 @@ This results in the following two possibilities:
 .. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
 .. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
 
-GeoJSON allows us to specify a custom coordinate reference system on any
-geometry object via a ``crs`` property. In the query, this would appear as an
-extra option within the ``$geoWithin`` or ``$geoIntersects`` criteria::
+MongoDB's implementation of GeoJSON allows us to specify a custom coordinate
+reference system on any geometry object via a ``crs`` property. In the query,
+this would appear as an extra option within the ``$geoWithin`` or
+``$geoIntersects`` criteria::
 
     <?php
     $c = (new MongoClient())->demo->points;
@@ -108,6 +109,6 @@ extra option within the ``$geoWithin`` or ``$geoIntersects`` criteria::
     ?>
 
 This example is only relevant when searching an area that is larger than half of
-the Earth's surface. In most cases, the default "smallest of the two" behavior
+the Earth's surface. In most cases, the default "smallest of the two" behaviour
 will be sufficient and you will not need to specify a custom coordinate
 reference system.
