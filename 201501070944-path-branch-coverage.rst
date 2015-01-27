@@ -49,7 +49,7 @@ We now run this through `PHP CodeCoverage`_ (``article2.php``)::
 
 Which outputs:
 
-.. relimage:: images/code-coverage-new.png
+.. image:: images/code-coverage-new.png
 
 And this nicely tells you that all your lines have been executed. However, you
 have not *tested* everything. With two ``if`` statements, there are four
