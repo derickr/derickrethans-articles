@@ -65,16 +65,17 @@ objects within a polygon that spans more than half of the Earth's surface.
 
 When the polygon is larger than half of the Earth's surface, the "smallest of
 the two" is actually the area we intended to **exclude**. Thankfully, MongoDB
-supports a special coordinate reference system, which can force geospatial
-queries to consider the direction of coordinates in deciding upon an *inclusive*
-or *exclusive* area. Consistent with KML_, and `WKT/WKB`_, counter-clockwise and
-clockwise winding will imply *inclusive* and *exclusive* behavior, respectively.
-This results in the following two possibilities:
+supports a special `coordinate reference system`_ (CRS), which can force
+geospatial queries to consider the direction of coordinates in deciding upon
+an *inclusive* or *exclusive* area. Consistent with KML_, and `WKT/WKB`_,
+counter-clockwise and clockwise winding will imply *inclusive* and *exclusive*
+behaviour, respectively. This results in the following two possibilities:
 
 .. image:: images/bigp-london3a.png
 
 .. image:: images/bigp-london3b.png
 
+.. _`coordinates reference system`: http://en.wikipedia.org/wiki/Spatial_reference_system
 .. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
 .. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
 
