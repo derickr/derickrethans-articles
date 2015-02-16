@@ -63,6 +63,13 @@ which is the first of the two interpretations shown above.
 This logic works for most applications, but it falls apart when you want to find
 objects within a polygon that spans more than half of the Earth's surface.
 
+In the small example of London, you would certainly expect the smallest area,
+the one that covers London to be the search area. But when we consider this
+much larger polygon (a circle centred around 25°N, 90°E with a diameter of
+115°), then it is not so obvious:
+
+.. image:: images/bigp-world1.png
+
 When the polygon is larger than half of the Earth's surface, the "smallest of
 the two" is actually the area we intended to **exclude**. Thankfully, MongoDB
 supports a special `coordinate reference system`_ (CRS), which can force
@@ -78,6 +85,8 @@ behaviour, respectively. This results in the following two possibilities:
 .. _`coordinates reference system`: http://en.wikipedia.org/wiki/Spatial_reference_system
 .. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
 .. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
+
+The Big Polygon support in MongoDB 3.0 addresses this.
 
 MongoDB's implementation of GeoJSON allows us to specify a custom coordinate
 reference system on any geometry object via a ``crs`` property. In the query,
