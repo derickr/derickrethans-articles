@@ -7,8 +7,12 @@ MongoDB 3.0 features: Big Polygon
    :Tags: blog, php, mongodb
    :Short: bigpolygon
 
-MongoDB has supported geospatial_ queries for quite some time now. Finding
-objects in a specific area (polygon) can be done like so::
+MongoDB has supported geospatial_ queries since MongoDB 1.4, and has added new geospatial 
+features with most releases, including support for simple polygons in MongoDB 2.0, GeoJSON in MongoDB 2.4, 
+and several new capabilities_ in MongoDB 2.6. In this post we'll cover a new feature in MongoDB 3.0 
+for searching polygons that are larger than half the earth's surface.
+
+Finding objects in a specific area (polygon) can be done like so::
 
     <?php
     $c = (new MongoClient())->demo->points;
@@ -55,8 +59,9 @@ address winding, sometimes applications make `wrong decisions`_.
 .. _geospatial: http://docs.mongodb.org/v3.0/applications/geospatial-indexes/
 .. _GeoJSON: http://geojson.org/geojson-spec.html
 .. _`wrong decisions`: https://github.com/mapbox/tilemill/issues/2110
+.. _capabilities: http://docs.mongodb.org/manual/release-notes/2.6/#geospatial-enhancements
 
-MongoDB deterministically chooses the area that is the "smallest of the two".
+MongoDB deterministically chooses the area that is the "smallest of the two."
 For our query, it would consider the polygon as an *inclusive* search area,
 which is the first of the two interpretations shown above.
 
@@ -86,7 +91,7 @@ behaviour, respectively. This results in the following two possibilities:
 .. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
 .. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
 
-The Big Polygon support in MongoDB 3.0 addresses this.
+Big Polygon support in MongoDB 3.0 addresses this.
 
 MongoDB's implementation of GeoJSON allows us to specify a custom coordinate
 reference system on any geometry object via a ``crs`` property. In the query,
