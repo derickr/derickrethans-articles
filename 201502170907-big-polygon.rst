@@ -7,8 +7,15 @@ MongoDB 3.0 features: Big Polygon
    :Tags: blog, php, mongodb
    :Short: bigpolygon
 
-MongoDB has supported geospatial_ queries for quite some time now. Finding
-objects in a specific area (polygon) can be done like so::
+MongoDB has supported geospatial_ queries since MongoDB 1.4, and has added new
+geospatial features with most releases, including support for simple polygons
+in MongoDB 2.0, GeoJSON in MongoDB 2.4, and several new capabilities_ in
+MongoDB 2.6. In this post we'll cover a new feature in MongoDB 3.0 for
+searching polygons that are larger than half the earth's surface. I am using
+PHP for my examples, but of course you can do this from any other supported
+language too.
+
+Finding objects in a specific area (polygon) can be done like so::
 
     <?php
     $c = (new MongoClient())->demo->points;
@@ -55,6 +62,7 @@ address winding, sometimes applications make `wrong decisions`_.
 .. _geospatial: http://docs.mongodb.org/v3.0/applications/geospatial-indexes/
 .. _GeoJSON: http://geojson.org/geojson-spec.html
 .. _`wrong decisions`: https://github.com/mapbox/tilemill/issues/2110
+.. _capabilities: http://docs.mongodb.org/manual/release-notes/2.6/#geospatial-enhancements
 
 MongoDB deterministically chooses the area that is the "smallest of the two".
 For our query, it would consider the polygon as an *inclusive* search area,
@@ -86,12 +94,16 @@ behaviour, respectively. This results in the following two possibilities:
 .. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
 .. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
 
-The Big Polygon support in MongoDB 3.0 addresses this.
+Big Polygon support in MongoDB 3.0 addresses this.
 
 MongoDB's implementation of GeoJSON allows us to specify a custom coordinate
-reference system on any geometry object via a ``crs`` property. In the query,
-this would appear as an extra option within the ``$geoWithin`` or
-``$geoIntersects`` criteria::
+reference system on any geometry object via a ``crs`` property. Currently
+MongoDB only supports our custom CRS_,
+``urn:x-mongodb:crs:strictwinding:EPSG:4326``, to specify strict winding. In
+the future, MongoDB is likely to support others_, such as the `US National
+Grid`_, UTM_ or the UK's `Ordnance Survey National Grid`_ as well. In the
+query, our custom CRS_ would appear as an extra option within the
+``$geoWithin`` or ``$geoIntersects`` criteria::
 
     <?php
     $c = (new MongoClient())->demo->points;
@@ -122,3 +134,8 @@ This example is only relevant when searching an area that is larger than half of
 the Earth's surface. In most cases, the default "smallest of the two" behaviour
 will be sufficient and you will not need to specify a custom coordinate
 reference system.
+
+.. _`US National Grid`: http://en.wikipedia.org/wiki/United_States_National_Grid
+.. _UTM: http://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
+.. _`Ordnance Survey National Grid`: http://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid
+.. _others: https://jira.mongodb.org/browse/SERVER-15388?focusedCommentId=740133&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-740133
