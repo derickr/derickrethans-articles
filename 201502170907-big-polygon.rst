@@ -7,10 +7,11 @@ MongoDB 3.0 features: Big Polygon
    :Tags: blog, php, mongodb
    :Short: bigpolygon
 
-MongoDB has supported geospatial_ queries since MongoDB 1.4, and has added new geospatial 
-features with most releases, including support for simple polygons in MongoDB 2.0, GeoJSON in MongoDB 2.4, 
-and several new capabilities_ in MongoDB 2.6. In this post we'll cover a new feature in MongoDB 3.0 
-for searching polygons that are larger than half the earth's surface.
+MongoDB has supported geospatial_ queries since MongoDB 1.4, and has added new
+geospatial features with most releases, including support for simple polygons
+in MongoDB 2.0, GeoJSON in MongoDB 2.4, and several new capabilities_ in
+MongoDB 2.6. In this post we'll cover a new feature in MongoDB 3.0 for
+searching polygons that are larger than half the earth's surface.
 
 Finding objects in a specific area (polygon) can be done like so::
 
