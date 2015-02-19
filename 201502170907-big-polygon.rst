@@ -62,7 +62,7 @@ address winding, sometimes applications make `wrong decisions`_.
 .. _`wrong decisions`: https://github.com/mapbox/tilemill/issues/2110
 .. _capabilities: http://docs.mongodb.org/manual/release-notes/2.6/#geospatial-enhancements
 
-MongoDB deterministically chooses the area that is the "smallest of the two."
+MongoDB deterministically chooses the area that is the "smallest of the two".
 For our query, it would consider the polygon as an *inclusive* search area,
 which is the first of the two interpretations shown above.
 
