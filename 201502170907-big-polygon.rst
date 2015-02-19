@@ -97,9 +97,13 @@ behaviour, respectively. This results in the following two possibilities:
 Big Polygon support in MongoDB 3.0 addresses this.
 
 MongoDB's implementation of GeoJSON allows us to specify a custom coordinate
-reference system on any geometry object via a ``crs`` property. In the query,
-this would appear as an extra option within the ``$geoWithin`` or
-``$geoIntersects`` criteria::
+reference system on any geometry object via a ``crs`` property. Currently
+MongoDB only supports our custom CRS_,
+``urn:x-mongodb:crs:strictwinding:EPSG:4326``, to specify strict winding. In
+the future, MongoDB is likely to support others_, such as the `US National
+Grid`_, UTM_ or the UK's `Ordnance Survey National Grid`_ as well. In the
+query, our custom CRS_ would appear as an extra option within the
+``$geoWithin`` or ``$geoIntersects`` criteria::
 
     <?php
     $c = (new MongoClient())->demo->points;
@@ -130,3 +134,8 @@ This example is only relevant when searching an area that is larger than half of
 the Earth's surface. In most cases, the default "smallest of the two" behaviour
 will be sufficient and you will not need to specify a custom coordinate
 reference system.
+
+.. _`US National Grid`: http://en.wikipedia.org/wiki/United_States_National_Grid
+.. _UTM: http://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
+.. _`Ordnance Survey National Grid`: http://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid
+.. _others: https://jira.mongodb.org/browse/SERVER-15388?focusedCommentId=740133&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-740133
