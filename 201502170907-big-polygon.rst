@@ -91,6 +91,7 @@ behaviour, respectively. This results in the following two possibilities:
 .. image:: images/bigp-london3b.png
 
 .. _`coordinate reference system`: http://en.wikipedia.org/wiki/Spatial_reference_system
+.. _CRS: http://en.wikipedia.org/wiki/Spatial_reference_system
 .. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
 .. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
 
