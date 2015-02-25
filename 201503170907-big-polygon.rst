@@ -1,0 +1,147 @@
+MongoDB 3.0 features: Big Polygon
+=================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-03-17 09:07 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: bigpolygon
+
+MongoDB has had geospatial_ query support since MongoDB 1.4. In subsequent
+versions the server has added a range of features, such as GeoJSON in MongoDB
+2.4. In this post I will cover a new feature in MongoDB 3.0 for searching
+polygons that are larger than a hemisphere.
+
+Finding objects in a specific area (polygon) can be done with the
+`$geoWithin`_ operator as illustrated below::
+
+    <?php
+    $c = (new MongoClient())->demo->points;
+
+    $c->find( [
+        'loc' => [
+            '$geoWithin' => [
+                'type' => 'Polygon',
+                'coordinates' => [ [
+                    [ -0.91, 51.74 ], 
+                    [ -0.91, 51.27 ],
+                    [  0.67, 51.27 ],
+                    [  0.67, 51.74 ],
+                    [ -0.91, 51.74 ]
+                ] ]
+            ]
+        ]
+    ] );
+    ?>
+
+.. _`$geoWithin`: http://docs.mongodb.org/manual/reference/operator/query/geoWithin/
+
+The GeoJSON_ format, which we use in this query as argument to the
+``$geoWithin`` operator, defines a polygon as an array of linear rings, which
+themselves are a list of coordinate pairs beginning and ending with the same
+point to form a closed ring. The first linear ring is required and defines the
+exterior boundary of the polygon. Subsequent rings, if specified, would define
+interior boundaries (i.e. holes) within the polygon.
+
+As an image, the geometry in this query looks like:
+
+.. image:: images/bigp-london1.png
+
+The GeoJSON_ format specification does not give any meaning about the
+direction or winding of points. The application is left to determine which
+side of the geometry is the search area. Both of the following images are
+possible interpretations when just taking the GeoJSON specification into
+account:
+
+.. image:: images/bigp-london2a.png
+
+.. image:: images/bigp-london2b.png
+
+The interpretation of which part forms the search area would of course provide
+very different results! Because GeoJSON does not address winding, sometimes
+applications make `wrong decisions`_.
+
+.. _geospatial: http://docs.mongodb.org/v3.0/applications/geospatial-indexes/
+.. _GeoJSON: http://geojson.org/geojson-spec.html
+.. _`wrong decisions`: https://github.com/mapbox/tilemill/issues/2110
+.. _capabilities: http://docs.mongodb.org/manual/release-notes/2.6/#geospatial-enhancements
+
+MongoDB deterministically chooses the area that is the "smallest of the two".
+For our query, it would consider the polygon that is shown first of the two
+interpretations shown above.
+
+This logic works for most applications, but it falls apart when you want to find
+objects within a polygon that spans more than a hemisphere.
+
+In the small example of London, you would certainly expect the smallest area,
+the one that covers London to be the search area. But when we consider this
+much larger polygon (a circle centred around 25°N, 90°E with a diameter of
+115°), then it is not so obvious:
+
+.. image:: images/bigp-world1.png
+
+When the polygon is larger than a hemisphere, i.e. larger than half of the
+Earth's surface, the "smallest of the two" is actually the area we intended to
+**exclude**. From MongoDB 3.0 a custom `coordinate reference system`_ (CRS)
+is supported, which forces geospatial queries with a polygon search area to
+consider the direction of coordinates in deciding which side is the search
+area. Consistent with KML_, and `WKT/WKB`_, the search area is determined to
+be the area that is on the left hand side of the direction of points. MongoDB
+calls this "strict winding". With strict winding enabled through our custom
+CRS, the following two possibilities can be considered:
+
+.. image:: images/bigp-london3a.png
+
+.. image:: images/bigp-london3b.png
+
+.. _`coordinate reference system`: http://en.wikipedia.org/wiki/Spatial_reference_system
+.. _CRS: http://en.wikipedia.org/wiki/Spatial_reference_system
+.. _KML: http://en.wikipedia.org/wiki/Keyhole_Markup_Language
+.. _`WKT/WKB`: http://en.wikipedia.org/wiki/Well-known_text
+
+MongoDB's implementation of GeoJSON allows us to specify a custom coordinate
+reference system on any geometry object via a ``crs`` property. Currently
+MongoDB only supports our custom CRS_,
+``urn:x-mongodb:crs:strictwinding:EPSG:4326``, to specify strict winding. In
+the future, MongoDB could also support others_, such as UTM_, the `US National
+Grid`, or the UK's `Ordnance Survey National Grid`_. The addition of support
+for this ``crs`` property is called "Big Polygon support" in MongoDB.
+
+In a query, our custom CRS_ would appear as an extra argument within the
+``$geoWithin`` or ``$geoIntersects`` criteria, on the same level as ``type``
+and ``coordinates``::
+
+    <?php
+    $c = (new MongoClient())->demo->points;
+
+    $c->find( [
+        'loc' => [
+            '$geoWithin' => [
+                'type' => 'Polygon',
+                'coordinates' => [ [
+                    [ -0.91, 51.74 ], 
+                    [ -0.91, 51.27 ],
+                    [  0.67, 51.27 ],
+                    [  0.67, 51.74 ],
+                    [ -0.91, 51.74 ]
+                ] ],
+                'crs' => [
+                    'type' => 'name',
+                    'properties' => [
+                        'name' => 'urn:x-mongodb:crs:strictwinding:EPSG:4326'
+                    ]
+                ]
+            ]
+        ]
+    ] );
+    ?>
+
+The use of the custom CRS is only relevant when searching an area that is
+larger than a hemisphere. In most cases, the default "smallest of the two"
+behaviour will be sufficient and you will not need to specify a custom
+CRS_.
+
+.. _`US National Grid`: http://en.wikipedia.org/wiki/United_States_National_Grid
+.. _UTM: http://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
+.. _`Ordnance Survey National Grid`: http://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid
+.. _others: https://jira.mongodb.org/browse/SERVER-15388?focusedCommentId=740133&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-740133
