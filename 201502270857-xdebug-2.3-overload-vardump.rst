@@ -4,7 +4,7 @@ Xdebug 2.3: Moar var_dump()
 .. articleMetaData::
    :Where: London, UK
    :Date: 2015-02-27 08:57 Europe/London
-   :Tags: blog, php, mongodb
+   :Tags: blog, php, xdebug
    :Short: vardump23
 
 This is the first article in a series about the new features in Xdebug_ 2.3,
