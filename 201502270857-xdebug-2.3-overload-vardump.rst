@@ -55,6 +55,6 @@ change the default value of the setting to ``2``.
 .. _Xdebug: http://xdebug.org
 .. _released: http://xdebug.org/updates.php#x_2_3_0
 .. _`var_dump()`: http://docs.php.net/var_dump
-.. _`xdebug.overload_var_dump`: 
+.. _`xdebug.overload_var_dump`: http://xdebug.org/docs/all_settings#overload_var_dump
 .. _`feature request`: http://bugs.xdebug.org/bug_view_page.php?bug_id=304
 .. _`xdebug.file_link_format`: http://xdebug.org/docs/all_settings#file_link_format
