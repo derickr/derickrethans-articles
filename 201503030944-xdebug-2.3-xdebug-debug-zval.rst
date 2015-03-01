@@ -1,0 +1,112 @@
+Xdebug 2.3: Enhanced xdebug_debug_zval()
+========================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-03-03 09:44 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: debugzval23
+
+This is the second article in a series about the new features in Xdebug_ 2.3,
+which was first released_ on February 22nd. 
+
+`xdebug_debug_zval()`_ has been around for quite some time, to provide correct
+information about how PHP internally stores a variable. Unlike PHP's built in
+`debug_zval_dump()`_ function, it does not modify the variable information
+that it tries to show. This is because instead of passing in a *variable*, you
+pass in its name. Passing a variable into a function, can modify the various
+parameters that are associated with this variable, such as the ``is_ref`` and
+``refcount`` fields.
+
+``xdebug_debug_zval()`` does not suffer from these inadvertent modifications,
+as you pass in the variable's name, and the function looks up the information
+about a variable in the symbol tables itself.
+
+The difference becomes clear with the following two examples. With
+``debug_zval_dump()``::
+
+	<?php
+	$a = array(1, 2, 3);
+	$b =& $a;
+	$c =& $a[2];
+
+	debug_zval_dump($a);
+	?>
+
+Which outputs (after a little formatting)::
+
+	array(3) refcount(1){
+		[0]=> long(1) refcount(2)
+		[1]=> long(2) refcount(2)
+		[2]=> &long(3) refcount(3)
+	}
+
+And with ``xdebug_debug_zval()``::
+
+	<?php
+	$a = array(1, 2, 3);
+	$b =& $a;
+	$c =& $a[2];
+
+	xdebug_debug_zval('a');
+	?>
+
+Which outputs (after a little formatting)::
+
+	a: (refcount=2, is_ref=1)=array (
+		0 => (refcount=1, is_ref=0)=1, 
+		1 => (refcount=1, is_ref=0)=2, 
+		2 => (refcount=2, is_ref=1)=3
+	)
+
+In the ``debug_zval_dump()`` example, the refcounts for the array elements are
+all one too high, and the refcount for the array itself is one too low. The
+array is also not marked as reference.
+
+However, before Xdebug 2.3, the ``xdebug_debug_zval()`` function would only
+accept a variable name, but not any array subscripts or property deferences.
+Meaning that you couldn't really dump a sub array. Xdebug 2.3 adds support for
+dereferencing properties and array elements by reusing the variable name
+parser of the remote debugging. Hence, you can now do the following::
+
+	<?php
+	$a = array(1, 2, 3);
+	$b =& $a;
+	$c =& $a[2];
+
+	xdebug_debug_zval('a[2]');
+	?>
+
+Which outputs::
+
+	a[2]: (refcount=2, is_ref=1)=3
+
+Or::
+
+	<?php
+	$a = new StdClass;
+	$a->prop = [3.14, 2.72];
+
+	xdebug_debug_zval('a->prop');
+	xdebug_debug_zval('a->prop[1]');
+	?>
+
+Which outputs::
+
+	a->prop: (refcount=1, is_ref=0)=array (
+		0 => (refcount=1, is_ref=0)=3.14, 
+		1 => (refcount=1, is_ref=0)=2.72
+	)
+	a->prop[1]: (refcount=1, is_ref=0)=2.72
+
+----
+
+Other parts in this series:
+
+ - `Xdebug 2.3: Moar var_dump()`_
+
+.. _`xdebug_debug_zval()`: http://xdebug.org/docs/all_functions#xdebug_debug_zval
+.. _`debug_zval_dump()`: http://php.net/manual/en/function.debug-zval-dump.php
+.. _`Xdebug 2.3: Moar var_dump()`: /xdebug-2.3-overload-vardump.html
+.. _Xdebug: http://xdebug.org
+.. _released: http://xdebug.org/updates.php#x_2_3_0
