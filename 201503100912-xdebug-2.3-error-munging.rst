@@ -1,0 +1,104 @@
+Xdebug 2.3: Munging errors
+==========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-03-10 09:12 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: errors23
+
+This is the third article in a series about new features in Xdebug_ 2.3,
+which was first released_ on February 22nd.
+
+.. _Xdebug: http://xdebug.org
+.. _released: http://xdebug.org/updates.php#x_2_3_0
+
+One of the first features I added to Xdebug was the interception of error
+messages, so that it was possible for me to include a stack trace. Xdebug 2.3
+has a few additional settings to control the behaviour of interception.
+
+First, we have the new `xdebug.halt_level`_. This setting allows you to tell
+Xdebug to convert certain warnings into fatal errors. Due to the way how PHP
+works, you can currently only do this for ``E_WARNING``, ``E_NOTICE``,
+``E_USER_WARNING``, and ``E_USER_NOTICE``. 
+
+Setting ``xdebug.halt_level`` to ``E_NOTICE | E_USER_NOTICE`` will make the
+following script not show ``Hi!``::
+
+	<?php
+	ini_set('xdebug.halt_level', E_USER_NOTICE | E_NOTICE);
+	trigger_error("Testing");
+	echo "Hi!\n";
+	?>
+
+Instead, it will show the call stack, and then abort the script::
+
+	Notice: Testing in - on line 3
+
+	Call Stack:
+		0.0082     258480   1. {main}() -:0
+		0.0085     259400   2. trigger_error() -:3
+
+This feature was requested by `Rob Allen`_, who also wrote_ about it.
+
+.. _`xdebug.halt_level`: http://xdebug.org/docs/all_settings#halt_level
+.. _wrote: http://akrabat.com/convert-php-warnings-and-notices-into-fatal-errors/
+.. _`Rob Allen`: http://akrabat.com/
+
+The second related improvement is the addition of the
+`xdebug.force_display_errors`_ and `xdebug.force_error_reporting`_ settings.
+These php.ini only settings can be used to override PHP's `display_errors`_
+and `error_reporting`_ settings. This is typically useful in a legacy code
+base where developers tried to be clever about not showing warnings, or for
+example turning of notices that now hamper developer - or upgrade efforts.
+
+Take the following script::
+
+	<?php
+	ini_set("display_errors", 0);
+	trigger_error("two");
+	?>
+
+When you run this with just ``php thescript.php``, the output will be nothing
+(because you are hiding errors). Running the example script with ``php -d
+xdebug.force_display_errors=1 thescript.php``, the output becomes::
+
+	Notice: two in /tmp/thescript.php on line 3
+
+	Call Stack:
+		0.0002     261072   1. {main}() /tmp/thescript.php:0
+		0.0002     261944   2. trigger_error() /tmp/thescript.php:3
+
+The related setting `xdebug.force_error_reporting`_ acts at a bit mask to
+force certain errors to be shown. Even with ``error_reporting`` set to ``0``,
+the following script run with ``php -d xdebug.force_error_reporting
+/tmp/otherscript.php`` will still show the errors::
+
+	<?php
+	ini_set("error_reporting", E_ERROR | E_WARNING | E_USER_WARNING);
+	trigger_error("two", E_USER_NOTICE);
+	?>
+
+With as output::
+
+	Notice: two in /tmp/otherscript.php on line 3
+
+	Call Stack:
+		0.0002     261432   1. {main}() /tmp/otherscript.php:0
+		0.0003     262352   2. trigger_error() /tmp/otherscript.php:3
+
+.. _`xdebug.halt_level`: http://xdebug.org/docs/all_settings#halt_level
+.. _`xdebug.force_display_errors`: http://xdebug.org/docs/all_settings#force_display_errors
+.. _`xdebug.force_error_reporting`: http://xdebug.org/docs/all_settings#force_error_reporting
+.. _`display_errors`: http://php.net/manual/en/errorfunc.configuration.php#ini.display-errors
+.. _`error_reporting`: http://php.net/manual/en/errorfunc.configuration.php#ini.error-reporting
+
+----
+
+Other parts in this series:
+
+ - `Xdebug 2.3: Moar var_dump()`_
+ - `Xdebug 2.3: Enhanced xdebug_debug_zval()`_
+
+.. _`Xdebug 2.3: Moar var_dump()`: /xdebug-2.3-overload-vardump.html
+.. _`Xdebug 2.3: Enhanced xdebug_debug_zval()`: /xdebug-2.3-xdebug-debug-zval.html
