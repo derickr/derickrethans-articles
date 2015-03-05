@@ -7,7 +7,7 @@ Xdebug 2.3: Enhanced xdebug_debug_zval()
    :Tags: blog, php, xdebug
    :Short: debugzval23
 
-This is the second article in a series about the new features in Xdebug_ 2.3,
+This is the second article in a series about new features in Xdebug_ 2.3,
 which was first released_ on February 22nd. 
 
 `xdebug_debug_zval()`_ has been around for quite some time, to provide correct
