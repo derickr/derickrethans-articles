@@ -334,7 +334,7 @@ account still, which I will list here, but leave as an exercise for the reader:
    - Merge the returned document with the updated values from MongoDB.
    - Save the document into Solr again.
 
- - Deleted are not handled yet.
+ - Deletes are not handled yet.
  - You might want to do something special about arrays in the MongoDB document and map them to ``multiValued`` fields
    in Solr.
 
