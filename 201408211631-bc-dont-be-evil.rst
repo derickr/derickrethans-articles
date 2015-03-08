@@ -7,7 +7,7 @@ On Backwards Compatibility and not Being Evil
    :Tags: blog, php
    :Short: onbc
 
-This is a repost of an email_ I sent to PHP internals as a reply to:
+This is a repost of an email_ that I sent to PHP internals as a reply to:
 
 	And since you're targetting[sic] the next major release, BC isn't an issue.
 
