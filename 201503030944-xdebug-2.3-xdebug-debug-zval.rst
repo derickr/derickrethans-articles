@@ -104,9 +104,11 @@ Which outputs::
 Other parts in this series:
 
  - `Xdebug 2.3: Moar var_dump()`_
+ - `Xdebug 2.3: Munging errors`_
 
 .. _`xdebug_debug_zval()`: http://xdebug.org/docs/all_functions#xdebug_debug_zval
 .. _`debug_zval_dump()`: http://php.net/manual/en/function.debug-zval-dump.php
 .. _`Xdebug 2.3: Moar var_dump()`: /xdebug-2.3-overload-vardump.html
+.. _`Xdebug 2.3: Munging errors`: /xdebug-2.3-error-munging.html
 .. _Xdebug: http://xdebug.org
 .. _released: http://xdebug.org/updates.php#x_2_3_0

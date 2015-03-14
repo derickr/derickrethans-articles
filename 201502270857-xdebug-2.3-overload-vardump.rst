@@ -57,8 +57,10 @@ change the default value of the setting to ``2``.
 Other parts in this series:
 
  - `Xdebug 2.3: Enhanced xdebug_debug_zval()`_
+ - `Xdebug 2.3: Munging errors`_
 
 .. _`Xdebug 2.3: Enhanced xdebug_debug_zval()`: /xdebug-2.3-xdebug-debug-zval.html
+.. _`Xdebug 2.3: Munging errors`: /xdebug-2.3-error-munging.html
 .. _Xdebug: http://xdebug.org
 .. _released: http://xdebug.org/updates.php#x_2_3_0
 .. _`var_dump()`: http://docs.php.net/var_dump
