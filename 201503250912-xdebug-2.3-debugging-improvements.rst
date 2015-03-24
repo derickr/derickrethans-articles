@@ -32,16 +32,17 @@ context also shows up in PhpStorm's "Variables" box:
 However, if you have lots of constants, that becomes annoying. Follow (or
 comment on) issue WI-21691_ if you want to see this changed.
 
-Other IDEs, such as Komodo, handle this by having a separate tab for
+Other IDEs, such as Komodo_, handle this by having a separate tab for
 constants:
 
 .. image:: images/komodo-vars.png
 
-It is actually clever enough to create a new tab for every new context I come
-up with, as they haven't hard coded it!
+It is actually clever enough to create a new tab for every new context that I
+come up with, as they haven't hard coded it.
 
 .. _PhpStorm: https://www.jetbrains.com/phpstorm/
 .. _WI-21691: https://youtrack.jetbrains.com/issue/WI-21691
+.. _Komodo: http://komodoide.com/
 
 ----
 
