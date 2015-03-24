@@ -3,7 +3,7 @@ Xdebug 2.3: Improvements to Debugging
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-03-24 09:12 Europe/London
+   :Date: 2015-03-25 09:12 Europe/London
    :Tags: blog, php, xdebug
    :Short: debugs23
 
@@ -14,8 +14,18 @@ which was first released_ on February 22nd.
 .. _released: http://xdebug.org/updates.php#x_2_3_0
 
 In this article we are looking at the improvements towards "remote" debugging.
+
+----
+
 The first improvement is the addition to view the values of user defined
-constants. 
+constants. In Xdebug this works by defining another context. Existing contexts
+are local variables, and super globals. In PhpStorm_, they show up in the same
+"Variables" box:
+
+.. image:: images/phpstorm-vars1.png
+
+
+
 
 - issue 406, 495, 1066, 1084 (debugging section)
 
