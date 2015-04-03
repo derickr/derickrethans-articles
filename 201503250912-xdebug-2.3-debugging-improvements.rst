@@ -125,7 +125,9 @@ Other parts in this series:
  - `Xdebug 2.3: Moar var_dump()`_
  - `Xdebug 2.3: Enhanced xdebug_debug_zval()`_
  - `Xdebug 2.3: Munging errors`_
+ - `Xdebug 2.3: Improvements to Tracing`_
 
 .. _`Xdebug 2.3: Moar var_dump()`: /xdebug-2.3-overload-vardump.html
 .. _`Xdebug 2.3: Enhanced xdebug_debug_zval()`: /xdebug-2.3-xdebug-debug-zval.html
 .. _`Xdebug 2.3: Munging errors`: /xdebug-2.3-error-munging.html
+.. _`Xdebug 2.3: Improvements to Tracing`: /xdebug-2.3-tracing-improvements.html
