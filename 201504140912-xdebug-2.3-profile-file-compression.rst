@@ -1,0 +1,35 @@
+Xdebug 2.3: Profiler File Compression
+=====================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-04-14 09:12 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: profilecomp23
+
+This is the seventh (and last) article in a series about new features in
+Xdebug_ 2.3, which was first released_ on February 22nd.
+
+.. _Xdebug: http://xdebug.org
+.. _released: http://xdebug.org/updates.php#x_2_3_0
+
+- issue 1054
+
+
+----
+
+Other parts in this series:
+
+ - `Xdebug 2.3: Moar var_dump()`_
+ - `Xdebug 2.3: Enhanced xdebug_debug_zval()`_
+ - `Xdebug 2.3: Munging errors`_
+ - `Xdebug 2.3: Improvements to Debugging`_
+ - `Xdebug 2.3: Improvements to Tracing`_
+ - `Xdebug 2.3: Shared Secret to Enable Tracing or Profiling`_
+
+.. _`Xdebug 2.3: Moar var_dump()`: /xdebug-2.3-overload-vardump.html
+.. _`Xdebug 2.3: Enhanced xdebug_debug_zval()`: /xdebug-2.3-xdebug-debug-zval.html
+.. _`Xdebug 2.3: Munging errors`: /xdebug-2.3-error-munging.html
+.. _`Xdebug 2.3: Improvements to Debugging`: /xdebug-2.3-debugging-improvements.html
+.. _`Xdebug 2.3: Improvements to Tracing`: /xdebug-2.3-tracing-improvements.html
+.. _`Xdebug 2.3: Shared Secret to Enable Tracing or Profiling`: /xdebug-2.3-tracing-profiling-shared-secret.html
