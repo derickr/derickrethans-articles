@@ -13,8 +13,62 @@ Xdebug_ 2.3, which was first released_ on February 22nd.
 .. _Xdebug: http://xdebug.org
 .. _released: http://xdebug.org/updates.php#x_2_3_0
 
-- issue 1054
+When making profiling dumps with Xdebug, the file size can not really be
+ignored. Even with a simple Drupal page a profile file is easily close to 1Mb.
 
+For each function call, the file contains the location and name of the calling
+function, and then a list of functions that have been called. For example, the
+following snippet shows that the ``_cache_get_object`` function in
+``/home/httpd/drupal-test/drupal-7.15/includes/cache.inc`` calls
+``variable_get`` in
+``/home/httpd/drupal-test/drupal-7.15/includes/bootstrap.inc`` twice, and
+``DrupalDatabaseCache->__construct`` once::
+
+	fl=/home/httpd/drupal-test/drupal-7.15/includes/cache.inc
+	fn=_cache_get_object
+	22 68
+	cfl=/home/httpd/drupal-test/drupal-7.15/includes/bootstrap.inc
+	cfn=variable_get
+	calls=1 0 0
+	27 4
+	cfl=/home/httpd/drupal-test/drupal-7.15/includes/bootstrap.inc
+	cfn=variable_get
+	calls=1 0 0
+	29 2
+	cfl=/home/httpd/drupal-test/drupal-7.15/includes/cache.inc
+	cfn=DrupalDatabaseCache->__construct
+	calls=1 0 0
+	31 5
+
+In those 15 lines, you can already spot a lot of duplicated information. The
+`Callgrind Profile Format`_ which Xdebug uses for writing profiling
+information allows for `Name Compression`_. This allows a write, such as
+Xdebug, to simple refer to longer strings by a number. This number is assigned
+the first time a certain file name or function name is encountered. The above
+snippet, from the same request of a Drupal site, with Name Compression enabled
+now looks like::
+
+	fl=(4) 
+	fn=(53) _cache_get_object
+	22 80
+	cfl=(2)
+	cfn=(45)
+	calls=1 0 0
+	27 4
+	cfl=(2)
+	cfn=(45)
+	calls=1 0 0
+	29 3
+	cfl=(4)
+	cfn=(52)
+	calls=1 0 0
+	31 5
+
+Every file name and function name, except for ``_cache_get_object`` has been
+previously defined, and hence, is not repeated in its entirety, but just by
+its identifier. This sort of compression makes the profiling files a lot
+smaller. In this case, my simple-Drupal-profiling file went down from 926Kb to
+385Kb.
 
 ----
 
