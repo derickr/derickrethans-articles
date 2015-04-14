@@ -70,6 +70,9 @@ its identifier. This sort of compression makes the profiling files a lot
 smaller. In this case, my simple-Drupal-profiling file went down from 926Kb to
 385Kb.
 
+.. _`Callgrind Profile Format`: http://valgrind.org/docs/manual/cl-format.html
+.. _`Name Compression`: http://valgrind.org/docs/manual/cl-format.html#cl-format.overview.compression1
+
 ----
 
 Other parts in this series:
