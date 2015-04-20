@@ -7,9 +7,9 @@ Natural Language Sorting with MongoDB
    :Tags: blog, php, mongodb
    :Short: mdbcoll
 
-Arranging English words in order is simple—well, most of the time. You simply
-arrange them in alphabetical order. However sorting a set of German words, or
-French words with all their accents, or Chinese with their different characters is a
+Arranging English words in order is simple—most of the time. You simply
+arrange them in alphabetical order. Sorting a set of German words, or French
+words with all their accents, or Chinese with their different characters is a
 *lot* harder than it looks. Sorting rules are specified through
 "locales", which determine how accents are sorted, in which order the letters
 are in and how to do case-insensitive sorts. There is a good set of those
@@ -30,18 +30,18 @@ I expect this to be addressed at a point in the near future.
 However, with some tricks there is a way to solve the 
 sorting problem manually.
 
-Many languages, have their own implementation of the Unicode Collation
+Many languages have their own implementation of the Unicode Collation
 Algorithm, often implemented through ICU. PHP has an ICU based implementation
-as part of the intl_ extension. And the class to use is the Collator_ class.
+as part of the intl_ extension, in the form of the Collator_ class.
 
 .. _intl: http://php.net/manual/en/book.intl.php
 .. _Collator: http://php.net/manual/en/class.collator.php
 .. _`SERVER-1920`: https://jira.mongodb.org/browse/SERVER-1920
 
 The Collator class encapsulates the Collation Algorithm to allow you to sort
-an array of text yourself, but it also allows you extract the "sort key". By
-storing this generated sort key in a separate field in MongoDB, we can sort by
-locale—and even multiple locales.
+an array of text yourself. More importantly for this article, it also allows
+you extract the "sort key". By storing this generated sort key in a separate
+field in MongoDB, we can sort by locale—and even multiple locales.
 
 Take for example the following array of words::
 
@@ -88,12 +88,12 @@ Which returns the following list::
 	[6] => серге́й
 	[7] => сергій
 
-We can extend this script, to use multiple collations, and import each word
-including its sort keys into MongoDB.
+We can extend this script to use multiple collations, and import each word
+including its sort keys for each different locale into MongoDB.
 
-Below, we define the words we want to sort on, and the collations we want to compare.
-They are in order: English, German with phone book sorting, Norwegian, Russian
-and two forms of Swedish: "default" and "standard"::
+Below, we define the words we want to sort on, and the collations we want to
+compare. They are in order: English, German with phone book sorting, Norwegian,
+Russian and two forms of Swedish: "default" and "standard"::
 
 	<?php
 	$words = [ 
