@@ -13,8 +13,8 @@ Xdebug_ 2.3, which was first released_ on February 22nd.
 .. _Xdebug: http://xdebug.org
 .. _released: http://xdebug.org/updates.php#x_2_3_0
 
-When making profiling dumps with Xdebug, the file size can not really be
-ignored. Even with a simple Drupal page a profile file is easily close to 1Mb.
+When you make profiling dumps with Xdebug, the file size can grow quite large.
+Even with a simple Drupal page a profile file is easily close to 1Mb.
 
 For each function call, the file contains the location and name of the calling
 function, and then a list of functions that have been called. For example, the
