@@ -47,7 +47,7 @@ Key". In Komodo you also need to select "a system-provided
 free port" in the same configuration panel. When initiating the
 debugging session from the browser with either
 XDEBUG_SESSION_START=session_name as GET/POST/COOKIE parameter, or
-export XDEBUG_CONFIG="idekey=session_name" from the comment
+export XDEBUG_CONFIG="idekey=session_name" from the command
 line, make sure to change "session_name" to the idekey as
 configured in your IDE. (See `the documentation`_ on
 how to set this up). The Xdebug `Firefox extension`_ also has a setting for
