@@ -66,7 +66,7 @@ details and we also want to hash the passwords. The new schema will look like:
 userid method  value
 ====== ======= =============
 1      phone   +447551569555
-2      twitter derickr
+1      twitter derickr
 2      twitter rasmus
 ====== ======= =============
 
