@@ -3,7 +3,7 @@ Twenty Years of PHP
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-06-08 09:36 Europe/London
+   :Date: 2015-06-08 00:04 Europe/London
    :Tags: blog, php
    :Short: 20yrs
 
@@ -28,9 +28,9 @@ Schumacher Club. Throughout 2000 and later, I started to contribute little
 bits and bobs to PHP. These included committing Ilia's `first extension`_,
 adding `the 'u' modifier to printf/sprintf which prints unsigned longs`_, etc.
 
-.. _`Ben Ramsey`:
+.. _`Ben Ramsey`: http://benramsey.com/blog/2015/06/20-years-of-php/
 __ https://github.com/php/php-src/commit/7eec1997ef3e27f47f29a0334ec7c1a10e783a23
-.. _`getimagesize()`: 
+.. _`getimagesize()`: http://php.net/getimagesize
 .. _`implement MySQL subselects`: https://marc.info/?l=php-internals&m=96331085710844&w=2
 .. _mcrypt: https://github.com/php/php-src/commit/bab5db79f63541b20afd2b31c197dc24581e3be1
 .. _`first extension`: https://github.com/php/php-src/commit/58294f67d2ca0842d9d60fe1c26891da85201870
@@ -38,55 +38,62 @@ __ https://github.com/php/php-src/commit/7eec1997ef3e27f47f29a0334ec7c1a10e783a2
 
 In April 2002, I started working on Xdebug_. First by adding the
 `max_nesting_level`_ feature and functions to provide memory usage, and then
-later of course by adding stack traces and support for the remote debugging.
+later I added stack traces and support for the remote debugging.
 First by mimicking the PHP 3 handler, and then later by adding a GDB like
-debug handler, and DBGp_. The PHP 3 and GDB handlers are of course long gone,
-but the DBGp_ protocol is still being used by IDEs to interact with Xdebug.
-Ilia implemented a basic profiler as well during 2002. I also "release
-mastered" PHP 4.1.1 and various 4.2 releases during this time.
+debug handler, and DBGp_. The PHP 3 and GDB handlers are of course a distant
+memory, but the DBGp_ protocol is still being used by IDEs to interact with
+Xdebug. Ilia implemented a basic profiler as well during 2002. I also "release
+mastered" PHP 4.1.1, various 4.2 releases during this time, and all the 4.4.x
+releases later.
 
 .. _Xdebug: http://xdebug.org
 .. _`max_nesting_level`: http://xdebug.org/docs/basic#max_nesting_level
 .. _DBGp: http://xdebug.org/docs-dbgp.php
 
-The DBGP_ protocol is something that I developed together with the guys from
+The DBGp_ protocol is something that I developed with the guys from
 ActiveState_ in late 2003. Their Komodo_ editor still implements DBGp in the
 most comprehensive way, although other IDEs seem to be much more popular now.
-The same protocol I implemented for `Maguma Workbench`_ and during my time
-there `eZ Systems`_ approached me to come and work for them. I had previously
-spoken at their `summer camp`_, which provided a nice introduction to start a
+I implemented the same protocol for `Maguma Workbench`_, and during my time
+there, `eZ Systems`_ approached me to come and work for them. I had previously
+spoken at an eZ `summer camp`_, which provided a nice introduction to start a
 5+ year employment relationship.
 
 .. _ActiveState: http://www.activestate.com/
 .. _Komodo: http://komodoide.com/
 .. _`Maguma Workbench`: http://www.maguma.com/maguma-workbench.html
 .. _`eZ Systems`: http://ez.no
-.. _`summer conference`: http://derickrethans.nl/talks/ezcamp
+.. _`summer camp`: http://derickrethans.nl/talks/ezcamp
 
 .. image:: images/pachyderms.jpg
 
 I started speaking a while earlier though, mostly on Xdebug_, but also on SRM
-— a sort of app server for PHP. That never really got off the ground though,
+— some sort of application server for PHP. That never really got off the ground though,
 as it doesn't really fit the shared-nothing architecture of PHP. Since these
-first few speaking engagements, I now have given 326 at 201 conferences/user
-group meet-ups in 92 different locations. 
+first few speaking engagements, I have now given 326 talks at 201
+conferences and user group meet-ups in 92 different locations. 
 
 After eZ Systems, and due to my work on Xdebug_ I decided to work for myself
 for a while. I started `writing PHP extensions`_ as a job, and due to that, I
 ended up contributing a little to the MongoDB_ driver_. And that turned later
-into being an employee of MongoDB, where I now work on both the PHP and HHVM_
-drivers. 
+into becoming an employee of MongoDB, where I now work on both the PHP and
+HHVM_ drivers. 
 
 .. _`writing PHP extensions`: /available-for-php-extension-writing.html
+.. _MongoDB: http://mongodb.org
+.. _driver: https://github.com/mongodb/mongo-php-driver
+.. _HHVM: http://hhvm.com/
 
-Without PHP, none of this would have happened. I would also not have moved to
-London, as it's due to Johanna's persistence — I met her at php[tek] in
-Chicago — to give up the boringness of Norway and move into the "PHP House" in
-London. With her, Helgi, Arpad, and on the weekends Scott, we wrote a lot of
-code, and  as well. I wouldn't
-have met my wife, met countless friends at various conferences and online, and
-I would certainly not have had a few dozen colourful pachyderms in my house!
-And it all started with Michael Schumacher, and some Danish guy that wrote
-some counters for his website.
+Without PHP, none of this would have happened. I would not have moved to
+London without the persuasiveness of Johanna, who I met at php[tek] in Chicago.
+She managed to convince me to give up the boringness of Norway and move into
+the "PHP House" in London. With her, Helgi, and Arpad (and on the weekends
+Scott),
+we wrote a lot of code, and threw a few parties as well. I wouldn't have met
+my wonderful wife Morag_, met countless friends at various conferences and online, and I
+would certainly not have had a few dozen colourful pachyderms in my house! And
+it all started with Michael Schumacher, and some Danish guy that wrote some
+counters for his website.
 
-Here is to another twenty years!
+.. _Morag: https://twitter.com/merethans
+
+Here's to another twenty years! Skål!
