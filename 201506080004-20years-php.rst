@@ -84,7 +84,7 @@ HHVM_ drivers.
 .. _HHVM: http://hhvm.com/
 
 Without PHP, none of this would have happened. I would not have moved to
-London without the persuasiveness of Johanna, who I met at php[tek] in Chicago.
+London without the persuasiveness of Johanna, whom I met at php[tek] in Chicago.
 She managed to convince me to give up the boringness of Norway and move into
 the "PHP House" in London. With her, Helgi, and Arpad (and on the weekends
 Scott),
