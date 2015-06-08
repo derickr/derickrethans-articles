@@ -1,0 +1,92 @@
+Twenty Years of PHP
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-06-08 09:36 Europe/London
+   :Tags: blog, php
+   :Short: 20yrs
+
+I know I am a day late, but PHP turned 20 yesterday! Congrats!
+
+`Ben Ramsey`_ wrote about his 20 years of PHP yesterday, and invited others to
+do the same. So here I go.
+
+Back in 1999 during uni, a few friends and I got annoyed by Schumacher's
+antics, and started the "Anti Schumacher Club". In order to have a membership
+part of our site (which thankfully can no longer be found on the Internet), we
+used PHP. Oh yeah, we also used it to scrape websites to find e-mail
+addresses to send our propaganda to.
+
+My first patch to PHP was in June 2000 when I added__ support for Flash
+objects to `getimagesize()`_. After an idiotic idea to `implement MySQL
+subselects`_ in PHP itself, I continued with my PHP career by starting to
+maintain the mcrypt_ extension later in 2000. It needed support for a new API
+version. Both `getimagesize()`_ and mcrypt support is something that I needed
+while working at the company that I started with the same guys as the Anti
+Schumacher Club. Throughout 2000 and later, I started to contribute little
+bits and bobs to PHP. These included committing Ilia's `first extension`_,
+adding `the 'u' modifier to printf/sprintf which prints unsigned longs`_, etc.
+
+.. _`Ben Ramsey`:
+__ https://github.com/php/php-src/commit/7eec1997ef3e27f47f29a0334ec7c1a10e783a23
+.. _`getimagesize()`: 
+.. _`implement MySQL subselects`: https://marc.info/?l=php-internals&m=96331085710844&w=2
+.. _mcrypt: https://github.com/php/php-src/commit/bab5db79f63541b20afd2b31c197dc24581e3be1
+.. _`first extension`: https://github.com/php/php-src/commit/58294f67d2ca0842d9d60fe1c26891da85201870
+.. _`the 'u' modifier to printf/sprintf which prints unsigned longs`: https://github.com/php/php-src/commit/dc43b9f574804d836ef2905b41a2ef0420f2a0f5#diff-e02d8864bd088660ded278bc073c2674R232
+
+In April 2002, I started working on Xdebug_. First by adding the
+`max_nesting_level`_ feature and functions to provide memory usage, and then
+later of course by adding stack traces and support for the remote debugging.
+First by mimicking the PHP 3 handler, and then later by adding a GDB like
+debug handler, and DBGp_. The PHP 3 and GDB handlers are of course long gone,
+but the DBGp_ protocol is still being used by IDEs to interact with Xdebug.
+Ilia implemented a basic profiler as well during 2002. I also "release
+mastered" PHP 4.1.1 and various 4.2 releases during this time.
+
+.. _Xdebug: http://xdebug.org
+.. _`max_nesting_level`: http://xdebug.org/docs/basic#max_nesting_level
+.. _DBGp: http://xdebug.org/docs-dbgp.php
+
+The DBGP_ protocol is something that I developed together with the guys from
+ActiveState_ in late 2003. Their Komodo_ editor still implements DBGp in the
+most comprehensive way, although other IDEs seem to be much more popular now.
+The same protocol I implemented for `Maguma Workbench`_ and during my time
+there `eZ Systems`_ approached me to come and work for them. I had previously
+spoken at their `summer camp`_, which provided a nice introduction to start a
+5+ year employment relationship.
+
+.. _ActiveState: http://www.activestate.com/
+.. _Komodo: http://komodoide.com/
+.. _`Maguma Workbench`: http://www.maguma.com/maguma-workbench.html
+.. _`eZ Systems`: http://ez.no
+.. _`summer conference`: http://derickrethans.nl/talks/ezcamp
+
+.. image:: images/pachyderms.jpg
+
+I started speaking a while earlier though, mostly on Xdebug_, but also on SRM
+— a sort of app server for PHP. That never really got off the ground though,
+as it doesn't really fit the shared-nothing architecture of PHP. Since these
+first few speaking engagements, I now have given 326 at 201 conferences/user
+group meet-ups in 92 different locations. 
+
+After eZ Systems, and due to my work on Xdebug_ I decided to work for myself
+for a while. I started `writing PHP extensions`_ as a job, and due to that, I
+ended up contributing a little to the MongoDB_ driver_. And that turned later
+into being an employee of MongoDB, where I now work on both the PHP and HHVM_
+drivers. 
+
+.. _`writing PHP extensions`: /available-for-php-extension-writing.html
+
+Without PHP, none of this would have happened. I would also not have moved to
+London, as it's due to Johanna's persistence — I met her at php[tek] in
+Chicago — to give up the boringness of Norway and move into the "PHP House" in
+London. With her, Helgi, Arpad, and on the weekends Scott, we wrote a lot of
+code, and  as well. I wouldn't
+have met my wife, met countless friends at various conferences and online, and
+I would certainly not have had a few dozen colourful pachyderms in my house!
+And it all started with Michael Schumacher, and some Danish guy that wrote
+some counters for his website.
+
+Here is to another twenty years!
