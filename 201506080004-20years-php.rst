@@ -7,12 +7,12 @@ Twenty Years of PHP
    :Tags: blog, php
    :Short: 20yrs
 
-I know I am a day late, but PHP turned 20 yesterday! Congrats!
+I know I am a day late, but PHP turned 20 yesterday! Congratulations!
 
 `Ben Ramsey`_ wrote about his 20 years of PHP yesterday, and invited others to
 do the same. So here I go.
 
-Back in 1999 during uni, a few friends and I got annoyed by Schumacher's
+Back in 1999 during university, a few friends and I got annoyed by Schumacher's
 antics, and started the "Anti Schumacher Club". In order to have a membership
 part of our site (which thankfully can no longer be found on the Internet), we
 used PHP. Oh yeah, we also used it to scrape websites to find e-mail
