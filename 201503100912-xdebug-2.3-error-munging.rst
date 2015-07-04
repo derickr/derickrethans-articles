@@ -14,8 +14,9 @@ which was first released_ on February 22nd.
 .. _released: http://xdebug.org/updates.php#x_2_3_0
 
 One of the first features I added to Xdebug was the interception of error
-messages, so that it was possible for me to include a stack trace. Xdebug 2.3
-has a few additional settings to control the behaviour of interception.
+messages, so that it was possible to shows stack traces when an error
+occurred. Xdebug 2.3 has a few additional settings to control the behaviour of
+interception.
 
 First, we have the new `xdebug.halt_level`_. This setting allows you to tell
 Xdebug to convert certain warnings into fatal errors. Due to the way how PHP
