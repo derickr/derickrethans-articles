@@ -131,9 +131,9 @@ I have packaged up all the changes, and prepared a `pull request`_ for
 OpenStreetMap website at some point in the future.
 
 .. _OpenStreetMap: http://openstreetmap.org
-.. _`addr:flats`: 
-.. _`addr:housename`:
-.. _`addr:street`:
-.. _`natural=tree_row`:
-.. _Mapnik: 
+.. _`addr:flats`: http://wiki.openstreetmap.org/wiki/Key:addr:flats
+.. _`addr:housename`: http://wiki.openstreetmap.org/wiki/Key:addr:housename
+.. _`addr:street`: http://wiki.openstreetmap.org/wiki/Key:addr:street
+.. _`natural=tree_row`: http://wiki.openstreetmap.org/wiki/Tag:natural%3Dtree_row
+.. _Mapnik: http://mapnik.org/
 .. _`pull request`: http://github.com/gravitystorm/openstreetmap-carto/pull
