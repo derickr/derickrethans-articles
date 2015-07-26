@@ -13,4 +13,37 @@ to try out all of them. Some of the places in the book we had already visited,
 but they are all places to return to, so they are featured in this series of
 articles as well
 
+Queen's Head
+------------
+
 The first pub we visited was the `Queen's Head`_ in `King's Cross`_. 
+
+The Holly Bush
+--------------
+
+The Dove(tail)
+--------------
+
+The Grenadier
+-------------
+
+The Nag's Head
+--------------
+
+Euston Tap and Euston Cider Tap
+-------------------------------
+
+Ape & Bird
+----------
+
+The George Inn
+--------------
+
+The White Horse
+---------------
+
+Terroirs
+--------
+
+Craft Beer Co
+-------------
