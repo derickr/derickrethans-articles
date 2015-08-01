@@ -1,0 +1,17 @@
+Terracing Buildings
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-08-04 09:25 Europe/London
+   :Tags: blog, openstreetmap
+   :Short: bldngs
+
+Following up from the previous_ article on addressing flats, in this article
+we deal with drawing buildings. The new area has lots of similarly looking
+buildings, and they're not exactly square. They do however all (broadly) share
+the same shape:
+
+.. image:: images/buildings.png
+
+.. _previous: /flats.html
