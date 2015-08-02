@@ -40,7 +40,9 @@ Image                            Action
 ================================ =========================================
 
 Having to do step 6 and 7 for every building, especially when there are a lot
-of them, is a very tedious, and inaccurate process.
+of them, is a very tedious, and inaccurate process. It is sometimes even
+faster to draw all the building outlines by hand, select them all, and
+orthogonalise them.
 
 .. _JOSM: http://josm.openstreetmap.de
 .. _terracer: http://wiki.openstreetmap.org/wiki/JOSM/Plugins/Terracer
