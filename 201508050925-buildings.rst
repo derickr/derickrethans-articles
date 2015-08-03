@@ -3,7 +3,7 @@ Terracing Buildings
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-08-04 09:25 Europe/London
+   :Date: 2015-08-05 09:25 Europe/London
    :Tags: blog, openstreetmap
    :Short: bldngs
 
