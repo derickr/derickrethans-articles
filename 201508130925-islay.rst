@@ -1,0 +1,34 @@
+Islay: All the Peat
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-08-13 09:02 Europe/London
+   :Tags: photography, whisky
+   :Short: islay
+
+Two years ago Morag and I went on a whisky tasting tour with `Rabbie's`_ to
+visit a few of `Speyside's distilleries`_. Now, this August we left the smooth
+and sweeter whiskies a side, and instead we headed over to Islay. Again with
+`Rabbie's`_.
+
+Our train up to Edinburgh was nothing special, except that Eastcoast has now
+been replaced with `Virgin Trains East Coast`_. No real changes, except for
+the name. This time however, we got into Edinburgh just as the Fringe_ was
+starting. And that made *staying* in Edinburgh quite a bit more expensive. We
+thought to be clever and book a hotel near Rabbie's pick-up point, but I had
+failed to realize that they actually moved it—right next to the hotel we
+stayed in last time.
+
+The afternoon before the tour started, we had some free time in Edinburgh. We
+promptly headed to `BrewDog's`_ pub to have a beer and play some
+connect-four, before we headed to `The Edinburgh Larder`_ for a nice meal. On
+the way back, we caught the last Sun rays hitting `Edinburgh Castle`_.
+
+.. _`Rabbie's`: 
+.. _`Speyside's distilleries`:
+.. _`Virgin Trains East Coast`:
+.. _Fringe:
+.. _`BrewDogs`:
+.. _`The Edinburgh Larder`:
+.. _`Edinburgh Castle`: 
