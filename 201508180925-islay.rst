@@ -109,3 +109,99 @@ about half an hour's drive we finally arrived at our accommodation in one of
 .. _Kavalan: https://www.whiskybase.com/whisky/18006/kavalan-single-malt-whisky
 .. _`Bunnahabhain 25`: https://www.whiskybase.com/whisky/27789/bunnahabhain-xxv
 .. _`Bunnahabhain 18`: https://www.whiskybase.com/whisky/14007/bunnahabhain-xviii
+
+Day 2: Touring distilleries on Islay, part 1
+--------------------------------------------
+
+We had some spare time in the morning, as we were only going to be picked up
+at 09:30. That meant we had some time to run in the morning. There are not
+many paths around Bowmore, but I had scouted a nice route_ up to a local hill,
+and back. I ran quite a bit slower, as clearly it was hillier than my normal
+runs besides the canal.
+
+After the morning run, shower and breakfast we were picked up for our first
+distillery visit. But before we started the tour and tasting at Kilchoman_ we
+spend some time relaxing on the beach at Machir Bay. After getting our
+"fresh nose", we headed to the distillery.
+
+Kilchoman_ is Islay's newest distillery at just 10 years old. It's so new that
+it misses on many of the maps we spotted all over Islay indicating where the
+8 distilleries are. It is a "farm distillery" and by far the smallest. They
+malt some of their own barley, which goes into their `Kilchoman 100% Islay`_
+expression. After our tour two years ago we did know nearly everything about
+whisky production, but it was good to get things freshened up as well as
+having a look at a malting floor. But of course we really came for a tasting,
+and lunch. We sampled the following whiskies:
+
+ - `Kilchoman 100% Islay`: Fruity, made with ingredients from Islay only. 25
+   ppm [#]_. *73*
+ - `Kilchoman Machir Bay`: A little salty and matured in a bourbon and sherry
+   cask. *71*
+ - `Kilchoman Loch Gorm`: Winter sweet with sherry. *79*
+
+We also had lunch at the Kilchoman distillery. I think everybody from our
+group had `Cullen Skink`_ :-)
+
+After lunch we popped by Bruichladdich_ for a quick tasting. They are also
+fairly new, but quite less traditional than most of the other distilleries.
+They call themselves "progressive". Of course, Bruichladdich_ is responsible
+for getting me into whisky in the first place, as they sponsored an evening
+event at WhiskyWeb many years ago.
+
+At Bruichladdich_, we tried the following whiskies (sorry, no notes as the
+stop was so short!):
+
+ - `Classic Laddie 10`_
+ - `Port Charlotte Scottish Barley`_
+ - `Octomore 06.1`_ - 167 ppm
+
+As I already tried an `Octomore 06.3`_ and the `Classic Laddie 10`_, I also
+managed to get a wee dram of a Valinch, of which I did buy a bottle. We also
+had a sip of the Botanist_ gin.
+
+On our way back to Bowmore, we stopped at `Islay House Square`_ to visit the
+`Islay Ales`_ brewery. We picked up some local beers to take home with us.
+
+The tour at Bowmore_ started with a film after which we went through yet
+another distillery. The tour started with eyeing a `£100.000 bottle`_ of
+whisky, and ended with the most interesting part: the whisky tasting. This
+time, we tried four expressions:
+
+ - `Bowmore 100 degrees proof`_
+ - `Bowmore 10 Tempest`_: A little hint of banana, but only after a drop of
+   water.
+ - `Bowmore 15 Darkest`_: Bourbon and a little sharper than the first fill sherry
+   butt *77*
+ - `Bowmore 12, cask strength`_: First fill sherry butt
+
+After the last tasting we dropped by the local Spar_, which has a wall full of
+whisky. I guess that's why "Spar" was tagged onto the big sign saying "The
+Islay Whisky Shop". We bought a `Classic Laddie 10`_ to share with the group.
+Some of it made it home.
+
+For dinner we had booked at the `Bowmore Hotel`_. The food was good, and there
+was plenty of it. Actually, there was so much that we went straight to bed
+afterwards, **without** another dram!
+
+.. _route: https://graphhopper.com/maps/?point=55.75453%2C-6.285081&point=55.74784%2C-6.246715&point=55.754627%2C-6.286798&point=55.756945%2C-6.288643&vehicle=foot&locale=en-US&elevation=true&layer=TF%20Cycle
+.. _Kilchoman: http://kilchomandistillery.com/
+.. _`Kilchoman 100% Islay`: https://www.whiskybase.com/whisky/34145/kilchoman-100-islay
+.. _`Kilchoman Machir Bay`: https://www.whiskybase.com/whisky/67739/kilchoman-machir-bay-2015
+.. _`Kilchoman Loch Gorm`: https://www.whiskybase.com/whisky/66054/kilchoman-loch-gorm-2015
+.. _`Bruichladdich`: http://bruichladdich.com/
+.. _`Classic Laddie 10`: https://www.whiskybase.com/whisky/25087/bruichladdich-the-laddie-ten
+.. _`Port Charlotte Scottish Barley`: https://www.whiskybase.com/whisky/43466/port-charlotte-scottish-barley
+.. _`Octomore 06.1`: https://www.whiskybase.com/whisky/43463/octomore-edition-061-167
+.. _`Octomore 06.3`: https://www.whiskybase.com/whisky/45178/octomore-edition-063-258
+.. _Botanist: http://www.bruichladdich.com/the-botanist-islay-dry-gin
+.. _`Islay House Square`: http://www.islayhouse.co.uk/#!islay-house-square/cv0j
+.. _`Islay Ales`: http://www.islayales.co.uk/
+.. _Bowmore: https://en.wikipedia.org/wiki/Bowmore_distillery
+.. _`£100.000 bottle`: http://money.aol.co.uk/2012/10/09/worlds-most-expensive-whisky-to-fetch-150-000/
+.. _`Bowmore 100 degrees proof`: https://www.whiskybase.com/whisky/30380/bowmore-100-degrees-proof
+.. _`Bowmore 10 Tempest`: https://www.whiskybase.com/whisky/18493/bowmore-tempest
+.. _`Bowmore 15 Darkest`: https://www.whiskybase.com/whisky/8238/bowmore-darkest
+.. _`Bowmore 12, cask strength`: https://www.whiskybase.com/whisky/68560/bowmore-2002
+.. _Spar: http://www.islaywhiskyshop.com/
+.. _`Bowmore Hotel`: http://bowmorehotel.co.uk/
+.. _Phenol: https://en.wikipedia.org/wiki/Phenol
