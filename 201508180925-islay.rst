@@ -205,3 +205,90 @@ afterwards, **without** another dram!
 .. _Spar: http://www.islaywhiskyshop.com/
 .. _`Bowmore Hotel`: http://bowmorehotel.co.uk/
 .. _Phenol: https://en.wikipedia.org/wiki/Phenol
+
+Day 3: Touring distilleries on Islay, part 2
+--------------------------------------------
+
+We had to get up a little bit earlier today for our pick-up, and slightly
+longer drive for our visit to the Whisky Coast. But first, a stop at the
+`Kildalton Cross`_ and church, for some history. The `Kildalton Cross`_ is a
+Celtic cross over 1200 years old. The weather was rather gloomy though, and
+there was a bit of rain. We were quite happy to get back on the bus and head
+back towards the Whisky Coast. On the way there we saw `two peacocks on a
+fence`_.
+
+The first distillery of the day was Ardbeg_. The distillery is 200 years old
+this year, and they had "upgraded" their visitors centre for this event.
+Everything looked brand spanking new. During the tour it was not allowed to
+take photos because of "health and safety". The tour at the distillery was
+certainly the best one. Instead of the (now boring) process, our guide told
+lots of stories - even throughout the whisky tasting. Come clearly made up.
+During the tasting itself, we tried five whiskies:
+
+ - `Ardbeg 10`_: Very light, but slightly peppery and a little "burnt". A
+   little peat, and a little sweet. 10-15 years in a Bourbon cask, 46%. *77*
+ - `Ardbeg Uigeadail`_: Toffee, plum and raisins. It is aged 8 years in a
+   Bourbon cask, and 2-7 years in a sherry cask. Apparently it goes will with
+   dark chocolate *or* cheese. 54.2% *83*
+ - `Ardbeg Corryvreckan`_: A lot of vanilla because it is finished in a new
+   French oak cask. "Ice cream soda". 8 years in a Bourbon cask and 2-7 in a
+   new French Oak Cask. 57.1%
+ - `Ardbeg Perpetuum`_: This year's festival whisky. It is a combination of
+   many different casks to commemorate their 200th anniversary. Complex, light
+   fruity. Would go well with cheese cake. 47.4%. *79*
+ - `Ardbeg Auriverdes`_: Aged in Bourbon casks with heavily charred ends. It
+   is dark and sugary and made with the football world cup in mind. It is a
+   bit oily, and there is light hints of vanilla. 49.9% *82*
+
+After lunch at Ardbeg_ we headed down the coast towards the next distillery,
+Lagavulin_, for a tasting only. We tried:
+
+ - `Lagavulin 16`_: Their standard bottling.
+ - `Lagavulin Distiller's edition double matured`: Finished with a Pedro
+   Ximinez sherry cask. *79*
+ - `Lagavulin 12`: Lighter and the peat does not linger long. 54.4% *83*
+
+Just a few kilometres down the coast we can find Laphroaig_. We did another tour
+there, and it was clearly the largest operation that we have been too. Lots of
+more automation than Kilchoman_ for sure! You can just rock up for a tasting,
+but I failed to write down notes this time. If I remember correctly, we tried the
+following whiskies:
+
+ - `Laphroaig Select`_: "Entry" level whisky. It is meant to get people into
+   Laphroaig and peatier whiskies, but frankly, it had the flavour and texture
+   of water. There was very little to it. *63*
+ - `Laphroaig Quarter Cask`
+ - `Laphroaig 18`_: Clearly the best, but I don't remember much of the actual
+   flavours!
+
+After all the tastings, we made a little side trip to walk up the old castle
+of Dunnyvaig_, with lovely views over the bay and Lagavulin_. Back in Bowmore,
+we tried another run along the beach. But this was not such a great success as
+the pebbles were a bit too large to run on.
+
+We had booked at the `Harbour Inn`_ for our "date-night". A posh dinner
+looking out over `Loch Indaal`_ with the Sun setting. Before bed, we nipped
+into the `Lochside Hotel`_ for a last dram on Islay.
+
+.. _`Kildalton Cross`: https://en.wikipedia.org/wiki/Kildalton_Cross
+.. _`two peacocks on a fence`: https://www.flickr.com/photos/derickrethans/20309277579/in/album-72157656705830870/
+.. _Ardbeg: http://www.ardbeg.com/ardbeg/
+.. _`Ardbeg 10`: https://www.whiskybase.com/whisky/306/ardbeg-ten
+.. _`Ardbeg Uigeadail`: https://www.whiskybase.com/whisky/331/ardbeg-uigeadail
+.. _`Ardbeg Corryvreckan`: https://www.whiskybase.com/whisky/10550/ardbeg-corryvreckan
+.. _`Ardbeg Perpetuum`: https://www.whiskybase.com/whisky/68711/ardbeg-perpetuum
+.. _`Ardbeg Auriverdes`: https://www.whiskybase.com/whisky/54178/ardbeg-auriverdes
+.. _Lagavulin: http://www.discovering-distilleries.com/lagavulin/
+.. _`Lagavulin 16`: https://www.whiskybase.com/whisky/4594/lagavulin-16-year-old
+.. _`Lagavulin Distiller's edition double matured`: https://www.whiskybase.com/whisky/59417/lagavulin-1998
+.. _`Lagavulin 12`: https://www.whiskybase.com/whisky/58219/lagavulin-12-year-old-14th-release
+.. _Laphroaig: http://www.laphroaig.com/
+.. _`Laphroaig Select`: https://www.whiskybase.com/whisky/54930/laphroaig-select
+.. _`Laphroaig Quarter Cask`: https://www.whiskybase.com/whisky/42887/laphroaig-quarter-cask
+.. _`Laphroaig 18`: https://www.whiskybase.com/whisky/7255/laphroaig-18-year-old
+.. _Dunnyvaig: https://en.wikipedia.org/wiki/Dunyvaig_Castle
+.. _`Harbour Inn`: http://www.harbour-inn.com/
+.. _`Loch Indaal`: https://en.wikipedia.org/wiki/Loch_Indaal
+
+.. [#]: ppm stands for Phenol_ parts per million, a measurement to indicate
+   how peaty a whisky is
