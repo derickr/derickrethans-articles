@@ -290,5 +290,44 @@ into the `Lochside Hotel`_ for a last dram on Islay.
 .. _`Harbour Inn`: http://www.harbour-inn.com/
 .. _`Loch Indaal`: https://en.wikipedia.org/wiki/Loch_Indaal
 
+
+Day 4: Back to Edinburgh
+------------------------
+
+On our last day, we had to get up the earliest so that we could make the ferry
+out of `Port Ellen`_ back to the mainland. We were plenty of time for the
+ferry, so we stopped for a photo op at the old `Port Ellen distillery`_ and
+the `Port Ellen maltings`_, where Diageo produces malted barley for most of
+Islay's distilleries.
+
+The ferry itself was uneventful, but extra tasty due to the availability of
+Bunnahabhain 12 on offer. The drive was quite long, with not much spare time.
+We stopped at Oban for an excellent lunch at `Ee Usk`_ and a *quick* trip to
+the `Oban Distillery`_ to taste a dram. We borrowed a tasting glass for the
+good reason to be able to taste a few extra drams on the bus back.
+
+We made another stop at the `The Green Wellie Stop`_, after which we had to
+make a *long* detour because of some accident. We dropped off the Japanese at
+`Balloch station`_, saw the battlefield at Bannockburn_, `The Kelpies`_, and the
+`Forth Bridge`_.
+
+We arrived in Edinburgh just on time for our dinner at the Skerries_
+restaurant at our hotel, `The Dunstane`_. We finished the day with a last dram
+at their extensive whisky bar before retreating for the night, exhausted from
+another great trip to Scotland.
+
+.. _`Port Ellen`: https://en.wikipedia.org/wiki/Port_Ellen
+.. _`Port Ellen distillery`: https://en.wikipedia.org/wiki/Port_Ellen_distillery
+.. _`Port Ellen maltings`: http://www.islayinfo.com/islay_portellen_maltings.html
+.. _`Ee Usk`: http://www.eeusk.com/
+.. _`Oban distillery`: http://www.discovering-distilleries.com/oban/
+.. _`The Green Wellie Stop`: http://www.thegreenwellystop.co.uk/
+.. _`Balloch station`: https://en.wikipedia.org/wiki/Balloch,_West_Dunbartonshire#Transport
+.. _Bannockburn: https://en.wikipedia.org/wiki/Battle_of_Bannockburn
+.. _`The Kelpies`: https://en.wikipedia.org/wiki/The_Kelpies
+.. _`Forth Bridge`: https://en.wikipedia.org/wiki/Forth_Bridge
+.. _Skerries: http://dunstane-hotel-edinburgh.co.uk/dining/skerries-restaurant/
+.. _`The Dunstane`: http://dunstane-hotel-edinburgh.co.uk/
+
 .. [#]: ppm stands for Phenol_ parts per million, a measurement to indicate
    how peaty a whisky is
