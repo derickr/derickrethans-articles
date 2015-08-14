@@ -3,7 +3,7 @@ Islay: All the Peat
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-08-14 09:02 Europe/London
+   :Date: 2015-08-18 09:02 Europe/London
    :Tags: photography, whisky
    :Short: islay
 
