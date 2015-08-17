@@ -25,10 +25,10 @@ promptly headed to `BrewDog's`_ pub to have a beer and play some
 connect-four, before we headed to `The Edinburgh Larder`_ for a nice meal. On
 the way back, we caught the last Sun rays hitting `Edinburgh Castle`_.
 
-.. _`Rabbie's`: 
-.. _`Speyside's distilleries`:
-.. _`Virgin Trains East Coast`:
-.. _Fringe:
-.. _`BrewDogs`:
-.. _`The Edinburgh Larder`:
-.. _`Edinburgh Castle`: 
+.. _`Rabbie's`: https://www.rabbies.com/
+.. _`Speyside's distilleries`: /the-day-i-saved-whisky.html
+.. _`Virgin Trains East Coast`: http://www.virgintrains.co.uk/
+.. _Fringe: https://www.edfringe.com/
+.. _`BrewDog's`: https://www.brewdog.com/bars/uk/edinburgh
+.. _`The Edinburgh Larder`: http://www.edinburghlarder.co.uk/
+.. _`Edinburgh Castle`: http://www.edinburghcastle.gov.uk/
