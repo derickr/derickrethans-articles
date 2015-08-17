@@ -329,5 +329,9 @@ another great trip to Scotland.
 .. _Skerries: http://dunstane-hotel-edinburgh.co.uk/dining/skerries-restaurant/
 .. _`The Dunstane`: http://dunstane-hotel-edinburgh.co.uk/
 
+*You can find high-resolution and more photos on my Flickr_ set*.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/sets/72157656705830870
+
 .. [#]: ppm stands for Phenol_ parts per million, a measurement to indicate
    how peaty a whisky is
