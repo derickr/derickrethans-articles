@@ -15,18 +15,18 @@ and sweeter whiskies aside, and instead we headed over to Islay. Again with
 Day 0: Edinburgh
 ----------------
 
-Our train up to Edinburgh was nothing special, except that Eastcoast has now
+Our train up to Edinburgh was nothing special, except that East Coast has now
 been replaced with `Virgin Trains East Coast`_. No real changes, except for
 the name. This time however, we got into Edinburgh just as the Fringe_ was
 starting. And that made *staying* in Edinburgh quite a bit more expensive. We
 thought to be clever and book a hotel near Rabbie's pick-up point, but I had
-failed to realize that they actually moved it—right next to the hotel we
+failed to realise that they actually moved it—right next to the hotel we
 stayed in last time.
 
 The afternoon before the tour started, we had some free time in Edinburgh. We
 promptly headed to `BrewDog's`_ pub to have a beer and play some
 connect-four, before we headed to `The Edinburgh Larder`_ for a nice meal. On
-the way back, we caught the last Sun rays hitting `Edinburgh Castle`_.
+the way back, we caught the last sun rays hitting `Edinburgh Castle`_.
 
 .. _`Rabbie's`: https://www.rabbies.com/
 .. _`Speyside's distilleries`: /the-day-i-saved-whisky.html
@@ -45,11 +45,11 @@ Day 1: From Edinburgh to Islay
 The next morning we got up quite early, had some breakfast at the hotel and
 headed towards our pick up point at Rabbie's Cafe. With a tour like this,
 it is always a bit of a guess on what sort of group you get. This time, we
-were touring with two Swiss, two Slovenians, three Indians, three Canadians
-and a very loud Australian. On the way to Islay we also picked up two
-Japanese in Glasgow. On the last tour, we had a few people that didn't like
-whisky, but this time one of the Canadians was actually **allergic** to whisky
-(and beer).
+were touring with two Swiss, two Slovenians, three Indians, three Canadians,
+a very loud Australian, and our tour guide, Doug. On the way to Islay we also
+picked up two Japanese in Glasgow. On the previous tour, we had a few people
+that didn't like whisky, but this time one of the Canadians was actually
+**allergic** to whisky (and beer).
 
 .. image:: images/islay-rest.jpg
    :align: right
@@ -59,7 +59,7 @@ there. The first stop was at Luss_, in the `Loch Lomond and The Trossachs
 National Park`_. From there on, we travelled to Islay with a stop at `The Rest
 and Be Thankful`_  on the A83_. The slightly funny name comes from the time
 where you had armies going down the Glen and having to climb up to the pass.
-They could only rest when they got to the top - and clearly they were thankful
+They could only rest when they got to the top — and clearly they were thankful
 for that!
 
 For lunch we stopped at the `Royal Burgh Cafe`_ in Inveraray_. I had to try
@@ -68,7 +68,7 @@ smoked haddock, potatoes and onions. Inveraray itself is a small town on the
 coast of `Loch Fyne`_. It has a pretty nice castle for which we didn't have
 time, and apparently an old jail that you can visit.
 
-After lunch we drove for a fair bit and stopped for a quick wee pint in
+After lunch we drove for a fair bit and stopped for a quick pint in
 Kilmartin_ at the `Kilmartin Hotel`_ across from the parish church, before
 having a good look at a set of standing stones. After another short drive, we
 took some time to walk up Dunadd_, a hillfort and suspected capital of the
@@ -123,7 +123,7 @@ We had some spare time in the morning, as we were only going to be picked up
 at 09:30. That meant we had some time to run in the morning. There are not
 many paths around Bowmore, but I had scouted a nice route_ up to a local hill,
 and back. I ran quite a bit slower, as clearly it was hillier than my normal
-runs besides the canal.
+runs alongside the canal.
 
 After the morning run, shower and breakfast we were picked up for our first
 distillery visit. But before we started the tour and tasting at Kilchoman_ we
@@ -141,11 +141,13 @@ whisky production, but it was good to get things freshened up as well as
 having a look at a malting floor. But of course we really came for a tasting,
 and lunch. We sampled the following whiskies:
 
- - `Kilchoman 100% Islay`: Fruity, made with ingredients from Islay only. 25
+ - `Kilchoman 100% Islay`_: Fruity, made with ingredients from Islay only. 25
    ppm [#]_. *73*
- - `Kilchoman Machir Bay`: A little salty and matured in a bourbon and sherry
+ - `Kilchoman Machir Bay`_: A little salty and matured in a bourbon and sherry
    cask. *71*
- - `Kilchoman Loch Gorm`: Winter sweet with sherry. *79*
+ - `Kilchoman Loch Gorm`_: Winter sweet with sherry. *79*
+
+We also sampled their `Bramble Liqueur`_ as an alternative tipple.
 
 We also had lunch at the Kilchoman distillery. I think everybody from our
 group had `Cullen Skink`_ :-)
@@ -201,6 +203,7 @@ afterwards, **without** another dram!
 .. _`Kilchoman 100% Islay`: https://www.whiskybase.com/whisky/34145/kilchoman-100-islay
 .. _`Kilchoman Machir Bay`: https://www.whiskybase.com/whisky/67739/kilchoman-machir-bay-2015
 .. _`Kilchoman Loch Gorm`: https://www.whiskybase.com/whisky/66054/kilchoman-loch-gorm-2015
+.. _`Bramble Liqueur`: https://www.masterofmalt.com/liqueurs/kilchoman/kilchoman-bramble-liqueur/
 .. _`Bruichladdich`: http://bruichladdich.com/
 .. _`Classic Laddie 10`: https://www.whiskybase.com/whisky/25087/bruichladdich-the-laddie-ten
 .. _`Port Charlotte Scottish Barley`: https://www.whiskybase.com/whisky/43466/port-charlotte-scottish-barley
@@ -241,7 +244,7 @@ this year, and they had "upgraded" their visitors centre for this event.
 Everything looked brand spanking new. During the tour it was not allowed to
 take photos because of "health and safety". The tour at the distillery was
 certainly the best one. Instead of the (now boring) process, our guide told
-lots of stories - even throughout the whisky tasting. Come clearly made up.
+lots of stories - even throughout the whisky tasting. Some clearly made up.
 During the tasting itself, we tried five whiskies:
 
  - `Ardbeg 10`_: Very light, but slightly peppery and a little "burnt". A
@@ -266,12 +269,12 @@ After lunch at Ardbeg_ we headed down the coast towards the next distillery,
 Lagavulin_, for a tasting only. We tried:
 
  - `Lagavulin 16`_: Their standard bottling.
- - `Lagavulin Distiller's edition double matured`: Finished with a Pedro
+ - `Lagavulin Distiller's edition double matured`_: Finished with a Pedro
    Ximinez sherry cask. *79*
- - `Lagavulin 12`: Lighter and the peat does not linger long. 54.4% *83*
+ - `Lagavulin 12`_: Lighter and the peat does not linger long. 54.4% *83*
 
 Just a few kilometres down the coast we can find Laphroaig_. We did another tour
-there, and it was clearly the largest operation that we have been too. Lots of
+there, and it was clearly the largest operation that we have been to. Lots 
 more automation than Kilchoman_ for sure! You can just rock up for a tasting,
 but I failed to write down notes this time. If I remember correctly, we tried the
 following whiskies:
@@ -279,7 +282,7 @@ following whiskies:
  - `Laphroaig Select`_: "Entry" level whisky. It is meant to get people into
    Laphroaig and peatier whiskies, but frankly, it had the flavour and texture
    of water. There was very little to it. *63*
- - `Laphroaig Quarter Cask`
+ - `Laphroaig Quarter Cask`_
  - `Laphroaig 18`_: Clearly the best, but I don't remember much of the actual
    flavours!
 
@@ -316,7 +319,7 @@ into the `Lochside Hotel`_ for a last dram on Islay.
 Day 4: Back to Edinburgh
 ------------------------
 
-On our last day, we had to get up the earliest so that we could make the ferry
+On our last day, we had to get up early so that we could make the ferry
 out of `Port Ellen`_ back to the mainland. We were plenty of time for the
 ferry, so we stopped for a photo op at the old `Port Ellen distillery`_ and
 the `Port Ellen maltings`_, where Diageo produces malted barley for most of
