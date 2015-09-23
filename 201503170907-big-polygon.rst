@@ -21,14 +21,16 @@ Finding objects in a specific area (polygon) can be done with the
     $c->find( [
         'loc' => [
             '$geoWithin' => [
-                'type' => 'Polygon',
-                'coordinates' => [ [
-                    [ -0.91, 51.74 ], 
-                    [ -0.91, 51.27 ],
-                    [  0.67, 51.27 ],
-                    [  0.67, 51.74 ],
-                    [ -0.91, 51.74 ]
-                ] ]
+                '$geometry' => [
+                    'type' => 'Polygon',
+                    'coordinates' => [ [
+                        [ -0.91, 51.74 ], 
+                        [ -0.91, 51.27 ],
+                        [  0.67, 51.27 ],
+                        [  0.67, 51.74 ],
+                        [ -0.91, 51.74 ]
+                    ] ]
+                ]
             ]
         ]
     ] );
@@ -117,18 +119,20 @@ and ``coordinates``::
     $c->find( [
         'loc' => [
             '$geoWithin' => [
-                'type' => 'Polygon',
-                'coordinates' => [ [
-                    [ -0.91, 51.74 ], 
-                    [ -0.91, 51.27 ],
-                    [  0.67, 51.27 ],
-                    [  0.67, 51.74 ],
-                    [ -0.91, 51.74 ]
-                ] ],
-                'crs' => [
-                    'type' => 'name',
-                    'properties' => [
-                        'name' => 'urn:x-mongodb:crs:strictwinding:EPSG:4326'
+                '$geometry' => [
+                    'type' => 'Polygon',
+                    'coordinates' => [ [
+                        [ -0.91, 51.74 ], 
+                        [ -0.91, 51.27 ],
+                        [  0.67, 51.27 ],
+                        [  0.67, 51.74 ],
+                        [ -0.91, 51.74 ]
+                    ] ],
+                    'crs' => [
+                        'type' => 'name',
+                        'properties' => [
+                            'name' => 'urn:x-mongodb:crs:strictwinding:EPSG:4326'
+                        ]
                     ]
                 ]
             ]
