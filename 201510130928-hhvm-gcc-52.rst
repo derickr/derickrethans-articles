@@ -1,0 +1,121 @@
+Compiling HHVM with GCC 4.9/5.2 and Boost
+=========================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-10-13 09:28 Europe/London
+   :Tags: blog, mongo, hhvm
+   :Short: hhvm-gcc
+
+For my development environment I prefer using Debian unstable, as it usually
+has the latest and greatest things available. This tends to work a lot better
+with living-on-the-edge software like HHVM_. However, in this case, GCC 5.2
+was a little bit too living-on-the-edge for HHVM. Some system libraries
+were 'suddenly' compiled with GCC 5.2, which did not interact well with HHVM's
+GCC 4.9 (or even GCC 5.2) compiles. It mostly has to do with that GCC 5.1+
+employs a `new ABI`_ for C++ compiled objects.
+
+.. _`New ABI`: https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_dual_abi.html
+
+As I'm currently working on a MongoDB_ extension for HHVM, I really needed my
+own HHVM compiled — with debugging symbols. I could also not use HHVM's
+nightlies or binaries, as their Debian packages depend on versions of
+libraries that my Debian install no longer provides.
+
+.. _MongoDB: http://mongodb.org
+
+HHVM uses `google-glog`_ for some logging stuff, and this was the first
+library that caused issues when linking. The error message was::
+
+	../../../third-party/folly/libfolly.a(dynamic.cpp.o): In function `std::string* google::MakeCheckOpString<unsigned long, unsigned long>(unsigned long const&, unsigned long const&, char const*)':
+		/usr/include/glog/logging.h:672: undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+	../../../third-party/folly/libfolly.a(Format.cpp.o): In function `std::string* google::MakeCheckOpString<int, int>(int const&, int const&, char const*)':
+		/usr/include/glog/logging.h:672: undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+	collect2: error: ld returned 1 exit status
+	hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make:123: recipe for target 'hphp/tools/bootstrap/gen-class-map' failed
+	make[2]: *** [hphp/tools/bootstrap/gen-class-map] Error 1
+	CMakeFiles/Makefile2:945: recipe for target 'hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/all' failed
+	make[1]: *** [hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/all] Error 2
+	Makefile:106: recipe for target 'all' failed
+	make: *** [all] Error 2
+
+I promptly filed an issue_, which wasn't going anywhere fast enough.
+
+But the hints in the comments were good enough for me to try and find a
+solution.
+
+.. _`google-glog`: https://github.com/google/glog
+.. _issue: https://github.com/facebook/hhvm/issues/6299
+
+google-glog
+-----------
+
+To sort out google-glog and get a GCC 4.9 compiled version installed, I first
+removed the system version with ``apt-get remove libgoogle-glog-dev
+libgoogle-glog0v5``. I then downloaded the source package through apt:
+``apt-get source libgoogle-glog-dev``. To compile, I ran:
+
+ - Make sure we use the 'old' compiler:
+
+   - ``export CC=`which gcc-4.9` ``
+   - ``export CXX=`which g++-4.9` ``
+   - ``export ASM=`which gcc-4.9` ``
+
+ - ``cd google-glog-0.3.4``
+ - ``./configure``
+ - In the generated ``Makefile``, I changed the ``ACLOCAL`` define to
+   ``aclocal-1.15`` (line 613) and the ``AUTOMAKE`` define to
+   ``automake-1.15`` (line 629). For some reason, they were both ``-1.14``
+   which isn't installed.
+ - ``make``
+ - ``automake --add-missing`` to silence a warning about some installer
+ - ``make -j 20``
+ - ``sudo make install``
+
+Boost
+-----
+
+Boost_ was a bit trickier, as it's build system is "novel". I did not have to
+remove the packages that I installed with APT though, and HHVM's build system
+was clever enough to pick up on my newly compiled libraries which I installed
+in ``/usr/local``.
+
+ - Download Boost: ``wget http://downloads.sourceforge.net/project/boost/boost/1.59.0/boost_1_59_0.tar.bz2``
+ - Extract: ``tar -xvjf boost_1_59_0.tar.bz2``
+ - Change into directory: ``cd boost_1_59_0/``
+ - Setup our new (old) compiler as toolset (found on StackOverflow_):
+
+   - ``mkdir tools/build/v2``
+   - ``echo "using gcc : 4.9 : /usr/bin/g++-4.9 ; " > tools/build/v2/user-config.jam``
+
+ - Compile: ``./bjam --toolset=gcc-4.9 -j 16``
+ - Install into ``/usr/local``: ``./b2 install --prefix=/usr/local --toolset=gcc-4.9``
+ - ``ldconfig``
+
+That sorted out Boost.
+
+.. _Boost: http://www.boost.org/
+.. _StackOverflow: http://stackoverflow.com/questions/5346454/building-boost-with-different-gcc-version
+
+HHVM
+----
+
+I then compiled HHVM in my normal fashion, ensuring I was using GCC 4.9:
+
+ - ``export CC=`which gcc-4.9` ``
+ - ``export CXX=`which g++-4.9` ``
+ - ``export ASM=`which gcc-4.9` ``
+ - Check out the *3.9.1* release: ``git checkout 3.9.1 && git submodule update
+   --recursive``
+ - Clean things up: ``git clean -dfx -f && git clean -dfx -f third-party``
+ - Configure (make sure it picks up the new 1.59 version of Boost that you
+   just compiled yourself):
+ 
+   ``cmake
+       -DCMAKE_BUILD_TYPE=Debug
+       -DCMAKE_INSTALL_PREFIX=/usr/local/hhvm/3.9.1 .``
+
+ - ``make -j 20``
+ - ``make install``
+
+Et voilá, a working HHVM compiled with GCC 4.9 on the latest Debian unstable.
