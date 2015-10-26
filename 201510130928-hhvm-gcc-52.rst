@@ -83,9 +83,11 @@ in ``/usr/local``.
  - Download Boost: ``wget http://downloads.sourceforge.net/project/boost/boost/1.59.0/boost_1_59_0.tar.bz2``
  - Extract: ``tar -xvjf boost_1_59_0.tar.bz2``
  - Change into directory: ``cd boost_1_59_0/``
+ - Run ``./bootstrap.sh``
  - Setup our new (old) compiler as toolset (found on StackOverflow_):
 
    - ``mkdir tools/build/v2``
+
    - ``echo "using gcc : 4.9 : /usr/bin/g++-4.9 ; " > tools/build/v2/user-config.jam``
 
  - Compile: ``./bjam --toolset=gcc-4.9 -j 16``
