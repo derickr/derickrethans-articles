@@ -84,15 +84,12 @@ in ``/usr/local``.
  - Extract: ``tar -xvjf boost_1_59_0.tar.bz2``
  - Change into directory: ``cd boost_1_59_0/``
  - Run ``./bootstrap.sh``
+ - ``mkdir tools/build/v2``
  - Setup our new (old) compiler as toolset (found on StackOverflow_):
-
-   - ``mkdir tools/build/v2``
-
-   - ``echo "using gcc : 4.9 : /usr/bin/g++-4.9 ; " > tools/build/v2/user-config.jam``
-
+   ``echo "using gcc : 4.9 : /usr/bin/g++-4.9 ; " > tools/build/v2/user-config.jam``
  - Compile: ``./bjam --toolset=gcc-4.9 -j 16``
- - Install into ``/usr/local``: ``./b2 install --prefix=/usr/local --toolset=gcc-4.9``
- - ``ldconfig``
+ - Install into ``/usr/local``: ``sudo ./b2 install --prefix=/usr/local --toolset=gcc-4.9``
+ - ``sudo ldconfig``
 
 That sorted out Boost.
 
