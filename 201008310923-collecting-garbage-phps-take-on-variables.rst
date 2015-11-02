@@ -214,5 +214,7 @@ With that we conclude this introduction, for more information on how PHP deals
 with variables I can point you at June 2005 issue of php|architect. That
 article is also available on-line as PDF
 (http://derickrethans.nl/files/phparch-php-variables-article.pdf).
-In the next installment, we're going to discuss the solution to the memory leak
+In the next installment_, we're going to discuss the solution to the memory leak
 problem with circular references.
+
+.. _installment: /collecting-garbage-cleaning-up.html

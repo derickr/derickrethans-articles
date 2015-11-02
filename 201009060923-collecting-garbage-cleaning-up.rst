@@ -120,5 +120,7 @@ so that there is more place for storing possible roots while the cycle
 collecting mechanism is turned off.
 
 In this installment we saw how the garbage collection mechanism works, and how
-it is integrated into PHP. In the next and last part of the series, we will
+it is integrated into PHP. In the `next and last part`_ of the series, we will
 look at performance considerations and benchmarks.
+
+.. _`next and last part`: /collecting-garbage-performance-considerations.html
