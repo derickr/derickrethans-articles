@@ -7,21 +7,23 @@ New MongoDB Drivers for PHP and HHVM: History
    :Tags: blog, php, mongodb
    :Short: newmongo1
 
-Recently we have released a new version of the MongoDB driver for PHP. This
-release is the result of nearly a year and a half work to re engineer and
+We recently released a new version of the MongoDB driver for PHP. This
+release is the result of nearly a year and a half work to re-engineer and
 rewrite the MongoDB driver. In this blog post, I will cover the back story of
 the how and why we undertook this effort.
 
-The original driver got released in early 2009. It was written by Kristina_
-and it had a very simple architecture. The extension was written in PHP,
-with very few functions implemented in C. Just the ones that were needed to
-create a resource for the connection, the standard CRUD operations, running
-a query, and iterating over a result set (sans iterator-support). All the
+The original driver was created by Kristina_ and released in early 2009.
+The extension had a very simple architecture and was written mostly in PHP.
+A handful of core functions were implemented in C, such as
+creating a resource for the connection, standard CRUD operations, query
+execution, and iterating over a result set (sans an Iterator_ interface). All
+of the
 convenient user facing APIs were implemented in PHP code. There were also a
 few classes to encapsulate certain MongoDB_ data types that PHP otherwise
 could not represent, such as its ``ISODate``, ``ObjectID`` and ``Regex`` types.
 
 .. _Kristina: http://www.kchodorow.com
+.. _Iterator: http://docs.php.net/iterator
 .. _MongoDB: http://mongodb.org
 
 A small example to create a connection, insert a document, and retrieve a
@@ -50,14 +52,14 @@ result set looked like::
 Support for PHP 5.3 was soon added. In this release, much of the syntactic
 sugar in the form of PHP classes and code had been replaced by
 implementations in C. Where most (if not all) PHP extensions use phpt_
-tests, the MongoDB driver instead had its test suite implemented with PHPUnit_
+tests, the MongoDB driver instead implemented its test suite with PHPUnit_
 tests. The main difference between test methods, is that phpt_ tests are all
-run in a *separate* PHP process in isolation, whereas PHPUnit_ tests all run
-in the same process. Which means that if one test case causes a crash in the
+run in a *separate* PHP process in isolation, whereas PHPUnit_ tests re-use
+the same process by default. Which means that if one test case causes a crash in the
 driver, none of the others run either, and no result is visible.
 
 In late 2009, the MongoDB driver for PHP reached a stable state with version
-1.0.0. It added a feature to pacify some PHP developers that refused to use
+1.0.0. It added a feature to placate some PHP developers that refused to use
 single quotes around query operators. Query operators in MongoDB have the
 form of ``$`` + operation, such as ``$gte`` for *Greater Than or Equal* or
 ``$set`` for setting fields during updates. As they are array *keys*, extra
@@ -67,8 +69,8 @@ expect it to do::
 	$r = $c->find( array( "fieldname" => array( "$gte" => 42 ) ) );
 
 The ``$gte`` in the double quotes of course causes a variable substitution,
-usually evaluating to an empty string. Instead of education users to use
-single quotes (like in ``'$gte'``), the driver acquired a way to replace the
+usually evaluating to an empty string. Instead of educating users to use
+single quotes (as in ``'$gte'``), the driver acquired a way to replace the
 ``$`` symbol to signal a query operator with a different symbol::
 
 	ini_set('mongo.cmd', '@');
@@ -80,11 +82,12 @@ A little later, a warning was added in case an empty array key was found.
 .. _phpt: http://qa.php.net
 .. _PHPUnit: https://phpunit.de
 
-With the 1.0.0 the serialization from PHP variables to database types also
-settled. MongoDB uses Binary JSON (BSON_) as its internal format, and the
+The 1.0.0 release also settled issues with serialising PHP variables to
+database types. MongoDB uses Binary JSON (BSON_) as its internal format, and
+the
 PHP driver needs to serialize to and from this data type. BSON also supports
 compound data types, arrays (packed numerical keys), and documents
-(basically hash maps, or something like JSON object). Because in PHP there
+(basically hash maps, or something akin to JSON objects). Because in PHP there
 is really only one array type, the decision was taken that both BSON
 documents and BSON arrays would be deserialized into PHP variables as
 *arrays*. The following example illustrates this::
@@ -130,14 +133,15 @@ The result of this script is (after formatting)::
 		[foo] => baz
 	)
 
-As you see, both come back as arrays, which is a little bit awkward to deal
-with.
+As you see, both come back as arrays, as arrays are easier to work with than
+objects of stdClass.
 
 At the start of February 2012, I took over the role as maintainer of the PHP
 driver. Connection pools were new in the 1.2 series, and ended up causing
 lots of issues. Because PHP is single threaded (from a request handling
 point of view), a connection pool makes little sense as PHP can't use
-multiple connections at the same time anyway. So this got ripped out in the
+multiple connections at the same time anyway. Ultimately, connection pools
+were ripped out in the
 1.3 series to improve reliability (and sanity while debugging). At the same
 time, I also added lots of logging!
 
@@ -149,7 +153,7 @@ time, I also added lots of logging!
 .. image:: /images/content/mongo-git-not-messy-small.png
    :align: left
 
-With 1.3 out of the door, Hannes_ started helping out, and because we were
+With 1.3 out the door, Hannes_ started helping out, and because we were
 now two, we settled on a new `Git workflow`_. Jeremy_ joined our little team
 around at the same time, and started contributing to the driver in earnest
 somewhere in 2013.
@@ -170,15 +174,15 @@ included are:
 - There are static methods for setting query and cursor objects, which makes
   it difficult to find out which option value was being used for each query.
 - We had no clear strategy as to when to add command helpers. Command
-  helpers are convenience methods to for example create users, indexes and
-  collections — things that could also be done through the generic Command
-  Execution method.
+  helpers are convenience methods for tasks such as creating users, indexes,
+  and collections — things that could also be done through the generic command
+  execution method.
 - Maintenance of some complex functionality such as GridFS was hard, and
-  cumbersome as it was all implemented in C code.
+  was both difficult and cumbersome, as it was all implemented in C code.
 - Because everything was implemented in the PHP extension, we couldn't
   easily share code in case we wanted to support something like HHVM.
 
-And then additionally, because each language driver was implementing its own
+Lastly, because each language driver was implementing its own
 version of the protocol to talk to MongoDB, we were doing a lot of
 duplicated work.
 
@@ -187,9 +191,10 @@ duplicated work.
 
 With this in mind, we set some goals for a new version of the driver:
 
-- A bare bones driver just implementing what really needed to be implemented
-  to access all the features of MongoDB.
-- No syntactic sugar, or command helpers
+- A bare bones driver just implementing the essential API for accessing all
+  features of MongoDB.
+- No syntactic sugar, or command helpers (they are better suited to a PHP
+  library)
 - It should be fast to write and easy to maintain
 - Support for other PHP engines like HHVM
 - No reinvention of the wheel by implementing the protocol to talk to
