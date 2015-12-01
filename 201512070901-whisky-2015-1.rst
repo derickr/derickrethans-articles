@@ -1,0 +1,23 @@
+Whisky Advent: part 1
+=====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2015-12-07 09:01 Europe/London
+   :Tags: blog, whisky
+   :Short: whisky151
+
+December 1st: Bunnahabhain 12
+-----------------------------
+
+*Tasting notes*: Caramel and salt, with peaty undertones and a little herbal.
+
+*About Bunnahabhain:* One of our favourite drams, well, the 18 year old that
+is. The 12 year old is also very drinkable. Sadly, we did not manage to visit
+the `Bunnahabhain distillery`_ on our `whisky tour`_ to Islay last year.
+
+Amazon sells it for `£35 on amazon.co.uk`__.
+
+.. _`whisky tour`: /islay.html
+.. _`Bunnahabhain distillery`: https://en.wikipedia.org/wiki/Bunnahabhain_Distillery
+__ http://www.amazon.co.uk/gp/product/B004EY1T4E/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004EY1T4E&linkCode=as2&tag=derickrethans-21
