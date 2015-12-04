@@ -46,3 +46,22 @@ for 10 years. It's specially selected for the House of Lords, this Single
 Malt has been aged in oak sherry casks in Scotland for a minimum of ten
 years. It has been distilled following the age old tradition of the Scottish
 Highlands, from the finest selection of malted barley.
+
+https://www.whiskybase.com/whisky/6785/house-of-lords-10-year-old-single-highland-malt-scotch-whisky
+
+December 4th: Old Malt Cask: Single Cask 21 year old Strathmill
+---------------------------------------------------------------
+
+*Tasting notes*: Sweet vanilla custard with caramel, with a hint of pepper at
+the end.
+
+*About the whisky*: It got given to me by an anonymous benefactor—allegedly
+because of my work on Xdebug_. It's single cask and one of only 294 bottles at
+50% ABV. The Strathmill_ distillery itself is in the heart of Speyside and is
+currently owned by Diageo_. They mostly use the whisky that this distillery
+produces in blended malts such as J&B whisky. Luckily, this one has escaped
+this horrendous outcome and stayed a nice single cask whisky for us to enjoy.
+
+.. _Xdebug: http://xdebug.org
+.. _Strathmill: https://en.wikipedia.org/wiki/Strathmill
+.. _Diageo: https://en.wikipedia.org/wiki/Diageo
