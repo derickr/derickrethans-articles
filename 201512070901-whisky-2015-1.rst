@@ -65,3 +65,24 @@ this horrendous outcome and stayed a nice single cask whisky for us to enjoy.
 .. _Xdebug: http://xdebug.org
 .. _Strathmill: https://en.wikipedia.org/wiki/Strathmill
 .. _Diageo: https://en.wikipedia.org/wiki/Diageo
+
+December 5th: Octomore 6.3
+--------------------------
+
+*Tasting notes*: Honey, peat, and some herbal tones, and alcohol. It lingers
+very long.
+
+*About the whisky*: The `Octomore 06.3`_ is a 5 year aged whisky, made from
+single field of barley from Islay—and hence, party of their "Islay Barley"
+series. It is one of the heaviest peated whiskies with a phenol_ count of 258
+ppm_, and it's cask strength at 64% too. Although it is so heavily peated, and
+it is most definitely there while tasting it, it is not overreaching and
+drowning out everything else, which I sometimes find with some of the much
+less peated Islay whiskies. We bought this bottle on our first anniversary at
+`Milroy's`_ after having gotten a free tasting at their bar after dinner. It
+does not come cheap at about £150.
+
+.. _`Octomore 06.3`: https://www.whiskybase.com/whisky/45178/octomore-edition-063-258
+.. _phenol: https://en.wikipedia.org/wiki/Phenol#Occurrence_in_whisky
+.. _ppm: https://en.wikipedia.org/wiki/Parts-per_notation#ppm
+.. _`Milroy's`: http://shop.milroys.co.uk/
