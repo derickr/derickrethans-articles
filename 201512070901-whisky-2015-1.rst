@@ -86,3 +86,17 @@ does not come cheap at about £150.
 .. _phenol: https://en.wikipedia.org/wiki/Phenol#Occurrence_in_whisky
 .. _ppm: https://en.wikipedia.org/wiki/Parts-per_notation#ppm
 .. _`Milroy's`: http://shop.milroys.co.uk/
+
+December 6th: Single cask Glengoyne 14, bottled by Cadenhead's
+--------------------------------------------------------------
+
+*Tasting notes*: Peppery and very big. It's a bit chewy with hints of Sherry
+and toffee.
+
+*About the whisky*: This__ is one of `Cadenhead's`_ `small batch`_ bottlings. As
+one of 840 bottles, it is not a single cask whisky. It was distilled in 2001
+and at 14 years old, bottled at 46% ABV.
+
+__ https://www.whiskybase.com/whisky/69624/glengoyne-2001-ca
+.. _`Cadenhead's`: http://www.whiskytastingroom.com/
+.. _`small batch`: http://www.whiskytastingroom.com/cadenheads-small-batch-whisky
