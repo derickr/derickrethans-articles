@@ -141,3 +141,19 @@ maturation in a Pedro Ximenez sherry cask.
 __ https://www.whiskybase.com/whisky/40926/lagavulin-1995
 
 Sadly, with this tasting, I finished the bottle :-(
+
+
+December 10th: anCnonc 22
+-------------------------
+
+*Tasting notes*: Christmas pudding in liquid form. Honey and butter, with
+oranges, cloves and nutmeg. Finalizes with some spicy smokey hints.
+
+*About the whisky*: This is a relatively new anCnoc_, distilled at the
+Knockdhu_ distillery. Its relatively low profile compared to some other
+Speyside malts, they've been quietly producing very good whiskies for some
+time now. It is aged in both American bourbon casks and Spanish oak
+Oloroso sherry-seasoned casks for a period of 22 years.
+
+.. _anCnoc: https://www.whiskybase.com/whisky/39696/an-cnoc-22-year-old
+.. _Knockdhu: https://en.wikipedia.org/wiki/Knockdhu_distillery
