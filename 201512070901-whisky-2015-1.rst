@@ -157,3 +157,16 @@ Oloroso sherry-seasoned casks for a period of 22 years.
 
 .. _anCnoc: https://www.whiskybase.com/whisky/39696/an-cnoc-22-year-old
 .. _Knockdhu: https://en.wikipedia.org/wiki/Knockdhu_distillery
+
+
+December 11th: Taketsuru 17
+---------------------------
+
+*Tasting notes*: Warm mellow honey. Hints of peat perhaps? But a bit of bitter
+oak. Doesn't linger long, and it's a little bit creamy on the palette.
+
+*About the whisky*: This is a 17 year old blended malt named for Nikka's
+founder, the whisky-pilgrim Masataka Taketsuru. It won a few awards (best
+Blended, and best Blended Japanese malt) at the `World Whisky Awards`_.
+
+.. _`World Whisky Awards`: http://www.worldwhiskiesawards.com/nikka-whisky-taketsuru-pure-malt-17-years-old.13912.html
