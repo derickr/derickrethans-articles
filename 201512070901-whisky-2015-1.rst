@@ -229,3 +229,16 @@ http://www.vintagemaltwhisky.com/finlaggan/.
 
 .. _Daaron: https://www.linkedin.com/in/daaron-dwyer-aa49b994
 .. _`Amazon wishlist`: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
+
+
+December 16th: The Arran Malt 12yo Cask Strength Batch #5
+---------------------------------------------------------
+
+*Tasting notes*: Light and a bit salty with oak. Sweet sherry, but chewy. The
+finish isn't very long at all.
+
+*About the whisky*: This the `fifth batch`_ of the cask strength 12 year old
+Arran malt. It's a reasonably small batch with 18000 bottles, and it is
+bottled at 52.9% ABV. It was bottled in May 2015.
+
+.. _`fifth batch`: https://www.whiskybase.com/whisky/69352/arran-12-year-old
