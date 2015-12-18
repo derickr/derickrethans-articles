@@ -1,11 +1,11 @@
-Whisky Advent: part 1
-=====================
+Whisky Advent 2015
+==================
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-12-07 09:01 Europe/London
+   :Date: 2015-12-25 09:01 Europe/London
    :Tags: blog, whisky
-   :Short: whisky151
+   :Short: whisky15
 
 December 1st: Bunnahabhain 12
 -----------------------------
