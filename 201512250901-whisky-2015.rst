@@ -3,7 +3,7 @@ Whisky Advent 2015
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2015-12-25 09:01 Europe/London
+   :Date: 2015-12-25 09:01 Europe/Amsterdam
    :Tags: blog, whisky
    :Short: whisky15
 
