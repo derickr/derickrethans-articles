@@ -23,4 +23,11 @@ addicted to running, picking up "moving my legs really fast" seemed liked a
 promising venture for doing something about my level of fitness (level 0,
 really).
 
+I know that starting something is easy, but that finishing something is hard.
+I already dabbed with running when I was still living in Norway, but I was
+pretty good at coming up with excuses to not go running: "oh, it rains", "oh,
+it is cold" (always works in Norway!), "oh, I got out of bed too late". One
+thing I did manage to do back in 2007, was actually buying running trainers.
 
+.. image:: /images/content/pebble-c25k.jpg
+   :align: left
