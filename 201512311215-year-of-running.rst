@@ -31,3 +31,45 @@ thing I did manage to do back in 2007, was actually buying running trainers.
 
 .. image:: /images/content/pebble-c25k.jpg
    :align: left
+
+Eight years later, these same running trainers would get me started, but I
+also needed a plan. A plan to follow with the uttermost discipline, because
+without that I was doomed to fail. The plan came in the form of a 
+`Couch to 5K`_ program—also promoted by the NHS_. The NHS makes a handy
+podcast available, but I instead opted for using a `C25K app`_ on my
+Pebble_. It is very basic, but it does do the trick. Couch to 5K requires you
+to do three runs per week. I choose to run on Monday, Wednesday and Friday,
+and promised to myself to stick to it. And I did. I do however remember the
+first run, not far from home in `Queen's Park`_. The first run consists of 5
+minutes of warm up walking, and then alternate 60 seconds of jogging and 90
+seconds of walking for a total of 20 minutes. By the third *run for 60
+seconds* I thought I was going to die. But I persisted, and completed my first
+run. I nearly had to crawl home. But I noticed that with the second and third of
+that first week things already started to improve. So I continued with weeks
+two, three, and then four, only missing one Friday run because of `PHP
+Benelux`_, where I instead ran on a Saturday.
+
+And then came the third run of week five. The dreaded "run for 20 minutes
+without any breaks". But I made it. I was so pleased with myself. I finished
+the Couch to 5K in 10 weeks, instead of 9 as I went skiing in Norway for a
+week. By this time, I had also signed up for RunKeeper_ to track `my
+progress`_, and of course, to drool over statistics—I am a geek after all.
+During the last few weeks of the Couch to 5K, I set myself another goal: *run
+a 10K race in April, and preferrably within an hour*. I signed up for a race
+with `The Race Organiser`_ in Hyde Park on April 12th. I have since then done
+another race with them, and I think they are good "beginners" races as only
+about 500 people show up for them. I was quite ecstatic actually having
+finished the race in (just) under an hour!
+
+Since the first "run" on a cold January morning, I have ran 1480km.
+I have run several races: A 3.2 mile race in `Central
+Park`_ with work as part of the J.P. Morgan Corporate Challenge, the `Vitality
+British 10K London Run`_ with 20 000 other runners in Central London, the `Kew
+Gardens 10K`_, an awful `Run the River`_ 5K around Tower Bridge and finishing
+with a last race in Regent's Park in the middle of December.
+I steadily improved my performance up to the point where my 10K Personal
+Best is now 49m17s. I also lost 1½ stone, and need new jeans, and the only
+thing I have changed this year is the running. I still enjoy beer_,
+whisky_, and food.
+
+I definitely got addicted.
