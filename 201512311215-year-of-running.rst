@@ -73,3 +73,21 @@ thing I have changed this year is the running. I still enjoy beer_,
 whisky_, and food.
 
 I definitely got addicted.
+
+But why am I talking to you about running?
+
+It is all about setting goals and following them up with a plan. My first goal
+was to get off the couch, and used *Couch to 5K* as my set of milestones. Then
+I signed up for a 10K, and worked towards that. Setting a goal, with
+measurable milestones is something that does not only apply to running, but
+also to career development. Set a goal, figure out a plan how to get there
+with mile stones and then work towards them. And practice, lots of practise!
+
+In 2016 I will continue to run, work on Xdebug_ and perhaps also do a new
+project for whisky drinkers — stay tuned for that.
+
+As a last note, and I don't know what overcame me, I have signed up for a half
+marathon in 50 days with the goal to complete it in under two hours! Wish me
+good luck! Perhaps a marathon later in 2016‽
+
+Enjoy the last hours of 2015, and **Happy New Year**!
