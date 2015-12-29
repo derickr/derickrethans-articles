@@ -91,3 +91,18 @@ marathon in 50 days with the goal to complete it in under two hours! Wish me
 good luck! Perhaps a marathon later in 2016‽
 
 Enjoy the last hours of 2015, and **Happy New Year**!
+
+.. _`Couch to 5K`: http://www.coolrunning.com/engine/2/2_3/181.shtml
+.. _NHS: http://www.nhs.uk/Livewell/c25k/Pages/couch-to-5k-plan.aspx
+.. _`C25K app`: https://apps.getpebble.com/en_US/application/52e81bd9afe0908ce9000002
+.. _Pebble: https://www.pebble.com/
+.. _RunKeeper: https://runkeeper.com
+.. _`my progress`: https://runkeeper.com/user/derickr
+.. _`The Race Organiser`: 
+.. _finished : https://runkeeper.com/user/derickr/activity/546499946
+.. _`Central Park`: https://www.jpmorganchasecc.com/events.php?city_id=6
+.. _`Vitality British 10K London Run`: http://www.thebritish10klondon.co.uk/
+.. _`Kew Gardens 10K`: https://www.richmondrunningfestival.com/
+.. _`Run the River`: https://www.teachfirst.org.uk/run-river-2015
+.. _beer: https://untappd.com/
+.. _whisky: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
