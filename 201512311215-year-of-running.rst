@@ -98,13 +98,16 @@ good luck! Perhaps a marathon later in 2016‽
 
 Enjoy the last hours of 2015, and **Happy New Year**!
 
+.. _`PHP 7`: http://php.net/archive/2015.php#id2015-12-03-1
 .. _`Couch to 5K`: http://www.coolrunning.com/engine/2/2_3/181.shtml
 .. _NHS: http://www.nhs.uk/Livewell/c25k/Pages/couch-to-5k-plan.aspx
 .. _`C25K app`: https://apps.getpebble.com/en_US/application/52e81bd9afe0908ce9000002
 .. _Pebble: https://www.pebble.com/
+.. _`Queen's Park`: https://en.wikipedia.org/wiki/Queen%27s_Park,_London#Queen.27s_Park
+.. _`PHP Benelux`: https://conference.phpbenelux.eu/2015/
 .. _RunKeeper: https://runkeeper.com
 .. _`my progress`: https://runkeeper.com/user/derickr
-.. _`The Race Organiser`: 
+.. _`The Race Organiser`: http://www.theraceorganiser.com/
 .. _finished : https://runkeeper.com/user/derickr/activity/546499946
 .. _`Central Park`: https://www.jpmorganchasecc.com/events.php?city_id=6
 .. _`Vitality British 10K London Run`: http://www.thebritish10klondon.co.uk/
@@ -112,3 +115,4 @@ Enjoy the last hours of 2015, and **Happy New Year**!
 .. _`Run the River`: https://www.teachfirst.org.uk/run-river-2015
 .. _beer: https://untappd.com/
 .. _whisky: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
+.. _Xdebug: http://xdebug.org
