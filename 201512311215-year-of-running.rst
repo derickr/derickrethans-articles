@@ -61,6 +61,9 @@ another race with them, and I think they are good "beginners" races as only
 about 500 people show up for them. I was quite ecstatic actually having
 finished the race in (just) under an hour!
 
+.. image:: /images/content/run-the-river.jpg
+   :align: right
+
 Since the first "run" on a cold January morning, I have ran 1480km.
 I have run several races: A 3.2 mile race in `Central
 Park`_ with work as part of the J.P. Morgan Corporate Challenge, the `Vitality
@@ -75,6 +78,9 @@ whisky_, and food.
 I definitely got addicted.
 
 But why am I talking to you about running?
+
+.. image:: /images/content/kew-gardens.jpg
+   :align: left
 
 It is all about setting goals and following them up with a plan. My first goal
 was to get off the couch, and used *Couch to 5K* as my set of milestones. Then
