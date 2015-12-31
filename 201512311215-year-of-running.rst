@@ -57,7 +57,7 @@ Norway for a week. By this time, I had also signed up for RunKeeper_ to track
 `my progress`_. Of course also to drool over statistics—I am a geek after all!
 With encouragement from my wife, I also signed up for my first real race with
 `The Race Organiser`_ in Hyde Park on April 12th. They organise smaller races,
-with about 500 people showing up. Excellent for beginning (and experienced)
+with about 500 people showing up. Excellent for novice and experienced
 runners alike. I set myself a goal for completing this race within an hour. I
 managed to cross the finish line in 59m13s. Great success!
 
