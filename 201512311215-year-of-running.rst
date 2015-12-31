@@ -79,9 +79,6 @@ I definitely got addicted.
 
 But why am I talking to you about running?
 
-.. image:: /images/content/kew-gardens.jpg
-   :align: left
-
 It is all about setting goals and following them up with a plan. My first goal
 was to get off the couch, and used *Couch to 5K* as my set of milestones. Then
 I signed up for a 10K, and worked towards that. Setting a goal, with
