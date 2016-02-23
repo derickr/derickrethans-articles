@@ -52,7 +52,8 @@ with ``sort()``, ``limit()``, and ``skip()`` before it is executed by the server
 	$cursor->sort( [ 'name' => 1 ] )->limit( 40 );
 
 After the cursor starts iterating (through ``foreach`` or ``->rewind()``),
-you can no longer call the aforementioned methods to configure the cursor.
+you can no longer call the aforementioned methods, as well as other methods
+that configure the query, to modify the cursor.
 
 New Driver
 ----------
