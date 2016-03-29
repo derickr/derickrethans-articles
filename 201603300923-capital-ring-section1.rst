@@ -64,13 +64,13 @@ For the full photo series, see my `Flickr set`_.
 .. _`Walk London`: https://tfl.gov.uk/modes/walking/top-walking-routes
 .. _LOOP: https://tfl.gov.uk/modes/walking/loop-walk
 .. _`Capital Ring`: https://tfl.gov.uk/modes/walking/capital-ring
-.. _`Thames Barrier`: 
-.. _`Maryon Wilson Park`:
-.. _`Charlton Park`:
-.. _`Hornfair Park`:
-.. _`Woolwich Common`:
-.. _Castlewood:
-.. _Severndroog:
-.. _'Jack Wood`:
+.. _`Thames Barrier`: https://www.gov.uk/guidance/the-thames-barrier
+.. _`Maryon Wilson Park`: https://en.wikipedia.org/wiki/Maryon_Park
+.. _`Charlton Park`: https://en.wikipedia.org/wiki/Charlton_Park,_Greenwich
+.. _`Hornfair Park`: http://www.royalgreenwich.gov.uk/directory_record/3774/hornfair_park
+.. _`Woolwich Common`: https://en.wikipedia.org/wiki/Woolwich_Common
+.. _Castlewood: http://www.royalgreenwich.gov.uk/directory_record/3779/oxleas_woods_castle_wood_and_jack_wood
+.. _Severndroog: https://en.wikipedia.org/wiki/Severndroog_Castle
+.. _'Jack Wood`: http://www.royalgreenwich.gov.uk/directory_record/3779/oxleas_woods_castle_wood_and_jack_wood
 .. _`Flickr set`: https://www.flickr.com/photos/derickrethans/albums/72157666426977111
 
