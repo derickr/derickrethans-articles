@@ -10,7 +10,7 @@ Walking the Capital Ring - Section 1
 .. image:: images/cr-d37_6759a.jpg
    :align: left
 
-Another year, another walk. After taking last year of due to buying a flat,
+Another year, another walk. After taking last year off due to buying a flat,
 and being generally busy, we decided that it was time for another of the big
 `Walk London`_. Two years ago we did the London LOOP_, and this year we are
 walking the `Capital Ring`_, its smaller cousin.
