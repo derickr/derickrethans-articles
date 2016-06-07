@@ -332,6 +332,6 @@ with your 64-bit integers!
 .. _BSON: http://bsonspec.org/
 .. _JSON: http://www.json.org/
 .. _types: http://uk2.php.net/manual/en/mongo.types.php
-.. _MongoCursorException: http://uk2.php.net/manual/en/class.mongocursorexception.php
+.. _MongoCursorException: http://php.net/manual/en/class.mongocursorexception.php
 .. _could: http://www.mongodb.org/display/DOCS/mongo+-+The+Interactive+Shell#mongo-TheInteractiveShell-Numbers
 .. _`1.0.9 mongo release`: http://pecl.php.net/package-info.php?package=mongo&version=1.0.9
