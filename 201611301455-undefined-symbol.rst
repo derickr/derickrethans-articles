@@ -19,22 +19,22 @@ in Unknown on Line 0**".
 
 The newly released version of the driver has support for PHP's
 `json_encode()`_ through the `JsonSerializable`_ interface, to convert some of
-our internal BSON types (think `MongoDB\\BSON\\JavaScript`_ and
+our internal BSON types (think `MongoDB\\BSON\\Binary`_ and
 `MongoDB\\BSON\\UTCDateTime`_) directly to JSON. For this it uses functionality
 in PHP's `JSON extension`_, and with that the ``php_json_serializable_ce``
 symbol that this extension defines.
 
 .. _`json_encode()`: https://php.net/json_encode
 .. _`JsonSerializable`: https://php.net/jsonserializable
-.. _`MongoDB\\BSON\\JavaScript`: https://php.net/mongodb_bson_javascript
+.. _`MongoDB\\BSON\\Binary`: https://php.net/mongodb_bson_binary
 .. _`MongoDB\\BSON\\UTCDateTime`: https://php.net/mongodb_bson_utcdatetime
 .. _`JSON extension`: https://php.net/json
 
 We run our test suite on many different distributions, but (nearly) always
 with our own compiled PHP binaries as we need to support so many versions of
-PHP (5.4, 5.5, 7.0, and 7.1), in various configurations (ZTS_, or not; 32-bit
-or 64-bit). It came hence quite as a surprise that a self-compiled extension
-would not load for one of our users.
+PHP (5.4-5.6, 7.0, and now 7.1), in various configurations (ZTS_, or not;
+32-bit or 64-bit). It came hence quite as a surprise that a self-compiled
+extension would not load for one of our users.
 
 .. _ZTS: http://php.net/manual/en/internals2.buildsys.environment.php
 
@@ -43,7 +43,7 @@ of the binary. This means that the JSON extension, and the symbols it
 implements are always available. Linux distributions often split out each
 extension into their own package or shared object. Debian_ has `php5-json`_
 (on which `php5-cli`_ depends), while Fedora has `php-json`_. In order to make
-use of the JSON extension, you therefore need to install a separate package,
+use of the JSON extension, you therefore need to install a separate package
 that provides the shared object (``json.so``) and a configuration file.
 Fedora installs the  ``20-json.ini`` file in ``/etc/php.d/``. Debian installs
 the ``20-json.ini`` file in ``/etc/php5/mods-available`` with a symlink to
@@ -66,7 +66,7 @@ extensions, it registers the classes and functions contained in them, in `an
 order to satisfy this dependency graph`_. PHP makes sure that the classes and
 functions in the JSON extension are registered before the MongoDB extension,
 so that when the latter uses the ``php_json_serializable_ce`` symbol to
-register that the ``MongoDB\\BSON\\UTCDateTime`` class implements the
+declare that the ``MongoDB\\BSON\\UTCDateTime`` class implements the
 ``JsonSerializable`` interface the symbol is already available. 
 
 .. _dlopen: http://man7.org/linux/man-pages/man3/dlopen.3.html
@@ -83,7 +83,7 @@ dlopen_ system call to resolve the symbols **when the shared object is
 loaded**. This means, that if the MongoDB extension is loaded before the JSON
 extension, the symbols are not available yet, and the linker throws the
 "**Undefined Symbol php_json_serializable_ce in Unknown on Line 0**" error
-from our bug report. This is not a problem that only related to PHP, TCL has
+from our bug report. This is not a problem that only related to PHP; TCL has
 `similar issues`_ for example.
 
 With Fedora, the same issue is present, but shows through slightly different
@@ -92,13 +92,15 @@ uses linker flags (``"-Wl,-z,relro,-z,now"``) to force binaries to resolve
 symbols as soon as they are loaded process wide. This `Built with BIND_NOW`_
 security feature goes hand in hand with `Built with RELRO`_. The explanation
 on **why** these features are enabled on Fedora is well described on their
-wiki_.
+wiki_. Previously, this did expose `an issue`_ with an internal PHP API
+regarding creating a DateTime object.
 
 .. _patches: https://anonscm.debian.org/git/pkg-php/php.git/tree/debian/patches/0046-php-5.4.0-dlopen.patch?h=master-5.6
 .. _`similar issues`: https://groups.google.com/forum/#!topic/comp.lang.tcl/RRumv23ZIJc
 .. _`Built with BIND_NOW`: https://fedoraproject.org/wiki/Security_Features_Matrix#Built_with_BIND_NOW
 .. _`Built with RELRO`: https://fedoraproject.org/wiki/Security_Features_Matrix#Built_with_RELRO
-.. _wiki: https://fedoraproject.org/wiki/Security_Features_Matrix#Built_with_RELRO
+.. _wiki: https://fedoraproject.org/wiki/Security_Features_Matrix#Built_with_RELROa
+.. _`an issue`: https://jira.mongodb.org/browse/PHP-1270
 
 But where does this leave us? The solution is fairly simple: You need to make
 sure that the JSON extension's shared object is loaded before the MongoDB
@@ -112,9 +114,10 @@ Make sure you do the same for configuration directories for Apache.
 
 Alternatively, you can install the distribution's package for the MongoDB
 extension. Fedora currently has the `updated 1.2.0 release for Rawhide`_
-(Fedora 26). Debian however, does not provide a package for the latest release
-yet, although an `older version (1.1.7) is available` in Debian unstable.
-Ubuntu also only provides `older versions` for Xenial and Yakkety.
+(Fedora 26). Debian however, does not yet provide a package for the latest
+release yet, although an `older version (1.1.7) is available` in Debian
+unstable. At the time of this writing, Ubuntu only provides `older versions`
+for Xenial and Yakkety.
 
 .. _`updated 1.2.0 release for Rawhide`: https://apps.fedoraproject.org/packages/php-pecl-mongodb
 .. _`older version (1.1.7) is available`: https://packages.debian.org/sid/php-mongodb
