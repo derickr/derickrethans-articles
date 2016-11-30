@@ -111,11 +111,11 @@ it would be much better to put the ``extension=mongodb.so`` line in a separate
 ``/etc/php5/cli/conf.d/99-mongodb.ini`` and
 ``/etc/php5/apache2/conf.d/99-mongodb.ini``::
 
-	echo "extension=mongodb.so" > /etc/php5/mods-available/99-mongodb.ini
-	cd /etc/php5/cli/conf.d
-	ln -s /etc/php5/mods-available/99-mongodb.ini 99-mongodb.ini
-	cd /etc/php5/apache2/conf.d
-	ln -s /etc/php5/mods-available/99-mongodb.ini 99-mongodb.ini
+	cat << EOF > /etc/php5/mods-available/mongodb.ini
+	; priority=99
+	extension=mongodb.so
+	EOF
+	php5enmod mongodb
 
 On Fedora, you should add the ``extension=mongodb.so`` line to the new file
 ``/etc/php.d/50-mongodb.ini``::
