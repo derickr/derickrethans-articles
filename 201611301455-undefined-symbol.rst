@@ -108,9 +108,19 @@ extension's shared object. PECL's ``pecl install`` suggests to add the
 ``extension=mongodb.so`` line to the end of ``php.ini``. Instead, on Debian,
 it would be much better to put the ``extension=mongodb.so`` line in a separate
 ``99-mongodb.ini`` file under ``/etc/php5/mods-available``, with a symlink to
-``/etc/php5/cli/conf.d/99-mongodb.ini``. Make sure you do the same for
-configuration directories for Apache. On Fedora, you should add the
-``extension=mongodb.so`` line to the new file ``/etc/php.d/50-mongodb.ini``.
+``/etc/php5/cli/conf.d/99-mongodb.ini`` and
+``/etc/php5/apache2/conf.d/99-mongodb.ini``::
+
+	echo "extension=mongodb.so" > /etc/php5/mods-available/99-mongodb.ini
+	cd /etc/php5/cli/conf.d
+	ln -s /etc/php5/mods-available/99-mongodb.ini 99-mongodb.ini
+	cd /etc/php5/apache2/conf.d
+	ln -s /etc/php5/mods-available/99-mongodb.ini 99-mongodb.ini
+
+On Fedora, you should add the ``extension=mongodb.so`` line to the new file
+``/etc/php.d/50-mongodb.ini``::
+
+	echo "extension=mongodb.so" > /etc/php.d/50-mongodb.ini
 
 Alternatively, you can install the distribution's package for the MongoDB
 extension. Fedora currently has the `updated 1.2.0 release for Rawhide`_
