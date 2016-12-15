@@ -7,6 +7,11 @@ Natural Language Sorting with MongoDB
    :Tags: blog, php, mongodb
    :Short: mdbcoll
 
+**Note: I have updated this article for the MongoDB 3.4 release in
+`Natural Language Sorting with MongoDB 3.4`_.**
+
+.. _`Natural Language Sorting with MongoDB 3.4`: /mongodb-collation-revised.html
+
 Arranging English words in order is simple—most of the time. You simply
 arrange them in alphabetical order. Sorting a set of German words, or French
 words with all their accents, or Chinese with their different characters is a
