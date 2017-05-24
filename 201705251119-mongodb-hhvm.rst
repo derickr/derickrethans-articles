@@ -1,0 +1,76 @@
+HHVM and MongoDB
+================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2017-05-25 11:19 America/New_York
+   :Tags: blog, php, mongodb, php
+   :Short: hhvm-mongo
+
+At the start of 2015 we began work on an HHVM driver for MongoDB, as part
+of our project to renew our PHP driver. Back then, HHVM was in its ascendancy
+and outperforming PHP 5.6 two to one. With such a huge performance difference
+it was reasonable to assume that many users would be switching over. 
+
+Around the start of 2016 I wrote a series_ of blog_ posts_ when
+we released the brand new drivers for PHP and HHVM. However, by then, PHP 7.0
+had been released. PHP 7's performance is on par with HHVM making it
+less useful for users to move from PHP to HHVM. HHVM still offers a more
+strongly typed PHP syntax through Hack, and some other features, but its main
+attraction, speed, was mostly gone.
+
+.. _series: /new-drivers.html
+.. _blog: /new-drivers-part2.html
+.. _posts: /new-drivers-part3-cursor.html
+
+Writing an extension for HHVM is very different than doing so for PHP. PHP
+extensions, of which there are plenty, are written in C. HHVM extensions are
+written in C++, with very few third party extensions existing. At the same
+time, although PHP's APIs are not particularly well documented, there is a
+large group of people to ask for help. PHP also has a clearly defined internal
+API which is stable across minor versions. HHVM does not have this, and APIs
+kept changing often, although it wasn't always clear whether we were using an
+internal API.
+
+Writing an HHVM extension is a very different experience for extension
+developers compared to PHP extensions. There is even less documentation, and
+virtually no third party extensions to look at for "inspiration". At the same
+time, it was much harder to get help from the developers, and much harder to
+debug as HHVM is many times more complex than PHP.
+
+With PHP 7 released, we saw very little use of the HHVM driver for MongoDB.
+Some months ago I did a twitter poll_, where very few people were indicating
+that they were using HHVM—and even if they were, they would likely not choose
+to `switch to HHVM`_ given the current climate.
+
+.. image:: /images/content/hhvm-poll.png
+   :title: Twitter HHVM Poll
+
+Some of the feedback on the poll was not very assuring either:
+
+.. image:: /images/content/craig.png
+   :title: https://twitter.com/craigmayhew/status/822214176059887621
+
+.. image:: /images/content/theo.png
+   :title: https://twitter.com/tfidry/status/822359593548292096
+
+.. image:: /images/content/doublecompile.png
+   :title: https://twitter.com/doublecompile/status/822091880955596800
+
+.. _poll: https://twitter.com/derickr/status/822027320005365761
+.. _`switch to HHVM`: https://twitter.com/doublecompile/status/822091880955596800
+
+With few users, frequent `API breaks`_, and `curious bugs`_ we came to the
+conclusion that supporting the HHVM driver for MongoDB no longer makes good
+use of our engineering time. With `Doctrine`_ and `Symfony 4`_
+also no longer supporting HHVM, we have decided to discontinue the MongoDB
+driver for HHVM.
+
+If anyone is interested in assuming ownership of the HHVM driver, please drop 
+me_ a line and we can discuss the process in more detail.
+
+.. _`API breaks`: https://twitter.com/derickr/status/849946557344612352
+.. _`curious bugs`: https://github.com/mongodb/mongo-hhvm-driver/issues/183
+.. _`Doctrine`: https://github.com/doctrine/common/pull/785#issuecomment-294369979
+.. _`Symfony 4`: http://symfony.com/blog/symfony-4-end-of-hhvm-support
+.. _me: /who.html
