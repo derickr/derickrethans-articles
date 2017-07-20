@@ -1,0 +1,87 @@
+Detecting Problems With -fsanitize
+==================================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2017-07-21 09:44 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: san
+
+In the past few months I have been working on adding time zone support to
+`MongoDB's`_ `Aggregation Framework`_. This support brings in the timelib_
+library that is also used in PHP_ and HHVM_ to do time zone calculations. One
+of the stages in our workflow before we commit code to master, is to put our
+patches up onto our continuous integration platform Evergreen_, where tests
+are run against multiple platforms. You expect the usual Ubuntu, RHEL and
+Windows platforms, but we *also* run on more esoteric platforms like s390. We
+also define a few special platforms that run tests in an environment where the
+code has been compiled in a special mode to test for undefined behaviour in
+the C language, and memory leaks.
+
+.. _`MongoDB's`: https://www.mongodb.com
+.. _`Aggregation Framework`: https://docs.mongodb.com/manual/aggregation/
+.. _timelib: https://github.com/derickr/timelib
+.. _PHP: https://php.net
+.. _HHVM: http://hhvm.com/
+.. _Evergreen: https://github.com/evergreen-ci/evergreen
+
+One of the issues that this found (quite quickly) in timelib_, was::
+
+	src/third_party/timelib-2017.05beta3/parse_tz.c:152:16: runtime error:
+	  left shift of 128 by 24 places cannot be represented in type 'int'
+
+Which referred to the following code_::
+
+	buffer[i] = timelib_conv_int(buffer[i]);
+
+`timelib_conv_int` is a macro defined as::
+
+	#define timelib_conv_int(l) ((l & 0x000000ff) << 24) + \
+		((l & 0x0000ff00) << 8) + ((l & 0x00ff0000) >> 8) + \
+		((l & 0xff000000) >> 24)
+
+.. _code: https://github.com/derickr/timelib/blob/2017.05beta3/parse_tz.c#L152
+
+The sanitiser stumbled over some of the data in the Olson_ database where
+we attempted to shift the unsigned integer 128 left by 24 positions into an
+**signed integer**, which of course can not represent this value. Thanks
+to the sanitizer, beta4 has this problem now fixed_.
+
+.. _Olson: https://www.iana.org/time-zones
+.. _fixed: https://github.com/derickr/timelib/blob/2017.05beta4/parse_tz.c#L49-L62
+
+As part of the fix, I investigated how our tests managed to figure out that
+there was undefined behaviour. It appeared that GCC_ and clang_ have a
+specific flag to enable this debugging tool. It is as simple as adding
+``-fsanitize=undefined`` to your build flags, which is what timelib in its
+standalone Makefile now includes_.
+
+.. _GCC: https://gcc.gnu.org/
+.. _clang: https://clang.llvm.org/
+.. _includes: https://github.com/derickr/timelib/blob/2017.05beta4/Makefile#L2
+
+One of the things that is tricky is that when writing C++, I tend to use many
+C-isms as that is what I have been working in for so long. And the opposite is
+true to. C++-isms are sometimes used when dealing with the timelib library
+which is written in C. One of these issues created a memory leak (fixed
+through `this patch`_), as a structure was not allocated on the heap, but on
+the stack. This structure (`timelib_time*`) sometimes contains an extra string
+(for the time zone abbreviate) that needs to be freed if set. 
+
+.. _`this patch`: https://github.com/mongodb/mongo/commit/fbcf295fff8fe1723120345126be90a49d7b6d14
+
+This memory leak was also discovered by a sanitizer flag, but this time it was
+``-fsanitize=address``. This flag adds code to the compiled binary to test for
+memory leaks, overflows, etc.—not to dissimilar as to what Valgrind_ (I wrote
+about that before_) provides. After adding this flag to the default build
+rules for timelib, it quickly found a few other memory leaks in some test and
+example files which I then addressed_.
+
+.. _Valgrind: http://valgrind.org/
+.. _before: /valgrind-null.html
+.. _addressed: https://github.com/derickr/timelib/commit/60603b3e26dbe393835221f56d0c4312800203bb
+
+So there we have it, two new GCC and Clang flags that I did not know about. I
+now always compile timelib, as well as my local MongoDB test builds with these
+two flags. It certainly slows down execution, but that's a cheap price to pay
+to prevent bugs from making it into production.
