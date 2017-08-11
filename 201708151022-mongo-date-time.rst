@@ -422,24 +422,21 @@ Which outputs::
 
 As you can see, the time zone information is lost when the data is transferred
 between MongoDB and PHP as the BSON DateTime data type does not carry this
-information. In the future, we hope to add an additional method to the PHP
-Driver's `MongoDB\BSON\UTCDateTime`_ class to make this easier_.
-
-.. _`MongoDB\BSON\UTCDateTime`: http://php.net/manual/en/class.mongodb-bson-utcdatetime.php
-.. _easier: https://jira.mongodb.org/browse/PHPC-760
+information.
 
 Using Date Expressions in $match
 --------------------------------
 
 From MongoDB 3.5.12, it is also possible to use the new date expressions (and
-other expressions) in `$match` pipeline operator. For example, in order to
-find all the documents before ``June 17th, 2017`` in the New York time zone::
+other expressions) in the ``$match`` pipeline operator. For example, in order
+to find all the documents before ``June 17th, 2017`` in the New York time
+zone::
 
     db.dates.aggregate( [
         { $match: {
             date: { $gte: { $expr: {
                 $dateFromString: {
-                    dateString: "2017-06-17",
+                    dateString: "June 17th, 2017",
                     timezone: "America/New_York"
                 }
             } } }
@@ -459,7 +456,7 @@ Or from PHP::
         [ '$match' => [
             'date' => [ '$gte' => [ '$expr' => [
                 '$dateFromString' => [
-                    "dateString" => [ "$literal" => $date ],
+                    "dateString" => [ '$literal' => $date ],
                     "timezone" => "America/New_York",
                 ]
             ] ] ]
@@ -470,6 +467,10 @@ Or from PHP::
         var_dump( $person->date->toDateTime() );
     }
 
+Please note the use of the `$literal`_ operator here, which should be used for
+any user input that might be able to sneak in an expression into the value.
+
+.. _`$literal`: https://docs.mongodb.com/manual/reference/operator/aggregation/literal/
 
 Notes
 -----
