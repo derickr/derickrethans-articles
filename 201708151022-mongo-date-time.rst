@@ -7,6 +7,13 @@ New Date/Time Support in MongoDB
    :Tags: blog, php, mongodb
    :Short: mongotimelib
 
+-----
+
+*Updated on Friday, October 13th 2017: Reflects changes made since MongoDB
+3.5.12 — this now documents the state as of version `MongoDB 3.6.0-rc0`_.*
+
+-----
+
 In the past few months I have been working on adding time zone support to
 `MongoDB's`_ `Aggregation Framework`_. This support brings in the timelib_
 library that is also used in PHP_ and HHVM_ to do time zone calculations.
@@ -16,6 +23,7 @@ library that is also used in PHP_ and HHVM_ to do time zone calculations.
 .. _timelib: https://github.com/derickr/timelib
 .. _PHP: https://php.net
 .. _HHVM: http://hhvm.com/
+.. _`MongoDB 3.6.0-rc0`: https://docs.mongodb.com/master/release-notes/3.6/
 
 Time Zone Support for Date Extraction Operators
 -----------------------------------------------
@@ -145,11 +153,11 @@ expressed in the (optionally) given time zone::
 
 ``$dateToParts`` also supports a third boolean argument, ``iso8601``. If set
 to ``true``, instead of ``year``, ``month``, and ``day``, it returns the ISO
-8601 ``isoYear``, ``isoWeekYear``, and  ``isoDayOfWeek`` fields representing
+8601 ``isoWeekYear``, ``isoWeek``, and  ``isoDayOfWeek`` fields representing
 an `ISO Week Date`_. With the same date, the example is represented as::
 
     "parts" : {
-        "isoYear" : 1978, "isoWeekYear" : 51, "isoDayOfWeek" : 5,
+        "isoWeekYear" : 1978, "isoWeek" : 51, "isoDayOfWeek" : 5,
         "hour" : 9, "minute" : 15, "second" : 0, "millisecond" : 0
     }
 
@@ -221,8 +229,8 @@ or::
     { "$project" : {
         "date" : {
             "$dateFromParts": {
-                "isoYear" : isoYearExpression,
                 "isoWeekYear" : isoWeekYearExpression,
+                "isoWeek" : isoWeekExpression,
                 "isoDayOfWeek" : isoDayOfWeekExpression,
                 "hour" : hourExpression,
                 "minute" : minuteExpression,
@@ -238,8 +246,8 @@ source can be either double, NumberInt, NumberLong, or Decimal. Decimal and
 double values are only supported if they convert to a NumberLong without any
 data loss.
 
-Every argument is optional, except for ``year`` or ``isoYear``, depending on
-which variant is used. If ``month``, ``day``, ``isoWeekYear``, or
+Every argument is optional, except for ``year`` or ``isoWeekYear``, depending on
+which variant is used. If ``month``, ``day``, ``isoWeek``, or
 ``isoDayOfWeek`` are not given, they default to ``1``. The ``hour``,
 ``minute``, ``second`` and ``millisecond`` values default to ``0`` if not
 present.
@@ -476,17 +484,24 @@ Notes
 -----
 
 The time zone support is currently only available in a development release of
-MongoDB, and should be considered experimental. It is likely that some of it
-will still change. In particular:
+MongoDB, and should be considered experimental. The following changes have
+happened since the original introduction MongoDB in 3.5.12:
 
 - Before MongoDB 3.5.12, the argument ``millisecond`` to ``dateFromParts``
   is incorrectly spelled ``milliseconds``.
 
-- Until SERVER-30547_ is resolved, ``$dateFromParts`` does not accept an
+- Before MongoDB 3.6.0-rc0, the argument ``isoWeekYear`` was incorrectly
+  called ``isoYear``, and ``isoWeek`` was incorrectly called ``isoWeekYear``.
+  They are now in line with the existing ``$isoWeekYear`` and ``$isoWeek``
+  operators.
+
+And the following issues are going to be addressed in future versions (3.7.x):
+
+- Until SERVER-30547_ gets resolved, ``$dateFromParts`` does not accept an
   *sub-document* as argument, and instead requires each single field to be
   specified.
 
-- Until SERVER-30523_ is resolved, the field values to ``dateFromParts``
+- Until SERVER-30523_ gets resolved, the field values to ``dateFromParts``
   can not underflow or overflow their expected range. For example, the ``day``
   field's value needs to be in the range ``1..31`` and the ``hour`` field's
   value needs to be in the range ``0..23``.
@@ -494,3 +509,4 @@ will still change. In particular:
 .. _SERVER-30547: https://jira.mongodb.org/browse/SERVER-30547
 .. _SERVER-30523: https://jira.mongodb.org/browse/SERVER-30523
 .. _SERVER-30046: https://jira.mongodb.org/browse/SERVER-30046
+.. _SERVER-31322: https://jira.mongodb.org/browse/SERVER-31322
