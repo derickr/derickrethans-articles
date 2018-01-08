@@ -1,0 +1,175 @@
+Weird Off-by-One Errors
+=======================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-01-08 09:21 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: offbyone
+
+A while ago, a user of the `PHP Library for MongoDB`_ reported a bug_ stating:
+
+	There is a special find query that fails with the message: *Client Error:
+	bad object in message: bson length doesn't match what we found in object
+	with unknown _id*
+
+	One can change the characters but not the length of strings and obtain the
+	same exception.
+
+.. _`PHP Library for MongoDB`: https://docs.mongodb.com/php-library/current/
+.. _bug: https://github.com/mongodb/mongo-php-library/issues/449
+
+Over the past week I had a look at this, after this was filed as `PHPC-1067`_
+for the MongoDB PHP driver, once we found that it actually causes a crash.
+When running the script from the report, I indeed found a Segmentation Fault
+(read: crash), where I noticed that during the course of a few function calls
+an **unrelated** C variable changed. The change was in a ``bson_t*`` type,
+which the driver uses for variables that go in and out of the MongoDB C
+client library. This data type has two implementations: an *inline* version,
+used for most small BSON documents; and an *allocated* version that can be
+used for building BSON structures, and which is typically used for larger
+documents.
+
+.. _PHPC-1067: https://jira.mongodb.org/browse/PHPC-1067
+
+In the driver's function, the data types are declared as::
+
+	bson_t  bdocument = BSON_INITIALIZER, boptions = BSON_INITIALIZER;
+	bson_t *bson_out = NULL;
+
+With the affected code being::
+
+	php_phongo_zval_to_bson(zdocument, bson_flags, &bdocument, &bson_out TSRMLS_CC)
+
+``zdocument`` is the ``zval`` structure that PHP uses for storing variables,
+in this case, the document sent into the method. ``bdocument`` receives the
+created BSON document, ``boptions`` are options to go with the
+insertion, and ``bson_out`` receives the ``_id`` field that is either
+present in the original ``zdocument`` document, or that was generated in case
+no ``_id`` field was present. MongoDB documents are required to have this
+``_id`` field and ``bson_out`` is used to be able to return the generated
+``_id`` field so that you can do follow up queries with it.
+
+However, after ``php_phongo_zval_to_bson`` was run, parts of the structure of
+**boptions** changed in such a way that an internal flag now showed it was
+an *allocated* ``bson_t*`` instead of the *inline* version it really was. This
+meant that when freeing it later in the code through
+``bson_destroy(&boptions)`` a memory free was attempted on non-allocated
+memory, which then of course caused a crash in form of the Segmentation Fault.
+The weird thing is that the change happened in a variable that should not have
+been touched by the call to ``php_phongo_zval_to_bson``.
+
+With the reason of the crash found, it was now time to find the cause of the
+crash. Which proved to be a little trickier.
+
+Normally, with any sort of memory issues the first thing I would do is to
+wield Valgrind_ as it usually tells were things go wrong. I wrote about
+Valgrind before_. But in this case, it didn't show anything besides that the
+process tried to free not-allocated memory::
+
+	==9002== Invalid read of size 8
+	==9002==    at 0xC7CBDA6: bson_destroy (bson.c:2285)
+	==9002==    by 0xC862155: zim_BulkWrite_insert (BulkWrite.c:246)
+	==9002==    by 0x9D64E2: execute_internal (zend_execute.c:2077)
+	==9002==    by 0xB8690CC: xdebug_execute_internal (xdebug.c:2020)
+	==9002==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+
+.. _Valgrind: http://valgrind.org/
+.. _before: /valgrind-null.html
+
+And we already knew that. After looking, and stepping through the code with
+GDB for way too long, I had a revelation while relaxing on the weekend that
+the ``bdocument`` and ``boptions`` were not actually allocated variables, but
+instead just variables on the stack. And Valgrind's memcheck_ tool does not
+have ways to actually detect this.
+
+.. _memcheck: http://valgrind.org/docs/manual/mc-manual.html
+
+Having these variables allocated on the stack is a performance improvement, as
+there is no overhead of memory allocation, but while trying to find a bug, we
+don't care much about it being fast. So I converted these few lines of code to
+use an allocated version, to see if I could get some more useful information
+out of Valgrind::
+
+	bson_t  bdocument = BSON_INITIALIZER, boptions = BSON_INITIALIZER;
+
+	php_phongo_zval_to_bson(zdocument, bson_flags, &bdocument, &bson_out TSRMLS_CC);
+
+to::
+
+	bson_t *bdocument, *boptions;
+	bdocument = bson_new();
+	boptions = bson_new();
+
+	php_phongo_zval_to_bson(zdocument, bson_flags, bdocument, &bson_out TSRMLS_CC);
+
+With that changed, the Valgrind run now showed::
+
+	Invalid write of size 1
+	   at 0xC7C72FA: _bson_append_va (bson.c:348)
+	   by 0xC7C74DB: _bson_append (bson.c:404)
+	   by 0xC7C9DA1: bson_append_regex (bson.c:1575)
+	   by 0xC85122D: php_phongo_bson_append_object (bson-encode.c:234)
+	   by 0xC851C57: php_phongo_bson_append (bson-encode.c:382)
+	   by 0xC85230E: php_phongo_zval_to_bson (bson-encode.c:540)
+	   by 0xC862047: zim_BulkWrite_insert (BulkWrite.c:229)
+	 Address 0xd8c9540 is 0 bytes after a block of size 128 alloc'd
+	   at 0x4C2CBEF: malloc (vg_replace_malloc.c:299)
+	   by 0x940C00: __zend_malloc (zend_alloc.c:2829)
+	   by 0xC84DBCF: php_phongo_malloc (php_phongo.c:2485)
+	   by 0xC7DD388: bson_malloc (bson-memory.c:68)
+	   by 0xC7CB170: bson_new (bson.c:2015)
+	   by 0xC861F94: zim_BulkWrite_insert (BulkWrite.c:216)
+
+It says ``invalid write of size 1`` and ``0 bytes after a block of size
+128 alloc'd``. This quickly illustrated that it was trying to do a write
+outside of its allocated memory area. Adding elements to the BSON document, in
+this case a regular expression through ``bson_append_regex``, should normally
+grow the allocated memory when it runs out of already allocated space. Knowing
+this, combined with the phrasing *One can change the characters but not the
+length of strings and obtain the same exception.* from the original bug
+report, hinted towards an improper calculation of the amount of new data being
+written to the allocated memory buffer.
+
+I dove into the ``bson_append_regex`` code and found the spot where it builds
+up all the elements to add. I have annotated it a little::
+
+	r =  _bson_append (bson,
+		5,          // Number of data elements to add
+
+		// number of bytes to add
+		(1 + key_length + 1 + regex_len + options_sorted->len),
+
+		1,          // length of first element (BSON type, int8)
+		&type,      // the BSON type
+		key_length, // the length of the field name
+		key,        // the field name (not 0-termined)
+		1,          // the length of the ending 0 byte
+		&gZero,     // the null 0 byte
+		regex_len,  // the length of the regular expression (including 0 byte)
+		regex,      // the regular expression with 0 byte
+		options_sorted->len + 1, // the length of the sorted options, with 0 byte
+		options_sorted->str);    // the sorted options, with 0 byte
+
+When comparing the "bytes" to add to the sum of the 5 "length" fields, I
+noticed that although for ``options_sorted->len`` an extra byte was added,
+that **was not done** in the calculated size on the third line. 
+
+This code got recently changed_ as part of CDRIVER-2118_. Unfortunately a bug
+sneaked in miscalculating the length of the now sorted options. After adding
+the extra byte back in, the bug disappeared::
+
+	-     (1 + key_length + 1 + regex_len + options_sorted->len),
+	+     (1 + key_length + 1 + regex_len + options_sorted->len + 1),
+
+I filed this bug as CDRIVER-2455_, and made a Pull Request to fix the bug.
+
+.. _changed: https://github.com/mongodb/libbson/commit/f9c179bb#diff-834e3eef392f29fc84e766ec869ff972L1533
+.. _CDRIVER-2118: https://jira.mongodb.org/browse/CDRIVER-2118
+.. _CDRIVER-2455: https://jira.mongodb.org/browse/CDRIVER-2455
+
+*Additional note*: I now have found Valgrind's SGCheck_ tool which should
+assist in finding stack related memory errors. Unfortunately, this tool
+currently seems to be inoperative on my platform.
+
+.. _SGCheck: http://valgrind.org/docs/manual/sg-manual.html
