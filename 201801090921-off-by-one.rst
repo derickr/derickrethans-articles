@@ -3,7 +3,7 @@ Weird Off-by-One Errors
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2018-01-08 09:21 Europe/London
+   :Date: 2018-01-09 09:21 Europe/London
    :Tags: blog, php, mongodb
    :Short: offbyone
 
