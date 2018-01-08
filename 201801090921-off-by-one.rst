@@ -48,7 +48,7 @@ insertion, and ``bson_out`` receives the ``_id`` field that is either
 present in the original ``zdocument`` document, or that was generated in case
 no ``_id`` field was present. MongoDB documents are required to have this
 ``_id`` field and ``bson_out`` is used to be able to return the generated
-``_id`` field so that you can do follow up queries with it.
+``_id`` field so that you can do follow-up queries with it.
 
 However, after ``php_phongo_zval_to_bson`` was run, parts of the structure of
 **boptions** changed in such a way that an internal flag now showed it was
@@ -152,20 +152,21 @@ up all the elements to add. I have annotated it a little::
 		options_sorted->str);    // the sorted options, with 0 byte
 
 When comparing the "bytes" to add to the sum of the 5 "length" fields, I
-noticed that although for ``options_sorted->len`` an extra byte was added,
-that **was not done** in the calculated size on the third line. 
+noticed that although an extra byte was added for ``options_sorted->len`` on
+the second to last line, that **was not done** in the calculated size on the
+third line.
 
-This code got recently changed_ as part of CDRIVER-2118_. Unfortunately a bug
+This code got recently changed_ as part of CDRIVER-2128_. Unfortunately a bug
 sneaked in miscalculating the length of the now sorted options. After adding
 the extra byte back in, the bug disappeared::
 
 	-     (1 + key_length + 1 + regex_len + options_sorted->len),
 	+     (1 + key_length + 1 + regex_len + options_sorted->len + 1),
 
-I filed this bug as CDRIVER-2455_, and made a Pull Request to fix the bug.
+I filed this bug as CDRIVER-2455_.
 
 .. _changed: https://github.com/mongodb/libbson/commit/f9c179bb#diff-834e3eef392f29fc84e766ec869ff972L1533
-.. _CDRIVER-2118: https://jira.mongodb.org/browse/CDRIVER-2118
+.. _CDRIVER-2128: https://jira.mongodb.org/browse/CDRIVER-2128
 .. _CDRIVER-2455: https://jira.mongodb.org/browse/CDRIVER-2455
 
 *Additional note*: I now have found Valgrind's SGCheck_ tool which should
