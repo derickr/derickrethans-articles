@@ -3,7 +3,7 @@ PHP in Brasil
 
 .. articleMetaData::
    :Where: São Paulo, Brasil
-   :Date: 20061201 1455 BRST
+   :Date: 2006-12-01 14:55 America/Sao_Paulo
    :Tags: cms, conference, php, work, xdebug
 
 My first trip to South America has a busy schedule. Yesterday I flew
