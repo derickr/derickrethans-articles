@@ -1,5 +1,5 @@
-Weird Off-by-One Errors
-=======================
+Off-by-One Error Memory Corruption
+==================================
 
 .. articleMetaData::
    :Where: London, UK
@@ -163,11 +163,12 @@ the extra byte back in, the bug disappeared::
 	-     (1 + key_length + 1 + regex_len + options_sorted->len),
 	+     (1 + key_length + 1 + regex_len + options_sorted->len + 1),
 
-I filed this bug as CDRIVER-2455_.
+I filed this bug as CDRIVER-2455_, and made a `pull request`_.
 
 .. _changed: https://github.com/mongodb/libbson/commit/f9c179bb#diff-834e3eef392f29fc84e766ec869ff972L1533
 .. _CDRIVER-2128: https://jira.mongodb.org/browse/CDRIVER-2128
 .. _CDRIVER-2455: https://jira.mongodb.org/browse/CDRIVER-2455
+.. _`pull request`: https://github.com/mongodb/libbson/pull/216
 
 *Additional note*: I now have found Valgrind's SGCheck_ tool which should
 assist in finding stack related memory errors. Unfortunately, this tool
