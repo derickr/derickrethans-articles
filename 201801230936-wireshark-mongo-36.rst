@@ -1,0 +1,150 @@
+Wireshark and MongoDB 3.6
+=========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-01-23 09:36 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: wireshark-mdb36
+
+While working on the MongoDB Driver for PHP, we sometimes run into problems
+where we send the wrong data to the server, tripping it up, and not getting
+the results we want.
+
+Drivers talk to MongoDB with a binary protocol, which we refer to as the `Wire
+Protocol`_. It is a documented binary format, mostly wrapping around BSON_
+structures.
+
+.. _`Wire Protocol`: https://docs.mongodb.com/master/reference/mongodb-wire-protocol/#messages-types-and-formats
+.. _BSON: http://bsonspec.org/
+
+Different versions of the MongoDB may respond with varying message formats and
+likewise prefer (or require) that drivers use newer formats to issue commands
+and queries. An additional problem is that sometimes mongoS, our query router
+for sharding_, wants instructions in different formats, and sends results back
+in a slightly different format than mongoD.
+
+.. _sharding: https://docs.mongodb.com/manual/sharding/
+
+Over the past years, I have been using a network traffic analyser called
+Wireshark_ to figure out what actually gets send over the network connections.
+
+.. _Wireshark: https://www.wireshark.org/
+
+Wireshark runs on various platforms_, and on Debian platforms can easily be
+installed by running ``apt install wireshark``. Starting Wireshark presents
+you with the following screen:
+
+.. image:: /images/content/wireshark-start.png
+
+.. _platforms: https://www.wireshark.org/#download
+
+This screen lists all the network interfaces that are available on the system,
+and it allows you to select one (``Loopback: lo`` in my case) and start packet
+collection by clicking on the shark fin.
+
+With Wireshark collecting data, I then connected with the MongoDB shell to the
+server to see what was sent over a network connection. As no network protocol is the same
+as any other, Wireshark contains lots of different "dissectors" to analyse
+each specific protocol. There are a *lot* of dissectors, for nearly every
+protocol that you can think of—including HTTP, MySQL, NTP, TCP, and of course
+MongoDB.
+
+After we connected with the MongoDB shell to the server, we can have a look at
+what Wireshark collected.
+
+.. image:: /images/content/wireshark-is-master.png
+
+In this first screenshot we see that the MongoDB client's first packet is a
+``Request : Query`` packet. In this first packet it sends an ``isMaster``
+command to the server to figure out its version, and some other parameters.
+The dissector has unpacked the BSON ``Document`` with length ``201`` to be
+able to show us the various elements that make up the request. For example, it
+sends along which driver is being used to make the request (``MongoDB Internal
+Client``) in the ``client`` → ``driver`` → ``name`` element.
+
+.. image:: /images/content/wireshark-is-master-reply.png
+
+The result includes parameters such as the maximum size of a data packet
+(``maxMessageSizeBytes``), the ``localTime``, as well as the `wire version`_
+(not pictured). The latter is used to determine which wire protocol versions
+can understand.
+
+.. _`wire version`: https://docs.mongodb.com/manual/reference/command/isMaster/#isMaster.minWireVersion
+
+So far we have seen two types of packets, ``Request`` and ``Response``, but
+others also exist_. In MongoDB 3.6, two extra types of packages are are
+supported. These are the ``Extensible Message Format`` and ``Compressed``
+packets. The former is replacing all earlier ways of sending queries and
+commands (and receiving their replies), with a new single packet that can be
+used in both directions. The latter can be used to compress the data, and this
+packet also wraps an ``Extensible Message Format`` packet.
+
+.. _exist: https://docs.mongodb.com/master/reference/mongodb-wire-protocol/#messages-types-and-formats
+
+Unfortunately, Wireshark's MongoDB dissector did not support these new packets
+yet. Instead of waiting for them to be added by the maintainers, I set out to
+add the missing functionality myself. It is after all closely related to my
+day job ☺.
+
+As I had never contributed to Wireshark, I read up on their development
+guidelines and quickly found that they have a highly automated way of doing
+code reviews with rigorous practises in place. This is a welcome difference
+from most other open source projects to which I've contributed.
+
+As I expected, my `first patch`_ adding ``OP_MSG`` support needed a few
+revisions before it was merged_.
+
+.. _`first patch`: https://code.wireshark.org/review/#/c/24450/
+.. _merged: https://github.com/wireshark/wireshark/commit/641e2fc573b98917916245bfdaf3461ea82c2565
+
+The result of this first patch is that packets of the ``OP_MSG`` type can now
+also be visualised:
+
+.. image:: /images/content/wireshark-query-reply.png
+
+A ``Extensible Message Format`` packet consists of one more Sections_, which
+can either be a ``Body``, or a ``Document Sequence``. With a ``Body`` being
+required with zero or more ``Document Sequence`` sections following. In this
+example, all of the ``Message Flags`` are empty (unset).
+
+.. _Sections: https://docs.mongodb.com/manual/reference/mongodb-wire-protocol/#sections
+
+In this case the reply contains a *cursor description*, including its initial
+batch (``firstBatch``) of three documents totalling ``6392`` bytes.
+Drivers can use these cursor descriptions to iterate over a whole result set. 
+
+Once there is lot of data to transport, it can be beneficial to compress the
+data stream. MongoDB 3.4 already included some preliminary work for this, but
+with MongoDB 3.6 compression is now enabled by default. It can either use the
+snappy_ compressor or zlib_ compressor. Compressed data is send with a
+different packet type (OP_COMPRESSED_) which, as you can probably guess,
+also was not yet supported.
+
+.. _snappy: https://en.wikipedia.org/wiki/Snappy_(compression)
+.. _zlib: https://en.wikipedia.org/wiki/Zlib
+.. _OP_COMPRESSED: https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst
+
+My `second patch`_ adds ``OP_COMPRESSED`` support to Wireshark. Adding support
+for ``zlib`` was easy, as Wireshark already had helper functions available.
+Supporting ``snappy`` required a bit more manual work.
+
+.. _`second patch`: https://github.com/wireshark/wireshark/commit/8225159e336610c25fb4d4129b0be156ed487c49
+
+.. image:: /images/content/wireshark-query-reply-compressed1.png
+
+Compressed packets replace the original packet type (OpCode) with one
+(``2012``) to denote it is a compressed packet. The header that describes the
+parameters of the compressed data (``Uncompressed Size``, and ``Compressor``)
+also includes the original OpCode that is represented in the compressed data
+(``Original Opcode``).
+
+When the dissector decompresses a data packet, it adds a new tab containing
+the ``Decompressed Data`` so that you can view the raw bytes of this
+uncompressed data once you dive into the data structures (e.g. ``Section``,
+``BodyDocument``).
+
+With support for OP_MSG and OP_COMPRESSED added, figuring out if we send
+something wrong to a MongoDB 3.6 server becomes a lot easier. Things might
+still be complicated once we throw SSL into the mix, but that will have to
+wait until another blog post.
