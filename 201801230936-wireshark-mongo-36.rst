@@ -27,7 +27,7 @@ in a slightly different format than mongoD.
 .. _sharding: https://docs.mongodb.com/manual/sharding/
 
 Over the past years, I have been using a network traffic analyser called
-Wireshark_ to figure out what actually gets send over the network connections.
+Wireshark_ to figure out what actually gets sent over the network connections.
 
 .. _Wireshark: https://www.wireshark.org/
 
