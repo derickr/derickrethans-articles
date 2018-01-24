@@ -1,0 +1,195 @@
+Xdebug 2.6
+==========
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-01-30 09:11 Europe/London
+   :Tags: blog, php
+   :Short: xdebug-26
+
+I have just released_ Xdebug 2.6. Xdebug 2.6 adds supports for PHP 7.2 (and
+drops support for PHP 5), and adds a whole bunch of new features. This article
+describes these new features.
+
+.. _released:
+
+Garbage Collection Statistics
+-----------------------------
+
+PHP has a built-in garbage collector, which makes it possible for PHP to free
+up memory that normally would be lost due to interdependent references. I
+wrote about the garbage collectors in previous articles_.
+
+.. _articles: /collecting-garbage-cleaning-up.html
+
+Xdebug 2.6 provides insight into the runs of PHP's built-in Garbage Collector.
+There are two new functions: `xdebug_get_gc_run_count()`_, which returns how often
+the Garbage Collector has run, and `xdebug_get_gc_total_collected_roots()`_,
+which returns the number of variable roots that the garbage collection has
+collected.
+
+There is also a new set of settings: `xdebug.gc_stats_enable`_,
+`xdebug.gc_stats_output_dir`_, and `xdebug.gc_stats_output_name`_. When the
+statistics collection is enabled by setting `xdebug.gc_stats_enable`_ to
+``true``, Xdebug will write a file to the configured output directory with a
+name configured through ``xdebug.gc_stats_output_name``. Just like
+``xdebug.trace_output_name``, the latter supports different format specifier
+to add additional information to the file names.
+
+Instead of recording the Garbage Collection runs for the whole script, you can
+also selectively record this information by using `xdebug_start_gcstats()`_ and
+`xdebug_stop_gcstats()`_.
+
+.. _`xdebug_get_gc_run_count()`: https://xdebug.org/docs/garbage_collection#xdebug_get_gc_run_count
+.. _`xdebug_get_gc_total_collected_roots()`: https://xdebug.org/docs/garbage_collection#xdebug_get_gc_total_collected_roots
+.. _`xdebug.gc_stats_enable`: https://xdebug.org/docs/garbage_collection#gc_stats_enable
+.. _`xdebug.gc_stats_output_dir`: https://xdebug.org/docs/garbage_collection#gc_stats_output_dir
+.. _`xdebug.gc_stats_output_name`: https://xdebug.org/docs/garbage_collection#gc_stats_output_name
+.. _`xdebug_start_gcstats()`: https://xdebug.org/docs/garbage_collection#xdebug_start_gcstats
+.. _`xdebug_stop_gcstats()`: https://xdebug.org/docs/garbage_collection#xdebug_stop_gcstats
+
+When PHP's garbage collector runs, Xdebug will write information about each
+run into a file. The format of the file is::
+
+	Garbage Collection Report
+	version: 1
+	creator: xdebug 2.6.0 (PHP 7.2.0)
+
+	Collected | Efficiency% | Duration | Memory Before | Memory After | Reduction% | Function
+	----------+-------------+----------+---------------+--------------+------------+---------
+	    10000 |    100.00 % |  0.00 ms |       5539880 |       579880 |    79.53 % | bar
+	    10000 |    100.00 % |  0.00 ms |       5540040 |       580040 |    79.53 % | Garbage::produce
+	     4001 |     40.01 % |  0.00 ms |       2563048 |       578968 |    77.41 % | gc_collect_cycles
+
+For each run, it will write how many `roots`_ are collected, and how much % of
+them ends up getting freed. The duration of the Garbage Collector's run, and
+the memory usage before and after are also recorded, as well as how much
+reduction in memory usage this Garbage Collector run created. The last column
+shows the active function or method name when the Garbage Collection algorithm
+was run, or `gc_collect_cycles()`_ if it was run manually.
+
+.. _roots: /collecting-garbage-cleaning-up.html
+.. _`gc_collect_cycles()`: http://php.net/gc_collect_cycles
+
+
+Profiler Enhancements
+---------------------
+
+Xdebug's profiler now also collects information about memory usage. This can
+assist tracking down which parts of your application allocate a lot of memory,
+and perhaps why some memory is not freed up.
+
+Caveat: As described above in `Garbage Collection Statistics`_, PHP has a
+Garbage Collector built in, which can trigger at seemingly random times.
+This will distort the memory information that is recorded in the profiler's
+output files. In order to get better results for memory profiling, you might
+want to consider disabling_ PHP's internal garbage collector.
+
+Additionally, Xdebug will now add a ``X-Xdebug-Profile-Filename`` HTTP header
+for requests for which the profiler is active. This header holds the name of
+the file that contains the profiling information for that request.
+
+.. _disabling: http://php.net/gc-disable
+
+Remote Debugging Improvements
+-----------------------------
+
+A new protocol feature, `extended_properties`_, has been introduced that IDEs
+can opt into. When this feature is enabled, Xdebug will send variable names as
+Base64_ encoded data to allow for characters that can not be represented
+safely in XML.
+
+Another new protocol feature, notifications_, has been introduced that IDEs
+can opt into. When this feature is enabled, Xdebug will send any Notice,
+Warning, or Error as an out-of-band notification over the debugging protocol
+to the IDE which can then display this information.
+
+A new setting, `xdebug.remote_timeout`_, has been added to configure how long
+Xdebug should wait for an IDE to acknowledge an incoming debugging connection.
+The default value, 200 ms, should in most cases be enough, but can be
+increased if you have a particularly high latency on your network and Xdebug
+fails to make a connection due to the low timeout.
+
+A new function, `xdebug_is_debugger_active()`_, can be used whether there
+currently is an IDE attached to Xdebug through the DBGp_ protocol.
+
+Xdebug now supports debugging through Unix domain sockets. You can specify
+Unix domain socket "hosts" with ``unix:///path/to/sock``, with thanks to Sara
+Golemon.
+
+Xdebug now enables ``FD_CLOEXEC`` on its debugging sockets to prevent them
+from being leaked to forked processes, thanks to Chris Wright.
+
+.. _extended_properties: https://xdebug.org/docs-dbgp.php#extended-properties
+.. _Base64: https://en.wikipedia.org/wiki/Base64
+.. _notifications: https://xdebug.org/docs-dbgp.php#error-notification
+.. _`xdebug.remote_timeout`: https://xdebug.org/docs/remote#remote_timeout
+.. _`xdebug_is_debugger_active()`: https://xdebug.org/docs/remote#xdebug_is_debugger_active
+.. _DBGp: https://xdebug.org/docs-dbgp.php
+
+
+Smaller Improvements
+--------------------
+
+A new setting, `xdebug.filename_format`_, has been added to configure how
+Xdebug will render filenames in HTML-like stack traces. Just like
+`xdebug.trace_output_name`, it accepts a set of format specifiers that can
+be used to include certain aspects of a path. Xdebug 2.6 adds the specifiers
+below. With a full path of ``/var/www/vendor/mail/transport/mta.php``, the
+able below lists what each specifier represents:
+
+== =================================== ==========================================
+L  Description                         Example
+== =================================== ==========================================
+%n File name                           ``mta.php``
+%p Directory and file name             ``transport/mta.php``
+%a Two directory segments and filename ``mail/transport/mta.php``
+%f Full path                           ``/var/www/vendor/mail/transport/mta.php``
+%s Platform specific slash             ``/`` on Linux and OSX, ``\`` on Windows
+== =================================== ==========================================
+
+Xdebug now adds the values of superglobals to the error log as well.
+Previously, it would only add this information to on-screen stack traces. In
+order for Xdebug to show this information, you need to configure through
+`xdebug.dump_globals`_ and `xdebug.dump.*`_ which superglobal keys you want to
+see at all.
+
+The ``%s`` format specifier is now available to be used with the
+`xdebug.trace_output_name`_ setting. Previously, it was only available for use
+with the `xdebug.profiler_output_name`_ setting.
+
+Trace files generated with `xdebug.collect_assignments`_ now also contain
+assign-by-ref (``=&``) assignments.
+
+.. _`xdebug.filename_format`: https://xdebug.org/docs/stack_trace#filename_format
+.. _`xdebug.trace_output_name`: https://xdebug.org/docs/execution_trace#trace_output_name
+.. _`xdebug.dump_globals`: https://xdebug.org/docs/stack_trace#dump_globals
+.. _`xdebug.dump.*`: https://xdebug.org/docs/stack_trace#dump.*
+.. _`xdebug.profiler_output_name`: https://xdebug.org/docs/profiler#profiler_output_name
+.. _`xdebug.collect_assignments`: https://xdebug.org/docs/execution_trace#collect_assignments
+
+Behavioural Changes
+-------------------
+
+Instead of throwing a fatal error when an infinite recursion
+(`xdebug.max_nesting_level`_) is detected, Xdebug now throws an Error_
+exception instead.
+
+.. _`xdebug.max_nesting_level`: https://xdebug.org/docs/basic#max_nesting_level
+.. _Error: http://php.net/manual/en/class.error.php
+
+Conclusion
+----------
+
+As you can see, Xdebug 2.6 packs a whole bunch of new features and has been
+the cumulation of a little over a year's work. Although the majority of the work
+was done by myself, there were notable contributions by Arnaud Gendre,
+Benjamin Eberlei, Chris Wright, Emir Beganović, Frode E. Moe, Kalle Sommer
+Nielsen, Nikita Popov, Sara Golemon, Remi Collet, and Zaid Al Khishman.
+
+During the year I have also launched my Patreon_ page, in case, you want to
+contribute for further development of Xdebug. Alternatively, you might want to
+look at my `Amazon wishlist`_ to say thank you.
+
+.. _Patreon: https://www.patreon.com/derickr
+.. _`Amazon wishlist`: http://www.amazon.co.uk/registry/wishlist/SLCB276UZU8B
