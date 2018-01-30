@@ -11,7 +11,7 @@ I have just released_ Xdebug 2.6. Xdebug 2.6 adds supports for PHP 7.2 (and
 drops support for PHP 5), and adds a whole bunch of new features. This article
 describes these new features.
 
-.. _released:
+.. _released: https://xdebug.org/#2018_01_29
 
 Garbage Collection Statistics
 -----------------------------
