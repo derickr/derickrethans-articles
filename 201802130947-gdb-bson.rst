@@ -1,0 +1,193 @@
+Pretty Printing BSON
+====================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-02-13 09:47 Europe/London
+   :Tags: blog, php, mongodb
+   :Short: gdb-bson
+
+In `Wireshark and MongoDB 3.6`_, I explained that Wireshark_ is amazing for
+debugging actual network communications. But sometimes it is necessary to
+debug things before they get send out onto the wire. Most of the interface
+with the server happens by manipulating a ``bson_t`` structure. This structure
+is implemented in the `C Driver`_ and wraps all the different data types from
+the `BSON Specification`_. It is analogous to PHP's ``zval`` structure,
+although the implementation is a little more complicated.
+
+.. _`Wireshark and MongoDB 3.6`: /wireshark-mongo-36.html
+.. _Wireshark: https://www.wireshark.org/
+.. _`C Driver`: https://github.com/mongodb/mongo-c-driver
+.. _`BSON Specification`: http://bsonspec.org/
+
+A ``bson_t`` structure can be allocated on the stack and heap, just like a
+``zval`` structure. A ``zval`` structure represents a single data type and
+single value. A ``bson_t`` structure represents a buffer of bytes that makes
+up structured data, in the form of a BSON *document*, just as a MongoDB server
+would expect it being transmitted over a network connection. As many BSON
+snippets are small, the ``bson_t`` structure can act in two modes, determined
+by a flag: ``inline``, or ``allocated``. In ``inline`` mode it only has space
+for 120 bytes of BSON data, but no memory has to be allocated, which speeds up
+its creation, especially if it is allocated on the stack (by using ``bson_t
+value``, instead of ``bson_t *value = bson_new()``). It makes sense to have
+this mode, as many small structures are used while interacting with the
+server.
+
+For PHP's ``zval``, the PHP developers have developed a helper function,
+printzv_, that can be loaded into the GDB_ debugger. This helper function
+unpacks all the intricacies of the ``zval`` structure, including arrays, and
+objects, etc., and displays them on the GDB console. When working on some
+code for the `MongoDB Driver for PHP`_, I was looking for something similar
+for the ``bson_t`` structure only to find that no such thing existed yet. With
+the ``bson_t`` structure being more complicated (two modes, data as a binary
+stream of data), it would be even more useful than PHP's ``printzv`` GDB
+helper. You can guess already that, of course, I felt the need to just write
+one myself.
+
+.. _printzv: https://github.com/php/php-src/blob/8ba6d622e53bff3de6d1bbe2e1da4ebe07d93548/.gdbinit#L152
+.. _GDB: https://www.gnu.org/software/gdb/
+.. _`MongoDB Driver for PHP`: https://github.com/mongodb/mongo-php-driver
+
+GDB allows extensions through Python, but that's often either not enabled, or
+build against the "wrong" Python version. GDB also has its own scripting
+language that you can use on its command line, or you can use by loading your
+own files with the ``source`` command. You can define functions in the
+language, but the functions can't return values. There is also no scoping, or
+classes, and all variables are global. With the data stored in the ``bson_t``
+struct as a stream of binary data, I ended up writing a GDB
+implementation of a streamed BSON decoder, with a lot of handicaps.
+
+The new ``printbson`` function accepts a ``bson_t *`` value, and then
+determines whether it's an ``inline`` or ``allocated`` version. Depending on
+the allocation type, it calls the ``__printbson`` "private" function with the
+right parameters describing where the binary stream is stored.
+
+``__printbson`` prints the length of the top-level BSON *document* and then
+calls the ``_printelements`` function. This function reads data from
+the stream until all key/value pairs have been read, advancing its internal
+read pointer as it goes. It can detect that all elements have been read, as
+each BSON *document* ends with ``\0`` character. 
+
+If a value contains a nested BSON *document*, such as the *document* or
+*array* types, it recursively calls ``__printelements``, and also does some
+housekeeping to make sure the output is nicely indented.
+
+Each element contains a single byte type field, followed by the field
+name as a ``\0`` terminated string, and then a value. After the type and name
+are consumed, ``__printelements`` defers to a specialised print function for
+each type. As an example, for an `ObjectID`_ field, it has::
+
+    if $type == 0x07
+        __printObjectID $data
+    end
+
+The ``__printObjectID`` function is then responsible for reading and
+displaying the value of the ObjectID_. In this case, the value is 12 bytes::
+
+    define __printObjectID
+        set $value = ((uint8_t*) $arg0)
+        set $i = 0
+        printf "ObjectID(\""
+        while $i < 12
+            printf "%02X", $value[$i]
+            set $i = $i + 1
+        end
+        printf "\")"
+        set $data = $data + 12
+    end
+
+.. _ObjectID: https://docs.mongodb.com/manual/reference/method/ObjectId/
+
+It first assigns a value of a correctly cast type (``uint8_t*``) to the
+``$value`` variable, and initialises the loop variable ``$i``. It then uses a
+``while`` loop to iterate over the 12 bytes; GDB_ does not have a ``for``
+construct. At the end of each display function, the ``$data`` pointer is
+advanced by the number of bytes that the value reader consumed.
+
+For types that use a C-string (``\0`` terminated string), an additional loop
+advances ``$data`` until a ``\0`` character is found. For example, the *Regex*
+data type is represented by two C-strings::
+
+    define __printRegex
+        printf "Regex(\"%s\", \"", (char*) $data
+
+        # skip through C String
+        while $data[0] != '\0'
+            set $data = $data + 1
+        end
+        set $data = $data + 1
+
+        printf "%s\")", (char*) $data
+
+        # skip through C String
+        while $data[0] != '\0'
+            set $data = $data + 1
+        end
+        set $data = $data + 1
+    end
+
+The first ``printf`` prints the prefix and the first string (pattern). Then
+after the ``while`` loop, the second string (modifiers) is printed with
+``printf``. Then the second C-string is iterated through to make sure
+``$data`` now points to the type byte of the next key/value pair.
+
+After implementing all the different data types, I made a PR_ against the
+MongoDB C driver, where the BSON code lives. It has now been merged. In order
+to make use of the `.gdbinit`_ file, you can include it in your GDB session
+with ``source /path/to/.gdbinit``. 
+
+.. _PR: https://github.com/mongodb/mongo-c-driver/pull/468
+.. _`.gdbinit`: https://github.com/mongodb/mongo-c-driver/blob/master/src/libbson/.gdbinit
+
+With the file loaded, and a ``bson_t *`` variable in the local scope, you can
+run ``printbson bson``, and receive something like the following semi-JSON
+formatted output::
+
+    (gdb) printbson bson
+    ALLOC [0x555556cd7310 + 0] (len=475)
+    {
+        'bool' : true,
+        'int32' : NumberInt("42"),
+        'int64' : NumberLong("3000000042"),
+        'string' : "Stŕìñg",
+        'objectId' : ObjectID("5A1442F3122D331C3C6757E1"),
+        'utcDateTime' : UTCDateTime(1511277299031),
+        'arrayOfInts' : [
+            '0' : NumberInt("1"),
+            '1' : NumberInt("2"),
+            '2' : NumberInt("3"),
+            '3' : NumberInt("5"),
+            '4' : NumberInt("8"),
+            '5' : NumberInt("13"),
+            '6' : NumberInt("21"),
+            '7' : NumberInt("34")
+        ],
+        'embeddedDocument' : {
+            'arrayOfStrings' : [
+                '0' : "one",
+                '1' : "two",
+                '2' : "three"
+            ],
+            'double' : 2.718280,
+            'notherDoc' : {
+                'true' : NumberInt("1"),
+                'false' : false
+            }
+        },
+        'binary' : Binary("02", "3031343532333637"),
+        'regex' : Regex("@[a-z]+@", "im"),
+        'null' : null,
+        'js' : JavaScript("print foo"),
+        'jsws' : JavaScript("print foo") with scope: {
+            'f' : NumberInt("42"),
+            'a' : [
+                '0' : 3.141593,
+                '1' : 2.718282
+            ]
+        },
+        'timestamp' : Timestamp(4294967295, 4294967295),
+        'double' : 3.141593
+    }
+
+In the future, I might add information about the length of strings, or the
+predefined Binary. Happy hacking!
