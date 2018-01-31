@@ -9,38 +9,41 @@ Pretty Printing BSON
 
 In `Wireshark and MongoDB 3.6`_, I explained that Wireshark_ is amazing for
 debugging actual network communications. But sometimes it is necessary to
-debug things before they get send out onto the wire. Most of the interface
-with the server happens by manipulating a ``bson_t`` structure. This structure
-is implemented in the `C Driver`_ and wraps all the different data types from
-the `BSON Specification`_. It is analogous to PHP's ``zval`` structure,
-although the implementation is a little more complicated.
+debug things before they get sent out onto the wire. The majority of the
+driver's communication with the server is through BSON documents with minimal
+overhead of wire protocol messages. BSON documents are represented in the `C
+Driver`_ by ``bson_t`` data structures. The ``bson_t`` structure wraps all of
+the different data types from the `BSON Specification`_. It is analogous to
+PHP's ``zval`` structure, although its implementation is a little more
+complicated.
 
 .. _`Wireshark and MongoDB 3.6`: /wireshark-mongo-36.html
 .. _Wireshark: https://www.wireshark.org/
 .. _`C Driver`: https://github.com/mongodb/mongo-c-driver
 .. _`BSON Specification`: http://bsonspec.org/
 
-A ``bson_t`` structure can be allocated on the stack and heap, just like a
+A ``bson_t`` structure can be allocated on the stack or heap, just like a
 ``zval`` structure. A ``zval`` structure represents a single data type and
-single value. A ``bson_t`` structure represents a buffer of bytes that makes
-up structured data, in the form of a BSON *document*, just as a MongoDB server
-would expect it being transmitted over a network connection. As many BSON
-snippets are small, the ``bson_t`` structure can act in two modes, determined
+single value. A ``bson_t`` structure represents a buffer of bytes constituting
+one or more values in the form of a BSON
+*document*. This buffer is exactly what the MongoDB server
+expects to be transmitted over a network connection. As many BSON
+documents are small, the ``bson_t`` structure can function in two modes, determined
 by a flag: ``inline``, or ``allocated``. In ``inline`` mode it only has space
-for 120 bytes of BSON data, but no memory has to be allocated, which speeds up
-its creation, especially if it is allocated on the stack (by using ``bson_t
-value``, instead of ``bson_t *value = bson_new()``). It makes sense to have
-this mode, as many small structures are used while interacting with the
-server.
+for 120 bytes of BSON data, but no memory has to be allocated on the heap.
+This mode can significantly speed up its creation, especially if it is
+allocated on the stack (by using ``bson_t value``, instead of ``bson_t *value
+= bson_new()``). It makes sense to have this mode, as many common interactions
+with the server fall under this 120-byte limit.
 
 For PHP's ``zval``, the PHP developers have developed a helper function,
 printzv_, that can be loaded into the GDB_ debugger. This helper function
-unpacks all the intricacies of the ``zval`` structure, including arrays, and
-objects, etc., and displays them on the GDB console. When working on some
+unpacks all the intricacies of the ``zval`` structure (e.g. arrays, objects)
+and displays them on the GDB console. When working on some
 code for the `MongoDB Driver for PHP`_, I was looking for something similar
 for the ``bson_t`` structure only to find that no such thing existed yet. With
 the ``bson_t`` structure being more complicated (two modes, data as a binary
-stream of data), it would be even more useful than PHP's ``printzv`` GDB
+stream of data), it would be just as useful as PHP's ``printzv`` GDB
 helper. You can guess already that, of course, I felt the need to just write
 one myself.
 
@@ -48,32 +51,34 @@ one myself.
 .. _GDB: https://www.gnu.org/software/gdb/
 .. _`MongoDB Driver for PHP`: https://github.com/mongodb/mongo-php-driver
 
-GDB allows extensions through Python, but that's often either not enabled, or
-build against the "wrong" Python version. GDB also has its own scripting
-language that you can use on its command line, or you can use by loading your
+GDB supports extensions written in Python, but that functionality is sometimes
+disabled. It also has its own scripting
+language that you can use on its command line, or by loading your
 own files with the ``source`` command. You can define functions in the
-language, but the functions can't return values. There is also no scoping, or
-classes, and all variables are global. With the data stored in the ``bson_t``
+language, but the functions can't return values. There are also no classes or
+scoping, which means
+all variables are global. With the data stored in the ``bson_t``
 struct as a stream of binary data, I ended up writing a GDB
 implementation of a streamed BSON decoder, with a lot of handicaps.
 
 The new ``printbson`` function accepts a ``bson_t *`` value, and then
-determines whether it's an ``inline`` or ``allocated`` version. Depending on
-the allocation type, it calls the ``__printbson`` "private" function with the
-right parameters describing where the binary stream is stored.
+determines whether its mode is ``inline`` or ``allocated``. Depending on
+the allocation type, ``printbson`` then delegates to a "private"
+``__printbson`` function with the right parameters describing where the binary
+stream is stored.
 
 ``__printbson`` prints the length of the top-level BSON *document* and then
 calls the ``_printelements`` function. This function reads data from
-the stream until all key/value pairs have been read, advancing its internal
+the stream until all key/value pairs have been consumed, advancing its internal
 read pointer as it goes. It can detect that all elements have been read, as
-each BSON *document* ends with ``\0`` character. 
+each BSON *document* ends with a null byte character (``\0``).
 
 If a value contains a nested BSON *document*, such as the *document* or
 *array* types, it recursively calls ``__printelements``, and also does some
-housekeeping to make sure the output is nicely indented.
+housekeeping to make sure the following output is nicely indented.
 
-Each element contains a single byte type field, followed by the field
-name as a ``\0`` terminated string, and then a value. After the type and name
+Each element begins with a single byte indicating the field type, followed by the field
+name as a null-terminated string, and then a value. After the type and name
 are consumed, ``__printelements`` defers to a specialised print function for
 each type. As an example, for an `ObjectID`_ field, it has::
 
@@ -82,7 +87,8 @@ each type. As an example, for an `ObjectID`_ field, it has::
     end
 
 The ``__printObjectID`` function is then responsible for reading and
-displaying the value of the ObjectID_. In this case, the value is 12 bytes::
+displaying the value of the ObjectID_. In this case, the value is 12 bytes,
+which we'd like to display as a hexadecimal string::
 
     define __printObjectID
         set $value = ((uint8_t*) $arg0)
@@ -104,7 +110,7 @@ It first assigns a value of a correctly cast type (``uint8_t*``) to the
 construct. At the end of each display function, the ``$data`` pointer is
 advanced by the number of bytes that the value reader consumed.
 
-For types that use a C-string (``\0`` terminated string), an additional loop
+For types that use a null-terminated C-string, an additional loop
 advances ``$data`` until a ``\0`` character is found. For example, the *Regex*
 data type is represented by two C-strings::
 
@@ -126,24 +132,25 @@ data type is represented by two C-strings::
         set $data = $data + 1
     end
 
-The first ``printf`` prints the prefix and the first string (pattern). Then
-after the ``while`` loop, the second string (modifiers) is printed with
-``printf``. Then the second C-string is iterated through to make sure
-``$data`` now points to the type byte of the next key/value pair.
+We start by printing the type name prefix and first string (pattern) using
+``printf`` and then advance our data pointer with a ``while`` loop. Then, the
+second string (modifiers) is printed with ``printf`` and we advance again,
+leaving the ``$data`` pointer at the next key/value pair (or our document's
+trailing null byte if the regex type was the last element).
 
 After implementing all the different data types, I made a PR_ against the
-MongoDB C driver, where the BSON code lives. It has now been merged. In order
-to make use of the `.gdbinit`_ file, you can include it in your GDB session
-with ``source /path/to/.gdbinit``. 
+MongoDB C driver, where the BSON library resides. It has now been merged. In
+order to make use of the `.gdbinit`_ file, you can include it in your GDB
+session with ``source /path/to/.gdbinit``.
 
 .. _PR: https://github.com/mongodb/mongo-c-driver/pull/468
 .. _`.gdbinit`: https://github.com/mongodb/mongo-c-driver/blob/master/src/libbson/.gdbinit
 
-With the file loaded, and a ``bson_t *`` variable in the local scope, you can
-run ``printbson bson``, and receive something like the following semi-JSON
-formatted output::
+With the file loaded, and ``bson_doc`` being ``bson_t *`` variable in the
+local scope, you can run ``printbson bson_doc``, and receive something like
+the following semi-JSON formatted output::
 
-    (gdb) printbson bson
+    (gdb) printbson bson_doc
     ALLOC [0x555556cd7310 + 0] (len=475)
     {
         'bool' : true,
@@ -190,4 +197,5 @@ formatted output::
     }
 
 In the future, I might add information about the length of strings, or the
-predefined Binary. Happy hacking!
+convert the predefined types of the *Binary* data-type to their common name.
+Happy hacking!
