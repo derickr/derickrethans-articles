@@ -1,0 +1,155 @@
+Analemmas
+=========
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-03-06 09:39 Europe/London
+   :Tags: blog, php, datetime
+   :Short: analemma
+
+.. image:: /images/content/analemma.jpg
+   :align: right
+
+Last week I listened to an episode_ of `The Sceptics' Guide to the Universe`_
+where the word of the week was "analemma_". An analemma is a diagram showing
+the position of the Sun in the sky over the course of a year, as viewed at a
+fixed time of day from the same location on Earth. I once tried to make such a
+diagram when I was still living in Norway from a series of photos, but the
+weather wasn't consistent enough to make that work.
+
+.. _episode: https://www.theskepticsguide.org/podcast/sgu/657
+.. _`The Sceptics' Guide to the Universe`: https://www.theskepticsguide.org/
+.. _analemma: https://en.wikipedia.org/wiki/Analemma
+
+But as I am currently starting to update the `Guide to Date and Time
+Programming`_ for a second edition, I was wondering whether I could create an
+analemma from existing PHP functions. Unfortunately, PHP only provides
+functionality to calculate when the Sun is at its highest point, through
+`date_sun_info()`_::
+
+	<?php
+	$sunInfo = date_sun_info(
+		(new DateTimeImmutable())->getTimestamp(), // Unix timestamp
+		51.53,                                     // latitude
+		-0.19                                      // longitude
+	);
+
+	$zenith = new DateTimeImmutable( "@{$sunInfo['transit']}" );
+	echo $zenith->format( DateTimeImmutable::ISO8601 ), "\n";
+	?>
+
+Which on February 26th, was at ``2018-02-26T12:13:38+0000`` in London.
+
+.. _`Guide to Date and Time Programming`: https://phpdatebook.com/
+.. _`date_sun_info()`: http://php.net/date_sun_info
+
+Then I remembered that a few years ago I wrote `Where is the Sun?`_. There I
+features a new hobby library "astro_" that I was working on. This library
+implements a few astronomical calculations. I wrote a little PHP extension
+around it too: php-solarsystem_. Neither library or extension have really been
+released.
+
+.. _`Where is the Sun?`: /where-is-the-sun.html
+.. _astro: https://github.com/derickr/astro
+.. _php-solarsystem: https://github.com/derickr/php-solarsystem
+
+The php-solarsystem_ extension implements just one function:
+`earth_sunpos()`_, which fortunately does exactly what I needed for drawing an
+analemma: it gives you the position of the Sun in the sky for a specific
+location on Earth at a specific time.
+
+.. _`earth_sunpos()`: https://github.com/derickr/php-solarsystem/blob/master/solarsystem.c#L14,L22
+
+With this function, all I had to do is calculate the position of the Sun in
+the sky at the same time-of-day for a whole year. With the DatePeriod_ class
+in PHP, I can easily create an iterator that does just that::
+
+	<?php
+	date_default_timezone_set( "UTC" );
+
+	$dateStart = new DateTimeImmutable( "2018-01-01 09:00" );
+	$dateEnd   = $dateStart->modify( "+1 year 1 day" );
+	$dateInterval = new DateInterval( "P1D" );
+
+	foreach ( new DatePeriod( $dateStart, $dateInterval, $dateEnd ) as $date )
+	{
+		…
+	}
+	?>
+
+We don't really want Daylight Saving Time to be in the way, so we set the
+time zone to just ``UTC``, which works fine for London for which we'll draw
+the analemma.
+
+We start at the start of the year (``2018-01-01 09:00``) and iterate for a
+year and a day (``+1 year 1 day``) so we can create a closed loop. Each
+iteration increases the returned DateTimeImmutable_ by exactly one day
+(``P1D``).
+
+.. _DatePeriod: http://php.net/dateperiod
+.. _DateTimeImmutable: http://php.net/datetimeimmutable
+
+After defining the latitude and longitude of London, all we need to do is to
+use the `earth_sunpos()`_ function to calculate the azimuth_ and altitude_
+inside the loop. Azimuth_ is the direction of where the Sun is, with 180°
+being due South. And altitude_ is the height of the Sun above the horizon.
+
+::
+
+	$lat = 51.53;
+	$lon = -0.09;
+
+	foreach ( new DatePeriod( $dateStart, $dateInterval, $dateEnd ) as $date )
+	{
+		$ts = $date->format( 'U' );
+		$position = earth_sunpos( $ts, $lat, $lon );
+		echo $ts, "\n";
+		echo $position['azimuth'], ",";
+		echo $position['altitude'], "\n";
+	}
+
+.. _azimuth: https://en.wikipedia.org/wiki/Azimuth
+.. _altitude: https://en.wikipedia.org/wiki/Horizontal_coordinate_system
+
+The script outputs the calculation as a "CSV", which we should redirect to a
+file::
+
+	php tests/analemma.php > /tmp/analemma.csv
+
+To plot we use the following gnuplot_ script::
+
+	set style line 1 lt 1 lw 2 pt 0 ps 0 linecolor rgb "orange"
+	set style line 2 lt 1 lw 1 pt 0 ps 0 linecolor rgb "grey"
+
+	set datafile separator comma
+	set xrange [100:150]
+	set yrange [0:50]
+
+	set grid linestyle 2
+	set terminal png size 640,640 enhanced font "Helvetica,12"
+	set output '/tmp/analemma.png'
+
+	plot "/tmp/analemma.csv" using 2:3 title "London @ 9 am" with linespoints linestyle 1
+
+.. _gnuplot: https://en.wikipedia.org/wiki/gnuplot
+
+With this script, we can then draw the analemma::
+
+	gnuplot /tmp/analemma.plot
+
+The result:
+
+.. image:: /images/content/london-analemma.png
+
+**Credits**
+
+.. credit::
+   :Description: Analemma
+   :Type: Photo
+   :Author: Giuseppe Donatiello
+   :Link: https://www.flickr.com/photos/133259498@N05/25907420783
+
+.. credit::
+   :Description: Analemma
+   :Type: Plot
+   :Author: Derick Rethans
