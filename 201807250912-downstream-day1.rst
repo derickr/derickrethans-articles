@@ -1,0 +1,29 @@
+Downstream — Day 1
+==================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-07-25 09:12 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream01
+
+I have started walking the whole length of the `Thames Path`_. 184 miles from
+the source_ to the `Thames Barrier`_. While walking it, I'm making a little
+documentary, "Downstream", of which the first episode is here: 
+
+.. _`Thames Path`: https://www.openstreetmap.org/relation/20469
+.. _source: https://en.wikipedia.org/wiki/Thames_Head
+.. _`Thames Barrier`: https://en.wikipedia.org/wiki/Thames_Barrier
+
+.. vimeo::
+   :ID: 277856497
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 1
+
+It's my first ever attempt at doing something like this, and hence, **very**
+rough. It covers the first day out of a three day long walking trip, and I
+will be adding further episodes of this segments, and then further walking
+trips in the future.
+
+Enjoy!
