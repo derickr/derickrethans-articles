@@ -1,0 +1,188 @@
+Downstream — Trip 1
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-08-10 11:12 Europe/London
+   :Tags: blog, downstream
+   :Short: downstreamt01
+
+As you might have picked up on, I am walking the whole length of the `Thames
+Path`_ currently. All 184 miles from
+the source_ to the `Thames Barrier`_. 
+
+I started making videos about each day of walking, which I will be posting
+here, but the videos don't tell the whole story so I have decided to write
+about it as well. This is the story of my first trip, which I did over 3 days
+at the end of June. I had taken the Monday off so that I could to the first 3
+stages in one go. That's mostly necessary because there is no, or really
+crappy, public transport along this first third of the Thames Path. But both
+the source, and Oxford, are reasonably easy to do by train.
+
+.. _`Thames Path`: https://www.openstreetmap.org/relation/20469
+.. _source: https://en.wikipedia.org/wiki/Thames_Head
+.. _`Thames Barrier`: https://en.wikipedia.org/wiki/Thames_Barrier
+
+Day 1 — Source to Cricklade
+---------------------------
+
+.. vimeo::
+   :ID: 277856497
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 1
+
+The first day started by getting the train to Kemble, which is about a mile
+away from the source in the Cotswolds_. After being delayed in Paddington for
+an hour, the change at Swindon wasn't great either, as the smaller train into
+Kemble was very full as the previous London to Swindon train had been
+cancelled. Getting from Kemble station to the source was a little bit tricky,
+as it wasn't overly well sign posted. And once you get in the fields near the
+source, you basically have to have a compass to follow it, as there is no hint
+of the river yet at all.
+
+.. _Cotswolds: https://en.wikipedia.org/wiki/Cotswolds
+
+When I made it to the source, I rested for a bit before starting my walk along
+"the river" towards Cricklade_. The first bit was really just walking in a
+field, to a little past where I got onto the path from Kemble, where there was
+suddenly a little stream, with really clear water. From there on, the river
+gradually became wider and wider. Most of this first day was easy to walk,
+with mostly paths, and even though I thought I'd see a lot of mud, there was
+basically none. It having been so warm in the last few weeks really helped.
+
+.. _Cricklade: https://en.wikipedia.org/wiki/Cricklade
+
+I was also quite excited when I spotted the first wild life. At first I
+thought it was a snake, but it turned out to be a fake-snake, a `Slow-worm`_.
+We have them in the Netherlands too. Not much after that, I also spotted a
+single pheasant.
+
+.. _`Slow-worm`: https://en.wikipedia.org/wiki/Anguis_fragilis
+
+Walking through the `Cotswolds Water Park`_ with its many lakes was quite
+variable. Some were quiet and had waterbirds, others were loud with people
+attempting to waterski.
+
+.. _`Cotswolds Water Park`: https://en.wikipedia.org/wiki/Cotswold_Water_Park
+
+Just before Cricklade I walked through the `North Meadow`_, with its abundance
+of wild plants. Apparently it's one of the very few real meadows left in the
+UK.
+
+.. _`North Meadow`: https://en.wikipedia.org/wiki/North_Meadow,_Cricklade
+
+Once I made it to Cricklade, I checked in into the `White Hart Hotel`_, had a
+shower, and promptly `mapped the whole town`_ on OpenStreetMap_. Then it was
+time for a pint, and dinner. While checking in my pint on Untappd_ I noticed
+that there was a nearby venue, `The Red Lion`_, which also features its own
+brews. I spend most of the rest of the evening there trying out their brews in
+the nicely cool garden reading a book (and twitter!). It was a good end of the
+day after a 22km walk.
+
+.. _`White Hart Hotel`: http://www.thewhitehartcricklade.co.uk/
+.. _`mapped the whole town`: http://demo.f4map.com/#lat=51.6409156&lon=-1.8562607&zoom=19&camera.theta=46.146&camera.phi=25.783
+.. _OpenStreetMap: https://www.openstreetmap.org/
+.. _Untappd: https://untappd.com/
+.. _`The Red Lion`: https://www.theredlioncricklade.co.uk/
+
+Day 2 — Cricklade to Newbridge
+------------------------------
+
+.. vimeo::
+   :ID: 281056671
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 2
+
+I got up really early (7:30am!!) to have breakfast and to head out as early as
+I could. I had to cover a lot of ground today to make it to Newbridge where I
+had booked a night to stay in an inn. I knew it was a long way, and
+unfortunately I had developed a blister on my heel. Luckily I had packed
+blister plasters so this didn't end up too big of a deal. Sunday morning in
+Cricklade was really quiet, with only a few people walking their dogs. It is
+not a big town, and soon I found myself in the country side.
+
+Just before Lechlade_, my `Thames Path in the Country`_ guide said that there
+was an annoying section along the A361, quite a bit away from the river. But
+since the guide was written, the Thames Path had been redirected through a
+path much closer to the river after having secured access. This new section
+had lots of brand new gates, and would surely have been a big improvement if
+there weren't a few fields of stinging nettles to get through. Walking in
+shorts was not a clever plan there.
+
+.. _Lechlade: https://en.wikipedia.org/wiki/Lechlade
+.. _`Thames Path in the Country`: https://amzn.to/2Mx8f3D
+
+I came upon the first swans, boats, and of course, the first lock_ (St. John's
+Lock). I spend a little time here, as locks always fascinated me. But as I had
+a long walk today, I didn't linger too long.
+
+.. _lock: https://en.wikipedia.org/wiki/Lock_(water_navigation)
+
+I had lunch at `Ye Olde Swan`_. I thought their web site had said they brewed
+their own beer, but that appeared to be not really true. I still had lunch
+with a lovely pint on their outdoor Thames-overlooking terrace.
+
+.. _`Ye Olde Swan`: https://yeoldeswan.co.uk/
+
+After lunch many of the "paths" turned into fields of plants that I had to
+battle through for a while, and many had nettles. Where the path was a bit
+easier, there were lots of butterflies and dragonflies. I probably brought a
+little bit too little water, but found out that most locks will have a water
+point. That was particularly useful on this hot section later in the day.
+
+At about 19:00, I made it to the end of the section at Newbridge. I would be
+staying at `The Rose Revived`_.
+
+.. _`The Rose Revived`: https://www.oldenglishinns.co.uk/our-locations/the-rose-revived-witney
+
+Day 3 — Newbridge to Oxford
+---------------------------
+
+.. vimeo::
+   :ID: 281057896
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 3
+
+After a good night's rest I left rather early again. Not quite because I had a
+long way to go (only 22km!), but mostly so that I could take it very slowly.
+The previous day's walk had definitely taken its toll.
+
+The Thames Path went straight through the pub's garden, so I didn't have very
+far to the path. Once I got out of the garden, there were very many rabbits
+hopping around, only to be disturbed by me, one fellow hiker, and a very
+adventurous farmer which found it necessary to mow the hay at 08:30 in the
+morning, on a Sunday.
+
+After having to go around a caravan park bordering the river, and through
+fields of sheep, I made good progress. With the river a bit wider, there was
+quite a lot more boat traffic on the Thames, and even some people swimming in
+it. I guess the Thames is quite a bit cleaner before cities like Oxford,
+Reading, and London dump their waste in it.
+
+After about half way, I ran into a sign saying that one of the bridges over
+one of the tributaries was closed and that I should take a detour instead.
+That detour was very poorly signed, but with some help of the well mapped
+paths on OpenStreetMap_, I found myself a new route. About a third through the
+detour, on the top of a hill, I ran into another hiker which informed me that
+the bridge wasn't actually closed. Which stinks, as this meant that I didn't
+actually walk the whole Thames Path, even though it was about the same
+distance.
+
+After passing the Godstow_ Abbey Ruins, near Oxford_, the river side became
+busy with people (and geese!) that were enjoying the river on this
+hot day. I was happy to be done with the walking around 15:00, and refresh
+myself with a pint and lunch before heading home by train to London.
+
+.. _Godstow: https://en.wikipedia.org/wiki/Godstow
+.. _Oxford: https://en.wikipedia.org/wiki/Oxford
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/sets/72157668662396357
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
