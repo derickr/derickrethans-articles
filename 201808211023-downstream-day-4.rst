@@ -1,0 +1,104 @@
+Downstream — Trip 2
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-08-21 10:23 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream02
+
+It had been a few weeks since the previous_ walk. It had been quite hot and
+therefore I left it a little to continue along the Thames Path. Today was a
+lot cooler to start with, with some scattered showers predicted. As this was
+another weekend day I suspected rail engineering works—and indeed, there were
+no trains from Paddington to Oxford. The rail replacement bus which took me
+from Didcot Parkway towards the start in Oxford was luckily will organised,
+and I only ended up being about 15 minutes later than I originally had hoped
+for.
+
+.. _previous: /downstream-days1-3.html
+
+Day 4 — Oxford to Shillingford
+------------------------------
+
+.. vimeo::
+   :ID: 285158224
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 4
+
+It was fairly windy, and a little chilly when I left Oxford along the river.
+There were lots of rowers out on the Thames, which didn't come as a big
+surprise as that's what Oxford's stretch on the `Thames`:strike: Isis is known for.
+Not only were there lots of rowing clubs out, but also plenty of amateurs.
+
+.. _Thames: https://en.wikipedia.org/wiki/River_Thames
+.. _Isis: https://en.wikipedia.org/wiki/The_Isis
+
+After a while it started to become darker and darker, and I started to wonder
+whether I was going to keep it dry. I encountered a pair of hikers also doing
+the Thames Path having a break near one of the boat houses. After having a
+chat, and avoiding a tree branch being blown out of the tree, I decided to
+continue and mentioned that I would chance getting rained upon. Without
+surprise, 5 minutes later it was pelting it down. I found some shelter under a
+few trees to put on my rain coat, but by the time I managed to put on my coat
+it was already dry. The additional humidity wasn't that great though.
+
+Just before Abingdon_, and its lock_, there is a complicated section on the
+Thames Path that isn't very well signed. OpenStreetMap_ has the Thames Path
+(near) perfectly mapped, so it was easy enough for me to find the route, but I
+did assist somebody going in the opposite direction and explained where she
+had to go.
+
+.. _Abingdon: https://en.wikipedia.org/wiki/Abingdon-on-Thames
+.. _lock: https://en.wikipedia.org/wiki/Abingdon_Lock
+.. _OpenStreetMap: https://www.openstreetmap.org
+
+In Abingdon I had lunch at the `Nag's Head`_, which is situated on its own
+island, `Nag's Head Island`_. I opted for a traditional fish & chips, and had
+a pint of the local brew, called `Nag's Island`_. Just when I was finishing
+lunch it started to drizzle a little bit, but it had already stopped by the
+time I had finished my visit to the little coder's room.
+
+.. _`Nag's Head`: https://www.thenagsheadonthethames.co.uk/
+.. _`Nag's Head Island`: https://en.wikipedia.org/wiki/Nag%27s_Head_Island
+.. _`Nag's Island`: https://untappd.com/user/derickr/checkin/630854417
+
+Unfortunately the drizzle did come back a few times over the next hours, while
+I was getting closer to the big towers of the `Didcot power stations`_, which
+were looming on the horizon. Just before Culham_ I stopped to have a look at
+the `Swift Ditch`_, and old short cut for the river Thames ignoring Abingdon.
+It is no longer in use, and very overgrown, but it was the fastest route for
+nearly a thousand years.
+
+.. _`Didcot power stations`: https://en.wikipedia.org/wiki/Didcot_power_stations
+.. _`Culham`: https://en.wikipedia.org/wiki/Culham
+.. _`Swift Ditch`: https://en.wikipedia.org/wiki/Swift_Ditch
+
+During the next bit of the walk, there were a great many locks to go past and
+over, until I came upon the river Thame_. From the source at Thames' Head to
+where the river Thames meats the river Thame, the Thames is also called the
+Isis. Especially in Oxford do make a big deal out of that. On some Ordnance
+Survey maps you will still see "River Thames or Isis" for the whole stretch
+from the source to the Thame.
+
+.. _Thame: https://en.wikipedia.org/wiki/River_Thame
+
+About 20 minutes later I arrived at my finish today at Shillingford_, where I
+took the bus into Reading, via a bus-replacement bus in Wallingford_, and via
+Henley-on-Thames_ as the schedule worked better for that. Why wait 30 minutes
+for a fast route that gets me into Reading 3 minutes earlier while it was very
+clearly going to rain soon? In Reading, the trains into London were
+unsurprisingly delayed, as they are so often.
+
+.. _Shillingford: https://en.wikipedia.org/wiki/Shillingford
+.. _Wallingford: https://en.wikipedia.org/wiki/Wallingford,_Oxfordshire
+.. _Henley-on-Thames: https://en.wikipedia.org/wiki/Henley-on-Thames
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/43711492811/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
