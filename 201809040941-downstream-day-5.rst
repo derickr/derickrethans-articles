@@ -1,0 +1,119 @@
+Downstream — Trip 3
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-09-04 09:41 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream03
+
+On the `previous trip`_ I walked from Oxford to Shillingford_ on the Thames Path, and
+on this trip I was planning to walk to Pangbourne. Getting to Shillingford
+requires a bit of planning as the buses aren't terribly frequent, so I got up
+early (07:00 on a Saturday!) for a 08:50 bus from Reading_ to Shillingford to
+continue downstream on my adventure.
+
+.. _`previous trip`: /downstream-day-4.html
+
+Day 5 — Shillingford to Reading
+-------------------------------
+
+.. vimeo::
+   :ID: 287977089
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 5
+
+Setting off from Shillingford I quickly came upon the river Thames again,
+where I was sharing the path with a (very slow) running group—I was keeping up
+while walking! The first activity on the river itself came at `Benson Marina`_
+where early birds where getting their canoes in the water, avoiding a range of
+other motorised pleasure craft.
+
+.. _`Benson Marina`: http://www.bensonwaterfront.co.uk/
+
+Wallingford_ wasn't very far away, and it is a quite picturesque old market
+town. The Thames Path doesn't go through the town itself, but I did catch some
+of it on the bus on the way to the start of this walk, and when returning from
+Shillingford_ on my previous walk.
+
+.. _Wallingford: https://en.wikipedia.org/wiki/Wallingford,_Oxfordshire
+.. _Shillingford: https://en.wikipedia.org/wiki/Shillingford
+
+Five kilometres beyond Wallingford the Thames Path dives under the `Moulsford
+Railway Bridge`_ before the path diverges from the river around a school. It
+was an unpleasant section up a hill, and then along a busy and narrow road
+before the path moves back towards the river, where it joins the tow path by
+going through a `pub's garden`_. I hope that in the future this diversion
+would not be needed.
+
+.. _`Moulsford Railway Bridge`: https://en.wikipedia.org/wiki/Moulsford_Railway_Bridge
+.. _`pub's garden`: http://www.beetleandwedge.co.uk/
+
+This walk featured six locks, from `Benson Lock`_ near the start, to `Caversham
+Lock`_ near Reading_. I noticed that although the locks themselves are
+not getting much larger, the accompanying weirs most definitely do. I spent a
+little time at `Goring Lock`_ just before lunch.
+
+.. _`Benson Lock`: https://en.wikipedia.org/wiki/Benson_Lock
+.. _`Caversham Lock`: https://en.wikipedia.org/wiki/Caversham_Lock
+.. _Reading: https://en.wikipedia.org/wiki/Reading,_Berkshire
+.. _`Goring Lock`: https://en.wikipedia.org/wiki/Goring_Lock
+
+I walked into the small village of `Goring-on-Thames`_ to have lunch in a
+`"locals" pub`_ where I had my first first-hand "Brexit Experience". I think
+I'll leave that story for a separate post though. 
+
+.. _`Goring-on-Thames`: https://en.wikipedia.org/wiki/Goring-on-Thames
+.. _`"locals" pub`: http://www.thejohnbarleycornpub.com/
+
+After lunch I walked back to the river, and noticed that the landscape was
+very different from most of the other landscapes along the Thames so far.
+Instead of it being flat, and wide open, near Goring, the landscape suddenly
+turned very hilly around me. I did some googling and found that this specific
+feature is called the `Goring Gap`_. Apparently, about a hundred thousand
+years ago the Thames didn't flow through Oxford and London but instead went
+through St. Albans and Ipswitch. During the last ice age the route got
+diverted because there was a glacier in the way. The Goring Gap is the new
+route that the Thames cut out through the hills.
+
+.. _`Goring Gap`: https://en.wikipedia.org/wiki/Goring_Gap
+
+The feature became even more apparent when the Thames Path diverted slightly
+from the river and had me going right up a hill. Near the top I spoke with
+some other hikers which assured me this was the only location where the Thames
+Path would do that. 
+
+My original plan was to finish at Pangbourne_, but it was still early and the
+weather was nice, so I decided to continue to Reading, with its much easier
+rail connections.
+
+.. _Pangbourne: https://en.wikipedia.org/wiki/Pangbourne
+
+At Purley the path left the Thames for a while, as due to "access rights" the
+path can't follow the river closely. Annoyingly that meant up another bit of
+uphill. Although it wasn't particularly a long stretch, it **was** quite
+steep. When I got back to the river, a rain (drizzle) shower started, which
+kept showing its head all the way back to my finish in Reading.
+
+The last three kilometres go past the normally quiet fields of `Little John's
+farm`_, but with the `Reading Festival`_ only a week away, it was a busy
+business of setting up for the festival.
+
+.. _`Little John's farm`: https://en.wikipedia.org/wiki/Little_John%27s_Farm
+.. _`Reading Festival`: https://en.wikipedia.org/wiki/Reading_and_Leeds_Festivals
+
+Just before Reading I crossed under the Caversham bridge, the last bridge on
+this part of the walk. Before boarding my train in Reading, I had a well
+deserved pint at `The Three Guineas`_ right in front of the station. Another
+34km done!
+
+.. _`The Three Guineas`: https://www.three-guineas.co.uk/
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/43711492811/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
