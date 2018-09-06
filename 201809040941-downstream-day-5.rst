@@ -113,7 +113,8 @@ deserved pint at `The Three Guineas`_ right in front of the station. Another
 ----
 
 Photos from my Adventure on the Thames Path are available on Flickr_, and all
-videos on Vimeo_.
+videos on Vimeo_. You can also see all the photos on a map_.
 
 .. _Flickr: https://www.flickr.com/photos/derickrethans/29562947137/in/album-72157668662396357/
 .. _Vimeo: https://vimeo.com/manage/albums/5306548
+.. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM
