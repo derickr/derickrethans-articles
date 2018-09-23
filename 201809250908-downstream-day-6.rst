@@ -1,0 +1,119 @@
+Downstream — Trip 4
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-09-25 09:08 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream04
+
+On the `previous trip`_ I walked from Shillingford_ to Reading_ on the Thames
+Path, and on this trip I was planning to walk to Marlow. For once, getting to
+the start was easy by a single and fast train ride into Reading_.
+
+.. _`previous trip`: /downstream-day-5.html
+.. _Shillingford: https://en.wikipedia.org/wiki/Shillingford
+.. _Reading: https://en.wikipedia.org/wiki/Reading,_Berkshire
+
+Day 6 — Reading to Bourne End
+-----------------------------
+
+.. vimeo::
+   :ID: 291354956
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 6
+
+With the `Reading Festival`_ over, there was little to see of hoardings and
+temporary holding pits when I started my walk towards Marlow. The first
+interesting thing along the path is `Caversham Lock`_, which quite busy on the
+slightly hazy morning. 
+
+.. _`Reading Festival`: https://www.readingfestival.com/
+.. _`Caversham Lock`: https://en.wikipedia.org/wiki/Caversham_Lock
+
+A little further along, I crossed, by means of a foot bridge, the `River
+Kennet`_. Through the `Kennet and Avon Canal`_, it connects the Thames at
+Reading with the `River Avon`_ at `Bristol`_, with the canal section between
+Bath_ and Newbury_. When recording the video section on this, I messed up so
+had to re-record the narration.
+
+.. _`River Kennet`: https://en.wikipedia.org/wiki/River_Kennet
+.. _`Kennet and Avon Canal`: https://en.wikipedia.org/wiki/Kennet_and_Avon_Canal
+.. _`River Avon`: https://en.wikipedia.org/wiki/River_Avon,_Bristol
+.. _Bristol: https://en.wikipedia.org/wiki/Bristol
+.. _Bath: https://en.wikipedia.org/wiki/Bath,_Somerset
+.. _Newbury: https://en.wikipedia.org/wiki/Newbury,_Berkshire
+
+Continuing along the Thames Path I noticed that there are a significant of
+posh schools located along this stretch of the river, which sometimes means
+you need to make a little detour. Another of these detours away from the river
+is at Shiplake_, where the Thames Path brings you straight to the quaint
+village, with its `Phone Box Book Exchange`_, and its lovely railway station.
+
+.. _Shiplake: https://en.wikipedia.org/wiki/Shiplake
+.. _`Phone Box Book Exchange`: http://shiplakevillages.com/index.php?pid=232
+
+My plan was to have lunch at Henley_, at one of the pubs along the river. Just
+when I got to Henley however it started to rain, and all the pubs where
+absolutely packed, with lots of people wearing colourful clothes. I had no
+idea what was going on, and I was hungry, so I found a little cafe, `Cafe
+Copia`_ near the town hall to have lunch, and wait for the rain to pass.
+
+.. _`Henley`: 
+.. _`Cafe Copia`: https://www.cafecopia.co.uk/
+
+After lunch I crossed the bridge and found the Thames Path clogged with these
+same people in colourful clothes. Due to the busyness it was quite slow going
+for a while, until I got to a massive festival site just North of Remenham.
+There was a reason for the funny dress sense after all, as this site was
+hosting the `Rewind Festival`_, a big 80s festival.
+
+.. _`Rewind Festival`: https://en.wikipedia.org/wiki/Rewind_Festival#Rewind_South_2
+
+After half an hour, the festival site was no longer visible and audible and
+the tranquillity of the walk returned, and I could listen to the podcast
+series Caliphate_ from the New York Times, once again, in the middle of the
+private deer park of `Culham Court`_.
+
+.. _Caliphate: https://www.nytimes.com/interactive/2018/podcasts/caliphate-isis-rukmini-callimachi.html
+.. _`Culham Court`: https://en.wikipedia.org/wiki/Culham_Court,_Berkshire
+
+At Hurley_ it became busy along the Thames again as they were having their
+annual Regatta_. As I was quite early, there was no racing going on yet, but
+as often with these river-side festivals they make you go around them, away
+from the Thames Path.
+
+.. _Hurley: https://en.wikipedia.org/wiki/Hurley,_Berkshire
+.. _Regatta: https://www.hurleyregatta.co.uk/
+
+Near Bisham, you can spot the former grounds of `Bisham Abbey`_ across the
+river. Now it is sports centre, but when I passed by there was a wedding
+reception in progress.
+
+.. _`Bisham Abbey`: https://en.wikipedia.org/wiki/Bisham_Abbey
+
+As I was now approaching Marlow, I asked one of my coworkers, who is local,
+for a good recommendation for a post-walk beer. He came back with saying that
+Marlow is primarily food-orientated, and proceeded to recommend a pub in
+Bourne End, another three and a half miles walking. I decided to do that, as
+it was quite reasonably early, and I was going to miss the train at Marlow
+anyway. Just past the town, the Thames Path got diverted again, as repaving
+work was being done on a section — yay for shiny new paths!
+
+The extra miles to `Bourne End`_ where worth it in the end as I settled for a
+half at `KEG Craft Beer`_ for a lovely sour. I also picked up a `train beer`_
+for my trip back into London.
+
+.. _`Bourne End`: https://en.wikipedia.org/wiki/Bourne_End,_Buckinghamshire
+.. _`KEG Craft Beer`: https://untappd.com/v/keg/5769376
+.. _`train beer`: https://untappd.com/user/derickr/checkin/640374194
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_. You can also see all the photos on a map_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/44500461361/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
+.. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM
