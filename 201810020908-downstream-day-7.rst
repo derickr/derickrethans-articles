@@ -1,0 +1,139 @@
+Downstream — Trip 5
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-10-02 09:08 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream05
+
+On the `previous trip`_ I walked from Reading_ to `Bourne End`_ on the Thames
+Path, and on this trip I will progress to Staines_. Getting to Bourne End
+wasn't as easy as getting to Reading, and a fair bit slower with a train to
+Maidenhead and then the branch line towards Marlow.
+
+.. _`previous trip`: /downstream-day-6.html
+.. _Reading: https://en.wikipedia.org/wiki/Reading,_Berkshire
+.. _`Bourne End`: https://en.wikipedia.org/wiki/Bourne_End,_Buckinghamshire
+
+Day 7 — Bourne End to Staines
+-----------------------------
+
+.. vimeo::
+   :ID: 292769954
+   :Width: 599
+   :Height: 337
+   :Title: Downstream — Day 7
+
+I set off from Bourne End (without going to the lovely craft beer place)
+fairly early in the morning, on a bright and sunny day. It was clearly
+regatta_ season as became apparent when I made my way to Cookham, where their
+yearly races were on. Not only were they preparing for the watery fun, there
+was also a good display of vintage cars being set-up. I think I was too early
+to see it in full flow. Unfortunately, it did mean diverting from the river
+for a while, first because of the regatta, and then because there are private
+things in the way.
+
+.. _regatta: http://www.cookhamregatta.org.uk/
+
+When I got back to the river after about a mile, I could just about make out
+the outlines and hill of `Cliveden House`_ across the river. I had visited
+this `National Trust`_ property with family.
+
+Just before reaching Maidenhead I came upon `Boulter's Lock`_. An industrial
+looking lock that replaced earlier 16th and 18th century locks on the same
+place. It was quite busy around the lock, with apparently one or two tour
+buses having stopped to let their passengers having a look at it.
+I spend some time wandering around and relaxing, before continuing my walk.
+
+.. _`Cliveden House`: https://www.clivedenhouse.co.uk/
+.. _`National Trust`: https://www.nationaltrust.org.uk/cliveden
+.. _`Boulter's Lock`: https://en.wikipedia.org/wiki/Boulter%27s_Lock#Kayaking
+
+Not far from Maidenhead lays Bray_, famous for their large number of Michelin
+starred restaurants. There is the one star `Hind's Head`_ where I had eaten
+before, the three star `Fat Duck`_, and the three start `Waterside Inn`_,
+where I attended a wedding once. You can't see much of it from the other side
+of the Thames though, so just had to do with my memories of the tasty food.
+
+.. _Bray: https://en.wikipedia.org/wiki/Bray,_Berkshire
+.. _`Hind's Head`: https://hindsheadbray.com/
+.. _`Fat Duck`: https://www.thefatduck.co.uk/
+.. _`Waterside Inn`: https://www.waterside-inn.co.uk/
+
+Not far from Bray is the `Dorney Lake`_, which was used in the `2012
+Olympics`_ as a rowing venue under the name "Eton Dorney". You can't see much
+of it from the North side, but once you've walked along it to the bottom end
+you can actually go up and have a look.
+
+.. _`Dorney Lake`: https://en.wikipedia.org/wiki/Dorney_Lake
+.. _`2012 Olympics`: https://en.wikipedia.org/wiki/Dorney_Lake
+
+Immediately after rounding a bend in the river Thames, you see `Windsor
+Castle`_, the Queen's "country home", towering over Windsor_ and the river_.
+My plan was to have lunch in Windsor, but just after getting into Eton_ I
+noticed a nice looking pub, the `Waterman's Arms`_. Their menu looked good,
+and they have a few nice draughts on so I decided to have lunch there instead.
+As a bonus, I also noticed the pub's ceiling had a painting of the whole
+length of the Thames on it!
+
+.. _`Windsor Castle`: https://en.wikipedia.org/wiki/Windsor_Castle
+.. _Windsor: https://en.wikipedia.org/wiki/Windsor,_Berkshire
+.. _river: https://www.flickr.com/photos/derickrethans/44498627092/in/album-72157668662396357/
+.. _Eton: https://en.wikipedia.org/wiki/Eton,_Berkshire
+.. _`Waterman's Arms`: http://www.watermans-eton.com/
+
+After lunch, and perhaps half a pint too much, I continued my walk. On the
+bridge that connects Eton to Windsor, a guitar player was playing joyful
+tunes, to which I listened when taking some photos and video.
+
+After walking for a while in between a railway and the river, there were
+plenty of signs saying that "no drones" could be flown in and near `The Home
+Park`_. I bet the Queen doesn't like people snoop on her activities much.
+Beyond lovely Datchet_, I was directed through a field with nettles to be
+"closer to the river", but I don't think that was specifically worth it. The
+200 meter `stretch along the road`_ would probably be easier walking. The only
+real scenery were planes leaving `Heathrow Airport`_ anyway. The noise of
+planes overhead continued for the rest of the walk into Staines_, or as it now
+is called "Staines-upon-Thames". Please note that Staines does not rhyme with
+Thames.
+
+.. _`The Home Park`: https://en.wikipedia.org/wiki/Home_Park,_Windsor
+.. _Datchet: https://en.wikipedia.org/wiki/Datchet
+.. _`stretch along the road`: https://www.openstreetmap.org/relation/20469#map=16/51.4732/-0.5828
+.. _`Heathrow Airport`: https://en.wikipedia.org/wiki/Heathrow_Airport
+.. _Staines: https://en.wikipedia.org/wiki/Staines-upon-Thames
+
+Just before Staines is Runnymede_. Runnymede is an important site in British
+history, as this is the location where the `Magna Carta`_ was signed, all the
+way back in 1215. The Magna Carta is a charter of rights that is the first one
+to prevent from the King being above the law. Modifications were made
+in the following decades, and not many of its provisions are currently left,
+but it was very important on a journey to a `constitutional monarchy`_.
+
+The site itself is an open expanse of grassland, with a piece of art — "The
+Jurors", by `Hew Locke`_. There is also a memorial_ created by the American
+Bar Association. Unfortunately I only found out about this after I had come
+home, and hence did not visit it.
+
+.. _Runnymede: https://en.wikipedia.org/wiki/Runnymede
+.. _`Magna Carta`: https://en.wikipedia.org/wiki/Magna_Carta
+.. _`constitutional monarchy`: https://en.wikipedia.org/wiki/Constitutional_monarchy
+.. _`Hew Locke`: https://en.wikipedia.org/wiki/Hew_Locke
+.. _memorial: https://en.wikipedia.org/wiki/Runnymede#Magna_Carta_Memorial
+
+Just beyond Runnymede the Thames Path passes under the M25_, which means I
+have walked all the way from the source into `Greater London`_. From there it was
+not much further to the end of my walk at St. Peter's Church in Staines_.
+
+.. _M25: https://en.wikipedia.org/wiki/M25_motorway
+.. _`Greater London`: https://en.wikipedia.org/wiki/Greater_London
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_. You can also see all the photos on a map_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/30630762578/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
+.. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM
