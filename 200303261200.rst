@@ -7,8 +7,8 @@ East Coast USA and Canada
 Yeah yeah, finally a small vacation for me. I really needed it for numerous
 reasons (some people will understand this, believe me). Because of the lagging
 updates on the website I decided to write down a journal of the trip. Welcome
-to the world of crazy truckdrivers, homeland security and Quebecan
-anti-americanism.
+to the world of crazy truck drivers, homeland security and Quebecan
+anti-Americanism.
 
 The whole trip started on the 16th of March, when `Jan`_ and I left for
 `Schiphol Airport`_ in the early morning. Being there two hours before our
@@ -33,10 +33,10 @@ last `Dan`_ came looking for us and we headed towards Baltimore.
 The next day `Jan`_, Dana and I went to DC, to play for tourist. After a 45
 minute drive we got onto the MARC towards DC, where we started to look for the
 Washington Mall. We asked a fence guard for the way there, and the man summed
-it all up very quickly, as if he explained it atleast a few dozen times, which
+it all up very quickly, as if he explained it at least a few dozen times, which
 is likely to be true anyway :).  The Washington Mall is a place with a lot of
-museums around a small park with on one end the Capitol, and on the otherside
-the Washington monument.
+museums around a small park with on one end the Capitol, and on the other
+side, the Washington monument.
 
 .. image:: http://photos.derickrethans.nl/album/usacanada/aad.thumb.jpg
 
@@ -62,9 +62,9 @@ to do the trip in one day.
 
 After having lunch (bagels) we headed out for Montreal, the weather was pretty
 smooth and we made good progress. While driving through New Jersey all the
-electronical road signs were showing some text telling us to report all kinds
+electrical road signs were showing some text telling us to report all kinds
 of suspect activity, whatever that may mean. This was one of the signs that
-America was at war and the hightened terrorist attack level. In the
+America was at war and the heightened terrorist attack level. In the
 Adirondacks, close to the border with Canada we stopped for a while to enjoy
 the snow.
 
@@ -102,7 +102,7 @@ early so we started on the wine, the first bottle was gone by the time the
 other people arrived. Of course the whole menu was in French, so picking the
 food of choice was tricky, but by translations of our table guests we made our
 choices. The food tasted really good, and so did the wine :-) By the time the
-dinner was over the most attendees were in some state of drunkeness, including
+dinner was over the most attendees were in some state of drunkenness, including
 myself.
 
 Driving through Montreal is a whole story apart. Traffic is close to that in
@@ -125,7 +125,7 @@ as I felt sick, and went home with Damien to crash early.
 
 The Saturday was reversed for a visit to a Maple Sugar Shack,
 which is a place to enjoy a historical Quenbecan lunch/dinner, including some
-entertainment.  It was weird to hear Dutch there, but apperently one of the
+entertainment.  It was weird to hear Dutch there, but apparently one of the
 people working there emigrated to Canada in the late 50s. Remarkable she spoke
 Dutch quite well, although with a heavy accent. After visiting the fog machine
 we headed back home in order to prepare for dinner, which we had in a small
@@ -133,7 +133,7 @@ cosy restaurant with a few `PHP`_ people.
 
 A crepe contest had place at hotel Seguy on Sunday morning, in which Dan,
 `Jan`_ and I competed. As I was the first to flip a crepe, I consider myself
-winner. After the breakfest we had of to New York City, to visit `Sterling`_
+winner. After the breakfast we had of to New York City, to visit `Sterling`_
 and crash there for the night. The border security was a joke, within 3 minutes
 we were through it, after some army dude checked our luggage. At about 6pm we
 arrived at Sterlings place in Mamaroneck, NY. We had a real BBQ meal in a local
@@ -149,7 +149,7 @@ the meanwhile. The next main attraction was the Empire State building, since
 9/11 the highest building in NYC. From there we looked out over the whole city,
 and the things that miss now. There were not many people up there, perhaps
 because the people were afraid of another terrorist attack, especially now
-during the ongoing war with Iraq. After that we went looking for some hotdog
+during the ongoing war with Iraq. After that we went looking for some hot dog
 vendors, one of the symbols of the city, and after having found one, and having
 indulged in the great 'dog' we headed for Central Park to rest and chill out.
 After having relaxed for a few minutes we headed back to `Sterling`_ s place by
@@ -181,5 +181,5 @@ rocked', and too bad that work starts again tomorrow.
 .. _`Andrei`: http://www.gravitonic.com
 .. _`SRM`: http://derickrethans.nl/projects.html#srm
 .. _`Sterling`: http://blog.edwardbear.org/
-.. _`New York`: http://www.newyork.com/
+.. _`New York`: https://en.wikipedia.org/wiki/New_York
 
