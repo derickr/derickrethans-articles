@@ -144,7 +144,7 @@ order to make use of the `.gdbinit`_ file, you can include it in your GDB
 session with ``source /path/to/.gdbinit``.
 
 .. _PR: https://github.com/mongodb/mongo-c-driver/pull/468
-.. _`.gdbinit`: https://github.com/mongodb/mongo-c-driver/blob/master/src/libbson/.gdbinit
+.. _`.gdbinit`: https://github.com/mongodb/mongo-c-driver/blob/5e76b2244032d1eb9d3610753504fd7cd9ad56ed/.gdbinit
 
 With the file loaded, and ``bson_doc`` being ``bson_t *`` variable in the
 local scope, you can run ``printbson bson_doc``, and receive something like
