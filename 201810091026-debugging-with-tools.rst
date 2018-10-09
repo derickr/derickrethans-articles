@@ -118,7 +118,7 @@ Which didn't really say a lot. The next thing to try is then to make a
 	…
 
 At first glance, I couldn't really see anything wrong with this backtrace,
-and was still puzzled why it would abort. I decided to go for a lunch time
+and was still puzzled as to why it would abort. I decided to go for a lunch time
 walk and have a look at it again. I always find that walks are good for
 clearing my mind.
 
@@ -143,7 +143,7 @@ The server ID is determined by the C driver when selecting a server to send a
 read or write operation to, and refers to a specific server's connection ID.
 The PHP driver uses this server ID when executing the query through the
 ``phongo_execute_query`` function, which calls the C driver's
-``mongoc_collection_find_with_opts``. The latter accepts as 3rd argument a
+``mongoc_collection_find_with_opts``. The latter accepts as its 3rd argument a
 ``bson_t`` value with options to use while executing a query. These options
 include the pre-selected server ID, so that the C driver does not attempt to
 reselect a server::
@@ -181,7 +181,7 @@ There are not supposed to be two conflicting ``serverId`` elements. Unlike
 PHP's arrays, ``bson_t`` values can have the same key appear multiple times.
 Although the C driver had selected server ID ``1`` for this query, server
 ``2`` was used because it was the first ``serverId`` element in the options
-struct. But why where there two values in the first place?
+struct. But why were there two values in the first place?
 
 If you look at the PHP test, you see the following::
 
@@ -214,7 +214,7 @@ struct before we pass it to the ``mongoc_collection_find_with_opts`` function.
 
 .. _`the fix`: https://github.com/mongodb/mongo-php-driver/commit/3624e5acfd1d64db5a636880c41f1a88aa480a25#diff-c06c6e1c9374aecabcf544157f9d0c26
 
-Debugging this issue was made lot easier by having the right debugging tools,
+Debugging this issue was made a lot easier by having the right debugging tools,
 and this case shows that spending time on writing the GDB helper function
 ``printbson`` earlier in the year paid off. With this bug fixed, we could
 release a `new patch version`_ of the MongoDB Driver for PHP.
