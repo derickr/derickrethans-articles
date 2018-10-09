@@ -1,4 +1,4 @@
-Using the Right Debugging Tools 
+Using the Right Debugging Tools
 ===============================
 
 .. articleMetaData::
@@ -9,12 +9,12 @@ Using the Right Debugging Tools
 
 A while ago, we updated the MongoDB PHP driver's embedded C library to a new
 version. The C library handles most of the connection management and other low
-level tasks that the PHP driver needs to reliably talk to MongoDB servers,
-especially in a clustered environment where servers might disappear for
-maintenance or failure reasons.
+level tasks that the PHP driver needs to successfully talk to MongoDB
+deployments, especially in replicated environments where servers might
+disappear for maintenance or hardware failures.
 
-After upgrading the library from 1.12 to `1.13`_ we noticed that one of the PHP
-driver's tests was failing::
+After upgrading the C library from 1.12 to `1.13`_ we noticed that one of the
+PHP driver's tests was failing::
 
 	derick@singlemalt:~/dev/php/derickr-mongo-php-driver $ make test TESTS=tests/atlas.phpt
 	…
@@ -42,12 +42,12 @@ That was not good news.
 
 .. _`1.13`: https://github.com/mongodb/mongo-c-driver/releases/tag/1.13.0
 
-This specific test tests whether the PHP driver (through the C driver) can
-connect to a set of different Atlas_ deployments, MongoDB's Database as a
-Service platform. The tests make sure we can talk to an Atlas_ replica set, a
+The ``atlas.phpt`` test tests whether the PHP driver (through the C driver)
+can connect to a set of different deployments of Atlas_, MongoDB's Database as a
+Service platform. The test makes sure we can talk to an Atlas_ replica set, a
 sharded cluster, a `free tier`_ replica set, as well as TLS 1.1 and TLS 1.2
-specific deployments. We don't want these connections to fail, but the test
-was failing when connected to the second provided URI (the sharded cluster).
+specific deployments. The test started failing when connecting to the second
+provided URI (the sharded cluster).
 
 .. _Atlas: https://www.mongodb.com/cloud/atlas
 .. _`free tier`: https://docs.mongodb.com/manual/tutorial/atlas-free-tier-setup/
@@ -117,9 +117,9 @@ Which didn't really say a lot. The next thing to try is then to make a
 		at /home/derick/dev/php/php-src.git/Zend/zend_execute.c:2328
 	…
 
-At first glance, I couldn't really see anything wrong with this back trace,
-and was still puzzled why it would abort. I decided to go for a (lunch time)
-walk and have a look at it again. I always find that these walks are good for
+At first glance, I couldn't really see anything wrong with this backtrace,
+and was still puzzled why it would abort. I decided to go for a lunch time
+walk and have a look at it again. I always find that walks are good for
 clearing my mind.
 
 After the walk, and a cuppa tea, I looked at the backtrace again, and noticed
@@ -137,14 +137,16 @@ vs::
 		at mongo-php-driver/php_phongo.c:810
 
 In frame ``#10`` the ``server_id`` variable is ``1``, whereas in frame ``#4``
-later on, the ``server_id`` variable is ``2``. These should be the same.
-This server ID is a value that is determined by the C driver when doing server
-selection, and refers to a server connection. After this selection, the PHP
-driver passes this value back to the C driver when executing for example a
-query with the ``phongo_execute_query`` function, which calls the C driver's
+later on, the ``server_id`` variable is ``2``. These should have been the same.
+
+The server ID is determined by the C driver when selecting a server to send a
+read or write operation to, and refers to a specific server's connection ID.
+The PHP driver uses this server ID when executing the query through the
+``phongo_execute_query`` function, which calls the C driver's
 ``mongoc_collection_find_with_opts``. The latter accepts as 3rd argument a
-C driver ``bson_t`` type with options to use for a specific query's execution,
-and includes this pre-selected server ID::
+``bson_t`` value with options to use while executing a query. These options
+include the pre-selected server ID, so that the C driver does not attempt to
+reselect a server::
 
 	cursor = mongoc_collection_find_with_opts(collection, query->filter, query->opts,
 		phongo_read_preference_from_zval(zreadPreference TSRMLS_CC));
@@ -162,6 +164,9 @@ The function call uses the options from the query struct ``query->opts``, so I
 used the ``printbson`` helper function to display its contents::
 
 	(gdb) printbson query->opts
+
+Which showed::
+
 	$11 = "!\000\000\000\020serverId\000\002\000\000\000\020serverId\000\001", '\000' <repeats 90 times>
 	INLINE (len=33)
 	{
@@ -172,8 +177,8 @@ used the ``printbson`` helper function to display its contents::
 .. _`GDB helper function`: https://github.com/mongodb/mongo-c-driver/blob/5e76b2244032d1eb9d3610753504fd7cd9ad56ed/.gdbinit
 .. _`pretty-printing BSON`: /gdb-bson.html
 
-There are not supposed to be two conflicting ``serverID`` elements. Unlike
-PHP's arrays, the ``bson_t`` type can have the same key appear multiple times.
+There are not supposed to be two conflicting ``serverId`` elements. Unlike
+PHP's arrays, ``bson_t`` values can have the same key appear multiple times.
 Although the C driver had selected server ID ``1`` for this query, server
 ``2`` was used because it was the first ``serverId`` element in the options
 struct. But why where there two values in the first place?
@@ -203,10 +208,9 @@ If you look at the PHP test, you see the following::
 From this follows that we create the ``Query`` object, assign it to
 ``$query``, and then use the same variable **for each iteration**. Somehow, we
 were not resetting the query options back to default before we used them,
-resulting in a duplicate ``serverID`` field. Once we figured out the problem,
+resulting in a duplicate ``serverId`` field. Once we figured out the problem,
 creating `the fix`_ was easy enough: Make sure we use a clean ``query->opts``
-struct before we pass things on to the ``mongoc_collection_find_with_opts``
-function.
+struct before we pass it to the ``mongoc_collection_find_with_opts`` function.
 
 .. _`the fix`: https://github.com/mongodb/mongo-php-driver/commit/3624e5acfd1d64db5a636880c41f1a88aa480a25#diff-c06c6e1c9374aecabcf544157f9d0c26
 
