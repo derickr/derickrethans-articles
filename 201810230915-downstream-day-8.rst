@@ -1,0 +1,115 @@
+Downstream — Trip 8
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-10-23 09:15 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream06
+
+On the `previous trip`_ I walked from `Bourne End`_ to Staines_. Staines is
+pretty easy to reach by a direct train from London Waterloo. Normally I would
+walk on a Saturday, but this time I walked on a Sunday because the weather on
+Saturday was rubbish, and I don't like walking in the rain.
+
+.. _`previous trip`: /downstream-day-7.html
+.. _`Bourne End`: https://en.wikipedia.org/wiki/Bourne_End,_Buckinghamshire
+.. _Staines: https://en.wikipedia.org/wiki/Staines-upon-Thames
+
+Day 8 — Staines to Teddington Lock
+----------------------------------
+
+.. vimeo::
+   :ID: 292769954
+   :Width: 800
+   :Height: 450
+   :Title: Downstream — Day 8
+
+Luckily, the weather had all cleared up on Sunday, and I started in Staines on
+another beautiful morning. It was cold when I left home in the morning, and I
+had actually brought a coat. Instead of the coat, I should have brought my
+sunglasses, as the Sun warmed me up quickly. The coat went not soon after I
+set of walking in earnest, as I was getting sweaty.
+
+It was quite quiet in Staines, with only few people walking their dogs,
+running, and cycling. There were a lot of posh houses along the Thames on this
+stretch.
+
+After walking past a new built house called "Downstream" (coincidence?) I
+arrived at a point where I could either take a detour along the XXX
+navigation, or take the ferry to the other bank of the Thames and continue my
+journey there. The `Nauticalia Ferry`_ from Shepperton_ to Weybridge_ goes
+once every 15 minutes, and has been in operation for about 500 years, with a
+short break in the eighties. The choice was easy, and after buying my £2.50
+ticket I didn't have to wait long for it to set off and ferry me, and a couple
+with a dog, across.
+
+.. _`Nauticalia Ferry`:
+.. _Shepperton:
+.. _Weybridge:
+
+Just before I arrived in `Walton-on-Thames`_ I "ran into" a bunch of people
+running a marathon. There was even a sign congratulating a runner with their
+100th marathon. I think I'll stick to walking…
+
+.. _`Walton-on-Thames`:
+
+For lunch I stopped at `The Swan`_ in Walton, and sat in its garden to enjoy
+my fish and chips, and a half. It was still a little early and I spend a
+little too much time relaxing and sitting in the Sun.
+
+.. _`The Swan`:
+
+A little further the Thames passes close along a few massive reservoirs, which
+feed into the water supply of Greater London. Slightly annoyingly, their
+border is a massive stone wall — and I even had to cross some tank barriers.
+
+There was another tiny ferry at Hampton, which I ignored. Instead I crossed
+the Thames near `Hampton Court Palace`_, where I walked into the forecourt to
+smooch and take some photos. I visited the palace with my parents a few years
+ago, but it is so massive that you really need a full day to visit it all. I
+certainly didn't have the time for that, and continued along the Thames Path.
+Between Hampton Court Palace and Kingston, there is a quite wide path/walking
+area, `The Barge Walk`_, with at the beginning lots of flower banks.
+
+.. _`Hampton Court Palace`:
+.. _`The Barge Walk`:
+
+At `Kingston-upon-Thames`_ I crossed the Thames for the last time on today's
+walk. I continued through `Canberry Gardens`_ and a little section along a
+raised road. Just after coming back onto a footpath my way was blocked by a
+massive blown-over tree. There was no way to climb over it, so I made my way
+up the steep bank towards the road, move 20 meters downstream, and then slide
+back onto the footpath. I think the tree recently blew over, as its brilliant
+yellow leaves hadn't fallen off yet.
+
+.. _`Kingston-upon-Thames`:
+.. _`Canberry Gardens`:
+
+I finished my walk at `Teddington Lock`_, but not after wandering around the
+lock's island for a while. There are three lock gates at Teddington_, instead
+of the usual one (or two) lock gates. I also always thought that Teddington
+Lock was the last (or first) lock on the Thames, but I failed to realise that
+there is one further downstream at Richmond as well. However, the one at
+Teddington is the last *full* lock. Beyond Teddington Lock the river Thames is
+tidal, and the lock at Richmond only operates on low tide—more about that in
+the next instalment.
+
+.. _`Teddington Lock`:
+.. _Teddington:
+
+After wandering around the lock, I crossed a few bridges, and made my way to
+Teddington station for my train back into Waterloo. Curiously, as Teddington
+is situated on the `Kingston Loop Line`__, you can catch the train to Waterloo
+from either of its two platforms.
+
+.. _`Kingston Loop Line`:
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_. You can also see all the photos on a map_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/30630762578/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
+.. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM

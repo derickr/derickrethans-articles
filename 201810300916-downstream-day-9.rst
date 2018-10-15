@@ -1,0 +1,138 @@
+Downstream — Trip 9
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-10-30 09:17 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream07
+
+On the `previous trip`_ I walked from to Staines_ to `Teddington Lock`_.
+The start of the walk was easy to reach by a direct train from Waterloo, but
+it does involve a 1 km walk in Teddington. But please do make sure you get out
+at the right side of the station, otherwise that walk is 2 km ☺.
+
+.. _`previous trip`: /downstream-day-9.html
+.. _Staines: https://en.wikipedia.org/wiki/Staines-upon-Thames
+.. _`Teddington Lock`:
+
+Day 8 — Teddington Lock to the Golden Jubilee Bridges
+-----------------------------------------------------
+
+.. vimeo::
+   :ID: 292769954
+   :Width: 800
+   :Height: 450
+   :Title: Downstream — Day 9
+
+I didn't spend a lot of time at `Teddington Lock`_, as I had done so a week
+earlier. I did notice a few signs saying "Caution! Tidal" as a reminder that
+the Thames downstream from Teddington Lock is tidal. At the moment it was low
+tide, although at Teddington that is still a little hard to see due to the
+presence of Richmond Lock. At Teddington Lock you can chose whether the follow
+the North or South Bank to the Thames Barrier. As I know that the North Bank's
+path has a lot of barriers and diversions, especially further East in the
+City_, I chose to walk the Thames Path along the South Bank.
+
+On most of today's walk I was accompanied with rowers on the Thames—for
+practice, teaching, and races. There must be a rowing club every other
+kilometre or so. On the way into Richmond the XXX_ looming above the town.
+
+.. _XXY:
+
+Just beyond Richmond the Thames path passes along the `Old Deer Park`_,
+where I encountered a `Meridian Line`_. Before Greenwich_ became the Prime
+Meridian in 1884, the line at Richmond, which passes through the `King's
+Observatory`_ fulfilled this role for a few centuries.
+
+.. _`Old Deer Park`:
+.. _`Meridian Line`:
+.. _Greenwich:
+.. _`King's Observatory`:
+
+Not far from the first Meridian Line is `Richmond Lock and Weir`_. This is the
+last lock on the Thames, but it is not a full lock. The lock is accompanied by
+sluice gates which are open when the tide is at it highest—around two hours on
+either side of the high tide mark. During that time boats can bypass the lock
+gates. When the sluice gates are closed, boats have to use the lock to make
+their way downstream or upstream. When I walked by, the Thames was nearly at
+its lowest point, and hence, the sluice gates were closed. I didn't see any
+boats wanting to go through the lock either though.
+
+Beyond the Old Deer Park, the Thames Path passes between the Thames and the
+Botanical Gardens at Kew. You can unfortunately not see much of it, due the
+dense vegetation and a wall. You can only really get a glimpse of `Kew
+Palace`_. `Kew Gardens`_, as the gardens are also called, is well worth
+visiting—especially in Spring.
+
+.. _`Kew Gardens`:
+.. _`Kew Palace`:
+
+Now that I passed the last lock at Richmond, there are no further more locks
+all the way to the North Sea, however, there are plenty of bridges that cross
+the Thames, both for car, and rail and tube traffic. It became very clear that
+it was low tide, as there were vast areas of the bottom visible, with plenty
+of people trying to hunt for treasures.
+
+I had lunch in Putney, at `The Duke's Head`_, where I also had a local brew_
+from nearby Wimbledon brewery. I did pass by the `Stag Brewery`_ as well, but
+that only makes Budweiser, or so their sign says.
+
+.. _`The Duke's Head`:
+.. _brew:
+
+After lunch the small deviations from the Thames Part started, as there is a
+lot of new building works going on in Wandsworth and Battersea. The path
+wasn't always signed very well, or the signs were outdated due to either new
+developments, or completed ones with the redirections still in place. Only at
+the former `Battersea Power Station`_ the deviation was a little annoying, as
+it included going along a busy road.
+
+.. _`Battersea Power Station`:
+
+After going around the `MI6 building`_, I was back on familiar territory. I
+have walked along the Thames East from `Lambeth Bridge`_ to `Tower Bridge`_
+many times. This is also the section that becomes really busy on nice warm
+autumn days, so my progress was slowed down a little.
+
+.. _`MI6 building`:
+.. _`Lambeth Bridge`:
+.. _`Tower Bridge`:
+
+A few more bridges later, the Sun started to come closer to setting. I always
+like this moment in a day, as the light becomes extra yellow, which makes in
+my opinion for much better photos. You also get to catch the Sun's rays on
+buildings, such as `Lambeth Palace`_.
+
+.. _`Lambeth Palace`:
+
+Across the river from Lambeth Palace is the `Palace of Westminster`_, where
+the UK's parliament sits. One of the towers is the `Elizabeth Tower`_, which
+also hosts the `Big Ben`_ bell. The latter is currently out of action and
+wrapped in scaffolding, as the bell and its tower are being refurbished.
+
+.. _`Palace of Westminster`:
+.. _`Elizabeth Tower`:
+.. _`Big Ben`:
+
+I finished my walk just beyond the `London Eye`_ at the `Golden Jubilee
+Bridges`_. From there on it was a short walk to Waterloo station where I took
+the tube home. It took however nearly an hour from the bridge to the station,
+but that was only because I sat down at the `Waterloo Tap`_ for a restorative
+beverage_.
+
+.. _`London Eye`:
+.. _`Golden Jubilee Bridges`:
+.. _`Waterloo Tap`:
+.. _beverage:
+
+Only one more walk to go!
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_. You can also see all the photos on a map_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/30630762578/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
+.. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM
