@@ -28,8 +28,8 @@ Day 1 — Source to Cricklade
 
 .. vimeo::
    :ID: 277856497
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 1
 
 The first day started by getting the train to Kemble, which is about a mile
@@ -91,8 +91,8 @@ Day 2 — Cricklade to Newbridge
 
 .. vimeo::
    :ID: 281056671
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 2
 
 I got up really early (7:30am!!) to have breakfast and to head out as early as
@@ -142,8 +142,8 @@ Day 3 — Newbridge to Oxford
 
 .. vimeo::
    :ID: 281057896
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 3
 
 After a good night's rest I left rather early again. Not quite because I had a

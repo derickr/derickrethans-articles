@@ -17,8 +17,8 @@ documentary, "Downstream", of which the first episode is here:
 
 .. vimeo::
    :ID: 277856497
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 1
 
 It's my first ever attempt at doing something like this, and hence, **very**

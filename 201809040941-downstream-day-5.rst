@@ -20,8 +20,8 @@ Day 5 — Shillingford to Reading
 
 .. vimeo::
    :ID: 287977089
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 5
 
 Setting off from Shillingford I quickly came upon the river Thames again,

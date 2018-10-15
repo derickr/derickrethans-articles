@@ -20,8 +20,8 @@ Day 6 — Reading to Bourne End
 
 .. vimeo::
    :ID: 291354956
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 6
 
 With the `Reading Festival`_ over, there was little to see of hoardings and

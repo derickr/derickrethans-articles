@@ -21,8 +21,8 @@ Day 7 — Bourne End to Staines
 
 .. vimeo::
    :ID: 292769954
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 7
 
 I set off from Bourne End (without going to the lovely craft beer place)

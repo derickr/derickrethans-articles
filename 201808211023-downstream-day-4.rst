@@ -23,8 +23,8 @@ Day 4 — Oxford to Shillingford
 
 .. vimeo::
    :ID: 285158224
-   :Width: 599
-   :Height: 337
+   :Width: 800
+   :Height: 450
    :Title: Downstream — Day 4
 
 It was fairly windy, and a little chilly when I left Oxford along the river.
