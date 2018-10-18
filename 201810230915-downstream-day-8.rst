@@ -36,29 +36,31 @@ running, and cycling. There were a lot of posh houses along the Thames on this
 stretch.
 
 After walking past a new built house called "Downstream" (coincidence?) I
-arrived at a point where I could either take a detour along the XXX
-navigation, or take the ferry to the other bank of the Thames and continue my
-journey there. The `Nauticalia Ferry`_ from Shepperton_ to Weybridge_ goes
+arrived at a point where I could either take a detour along the `River Wey`_
+Navigation, or take the ferry to the other bank of the Thames and continue my
+journey there. The Nauticalia_ Ferry_ from Shepperton_ to Weybridge_ goes
 once every 15 minutes, and has been in operation for about 500 years, with a
 short break in the eighties. The choice was easy, and after buying my £2.50
 ticket I didn't have to wait long for it to set off and ferry me, and a couple
 with a dog, across.
 
-.. _`Nauticalia Ferry`:
-.. _Shepperton:
-.. _Weybridge:
+.. _`River Wey`: https://en.wikipedia.org/wiki/River_Wey
+.. _Nauticalia: http://www.nauticalia-marine-services.co.uk/shepperton-weybridge-pedestrian-ferry/
+.. _Ferry: https://en.wikipedia.org/wiki/Shepperton_to_Weybridge_Ferry
+.. _Shepperton: https://en.wikipedia.org/wiki/Shepperton
+.. _Weybridge: https://en.wikipedia.org/wiki/Weybridge
 
 Just before I arrived in `Walton-on-Thames`_ I "ran into" a bunch of people
 running a marathon. There was even a sign congratulating a runner with their
 100th marathon. I think I'll stick to walking…
 
-.. _`Walton-on-Thames`:
+.. _`Walton-on-Thames`: https://en.wikipedia.org/wiki/Walton-on-Thames
 
 For lunch I stopped at `The Swan`_ in Walton, and sat in its garden to enjoy
 my fish and chips, and a half. It was still a little early and I spend a
 little too much time relaxing and sitting in the Sun.
 
-.. _`The Swan`:
+.. _`The Swan`: http://www.swanwalton.com/
 
 A little further the Thames passes close along a few massive reservoirs, which
 feed into the water supply of Greater London. Slightly annoyingly, their
@@ -72,10 +74,10 @@ certainly didn't have the time for that, and continued along the Thames Path.
 Between Hampton Court Palace and Kingston, there is a quite wide path/walking
 area, `The Barge Walk`_, with at the beginning lots of flower banks.
 
-.. _`Hampton Court Palace`:
-.. _`The Barge Walk`:
+.. _`Hampton Court Palace`: https://en.wikipedia.org/wiki/Hampton_Court_Palace
+.. _`The Barge Walk`: http://www.viewbritain.com/england/kingston/walk-from-kingston-to-hampton-court
 
-At `Kingston-upon-Thames`_ I crossed the Thames for the last time on today's
+At `Kingston upon Thames`_ I crossed the Thames for the last time on today's
 walk. I continued through `Canberry Gardens`_ and a little section along a
 raised road. Just after coming back onto a footpath my way was blocked by a
 massive blown-over tree. There was no way to climb over it, so I made my way
@@ -83,8 +85,8 @@ up the steep bank towards the road, move 20 meters downstream, and then slide
 back onto the footpath. I think the tree recently blew over, as its brilliant
 yellow leaves hadn't fallen off yet.
 
-.. _`Kingston-upon-Thames`:
-.. _`Canberry Gardens`:
+.. _`Kingston upon Thames`: https://en.wikipedia.org/wiki/Kingston_upon_Thames
+.. _`Canberry Gardens`: https://en.wikipedia.org/wiki/Canbury_Gardens
 
 I finished my walk at `Teddington Lock`_, but not after wandering around the
 lock's island for a while. There are three lock gates at Teddington_, instead
@@ -95,15 +97,15 @@ Teddington is the last *full* lock. Beyond Teddington Lock the river Thames is
 tidal, and the lock at Richmond only operates on low tide—more about that in
 the next instalment.
 
-.. _`Teddington Lock`:
-.. _Teddington:
+.. _`Teddington Lock`: https://en.wikipedia.org/wiki/Teddington_Lock
+.. _Teddington: https://en.wikipedia.org/wiki/Teddington
 
 After wandering around the lock, I crossed a few bridges, and made my way to
 Teddington station for my train back into Waterloo. Curiously, as Teddington
-is situated on the `Kingston Loop Line`__, you can catch the train to Waterloo
+is situated on the `Kingston Loop Line`_, you can catch the train to Waterloo
 from either of its two platforms.
 
-.. _`Kingston Loop Line`:
+.. _`Kingston Loop Line`: https://en.wikipedia.org/wiki/Kingston_loop_line
 
 ----
 

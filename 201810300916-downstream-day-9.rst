@@ -14,9 +14,9 @@ at the right side of the station, otherwise that walk is 2 km ☺.
 
 .. _`previous trip`: /downstream-day-9.html
 .. _Staines: https://en.wikipedia.org/wiki/Staines-upon-Thames
-.. _`Teddington Lock`:
+.. _`Teddington Lock`: https://en.wikipedia.org/wiki/Teddington_Lock
 
-Day 8 — Teddington Lock to the Golden Jubilee Bridges
+Day 9 — Teddington Lock to the Golden Jubilee Bridges
 -----------------------------------------------------
 
 .. vimeo::
@@ -36,21 +36,23 @@ City_, I chose to walk the Thames Path along the South Bank.
 
 On most of today's walk I was accompanied with rowers on the Thames—for
 practice, teaching, and races. There must be a rowing club every other
-kilometre or so. On the way into Richmond the XXX_ looming above the town.
+kilometre or so. On the way into Richmond the `Petersham Hotel`_ looming above
+the town.
 
-.. _XXY:
+.. _City: https://en.wikipedia.org/wiki/City_of_London
+.. _`Petersham Hotel`: https://petershamhotel.co.uk/
 
 Just beyond Richmond the Thames path passes along the `Old Deer Park`_,
 where I encountered a `Meridian Line`_. Before Greenwich_ became the Prime
 Meridian in 1884, the line at Richmond, which passes through the `King's
 Observatory`_ fulfilled this role for a few centuries.
 
-.. _`Old Deer Park`:
-.. _`Meridian Line`:
-.. _Greenwich:
-.. _`King's Observatory`:
+.. _`Old Deer Park`: https://en.wikipedia.org/wiki/Old_Deer_Park
+.. _`Meridian Line`: https://andrewgough.co.uk/articles_richmond/
+.. _Greenwich: https://en.wikipedia.org/wiki/Greenwich
+.. _`King's Observatory`: https://www.kingsobservatory.co.uk/
 
-Not far from the first Meridian Line is `Richmond Lock and Weir`_. This is the
+Not far from the first Meridian Line is `Richmond Lock and Footbridge`_. This is the
 last lock on the Thames, but it is not a full lock. The lock is accompanied by
 sluice gates which are open when the tide is at it highest—around two hours on
 either side of the high tide mark. During that time boats can bypass the lock
@@ -59,14 +61,16 @@ their way downstream or upstream. When I walked by, the Thames was nearly at
 its lowest point, and hence, the sluice gates were closed. I didn't see any
 boats wanting to go through the lock either though.
 
-Beyond the Old Deer Park, the Thames Path passes between the Thames and the
-Botanical Gardens at Kew. You can unfortunately not see much of it, due the
-dense vegetation and a wall. You can only really get a glimpse of `Kew
-Palace`_. `Kew Gardens`_, as the gardens are also called, is well worth
-visiting—especially in Spring.
+.. _`Richmond Lock and Footbridge`: https://en.wikipedia.org/wiki/Richmond_Lock_and_Footbridge
 
-.. _`Kew Gardens`:
-.. _`Kew Palace`:
+Beyond the Old Deer Park, the Thames Path passes between the Thames and Kew
+Gardens. You can unfortunately not see much of it, due the
+dense vegetation and a wall. You can only really get a glimpse of `Kew
+Palace`_. `Royal Botanic Gardens, Kew`_, as the gardens are also called, is
+well worth visiting—especially in Spring.
+
+.. _`Royal Botanic Gardens, Kew`: https://en.wikipedia.org/wiki/Royal_Botanic_Gardens,_Kew
+.. _`Kew Palace`: https://en.wikipedia.org/wiki/Kew_Palace
 
 Now that I passed the last lock at Richmond, there are no further more locks
 all the way to the North Sea, however, there are plenty of bridges that cross
@@ -78,8 +82,9 @@ I had lunch in Putney, at `The Duke's Head`_, where I also had a local brew_
 from nearby Wimbledon brewery. I did pass by the `Stag Brewery`_ as well, but
 that only makes Budweiser, or so their sign says.
 
-.. _`The Duke's Head`:
-.. _brew:
+.. _`The Duke's Head`: https://www.dukesheadputney.com/
+.. _brew: https://untappd.com/user/derickr/checkin/663129800
+.. _`Stag Brewery`: https://en.wikipedia.org/wiki/Mortlake#Stag_Brewery_or_Mortlake_Brewery
 
 After lunch the small deviations from the Thames Part started, as there is a
 lot of new building works going on in Wandsworth and Battersea. The path
@@ -88,32 +93,32 @@ developments, or completed ones with the redirections still in place. Only at
 the former `Battersea Power Station`_ the deviation was a little annoying, as
 it included going along a busy road.
 
-.. _`Battersea Power Station`:
+.. _`Battersea Power Station`: https://en.wikipedia.org/wiki/Battersea_Power_Station
 
-After going around the `MI6 building`_, I was back on familiar territory. I
+After going around the `SIS building`_, I was back on familiar territory. I
 have walked along the Thames East from `Lambeth Bridge`_ to `Tower Bridge`_
 many times. This is also the section that becomes really busy on nice warm
 autumn days, so my progress was slowed down a little.
 
-.. _`MI6 building`:
-.. _`Lambeth Bridge`:
-.. _`Tower Bridge`:
+.. _`SIS building`: https://en.wikipedia.org/wiki/SIS_Building
+.. _`Lambeth Bridge`: https://en.wikipedia.org/wiki/Lambeth_Bridge
+.. _`Tower Bridge`: https://en.wikipedia.org/wiki/Tower_Bridge
 
 A few more bridges later, the Sun started to come closer to setting. I always
 like this moment in a day, as the light becomes extra yellow, which makes in
 my opinion for much better photos. You also get to catch the Sun's rays on
 buildings, such as `Lambeth Palace`_.
 
-.. _`Lambeth Palace`:
+.. _`Lambeth Palace`: https://en.wikipedia.org/wiki/Lambeth_Palace
 
 Across the river from Lambeth Palace is the `Palace of Westminster`_, where
 the UK's parliament sits. One of the towers is the `Elizabeth Tower`_, which
 also hosts the `Big Ben`_ bell. The latter is currently out of action and
 wrapped in scaffolding, as the bell and its tower are being refurbished.
 
-.. _`Palace of Westminster`:
-.. _`Elizabeth Tower`:
-.. _`Big Ben`:
+.. _`Palace of Westminster`: https://en.wikipedia.org/wiki/Palace_of_Westminster
+.. _`Elizabeth Tower`: https://en.wikipedia.org/wiki/Big_Ben
+.. _`Big Ben`: https://en.wikipedia.org/wiki/Big_Ben
 
 I finished my walk just beyond the `London Eye`_ at the `Golden Jubilee
 Bridges`_. From there on it was a short walk to Waterloo station where I took
@@ -121,10 +126,10 @@ the tube home. It took however nearly an hour from the bridge to the station,
 but that was only because I sat down at the `Waterloo Tap`_ for a restorative
 beverage_.
 
-.. _`London Eye`:
-.. _`Golden Jubilee Bridges`:
-.. _`Waterloo Tap`:
-.. _beverage:
+.. _`London Eye`: https://en.wikipedia.org/wiki/London_Eye
+.. _`Golden Jubilee Bridges`: https://en.wikipedia.org/wiki/Hungerford_Bridge_and_Golden_Jubilee_Bridges
+.. _`Waterloo Tap`: https://www.waterlootap.com/
+.. _beverage: https://untappd.com/user/derickr/checkin/663225909
 
 Only one more walk to go!
 
