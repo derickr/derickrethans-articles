@@ -20,7 +20,7 @@ Day 8 — Staines to Teddington Lock
 ----------------------------------
 
 .. vimeo::
-   :ID: 292769954
+   :ID: 296485452
    :Width: 800
    :Height: 450
    :Title: Downstream — Day 8
@@ -112,6 +112,6 @@ from either of its two platforms.
 Photos from my Adventure on the Thames Path are available on Flickr_, and all
 videos on Vimeo_. You can also see all the photos on a map_.
 
-.. _Flickr: https://www.flickr.com/photos/derickrethans/30630762578/in/album-72157668662396357/
+.. _Flickr: https://www.flickr.com/photos/derickrethans/45449628932/in/album-72157668662396357/
 .. _Vimeo: https://vimeo.com/manage/albums/5306548
 .. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM
