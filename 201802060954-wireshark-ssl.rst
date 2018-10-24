@@ -68,8 +68,8 @@ library that hooks into OpenSSL symbols to read the data for you, and store
 them in a file with a format that Wireshark understands. You can find the
 source code for the library here_. 
 
-.. _GDB: https://git.lekensteyn.nl/peter/wireshark-notes/tree/src/sslkeylog.py
-.. _here: https://git.lekensteyn.nl/peter/wireshark-notes/tree/src/sslkeylog.c
+.. _GDB: https://git.lekensteyn.nl/peter/wireshark-notes/plain/src/sslkeylog.py
+.. _here: https://git.lekensteyn.nl/peter/wireshark-notes/plain/src/sslkeylog.c
 
 Once you've obtained the source code, you can compile it with::
 
