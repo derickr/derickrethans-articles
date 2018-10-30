@@ -12,7 +12,7 @@ The start of the walk was easy to reach by a direct train from Waterloo, but
 it does involve a 1 km walk in Teddington. But please do make sure you get out
 at the right side of the station, otherwise that walk is 2 km ☺.
 
-.. _`previous trip`: /downstream-day-9.html
+.. _`previous trip`: /downstream-day-8.html
 .. _Staines: https://en.wikipedia.org/wiki/Staines-upon-Thames
 .. _`Teddington Lock`: https://en.wikipedia.org/wiki/Teddington_Lock
 
@@ -20,7 +20,7 @@ Day 9 — Teddington Lock to the Golden Jubilee Bridges
 -----------------------------------------------------
 
 .. vimeo::
-   :ID: 296485452
+   :ID: 297811015
    :Width: 800
    :Height: 450
    :Title: Downstream — Day 9
