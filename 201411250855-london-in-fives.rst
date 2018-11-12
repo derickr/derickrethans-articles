@@ -16,8 +16,8 @@ But first, let's have a look at the video itself:
 .. vimeo::
    :ID: 112413380
    :Title: London in Fives
-   :Width: 640
-   :Height: 360
+   :Width: 800
+   :Height: 450
 
 There are 25 scenes in this video, each taking 5 seconds. Because the
 frame rate is 25 fps, that means there are 125 frames per scene. All those

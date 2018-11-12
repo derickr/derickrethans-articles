@@ -1,0 +1,114 @@
+Downstream — Trip 8
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-11-13 09:12 Europe/London
+   :Tags: blog, downstream
+   :Short: downstream08
+
+On the `previous trip`_ I walked from `Teddington Lock`_ to the `Golden
+Jubilee Bridges`_. On this walk, I am finishing the series by going to the
+`Thames Barrier`_. Getting to the start this time was easy peasy, with just a
+Tube ride down to Embankment_.
+
+.. _`previous trip`: /downstream-day-9.html
+.. _`Teddington Lock`: https://en.wikipedia.org/wiki/Teddington_Lock
+.. _`Golden Jubilee Bridges`: https://en.wikipedia.org/wiki/Hungerford_Bridge_and_Golden_Jubilee_Bridges
+.. _`Thames Barrier`: https://en.wikipedia.org/wiki/Thames_Barrier
+.. _Embankment: https://en.wikipedia.org/wiki/Embankment_tube_station
+
+Day 10 — Golden Jubilee Bridges to Thames Barrier
+-------------------------------------------------
+
+.. vimeo::
+   :ID: 300144845
+   :Width: 800
+   :Height: 450
+   :Title: Downstream — Day 10
+
+When I exited Embankment station, the rain had just stopped, and it felt very
+cold. The weather forecast indicated that it would get sunny, but I was very
+sceptical. I crossed the Golden Jubilee Bridges slowly, taking my time taking
+some photos and video of the `London Eye`_. I considered taking a timelapse,
+but realised I had done so earlier for `London in Fives`_, when the weather
+was much better.
+
+.. _`London Eye`: https://en.wikipedia.org/wiki/London_Eye
+.. _`London in Fives`: /london-in-fives.html
+
+The moment I made it to the south bank of the Thames_, the Sun came out, and I
+was happy that I had brought my sun glasses. Not only was the Sun low, it also
+reflected a lot on the puddles on the ground.
+
+.. _Thames: https://en.wikipedia.org/wiki/Thames
+
+This part of the Thames and Thames Part are right in the middle of London, and
+hence usually very busy with both commuters and tourists. Once the Sun came
+out, it therefore quickly became slow going, with lots of people going around
+the puddles in zigzaggy fashion. 
+
+The tide was out, which meant that there were quite a few people out on the
+river bed as well, to seek fortunes. There are still many bridges here, and
+definitely many landmarks and tourist attractions.
+
+The best known is probably the `Tower of London`_ and `Tower Bridge`_. The
+Victorian Tower Bridge (1894) is significantly younger than the Norman Tower
+(1078), which was built by the Normans after they invaded in 1066.
+The contrast behind the older Tower and Tower Bridge and the tall buildings of
+`The City`_ and `City Hall`_ is much starker still.
+
+.. _`Tower of London`: https://en.wikipedia.org/wiki/Tower_of_London
+.. _`Tower Bridge`: https://en.wikipedia.org/wiki/Tower_Bridge
+.. _`The City`: https://en.wikipedia.org/wiki/City_of_London
+.. _`City Hall`: https://en.wikipedia.org/wiki/City_Hall,_London
+
+Beyond Tower Bridge, and the big yacht Kismet_, the Thames Path becomes its
+quiet self again, with people going about their weekend morning business. The
+walk was now a lot more pleasant as I didn't have to dodge around people all
+the time. With the tide so low, many of the former docks now showed their
+`muddy bottom`_, which made for some great photos.
+
+.. _Kismet: https://en.wikipedia.org/wiki/Kismet_(yacht)
+.. _`muddy bottom`: https://www.flickr.com/photos/derickrethans/44881540394/in/datetaken/
+
+After coming around the corner at Rotherhithe, the Thames Path loops nearly
+270° degrees around The City, where dark clouds and rainbows loomed over on
+the North bank of the Thames, all the way to Greenwich. At Greenwich, the path
+goes along the `Cutty Sark`_, a 19th century tea clipper which is now a
+museum. After crossing the square at the former Royal Naval College, the
+scenery turns quickly from "lovely residential area" into "industrial", which
+persists nearly all the way to the `Thames Barrier`_.
+
+Some interesting landmarks are the `Millennium Dome`_. You can now walk across
+the roof, which is precisely what some people were doing when I came past. The
+`Emirates Air Line`_ flew high overhead between the two banks of the Thames as
+I was making my way further downstream.
+
+After just over 300 kilometres of walking in 56 hours, while burning 25 000
+calories, I then made it to the `Thames Barrier`_, London's flood defence
+barrier. The barrier marks the end of the official Thames Path, although it is
+possible to extend it to the river Darent_, where it then connects to the
+`London LOOP`_ that I walked_ a few years ago.
+
+.. _`Cutty Sark`: https://en.wikipedia.org/wiki/Cutty_Sark
+.. _`Millennium Dome`: https://en.wikipedia.org/wiki/Millennium_Dome
+.. _`Emirates Air Line`: https://en.wikipedia.org/wiki/Emirates_Air_Line_(cable_car)
+.. _Darent: https://en.wikipedia.org/wiki/River_Darent
+.. _`London LOOP`: https://tfl.gov.uk/modes/walking/loop-walk
+.. _walked: https://derickrethans.nl/feed-theloop.xml
+
+With the Thames Path done, it's time to look for the next adventure—I've my
+eyes on `Hadrians Wall`_ ;-).
+
+.. _`Thames Path`: https://www.nationaltrail.co.uk/thames-path
+.. _`Hadrians Wall`: https://www.nationaltrail.co.uk/hadrians-wall-path
+
+----
+
+Photos from my Adventure on the Thames Path are available on Flickr_, and all
+videos on Vimeo_. You can also see all the photos on a map_.
+
+.. _Flickr: https://www.flickr.com/photos/derickrethans/30630762578/in/album-72157668662396357/
+.. _Vimeo: https://vimeo.com/manage/albums/5306548
+.. _map: https://maps.derickrethans.nl/?l=flickr&lat=51.6&lon=-1&zoom=10#fs=DOWNSTREAM
