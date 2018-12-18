@@ -1,0 +1,92 @@
+Missing Breakpoints
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2018-12-19 09:43 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: brk
+
+Occasionally I see people mentioned that Xdebug does not stop at certain
+breakpoints. This tends to relate to multi-line if conditions, or if/else
+conditions without braces (``{`` and ``}``). Take for example the following
+artificial code sample::
+
+	 1 <?php
+	 2 $a = true;
+	 3 $b = true;
+	 4 $c = true;
+	 5 $d = false;
+	 6 
+	 7 if (
+	 8   $a
+	 9   && $b
+	10   && ( $c || $d )
+	11   )
+	12 {
+	13   echo "It's true!";
+	14 }
+
+If you set a breakpoint at either line 7, 11, or 12, you'll find that these
+are ignored. But why is that?
+
+In order to investigate we employ vld_, a tool that I wrote that can show
+PHP's internal bytecode (oparrays containing opcodes). They read very much
+like assembly code. For the above snippet, the vld dump looks as follows
+(after redacting useless information)::
+
+    function name:  (null)
+    number of ops:  19
+    compiled vars:  !0 = $a, !1 = $b, !2 = $c, !3 = $d
+    line     #* E I O op             return  operands
+    ---------------------------------------------------
+       2     0  E >   EXT_STMT               
+             1        ASSIGN                 !0, <true>
+       3     2        EXT_STMT               
+             3        ASSIGN                 !1, <true>
+       4     4        EXT_STMT               
+             5        ASSIGN                 !2, <true>
+       5     6        EXT_STMT               
+             7        ASSIGN                 !3, <false>
+       8     8        EXT_STMT               
+             9      > JMPZ_EX        ~8      !0, ->11
+       9    10    >   BOOL           ~8      !1
+            11    > > JMPZ_EX        ~8      ~8, ->15
+      10    12    > > JMPNZ_EX       ~9      !2, ->14
+            13    >   BOOL           ~9      !3
+            14    >   BOOL           ~8      ~9
+            15    > > JMPZ                   ~8, ->18
+      13    16    >   EXT_STMT               
+            17        ECHO                   'It%27s+true%21'
+      15    18    > > RETURN                 1
+
+.. _vld: https://github.com/derickr/vld
+
+The first column is the line number that PHP associates with each opcode, and
+you can see that there is no opcode for lines 7, 11, and 12. *Additionally*,
+Xdebug can only break on the ``EXT_STMT`` opcode, which you can see is only
+present for lines 8 and 13 in the logic section of the script. If a breakpoint
+is set on a line **without** an ``EXT_STMT`` opcode, Xdebug will not be able
+to interrupt the script on that line.
+
+Sometimes it can be confusing where PHP *thinks* there is a line of code,
+especially since OPcache starts optimising more and more things out. In our
+example, it could really only leave line 13 around, as the rest is static. It
+doesn't quite do that yet however.
+
+It is certainly frustrating that Xdebug cannot always stop where you want it
+to, but IDEs do have a possibility to interrogate where Xdebug could stop
+through a private DBGp_ command xcmd_get_executable_lines_. This can only be
+done when the script, or rather, a specific function is already running.
+
+.. _DBGp: https://xdebug.org/docs-dbgp.php
+.. _xcmd_get_executable_lines: https://xdebug.org/docs/remote#xcmd_get_executable_lines
+
+The DBGp protocol has provisions for signalling_ to IDEs whether it has
+resolved a breakpoint when a function gets entered into. Xdebug does currently
+not implement this functionality yet, but a ticket_ for it is scheduled for
+implementation (likely for Xdebug 3.0).
+
+.. _signalling: https://github.com/derickr/dbgp/commit/bae359990c81ac548b3462b30ae291e5638921a7
+.. _resolved: https://github.com/derickr/dbgp/commit/58767c6b12051eb357ba734db5c933d269790661
+.. _ticket: https://bugs.xdebug.org/view.php?id=1389
