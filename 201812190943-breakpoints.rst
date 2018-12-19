@@ -1,5 +1,5 @@
-Missing Breakpoints
-===================
+The Mystery of the Missing Breakpoints
+======================================
 
 .. articleMetaData::
    :Where: London, UK
