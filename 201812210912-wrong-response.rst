@@ -65,7 +65,7 @@ following invocation::
 
 The ``-f`` makes strace follow forked processes, the ``-e trace=network``
 shows the system calls of all network related operations, the ``-s 10000``
-makes sure we see 10,000 bytes of data in strings, and the ``22506`` value for
+makes sure we see 10 000 bytes of data in strings, and the ``22506`` value for
 the ``-p`` argument is the process ID.
 
 On the zSeries platform, the strace dump looks like the following. The first
