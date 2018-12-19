@@ -10,7 +10,7 @@ The Confused C-Driver
 Over the past few months I have been adding the MongoDB_ driver for PHP to
 Evergreen_, MongoDB's CI system. Although we already test on Travis_ and
 AppVeyor_, adding the driver to Evergreen_ also allows us to test on more
-esoteric platforms, such as ARM64_, Power8_ and zSeries_.
+esoteric platforms, such as ARM64_, Power8_, and zSeries_.
 
 .. _MongoDB: https://www.mongodb.com/
 .. _Evergreen: https://github.com/evergreen-ci/evergreen
@@ -22,30 +22,30 @@ esoteric platforms, such as ARM64_, Power8_ and zSeries_.
 
 While adding the zSeries architecture to our test matrix, we noticed that one
 specific group of tests was failing_. In these tests we would do an insert
-with ``WriteConcern = 0`` followed by an insert with ``WriteConcern = 1``.
+with a write concern of ``{w: 0}`` followed by an insert with ``{w: 1}``.
 
 .. _failing: https://evergreen.mongodb.com/task_log_raw/mongo_php_driver_tests_php7__versions~4.0_php_versions~7.0_os_php7~rhel74_zseries_test_replicaset_auth_cdec9691b67f57a76f079981b960dbd257832b74_18_12_14_14_41_39/0?type=T#L1560
 
-A WriteConcern_ is used to enforce specific guarantees on how many MongoDB
-servers a write needs to be replicated to, before the server signals to the
-client that the write has been acknowledged. A WriteConcern of ``0`` means
+A `write concern`_ is used to enforce specific guarantees on how many MongoDB
+servers a write needs to be replicated to, before the primary responds to the
+client that the write has been acknowledged. A write concern of ``{w: 0}`` means
 that the client does not care about the result of the write operation, and
-henceforth does not need a reply from the server. These are also called
-Unacknowledged Writes.
+henceforth does not need a reply from the server. These are also referred to as
+unacknowledged writes.
 
 The test fails in such a way that the result for the second insert (with
-WriteConcern ``1``) seemed empty.
+``{w: 1}``) seemed empty.
 
-.. _WriteConcern: https://docs.mongodb.com/manual/reference/write-concern/#w-option
+.. _write concern: https://docs.mongodb.com/manual/reference/write-concern/#w-option
 
 Figuring out what was going wrong was not particularly easy in this case.
-Single stepping through a lot of connection and socket handling code with a
+Single-stepping through a lot of connection and socket handling code with a
 fairly complicated protocol takes time. After several hours it was still
 unclear what was going wrong.
 
 I tend tried to find out whether the data was sent correctly over the wire. As
 we only have a single shared zSeries development server without a GUI, I could
-not use Wireshark_. And even, I could not use tcpdump_ either, as I didn't
+not use Wireshark_. Moreover, I could not use tcpdump_ either, as I didn't
 have any ``sudo`` rights::
 
 	$ tcpdump -i lo -nnXSs 0 'port 27017'
@@ -65,12 +65,12 @@ following invocation::
 
 The ``-f`` makes strace follow forked processes, the ``-e trace=network``
 shows the system calls of all network related operations, the ``-s 10000``
-makes sure we see 10 000 bytes of data in strings, and the ``22506`` value for
+makes sure we see 10,000 bytes of data in strings, and the ``22506`` value for
 the ``-p`` argument is the process ID.
 
 On the zSeries platform, the strace dump looks like the following. The first
-group is the insert with WriteConcern ``0``, and the second group the insert
-with WriteConcern ``1``::
+group is the insert with ``{w: 0}``, and the second group the insert with
+``{w: 1}}``::
 
 	recvmsg(36, {msg_name(0)=NULL, msg_iov(1)=[{"\252\0\0\0\2\0\0\0\0\0\0\0\335\7\0\0", 16}], msg_controllen=0, msg_flags=0}, 0) = 16
 	recvmsg(36, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\2\0h\0\0\0\2insert\0#\0\0\0server_server_executeBulkWrite_002\0\10ordered\0\1\2$db\0\7\0\0\0phongo\0\3writeConcern\0\f\0\0\0\20w\0\0\0\0\0\0\0\1,\0\0\0documents\0\36\0\0\0\20wc\0\0\0\0\0\7_id\0\\\31\32\27\r\0200G%yF\322\0", 154}], msg_controllen=0, msg_flags=0}, 0) = 154
@@ -107,24 +107,24 @@ difference is that the flagBits (the second line in each ``sendmsg``) is
 ``\2\0\0\0`` for the first insert. This is different in the zSeries trace,
 where the value is ``\0\0\0\2``. 
 
-The latest version of the MongoDB `Wire Protocol`_ uses `OP_MSG`_ for all
+The latest version of the MongoDB `wire protocol`_ uses `OP_MSG`_ for all
 operations, which is a typical request/response API. This means that generally
 every request is expected to generate a reply from the server. For
-Unacknowledged Writes, the client does not need a reply from the server, and
+unacknowledged writes, the client does not need a reply from the server, and
 the way to tell the server that is by setting the moreToCome_ flag in the
 OP_MSG_ packet. It's `bit 1`_ in the 32 bit wide bit field.
 
-.. _`Wire Protocol`: https://docs.mongodb.com/manual/reference/mongodb-wire-protocol/
+.. _`wire protocol`: https://docs.mongodb.com/manual/reference/mongodb-wire-protocol/
 .. _moreToCome: https://github.com/mongodb/specifications/blob/master/source/message/OP_MSG.rst#moretocome-on-requests
 .. _`bit 1`: https://github.com/mongodb/specifications/blob/master/source/message/OP_MSG.rst#flagbits
 
-The Wire Protocol requires the use of the little-Endian_ byte order for
+The wire protocol requires the use of the little-endian_ byte order for
 numbers. libmongoc_, which implements the connection aspects of the PHP
 driver, accomplishes this by running a "swap" in case the driver is run on a
-big-Endian_ system such as zSeries.
+big-endian_ system such as zSeries.
 
-.. _`little-Endian`: https://en.wikipedia.org/wiki/Endianness#Little-endian
-.. _`big-Endian`: https://en.wikipedia.org/wiki/Endianness#Big-endian
+.. _`little-endian`: https://en.wikipedia.org/wiki/Endianness#Little-endian
+.. _`big-endian`: https://en.wikipedia.org/wiki/Endianness#Big-endian
 .. _libmongoc: http://mongoc.org/
 
 It turned out that although this swap happened for all normal integers (such
@@ -135,11 +135,11 @@ a reply (the first ``sendmsg``) in the zSeries dump. Because the driver did
 not expect such a packet, it did not **read** it from the socket either.
 
 This meant that when the driver read information from the socket in response
-to the *second* insert (the one with WriteConcern ``1``) it read the response
-of the *first* insert. And then it got confused.
+to the *second* insert (the one with a write concern of ``{w: 1}``) it read
+the response of the *first* insert. And then it got confused.
 
 In the end, the fix_ was as easy as making sure that the flagBits field was
-also correctly swapped between big- and little-Endian.
+also correctly swapped between big- and little-endian.
 
 .. _fix: https://github.com/mongodb/mongo-c-driver/pull/557
 
