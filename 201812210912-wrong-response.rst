@@ -43,7 +43,7 @@ Single-stepping through a lot of connection and socket handling code with a
 fairly complicated protocol takes time. After several hours it was still
 unclear what was going wrong.
 
-I tend tried to find out whether the data was sent correctly over the wire. As
+I tried to find out whether the data was sent correctly over the wire. As
 we only have a single shared zSeries development server without a GUI, I could
 not use Wireshark_. Moreover, I could not use tcpdump_ either, as I didn't
 have any ``sudo`` rights::
