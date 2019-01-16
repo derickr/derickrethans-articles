@@ -7,8 +7,8 @@ Moving On From MongoDB
    :Tags: blog, php, mongodb
    :Short: bye-mongo
 
-The last seven years, I have worked with, and for MongoDB_. I have seen it grow
-from a small start-up, then called 10Gen, with fewer than a hundred people,
+The last seven years, I have worked with, and for, MongoDB_. I have seen it grow
+from a small start-up, then called 10gen, with fewer than a hundred people,
 into a NASDAQ listed_ company with over a thousand employees. But now, after
 all these years, it's time for me to move on.
 
