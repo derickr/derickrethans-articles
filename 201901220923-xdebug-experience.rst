@@ -74,27 +74,27 @@ although Xdebug's use of port 9000 precedes PHP-FPM's by about five years
 And lastly, (potential) users often cite that it is "hard" to set Xdebug up.
 Although after talking to some of these users, it often becomes clear that the
 problem is not so much on the Xdebug side of things, but rather other tools:
-their IDE, Docker, SELinux_, firewalls, etc. Improving this, can only really
-be done by education (and better error messages).
+their IDE, Docker, SELinux_, firewalls, etc. Improving this is a matter of
+education (and better error messages).
 
 .. _SELinux: https://en.wikipedia.org/wiki/Security-Enhanced_Linux
 
 **Poor Performance**
 
 On the performance side, there are some places with major issues, and some
-others with minor issues. Code coverage isn't particularly very fast, and that
+others with minor issues. Code coverage isn't particularly fast, and that
 needs an in-depth investigation. I have several ideas on where improvements in
 code coverage performance can be made—nonetheless, I would continue to put
 correctness over speed.
 
 Even with Xdebug just loaded and enabled, there is too much of a performance
 impact. This is because Xdebug usually has every feature ready to go, even
-though you're not necessarily want to use all of these different features. For
+though you don't necessarily want to use all of these different features. For
 example, it is ludicrous to use single step debugging with the profiler turned
 on.
 
 Although it's often possible to reduce the impact of feature sets by setting
-configurations options correctly, a better way to put Xdebug in a specific
+configuration options correctly, a better way to put Xdebug in a specific
 mode would be welcome.
 
 What Needs to Be Done?
@@ -112,7 +112,7 @@ completed, in preferably the listed order:
   OPcache optimisation setting conflict).
 - Code needs to be reorganised, as the current location of source files and
   functions is detrimental to improvements.
-- The amount of configuration options needs to be reduced.
+- The number of configuration options needs to be reduced.
 - *Modes* needs to be introduced, so that it is easier to turn off and on
   (internal) code to support different features. This will very likely improve
   general performance already.
