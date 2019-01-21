@@ -125,20 +125,41 @@ completed, in preferably the listed order:
 What is Needed to Get This Done?
 --------------------------------
 
-Time, and a lot of it. Perhaps as much as 6 months. Luckily, I have plenty of
-that, now that `I've left MongoDB`_. But time = money. I appreciate the
-occasional `bottle of whisky`_ and the support of my Patreon_ backers, but
-that is not paying the bills and mortgage at the moment.
+I would love to be able to continue to work on Xdebug; to keep it in sync with
+changes in PHP itself, to implement the ideas from this article to improve the
+Xdebug Experience, and to produce educational material such as improved
+documentation, tutorials, and videos. (Dare I say a book?)
 
-I would love to be able to support myself by continuing to work on Xdebug, to
-keep it in sync with changes in PHP itself, to implement the ideas in this
-article to improve the Xdebug Experience, and to produce educational material.
+Therefore I am currently looking for ways that I can be funded for doing all
+the required work. It will take a lot of time to get Xdebug 3 out in a
+tip-top shape. Possibly, if not more, than 6 months. Although I have plenty of
+time now that `I've left MongoDB`_, the bills and mortgage do need to get paid
+too. I can think of a few options:
 
-I do not want to make Xdebug non-free when an eventual Xdebug 3 comes out, but
-I am looking at whether this is a potential possibility. If you have other
-ideas, I'd be more than happy to hear them (through email_ preferably).
+- Get more users to sign up to my Patreon_ account. There is a group of loyal
+  users and companies that contribute towards the upkeep of the server. But in
+  order to make this sustainable, the patron count need to increase about 30
+  fold. I struggle with setting up rewards to nudge people to support me.
+- A fundraiser (through a crowd funding site) for specific tasks and/or
+  features from the plan.
+- Some functionality that would only be available under a commercial license.
+  One of the ideas here is to add a recording feature that records the full
+  execution of a script, which then later can be replayed back through an
+  interactive single step debugging session in an IDE.
+- Work with IDE manufacturers to implement some of their requested features
+  (such as the before mentioned "resolved breakpoint" notification), and to
+  come up with new features to make the debugging experience better.
+
+I am interested to hear whether you have a specific preference, or perhaps
+some additional suggestions for me to consider. I would absolutely want to
+give Xdebug all the love it still deserves after 17 years. Let me know what
+you think! Either in a comment, or by email_.
+
+cheers,
+Derick
 
 .. _`I've left MongoDB`: /moving-on-from-mongodb.html
 .. _`bottle of whisky`: https://www.amazon.co.uk/gp/registry/wishlist/SLCB276UZU8B
 .. _Patreon: https://www.patreon.com/derickr
 .. _email: /who.html#email
+.. _`issue tracker`: https://bugs.xdebug.org
