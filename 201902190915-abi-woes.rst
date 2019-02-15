@@ -1,0 +1,81 @@
+Adverse ABIs
+============
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2019-02-19 09:15 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: abi-woes
+
+After last week's `release candidate`_ I started receiving some `bug reports`_
+that Xdebug nearly instantaneously crashed PHP. Upon further investigation, it
+turned out to only be a problem on macOS, which is good as that's not
+affecting everybody, but bad as I don't have a macOS machine to try to
+reproduce things on.
+
+.. _`release candidate`: https://xdebug.org/updates.php#x_2_7_0rc1
+.. _`bug reports`: https://bugs.xdebug.org/view.php?id=1625
+
+I did some screen sharing with `Frédéric Marand`_ in order to dive down what the
+problem was, but we couldn't really get to the problem. It looked like there
+was nothing really wrong, until Xdebug called the ``php_addslashes`` C
+function (which is the internal implementation of addslashes_). This matched
+the exact same location as `David Vuorio`_ showed in his `stack trace`_ in the bug
+tracker.
+
+.. _`Frédéric Marand`: https://twitter.com/OSInet
+.. _addslashes: https://php.net/addslashes
+.. _`David Vuorio`: https://github.com/dv-ds
+.. _`stack trace`: https://bugs.xdebug.org/view.php?id=1625#c4888
+
+Still tearing my hairs out, I contacted `Nikita Popov`_ to see if he knew
+whether there was anything special about ``php_addslashes``. His reply:
+
+.. image:: /images/content/nikita-suspicion.png
+   :alt: I have some suspicions...
+
+And his suspicion turned out to be right.
+
+.. _`Nikita Popov`: https://twitter.com/nikita_ppv/
+
+PHP 7.3 has received many optimisations. One of them is the use of specific
+CPU instructions to speed up certain tasks. In this case, the PCMPESTRM_
+instruction is used to find whether a string has characters that need to be
+escaped_.
+
+.. _PCMPESTRM: https://en.wikipedia.org/wiki/SSE4#SSE4.2
+.. _escaped: https://github.com/nikic/php-src/blob/5634df7f8dbf104d4e828ead31c78c5ab819eecc/ext/standard/string.c#L3954
+
+Upon build time, PHP's ``./configure`` script checks whether the CPU it is
+built on supports these newer CPU instructions. If so, it then uses some
+`header magic`_ to use a specialised version of ``php_addslashes``. This works
+fine if both PHP **and** the extension that uses ``php_addslashes`` are
+compiled on the same machine. However, if PHP is compiled on a machine without
+support, and the extension (Xdebug) is compiled on a machine **with** support,
+then the ABI_ (calling convention) of the ``php_addslashes`` C function is
+different. A crash will then occur when the extension tries to call the PHP
+``php_addslashes`` function "in the wrong way". And that is exactly what
+happened here: the PHP binary that came from Homebrew uses a different ABI
+then the Xdebug binary that users compiled themselves. Modifying_ the installed
+headers made the problem go away.
+
+.. _`header magic`: https://github.com/nikic/php-src/blob/5634df7f8dbf104d4e828ead31c78c5ab819eecc/ext/standard/string.c#L3885
+.. _ABI: https://en.wikipedia.org/wiki/Application_binary_interface
+.. _Modifying: https://bugs.xdebug.org/view.php?id=1625#c4909
+
+Nikita soon fixed this in the PHP 7.3 branch with a hack_ to make sure that
+the ABI among PHP 7.3 versions stays the same, and a proper fix_ for PHP 7.4
+and later to prevent this situation from occurring in the feature. Xdebug
+works around it for PHP 7.3.0 and PHP 7.3.1. Instead of relying on PHP's
+implementation of ``php_addslashes`` (`xdebug_add_slashes`_), it uses its own.
+It also uses its own implementations_ of ``php_base64_encode`` and
+``php_base64_decode`` which exhibit a similar issue. As Xdebug's
+implementations are slightly modified to work better for Xdebug, there is a
+minimal performance improvement too.
+
+.. _hack: https://github.com/php/php-src/pull/3826/commits/6093364d1979a776a0e76b3226246dcfd1191fae
+.. _fix: https://github.com/php/php-src/pull/3828/commits/5634df7f8dbf104d4e828ead31c78c5ab819eecc
+.. _xdebug_add_slashes: https://github.com/xdebug/xdebug/blob/master/xdebug_compat.c#L231-L294
+.. _implementations: https://github.com/xdebug/xdebug/blob/master/xdebug_compat.c#L77-L229
+
+Time for Release Candidate 2!
