@@ -1,0 +1,41 @@
+Retiring PHP's Mirror Program
+=============================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2019-03-05 14:15 Europe/London
+   :Tags: blog, php
+   :Short: mirrors-bye
+
+The PHP.net website has in the last 20 years made use of an extensive network
+of mirrors_ to make the PHP documentation available, and distribute source
+tarballs_. These mirrors have been maintained by members and companies in the
+PHP eco-system for many valuable years. However, the administration of the
+mirror system is often haphazard, with few contributors helping out—PHP is
+Open Source, and this is simply how these things can go.
+
+Maintaining the mirrors is now no longer sustainable, and also hinders the
+take up of moving the PHP.net website fully to HTTPS. Because the PHP.net team
+has no access to the mirror servers, we also can't make sure the mirrors are
+up-to-date, and some mirrors are still running PHP 5.3.
+
+It is likely no longer necessary to have a mirror system in place, as unlike
+20 years ago, it is not nearly has hard as setting up a distributed cache
+system. As a matter of fact, some of the PHP.net web site, through
+http://www.php.net/, already sits behind a Content Delivery Network (CDN) from
+Myra_, which is sponsored by long time PHP contributor Sascha Schumann.
+
+With these preliminaries out of the way, I would therefore like to announce
+the discontinuation of PHP.net's mirroring program. Instead of having mirrors,
+we are moving all of PHP.net to HTTPS (and get rid of https://secure.php.net),
+and move them behind Myra's CDN, with the same local content delivery
+opportunities, but at significantly less administration requirements.
+
+Watch this space for further developments!
+
+To end this post, I would very much like to thank all the mirror maintainers
+for their dedication, time, and bandwidth over all these years. Thanks!
+
+.. _mirrors: http://php.net/mirrors.php
+.. _tarballs: http://uk3.php.net/downloads.php
+.. _Myra: https://myracloud.com/en/
