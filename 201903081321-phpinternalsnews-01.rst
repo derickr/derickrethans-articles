@@ -32,3 +32,12 @@ Show Notes
 .. _`Saner string to number comparisons`: https://wiki.php.net/rfc/string_to_number_comparison
 .. _`Permit trailing whitespace in numeric strings`: Permit trailing whitespace in numeric strings
 .. _JIT: https://wiki.php.net/rfc/jit
+
+Credits
+-------
+
+.. credit::
+   :Description: Music: Chipper Doodle v2
+   :Type: Music
+   :Author: Kevin MacLeod (incompetech.com) — Creative Commons: By Attribution 3.0
+   :Link: https://incompetech.com/music/royalty-free/music.html
