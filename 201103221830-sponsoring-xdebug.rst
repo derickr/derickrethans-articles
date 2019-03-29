@@ -21,9 +21,9 @@ Recently, an issue_ with KCacheGrind_ and Xdebug's profiler_ functionality
 became known. As an experiment_ Sebastian suggested to see whether it would be
 a good idea to set-up a pledge-like system to arrange some funding so that I
 can dedicate my "work time" to working on Xdebug issues and features.  I set-up
-a campaign_ on Pledgie_ for this purpose. Both Sebastian and I expected Pledgie
+a campaign on Pledgie (now defunct) for this purpose. Both Sebastian and I expected Pledgie
 to work a bit different than it actually did. Instead of holding on to the
-pledged money until the issue was implemented, it transfered the pledges
+pledged money until the issue was implemented, it transferred the pledges
 directly to my PayPal account. 
 
 Twenty-four pledges were made, in about two weeks; matching the goal. Thanks
@@ -55,8 +55,6 @@ you think Xdebug is useful, feel free to donate_ as well!
 .. _KCacheGrind: http://kcachegrind.sourceforge.net/html/Home.html
 .. _profiler: http://xdebug.org/docs/profiler
 .. _experiment: http://sebastian-bergmann.de/archives/909-On-Sponsored-Open-Source-Development.html
-.. _campaign: http://pledgie.com/campaigns/14641
-.. _Pledgie: http://pledgie.com
 .. _`Pale Purple`: http://www.palepurple.co.uk/
 .. _`React`: http://www.react.nl/
 .. _committed: http://xdebug.org/archives/xdebug-dev/1740.html
