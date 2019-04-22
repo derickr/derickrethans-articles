@@ -30,7 +30,7 @@ Show Notes
 .. _download: /media/pin-001.mp3
 .. _`RFC Watch`: https://php-rfc-watch.beberlei.de
 .. _`Saner string to number comparisons`: https://wiki.php.net/rfc/string_to_number_comparison
-.. _`Permit trailing whitespace in numeric strings`: Permit trailing whitespace in numeric strings
+.. _`Permit trailing whitespace in numeric strings`: https://wiki.php.net/rfc/trailing_whitespace_numerics
 .. _JIT: https://wiki.php.net/rfc/jit
 .. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
 
