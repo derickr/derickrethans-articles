@@ -16,7 +16,7 @@ of each month. You can become a patron here_.
 .. _Patreon: https://www.patreon.com/derickr
 .. _here: https://www.patreon.com/bePatron?u=7864328
 
-In February, I worked on the following things:
+In March, I worked on the following things:
 
 CI
 --
