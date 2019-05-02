@@ -8,7 +8,7 @@ PHP Internals News: Episode 8: Deprecating Short Open Tags
    :Short: pin008
    :Enclosure: media/pin-008.mp3
 
-In this eight episode of "PHP Internals News" I talk to George Maynard
+In this eight episode of "PHP Internals News" I talk to George Banyard
 (Twitter_, GitHub_) about deprecating PHP's short open tags
 (``<?``), and getting into PHP internals development.
 
