@@ -5,7 +5,7 @@ PHP Internals News: Episode 9: Bundled Extensions
    :Where: London, UK
    :Date: 2019-05-09 09:09 Europe/London
    :Tags: blog, php, phpinternalsnews
-   :Short: pin010
+   :Short: pin009
    :Enclosure: media/pin-009.mp3
 
 In this ninth episode of "PHP Internals News" I talk to Kalle Nielsen
@@ -19,7 +19,7 @@ The RSS feed for this podcast is https://phpinternals.news/feed.rss, you can
 download_ this episode's MP3 file, and it's available on Spotify_ and iTunes_.
 There is a dedicated website: https://phpinternals.news
 
-.. _download: /media/pin-008.mp3
+.. _download: /media/pin-009.mp3
 .. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
 .. _iTunes: https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2
 
