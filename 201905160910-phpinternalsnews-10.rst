@@ -28,8 +28,8 @@ Show Notes
 ----------
 
 RFC: `Always generate fatal error for incompatible method signatures Associativity <https://wiki.php.net/rfc/lsp_errors>`_
-RFC: `Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity`_
-RFC: `Change the precedence of the concatenation operator<https://wiki.php.net/rfc/concatenation_precedence>`_
+RFC: `Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
+RFC: `Change the precedence of the concatenation operator <https://wiki.php.net/rfc/concatenation_precedence>`_
 
 Credits
 -------
