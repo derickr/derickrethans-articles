@@ -3,7 +3,7 @@ PHP Internals News: Episode 10: LSP and Operator Precedence
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2019-05-10 09:10 Europe/London
+   :Date: 2019-05-16 09:10 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin010
    :Enclosure: media/pin-010.mp3
