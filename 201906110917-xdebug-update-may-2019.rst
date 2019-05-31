@@ -1,0 +1,113 @@
+Xdebug Update: May 2019
+=========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2019-06-11 09:17 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-19may
+
+This is another of the monthly update reports in which I explain what happened
+with Xdebug development in this past month. It will be published on the first
+Tuesday after the 5th of each month. Patreon_ supporters will get it earlier,
+on the first of each month. You can become a patron here_ to support my work
+on Xdebug. More supporters, means that I can dedicate more of my time to
+improving Xdebug.
+
+.. _Patreon: https://www.patreon.com/derickr
+.. _here: https://www.patreon.com/bePatron?u=7864328
+
+In May, I worked on Xdebug for 32 hours, and did the following things:
+
+2.7.2 Release
+-------------
+
+I made the `2.7.2 release <https://xdebug.org/#2019_05_06>`_ release available
+at the start of the month. This released addressed a few bugs:
+
+- Issue `#1488 <https://bugs.xdebug.org/1488>`_: Rewrite DBGp 'property_set'
+  to always use eval
+- Issue `#1586 <https://bugs.xdebug.org/1586>`_: error_reporting()'s return
+  value is incorrect during debugger's 'eval' command
+- Issue `#1615 <https://bugs.xdebug.org/1615>`_: Turn off Zend OPcache when
+  remote debugger is turned on
+- Issue `#1656 <https://bugs.xdebug.org/1656>`_: remote_connect_back alters
+  header if multiple values are present
+- Issue `#1662 <https://bugs.xdebug.org/1662>`_: __debugInfo should not be
+  used for user-defined classes
+
+The first issue has been lingering since when Xdebug introduced support
+for PHP 7. PHP 7 changes the way how variables are handled in the engine,
+which means that is a lot harder to obtain a ``zval`` structure that is
+modifiable. Xdebug uses that existing functionality in the step debugger to modify a
+variable's contents, but only if a variable type was explicitly set as well.
+Because it is no longer possible to retrieve this ``zval`` structure for
+modification, Xdebug switched from direct modification to calling the engine's
+internal ``eval_string`` function to set new values for variables.
+
+Xdebug's wrapper around the engine's ``eval_string`` function is also used
+when running the DBGp_ ``eval`` command. IDEs use this for 
+implementing watch statements. Because Xdebug shouldn't leak warning or error
+messages during the use of DBGp protocol commands, Xdebug's wrapper sets
+``error_reporting`` to ``0``. However, that means if you would run
+``error_reporting()`` through the DBGp protocol with the ``eval`` command, it
+would always return ``0``. The second bug (`#1586
+<https://bugs.xdebug.org/1586>`_) fixed this, so that running
+``error_reporting()`` with ``eval`` now returns the correct value.
+
+.. _DBGp: https://xdebug.org/docs-dbgp.php
+
+The third issue in the list addresses a problem with Zend OPcache's optimiser
+turned on. It is possible that with optimisations turned on, variables no
+longer exist, or useless statements are removed to make your code run faster.
+However, this is highly annoying when you are debugging, because you can no
+longer reliably inspect what is going on. By turning of the code optimisation
+when Xdebug's step debugger is active, normality is restored.
+
+The last two items in the 2.7.2 release are minor bug fixes.
+
+Resolving Breakpoints
+---------------------
+
+The fine folks at Jetbrains_ have looked at my implementation of issue
+`#1388: Support 'resolved' flag for breakpoints <https://bugs.xdebug.org/1388>`_.
+They found that although the implemented functionality works, it would not yet
+handle the resolving of breakpoints which are set in a scope that is currently
+being executed (i.e., when the function, method, or closure is currently
+active). I have briefly looked at solving this problem, but have not yet found
+a good solution. In addition, I am intending to change the line searching
+algorithm to scan at most 5 lines in each directions instead of 10. This
+should prevent unnecessary jumping around, and unintended breaks.
+
+.. _JetBrains: https://www.jetbrains.com/
+.. _PhpStorm: https://www.jetbrains.com/phpstorm/
+.. _update: /xdebug-update-march-2019.html
+
+PHP 7.4 Support
+---------------
+
+The rest of the time I spent at making Xdebug ready for PHP 7.4. This new
+version has some internal changes that require Xdebug to be updated. Although
+Xdebug now works with PHP 7.4 through the ``PHP-7.4-support`` branch, the
+tests don't yet all pass. One of these changes is that while PHP previously
+would have a line of executable code on every method and class definition,
+this opcode is no longer generated. This means that all of my code coverage
+tests are now broken. As part of making the tests pass again, I have started
+at making the requirements checks in each test case easier to set-up and
+maintain. This is taking a significant amount of time. I hope to have this
+branch merged when PHP 7.4alpha1 comes out. I also intend
+to release an alpha version of Xdebug 2.8 shortly after that, which should
+also include the update to the Resolved Breakpoints functionality.
+
+Podcast
+-------
+
+I have been continuing with the `PHP Internals News
+<https://phpinternals.news>`_ podcast. In this weekly podcast, I discuss in
+15-30 minutes, proposed new features to the PHP language with fellow PHP
+internals developers. It is available on Spotify_ and iTunes_, and through an
+`RSS Feed`_. Let me know if you are a listener!
+
+.. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
+.. _iTunes: https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2
+.. _`RSS Feed`: https://phpinternals.news/feed.rss
