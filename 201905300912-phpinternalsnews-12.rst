@@ -20,7 +20,7 @@ https://derickrethans.nl/feed-phpinternalsnews.xml, you can download_ this
 episode's MP3 file, and it's available on Spotify_ and iTunes_.
 There is a dedicated website: https://phpinternals.news
 
-.. _download: /media/pin-011.mp3
+.. _download: /media/pin-012.mp3
 .. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
 .. _iTunes: https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2
 
