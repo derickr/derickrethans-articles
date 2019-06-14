@@ -1,5 +1,5 @@
-PHP Internals News: Episode 14: LSP and Operator Precedence
-===========================================================
+PHP Internals News: Episode 14: __toString() Exceptions
+=======================================================
 
 .. articleMetaData::
    :Where: London, UK
