@@ -1,0 +1,90 @@
+Xdebug Update: June 2019
+=========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2019-07-09 09:34 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-19jun
+
+This is another of the monthly update reports in which I explain what happened
+with Xdebug development in this past month. It will be published on the first
+Tuesday after the 5th of each month. Patreon_ supporters will get it earlier,
+on the first of each month. You can become a patron here_ to support my work
+on Xdebug. More supporters, means that I can dedicate more of my time to
+improving Xdebug.
+
+.. _Patreon: https://www.patreon.com/derickr
+.. _here: https://www.patreon.com/bePatron?u=7864328
+
+In June, I worked on Xdebug for 20 hours, a little bit less than normal as I
+spend some time on holidays and conferences. I worked on the following things:
+
+2.8.0alpha1 Release
+-------------------
+
+I made the `2.8.0alpha1 release <https://xdebug.org/#2019_06_28>`_
+just when the month was running out.
+
+This **alpha** release adds preliminary support for PHP 7.4, but also
+addresses some other issues. It also includes a major overhaul on
+how I do ``SKIPIF`` sections in the ``phpt`` tests that I used to test Xdebug.
+
+Instead of having complicated sections such as::
+
+	<?php if (!version_compare(phpversion(), "7.0.12", '>')) echo "skip > PHP 7.0.12, < PHP 7.1 needed\n"; ?>
+	<?php if (!version_compare(phpversion(), "7.1", '<')) echo "skip > PHP 7.0.12, < PHP 7.1 needed\n"; ?>
+	<?php if (!extension_loaded('zend opcache')) echo "skip opcache required\n"; ?>
+
+I now have::
+
+	check_reqs('PHP > 7.0.12,< 7.1; opcache');
+
+This makes it a lot easier to maintain Xdebug's tests among multiple PHP
+versions. After all, I still support PHP versions since PHP 7.0—although I am
+considering dropping support for PHP 7.0 and only support PHP 7.1 and up.
+
+This release also features the Resolving Breakpoints feature, which the folks
+at Jetbrains_ have sponsored. After their last review, I made a few
+modifications to run the resolver for newly set breakpoints as well. I am
+intending to create a separate blog post on what this new `feature
+<https://bugs.xdebug.org/1388>`_ solves.
+
+I also found an already existing bug with `return breakpoints`_, where a
+return breakpoint would not cause a break immediately. A fix for this is also
+in the alpha1 release.
+
+.. _`return breakpoints`: https://bugs.xdebug.org/1660
+.. _JetBrains: https://www.jetbrains.com/
+
+32-bit Support
+--------------
+
+I am considering to stop creating Windows binaries for 32-bit installations of
+PHP. It duplicates the amount of time that it takes to create Windows
+binaries, slowing down, testing on CI, and the creation of releases as it
+takes ~2 hours to build them all on AppVeyor_.
+
+.. _AppVeyor: https://ci.appveyor.com/project/derickr/xdebug/builds/25614967
+
+The reasoning behind this is that very few people still use 32-bit Windows
+installations, and I am not sure it's still worth spending time on it. I ran a
+little `Twitter poll <https://twitter.com/Xdebug/status/1140626697328517121>`_ about this.
+
+Although even if I would drop 32-bit binary creations, users that still need
+these binaries can get them on the PECL website. PECL builds extensions for
+all the supported PHP versions, such as here for Xdebug 2.8.0alpha1
+`<https://pecl.php.net/package/xdebug/2.8.0alpha1/windows>`_ 
+
+Podcast
+-------
+
+I have been continuing with the `PHP Internals News
+<https://phpinternals.news>`_ podcast. In this weekly podcast, I discuss in
+15-30 minutes, proposed new features to the PHP language with fellow PHP
+internals developers. It is available on Spotify_ and iTunes_, and through an
+`RSS Feed`_. Let me know if you are a listener!
+
+.. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
+.. _iTunes: https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2
+.. _`RSS Feed`: https://phpinternals.news/feed.rss
