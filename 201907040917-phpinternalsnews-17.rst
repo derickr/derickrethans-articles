@@ -10,9 +10,10 @@ PHP Internals News: Episode 17: Numeric Literal Separator
 
 In this seventeenth episode of "PHP Internals News" I talk with Theodore Brown
 (`Twitter <https://twitter.com/theodorejb>`_, `Website
-<https://theodorejb.me/>`_, `GitHub <https://github.com/theodorejb>`_) and Bishop Bettini (`GitHub
-<https://github.com/bishopb>`_) about their
-Numeric Literal Separator RFC.
+<https://theodorejb.me/>`_, `GitHub <https://github.com/theodorejb>`_) and
+Bishop Bettini (`Twitter <https://twitter.com/cerebriform>`_, `Website
+<http://cerebriform.blogspot.com/>`_, `GitHub <https://github.com/bishopb>`_)
+about their Numeric Literal Separator RFC.
 
 The RSS feed for this podcast is
 https://derickrethans.nl/feed-phpinternalsnews.xml, you can download_ this
