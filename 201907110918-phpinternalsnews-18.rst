@@ -1,4 +1,4 @@
-PHP Internals News: Episode 18: Numeric Literal Separator
+PHP Internals News: Episode 18: Strict Operator Directive
 =========================================================
 
 .. articleMetaData::
