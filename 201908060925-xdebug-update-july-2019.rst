@@ -1,0 +1,142 @@
+Xdebug Update: July 2019
+=========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2019-08-06 09:25 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-19jul
+
+This is another of the monthly update reports in which I explain what happened
+with Xdebug development in this past month. It will be published on the first
+Tuesday after the 5th of each month. Patreon_ supporters will get it earlier,
+on the first of each month. You can become a patron here_ to support my work
+on Xdebug. More supporters, means that I can dedicate more of my time to
+improving Xdebug.
+
+.. _Patreon: https://www.patreon.com/derickr
+.. _here: https://www.patreon.com/bePatron?u=7864328
+
+In July, I worked on Xdebug for about 20 hours, still a little bit less than
+normal due to holidays. I worked on the following things:
+
+2.8.0beta1 Release
+-------------------
+
+On July 25th, the same day that PHP 7.4.0beta1 was released, I made Xdebug's
+`2.8.0beta1 release <https://xdebug.org/#2019_07_25>`_. PHP 7.4 had changed
+some internal structures that required changes in Xdebug. You have to use the
+Xdebug 2.8.0beta1 release with PHP 7.4.0beta1.
+
+This first **beta** release mainly makes Xdebug compatible again with PHP, but
+also addresses a bunch of issues that were reported, including a fix for Code
+Coverage collections, and a few issues related to obtaining the correct PID
+(Process Identifier) number for debugging. It also addresses an issue with
+NULL bytes and the `DBGp <https://xdebug.org/docs-dbgp.php>`_ protocol.
+
+NULL bytes in the DBGp protocol
+-------------------------------
+
+In PHP, it is possible to have NULL bytes in variable, key, and property names
+by using ``\0``, such as in::
+
+	<?php
+	$name = "with_\0_null_char";
+	$$name = 42;
+	?>
+
+The DBGp protocol represents variable names through the ``name`` attribute of
+the ``property`` element in its XML format::
+
+	<property name="$name" fullname="$name" type="string" size="16" encoding="base64">
+		<![CDATA[d2l0aF8AX251bGxfY2hhcg==]]>
+	</property>
+
+However, if a name has a NULL character, Xdebug would generate the following
+XML::
+
+	<property name="$with_&#0;_null_char" fullname="$with_&#0;_null_char" type="int">
+		<![CDATA[42]]>
+	</property>
+
+The problem is however, that XML does not allow for NULL bytes in attribute
+names. The above XML is therefore not well-formed. When the DBGp protocol was
+designed many many years ago, this issue was not thought off, and hence, the
+DBGp protocol could not represent these NULL bytes in variable, key, and
+property names. If you look at the first XML snippet (with ``name="$name"``),
+then you can see that the DBGp protocol **does** handle this for the values.
+In this case, it added the ``encoding="base64"`` attribute, and encoded the
+string ``"with_\0_null_char"`` as ``d2l0aF8AX251bGxfY2hhcg==``.
+
+A while ago, for `Xdebug 2.6
+<https://xdebug.org/updates.php#x_2_6_0alpha1>`_, I addressed this problem by
+an update to the DBGp protocol to include *extended properties*. When the IDE
+enables this `feature
+<https://xdebug.org/docs-dbgp.php#properties-variables-and-values>`_, Xdebug
+will then communicate names and values through a `base64` encoded value in a
+sub-element, such as::
+
+	<property type="string" size="16">
+		<name encoding="base64"><![CDATA[JG5hbWU=]]></name>
+		<fullname encoding="base64"><![CDATA[JG5hbWU=]]></fullname>
+		<value encoding="base64"><![CDATA[d2l0aF8AX251bGxfY2hhcg==]]></value>
+	</property>
+
+What I had failed to see is that it also possible that **class names** can
+have NULL characters in their name—when you use anonymous classes::
+
+	<?php
+	$a = new class { };
+	var_dump( $a );
+	?>
+
+This would still be communicated as::
+
+	<property name="$a" fullname="$a" type="object"
+		classname="class@anonymous&#0;/home/derick/dev/php/xdebug-xdebug/tests/bug01682.inc0x7efd7ab63018"
+		children="0" numchildren="0" page="0" pagesize="32">
+	</property>
+
+The fix for `issue #1682 <https://bugs.xdebug.org/1682>`_ fixes this, by
+checking whether either of name, value, or class name has an XML incompatible
+character. If that is the case, and the `extended_properties`` feature has
+been enabled by the IDE through the protocol, then Xdebug will communicate
+this value in the new format::
+
+	<property type="object" children="0" numchildren="0" page="0" pagesize="32">
+		<name encoding="base64"><![CDATA[JGE=]]></name>
+		<fullname encoding="base64"><![CDATA[JGE=]]></fullname>
+		<classname encoding="base64"><![CDATA[Y2xhc3NAYW5vbnltb3VzAC9ob21lL2Rlcmljay9kZXYvcGhwL3hkZWJ1Zy14ZGVidWcvdGVzdHMvYnVnMDE2ODIuaW5jMHg3ZjJjYjUxMTcwMTg=]]></classname>
+	</property>
+
+Towards beta2
+-------------
+
+With the release of 2.8.0beta1 out of the way, I am now working on a series of
+`bug fixes <https://bugs.xdebug.org/roadmap_page.php?version_id=65>`_. I
+expect a beta2 or RC1 (Release Candidate) release when PHP 7.4 enters the
+Release Candidate phase as well.
+
+Since beta1, I have worked on an issue with tracing and profiling: A
+shutdown handler, or autoprepend/autoappend file, would cause the creation of
+multiple files in some cases. 
+
+I have also updated the `xdebug.coverage_enable=0
+<https://xdebug.org/docs/all_settings#coverage_enable>`_ feature to make sure
+that no work towards Code Coverage information gathering is done by Xdebug,
+when this setting is set to ``0``. This should speed up your application, but
+Code Coverage will not work. Xdebug 3's modes will eventually address this in
+a more elegant way.
+
+Podcast
+-------
+
+I have been continuing with the `PHP Internals News
+<https://phpinternals.news>`_ podcast. In this weekly podcast, I discuss in
+15-30 minutes, proposed new features to the PHP language with fellow PHP
+internals developers. It is available on Spotify_ and iTunes_, and through an
+`RSS Feed`_. Let me know if you are a listener!
+
+.. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
+.. _iTunes: https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2
+.. _`RSS Feed`: https://phpinternals.news/feed.rss
