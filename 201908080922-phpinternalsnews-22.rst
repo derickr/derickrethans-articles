@@ -3,7 +3,7 @@ PHP Internals News: Episode 22: PostGreSQL Escape Character
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2019-08-01 09:22 Europe/London
+   :Date: 2019-08-08 09:22 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin022
    :Enclosure: media/pin-022.mp3
