@@ -8,7 +8,7 @@ PHP Internals News: Episode 23: Deprecated Short Open Tags, again
    :Short: pin023
    :Enclosure: media/pin-023.mp3
 
-In this episode of "PHP Internals News" I chat with George Banyard Beccati
+In this episode of "PHP Internals News" I chat with George Banyard
 (`Website
 <https://gpb.moe>`_, `Twitter
 <https://twitter.com/Girgias>`_, `GitHub <https://github.com/Girgias>`_,
