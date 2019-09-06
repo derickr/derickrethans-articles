@@ -9,7 +9,9 @@ PHP Internals News: Episode 28: Moving PHP Documentation to GIT
    :Enclosure: media/pin-028.mp3
 
 In this episode of "PHP Internals News" I chat with Andreas Heigl (`Twitter
-<https://twitter.com/nikita_ppv>`_, `GitHub <https://github.com/nikic>`_)
+<https://twitter.com/heiglandreas>`_, `GitHub
+<https://github.com/heiglandreas>`_, `Mastodon
+<https://phpc.social/@heiglandreas>`_, `Website <https://andreas.heigl.org>`_)
 about his endeavours of moving the PHP Documentation project from SVN to GIT.
 
 The RSS feed for this podcast is
@@ -24,7 +26,8 @@ There is a dedicated website: https://phpinternals.news
 Show Notes
 ----------
 
-- RFC: `Reclassifying engine warnings <https://wiki.php.net/rfc/engine_warnings>`_
+- `Documentation Transition Project <https://github.com/phpdoctest>`_
+- The project's Gitter `chat <https://gitter.im/phpdoctest/Lobby>`_
 
 Credits
 -------
