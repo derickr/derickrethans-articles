@@ -1,5 +1,5 @@
-PHP Internals News: Episode 31: Object Initializer
-==================================================
+PHP Internals News: Episode 31: DOM Living Standard API
+=======================================================
 
 .. articleMetaData::
    :Where: London, UK
