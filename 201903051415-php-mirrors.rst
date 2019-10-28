@@ -38,4 +38,4 @@ for their dedication, time, and bandwidth over all these years. Thanks!
 
 .. _mirrors: http://php.net/mirrors.php
 .. _tarballs: http://uk3.php.net/downloads.php
-.. _Myra: https://myracloud.com/en/
+.. _Myra: https://www.myrasecurity.com/en/
