@@ -26,7 +26,7 @@ There is a dedicated website: https://phpinternals.news
 Show Notes
 ----------
 
-RFC: `Allow throwing exceptions from __toString() <https://wiki.php.net/rfc/tostring_exceptions>`_
+- RFC: `Allow throwing exceptions from __toString() <https://wiki.php.net/rfc/tostring_exceptions>`_
 
 Credits
 -------

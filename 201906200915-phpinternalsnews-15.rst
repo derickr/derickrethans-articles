@@ -25,7 +25,7 @@ There is a dedicated website: https://phpinternals.news
 Show Notes
 ----------
 
-RFC: `base_convert() Improvements <https://wiki.php.net/rfc/base_convert_improvements>`_
+- RFC: `base_convert() Improvements <https://wiki.php.net/rfc/base_convert_improvements>`_
 
 Credits
 -------
