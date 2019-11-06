@@ -3,7 +3,7 @@ PHP Internals News: Episode 35: Cryptography
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2019-10-31 09:35 Europe/London
+   :Date: 2019-11-07 09:35 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin035
    :Enclosure: media/pin-035.mp3
