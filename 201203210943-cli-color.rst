@@ -67,9 +67,9 @@ even if stdout is not a tty.
 
 Initially, the colour coding of errors and ``var_dump()`` output, would only
 work on a Unix system where ANSI escape codes are commonly supported. After the
-release of Xdebug 2.2.0RC1, `Chris Jones`_ submitted a `bug report`_ suggesting
+release of Xdebug 2.2.0RC1, Chris Jones submitted a `bug report`_ suggesting
 that this functionality could also be available on the Windows console. I
-wasn't aware that Windows could do this anymore since they dropped `ANSI.SYS`_
+wasn't aware that Windows could do this any more since they dropped `ANSI.SYS`_
 but apparently there is a tool, ANSICON_, that reimplements this. From the next
 release, Xdebug 2.2.0RC2, Xdebug will now also check whether the ``ANSICON``
 environment variable is set, just like Xdebug would check whether stdout is a
@@ -91,9 +91,8 @@ http://xdebug.org/buy-support.php.
 .. _`xdebug.cli_color`: http://xdebug.org/docs/display#cli_color
 .. _`Xdebug 2.2.0RC1`: http://xdebug.org/updates.php#x_2_2_0rc1
 .. _`ANSI escape codes`: http://en.wikipedia.org/wiki/ANSI_escape_code
-.. _`Chris Jones`: http://heyleek.com
 .. _bug report: http://bugs.xdebug.org/view.php?id=794
-.. _`ANSI.SYS`: http://en.wikipedia.org/wiki/ANSI_escape_code#Windows_and_DOS
-.. _ANSICON: http://adoxa.3eeweb.com/ansicon/
+.. _`ANSI.SYS`: https://en.wikipedia.org/wiki/ANSI_escape_code#DOS_and_Windows
+.. _ANSICON: http://adoxa.altervista.org/ansicon/
 
 .. [1]: Except for in PHP 5.3, where this sadly was turned off by default.
