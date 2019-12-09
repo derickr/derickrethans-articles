@@ -4,7 +4,7 @@ Crafty Code Coverage
 .. articleMetaData::
    :Where: London, UK
    :Date: 2019-12-09 13:30 Europe/London
-   :Tags: xdebug
+   :Tags: php, xdebug
    :Short: ccc
 
 Xdebug's code coverage functionality has had dead code analysis for years. It
