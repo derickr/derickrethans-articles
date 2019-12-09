@@ -7,7 +7,7 @@ Crafty Code Coverage
    :Tags: xdebug
    :Short: ccc
 
-Xdebug's code coverage functionality has had dead code analyses for years. It
+Xdebug's code coverage functionality has had dead code analysis for years. It
 is used to be able to mark lines of as having executable code on it, as well
 as lines which can not be reached. In order to provide this functionality it
 runs an algorithm code after each file has been compiled. For each class and
