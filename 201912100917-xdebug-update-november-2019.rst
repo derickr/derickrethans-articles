@@ -84,7 +84,7 @@ instead_.
 For Xdebug 3 I have a few further ideas to speed up code coverage.
 
 The bug fix for the performance degradation is the only ticket that made it
-into `Xdebug 2.8.1 <https://xdebug.org/updates#x_2_8_0>`_.
+into `Xdebug 2.8.1 <https://xdebug.org/updates#x_2_8_1>`_.
 
 *Update:* Xdebug 2.8.1 was released on December 2nd (so not actually in
 November).
@@ -96,7 +96,7 @@ I have had further, but minimal, interest for the `Business Supporter Scheme`_
 that I launched in September.
 
 	This month's new supporter is 
-	`e3N GmbH <e3N GmbH>`_. Thanks!
+	`e3N GmbH <https://e3n.de/>`_. Thanks!
 
 If you, or your company, would also like to support Xdebug, head over to the
 support_ page!
