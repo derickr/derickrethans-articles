@@ -10,12 +10,12 @@ PHP Vikinger is over again. With about 35 attendees, I would think it
 was a great success. After opening the event, we figured out which
 topics people were interested in. After voting for the topics, we came
 up with a nice couple of topics. First we had a little discussion on QA
-and Testing, which Thomas Nuninnger moderated. I include my (raw) notes
+and Testing, which Thomas Nuninger moderated. I include my (raw) notes
 from this:
 
 `Selenium`_ takes a long time
 to run tests, so Thomas only uses it for front end only, whereas `phpunit`_ is used for as much as possible
-backend code. Selenium apparently has some functionality for parallizing
+backend code. Selenium apparently has some functionality for parallelising
 ( `selenium grid`_ ), but
 there are some issues as well as you can not tell it to run specific
 tests parallel. `WebDriver`_ does exactly
@@ -45,9 +45,9 @@ I will put the slides online at the `PHP Vikinger`_ website once I receive
 all of them.
 
 
-.. _`Selenium`: http://selenium.openqa.org/
+.. _`Selenium`: https://selenium.dev/
 .. _`phpunit`: http://phpunit.de
-.. _`selenium grid`: http://selenium-grid.openqa.org/
+.. _`selenium grid`: https://selenium.dev/documentation/en/grid/
 .. _`WebDriver`: http://code.google.com/p/webdriver/
 .. _`CruiseControl`: http://cruisecontrol.sourceforge.net/
 .. _`phpUnderControl`: http://www.phpundercontrol.org/
