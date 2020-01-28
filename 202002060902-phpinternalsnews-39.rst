@@ -3,7 +3,7 @@ PHP Internals News: Episode 39: Stringable Interface
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2019-09-05 09:39 Europe/London
+   :Date: 2020-02-06 09:39 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin039
    :Enclosure: media/pin-039.mp3
