@@ -1,5 +1,5 @@
-PHP Internals News: Episode 38: Union Types
-===========================================
+PHP Internals News: Episode 38: Preloading and WeakMaps
+=======================================================
 
 .. articleMetaData::
    :Where: London, UK
