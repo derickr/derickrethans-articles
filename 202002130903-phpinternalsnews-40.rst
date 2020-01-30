@@ -311,7 +311,7 @@ Show Notes
 - RFC: `Static Return Type <https://wiki.php.net/rfc/static_return_type>`_
 - RFC: `Class Name Literal on Object <https://wiki.php.net/rfc/class_name_literal_on_object>`_
 - RFC: `Variable Syntax Tweaks <https://wiki.php.net/rfc/variable_syntax_tweaks>`_
-- RFC: `Uniform Variable Syntax RFC <https://wiki.php.net/rfc/uniform_variable_syntax>_
+- RFC: `Uniform Variable Syntax RFC <https://wiki.php.net/rfc/uniform_variable_syntax>`_
 
 
 Credits
