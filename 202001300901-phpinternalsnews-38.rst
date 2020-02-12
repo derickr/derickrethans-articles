@@ -145,7 +145,7 @@ Nikita Popov  11:15
 	I don't think so.
 
 Derick Rethans  11:16
-	Because we maps are something done as an internal class in PHP, how are these things implemented? Is there something interesting because I remember talking to Joe about weak references last year, there is some functionality where it would automatically do something on the destructor or rather of the objects. Is this something that also happens with weak maps.
+	Because weak maps are something done as an internal class in PHP, how are these things implemented? Is there something interesting because I remember talking to Joe about weak references last year, there is some functionality where it would automatically do something on the destructor or rather of the objects. Is this something that also happens with weak maps.
 
 Nikita Popov  11:37
 	So yeah, the mechanism how weak references and maps work is basically the same. So there is a flag on each object, that can be set to indicate that it has a weak reference or weak map. If the object is destroyed, and has this nice flag, then we execute a callbeck that is going to remove the object from the Weak Reference or from the weak map, or from multiple maps.
