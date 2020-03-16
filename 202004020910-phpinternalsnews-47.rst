@@ -3,7 +3,7 @@ PHP Internals News: Episode 47: Attributes v2
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2019-04-02 09:10 Europe/London
+   :Date: 2020-04-02 09:10 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin047
    :Enclosure: media/pin-047.mp3
