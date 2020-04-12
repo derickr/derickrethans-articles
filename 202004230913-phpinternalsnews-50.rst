@@ -3,7 +3,7 @@ PHP Internals News: Episode 50: The RFC Process
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2020-04-09 09:11 Europe/London
+   :Date: 2020-04-23 09:13 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin050
    :Enclosure: media/pin-050.mp3
