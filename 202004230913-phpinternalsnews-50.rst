@@ -9,7 +9,7 @@ PHP Internals News: Episode 50: The RFC Process
    :Enclosure: media/pin-050.mp3
 
 In this episode of "PHP Internals News", Henrik Gemal (`LinkedIn
-<https://dk.linkedin.com/in/gemal>`_, `Website <gemal.dk>`_) asks **me** about
+<https://dk.linkedin.com/in/gemal>`_, `Website <http://gemal.dk>`_) asks **me** about
 how PHP's RFC process works, and I try to answer all of his questions.
 
 The RSS feed for this podcast is
