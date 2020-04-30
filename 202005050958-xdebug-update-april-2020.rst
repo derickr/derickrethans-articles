@@ -9,14 +9,11 @@ Xdebug Update: April 2020
 
 Another monthly update where I explain what happened with Xdebug development
 in this past month. These will be published on the first Tuesday after the 5th
-of each month. Patreon_ supporters will get it earlier, on the first of each
-month. You can become a patron here_ to support my work on Xdebug. If you are
-leading a team or company, then it is also possible to support Xdebug through
-a subscription_.
-
-.. _Patreon: https://www.patreon.com/derickr
-.. _here: https://www.patreon.com/bePatron?u=7864328
-.. _subscription: https://xdebug.org/support
+of each month. `Patreon <https://www.patreon.com/derickr>`_ supporters will
+get it earlier, on the first of each month. You can `become a patron
+<https://www.patreon.com/bePatron?u=7864328>`_ to support my work on Xdebug.
+If you are leading a team or company, then it is also possible to support
+Xdebug through `a subscription <https://xdebug.org/support>`_.
 
 In March, I worked on Xdebug for about 60 hours, on the following things:
 
@@ -80,13 +77,11 @@ Business Supporter Scheme and Funding
 In April, no new supporters signed up.
 
 If you, or your company, would also like to support Xdebug, head over to the
-support_ page!
+`support <https://xdebug.org/support>`_ page!
 
-.. _`Business Supporter Scheme`: https://derickrethans.nl/xdebug-update-september-2019.html#a_business_supporter_scheme
-.. _support: https://xdebug.org/support
-
-Besides business support, I also maintain a Patreon_ page and a profile on
-`GitHub sponsors <https://github.com/sponsors/derickr>`_.
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page and a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_.
 
 Podcast
 -------
@@ -96,10 +91,7 @@ season. Episodes in the last month included a discussion on PHP 8's `JIT
 engine and increasing complexity <https://phpinternals.news/48>`_, `PHP's RFC
 process <https://phpinternals.news/50>`_, and a discussion with Larry Garfield
 about how to improve PHP's `Object Ergonomics
-<https://phpinternals.news/51>`_. It is available on Spotify_ and iTunes_, and
-through an `RSS Feed`_.
-
-.. _Spotify: https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB
-.. _iTunes: https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2
-.. _`RSS Feed`: https://phpinternals.news/feed.rss
-.. _episode: https://phpinternals.news/38
+<https://phpinternals.news/51>`_. It is available on `Spotify
+<https://open.spotify.com/show/1Qcd282SDWGF3FSVuG6kuB>`_, `iTunes
+<https://itunes.apple.com/gb/podcast/php-internals-news/id1455782198?mt=2>`_,
+and through an `RSS Feed <https://phpinternals.news/feed.rss>`_.
