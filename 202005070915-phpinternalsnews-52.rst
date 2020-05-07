@@ -1,5 +1,5 @@
-PHP Internals News: Episode 52: Object Ergonomics
-=================================================
+PHP Internals News: Episode 52: Floats and Locales
+==================================================
 
 .. articleMetaData::
    :Where: London, UK
