@@ -1,0 +1,119 @@
+Xdebug Update: May 2020
+=======================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2020-06-09 09:11 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-20may
+
+Another monthly update where I explain what happened with Xdebug development
+in this past month. These will be published on the first Tuesday after the 5th
+of each month. `Patreon <https://www.patreon.com/derickr>`_ supporters will
+get it earlier, on the first of each month. You can `become a patron
+<https://www.patreon.com/bePatron?u=7864328>`_ to support my work on Xdebug.
+If you are leading a team or company, then it is also possible to support
+Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In May, I worked on Xdebug for about 70 hours, on the following things:
+
+Xdebug 2.9.6
+------------
+
+Continuing my new tradition of releasing at least one Xdebug release a month,
+in May I've released Xdebug 2.9.6. The main reason for the release is to fix a
+crash which would occur when classes in third party extensions would not
+implement PHP's internal "get_properties" API. This bug was found with the
+`protobuf extension <https://pecl.php.net/package/protobuf>`_.
+
+The second change is to add the `SameSite attribute
+<https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#SameSite_attribute>`_
+to the cookies that Xdebug maintains for multi-request debugging sessions.
+Because PHP's cookie setting API did not support this until PHP 7.3, neither
+will Xdebug. (So upgrade!).
+
+And lastly, the 2.9.6 release addresses an inconsistency when path and branch
+information is returned with `xdebug_get_code_coverage()
+<https://xdebug.org/docs/code_coverage#xdebug_get_code_coverage>`_, when
+enabled. Up to now, nothing made use of Xdebug's branch/path coverage yet, but
+PHP Unit will from this August's release have `initial support
+<https://twitter.com/s_bergmann/status/1266985179249348610>`_ for it. Xdebug 3
+should also make code coverage (and other things) faster as well. Which brings
+me to the next item.
+
+Xdebug 3
+--------
+
+I have spent some time changing the way how you configure Xdebug's myriad of
+features. Xdebug has way too many configuration settings, and one of Xdebug
+3's goal is to simplify its configuration, and at the same time improve
+performance.
+
+With Xdebug 2.9 I have already split up and reorganised the code towards this,
+but with a `soon-to-be-merged branch
+<https://github.com/xdebug/xdebug/pull/577>`_, you will no longer be able to
+enable both the step-debugger, code coverage, profiling, and/or tracing at the
+same time. The settings ``xdebug.default_enable``, ``xdebug.remote_enable``,
+``xdebug.profiler_enable``, ``xdebug.coverage_enable``, and
+``xdebug.auto_trace`` have been replaced with the ``xdebug.mode`` setting
+which can have the values ``off``, ``display`` (for var_dump() override and
+stack traces), ``trace``, ``debug``, ``profile``, and ``coverage``.
+
+Further more, the individual "trigger" features, either through cookies,
+function calls, environment variables, etc, have been replaced by a generic
+``xdebug.start_with_request`` settings, which can have the values ``never``,
+``trigger``, ``always``, and ``default``. The ``default`` value for the
+setting emulates Xdebug 2's behaviour.
+
+As an example, where you previously used for code coverage::
+
+	xdebug.default_enable=0
+	xdebug.coverage_enable=1 # this was the default
+
+You now use::
+
+	xdebug.mode=coverage
+
+And you also won't have to think about setting ``xdebug.profiler_enable=0``
+and ``xdebug.auto_trace=0``.
+
+Similarly, for step-debugging with the debugger starting when you have a
+warning, error, or exception, you no longer use::
+
+	xdebug.remote_enable=1
+	xdebug.remote_mode=jit
+
+But instead you use::
+
+	xdebug.mode=debug
+	xdebug.start_with_request=trigger
+
+I have not written the documentation or upgrade guide for these changes yet,
+but I expect that to be finished in June, when I will also shift my focus to
+improvement the performance of each month.
+
+Xdebug Cloud
+------------
+
+I worked on Xdebug Cloud only a little in the beginning of the month, with a
+few minor things to iron out before it can be *alpha* tested by interested
+parties. If you've signed up to the `Xdebug Cloud mailinglist
+<http://cloud.xdebug.com>`_ I'll let you know as soon as something can be
+tried-out.
+
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In May, one new supporters signed up:
+
+	`Seravo <https://seravo.com>`_
+
+Thanks!
+
+If you, or your company, would also like to support Xdebug, head over to the
+`support <https://xdebug.org/support>`_ page!
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page and a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_.
