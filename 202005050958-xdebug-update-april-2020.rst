@@ -15,7 +15,7 @@ get it earlier, on the first of each month. You can `become a patron
 If you are leading a team or company, then it is also possible to support
 Xdebug through `a subscription <https://xdebug.org/support>`_.
 
-In March, I worked on Xdebug for about 60 hours, on the following things:
+In April, I worked on Xdebug for about 60 hours, on the following things:
 
 Xdebug 2.9.5
 ------------
