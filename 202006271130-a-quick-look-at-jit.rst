@@ -4,7 +4,7 @@ PHP 8: A Quick Look at JIT
 .. articleMetaData::
    :Where: London, UK
    :Date: 2020-06-27 11:30 Europe/London
-   :Tags: blog, php, phpinternalsnews
+   :Tags: blog, php
    :Short: jit1
 
 Following on from a `PHP 8/JIT benchmark on twitter
