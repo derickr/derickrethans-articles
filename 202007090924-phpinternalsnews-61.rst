@@ -3,7 +3,7 @@ PHP Internals News: Episode 61: Stable Sorting
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2020-07-02 09:24 Europe/London
+   :Date: 2020-07-09 09:24 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin061
    :Enclosure: media/pin-061.mp3
