@@ -1,0 +1,73 @@
+Xdebug Update: June 2020
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2020-07-07 09:32 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-20jun
+
+Another monthly update where I explain what happened with Xdebug development
+in this past month. These will be published on the first Tuesday after the 5th
+of each month. `Patreon <https://www.patreon.com/derickr>`_ supporters will
+get it earlier, on the first of each month. You can `become a patron
+<https://www.patreon.com/bePatron?u=7864328>`_ to support my work on Xdebug.
+If you are leading a team or company, then it is also possible to support
+Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In June, I worked on Xdebug for about 100 hours, with funding being around 70
+hours. I worked mostly on the following things:
+
+Xdebug 3
+--------
+
+I spent most of my time this month on Xdebug 3. In the first week I made a few
+changes around the way how you enable specific features. In Xdebug 2, each
+feature can be turned on at the same time (such as through
+``xdebug.remote_enable``, and ``xdebug.profiler_enable``). In Xdebug 3 this
+has now changed to a single setting ``xdebug.mode`` which for step debugging
+and profiling would have the values ``debug`` and ``profile`` respectively.
+
+I am also in the process of renaming things to have a more logical meaning.
+For example I renamed the filter constants ``XDEBUG_NAMESPACE_BLACKLIST`` with
+``XDEBUG_NAMESPACE_EXCLUDE``. I will continue to rename things on the way
+towards Xdebug 3, with things such as the ``xdebug.remote_host`` likely to
+become something like ``xdebug.ide_hostname``. I am also hoping to reduce the
+amount of settings in general.
+
+By separating out the modes and being able to turn them on with one setting,
+it becomes clearer that it is best not to have all the functionality turned on
+by default. During the rest of the month I've split out Xdebug's internals so
+that it is much easier to enable specific information gathering only when it
+is actually necessary. This should improve performance drastically.
+
+Because Xdebug has lots of old code in it, some of it is still optimised for
+PHP 5. A new, and more performant, way of handling strings was introduced in
+PHP 7, but Xdebug has not yet switched over to that new data type. This is
+what I am currently trying to finalise. Once that is done, I hope to see a
+performance boost already. Stay tuned for some benchmarks on this.
+
+The `upgrade guide <https://3.xdebug.org/docs/upgrade_guide#>`_ has more
+information about all the changes that are coming to Xdebug 3, but please be
+aware that these changes are preliminary, and could still change.
+
+Xdebug Cloud
+------------
+
+I worked on Xdebug Cloud only a little. I have also been in contact with
+JetBrains to evaluate how PhpStorm could connect to Xdebug Cloud without
+requiring a separate (local) proxy service. If you've signed up to the `Xdebug
+Cloud mailinglist <http://cloud.xdebug.com>`_ I'll let you know as soon as
+something can be tried-out. 
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In June, no new supporters signed up.
+
+If you, or your company, would also like to support Xdebug, head over to the
+`support <https://xdebug.org/support>`_ page!
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page and a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_.
