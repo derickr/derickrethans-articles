@@ -29,10 +29,10 @@ Transcript
 ----------
 
 Derick Rethans  0:17  
-Hi, I'm Derick, and this is PHP internals news, a weekly podcast dedicated to demystifying the development of the PHP language. This is Episode 62. Today I'm talking with George Peter Banyard about an RFC that he's proposing called saner numeric strings. Hello George, how are you this morning?
+	Hi, I'm Derick, and this is PHP internals news, a weekly podcast dedicated to demystifying the development of the PHP language. This is Episode 62. Today I'm talking with George Peter Banyard about an RFC that he's proposing called saner numeric strings. Hello George, how are you this morning?
 
 George Peter Banyard  0:36  
-	How are you I'm doing fine. I'm George Peter Banyard. I work on PHP, and I'm currently employed by The Coding Machine to work on PHP.
+	How are you; I'm doing fine. I'm George Peter Banyard. I work on PHP, and I'm currently employed by The Coding Machine to work on PHP.
 
 Derick Rethans  0:46  
 	I actually think I have a bug swatter from The Coding Machine, which is hilarious. Huh, I can't show you that okay of course in a podcast and not on TV. But yes, I think I got it in Paris at some point at a conference there, and it's been happily getting rid of flies in my living room. Anyway, that's not what we want to talk about here today, we want to talk about the RFC that is made, what is the problem that is RFC is hoping to address?
