@@ -224,7 +224,7 @@ Show Notes
 - RFC: `Shorter Attribute Syntax <https://wiki.php.net/rfc/shorter_attribute_syntax>`_
 - RFC: `Treat namespaced names as single token <https://wiki.php.net/rfc/namespaced_names_as_token>`_
 - `Psalm <https://psalm.dev/>`_
-- `PHPStan <https://github.com/phpstan/phpstan>`_
+- `PHPStan <https://phpstan.org/>`_
 
 Credits
 -------
