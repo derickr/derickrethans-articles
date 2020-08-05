@@ -160,7 +160,7 @@ Derick Rethans  24:28
 
 Show Notes
 ----------
-i
+
 - RFC: `Mixed Type v2 <https://wiki.php.net/rfc/mixed_type_v2>`_
 - `Rector for refactoring <https://rectoring.com/>`_
 - `RfcCodex <https://github.com/Danack/RfcCodex/blob/master/rfc_codex.md>`_
