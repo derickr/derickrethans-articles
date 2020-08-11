@@ -3,7 +3,7 @@ PHP Internals News: Episode 66: Namespace Token, and Parsing PHP
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2020-08-06 09:28 Europe/London
+   :Date: 2020-08-13 09:29 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin066
    :Enclosure: media/pin-066.mp3
