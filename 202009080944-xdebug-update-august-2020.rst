@@ -76,7 +76,7 @@ Xdebug Cloud
 
 The only time I spend in August on Xdebug Cloud is some further conversations
 with JetBrains. I am going to work on Xdebug Cloud when these conversations
-mode along a little further.
+move along a little further.
 
 If you want to be kept up to date with Xdebug Cloud, please sign up to the
 `mailinglist <http://cloud.xdebug.com>`_ I'll let you know as soon as
