@@ -1,5 +1,5 @@
-PHP Internals News: Episode 76: Globals, and Phasing Out Serializable
-=====================================================================
+PHP Internals News: Episode 76: Deprecate null, and Array Unpacking
+===================================================================
 
 .. articleMetaData::
    :Where: London, UK
@@ -11,8 +11,8 @@ PHP Internals News: Episode 76: Globals, and Phasing Out Serializable
 In this episode of "PHP Internals News" I chat with Nikita Popov (`Twitter
 <https://twitter.com/nikita_ppv>`_, `GitHub <https://github.com/nikic/>`_,
 `Website <https://nikic.github.io/>`_) about two RFCs: Deprecate passing null
-to non-nullable arguments of internal functions, and Deprecate passing null to
-non-nullable arguments of internal functions.
+to non-nullable arguments of internal functions, and Array Unpacking with
+String Keys.
 
 The RSS feed for this podcast is
 https://derickrethans.nl/feed-phpinternalsnews.xml, you can download_ this
