@@ -3,7 +3,7 @@ PHP Internals News: Episode 76: Globals, and Phasing Out Serializable
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2021-02-11 09:03 Europe/London
+   :Date: 2021-02-18 09:04 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin076
    :Enclosure: media/pin-076.mp3
