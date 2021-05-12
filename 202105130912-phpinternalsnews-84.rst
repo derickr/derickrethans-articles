@@ -13,8 +13,10 @@ In this episode of "PHP Internals News" I converse with Ben Ramsey
 <https://dev.to/ramsey>`_, `Twitter
 <https://twitter.com/ramsey>`_, `GitHub <https://github.com/ramsey>`_)
 and Patrick Allaert (`GitHub <https://github.com/patrickallaert>`_, `Twitter
-<https://twitter.com/AllaertPatrick>`_) about their new role as PHP 8.1
-Release Managers, together with Joe Watkins.
+<https://twitter.com/AllaertPatrick>`_, `StackOverflow
+<https://stackoverflow.com/users/201453/patrick-allaert>`_, `LinkedIn
+<https://www.linkedin.com/in/patrickallaert/>`_) about their new role as PHP
+8.1 Release Managers, together with Joe Watkins.
 
 The RSS feed for this podcast is
 https://derickrethans.nl/feed-phpinternalsnews.xml, you can download_ this
