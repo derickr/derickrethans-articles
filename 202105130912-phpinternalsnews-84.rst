@@ -64,7 +64,7 @@ Derick Rethans  1:59
 	I don't know where that's gone either. In this case, for PHP eight home there are three RM, there's Joe Watkins who has done it before, Ben, you've just introduced yourself, but we also have Patrick Allaert, Patrick, could you also please introduce yourself.
 
 Patrick Allaert  2:13  
-	Hi Derick, thank you for the invitation for the podcast, my name is Patrick Allaert. I am a Belgian freelancer, living in Brussels, and I spent half of my professional time as a IT architect and/or a PHP developer, and the other half, I am maintaining the PHP extension of Blackfire, a performance monitoring solution, initiated by Fabian Potancier.
+	Hi Derick, thank you for the invitation for the podcast, my name is Patrick Allaert. I am a Belgian freelancer, living in Brussels, and I spent half of my professional time as a IT architect and/or a PHP developer, and the other half, I am maintaining the PHP extension of Blackfire, a performance monitoring solution, initiated by Fabien Potencier.
 
 Derick Rethans  2:39  
 	I didn't actually know you were working on that.
