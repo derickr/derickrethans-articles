@@ -3,7 +3,7 @@ PHP Internals News: Episode 87: Deprecating Ticks
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2021-06-04 09:15 Europe/London
+   :Date: 2021-06-03 09:15 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin087
    :Enclosure: media/pin-087.mp3
