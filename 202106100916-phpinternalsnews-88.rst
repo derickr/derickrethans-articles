@@ -3,7 +3,7 @@ PHP Internals News: Episode 88: Pure Intersection Types
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2021-06-04 09:16 Europe/London
+   :Date: 2021-06-10 09:16 Europe/London
    :Tags: blog, php, phpinternalsnews
    :Short: pin088
    :Enclosure: media/pin-088.mp3
