@@ -15,5 +15,5 @@ I finally had the time to finish the report of the discussions (as you
 can see we discussed quite a lot) and publish the `notes`_ .
 
 
-.. _`notes`: http://php.net/~derick/meeting-notes.html
+.. _`notes`: https://derickrethans.nl/files/meeting-notes.html
 
