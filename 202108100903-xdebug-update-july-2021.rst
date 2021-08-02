@@ -1,0 +1,125 @@
+Xdebug Update: July 2021
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2021-08-10 09:03 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-21jul
+
+In this monthly update I explain what happened with Xdebug development
+in this past month. These will be published on the first Tuesday after the 5th
+of each month.
+
+`Patreon <https://www.patreon.com/derickr>`_ and `GitHub
+<https://github.com/sponsors/derickr/>`_ supporters will get it earlier,
+around the first of each month.
+
+You can `become a patron <https://www.patreon.com/bePatron?u=7864328>`_ or
+support me through `GitHub Sponsors <https://github.com/sponsors/derickr>`_.
+I am currently 57% towards my $2,000 per month goal.
+If you are leading a team or company, then it is also possible to support
+Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In July, I worked on Xdebug for about 50 hours, with funding being
+around 25 hours, which is only **half**.
+
+PHP 8.1 Support
+---------------
+
+Now PHP 8.1's feature freeze has happened, I am working on integrating the
+missing features into Xdebug. Last month I added support for PHP 8.1's
+`Enum <https://wiki.php.net/rfc/enumerations>`_ type, but this required a
+little bit more work as it was emitting the same XML attribute more than once
+in some occasions. This came to the surface after adding support for `Readonly
+Properties <https://wiki.php.net/rfc/readonly_properties_v2>`_, another new feature in PHP 8.1.
+
+IDEs have so far not yet been updated to make use of these new "facets" that
+Xdebug's debugger emits. PhpStorm's tracker has an issue for `readonly
+<https://youtrack.jetbrains.com/issue/WI-61669>`_ as well as `enums
+<https://youtrack.jetbrains.com/issue/WI-60860>`_. The VS Code plugin's
+tracker has issues for `readonly
+<https://github.com/xdebug/vscode-php-debug/issues/627>`_ and `enums
+<https://github.com/xdebug/vscode-php-debug/issues/628>`_ as well.
+
+I also had to make some more tweaks with regard to PHP 8.1's changes to
+internals, most notably related to static properties. 
+
+Xdebug 3.1
+----------
+
+Beyond making sure that Xdebug 3.1 works will with PHP 8.1, and continues to
+work with PHP 7.2 through 8.0, I have been adding some new features too.
+
+Xdebug 3.1 will no longer set either a timeout, or use *Strict* cookies to
+manage its debugging session through HTTP. Instead, it now uses a *Lax* and
+relies on the browser closing to clean out the cookie.
+
+I have added a new function, ``xdebug_connect_to_client()``. This function can
+be used to ask Xdebug to try to connect to a debugging client during a
+request. Normally, it only tries this at the start of a request. In some
+cases, with long running processes that run many worker jobs, it is sometimes
+useful to be able to open a debugging client at a later point, and then allow
+for Xdebug to try to connect to this debugging client. It will now do so if
+you call the ``xdebug_connect_to_client()`` function. This feature was
+requested by `Tideways <https://tideways.com/>`_, a `business supporter
+<https://xdebug.org/support>`_ of Xdebug.
+
+Now that PHP 8.1 has introduced a `First Class Callable Syntax
+<https://wiki.php.net/rfc/first_class_callable_syntax>`_, I've updated Xdebug
+tracer and variable display routines to add information about which
+function/method a closure encapsulate as well. This information was previously
+missing. You can learn more about this PHP feature in the PHP Internals News
+episode `First Class Callable Syntax <https://phpinternals.news/92>`_.
+
+
+Xdebug Cloud
+------------
+
+To help with funding my work on Xdebug, I have a paid-for-service, called
+Xdebug Cloud.
+
+Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging in
+more scenarios, where it is hard, or impossible, to have Xdebug make a
+connection to the IDE. It is continuing to operate as Beta release.
+
+Packages start at £49/month, and revenue will be used to further the
+development of Xdebug.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to the
+`mailinglist <https://xdebug.cloud/newsletter>`_, which I will use to send out
+an update not more than once a month.
+
+Xdebug Videos
+-------------
+
+I have published two more videos on how to use Xdebug on my `YouTube channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+These are part of a series to explain how to use Xdebug's profiling:
+
+- `Xdebug 3 Profiling: 1. Setting Up
+  <https://www.youtube.com/watch?v=ttQgLBSpVvc>`_, where I show how to
+  configure Xdebug for profiling.
+- `Xdebug 3 Profiling: 2. KCacheGrind tour
+  <https://www.youtube.com/watch?v=h-0HpCblt3A>`_, where I go over
+  KCacheGrind's (and QCacheGrind's) features.
+
+In an upcoming video I will use a "real life" application to show how to use
+the profiler to find bottlenecks.
+
+If you would like to see a 5 to 10 minute long video on another specific
+topic, feel free to request them through this `Google Form
+<https://forms.gle/ugjGbxs6ZhiTyvCSA>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In July, no new supporters signed up.
+
+If you, or your company, would also like to support Xdebug, head over to the
+`support <https://xdebug.org/support>`_ page!
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page and a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_.
