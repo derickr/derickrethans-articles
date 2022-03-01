@@ -71,7 +71,7 @@ I have published more videos on how to use Xdebug on my `YouTube channel
 
 - `Debugging: Short Closures and Conditional Breakpoints
   <https://youtu.be/_LTKyUBgPaE>`_ explains debugging with Short Closures and
-  Conditional Breakpoints:
+  Conditional Breakpoints.
 - `Xdebug 3: Setting up Apache, PHP, VS Code, and Xdebug in 10 minutes
   <https://youtu.be/MmyxWy8jl7U>`_ shows how to install Apache, PHP, VS Code,
   and Xdebug on Ubuntu 21.10, to get a PHP development set-up, all within 10
