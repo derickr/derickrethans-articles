@@ -184,7 +184,7 @@ Derick Rethans  16:41
 Show Notes
 ----------
 
-- RFC: `Pure Intersectio Types <https://wiki.php.net/rfc/pure-intersection-types>`_
+- RFC: `Pure Intersection Types <https://wiki.php.net/rfc/pure-intersection-types>`_
 - Episode #66: `Namespace Token, and Parsing PHP <https://phpinternals.news/66>`_
 - `GLR Parser <https://en.wikipedia.org/wiki/GLR_parser>`_
 - `LALR(1) Parser <https://en.wikipedia.org/wiki/LALR_parser#Overview>`_
