@@ -120,6 +120,8 @@ I took the train home after I found the station, which was fairly well hidden
 behind a hill and in a valley. At home I enjoyed some tasty `beers
 <https://untappd.com/user/derickr/checkin/1120639402>`_ to relax.
 
-Stay tuned for parts two and three! You can find more photos in my Flickr set
+The story continues in `part 2 </england-coast-path-2.html>`_.
+
+You can find more photos in my Flickr set
 `England Coast Path
 <https://www.flickr.com/photos/derickrethans/albums/72177720296328303>`_.

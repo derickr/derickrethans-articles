@@ -145,6 +145,8 @@ the `Saxon Shore Way
 <https://hiking.waymarkedtrails.org/#route?id=8864&type=relation&map=10.0/51.1621/0.8872>`_.
 Perhaps I walk that at some point in the future.
 
-Stay tuned for part three! You can find more photos in my Flickr set
+The story continues in `part 3 </england-coast-path-3.html>`_.
+
+You can find more photos in my Flickr set
 `England Coast Path
 <https://www.flickr.com/photos/derickrethans/albums/72177720296328303>`_.
