@@ -1,0 +1,163 @@
+Walking: Downs Link
+===================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2022-03-22 14:30 Europe/London
+   :Tags: hiking, nature
+   :Short: dl
+
+As I have mentioned in earlier posts, I would like to walk the `South Downs
+Way
+<https://hiking.waymarkedtrails.org/#route?id=77976&type=relation&map=10.0/50.8986/-0.5208>`_
+this year. I consider it still a little bit too early in the year and
+therefore I have been ticking off lots of other walks a little bit closer to
+home.
+
+Now the weather is improving and the days are long enough again, it is getting
+closer to attempt the South Downs. However, I decided to walk **to** the South
+Downs first Way. Starting at the North Downs Way near Guildford, the `Downs
+Link
+<https://hiking.waymarkedtrails.org/#route?id=1201604&type=relation&map=10.0/51.0298/-0.4214>`_
+takes you from there to Shoreham-on-Sea on the south costs, crossing the South
+Downs Way near Upper Breeding (who comes up with these names?).
+
+To get to the start of the Downs Link I started at Guildford, which is easy
+enough to get to by train from London. From the station I climbed Pewley Hill
+and used The Mile path to get to the North Downs Way.
+
+.. image:: https://live.staticflickr.com/65535/51907733611_dec2ae009c_c_d.jpg
+   :title: The Mile Path
+
+A little further to the east of St. Martha's Hill and its church, the Downs
+Link then starts going south. The route starts off quite steep going down
+through narrow and muddy paths before it goes west to join the route of the
+dysfunctional Wey and Arun canal which it follows for a little while. There is
+another walking route, the `Wey-South Path
+<https://hiking.waymarkedtrails.org/#route?id=1120290&type=relation&map=10.0/51.0659/-0.5265>`_
+which mostly follows the whole length of that canal, which also has some
+conversation work to restore it to a working navigational route again.
+
+However, the Downs Link does not follow the canal for very long, and instead
+mostly follows the path of an two old railway lines: The Cranleigh Line and
+Steyning line. Both were closed as part of the Beeching Axe. Because it
+follows these old railway lines, the way is often flat and very straight.
+I walked the route in spring, and the leaves were starting to grow and the
+grass trying to push through in many places. 
+
+In my first section, from south of Guildford to Christ's Hospital it follows the old
+railway nearly perfectly. There were few walkers around, and the hills around
+it were dotted with churches and chapels. The occasional old station hinting
+at that the route really was an old railway.
+
+.. image:: https://live.staticflickr.com/65535/51908374085_7d743be44f_c_d.jpg
+   :title: Waiting Room
+
+In some places the path was fairly muddy and some sections still had fallen
+trees laid across the track. I had to do some climbing to get over them, but
+at least that was a lot easier for me to do than the occasional cyclist. NCN
+222 does share quite a bit with the Downs Link.
+
+.. image:: https://live.staticflickr.com/65535/51908080309_2a494eedeb_w_d.jpg
+   :title: Tier Bridge
+   :align: left
+
+South of Rudgwick the South Downs Way crosses the A281, a very busy road which
+was hard to cross. I was therefore not surprised to see that there is a
+`campaign <https://bridgethedownslink.org/>`_ to reinstate the bridge that was
+demolished in the 60s.
+
+Talking about bridge, the logo used on way markers is a peculiar looking
+bridge, the Tier Bridge. It has a small view point to get a better photo of
+it, but I think it could have been put a little bit further away still.
+
+From here on, the scenery beyond the trees that surrounded the route became
+more open, with fields and farms. After a while I spotted a tower in the
+distance, which turned out to be a tower attached to Christ's Hospital
+school. This is also the location where the first old railway joined a still
+working one, with a handy station nearby, aptly named, Christ's Hospital.
+
+An hourly train from here brought be back to London Victoria and homewards.
+
+.. image:: https://live.staticflickr.com/65535/51907859863_141312f3c2_c_d.jpg
+   :title: Christ's Hospital Tower
+
+Two weeks later, it was time to walk the final part of the Downs Link,
+starting where I left off and finishing at Shoreham-by-Sea. The weather was
+just as good, if not better, than during the first section.
+
+The paths on the southern section of the Link were generally better maintained
+with lots of gravel, stones, and very little mud. It was also most certainly a
+lot busier with walkers and runners, especially near the larger town of
+Southwater.
+
+This section follows the route of the old Steyning line from Christ's Hospital
+to Shoreham-on-Sea. 
+
+The trees were a little bit greener than two weeks earlier and again I passed
+many old demolished stations. The one at West Grinstead had an old railway
+carriage, also acting as an information point for the Downs Link itself.
+
+.. image:: https://live.staticflickr.com/65535/51935585274_68a523ef6b_c_d.jpg
+   :title: West Grimstead
+
+The scenery was generally flatter and wider, with even more fields and animal
+husbandry than in the northern section. I saw alpacas, where very definitely
+looked out of place, for example. There were also more streams and brooks to
+cross, and the river Adur showed up a few times in the earlier part of the
+walk as well.
+
+.. image:: https://live.staticflickr.com/65535/51935343998_784cf1e2ec_w_d.jpg
+   :title: Funding
+   :align: right
+
+At Partridge Green, the route slightly deviated from the original track bed,
+and was redirected along a not too busy road. The original route was
+obstructed by a new trading estate. Luckily the road walking did not take me
+very long.
+
+Near Henfield I spotted a sign talking about the upgrade to the Downs Link,
+and just like the `England Coast Path </england-coast-path-1.html>`_, it was
+apparently part-funded by the European Union Agricultural fund. The path
+itself was almost never muddy, which made it a lot easier to walk on.
+
+Near Steyning the South Downs themself started to appear larger and larger on
+the horizon and the path once again deviated from the original railway. From
+here on towards the end there was very little to see of it, and instead the
+Downs Link started following the river Adur into Shoreham-on-Sea.
+
+.. image:: /images/content/bramber-reroute.jpg
+   :title: Detour
+   :align: left
+
+Just south of Bramber, I diligently followed the signs for the Downs Link,
+realising after only a few minutes that it sent me on a stupid 1 kilometre
+detour, where I instead just simply could have crossed the moderately busy
+road. I should have followed the route that my watch indicated, which was
+sourced from the excellent Waymarked Trails website, using `OpenStreetMap
+<http://openstreetmap.org>`_ data.
+
+Not long after the unnecessary detour the Downs Link meets the South Downs Way
+and they share the route for a little while until the river Adur. The old
+cement works are clearly visible up against the easterly hills. 
+
+.. image:: https://live.staticflickr.com/65535/51935890135_6bdb22d1d7_c_d.jpg
+   :title: Adur Banks
+
+Having passed the cement works the route takes you down the Adur towards the
+finish. Across the river the chapel of Lancing College is hard to miss on the
+hill, especially with the sun getting lower and creating some great shadows on
+the building. Not much after that you pass the `Old Toll Bridge
+<https://en.wikipedia.org/wiki/Shoreham_Tollbridge>`_, the last of its kind in
+the world, from where you can see the chapel on the hill as well.
+
+.. image:: https://live.staticflickr.com/65535/51935280221_3f4d95a137_c_d.jpg
+   :title: Old Toll Bridge with Lancing College Chapel
+
+My walk finished at the new railway bridge carrying the West Coastway Line. I
+did consider continuing along the shore to Brighton, but I after 32
+kilometres, doing another 10 seems a little bit over the top!
+
+I hope you enjoyed this tale of the Downs Link. You can find more photos in my
+Flickr `set
+<https://www.flickr.com/photos/derickrethans/albums/72177720296999596>`_.
