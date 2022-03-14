@@ -60,9 +60,9 @@ Progressing East again from the Gardens there was another diversion. Instead
 of going through an industrial estate, I had to skirt it on its South side to
 avoid some leaking tires. I don't know what would have been nicer to walk
 through, as the "detour" was not great, with inadequate footpaths, but when I
-peeked through the estate it did look to nice either.
+peeked through the estate it didn't look too nice either.
 
-What was however interesting to see was the begininning (or end) of the now
+What was however interesting to see was the beginning (or end) of the now
 disused `Thames and Medway Canal
 <https://en.wikipedia.org/wiki/Thames_and_Medway_Canal>`_.
 
