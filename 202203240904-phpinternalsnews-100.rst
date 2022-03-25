@@ -29,7 +29,7 @@ Derick Rethans  0:14
 	Hi, I'm Derick. Welcome to PHP internals news, the podcast dedicated to explaining the latest developments in the PHP language. This is episode 100. Today I'm talking with Saif Eddin Gmati about the sealed classes RFC that they're proposing. Saif, would you please introduce yourself?
 
 Saif Eddin Gmati  0:31
-	Hello, my name is Saif Eddin Gmati. I work as a Senior programmer at Italy. I'm an open source enthusiast and contributor.
+	Hello, my name is Saif Eddin Gmati. I work as a Senior programmer at Les-Tilleuls.coop. I'm an open source enthusiast and contributor.
 
 Derick Rethans  0:39
 	Let's dive straight into this RFC. What is the problem that you're trying to solve with it?
@@ -77,16 +77,16 @@ Derick Rethans  4:32
 	It only gets checks if you're trying to implement an interface.
 
 Saif Eddin Gmati  4:36
-This gets enforced when trying to implement an interface, extend that class, or use it trait.
+	This gets enforced when trying to implement an interface, extend that class, or use it trait.
 
 Derick Rethans  4:41
-Okay. What are general use cases for this feature?
+	Okay. What are general use cases for this feature?
 
 Saif Eddin Gmati  4:45
-General use cases for a feature are for example, implementing programming concepts such as Option which is a type that can only have two subtypes. One is Some, other is None. Another concept is the Result where only two subtypes are possible, either success or failure. Another use case is to restrict inheritance. As I mentioned before, for example, logger trait from the PSR log package is a trait that implements some of the method methods in logger interface, and expects whoever is using that trait to implement the rest. However, there is no restriction by the language regarding this, we can seal this trait to a logger interface ensuring that only loggers are allowed use this trait.
+	General use cases for a feature are for example, implementing programming concepts such as Option which is a type that can only have two subtypes. One is Some, other is None. Another concept is the Result where only two subtypes are possible, either success or failure. Another use case is to restrict inheritance. As I mentioned before, for example, logger trait from the PSR log package is a trait that implements some of the method methods in logger interface, and expects whoever is using that trait to implement the rest. However, there is no restriction by the language regarding this, we can seal this trait to a logger interface ensuring that only loggers are allowed use this trait.
 
 Derick Rethans  5:34
-When you say that Option has like the value Some or None, just sound like an enum to me. How should I think differently about enums and sealed classes here?
+	When you say that Option has like the value Some or None, just sound like an enum to me. How should I think differently about enums and sealed classes here?
 
 Saif Eddin Gmati  5:43
 	Enums cannot hold a dynamic value. You can have a value but you cannot have a dynamic value, however, tagged unions will allow you to implement option the same way. Tagged unions are that useful only for this specific case, there is some other cases such as the one I mentioned for traits that cannot actually be implemented using the tagged unions. There is also the I don't know how to say this. Let's say we have a type A that sealed and permitting only B and C. And this case A on itself, as long as it's not an abstract class, is by itself a type. Can be used as a normal class, you can create an instance and use it normally. However with tagged unions, the option itself would not be a type, you either have some or none. That's the main difference between tagged unions until classes
