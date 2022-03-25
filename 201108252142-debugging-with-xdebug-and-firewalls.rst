@@ -7,6 +7,10 @@ Remote Debugging PHP with a Firewall in the Way
    :Tags: blog, php, xdebug
    :Short: xdebug-fw
 
+*Updated on March 25th, 2022* to reflect the new setting names for Xdebug 3.
+See also the `upgrade guide <https://xdebug.org/docs/upgrade_guide>`_ for
+various other changes.
+
 The PHP debugging extension Xdebug_ has "remote" debugging_ capabilities for
 single-step debugging PHP applications. This works by setting your favourite
 IDE into listening mode and instructing Xdebug (with one of the handy browser
@@ -17,17 +21,19 @@ listening IDE. This IP address can just be ``127.0.0.1`` in case your IDE and
 web server/CLI script run on the same machine. But as Xdebug supports remote
 debugging, PHP/Xdebug could also be running on a totally different machine than
 your IDE. In that case, you need to pick the IP address of the machine on which
-the IDE is running as the configuration value for ``xdebug.remote_host``.
-Alternatively you can set ``xdebug.remote_connect_back`` to true, so that
+the IDE is running as the configuration value for ``xdebug.client_host``
+(Xdebug 2 used ``xdebug.remote_host``).
+Alternatively you can set ``xdebug.discover_client_host`` (Xdebug 2 used
+``xdebug.remote_connect_back``) to true, so that
 Xdebug may simply pick up your client machine's IP address from the HTTP
 headers.
 
-.. _Xdebug: http://xdebug.org
-.. _debugging: http://xdebug.org/docs/remote
-.. _extensions: http://xdebug.org/docs/remote#browser-extensions
-.. _configured: http://xdebug.org/docs/remote#remote_host
-.. _address: http://xdebug.org/docs/remote#remote_host
-.. _port: http://xdebug.org/docs/remote#remote_port
+.. _Xdebug: https://xdebug.org
+.. _debugging: https://xdebug.org/docs/remote
+.. _extensions: https://xdebug.org/docs/remote#browser-extensions
+.. _configured: https://xdebug.org/docs/remote#client_host
+.. _address: https://xdebug.org/docs/remote#client_host
+.. _port: https://xdebug.org/docs/remote#client_port
 
 There could however be a firewall in the way that prevents Xdebug connecting
 directly to your IDE's IP address. That can be because the network you are on
@@ -49,22 +55,22 @@ There is another solution, at least, if you have SSH_ access to the
 development machine where Xdebug is running on. In this case, you can simply
 ssh in and set-up a tunnel::
 
-	ssh -R 9000:localhost:9000 username@dev.example.com
+	ssh -R 9003:localhost:9003 username@dev.example.com
 
-This command opens up port ``9000``, configured with the first ``9000`` in
+This command opens up port ``9003``, configured with the first ``9003`` in
 the command, for listening on the machine where you ssh-ed into. Every
-connection that is made to this port is then forwarded to ``localhost:9000``,
-which in this case is port ``9000`` on the machine from where you ran the
-``ssh`` command from. When you set Xdebug's ``xdebug.remote_host`` setting to
-``localhost`` and ``xdebug.remote_port`` to ``9000`` you know have instructed
+connection that is made to this port is then forwarded to ``localhost:9003``,
+which in this case is port ``9003`` on the machine from where you ran the
+``ssh`` command from. When you set Xdebug's ``xdebug.client_host`` setting to
+``localhost`` and ``xdebug.client_port`` to ``9003`` you know have instructed
 Xdebug to connect to your SSH-tunneled connection which is forwarded to your
-local port ``9000``. And that is exactly where your IDE is listening for
+local port ``9003``. And that is exactly where your IDE is listening for
 incoming debugging connections. Result: Firewall circumvented.
 
 .. _SSH: http://en.wikipedia.org/wiki/Secure_Shell
 .. _putty: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 
-If you are so unfortunate to be using Windows on the client side then you
+If you are using Windows on the client side then you
 don't have the luxury of being able to use the simple SSH client. However,
 you can set-up tunnels with putty_ as well. After configuring your normal
 session, go to the ``Connection``, ``SSH``, ``Tunnels`` section of the
@@ -83,12 +89,12 @@ Don't forget to go back to the ``Session`` tab and press save. You're now
 ready to login and when you do so an SSH tunnel will be created just like in
 the Unix case above.
 
-You can check whether it worked by running: ``netstat -a -n | grep 9000`` on
+You can check whether it worked by running: ``netstat -a -n | grep 9003`` on
 the SSH prompt after logging in. You should then see::
 
-	derick@xdebug:~$ netstat -a -n | grep 9000
-	tcp        0      0 0.0.0.0:9000            0.0.0.0:*               LISTEN     
-	tcp6       0      0 :::9000                 :::*                    LISTEN  
+	derick@xdebug:~$ netstat -a -n | grep 9003
+	tcp        0      0 0.0.0.0:9003            0.0.0.0:*               LISTEN
+	tcp6       0      0 :::9003                 :::*                    LISTEN
 
 The ``tcp6`` portion might not be there, but that's all right. There, even
 with Windows: Firewall circumvented.
