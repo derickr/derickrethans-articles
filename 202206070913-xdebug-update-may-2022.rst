@@ -55,7 +55,7 @@ VS Code Plug-in teams confirming that they will make changes for this.
 
 In this GIF you can see how this is useful with fluent interfaces:
 
-.. image:: /images/content/return-value-fluent-small.gif
+.. image:: /images/content/return-value-fluent.gif
 
 
 Course
