@@ -1,0 +1,116 @@
+Xdebug Update: July 2022
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2022-08-09 09:06 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-22jul
+
+In this monthly update I explain what happened with Xdebug development
+in this past month. These are normally published on the first Tuesday on
+or after the 5th of each month.
+
+`Patreon <https://www.patreon.com/derickr>`_ and `GitHub
+<https://github.com/sponsors/derickr/>`_ supporters will get it earlier,
+around the first of each month.
+
+You can `become a patron <https://www.patreon.com/bePatron?u=7864328>`_
+or support me through `GitHub Sponsors
+<https://github.com/sponsors/derickr>`_. I am currently 46% towards my
+$2,500 per month goal. If you are leading a team or company, then it is
+also possible to support Xdebug through `a subscription
+<https://xdebug.org/support>`_.
+
+In July, I spend 18 hours on Xdebug, with 32 hours funded. I have been
+on holiday, so was not be able to dedicate as much time as I wanted to.
+
+Xdebug 3.2
+----------
+
+Most of the work that I did on Xdebug was related to release the first
+two alpha releases of Xdebug 3.2, which add support for PHP 8.2, and
+drops support for PHP 7.2, PHP 7.3, and PHP 7.4. I do not enjoy dropping
+support for older PHP versions, but the additional time it costs to
+maintain older versions, and have their configurations run on CI, is not
+really worth my time. Of course, users of PHP 7.2 through PHP 7.4 can
+continue to use Xdebug 3.1. The guidelines of which PHP versions Xdebug
+supports is outlined in the `documentation
+<https://xdebug.org/docs/compat>`_.
+
+Now that PHP 8.2 itself has approached beta state, it was time to
+release the first alphas of Xdebug 3.2 as well. In the near future, when
+PHP 8.2 comes into their Release Candidates cycle, I will release beta
+versions of Xdebug 3.2 as well, with a stable release when PHP 8.2.0
+comes out.
+
+These alphas and betas are an excellent opportunity to try out Xdebug
+3.2, as well as PHP 8.2, to see whether your projects support the latest
+PHP version, and how Xdebug 3.2 interacts with that.
+
+The main new features in Xdebug 3.2 can now also be tested. And these
+include: 
+
+- Support for PHP 8.2.
+- The step debugger now introduces an extra step when returning from a
+  function, so that you can inspect the return value. This is supported
+  in the `PHP Debug Adapter for Visual Studio Code
+  <https://github.com/xdebug/vscode-php-debug>`_, but not yet in
+  PhpStorm, although there is a `ticket
+  <https://youtrack.jetbrains.com/issue/WI-66918/Support-Return-Value-Debugging-in-XDebug>`_.
+- You can now configure a list of headers to scan for through the
+  `xdebug.client_discovery_header
+  <https://xdebug.org/docs/all_settings#client_discovery_header>`_
+  setting, instead of only being able to set one. The documentation for
+  this is yet to follow.
+- The step debugger now supports the pseudo hosts ``xdebug://gateway``
+  and ``xdebug://nameserver`` as values to the `xdebug.client_host
+  <https://xdebug.org/docs/all_settings#client_host>`_ setting. These
+  pseudo-hosts instruct Xdebug to try to make a debugging connection to
+  the default gateway and name server (as configured on Linux through
+  ``/etc/resolv.conf`` and friends) respectively. The documentation for
+  this is yet to follow too.
+
+I am intending to create a video for each of these new features for my
+`YouTube channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+Course
+------
+
+The first lesson is now nearly fully edited, with just the "tech talk"
+section to finish. Beyond that, I will need to work on create a web site
+to publish this course too, so that you can take it. The course will
+consist of many chapters, with some of them being free.
+
+Xdebug Cloud
+------------
+
+Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging
+in more scenarios, where it is hard, or impossible, to have Xdebug make
+a connection to the IDE. It is continuing to operate as Beta release.
+Packages start at £49/month.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailinglist <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.
+
+Xdebug Videos
+-------------
+
+I have published no new videos this month, but you can find all previous
+videos on my `YouTube channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In July, no new business supporters signed up.
+
+If you, or your company, would also like to support Xdebug, head over to
+the `support <https://xdebug.org/support>`_ page!
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
