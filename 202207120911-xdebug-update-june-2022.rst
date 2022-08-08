@@ -1,0 +1,91 @@
+Xdebug Update: June 2022
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2022-07-12 09:11 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-22jun
+
+In this monthly update I explain what happened with Xdebug development in this
+past month. These are normally published on the first Tuesday on or after the
+5th of each month.
+
+`Patreon <https://www.patreon.com/derickr>`_ and `GitHub
+<https://github.com/sponsors/derickr/>`_ supporters will get it earlier,
+around the first of each month.
+
+You can `become a patron <https://www.patreon.com/bePatron?u=7864328>`_ or
+support me through `GitHub Sponsors <https://github.com/sponsors/derickr>`_.
+I am currently 46% towards my $2,500 per month goal.
+If you are leading a team or company, then it is also possible to support
+Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In June, I spend 25 hours on Xdebug, with 25 hours funded.
+
+Development
+-----------
+
+Some of the time this month I spend with fixed a few old bugs, and some new
+ones with the new return value debugging that I spoke about last month.
+
+This feature allows you to step into the "return value from function" phase,
+where PHP returns a value to the caller function. In this step, there will
+only be one variable available, which is the return value of that function.
+
+This is now supported with version 1.27 of the PHP Debug Adapter for Visual
+Studio Code, if you'd like to try it out.
+
+In this GIF you can see how this is useful with fluent interfaces:
+
+.. image:: /images/content/return-value-fluent.gif
+
+PHP Version Support
+-------------------
+
+The other half of my time I spend with adding support for PHP 8.2 for Xdebug
+3.2, and dropping support for PHP 7.3 from this same branch. With that, I've
+also updated the `version compatibility matrix <https://xdebug.org/docs/compat>`_.
+
+I have also started on removing PHP 7.4 support for Xdebug 3.2 as well, so
+that it will only support PHP 8.0 and later. Users of older PHP versions will
+still be able to use Xdebug 3.1.
+
+Course
+------
+
+I have spend no more time writing actual content for the course, but I have
+been collecting subjects to cover. If you have any suggestions of topics that
+the course should cover, please get in touch.
+
+Xdebug Cloud
+------------
+
+Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging in
+more scenarios, where it is hard, or impossible, to have Xdebug make a
+connection to the IDE. It is continuing to operate as Beta release.
+Packages start at £49/month.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to the
+`mailinglist <https://xdebug.cloud/newsletter>`_, which I will use to send out
+an update not more than once a month.
+
+Xdebug Videos
+-------------
+
+I have published no new videos this month, but
+you can find all previous videos on my `YouTube channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In June, no new business supporters signed up.
+
+If you, or your company, would also like to support Xdebug, head over to the
+`support <https://xdebug.org/support>`_ page!
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
