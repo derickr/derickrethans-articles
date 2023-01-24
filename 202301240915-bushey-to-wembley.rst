@@ -3,7 +3,7 @@ Walking: Bushey to Wembley
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2023-01-25 09:15 Europe/London
+   :Date: 2023-01-24 09:15 Europe/London
    :Tags: blog, hiking, slowways
    :Short: bus-wem
 
