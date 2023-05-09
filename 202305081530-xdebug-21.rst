@@ -41,7 +41,7 @@ But there are plenty of things that should be done, and several that would
 make Xdebug even more powerful in streamlining debugging and improving your
 applications. These are also things I would **like** to work on.
 
-Current features that need (in my opinion) need improvement are:
+Current features that (in my opinion) need improvement are:
 
 Profiling
 
