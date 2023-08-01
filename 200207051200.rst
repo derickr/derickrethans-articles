@@ -21,7 +21,6 @@ There was some shooting incident at LAX, and that may be classified as a
 terrorist attack against the state of Israel. You can find some
 interesting insight on Israel and this situation below:
 
-	
 	Let's put it this way. The fact that there are people trying to cross
 	the Egyptian border into Israel, who usually get caught either by the
 	Egyptian army or by the IDF and admit in their questioning that they
@@ -37,20 +36,16 @@ interesting insight on Israel and this situation below:
 	nation level, as far as anti west, and primarily anti-Israeli propaganda
 	when the 'small person' just gets up and does something about it,
 	it's too late. And it's a part of the overall effort.
-
 	-- Zeev Suraski
 
-	
 	Let's make a (currently) imaginary experiment: Let's say someone
 	downtown Boston wakes up tomorrow, tunes in to whatever Osama has to say
 	believes in it wholeheartedly, goes to his work room in the back and
 	prepares a big ass bomb and blows himself up in a busy shopping mall
 	(something which is much closer to reality than some care to think).  Is
 	he a random whacko, or a terrorist?
-
 	-- Zeev Suraski
 
-	
 	The organization in this case is fundamental Islam and the fierce anti
 	Israeli and anti-west propaganda in most of the Arab states.  That's
 	the bond, and it's stronger than you may think.  As I wrote a friend a
@@ -64,7 +59,6 @@ interesting insight on Israel and this situation below:
 	They're both terrorists.  What drives them is identical.  The rest is
 	details (important details, no doubt, but not important or even relevant
 	to their tagging as terrorists).
-
 	-- Zeev Suraski
 
 .. _`PHP Bug Hunt Event`: http://www.php.net/~derick/bugpacks.html

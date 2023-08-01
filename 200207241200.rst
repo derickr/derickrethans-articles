@@ -4,8 +4,9 @@ ActiveState Awards
 .. articleMetaData::
    :Where: Groessen, The Netherlands
 
-Apperently I've won the `ActiveState Activators' Choice Award`_
+Apparently I've won the `ActiveState Activators' Choice Award`_
 together with Jani.
+
 *"The Active Awards are presented annually, to honor members of the open source
 community who actively contribute to open languages and display excellence in
 their programming efforts. Programmers' Choice Award winners were nominated
@@ -19,10 +20,9 @@ me and `Jani`_ was this:
 	progress and quality of PHP over the past year has been outstanding. They
 	deserve the ActiveAwards for their relentless work in an area that is often
 	difficult and unending.
-
 	-- http://www.activestate.com/Corporate/Awards/ActiveAwards.html
 
-Right, working on QA and bughunting is not always difficult, but it is
+Right, working on QA and bug hunting is not always difficult, but it is
 certainly unending, but that's normal for such an moving target
 as `PHP`_. Luckily PHP is getting more and more stable in 
 spite of the `Security Update Release`_

@@ -17,32 +17,30 @@ It started all with the following conversation:
 	for Microsoft Windows as a PHP
 	library?
 
-	-- Willie
+	- Willie
 
-	
+----
+
 	Hi Willie,
 
 	I require a consultancy fee of 200 USD for these services.
 
-	-Sterling
-
-	-- Sterling Hughes
+	- Sterling Hughes
 
 That sounds like a new tactic for Sterling, not charging for code, but for
 things that users can get for free :)
 
 Of course it was not a totally expected to get such a response from an Open
-Source devellopper and decided to search to find support elsewhere.  He was even
+Source developer and decided to search to find support elsewhere.  He was even
 so nice to tell Sterling that:
 
-	
 	Hi Sterling,
 
 	Fortunately I found a PHP class on the WWW that does what I need.
 
 	Thanks, anyway...
 
-	-- Willie
+	- Willie
 
 Quoting Sterling on his response: "Isn't it nice how the respect your time
 enough to annoy you when in *under* 5 minutes users can find the answer when it

@@ -8,7 +8,6 @@ A friend of me pointed me to the following article, that appeared in a
 `Italian newspaper`_. I decided to translate it, as almost nobody is be
 able to read German:
 
-	
 	When Burger &amp; Koler Consulting presented their analysis in September,
 	the gentlemen in the board were shocked: "...extraordinary large fluctuations
 	in the workforce", "shitty communications", "shocking awareness that the
@@ -18,10 +17,9 @@ able to read German:
 	as Pentap Technologies founded software-corporation was known as one of the
 	most innovative companies in South Tyrol. An IPO was even planned for 2002.
 
-	-- ff - Südtiroler Wochenmagazin, Norbert Dall
+	- ff - Südtiroler Wochenmagazin, Norbert Dall
 
-	
-	But an anti-climax occured. Ratschiller, who was international-known as
+	But an anti-climax ocurred. Ratschiller, who was international-known as
 	Computer-guru developed a new way to publish websites based on the new
 	scripting language
 	PHP. He was planning to seek for investors who wanted him to join in his
@@ -57,7 +55,7 @@ able to read German:
 	money again." Robert Finazzer, Ratschillers partner since the beginning of
 	the adventure bailed out a year ago too.
 
-	-- ff - Südtiroler Wochenmagazin, Norbert Dall
+	- ff - Südtiroler Wochenmagazin, Norbert Dall
 
 	
 	Anyway, as Alfred Guariello, while he invested less, sees not soo black clouds:
@@ -75,7 +73,7 @@ able to read German:
 	or we need to sell the company". Begin November the board will make the
 	decision about the faith of the company of the Southtirolian Bill Gates.
 
-	-- ff - Südtiroler Wochenmagazin, Norbert Dall
+	- ff - Südtiroler Wochenmagazin, Norbert Dall
 
 .. _`xdebug`: http://xdebug.org/
 .. _`PHP`: http://www.php.net/

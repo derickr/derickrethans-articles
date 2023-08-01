@@ -24,15 +24,15 @@ with the `search term xdebug`_.
 However, sometimes I get tweets in a language I can't read; for example
 Brazilian Portuguese:
 
-	  Debugando aplicações PHP com Xdebug e Eclipse PDT: http://bit.ly/ffJC4G
+	Debugando aplicações PHP com Xdebug e Eclipse PDT: http://bit.ly/ffJC4G
 
-	  -- junichi_y
+	- junichi_y
 
 or Japanese:
 
-	  @pomu0325 ありがとうございます！このXdebugの書き方と各場所を調べてたんですよ！こんなふうに書くんですね。
+	@pomu0325 ありがとうございます！このXdebugの書き方と各場所を調べてたんですよ！こんなふうに書くんですね。
 
-	  -- Ken
+	- Ken
 
 Once in a while, I would send these tweets through `Google's language
 tools`_  but then my friend Elizabeth_ tweeted:
@@ -40,7 +40,7 @@ tools`_  but then my friend Elizabeth_ tweeted:
 	Hey Lazyweb, is there a twitter client that lets me filter tweets by
 	language?
 
-	--  Elizabeth Naramore
+	- Elizabeth Naramore
 
 Instead of a manual copy and paste in into the language tools, I thought
 it'd be nice to embed it directly into the client when it is requested.
@@ -52,7 +52,6 @@ query a specific URL containing the text you want to guess the language off.
 and parse the returned JSON_ structure. The Google website has an example__
 which basically boils down to requesting the following URL:
 `https://ajax.googleapis.com/ajax/services/language/detect?v=1.0&q=Hola,+mi+amigo`__
-
 
 It returns the following JSON struct::
 
@@ -125,7 +124,7 @@ This translates the input text "Hola, mi amigo!" to Norwegian (language code
 		},
 		"responseDetails": null,
 		"responseStatus": 200
-	}	
+	}
 
 The ``responseData->detectedSourceLanguage`` element shows which language
 Google thought the original text was in (``es`` in our case). It does not
