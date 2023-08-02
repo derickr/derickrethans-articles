@@ -1,0 +1,91 @@
+Xdebug Update: July 2023
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2023-08-08 09:52 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-23jul
+
+In this monthly update I explain what happened with Xdebug development
+in this past two months. These are normally published on the first
+Tuesday on or after the 5th of each month.
+
+`Patreon <https://www.patreon.com/derickr>`_ and `GitHub
+<https://github.com/sponsors/derickr/>`_ supporters will get it earlier,
+around the first of each month.
+
+You can `become a patron <https://www.patreon.com/bePatron?u=7864328>`_
+or support me through `GitHub Sponsors
+<https://github.com/sponsors/derickr>`_. I am currently 37% towards my $2,500
+per month goal, which is set to allow continued maintenance of Xdebug.
+
+If you are leading a team or company, then it is also possible to
+support Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In the last month, I spend around 15 hours on Xdebug, with 25 hours funded.
+This is much less than I wanted, but instead I have been busy implementing
+features for PHP.
+
+Towards Xdebug 3.3
+------------------
+
+I have been keeping up with changes in PHP 8.3's development, and had to
+adjust some tests as PHP has changed a few things, making my expected results
+incorrect.
+
+I also fixed a number of crash bugs, resulting in the release of Xdebug 3.2.2
+early in the month.
+
+Now PHP 8.3 has its first beta release, it is soon time to make an alpha
+release of Xdebug so that it can be installed through PECL, instead of by
+having to checkout the Git repository by hand.
+
+Over the next few months I will continue to work on the features and issues on
+the `3.3 roadmap <https://bugs.xdebug.org/roadmap_page.php?version_id=101>`_,
+without any guarantees these tickets will be implemented.
+
+If you have comments, suggestions, or if your company wants to help fund 
+features, please `reach out <mailto:derick@xdebug.org>`_, or leave comments on
+the document.
+
+Xdebug Videos
+-------------
+
+I have published no new videos in the last few months.
+
+Let me know what you'd like to see!
+
+You can find all previous videos on my `YouTube channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In the last few months, no new business supporters signed up.
+
+Some of the supporters that I reached out to, have supplied their logos,
+making the `front page less bland <https://xdebug.org/#business_supporters>`_.
+
+If you, or your company, would also like to support Xdebug, head over to
+the `support <https://xdebug.org/support>`_ page!
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
+
+Xdebug Cloud
+------------
+
+Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging
+in more scenarios, where it is hard, or impossible, to have Xdebug make
+a connection to the IDE. It is continuing to operate as Beta release.
+
+Packages start at £49/month, and I have recently introduced a package
+for larger companies. This has a larger initial set of tokens, and
+discounted extra tokens.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailinglist <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.
