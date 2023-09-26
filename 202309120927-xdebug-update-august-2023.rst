@@ -28,7 +28,7 @@ In the last month, I spend around 27 hours on Xdebug, with 32 hours funded.
 Towards Xdebug 3.3
 ------------------
 
-In August I mostly spend my time on improving Xdebug's
+In August I mostly spent my time on improving Xdebug's
 `xdebug_get_function_stack()` function and stack traces with regard to
 chained exceptions.
 
