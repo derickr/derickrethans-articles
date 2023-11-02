@@ -5,7 +5,7 @@ Flamboyant Flamegraphs
    :Where: London, UK
    :Date: 2023-11-07 15:00 Europe/London
    :Tags: blog, php, xdebug
-   :Short: flamboyant-flamegraph
+   :Short: flgrph
 
 In this article, I am showing you how to make a flamegraph, a new feature in
 Xdebug 3.3.
