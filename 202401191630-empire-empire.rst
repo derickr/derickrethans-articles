@@ -3,7 +3,7 @@ Friday Night Dinner: Empire Empire
 
 .. articleMetaData::
    :Where: Empire Empire
-   :Date: 2024-01-12 18:30 Europe/London
+   :Date: 2024-01-19 18:30 Europe/London
    :Tags: blog, php, fnd
    :Short: empire
    :URL: https://www.empire-empire.restaurant/ 
