@@ -31,3 +31,9 @@ onto try what sounded like tasty desserts from the menu.
 Service at Empire Empire was very welcoming and attentive (and quick, but not
 rushed) we were out and heading home on the bus about an hour after sitting
 down.
+
+.. carousel::
+    :name: empire-empire
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :empire-empire-1: Butter Chicken
+    :empire-empire-3: Lamb Biryani

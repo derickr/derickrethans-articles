@@ -50,3 +50,13 @@ going for the traditional starter plus main course approach.
 The place was pretty full, and when we left I remarked that we were probably
 amongst the oldest of the clientele, but we didn't feel out of place. Which I
 think is a good sign.
+
+.. carousel::
+    :name: east-street
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :east-street-1: Interior
+    :east-street-2: Chicken Satay
+    :east-street-3: Popcorn Chicken
+    :east-street-4: Tamarind Chicken
+    :east-street-5: Rendang
+

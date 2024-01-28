@@ -41,3 +41,8 @@ Our only regret was probably ordering too much food. One and a half starter,
 and a full main per person was certainly too much. But that's not the worst
 problem to have if your dinner was so tasty.
 
+.. carousel::
+    :name: ma-petite-jamaica
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :ma-petite-jamaica-1: Fried Dumpling, with Ackee and Saltfish
+    :ma-petite-jamaica-2: Curried Goat
