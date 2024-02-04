@@ -4,7 +4,7 @@ Friday Night Dinner: Noon
 .. articleMetaData::
    :Where: Griend 7, 6221 AJ Maastricht, The Netherlands
    :Date: 2023-12-22 18:30 Europe/London
-   :Tags: blog, php, fnd
+   :Tags: blog, fnd
    :Short: noon
    :URL: https://noonmaastricht.nl/
    :Costs: Food: €70, Drinks: €26
