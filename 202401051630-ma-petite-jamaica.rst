@@ -4,7 +4,7 @@ Friday Night Dinner: Ma Petite Jamaica
 .. articleMetaData::
    :Where: 4-6 Inverness Street, London, NW1 7HJ, UK
    :Date: 2023-12-29 18:30 Europe/London
-   :Tags: blog, php, fnd
+   :Tags: blog, fnd
    :Short: ma-petite-jamaica
    :URL: https://www.mapetitejamaica.com/
    :Costs: Food: £65, Drinks: £25

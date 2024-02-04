@@ -4,7 +4,7 @@ Friday Night Dinner: East Street by Tampopo
 .. articleMetaData::
    :Where: 3–5 Rathbone Place, London W1T 1HJ, UK
    :Date: 2024-01-26 18:30 Europe/London
-   :Tags: blog, php, fnd
+   :Tags: blog, fnd
    :Short: east-street
    :URL: https://tampopo.co.uk/fitzrovia/
    :Costs: Food: £50; Drinks: £35

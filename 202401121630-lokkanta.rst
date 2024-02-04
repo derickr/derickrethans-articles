@@ -4,7 +4,7 @@ Friday Night Dinner: Lokkanta
 .. articleMetaData::
    :Where: 31 Westbourne Grove, London W2 4UA, United Kingdom
    :Date: 2024-01-05 18:30 Europe/London
-   :Tags: blog, php, fnd
+   :Tags: blog, fnd
    :Short: lokkanta
    :URL: https://lokkantaturkishrestaurant.co.uk/
    :Costs: Food: £45, Drinks: £25
