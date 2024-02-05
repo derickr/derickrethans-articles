@@ -1,0 +1,58 @@
+Friday Night Dinner: Burn's Night at Browns
+===========================================
+
+.. articleMetaData::
+   :Where: 82-84 St Martin's Lane, London WC2N 4AG, UK
+   :Date: 2024-02-02 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: browns
+   :URL: https://www.browns-restaurants.co.uk/restaurants/london/covent-garden#/ 
+   :Costs: Food and Drinks pairing: £110
+   :Rating: positive
+   :Author: Derick Rethans
+
+At the end of January, more shops start stocking haggis again. Haggis is a
+traditional food of Scotland and the main event of a Burns supper, where the
+life of the poet Robert Burns is celebrated. It is often paired with neeps and
+tatties (mashed swede and potatoes).
+
+With my partner having Scottish ancestry, we usually prepared our own. In the
+earlier years with friends and family, in the form of "drink some of Derick's
+whisky". In later years just for the two of us. This year, we chose to not
+prepare our own, and instead enjoy somebody else cooking it for us.
+
+We have been to Browns in Covent Garden a few times before — we even had our
+engagement party there. We know it as a reliable place with good food, and
+tasty cocktails. For Burns Night they were offering a short set menu, with a
+whisky pairing that sounded to our liking.
+
+As a starter we both had the seared scallops. They were sweet and bouncy, and
+just cooked right. There were herbs sprinkled over them, and they were served
+with Parmesan crisps and a creamy sauce. It was paired with a 12-year-old
+Glenfiddich, which paired perfectly.
+
+After waiting for a while — too long really — the main event showed up. Three
+thick slices of haggis, slightly crisped up on the outside, and served on a
+bed of the aforementioned neeps and tatties. Served with a sweetened gravy, of
+which more could have been served. I thought that the crisped up edges added a
+little extra texture to the otherwise well spiced and prepared haggis. This
+was paired with a 15-year-old Glenfiddich, which is a little spicier itself.
+
+For our desert, the two of us picked something different. My partner had the
+traditional Scottish Cranachan, where I chose the crumble. I can't resist a
+good crumble, and this one was certainly one.
+
+In the end, I thought it was a good meal, and certainly filling. The service
+was a little slow, and some confusion did ensue while we were waiting for our
+whisky to be paired with the haggis main course. I also thought it was a
+little on the pricier side of what it is.
+
+I think next year we'll cook our own again, even though means we'll have to do
+the dishes too!
+
+
+.. carousel::
+    :name: east-street
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :browns-1: Scallops
+    :browns-2: Haggis, Neeps, and Tatties
