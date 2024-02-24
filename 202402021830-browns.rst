@@ -52,7 +52,7 @@ the dishes too!
 
 
 .. carousel::
-    :name: east-street
+    :name: browns
     :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
     :browns-1: Scallops
     :browns-2: Haggis, Neeps, and Tatties
