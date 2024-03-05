@@ -55,7 +55,7 @@ friends) side of the menu as well.
 .. carousel::
     :name: nazuki-garden
     :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
-    :nazuki-garden-1:
-    :nazuki-garden-2:
-    :nazuki-garden-3:
-    :nazuki-garden-4:
+    :nazuki-garden-1: Vegetable Gyoza
+    :nazuki-garden-2: Japanese Fried Chicken
+    :nazuki-garden-3: Teriyaki BBW Roasted Pork Donburi
+    :nazuki-garden-4: Chocolate Ganache Mochi Ice Cream
