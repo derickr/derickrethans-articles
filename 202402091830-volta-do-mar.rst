@@ -1,0 +1,51 @@
+Friday Night Dinner: Volta do Mar
+===========================================
+
+.. articleMetaData::
+   :Where: 100 Draycott Avenue, Chelsea, London SW3 3AD, UK
+   :Date: 2024-02-09 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: votla-do-mar
+   :URL: https://www.voltadomar.co.uk/
+   :Costs: Cocktails: £29, Food: £70, Drinks: £17
+   :Rating: positive
+   :Author: Derick Rethans
+
+We had been to Volta do Mar before, before they moved from their old location
+in Covent Garden, to their new location in Chelsea.
+
+The restaurant specialises in Portuguese food, including cuisines from
+countries along Portuguese trade routes.
+
+While we were reading the menus to select our dishes, we enjoyed a cheeky
+cocktail. I had a take on a Caipirinha, spruced up with blueberries. And my
+partner had a Martini with added spiced pear.
+
+After making our choices, we found out that beyond the dishes on the menu,
+they also have a short set of specials. This also meant that their Iberico
+Pork Bafassa was replaced with an Iberico Pork burger, with added foie gras.
+As we don't really want to eat that, it meant that my partner had to change to
+a different main.
+
+In the end, we choose to share a Sardine Pâte and Sourdough snack, and Ham
+Hock and Chorizo Croquettes. The pâte was smooth and flavourful, and spread
+excellently on the sourdough. The croquettes full of porky goodness. The other
+starters on the menu also sounded appetizing.
+
+For our main, we picked their Piri Piri Chicken, served with chips. The
+chicken was delicious, moist and well spiced and the pot of sauce that came
+with it was ideal to dip the chicken and chips into.
+
+We had a glass each of their house wine with our main, I had red, but my
+partner had the white, both wines were lovely and worked nicely with the food.
+
+We enjoyed our meal at Volta do Mar. The food was great and the atmosphere
+relaxing, and the staff attentive. It certainly was no Nando's!
+
+.. carousel::
+    :name: volta-do-mar
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :volta-do-mar-1: Blueberry Caipirinha
+    :volta-do-mar-2: Sardine Pâte with Sourdough
+    :volta-do-mar-3: Ham Hock and Chorizo Croquettes
+    :volta-do-mar-4: Piri Piri Chicken
