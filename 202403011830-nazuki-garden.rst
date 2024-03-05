@@ -1,0 +1,61 @@
+Friday Night Dinner: Nazuki Garden
+==================================
+
+.. articleMetaData::
+   :Where: 161 Whitfield Street, London W1T 5ET, UK
+   :Date: 2024-03-01 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: nazuki-garden
+   :URL: https://www.nazukigarden.co.uk/
+   :Costs: Food: £60, Wine: £28 (from £28, also by the glass)
+   :Rating: positive
+   :Author: Derick Rethans
+
+Once in a while, you want to try something different. So we found ourselves on
+a cold and rainy Friday evening at Nazuki Garden. I had just come back from a
+work trip to Berlin, and was in need of a good meal.
+
+My partner had booked Nazuki Garden several weeks earlier, at a time which
+would make it easy enough for me to make it on time to. With London City's
+efficiency, I was way too early and ended up walking for half an hour first so
+that I didn't have to sit in the restaurant by myself for an hour.
+
+We were sat at the back of the room, far away from the door, but that
+unfortunately didn't stop the draft when somebody opened that door.
+
+Their menu is extensive, with lots of tempura, sushi, sashimi, temaki, nigiri,
+and rolls. However, it was a cold evening, and we preferred something warm.
+
+Luckily, their menu also has a large selection of cooked dinner. Soups and
+donburis. 
+
+We began our meal with a starter of vegetable gyozas and Japanese fried
+chicken. The gyozas were nice and crisped up, with a slightly bubbly texture.
+The Japanse Fried Chicken also crisp, spicy, and served with a lovely
+flavoured mayonnaise.
+
+While we were enjoying our starters and Merlot (we got a bottle, it was
+Friday, bite us), a fair amount of other punters came to the restaurant. I was
+happy to see a large Japanese contingent as well. It's often a good sign that
+restaurants with a specific country's cuisine are frequented by people from
+that specific country. It adds a flair of authenticity.
+
+After our main, we both had the Teriyaki BBQ Roasted Pork Donburi — slices of
+well seasoned moist roasted pork in a delicious sauce.  It was perhaps not the
+most adventurous dish on their menu, but sometimes you just want to get fed
+well. And we were.
+
+After dinner, we were still a little peckish, and shared a chocolate ganache
+mochi ice cream. A little rice cake richly filled with chocolate ganache
+icecream. A perfect way to end our meal.
+
+At some point, in summer, we probably should return and try our the sushi (and
+friends) side of the menu as well.
+
+.. carousel::
+    :name: nazuki-garden
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :nazuki-garden-1:
+    :nazuki-garden-2:
+    :nazuki-garden-3:
+    :nazuki-garden-4:
