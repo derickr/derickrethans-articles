@@ -1,0 +1,55 @@
+Friday Night Dinner: 50 Kalò
+============================
+
+.. articleMetaData::
+   :Where: 7 Northumberland Ave, London WC2N 5BY
+   :Date: 2024-04-05 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: 50-kalo
+   :URL: https://www.50kalo.it/ciro__salvo.php
+   :Costs: Food: £40, Drinks: £27
+   :Rating: positive
+   :Author: Derick Rethans
+
+For tonight's meal, we walked to 50 Kalò, a busy restaurant just off Trafalgar
+Square, and situated in The Grand Hotel. Although you don't notice that it’s a
+restaurant attached to a hotel.
+
+50 Kalò is a pizza restaurant and an off-shoot of their original Naples-based
+restaurant. It came with great reviews, so we punted on it. When we got there,
+we were quickly seated at a small table, with my chair nearly touching a chair
+on the table behind me. I am not keen on being boxed in like this, and despite
+the small gap, the staff still pushed through the gap between me and the diner
+behind, which was quite irritating. Fortunately, my wife spotted another free
+table without this constraint, and we moved.
+
+The menu is full of Neapolitan pizza—in fact, that's what this restaurant
+specialises in. I selected a Prosciutto Cotto—roasted ham on a white base,
+with shavings of aged Parmesan. My wife chose the Del Monaco, which had a
+traditional tomato base, and came topped with salami. The pizzas were big and
+freshly cooked, arriving quickly. The pizza crust was slightly toasted and
+lovely and chewy, but in my opinion, the base could have been a little
+crispier. The shavings of fresh parmesan also added something extra to the
+overall flavour.
+
+The restaurant also has its "own" beer, (three varieties) brewed in
+collaboration with Birra Amarcord, from Rimini in Italy. We both started with
+a "Forte," and during our meal, we enjoyed the other two, (a blonde and a red)
+as well. The beers were nice and complemented the pizza, but whilst tasty,
+they weren’t the most exciting beers.
+
+Although we thought we were full from our large pizza, our waitress convinced
+us to have a special Easter-related dessert. The almond and orange cake was
+delicious, nice and fluffy, with a lovely freshness from the orange. It was a
+fitting end to the meal.
+
+All in all, it was a reasonable meal out. The pizzas were nice, the service
+was quick, and the interior was lovely. This would be a good place to eat
+after a day of tourist-ing, and avoiding the nearby chain restaurants.
+
+.. carousel::
+    :name: 50-kalo
+    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :kalo-1: Prosciutto Cotto
+	:kalo-2: Del Monaco
+	:kalo-3: Almond and Orange tarte
