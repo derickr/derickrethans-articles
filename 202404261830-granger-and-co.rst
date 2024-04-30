@@ -38,3 +38,10 @@ After our main course, we both fancied a little dessert. Not too much, as we
 were mostly full of delicious steak. We settled on a tiramisu, which had good,
 slightly boozy coffee flavour and was nice and creamy, and formed a delicious
 end to our meal at this Australian restaurant.
+
+.. carousel::
+   :name: granger
+   :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :granger-1: Courgette Chips
+   :granger-2: Onglet with Vegetables
+   :granger-3: Tiramisu
