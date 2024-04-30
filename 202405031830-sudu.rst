@@ -1,0 +1,43 @@
+Friday Night Dinner: Sudu
+=========================
+
+.. articleMetaData::
+   :Where: 30 Salusbury Rd, London, NW6 6NL, United Kingdom
+   :Date: 2024-05-03 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: sudu
+   :URL: http://sudu.uk
+   :Costs: Food £39; Drinks £22
+   :Rating: positive
+   :Author: Morag Rethans
+
+We went on a rainy Saturday evening. Sudu is pretty close to where we live,
+but this was our first time.
+
+The exterior is painted a dark grey and is a little unprepossessing, however
+once inside, we were in for a treat.
+
+We were quickly seated in a busy restaurant and saw many delicious-sounding
+things on the menu. My husband chose the beef rendang, which he had served
+with plain basmati rice. I picked the chicken satay served with coconut rice
+and a plain roti. This was washed down with a couple of tiger beers. The
+service in Sudu was quick and attentive but not intrusive.
+
+The food arrived fairly quickly. My husband's beef rendang was nice and spicy,
+as it should be, with nice tender chunks of beef that worked well with the
+rice. My chicken satay came as chicken pieces on skewers with a bowl of a
+spicy, peanutty satay sauce into which the chicken could be dipped. The
+coconut rice was subtly flavoured with coconut. Once the chicken skewers were
+finished, I poured the remaining satay onto my rice. The roti was delicious,
+slightly crispy on the outside but soft and a little fluffy on the inside and
+not overly greasy.
+
+The food coming out to neighbouring tables also looked great, so it is likely
+we’ll be going back to try something else from the menu.
+
+.. carousel::
+   :name: sudu
+   :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :sudu-1: Chicken Satay
+   :sudu-2: Roti
+   :sudu-3: Beef Rendang
