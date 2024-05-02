@@ -62,7 +62,7 @@ For our first night, we booked the Travelodge on Rose Street. It was a basic
 room, but it had a good bed and was reasonably roomy. Both for the bed, as
 well as the bathroom.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6869_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6869_web.jpg
 	:title: Edinburgh's Royal Mile
 	:align: left
 	:width: 50%
@@ -95,7 +95,7 @@ on the way to the bus station, from where they were leaving for their `Iona,
 Mull, and Isle of Skye Tour
 <https://www.rabbies.com/en/scotland-tours/from-edinburgh/5-6-day-tours/iona-mull-the-Isle-of-skye-5-day-tour>`_.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6872_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6872_web.jpg
 	:title: Edinburgh's St. Andrew Square
 	:align: right
 	:width: 25%
@@ -193,7 +193,7 @@ driving, and after a five-minute drive, we ended up at our B&B, Woosung. Our
 room wasn't quite ready yet. It was just after eight o'clock, so we dropped
 off our luggage and headed into Lerwick to explore.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6880_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6880_web.jpg
 	:title: Lerwick's Commercial Street
 	:align: right
 	:width: 60%
@@ -235,7 +235,7 @@ screaming young.
 
 .. carousel::
 	:name: lerwick1
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d516881: Bressay Ferry
 	:d516884: Welcome to Shetland
 	:d516885: Lerwick Harbour
@@ -262,7 +262,7 @@ which was opened by the then-Norwegian crown prince.
 
 .. carousel::
 	:name: scalloway
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d516921: Prince Olav Slipway
 	:d516929: Harbour
 	:d516931: Main Street
@@ -301,7 +301,7 @@ location of several ancient settlements. Still, instead of exploring that
 right away, we looked for the coastal path towards the lighthouse. This was
 going to be one of our walks on Shetland.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6940_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_6940_web.jpg
 	:title: ← Coastal Walk
 	:align: right
 	:width: 50%
@@ -328,7 +328,7 @@ decided it was time for some tea and a snack.
 
 .. carousel::
 	:name: sumburgh
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d516941: Looking back at Jarlshof
 	:d516951: Posing Sheep
 	:d516957: Oyster Catchers
@@ -353,7 +353,7 @@ with stories about all the lighthouse keepers, and a museum about the local
 marine life, including explanations of the warm water due to the gulf stream,
 and the recent decline in bird populations.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7067_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7067_web.jpg
 	:title: Clifftop Lighthouse
 	:align: left
 	:width: 33%
@@ -363,7 +363,7 @@ first by going down a little bit before going up again to go over the local
 hill, which had some views over the headland with the lighthouse. On the other
 side of the hill, we had a good view of Shetland's main airport.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7120_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7120_web.jpg
 	:title: Wheelhouse at Jarlshof
 	:align: right
 	:width: 33%
@@ -374,7 +374,7 @@ settlement on the site. From the Iron Age broch and wheelhouses through Viking
 settlers, and finishing as a Scottish Laird's home. The site is very complex
 and well worth spending some time exploring.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7126_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7126_web.jpg
 	:title: Red Pool of Virkie
 	:align: left
 	:width: 25%
@@ -404,7 +404,7 @@ some excellent views, although it was raining a little.
 
 .. carousel::
 	:name: stninian
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d517159: The Beach
 	:d517163: Broken Rocks
 
@@ -449,7 +449,7 @@ and cake, but had to be turned away as it was full. Beyond not having enough
 restaurants for dinner, Lerwick could also do with more cafes for snacks and
 cake!
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7173_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7173_web.jpg
 	:title: Cheeky Seal
 	:align: left
 	:width: 40%
@@ -469,7 +469,7 @@ setting course for the main colonies at Noss.
 
 .. carousel::
 	:name: nossbirds
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d517200: Guillemots, both variants
 	:d517241: Gannets on a Ledge
 	:d517242: Gannet Spreading its Wings
@@ -494,7 +494,7 @@ successfully.
 
 .. carousel::
 	:name: nossfish
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d517392: Skua Making a Splash
 	:d517415: Gannet Taking Off
 	:d517427: Skua Wanting to Steal the Fish
@@ -504,7 +504,7 @@ successfully.
 After the fish were gone, the boat departed for a little bay where the Noss
 nature reserve wardens have their house.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7522_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7522_web.jpg
 	:title: Great Skua in Flight
 	:align: left
 	:width: 45%
@@ -513,7 +513,7 @@ On the way there, we were followed by a Great Skua right next to the boat. It
 stayed there for quite some time, as the boat crew threw some snacks into the
 air for it to catch.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7581_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7581_web.jpg
 	:title: The Wardens' House
 	:align: right
 	:width: 40%
@@ -524,7 +524,7 @@ boat tour. The ferry is just a dinghy which you need to call by waving at the
 wardens. When we went there, it wasn't operational, as they have Mondays and
 Thursdays off.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7589_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7589_web.jpg
 	:title: The Face
 	:align: right
 	:width: 33%
@@ -574,7 +574,7 @@ works on the hills surrounding us, where many new energy-generating wind
 turbines were built. There is plenty of wind on Shetland, so that made perfect
 sense to me.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7618_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7618_web.jpg
 	:title: Esha Ness Lighthouse
 	:align: left
 	:width: 40%
@@ -594,7 +594,7 @@ landscape was very distinct from the south mainland and Sumburgh Head.
 
 .. carousel::
 	:name: eshaness
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d517619: Cliffs
 	:d517638: Eroded Inlet
 	:d517654: Rolling Hills
@@ -607,7 +607,7 @@ After going up and down and chasing away some sheep, the second section of the
 walk was along quiet roads. However, just when we got there, we startled two
 dogs who were quite insisting on barking at us.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7729_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7729_web.jpg
 	:title: Views from Land
 	:align: right
 	:width: 40%
@@ -631,7 +631,7 @@ originally planned. As a matter of fact, I specifically spend time to make
 sure that for each of our walks, there would be a nearby cafe or shop open to
 have lunch in or at.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7745_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7745_web.jpg
 	:title: The Museum and a Beach
 	:align: right
 	:width: 40%
@@ -642,7 +642,7 @@ Although the water was probably freezing, it didn't deter seals from sticking
 their heads out. The other main feature in this section was Dore Holm, just
 off the coast — a rocky formation resembling a drinking horse.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7756_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7756_web.jpg
 	:title: Dore Holm
 
 Leaving the rocky horse behind, the walk continued along the top of the
@@ -664,7 +664,7 @@ the harbour. We were really early, so we would have to wait about 40 minutes
 as per the schedule. But after about fifteen minutes, the ferry showed up, and
 we could board.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7811_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7811_web.jpg
 	:title: Maryfield House Hotel, Bressay
 	:align: left
 	:width: 40%
@@ -681,7 +681,7 @@ pointed out that they have a whole whisky room! After chatting with the
 proprietor, who explained that during the Covid period they refurbished the
 whole place, including their new whisky room.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7818_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7818_web.jpg
 	:title: Fivla, the Ferry
 	:align: right
 	:width: 25%
@@ -717,7 +717,7 @@ island. Although we got an earlier ferry to Yell, there was no space on the
 next ferry to Unst, so we had to wait for our booked ferry that was leaving
 about 30 minutes later.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7831_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7831_web.jpg
 	:title: Broadwalks on Moor Land
 	:align: left
 	:width: 50%
@@ -732,7 +732,7 @@ When crossing this moorland, you can't hear the sea or have any indication of
 what is to come. Once we arrived, we were greeted with a fantastic view of the
 cliffs, with the lighthouse to our far right.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7833_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7833_web.jpg
 	:title: View from the Cliffs
 	:align: left
 	:width: 50%
@@ -753,7 +753,7 @@ of sheep with lambs ignored the "weak cliff, stay out" signs.
 
 .. carousel::
 	:name: saito
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d517843: Saito Bird Colonies
 	:d517853: Gannets Nesting
 	:d517861: Gannet in Flight
@@ -771,7 +771,7 @@ lighthouse perched on Muckle Flugga. The path was uneven and steep in
 sections, although the ground was a little springy but dry. Still fine for my
 regular city trainers.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7981_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_7981_web.jpg
 	:title: Did We Come From There?!
 	:align: right
 	:width: 40%
@@ -787,7 +787,7 @@ lighthouse on Muckle Flugga. And, of course, more photos were taken.
 
 .. carousel::
 	:name: muckleflugga
-	:directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
+	:directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/
 	:d517995: Bird Colonies on the Rocks
 	:d518001: Muckle Flugga Lighthouse, and Out Stack
 
@@ -798,7 +798,7 @@ the hill. I looked at the map on my watch, including contour lines. From this,
 the way over the hill would be the easier option, so we decided to take this
 route.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8041_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8041_web.jpg
 	:title: Skua in Flight
 	:align: left
 	:width: 50%
@@ -808,7 +808,7 @@ little rough. The path was good, straight, and no annoying zigzags. Once we
 reached the top, the way back down was mainly over boardwalks again or
 otherwise well-trodden paths. We also saw several skuas.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8050_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8050_web.jpg
 	:title: Viking Ship (Replica)
 	:align: left
 	:width: 50%
@@ -831,7 +831,7 @@ and wet waits in the morning, took matters into his own hands and wrote a
 letter to the local newspaper requesting a new shelter for him to wait in.
 Since then, it has been furnished with many useful and useless things.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8056_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8056_web.jpg
 	:title: Bobby's Bus Shelter
 
 We arrived at the ferry terminal early, and luckily because our car was so
@@ -866,7 +866,7 @@ space and then walked up the hill to the lighthouse. On the cliffs were two
 puffins looking cute, which I pointed out to a tour guide with many Americans
 in tow.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8094_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8094_web.jpg
 	:title: Crofthouse Museum
 	:align: right
 	:width: 50%
@@ -879,7 +879,7 @@ host told many stories about how people lived in crofts and how the `Crofter's
 Act <https://en.wikipedia.org/wiki/Crofters_Holdings_(Scotland)_Act_1886>`_
 broke the grasp of the Lairds. Visiting is well worth the visit.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8135_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8135_web.jpg
 	:title: Fulmar
 	:align: left
 	:width: 50%
@@ -914,7 +914,7 @@ five. We had a few more walking rounds on the deck to get out steps in, and I
 took some photos. Our cabin was slightly different, with two single beds and
 no bunk bed.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8240_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8240_web.jpg
 	:title: Good Bye Shetland
 
 We watched Lerwick and Shetland glide away when the ferry left, and shortly
@@ -943,7 +943,7 @@ light lunch at the hotel. We intended to do some touristy things, but we were
 on the late side for this and decided to avoid travelling and tire us out
 more.
 
-.. image:: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8264_web.jpg
+.. image:: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/2023-06a-shetland/d51_8264_web.jpg
 	:title: Edinburgh Castle
 	:align: left
 	:width: 50%

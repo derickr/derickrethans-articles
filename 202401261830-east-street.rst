@@ -53,7 +53,7 @@ think is a good sign.
 
 .. carousel::
     :name: east-street
-    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
     :east-street-1: Interior
     :east-street-2: Chicken Satay
     :east-street-3: Popcorn Chicken

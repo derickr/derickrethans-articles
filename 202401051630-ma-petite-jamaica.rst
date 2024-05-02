@@ -43,6 +43,6 @@ problem to have if your dinner was so tasty.
 
 .. carousel::
     :name: ma-petite-jamaica
-    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
     :ma-petite-jamaica-1: Fried Dumpling, with Ackee and Saltfish
     :ma-petite-jamaica-2: Curried Goat

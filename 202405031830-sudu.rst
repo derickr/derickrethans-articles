@@ -37,7 +37,7 @@ we’ll be going back to try something else from the menu.
 
 .. carousel::
    :name: sudu
-   :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
    :sudu-1: Chicken Satay
    :sudu-2: Roti
    :sudu-3: Beef Rendang

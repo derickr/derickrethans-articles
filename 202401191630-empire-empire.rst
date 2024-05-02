@@ -34,6 +34,6 @@ down.
 
 .. carousel::
     :name: empire-empire
-    :directory: https://derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
     :empire-empire-1: Butter Chicken
     :empire-empire-3: Lamb Biryani
