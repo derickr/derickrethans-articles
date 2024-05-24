@@ -1,0 +1,41 @@
+Friday Night Dinner: The Cow
+============================
+
+.. articleMetaData::
+   :Where: 89 Westbourne Park Road, London W2 5QH, United Kingdom
+   :Date: 2024-06-24 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: the-cow
+   :URL: https://thecowlondon.com/
+   :Costs: Cover Charge: £4; Starter: £14; Mains: £43; Wine: £35
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+We visited The Cow on a warm spring evening and went through a packed bar
+downstairs to the much quieter upstairs restaurant. This place had been
+recommended to us, so we were keen to pop along and try it out.
+
+We were welcomed with some lovely bread and butter and had some mackerel pate
+to share to start with. The pate was nicely flavoured but could have done with
+being served with more bread, as there was too much pate, for the amount of
+bread, even if we loaded it on.
+
+I chose the Monkfish, which was well seasoned and had its defining chewy bite.
+The vegetables that came with it added flavour, as did the tomato. What let
+the dish down was the watery sauce underneath it.
+
+My wife selected the cuttlefish with peas. The cuttlefish with the peas and
+sauce was pleasant. The slice of sourdough helped up mopping the flavourful
+sauce as well, although it did make the dish a little soggy.
+
+When we left, the downstairs area was even busier, with no place to even
+stand. Overall, whilst it is clearly a local favourite, we found it a bit
+overhyped, and we will probably not go back.
+
+
+.. carousel::
+   :name: the-cow
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :the-cow-1: Smoked Mackerel Paté with Sourdough and Butter
+   :the-cow-2: Monkfish on a Bed of Courgette and Tomatoes
+   :the-cow-3: Cuttlefish with Peas and Toasted Bread
