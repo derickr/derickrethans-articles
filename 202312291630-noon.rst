@@ -8,7 +8,7 @@ Friday Night Dinner: Noon
    :Short: noon
    :URL: https://noonmaastricht.nl/
    :Costs: Food: €70, Drinks: €26
-   :Rating: positive
+   :Rating: 5
 
 Even when we're out of the country, we try to keep our tradition in place, and
 so we found ourselves on a cold and rainy evening at Noon, in Maastricht, in

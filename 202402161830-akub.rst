@@ -8,7 +8,7 @@ Friday Night Dinner: Akub
    :Short: akub
    :URL: https://www.akub-restaurant.com/
    :Costs: Beer: £12; Pudding: £9; Food: £55
-   :Rating: positive
+   :Rating: 3.5
    :Author: Derick Rethans
 
 *From the archive: We visited Akub in January 2023*
