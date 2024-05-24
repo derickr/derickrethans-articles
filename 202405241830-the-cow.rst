@@ -3,7 +3,7 @@ Friday Night Dinner: The Cow
 
 .. articleMetaData::
    :Where: 89 Westbourne Park Road, London W2 5QH, United Kingdom
-   :Date: 2024-06-24 18:30 Europe/London
+   :Date: 2024-05-24 18:30 Europe/London
    :Tags: blog, fnd
    :Short: the-cow
    :URL: https://thecowlondon.com/

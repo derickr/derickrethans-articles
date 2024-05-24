@@ -3,7 +3,7 @@ Friday Night Dinner: London Shell Co.
 
 .. articleMetaData::
    :Where: Unit 4 Sonny Heights, Swain's Lane, London N6 6AG, United Kingdom
-   :Date: 2024-06-31 18:30 Europe/London
+   :Date: 2024-05-31 18:30 Europe/London
    :Tags: blog, fnd
    :Short: london-shell-co
    :URL: https://swainslane.londonshellco.com/
