@@ -8,7 +8,7 @@ Friday Night Dinner: Pascor
    :Short: pascor
    :URL: https://www.pascor.co.uk/
    :Costs: Wine: £40, Food: £25, Desert: £18.5
-   :Rating: positive
+   :Rating: 3.5
    :Author: Derick Rethans
 
 *From the archive: We visited Pascor in January 2023*
