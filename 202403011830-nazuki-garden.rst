@@ -8,7 +8,7 @@ Friday Night Dinner: Nazuki Garden
    :Short: nazuki-garden
    :URL: https://www.nazukigarden.co.uk/
    :Costs: Food: £60, Wine: £28 (from £28, also by the glass)
-   :Rating: positive
+   :Rating: 4
    :Author: Derick Rethans
 
 Once in a while, you want to try something different. So we found ourselves on

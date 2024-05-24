@@ -8,7 +8,7 @@ Friday Night Dinner: Sudu
    :Short: sudu
    :URL: http://sudu.uk
    :Costs: Food £39; Drinks £22
-   :Rating: positive
+   :Rating: 5
    :Author: Morag Rethans
 
 We went on a rainy Saturday evening. Sudu is pretty close to where we live,

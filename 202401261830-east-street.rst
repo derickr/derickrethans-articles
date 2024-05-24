@@ -8,7 +8,7 @@ Friday Night Dinner: East Street by Tampopo
    :Short: east-street
    :URL: https://tampopo.co.uk/fitzrovia/
    :Costs: Food: £50; Drinks: £35
-   :Rating: positive
+   :Rating: 4
    :Author: Derick Rethans
 
 The idea behind going for a different restaurant every Friday is to try out a

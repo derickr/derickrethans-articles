@@ -8,7 +8,7 @@ Friday Night Dinner: Granger and Co
    :Short: granger
    :URL: https://grangerandco.com/marylebone
    :Costs: Food £78; Drinks £29
-   :Rating: positive
+   :Rating: 4
    :Author: Derick Rethans
 
 We went to the branch on Marylebone High Street, in a building previously

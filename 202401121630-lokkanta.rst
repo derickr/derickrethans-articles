@@ -8,7 +8,7 @@ Friday Night Dinner: Lokkanta
    :Short: lokkanta
    :URL: https://lokkantaturkishrestaurant.co.uk/
    :Costs: Food: £45, Drinks: £25
-   :Rating: neutral
+   :Rating: 2.5
 
 As first restaurant of the year, we wanted something low-key. Not far from
 Paddington station, on Westbourne Grove, there is a whole row of such places.

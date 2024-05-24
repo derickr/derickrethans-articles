@@ -8,7 +8,7 @@ Friday Night Dinner: The Porchester
    :Short: porchester
    :URL: https://www.theporchester.co.uk/
    :Costs: Food: £41, Drinks: £35
-   :Rating: positive
+   :Rating: 3
    :Author: Derick Rethans
 
 We were not planning to go here, but due to unforeseen circumstances with our

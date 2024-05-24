@@ -8,7 +8,7 @@ Friday Night Dinner: Empire Empire
    :Short: empire
    :URL: https://www.empire-empire.restaurant/ 
    :Costs: Food: £50, Drinks: £12
-   :Rating: positive
+   :Rating: 4
    :Author: Morag Rethans
 
 We visited Empire Empire on a chilly January evening. The restaurant was

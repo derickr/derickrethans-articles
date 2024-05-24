@@ -8,7 +8,7 @@ Friday Night Dinner: Ma Petite Jamaica
    :Short: ma-petite-jamaica
    :URL: https://www.mapetitejamaica.com/
    :Costs: Food: £65, Drinks: £25
-   :Rating: positive
+   :Rating: 3.5
 
 What do you need on a cold and dark winter evening? Exactly, a bit of tropical
 warmth. Our booking was a little last minute, as we hadn't really thought
