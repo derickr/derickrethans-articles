@@ -1,0 +1,65 @@
+Friday Night Dinner: Lita
+=========================
+
+.. articleMetaData::
+   :Where: 7-9 Paddington Street, London W1U 5QH, United Kingdom
+   :Date: 2024-06-07 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: lita
+   :URL: https://litamarylebone.com/
+   :Costs: £20 (£8-29); Mains: £44 (£14-£160); Drinks: £36 (carafe, bottles from £54)
+   :Rating: 2
+   :Author: Derick Rethans
+
+Following the lead of a better-known, piano-playing food critic, we visited
+Lita, a new restaurant in Marylebone, on a nice spring evening. We didn't want
+to sit outside with the smokers, so we chose to sit inside. What we hadn't
+expected was to be sat right in a corner in the back—the darkest (and most
+humid) spot in the restaurant.
+
+With the menu came a spiel of: "We recommend a starter each, and then two or
+three of the small plates, and then one or two from the big plates. The small
+plates are just little bites." — I am paraphrasing here, but you get the gist.
+Without looking at the menu, we already thought that, taking the advice would
+mean we would end up with way too much food — we've been in similar situations
+before. Seeing the price of each of these "small" and "big" dishes were, also
+put us right off. Ultimately, we can always order another dish.
+
+Instead, we opted for a more reasonable selection, at least in our opinion. We
+started with wild-farmed sourdough, with cultured butter, and smoked Basque
+sardines with a cherry sauce. I have *no* idea what wild-farmed sourdough is,
+nor cultured butter; but it was nice bread with some good butter. The sardines
+were nicely cured, and the cherries added an enjoyable sweet tang. It wasn't a
+lot of chow though.
+
+As our intermezzo dish we chose their salad of Provencal asparagus, peas, and
+broad beans, served with a poached Braddock Whites duck egg. A light and
+refreshing dish, with the white and green asparagus having just the right
+amount of crunch.
+
+And finally, as our main we picked the poussin, which was served with an
+apricot jus. On the side we had a basic green leaf salad. The poussin was
+perfectly cooked, and easily came off the bone. I've never had chicken and
+apricot, but thought the combination worked really well. The salad was, well,
+salad. Flopped out of the bag and dressed with a fairly basic oil and vinegar
+dressing. Being critical the leaves were too large to eat in a mouthful, so a
+bit of light chopping by a chef would have improved it; alas.
+
+With our meal, we shared a carafe of Chardonnay, which was perfectly nice. In
+most circumstances, we would have had a bottle. But they start at £54 here,
+which is a little over the top.
+
+The food that we had, was delicious. But we really ought to have had a look at
+the price ranges in the original review, or on the menu before we booked. We
+didn't think the value-for-money ratio worked out here. I don't think we will
+be back here, also because it felt a little pretentious. Marylebone has both
+better and more affordable places to dine in.
+
+.. carousel::
+   :name: lita
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :lita-1: Soughdough with Cultured Butter
+   :lita-2: Cured Sardines with Cherries
+   :lita-3: Asparagus Salad
+   :lita-4: Poussin with Apricots
+   :lita-5: A Bunch of Salad Leaves
