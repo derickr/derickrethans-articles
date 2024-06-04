@@ -1,0 +1,104 @@
+Xdebug Update: May 2024
+=======================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2024-06-11 16:30 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-24may
+
+In this monthly update I explain what happened with Xdebug development
+in the past month. These are normally published on the first
+Tuesday on or after the 5th of each month.
+
+`GitHub <https://github.com/sponsors/derickr/>`_ and `Pro/Business supporters
+<https://xdebug.org/support>`_ will get it earlier, around the first of each
+month.
+
+On GitHub sponsors, I am currently 44% towards my $2,500
+per month goal, which is set to allow continued **maintenance** of Xdebug.
+
+If you are leading a team or company, then it is also possible to
+support Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In the last month, I spend around 23 hours on Xdebug, with 22 hours funded.
+
+Xdebug 3.4
+----------
+
+I created the first alpha release of Xdebug 3.4 — with some preliminary PHP
+8.4 support. The main reason for this was to test out the PIE tool, that
+`James Titcumb <https://phpc.social/@asgrim>`_ is working on as part of his
+work for the `PHP Foundation <https://thephp.foundation/>`_. 
+
+This new tool uses `composer-style
+<https://github.com/xdebug/xdebug/blob/master/composer.json>`_ definition
+files. It also means that extensions like `Xdebug can now be found on
+Packagist <https://packagist.org/packages/xdebug/xdebug>`_.
+
+PIE is still in early development, but I shall be continuing to test out while
+it matures.
+
+The `3.4.0alpha1 release itself
+<https://xdebug.org/announcements/2024-05-31>`_ adds a new `XDEBUG_IGNORE HTTP
+variable <https://bugs.xdebug.org/2239>`_ to prevent Xdebug from initiating a
+debugging session for this request only. This feature was requested by the
+`Symfony project
+<https://github.com/symfony/symfony/pull/52950#issuecomment-1884680470>`_, to
+prevent debugging sessions for the debugging toolbar.
+
+Native Xdebug Path Mapping
+--------------------------
+
+In the previous update I wrote about Xdebug's new `projects section
+<https://xdebug.org/funding>`_, and the first project that I am hoping to fund
+through this: `Native Xdebug Path Mapping
+<https://xdebug.org/funding/001-native-path-mapping>`_.
+
+After my announcement, several companies and individuals reached out. The
+funding is now nearly there, with good hopes that it will conclude soon.
+
+`You could be part of this too
+<https://xdebug.org/support/buy/001-native-path-mapping>`_!
+
+Once we cross the line, I will start with the implementation, which I intend
+to include into Xdebug 3.4.
+
+Xdebug Videos
+-------------
+
+I have created no new videos since last month, but you can see all the
+previous ones on my `channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+If you have any suggestions, feel free to reach out to
+`me on Mastodon <https://phpc.social/@derickr>`_ or via `email
+<http://derickrethans/who.html>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In the last month, no new business supporters signed up.
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
+
+If you want to contribute to specific projects, you can find those on the
+`Projects <https://xdebug.org/funding>`_ page.
+
+Xdebug Cloud
+------------
+
+Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging
+in more scenarios, where it is hard, or impossible, to have Xdebug make
+a connection to the IDE. It is continuing to operate as Beta release.
+
+Packages start at £49/month, and I have recently introduced a package
+for larger companies. This has a larger initial set of tokens, and
+discounted extra tokens.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailinglist <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.

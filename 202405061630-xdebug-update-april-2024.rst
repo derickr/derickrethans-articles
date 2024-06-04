@@ -1,11 +1,11 @@
-Xdebug Update: May 2024
-=======================
+Xdebug Update: April 2024
+=========================
 
 .. articleMetaData::
    :Where: London, UK
    :Date: 2024-05-06 16:30 Europe/London
    :Tags: blog, php, xdebug
-   :Short: xdebug-24may
+   :Short: xdebug-24apr
 
 I have not written an update like this for a while. I am sorry.
 
