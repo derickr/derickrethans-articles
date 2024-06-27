@@ -49,4 +49,3 @@ reasonable prices. An excellent local option.
    :the-chamberlayne-3: Beef Burger with Chips and Pickles
    :the-chamberlayne-4: Raspberry Swirl Ice Cream
    :the-chamberlayne-5: Salted Caramel Ice Cream
-   :the-chamberlayne-1: 
