@@ -1,0 +1,55 @@
+Friday Night Dinner: Apego
+==========================
+
+.. articleMetaData::
+   :Where: Rua de Santa Catarina 1198, 4000-457 Porto, Portugal
+   :Date: 2024-07-19 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: apego
+   :URL: https://www.thefork.co.uk/restaurant/apego-r413165
+   :Costs: Starters: €28, Mains: €54, Wine €34 (4 glasses), Dessert + Digestive: €35
+   :Rating: 4.5
+   :Author: Derick Rethans
+
+We recently visited Porto in Northern Portugal, where we were also in need of
+dinner. A while away from the busy hubbub of the riverside and the touristic
+areas of the city, we found ourselves on an unremarkable street in front of
+Apego.
+
+We were welcomed in, and seated on a nice table near the kitchen in the calm
+and rustic restaurant. You can either choose a tasting menu of 5 courses, or
+eat à la carte. Five courses seemed a bit much, and we wanted to select our
+own courses, so we picked the latter option.
+
+The menu is not very extensive, but each course did come with wine
+recommendations. As a started, I picked the Atlantic bonito crudo on a bed of
+beetroot and crème fraîche with a seeded cracker. My wife decided on the corn
+empanada with mushrooms, cucumber, and lime. Usually I have a red wine, and my
+wife a white, but in this case the recommended wines were of the opposite
+colour. The red to go with my wife's empanada wasn't totally fitting, and she
+liked my white more.
+
+This meant that for our main courses she disregarded the recommendation and
+instead had the wine I had with my starter. As main course, she selected the
+artichoke with egg, pesto and Parmesan, whereas I opted for the pork shank,
+which was served with a crispy potato dish. Just like the starters, the mains
+were well cooked, with balanced flavours, with a delightful presentation.
+
+The deserts looked great too, and to finish our meal, I picked the coffee
+tarte, while my wife choose the "Chou", served with strawberries and basil. We
+paired that with a Madeira, and, as we were in Porto, a glass of port.
+
+Apego was a really nice experience, with great food and atmosphere. It's a
+little out of the way, but well worth visiting.
+
+
+.. carousel::
+   :name: apego
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :apego-1: Atlantic Bonito Crudo
+   :apego-2: Corn Empanada with Mushrooms
+   :apego-3: Pork Shank
+   :apego-4: Crispy Potato Dish
+   :apego-5: Artichoke with Egg, Pesto and Parmesan
+   :apego-6: Chou
+   :apego-7: Coffee Tarte
