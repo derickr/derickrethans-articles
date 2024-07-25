@@ -1,0 +1,56 @@
+Friday Night Dinner: Vinum
+==========================
+
+.. articleMetaData::
+   :Where: Rua do Agro 141 (Caves Graham's), 4400-003 Vila Nova de Gaia, Portugal
+   :Date: 2024-07-26 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: vinum
+   :URL: https://vinumatgrahams.com/en/
+   :Costs: Starters: €8-€24; Mains: €22-€34; Dessert: €7-€15; Wines: €19-€1250
+   :Rating: 4
+   :Author: Derick Rethans
+
+After one of our entertainments, a tour and tasting of Graham's port wines, we
+had booked a table at Vinum. Situated at Graham's Port Lodge with magnificent
+views over Porto, the Douro river, and Vila Nova de Gaia. It had come
+recommended by a colleague.
+
+First we were briefly seated outside for a drink with a great view, which was
+unexpected (and a little chilly). After this confusion was resolved, we were
+seated at a large table, in an airy and bright room, and the great view—they
+don't guarantee you get that though. It was also fairly quiet when we got
+there, at 18:30.
+
+The restaurant also does a tasting menu (with wine pairing, if you desire),
+but we went à la carte again. We forwent our starter, and instead had four
+very plumb oysters.
+
+As main course I selected the grilled tuna, which was wrapped in chard and
+slightly seared — which is how it is supposed to be. It came with a charred
+pepper and garlic mash. My wife picked the "Vace Velha" tataki, which was
+served with a roast potato and caramelised onions. The port lodge's owners
+also produce Duoro wines, so to go with our meal we selected a bottle of
+Altano Reserva 2021, a rich and complex white wine.
+
+We still had some space for desserts, and my wife choose a baked peach with
+vanilla ice cream, and I had a pineapple dish. As we were in a port lodge, we
+paired this with a Graham's 20 years old Tawny, which was served in a
+gigantic 4.5l bottle. The tray that came on, also contained a `port from 1882
+<https://www.grahams-port.com/wine/ne-oublie/20>`_, but at €900 a glass, a
+little over budget.
+
+The food was good, and the service excellent. The view magnificent, and the
+atmosphere relaxing. It was a "bit" of a hike up the hill, but certainly worth
+visiting — especially after also having done a tour of their warehouses.
+
+
+.. carousel::
+   :name: vinum
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :vinum-2: Fat Oysters
+   :vinum-3: Seared Tuna Wrapped in Chard
+   :vinum-4: Vace Velha Tataki
+   :vinum-5: Big Bottle of Graham's 20
+   :vinum-6: Baked Peach with Vanilla Ice Cream
+   :vinum-7: Pineapple Many Ways
