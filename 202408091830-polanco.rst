@@ -1,0 +1,50 @@
+Friday Night Dinner: Polanco
+============================
+
+.. articleMetaData::
+   :Where: 43 Chamberlayne Road, London NW10 3NB, United Kingdom
+   :Date: 2024-08-09 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: polanco
+   :URL: https://polancomex.co.uk/
+   :Costs: Tacos/Small Plates: £7-£12; Cocktails: £10-£12; Wines: £23-£36
+   :Rating: 4
+   :Author: Derick Rethans
+
+We have been to this location before, back when it was called Morso, which has
+now moved to St. John's Wood. There are a few other restaurants next door,
+which we might also try at some point.
+
+It was a very warm evening, and my wife had arrived much earlier than our
+table was booked for. She'd ordered a margarita to spend the time, and
+"convinced" me to get one too. One showed up right when I entered the cosy
+restaurant. We were on the earlier side and it was mostly empty.
+
+Polanco serves contemporary Mexican food, and their menu consists of tacos and
+small plates to share. We ordered baja fish tacos, a quesadilla rustica, green
+chicken enchiladas, and tortilla chips with guacamole to enjoy while we were
+waiting.
+
+With our food, we also got a bottle of white wine. Usually we would probably
+have had beer, but their beer selection was really only the boring macro
+lagers.
+
+The guacamole was well-made, and a little spicy. Smooth, but still with some
+crunchy bits. The green chicken enchiladas were doused in a slightly spicy
+green sauce. A dollop of cream on top smoothed things out. My favourite were
+the fish tacos — crispy fried fish, served with chipotle mayonnaise and
+habanero sauce, and topped with pickled cabbage. The rustic part of the
+quesadilla consisted of molten cheese, shopped cherry tomatoes, a habanero
+sauce, and some cream.
+
+All the dishes were a little spicy, but not so much that it overpowered. By
+the time we were done with our meal, the restaurant was buzzing with nearly
+every table occupied.
+
+.. carousel::
+   :name: polanco
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :polanco-1: Tortilla Chips with Guacamole
+   :polanco-2: Green Chicken Enchiladas
+   :polanco-3: Fish Tacos with Pickled Cabbage
+   :polanco-4: Quesadilla Rustica
