@@ -1,0 +1,120 @@
+Xdebug Update: July 2024
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2024-08-07 18:10 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-24jul
+
+In this monthly update I explain what happened with Xdebug development
+in the past month. These are normally published on the first
+Tuesday on or after the 5th of each month.
+
+`GitHub <https://github.com/sponsors/derickr/>`_ and `Pro/Business supporters
+<https://xdebug.org/support>`_ will get it earlier, around the first of each
+month.
+
+On GitHub sponsors, I am currently 42% towards my $2,500
+per month goal, which is set to allow continued **maintenance** of Xdebug.
+This is less than last month.
+
+If you are leading a team or company, then it is also possible to
+support Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In the last month, I spend around 15 hours on Xdebug, with 21 hours funded.
+I also spent 6 hours on the Native Path Mapping project.
+
+PHP 8.4
+-------
+
+I spent some time making sure that Xdebug will be ready for PHP 8.4, once that
+comes out later in the year. There are always some incompatibilities, such as
+the new `frameless calls <https://github.com/php/php-src/pull/12461>`_ and
+some deprecations. 
+
+I also did a deep dive into supporting a potential large change into the way
+PHP handles the ``exit`` keyword. There is a `proposal
+<https://wiki.php.net/rfc/exit-as-function>`_ to change that from a language
+instruction to an actual function, but this impacts Xdebug fairly
+significantly — it uses the instruction for path and branch analysis, and to
+make sure profiling files get stored on disk in full. At the moment, it is
+unsure whether this change will be adopted.
+
+Beyond preparatory work for PHP 8.4, I also spend some time on improving the
+out-of-band socket communication support to make it easier for IDEs to use.
+This work will continue to be ongoing for a while.
+
+Native Xdebug Path Mapping
+--------------------------
+
+I have started on the `Native Xdebug Path Mapping
+<https://xdebug.org/funding/001-native-path-mapping>`_ project.
+
+As this is a separately funded project, I don't classify the hours that I
+worked on this in "Xdebug Hours". I also publish a separate report on the
+`project page <https://xdebug.org/funding/001-native-path-mapping>`_.
+
+As an exception, I am including it here:
+
+In this first month, or rather, the last week of July, I have been working on
+setting up a testing framework for the parser. Previously Xdebug only had
+tests in `PHPT <https://qa.php.net/write-test.php>`_ form, PHP's standard for
+testing syntax and functions. However, this is rather more an integration test
+framework, as it compares the output of a script with an expected output.
+
+For low-level features, such as testing the implementation of the parser that
+parses the path mapping files, PHPT tests are not suitable. Instead, the
+testing framework tests the return values and generated structures directly,
+without PHP having to be involved. The `CppUTest
+<https://cpputest.github.io/manual.html>`_ framework that I use for this, is
+much more similar to PHPUnit. It is also a framework that I have used for
+testing `timelib <https://github.com/derickr/timelib>`_, the library that
+powers PHP and MongoDB's date/time functionality.
+
+Beyond the testing framework, I have also made a start on the parser itself.
+It can currently parse the remote_prefix and local_prefix stanzas, as well as
+mapping lines, although it does not distinguish between directory maps, file
+maps, or line maps yet, nor does it apply the prefix stanzas yet.
+
+
+Xdebug Videos
+-------------
+
+I have created no new videos since last month, but you can see all the
+previous ones on my `channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+If you have any suggestions, feel free to reach out to
+`me on Mastodon <https://phpc.social/@derickr>`_ or via `email
+<http://derickrethans/who.html>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+In the last month, one new business supporter signed up:
+
+- `Clever Age <https://www.clever-age.com/>`_.
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
+
+If you want to contribute to specific projects, you can find those on the
+`Projects <https://xdebug.org/funding>`_ page.
+
+Xdebug Cloud
+------------
+
+Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging
+in more scenarios, where it is hard, or impossible, to have Xdebug make
+a connection to the IDE. It is continuing to operate as Beta release.
+
+Packages start at £49/month, and I have recently introduced a package
+for larger companies. This has a larger initial set of tokens, and
+discounted extra tokens.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailinglist <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.
