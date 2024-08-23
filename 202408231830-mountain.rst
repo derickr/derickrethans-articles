@@ -1,0 +1,53 @@
+Friday Night Dinner: Mountain
+=============================
+
+.. articleMetaData::
+   :Where: 16-18 Beak Street, London W1F 9RD
+   :Date: 2024-08-23 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: mountain
+   :URL: https://mountainbeakstreet.com/ 
+   :Costs: Starters: £4.80-£18.50; Small(er) Plates: £14.80-£26; Mains: £36-£95; Wines: from £34
+   :Rating: 4
+   :Author: Derick Rethans
+
+Another hip restaurant, one, that recently had acquired a Michelin star,
+although they don't seem to mention that on their website. There was however a
+difference in prices between booking and eating.
+
+When we arrived, we were explained that the menu consists of three sections: a
+selection of starters, a selection of smaller plates, and mains. They
+recommended getting a starter and small place each, and a main to share. We
+have heard this spiel before, and knew it was going to be too much (quantity
+of food and cost).
+
+We did our own thing, and had a starter and small plate each instead.
+
+For our starters, my wife chose the cured dairy beef, lovely thinly sliced
+meat with some almond shavings. It was perfectly moist with an earthy flavour.
+I picked the anchovies and cheese, which were served on sourdough bread. The
+cheese was whipped, with some oil sprinkled over it. As you expect from
+anchovies, they were salty, which the whipped cheese was a perfect
+accompaniment for.
+
+As my main course I selected a mackerel with grilled peas. The mackerel came
+wholly grilled on a bed of caramelised chopped onions, and the aforementioned
+grilled peas. There was a sprinkling of herbs on top as well, to make the
+plate less beige. The combination of the meaty fish and caramelised onions
+worked great. My wife opted for an omelette, stuffed with girolle mushrooms.
+The omelette was fluffy, wonderfully moist, and filling!
+
+With our meal, we also enjoyed a lovely bottle of Psarades, a Cretian white
+wine.
+
+The food at Mountain was great, and the atmosphere inviting with a large open
+kitchen. Do make sure to request a table on the ground floor though. It is a
+bit on the pricier side, especially if you also share (or not) a main as well.
+
+.. carousel::
+   :name: mountain
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :mountain-1: Cured Dairy Beef
+   :mountain-2: Anchovies and Cheese
+   :mountain-3: Girolle Ommelette
+   :mountain-4: Mackerel
