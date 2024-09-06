@@ -1,0 +1,53 @@
+Friday Night Dinner: Chez Tony
+==============================
+
+.. articleMetaData::
+   :Where: 34 Rue Bois le Vent, 75016 Paris, France
+   :Date: 2024-09-13 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: chez-tony
+   :URL: https://www.thefork.co.uk/restaurant/chez-tony-r60583/reviews
+   :Costs: Dinner: €18-€25; Wines: ~€18-€50
+   :Rating: 4.5
+   :Author: Derick Rethans
+
+We were in Paris for the Paralympics, and on our first night we had time for a
+real meal. My wife suggested this restaurant as she had been here many times
+when visiting Paris for work. I had heard a lot about Chez Tony already.
+
+When we arrived, we found the place empty inside. Tony came over from the
+terrace across the street nearly immediately and recommended that we sat
+outside, as the weather was great, and it was going to be stuffy inside. He
+was totally right after we (briefly) tried sitting inside first.
+
+The menu is a blackboard that gets put on a seat close to you. They don't
+really do starters, and henceforth their menu is dinner. From snails and foie
+gras, via a beef tartare and cheese burger, the menu eventually leads to
+pieces of beef: filet mignon de porc (pork tenderloin), and escalope de veau.
+There is even fish and chips. My wife usually enjoys the cheese burger on her
+work trips. 
+
+The "piece de boucher" (butchers piece of beef) seemed the most appealing to
+us, and we ordered one each served medium rare. While dinner was being
+prepared our chosen carafe of a nice Côte du Rhône. I can't remember which
+one, but it was delicious, went well with our steaks, and it was empty by the
+time we finished our mains.
+
+The steak was cooked perfectly medium rare, and the fries were nice and
+crispy. The peppercorn sauce had just the right amount of pepper to it.
+
+We did find a little space for dessert, and shared a crème brûlée. Tony
+suggested, after tapping it with a fork, to wait a for minutes before enjoying
+it, so that the crème had some time to set. By this time, the restaurant had
+also filled up, and it was full when we left. Mostly locals too!
+
+This is not a fancy restaurant, but one that does what it does well. No fuss,
+no snobby waiters, but good French cooking; and with a good ambiance.
+
+
+.. carousel::
+   :name: cafe-pasifico
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :chez-tony-1: The Restaurant
+   :chez-tony-2: Piece de Boucher
+   :chez-tony-3: Crême Brûlée

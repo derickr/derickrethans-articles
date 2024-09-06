@@ -1,0 +1,48 @@
+Friday Night Dinner: Cafe Pacifico
+==================================
+
+.. articleMetaData::
+   :Where: 5 Langley Street, Covent Garden, London WC2H 9JA
+   :Date: 2024-09-06 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: cafe-pacifico
+   :URL: https://cafe-pacifico.com/
+   :Costs: Starters: £8.50-£12.95; Mains: £15.95-£26; Dessert: £4.75-£7.50
+   :Rating: 3
+   :Author: Derick Rethans
+
+We had visited Cafe Pacifico a few times in the past already, but we hadn't
+been back for a while, nor written up a review.
+
+As it was a warm day, having Mexican food seemed like a good idea, and
+starting with a large margarita an even better one.
+
+Cafe Pacifico has fairly standard items on their menu, not nearly as
+adventurous as Polanco where we dined a few weeks ago. We started our meal to
+share a couple of Empanadas, with a flavourful filling and a subtle chipotle
+salsa on the side.
+
+By now our margarita was empty, and we ordered another one while waiting for
+our main, for which my wife picked the Chicken Chimichanga with black beans. A
+lovely dollop of guacamole and cream was perched on top. I chose the Sea Bass
+and King Prawn Tacos. These came in "tempura style" (i.e.: battered and
+fried), and were served with grilled pineapple, some red onions, and a
+slightly spicy mayonnaise.
+
+After our mains, we were eventually given the dessert menu. We were quite
+eying up the churros, but it took so long for staff to return that by that
+time we had changed our mind and decided not to have any.
+
+In my opinion, there could have been a little more spice and flavour in most
+of the dishes, and service wasn't the speediest. But it's still a reasonable
+option for a meal after a hard day of shopping in Covent Garden. We would also
+have benefitted from ordering a bottle of margaritas, instead of 4 individual
+large glasses.
+
+.. carousel::
+   :name: cafe-pasifico
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :cafe-pacifico-1: Classic Margaritas
+   :cafe-pacifico-2: Crispy Empenadas
+   :cafe-pacifico-3: Chicken Chimichanga with Black Beans
+   :cafe-pacifico-4: Sea Bass and King Prawn Tacos
