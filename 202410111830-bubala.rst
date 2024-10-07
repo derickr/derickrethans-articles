@@ -1,0 +1,50 @@
+Friday Night Dinner: Bubala
+===========================
+
+.. articleMetaData::
+   :Where: 15 Poland Street, SOHO, London W1F 8QE
+   :Date: 2024-10-11 18:30 Europe/London
+   :Tags: blog, fnd
+   :Short: bubala
+   :URL: https://www.bubala.co.uk/soho
+   :Costs: Mezzes: £8-£16.50; Wines £33-£60
+   :Rating: 4
+   :Author: Morag Rethans
+
+We visited Bubala, a vegetarian/vegan restaurant, on a warm-ish Friday night
+in October.
+
+Bubala is located very centrally, just a few minutes walk from Oxford Street,
+Regent Street, and just around the corner from Carnaby Street.
+
+The restaurant felt cosy inside, although the lighting was a bit on the dim
+side. It was fairly busy when we arrived. We were seated quickly, and shortly
+afterwards the server arrived with menus and complimentary still or sparkling
+water.
+
+Bubala is a sharing plates type restaurant, serving a Mediterranean inspired
+cuisine. They had vegetarian or vegan set menus available for £45/person, but
+we opted to pick from the à la carte menu. We ordered flatbreads, hummus with
+chilli oil, baba ganoush, sweetcorn, halloumi with a fennel honey crust, and
+(surprisingly spicy) spanked cucumbers. To drink we enjoyed a bottle of white
+wine.
+
+The food was delivered fairly quickly, but this led to an issue as the table
+wasn't really big enough for more than a couple of the sharing dishes, which
+were all quite large and flat. I ended up having to put my cutlery on the
+bench seat beside me, in order to have enough space for the water and wine
+glasses. My husband juggled cutlery.
+
+Overall the food was tasty, and service good, and we'd return with veggie
+friends. If we returned we would consider ordering only a couple of dishes,
+and then ordering more when those were eaten, due to the table size. We
+ordered an extra flatbread and this arrived hot from the grill within a couple
+of minutes.
+
+.. carousel::
+   :name: bubala
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :bubala-1: Flatbread
+   :bubala-2: Hummus
+   :bubala-3: Sweetcorn
+   :bubala-4: Smacked Cucumbers
