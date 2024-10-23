@@ -1,0 +1,55 @@
+Friday Night Dinner: Spagnoletti
+================================
+
+.. articleMetaData::
+   :Where: 23 Euston Road, London NW1 2SD
+   :Date: 2024-10-25 18:30 Europe/London
+   :Tags: blog, fnd, Italian
+   :Short: spagnoletti
+   :URL: https://www.spagnoletti.co.uk/
+   :Costs: Snacks: £5.5; Small dishes: £6-£13; Mains: £19-£40
+   :Rating: 3
+   :Author: Derick Rethans
+
+Spagnoletti is an Italian style restaurant operating with a sharing dishes
+concept. We visited this in the middle of October, when it was reasonably
+busy.
+
+Just like other sharing dishes places, they recommend a certain number of
+plates per person. In Spagnoletti's case, three to four. As part of this
+concept, most of the dishes also come at random moments.
+
+We weren't especially hungry, and the waiter was surprised that we did not
+order the recommended amount of plates. However, for our starters we ordered
+the wild mushrooms and truffle arancini, with a whipped goat's cheese, and the
+suckling pig and black pudding croquettes. The arancini stood out. They had a
+perfectly crisp and seasoned coating and a smooth mushroom filling, and the
+whipped goats cheese was both delicious alone and as an accompaniment to the
+arancini. The croquettes sadly were a little underwhelming, both in terms of
+flavour and the amount of filling.
+
+For her main course, my wife picked the burrata, which was served with
+butternut squash and chicory leaves. I chose the risotto with a pulled shin of
+beef and bone marrow. The burrata showed up first, and we soon realised that
+the warm risotto wasn't coming until the cold burrata had been eaten. The
+burrata with butternut squash, with a few bits of mandarin was a good
+combination, with the slightly bitter chicory rounding it off. The risotto,
+once it arrived half an hour later, was quite wet, with the rice on top of the
+pulled beef and bone marrow, and had an odd “gravy” sitting with the meat. It
+had depth, but it was a little strange to eat… and overall far too wet
+
+Because the burrata came before the risotto, we didn't really get to eat at
+the same time, even though we had mentioned that these would be our main
+dishes. Awkward. Luckily, they did have a couple of interesting beers from the
+Portobello microbrewery that we enjoyed during the waiting time.
+
+Sometimes, a place that does "sharing dishes" works fine, but in this case, it
+fell a little flat on its face.
+
+.. carousel::
+   :name: spagnoletti
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :spagnoletti-1: Wild Mushrooms Arancini
+   :spagnoletti-2: Suckling Pig Croquettes
+   :spagnoletti-3: Burrata with Butternut Squash
+   :spagnoletti-4: Risotto with Beef Shin
