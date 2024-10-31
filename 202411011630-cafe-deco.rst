@@ -1,0 +1,52 @@
+Friday Night Dinner: Café Deco
+==============================
+
+.. articleMetaData::
+   :Where: 43 Store Street, London WC1E 7DB
+   :Date: 2024-11-01 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: cafe-deco
+   :URL: https://www.cafe-deco.co.uk
+   :Costs: Snacks: £4.5-£12; Starters: £10-£19; Mains: £23-£37; Wines: £39+
+   :Rating: 4
+   :Author: Derick Rethans
+
+We were supposed to visit Café Deco together last November, but then I ended
+up in A&E for the evening, with my wife going on her own. She liked it well
+enough then to make a repeat visit for the two of us.
+
+I arrived a little before her, and I was sat in a cosy and small room in the
+back, with room for barely 6 patrons. Café Deco does modern British cuisine,
+with some forays into French and Indian styles.
+
+For her starter, my wife chose the charcuterie (from the snack section), and I
+picked the Mulligatawny (from the starter section). They slightly forgot that
+they were supposed to come together, but that was sorted out soon enough. The
+soup was thick with lentils and spices, and had a good kick to it. The
+charcuterie was flavourful too.
+
+For her main, my wife picked a cicoria, carrot, and cannellini bean stew. The
+flavours were deep, the carrots a little crunchy, and the beans nice and
+buttery. I selected the pork chop as my main. I don't really often eat pork,
+but on this chilly autumn evening it felt the right choice for the moment. It
+was served with a pumpkin and radicchio gratin. The chop was nicely seasoned,
+and the gratin of roasted vegetables were a nice and slightly sweet
+accompaniment.
+
+With our meal we also enjoyed a lovely bottle of a Spanish Granache, and
+created little sparkles on the tongue.
+
+And then it was dessert time, for which we both had a scoop of the mint choc
+chip ice cream, and a dessert wine to round out the evening.
+
+Café Deco is on the up market side, and not particularly cheap. But it was a
+very nice meal indeed.
+
+.. carousel::
+   :name: cafe-deco
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :cafe-deco-1: Charcuterie
+   :cafe-deco-2: Mullagatawny
+   :cafe-deco-3: Cannelli Bean Stew
+   :cafe-deco-4: Pork Chop with Roasted Veg
+   :cafe-deco-5: Choc Mint Icecream
