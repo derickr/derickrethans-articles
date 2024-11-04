@@ -39,9 +39,9 @@ time, it was much harder to get help from the developers, and much harder to
 debug as HHVM is many times more complex than PHP.
 
 With PHP 7 released, we saw very little use of the HHVM driver for MongoDB.
-Some months ago I did a twitter poll_, where very few people were indicating
+Some months ago I did a twitter poll, where very few people were indicating
 that they were using HHVM—and even if they were, they would likely not choose
-to `switch to HHVM`_ given the current climate.
+to switch to HHVM given the current climate.
 
 .. image:: /images/content/hhvm-poll.png
    :title: Twitter HHVM Poll
@@ -57,10 +57,7 @@ Some of the feedback on the poll was not very assuring either:
 .. image:: /images/content/doublecompile.png
    :title: https://twitter.com/doublecompile/status/822091880955596800
 
-.. _poll: https://twitter.com/derickr/status/822027320005365761
-.. _`switch to HHVM`: https://twitter.com/doublecompile/status/822091880955596800
-
-With few users, frequent `API breaks`_, and `curious bugs`_ we came to the
+With few users, frequent API breaks, and `curious bugs`_ we came to the
 conclusion that supporting the HHVM driver for MongoDB no longer makes good
 use of our engineering time. With `Doctrine`_ and `Symfony 4`_
 also no longer supporting HHVM, we have decided to discontinue the MongoDB
@@ -69,7 +66,6 @@ driver for HHVM.
 If anyone is interested in assuming ownership of the HHVM driver, please drop 
 me_ a line and we can discuss the process in more detail.
 
-.. _`API breaks`: https://twitter.com/derickr/status/849946557344612352
 .. _`curious bugs`: https://github.com/mongodb/mongo-hhvm-driver/issues/183
 .. _`Doctrine`: https://github.com/doctrine/common/pull/785#issuecomment-294369979
 .. _`Symfony 4`: http://symfony.com/blog/symfony-4-end-of-hhvm-support

@@ -7,7 +7,7 @@ Good bye Norway, Hello London
    :Tags: blog, php, travel, work
 
 Today, at the longest day of the year at the `summer solstice`_ , I am
-making a bit change to my life. If you're following me on `twitter`_ you probably already
+making a bit change to my life. If you're following me on twitter you probably already
 know what I'm up to. For everybody else, I am going to say good bye to
 Skien in Norway, and move to London (the one in England, and not the one
 in Ontario). Norway has been my home for the past five years, and I've
@@ -24,7 +24,6 @@ there!
 
 
 .. _`summer solstice`: http://en.wikipedia.org/wiki/Solstice
-.. _`twitter`: http://twitter.com/derickr
 .. _`our`: http://ez.no
 .. _`Skien`: http://en.wikipedia.org/wiki/Skien
 .. _`eZ Components`: http://ezcomponents.org

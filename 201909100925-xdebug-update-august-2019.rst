@@ -131,8 +131,7 @@ happy to provide a suggested fix, which I will now have to put into practice.
 Funding Xdebug
 --------------
 
-At the end of the month I started a `thread
-<https://twitter.com/derickr/status/1167449201363623936>`_ on Twitter with the
+At the end of the month I started a thread on Twitter (now deleted) with the
 cheeky suggestion that I am considering making Xdebug non-free for commercial
 use. This is not something I would likely do, and instead would prefer to be
 funded through Patreon and commercial donations. The replies on the thread

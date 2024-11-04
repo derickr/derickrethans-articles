@@ -62,13 +62,13 @@ details and we also want to hash the passwords. The new schema will look like:
 
 **Contacts**
 
-====== ======= =============
-userid method  value
-====== ======= =============
-1      phone   +447551569555
-1      twitter derickr
-2      twitter rasmus
-====== ======= =============
+====== ======== ====================
+userid method   value
+====== ======== ====================
+1      phone    +447551569555
+1      mastodon @derickr@phpc.social
+2      mastodon @rasmus@phpc.social
+====== ======== ====================
 
 To make this transition, you could run the following SQL statements:
 
@@ -212,8 +212,8 @@ Let's have a look at how this might look at in the collection::
         lastname: "Lerdorf",
         contacts [
             {
-                method: 'twitter',
-                value: 'rasmus',
+                method: 'mastodon',
+                value: '@rasmus@phpc.social',
             }
         ]
     }

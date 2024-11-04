@@ -41,10 +41,8 @@ make sure all the new configuration methods are also supported with/through
 PhpStorm.
 
 There are also several anecdotal reports that Xdebug 3 is indeed a lot faster
-in many environments. I have asked the community for `benchmarks
-<https://twitter.com/derickr/status/1316724258341638144>`_, but I have not
-seen any write ups beyond a `tweet
-<https://twitter.com/DCoderLT/status/1323253602614419462>`_, and an `article
+in many environments. I have asked the community for benchmarks, but I have not
+seen any write ups beyond a tweet (now deleted), and an `article
 <https://php.watch/articles/php-code-coverage-comparison?rd>`_.
 
 PHP 8

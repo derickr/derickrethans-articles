@@ -8,8 +8,8 @@ PHP Internals News: Episode 67: Match Expression
    :Short: pin067
    :Enclosure: media/pin-067.mp3
 
-In this episode of "PHP Internals News" I chat with Derick Rethans (`Twitter
-<https://twitter.com/derickr>`_, `GitHub <https://github.com/derickr/>`_,
+In this episode of "PHP Internals News" I chat with Derick Rethans (`Mastodon
+<https://phpc.social/@derickr>`_, `GitHub <https://github.com/derickr/>`_,
 `Website <https://derickrethans.nl>`_) about the new Match Expression in
 PHP 8.
 

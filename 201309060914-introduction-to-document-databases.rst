@@ -199,8 +199,8 @@ downloading, please make sure that MongoDB runs by running on the command line
 ``mongo test``. This opens up a shell like interface for the *test* database.
 If that works, then you can issue commands in JavaScript syntax such as::
 
-	db.persons.insert( { 'name': 'Derick Rethans', 'twitter': 'derickr' } );
-	db.persons.find( { 'twitter': 'derickr' } );
+	db.persons.insert( { 'name': 'Derick Rethans', 'mastodon': '@derickr@phpc.social' } );
+	db.persons.find( { 'mastodon': '@derickr@phpc.social' } );
 
 In order to use MongoDB from PHP, you also need to install the `PHP driver for
 MongoDB`_. In most situations you should be able to do so by running::
@@ -216,8 +216,8 @@ Analogous to the previous example on the shell in PHP we would do::
 	$db = $m->test;
 	$col = $db->persons;
 
-	$col->insert( array( 'name' => 'Derick Rethans', 'twitter' => 'derickr' ) );
-	foreach ( $col->find( array( 'twitter' => 'derickr' ) ) as $record )
+	$col->insert( array( 'name' => 'Derick Rethans', 'mastodon' => '@derickr@phpc.social' ) );
+	foreach ( $col->find( array( 'mastodon' => '@derickr@phpc.social' ) ) as $record )
 	{
 		var_dump( $record );
 	}
