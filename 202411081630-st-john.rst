@@ -1,0 +1,51 @@
+Friday Night Dinner: St. JOHN
+=============================
+
+.. articleMetaData::
+   :Where: 98 Marylebone Lane, London W1U 2QA
+   :Date: 2024-11-08 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: st-john
+   :URL: https://stjohnrestaurant.com/a/restaurants/marylebone
+   :Costs: Starters: £5-£14; Small Plates: £10-16.80; Large Plates: £24-£35; Wines from £36
+   :Rating: 3
+   :Author: Morag Rethans
+
+We went to St. JOHN on a chilly evening. We were sat upstairs directly in
+front of the door, and with the aircon also turned on it was verging on cold.
+I arrived a bit early and noticed people dining, whilst wearing their outdoor
+coats.
+
+St. John, like most restaurants in London these days, operates on a “sharing
+concept” which is fine, but doesn't work for all foods, like soup for example.
+
+We shared the venison rissole, which came with an extremely punchy aioli — a
+bit heavy on the raw garlic to be honest — which was nice. I then had a
+delicious artichoke soup and my husband enjoyed the smoked mackerel, with its
+bones in place, as starters. The smoked mackerel was served with some lemon
+herbed potatoes, which complemented the flavour of the fish well.
+
+My main, the middle white pork, was underwhelming, with something of the
+school dinner about it. The pork was very dry and served on a cold plate with
+carrots that were well on the overcooked side. For some reason the entire dish
+was also drowned in what appeared to be gravy and oil, which didn't improve or
+moisten the dry pork, it just made it tepid and greasy. My husband's hake dish
+was better, served with leeks of just the right firmness, and a
+not-so-garlicky mayonnaise.
+
+We had a bottle of the house white wine which worked well with all the dishes.
+
+The mains took forever to turn up. The serving staff apologised for this, and
+offered us a bag of their madeleines as recompense, which we took away. Those
+fresh warm madeleines were absolutely delicious, and by far the best thing
+served. We'd go back for those, and the soup… But not for the mains.
+
+
+.. carousel::
+   :name: st-john
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :st-john-1: Venison Rissole with Aioli
+   :st-john-2: Smoked Mackerel
+   :st-john-3: Artichoke Soup
+   :st-john-4: Middle White Pork
+   :st-john-5: Hake with Leeks
