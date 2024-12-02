@@ -64,9 +64,10 @@ If you want to contribute to specific projects, you can find those on the
 Xdebug Cloud
 ------------
 
-Xdebug Cloud is the *Proxy As A Service* platform to allow for debugging
-in more scenarios, where it is hard, or impossible, to have Xdebug make
-a connection to the IDE. It is continuing to operate as Beta release.
+`Xdebug Cloud <https://xdebug.cloud>`_ is the *Proxy As A Service* platform to
+allow for debugging in more scenarios, where it is hard, or impossible, to
+have Xdebug make a connection to the IDE. It is continuing to operate as Beta
+release.
 
 Packages start at £49/month, and I have recently introduced a package
 for larger companies. This has a larger initial set of tokens, and
