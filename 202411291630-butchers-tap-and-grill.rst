@@ -35,7 +35,7 @@ Wellington itself was splendid. Nicely pink in the middle, surrounded by a
 moist mushroom duxelles, and covered with a perfectly crisp pastry — no soggy
 bottom! The dish was finished with a red wine sauce.
 
-With dinner, we enjoyed a bottle of Bedova, a Georgian red wine. We later found
+With dinner, we enjoyed a bottle of Bedoba, a Georgian red wine. We later found
 out it's the same wine we had at the Hand and Flowers in Marlow!
 
 We were still a bit peckish and finished our meal with a pudding. My wife had a
