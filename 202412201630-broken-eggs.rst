@@ -1,0 +1,48 @@
+Friday Night Dinner: Broken Eggs
+================================
+
+.. articleMetaData::
+   :Where: 24-25 Foley Street, Fitzrovia, London W1W 6DX
+   :Date: 2024-12-20 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: broken-eggs
+   :URL: https://brokeneggs.co.uk/
+   :Costs: Starters: £5-£7; Tortillas: £12-£15; Wines from £32
+   :Rating: 4
+   :Author: Derick Rethans
+
+A restaurant that focuses on one specific thing, Spanish tortillas. They come
+in different flavours. From classic (egg and triple cooked potatoes), to
+courgette flavoured ones, and Jamon Iberico. That, and a few starters and
+drinks makes for a unique and rustic place, especially when it is cold and
+windy outside.
+
+We visited Broken Eggs on such a stormy and slightly damp Friday evening, just
+before a storm would arrive. The restaurant is cosy with a homely atmosphere,
+with friendly and welcoming staff. Spanish classics on the radio.
+
+We had some Padron peppers and cheese croquettes to start. As is common, the
+croquettes came as three pieces. Which I always find odd, because many
+bookings are likely to be couples, and dividing three portions among two can
+be tricky. However, they kindly offered to produce four. This was good news,
+because they were excellent, and my wife said she wouldn't have wanted the
+third one to share.
+
+We however, did share the tortillas. Instead of picking a big one to share, we
+chose two different flavours to split between us. One with courgettes, and the
+second one with Jamon Iberico. They were both flavourful, and slightly gooey
+in the middle. Perfect for scraping up with some bread at the end.
+
+With our starters and tortillas, we also had a bottle of their house red. It
+wasn't anything special, but on a cold, rainy, and windy evening that it was,
+it was the perfect accompaniment to our meal.
+
+It was a relaxed evening out, with good rustic food, for a reasonable price.
+
+.. carousel::
+   :name: broken-eggs
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :brokeken-eggs-1: Padron Peppers
+   :brokeken-eggs-2: Cheese Croquettes
+   :brokeken-eggs-3: Courgette Tortilla
+   :brokeken-eggs-4: Jamon Iberico Tortilla
