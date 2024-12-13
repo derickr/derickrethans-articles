@@ -1,0 +1,43 @@
+Friday Night Dinner: Demartino
+==============================
+
+.. articleMetaData::
+   :Where: 196-198 Great Portland Street, London W1W 5QF
+   :Date: 2024-12-13 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: demartino
+   :URL: https://www.demartinorestaurant.com/
+   :Costs: Starters: £10-£18; Mains: £13.90-£37.50; Wines from £26.50
+   :Rating: 4
+   :Author: Derick Rethans
+
+Styling themselves as a New York neighbourhood Italian restaurant, Demartino
+is situated on Great Portland Street. When we visited it was busy, with
+elderly couples, a bunch of friends, and a birthday party. Very much a low-key
+neighbourhood restaurant. Unfortunately, that meant we had a small table right
+in the middle of the restaurant, which meant we were on something of a busy
+thoroughfare with serving staff and fellow diners moving around close to us.
+
+For our starters we picked courgette fries and arancini, or rather, one big
+arancino. The courgette fries were nicely seasoned, and were served in a cone
+— just like Belgian fries. The big arancino was served in a spicy sauce, that
+had a very nice strong tomato flavour.
+
+As her main, my wife selected a ravioli filled with ricotta and spinach,
+served in a lovely butter and sage sauce. I had the wild mushroom risotto,
+with the rice just a little al dente. A decent sprinkling of Parmesan added
+the right level of cheesiness.
+
+We had a lovely bottle of red wine to go with our excellent meal. The service
+at Demartino was good, and the atmosphere lively.
+
+The only downside to our visit was the position of the table we were seated
+at, so if we returned we'd try to be seated elsewhere (almost anywhere else).
+
+.. carousel::
+   :name: demartino
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :demartino-1: Courgette Fries
+   :demartino-2: Arancino
+   :demartino-3: Wild Mushroom Risotto
+   :demartino-4: Spinach and Ricotta Ravioli
