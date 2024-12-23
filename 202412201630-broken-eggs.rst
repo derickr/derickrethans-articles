@@ -42,7 +42,7 @@ It was a relaxed evening out, with good rustic food, for a reasonable price.
 .. carousel::
    :name: broken-eggs
    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
-   :brokeken-eggs-1: Padron Peppers
-   :brokeken-eggs-2: Cheese Croquettes
-   :brokeken-eggs-3: Courgette Tortilla
-   :brokeken-eggs-4: Jamon Iberico Tortilla
+   :broken-eggs-1: Padron Peppers
+   :broken-eggs-2: Cheese Croquettes
+   :broken-eggs-3: Courgette Tortilla
+   :broken-eggs-4: Jamon Iberico Tortilla
