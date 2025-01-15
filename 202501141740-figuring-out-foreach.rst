@@ -10,7 +10,7 @@ articleMetaData::
 
 For a while I have been aware of some odd behaviour when you use
 branch coverage with PHP's foreach language construct. Usually with
-PHP Unit.
+PHPUnit.
 
 Take for example this bit of code::
 
