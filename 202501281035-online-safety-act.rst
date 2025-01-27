@@ -3,9 +3,9 @@ On the Online Safety Act
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2022-04-12 10:35 Europe/London
+   :Date: 2025-01-28 10:35 Europe/London
    :Tags: blog, politics
-   :Short: osb1
+   :Short: osa1
 
 A few years ago I wrote a `letter to my then MP Tulip Siddiq
 <https://derickrethans.nl/online-safety-bill.html>`_, with regard to the
