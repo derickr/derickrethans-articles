@@ -130,7 +130,7 @@ Graphically, it looks like:
 
 From the above Xdebug output,we see that both the old and new array elements
 now point to a zval container whose "refcount" is "2".  Although Xdebug's
-output shows two zval containers with value "life", they are the same one. The
+output shows two zval containers with value "life", they are the same one.
 The function `xdebug_debug_zval()`_ function does not show this, but you could
 see it by also displaying the memory pointer.
 

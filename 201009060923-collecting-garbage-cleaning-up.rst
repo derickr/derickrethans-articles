@@ -37,7 +37,7 @@ Code`__ and we put up the implementation of this paper as one of our ideas.
 Yiduo (David) Wang picked up this idea and started hacking on the first
 version as part of the Summer of Code project.
 
-__ http://www.research.ibm.com/people/d/dfb/papers/Bacon01Concurrent.pdf
+__ https://pages.cs.wisc.edu/~cymen/misc/interests/Bacon01Concurrent.pdf
 __ http://code.google.com/soc/2007/
 
 Explaining how the full algorithm works goes slightly too far for this column,
