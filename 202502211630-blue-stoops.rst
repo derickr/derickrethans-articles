@@ -1,0 +1,43 @@
+Friday Night Dinner: The Blue Stoops
+====================================
+
+.. articleMetaData::
+   :Where: 127-129 Kensington Church Street, London W8 7LP
+   :Date: 2025-02-21 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: blue-stoops
+   :URL: https://www.thebluestoops.com/ 
+   :Costs: Starters: £4-£15; Mains: £21-£32.50; Wines from £39
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+On a cold and rainy evening, we met at the Blue Stoops, a pub owned by
+Midlands brewery Allsopp's, near Notting Hill Gate station, on the way to
+Kensington High Street. We arrived a little early, so started off with a half.
+I tried a Double Diamond, a beer that has recently come back after having been
+gone for 30 years.
+
+While we were enjoying our cheeky half, our table became ready, and we sat
+down to investigate the menu. With our food we ordered a large glass of wine,
+but they only did small measures. So instead of a single large glass each, we
+ended up with four small ones! We combined the glasses to end up with two
+large glasses. A little curious, and to be fair, I would have been happy with
+just a small glass instead.
+
+Back to the meal — To start, we had an oyster each. They were nice and plump,
+and were served with the usual accompaniments: a slice of lemon and an onion
+vinaigrette. We also choose the same main course, and onglet steak served with
+chunky chips, and a fried egg. The chips were crispy and fluffy, the steak
+well cooked, and the egg added some moisture. We saw other plates coming out
+of the kitchen, and I think we missed our mark here by not picking two
+different dishes.
+
+The dining room had a typical gastropub feeling to it, and the bar was quite
+busy. It's a good spot, and I'm glad to see it has opened. Maybe next time we
+need a better look at their menu.
+
+.. carousel::
+   :name: blue-stoops
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :blue-stoops-1: Oysters
+   :blue-stoops-2: Onglet Steak, with Chips and an Egg
