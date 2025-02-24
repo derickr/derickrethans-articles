@@ -1,0 +1,55 @@
+Friday Night Dinner: The Surprise
+=================================
+
+.. articleMetaData::
+   :Where: 6 Christchurch Terrace, London SW3 4AJ
+   :Date: 2025-02-28 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: surprise
+   :URL: https://www.thesurprise-chelsea.co.uk/
+   :Costs: Starters: £9-£12.50; Mains: £19.50-£37; Wines from £30
+   :Rating: 4
+   :Author: Derick Rethans
+
+We were determined not to do a "Valentine's Meal", you know, the ones that are
+cringe, start with a welcome glass of cheap fizz, have a special overpriced
+set menu, and are just a bit cheesy all round. Instead of that, my wife had
+booked a table at The Surprise, a gastropub in Chelsea that decidedly did not
+have a Valentine's Day Menu.
+
+We were set in a small back room, and getting there meant wrestling through a
+throng of people hanging out at the busy bar. 
+
+As our starter, we shared chicken and blue cheese croquets, which came with a
+delicious thyme mayonnaise. We ordered a bottle of Riesling, partly because my
+wife didn't want to pronounce Gruner Veltliner to the waiter. It was nice and
+crisp, and we enjoyed it while waiting for our mains to arrive.
+
+I chose the pan-fried cod. Unfortunately they no longer had that, but after
+going back-and-forth with the kitchen, it turned out they could do the same
+dish with monk fish, which I indeed had. It came served with mussels and
+prawns, some smoked tomatoes and risotto. The ingredients worked well
+together.
+
+My wife picked the butternut squash gnocchi, which was a little crunchy on the
+outside offering a nice texture, and was served with kale and pine nuts. It
+also was a dish that was well put together.
+
+We were still a little peckish, and henceforth decided we wanted some pudding.
+Our wine had run out though, so with our desserts — the affogato for her, an
+orange cake with chocolate sorbet for me — we also enjoyed a glass of dessert
+wine: A sauternes to go with the affogato, and for me a tokaji to go with the
+cake and sorbet.
+
+The food was excellent, although the service was a little slow. The staff did
+apologise for this, while commenting that this was due to it being Valentine's
+Day. It's a great vibrant place for a meal, so we'd go again.
+
+.. carousel::
+   :name: the-surprise
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :the-surprise-1: Chicken Croquets
+   :the-surprise-2: Monk Fish, with Prawns and Mussels
+   :the-surprise-3: Butternut Squash Gnocchi
+   :the-surprise-4: Orange & Almond Cake, with Chocolate Sorbet
+   :the-surprise-5: Affogato
