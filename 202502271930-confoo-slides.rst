@@ -1,0 +1,26 @@
+ConFoo 2025 Slides
+==================
+
+.. articleMetaData::
+   :Where: Montreal, Canada
+   :Date: 2025-02-27 14:30 America/Montreal
+   :Tags: blog, php
+   :Short: confoo25
+
+I have been speaking at the 2025 edition of `ConFoo
+<https://confoo.ca/en/2025>`_ in Montreal, the city with three seasons in as
+many days.
+
+I have given two talks.
+
+- In `What's New in PHP 8.4? <https://derickrethans.nl/talks/php-confoo25>`_
+  I explain the major new features of PHP's most recent release, 8.4.
+- And in `Better Debugging with Xdebug
+  <https://derickrethans.nl/talks/xdebug-confoo25>`_ I explained some of
+  Xdebug's new features, and also showed how to use some of these features to
+  use the debugging in complicated situation. I also mentioned the `Native
+  Path Mappings <https://xdebug.org/funding/001-native-path-mapping>`_ feature
+  that I am working on, as well as the initial ideas and plans for time
+  travelling.
+
+Let me know if you have questions or comments.
