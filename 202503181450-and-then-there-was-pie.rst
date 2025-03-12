@@ -11,7 +11,7 @@ In tandem with the `PECL <https://pecl.php.net/>`_ website, which hosts around
 400 packages, PHP developers have been able to install third party extensions
 for several decades now with the PECL installer.
 
-PECL, which stands for the PHP Extension C Library was a sister project to
+PECL, which stands for the PHP Extension Community Library was a sister project to
 `PEAR <https://pear.php.net>`_, the PHP Extension and Application Repository.
 This repository has largely been replaced by `Packagist
 <https://packagist.org/>`_, which hosts PHP user land code to be installed
@@ -67,11 +67,12 @@ action <https://github.com/php/php-windows-builder>`_ to help extension
 authors to do this in the right way for PIE.
 
 PIE's feature set is fairly compatible with PECL, and now is the time to start
-using it in your projects. There are still a few things to resolve, such as
-the `MongoDB extension's <https://github.com/mongodb/mongo-php-driver>`_ use
-of `Git submodules
-<https://github.com/mongodb/mongo-php-driver/blob/v1.x/.gitmodules>`_, and
-these are actively worked on.
+using it in your projects. There are sometimes still a few kinks, such as a
+recent issue with the `MongoDB extension's
+<https://github.com/mongodb/mongo-php-driver>`_ use of `Git submodules
+<https://github.com/mongodb/mongo-php-driver/blob/v1.x/.gitmodules>`_. This is
+already fixed in the 0.7.0 of PIE, but more issues are likely to be
+encountered.
 
 At some point in the future, the PECL website will be discontinued leaving PIE
 installing PHP extensions from Packagist as the only available option.
