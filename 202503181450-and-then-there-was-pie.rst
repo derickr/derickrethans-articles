@@ -84,7 +84,7 @@ In most cases, this requires creating a ``composer.json`` file in the root of
 your GIT repository, such I have done for `Xdebug
 <https://github.com/xdebug/xdebug/blob/master/composer.json>`_, and others
 have done for the `APCu
-<https://github.com/krakjoe/apcu/blob/master/composer.json>`_, `CVS
+<https://github.com/krakjoe/apcu/blob/master/composer.json>`_, `CSV
 <https://gitlab.com/Girgias/csv-php-extension/-/blob/master/composer.json?ref_type=heads>`_,
 `Imagick <https://github.com/Imagick/imagick/blob/develop/composer.json>`_,
 and many other extensions.
