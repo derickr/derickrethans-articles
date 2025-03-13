@@ -4,7 +4,7 @@ Autumn Conferences
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-09-22 21:14 Europe/London
-   :Tags: blog, php, conferences, extensions
+   :Tags: blog, php, conference, extensions
 
 .. image:: /images/content/map-autumn2010.png
 
