@@ -4,7 +4,7 @@ Friday Night Dinner: Spagnoletti
 .. articleMetaData::
    :Where: 23 Euston Road, London NW1 2SD
    :Date: 2024-10-25 18:30 Europe/London
-   :Tags: blog, fnd, Italian
+   :Tags: blog, fnd
    :Short: spagnoletti
    :URL: https://www.spagnoletti.co.uk/
    :Costs: Snacks: £5.5; Small dishes: £6-£13; Mains: £19-£40
