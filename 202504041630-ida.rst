@@ -1,0 +1,58 @@
+Friday Night Dinner: Ida
+========================
+
+.. articleMetaData::
+   :Where: 222a Kilburn Lane, W10 4AT, London
+   :Date: 2025-04-04 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: ida
+   :URL: https://www.idarestaurant.co.uk/
+   :Costs: Starters: £6.50-£12.50; Mains: £18.50-£23.50; Wines from £26.50; Deserts: £5.00-£9.00
+   :Rating: 4
+   :Author: Morag and Derick Rethans
+
+This was our second trip to Ida. We first visited in summer 2023, and although
+we wrote a review, we never posted it. Ida has achieved something of a
+reputation in the last couple of years, but remains at its heart a local
+neighbourhood restaurant.
+
+When you walk past Ida during the day, you wouldn't pay it any notice. It sits
+on a busy road at the edge of a residential neighbourhood, with a convenience
+store across the road. It's an unlikely spot for a restaurant, situated pretty
+close to both Salusbury Road in Queens Park, and the restaurants on
+Chamberlayne Road close to Kensal Rise. In the daytime it looks slightly
+unwelcoming, which is probably why it took us so long to visit the first time.
+
+In the evening however, the place livens up. We arrived at Ida at a quarter
+past six, and we were nearly the first ones in. By the time we were ready to
+order fifteen minutes later it was full. When we were here last time, on a
+lovely warm summer evening, there were also a few tables outside. With one set
+of doors open, even our inside table felt part of the streetscape.
+
+To start, we ordered a crostone to share. The sourdough toast was covered in
+flavourful (and aromatic) melted taleggio cheese, with grapes and a little
+syrupy honey.
+
+As his main meal, Derick ordered the wild funghi papperdelle, and as hers,
+Morag ordered the little ears — orecchiette — which was served with a creamy
+velouté of cauliflower, and more of the tasty taleggio cheese.
+
+The home-made pasta was nicely al dente, and the sauces thick, slightly
+sticky, and delicious. We only got (and needed) a fork as utensils, which made
+the meal more authentic.
+
+With our meal, we also enjoyed their house white wine, which was, fresh with a
+good flavour that worked well with all our dishes.
+
+After our pasta we were still a bit peckish, and fancied a tiramisu to finish
+our evening. This was light and fluffy, and we debated whether this was as
+good as the tiramisu offered by another local restaurant. We think the jury is
+out on that one though.
+
+.. carousel::
+   :name: ida
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :ida-1: Crostone
+   :ida-2: Funghi Papperdelle
+   :ida-3: Orecchiette
+   :ida-4: Tiramisu
