@@ -3,7 +3,7 @@ Friday Night Dinner: Ida
 
 .. articleMetaData::
    :Where: 222a Kilburn Lane, W10 4AT, London
-   :Date: 2025-04-04 16:30 Europe/London
+   :Date: 2025-04-03 16:30 Europe/London
    :Tags: blog, fnd
    :Short: ida
    :URL: https://www.idarestaurant.co.uk/
