@@ -1,0 +1,60 @@
+Friday Night Dinner: Don't Tell Dad
+===================================
+
+.. articleMetaData::
+   :Where: 10-14 Lonsdale Road, NW6 6RD, London
+   :Date: 2025-04-11 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: dont-tell-dad
+   :URL: https://www.donttelldad.co.uk/
+   :Costs: £10-£14; Mains: £18-£33; Wines from £36
+   :Rating: 3
+   :Author: Derick Rethans
+
+Lonsdale Road has many restaurants. They come and go, and we've been to plenty
+of them in the last few years. But Don't Tell Dad is pretty new.
+
+During the day it's a bakery, but during the evening it turns into a
+restaurant. It's hip, so booking is a must.
+
+The interior is modern, and full of wood. It wasn't noisy, and it was easy to
+chat. As our starter, we shared a couple of truffle and cheddar beignets —
+cheesy balls with shavings of more cheese — and a couple of oxtail crumpets.
+These were well braised pieces of meat in gravy, upon soft crumpets with some
+fried crumbs for texture.
+
+We did not fancy ordering a bottle of wine, but instead chose to have a cider
+with our starter, and a glass of wine each with our main. Unfortunately, the
+cider only showed up after we finished our starters.
+
+My wife picked monkfish as her main. This was served on the bone with
+artichoke and a dill béarnaise. I selected the roast lamb, which was served
+with courgette, chickpeas, and a salsa verde. Both dishes were delicious.
+However, to be critical whilst the food and wines were lovely, they didn't
+turn up at the same time. Our wine turned up so far in advance of our main,
+that we’d nearly finished the glasses of wine when it arrived  
+
+Still feeling a little peckish, we also had dessert. Madeleines for my wife,
+and an olive oil and chocolate mousse for me. Both desserts could easily have
+been shared between the two of us, and we probably should have. We opted to go
+for the matching dessert wines, and again there was a significant delay in
+between the wine and the desserts appearing.
+
+Once they finally arrived, the madeleines were soft, but not so crunchy on the
+outside. The chocolate mousse was covered in nicely bitter chocolate flakes,
+and juicy blood orange.
+
+The food at Don't Tell Dad was very nice, as was the atmosphere.
+Unfortunately, the service was very slow with long waits between the courses.
+In addition to that, the drinks were served at odd times, and not with the
+food which they were ordered to go with.
+
+.. carousel::
+   :name: dont-tell-dad
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :dont-tell-dad-1: Truffle and Cheddar Beignets
+   :dont-tell-dad-2: Oxtail Crumpets
+   :dont-tell-dad-3: Roast Lamb
+   :dont-tell-dad-4: Monkfish
+   :dont-tell-dad-5: Madeleines
+   :dont-tell-dad-6: Chocolate Mousse
