@@ -1,0 +1,43 @@
+Friday Night Dinner: Soutine
+============================
+
+.. articleMetaData::
+   :Where: 60 St. John's Wood High Street, NW8 7SH, London
+   :Date: 2025-04-18 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: soutine
+   :URL: https://www.soutine.co.uk/
+   :Costs: Starters: £13.25-£16.25; Mains: £17.50-£38.50; Wines from £35
+   :Rating: 3.5
+   :Author: Morag Rethans
+
+We booked Soutine a little later than normal, but there was no problem for us
+to get a table on a warm and sunny Friday evening in St John’s Wood. When we
+arrived and were shown to our table, I immediately thought that it had a
+resemblance of Brasserie Zedel, near Piccadilly Circus. Which ended up making
+sense as it has the same owner.
+
+The interior consists of mostly wooden panelling, and loads of mirrors, giving
+the inside an airy, but cosy atmosphere.
+
+We started with the smoked salmon crumpet for me, and a single oyster for my
+husband. We ordered a carafe of Chardonnay to share. For the main I had the
+rather calorific souffle suisse, which was delicious, but perhaps not
+something to have too often! As a consolation, it did come with a salad.My
+husband had the roast lamb, which was very tender, and was served with a
+mushroom flower and some rocket. With that, he had a separate class of Côte du
+Rhone.
+
+We were originally expecting to be able to order off the set menu which
+according to the website should have been available, but alas was not offered.
+
+The food and ambience was nice, but we couldn't quite shake off that we were
+by far the youngest in the restaurant!
+
+.. carousel::
+   :name: soutine
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :soutine-1: Oyster with Trimmings
+   :soutine-2: Smoked Salmon Crumpet
+   :soutine-3: Roast Lamb
+   :soutine-4: Souffle Suisse
