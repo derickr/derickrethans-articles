@@ -1,0 +1,55 @@
+Friday Night Dinner: Mowgli
+===========================
+
+.. articleMetaData::
+   :Where: 5 Charlotte Street, W1T 1RE, London
+   :Date: 2025-04-25 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: mowgli
+   :URL: https://www.mowglistreetfood.com/
+   :Costs: Dishes for sharing: £6.50-£11; Sharing Platters: £25-£35; Cocktails: £8.75-£10.50; Wines from £26
+   :Rating: 4
+   :Author: Derick Rethans
+
+Mowgli is situated on Charlotte Street, not far from Tottenham Court Road and
+Oxford Street. A section of this street is dedicated to restaurants. You can
+find anything there. Mowgli is a new addition, replacing Côte, which has gone
+from this location and many others.
+
+Mowgli is part of a chain, that specialises in Indian Street Food. When we
+arrived, was a good buzz in the restaurant, with half of the tables full.
+Unlike last week, we were not the youngest.
+
+We didn't fancy wine, and instead enjoyed a cocktail. My wife had a delicious
+Smoked Cardamom Old Fashioned, and I chose the Masala Espresso Martini.
+
+Their menu is extensive, but almost overwhelmed with choice. As this was our
+first visit, we took the lazy option and went for the Street Food Sharer, in
+the “meat” variety (vegan and vegetarian options are also available). Our
+starters included a trio of dishes: an Indian take on Patatas Bravas, fried
+cubes of potato in a sticky turmeric masala, with some raw onion and chilli
+sprinkled over it; gunpowder chicken, lightly battered and fried; and the most
+delightful yoghurt chat bombs that were crisp and filled with chickpeas, a
+yoghurt, and spices. The latter was the star of the show, and as they were
+liquid inside, not possible to share. Which was a problem, as we were given
+five for the two of us.
+
+The main consisted of three curries (chosen by the chef), rice, and Roti
+breads. All three curries (Butter Chicken, Temple Dahl, and Agra Ginger
+Chicken) were excellent, although I still find my own butter chicken much
+better than anything you find in a restaurant.
+
+The desert was a scoop of ice cream. My wife enjoyed a scoop of mango sorbet,
+and I had a scoop of salted caramel to finish our meal.
+
+It was a great and tasty meal out, in a modern, but not loud setting. It's an
+excellent place to come for a meal after a busy day of shopping (or not), and
+we expect to return to try more of that menu (and especially the yoghurt
+bombs).
+
+.. carousel::
+   :name: mowgli
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :mowgli-1: Patatas Bravas, Yoghurt Chat Bombs, and Gunpowder Chicken
+   :mowgli-2: Rice; Butter Chicken, Temple Dahl, and Agra Ginger Chicken); and Roti
+   :mowgli-3: Salted Caramel Ice Cream
