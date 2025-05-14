@@ -1,0 +1,54 @@
+Friday Night Dinner: Camino Victoria
+====================================
+
+.. articleMetaData::
+   :Where: 5-6, Zig Zag Building, 68 Victoria Street, SW1E 6SQ, London
+   :Date: 2025-05-16 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: camino
+   :URL: https://camino.uk.com/restaurant/victoria/
+   :Costs: Tapas: £4.50-£22.50; Wines: £29.50-£95
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+Camino Victoria is a fairly newly opened tapas place in one of the various new
+developments on, or near, Victoria Street. It was a nice warm evening, and
+lots of people were outside enjoying some food and drinks. If you're not near
+Victoria, they also have four other branches in London.
+
+We sat inside in the comfortable seating room, and started ordering our
+dishes.
+
+We went for the traditional tapas: Padron Peppers, some were hot and spicy,
+and some were sweet and mellow; Tortilla de Patatas, which had a lovely gooey
+centre; Patatas Bravas, with a pleasant spicy ketchup sauce; Croquetas, with
+its cheesy centre; Arroz Negro, a cuttlefish black rice, with squid ink; and
+Talos De Chorizo, soft mini tortillas, with minced chorizo, butternut squash,
+and some yoghurt.
+
+There were three talos in the serving, but you can upgrade to have a fourth
+one — excellent when you're sharing with two, and frankly something that
+should be available for every sharing dish, when the number provided do not
+divide between the size of the party.
+
+With our dinner, we also enjoyed a bottle of a really lovely cava, because we
+felt like it and it was Friday.
+
+We were in the mood for some dessert, and shared a couple of chocolate
+truffles to finish our meal.
+
+All the tapas were tasty and well presented, but not absolutely outstanding.
+For that, you'll probably have to head to Spain, and visit a really good tapas
+place — we've had bad tapas in Spain too! But if you'd like a taste of Spain
+in London, then Camino Victoria will do just fine.
+
+.. carousel::
+   :name: camino
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :camino-1: Padron Peppers
+   :camino-2: Talos te Chorizo
+   :camino-3: Tortilla de Patatas
+   :camino-4: Croquetas
+   :camino-5: Arroz Negro
+   :camino-6: Patatas Bravas
+   :camino-7: Chocolate Truffles

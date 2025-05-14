@@ -1,0 +1,47 @@
+Friday Night Dinner: Dakota
+===========================
+
+.. articleMetaData::
+   :Where: 8 Russell Street, LS1 5RN, Leeds
+   :Date: 2025-05-23 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: dakota
+   :URL: https://dakotahotels.co.uk/leeds/grill/
+   :Costs: Starters: £10-18; Mains: £20-£50; Grill: £35-£85; Wines from £36
+   :Rating: 2.5
+   :Author: Morag Rethans
+
+On a warm Friday night in May, whilst visiting Leeds we ate at Dakota. Not
+knowing Leeds, we booked this place on the strength of lots of positive online
+reviews.
+
+The restaurant is located in the basement of a hotel, and is gloomily dark.
+I'm not a fan of massive strip lighting in restaurants, but I do think the
+lights could have been turned up a bit. We note that online photos do show the
+restaurant more lit up.
+
+The service was efficient. However, the waitress we had serving us, should
+work on making guests feel less "patronised" when engaging in small talk, for
+example when commenting on a customer's wine choice, or when discussing the
+purpose of their visit to Leeds.
+
+We started with what was a “complimentary bread with a tomato, goats cheese
+and mozzarella dipping sauce" — apparently this was the favourite dish of the
+waitress. It was tasty enough, but perhaps a little heavy on the over-reduced
+tomato purée flavour.
+
+The food was fine, the cod with prawns on a finely chopped red pepper base was
+fine, and my companions lamb was well cooked. A single side of soy glazed
+tenderstem broccoli (rather than the "recommended" 2 or 3 sides) was more than
+sufficient for us.
+
+Overall I wouldn't recommend Dakota or revisit if I was in Leeds again. There
+are plenty of other options, which, in hindsight would have been better.
+
+.. carousel::
+   :name: dakota
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :dakota-1: Bread with Cheesy Tomato Sauce
+   :dakota-2: Lamb Rump with Pave Potatoes
+   :dakota-3: Cod with Prawn
+   :dakota-4: Soy Sauce Glazed Tenderstem Broccoli
