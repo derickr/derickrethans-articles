@@ -10,7 +10,7 @@ Missing Characters
 I release a new version of `Xdebug <https://xdebug.org>`_ on Sunday,
 which fixes a few bugs. One of them is titled `emoji character become diamond
 question marks <https://bugs.xdebug.org/2319>`_. This bug turned out to
-be the same as `var_dump does not output some Russian characters
+be the same as `var_dump does not output some Cyrillic characters
 <https://bugs.xdebug.org/2323>`_, which was originally reported a few days
 earlier but hadn't come with a decent enough reproducible case.
 
