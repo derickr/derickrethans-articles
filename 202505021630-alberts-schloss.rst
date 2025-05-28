@@ -28,7 +28,7 @@ Currywurst as her main, two thick sausages with a spicy sauce and fries. I
 selected the Cordon Bleu schnitzel, a flattened chicken breast stuffed with
 Gruyère and ham, served with a mushroom sauce and served with Parmesan fries.
 The schnitzel wasn't of Austrian proportions — it did actually fit on the
-place — but was well cooked, and certainly enough
+plate — but was well cooked, and certainly enough.
 
 We washed our mains down with another half pint, and as we were quite full, we
 decided to have a digestive. You can get schnapps by the dozen, in all kinds
