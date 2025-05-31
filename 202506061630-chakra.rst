@@ -1,0 +1,43 @@
+Friday Night Dinner: Chakra
+===========================
+
+.. articleMetaData::
+   :Where: 14 Formosa Street, W9 1EE, London
+   :Date: 2025-06-06 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: chakra
+   :URL: https://chakra.restaurant/
+   :Costs: Starters: £4-£9; Mains: £10-£18
+   :Rating: 
+   :Author: Derick Rethans
+
+We have walked past Chakra many times, as it's almost next door to bottle shop
+and beer bar, Real Drinks that we frequent. Although we have often eaten at
+The Red Pepper, an Italian restaurant on the same street (which we also
+recommend), we've never ventured into Chakra, an Indian restaurant. Chakra
+also have other restaurants in Kensington and Kingston upon Thames.
+
+Although we had booked, there were very few customers inside, although this
+was probably because it was still fairly early. The menu at Chakra has plenty
+of options, but isn't overwhelming and includes all the Indian dishes you'd
+expect. Classics like a chicken tikka masala, plus biryanis, and tandoor
+dishes.
+
+My wife went for one of the tandoor dishes, the Chatpata Chicken Tikka — which
+was without sauce, as our waiter explained. It was however not just a dry
+piece of chicken, and still coated in something, giving a good level of spice
+and flavour and the chicken was still nicely moist. I picked the Kashimiri
+Lamb Rogan Josh as I was hoping for something a little spicier, which this
+dish delivered.
+
+With our dishes, we also had a plain naan and some steamed rice. To help us
+deal with all the spice, we had the customary Cobra to go with our meal.
+
+Chakra is a good neighbourhood Indian restaurant, and I'm sure we'll be back
+some time.
+
+.. carousel::
+   :name: chakra
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :chakra-1: Lamb Rogan Josh
+   :chakra-2: Chatpata Chicken Tikka
