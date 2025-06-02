@@ -1,0 +1,122 @@
+Xdebug Update: May 2025
+=======================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2025-06-08 10:10 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-25may
+
+In this monthly update I explain what happened with Xdebug development.
+
+`GitHub <https://github.com/sponsors/derickr/>`_ and `Pro/Business supporters
+<https://xdebug.org/support>`_ will get it earlier, around the first of each
+month.
+
+In the last month, I spend around 20 hours on Xdebug, with 22 hours funded.
+
+My apologies for missing several monthly reports.
+
+Xdebug 3.4
+----------
+
+I spent most of my time this month fixing bugs, resulting in the `release of
+Xdebug 3.4.3 <https://xdebug.org/announcements/2025-05-14>`_ on May 14th.
+
+This bug fix fixes a few crashes, and also improves debugging with PHP 8.4's
+property hooks, by recognising that they have code attached, and no longer
+throwing fatal errors or exceptions in some situations. 
+
+However, it seems that I also might have introduced a `new bug
+<https://bugs.xdebug.org/2352>`_ — or perhaps with different code,
+this bug now surfaced. Unfortunately, there is no reproducible case for this
+specific bug yet, which makes it nearly impossible for me to find and fix it.
+
+Code Coverage with Fibers
+-------------------------
+
+In addition to this, due to a `memory leak fix
+<https://bugs.xdebug.org/2317>`_, it became apparent that Xdebug does not
+handle `code coverage <https://xdebug.org/docs/code_coverage>`_ correctly,
+when Fibers are used.
+
+Code coverage maintains a stack to remember which lines, branches, and paths
+have been executed. Once a function finishes, the stack element for it,
+including path information, gets freed. However, if after freeing code
+switches to a different Fiber, with a larger stack, the original stack frame's
+memory is still referenced, causing a crash.
+
+The fix for this will need to include switch stacks, not just for normal PHP
+scripts as I already do, but also for the one that stores code coverage
+information. This is unfortunately not a simple task, and hence, it will take
+a while before I can make another bug fix release addressing this issue.
+
+I hope to have that done by the end of the month.
+
+Native Path Mapping
+-------------------
+
+I have also continued to work on `Native Path Mapping
+<https://xdebug.org/funding/001-native-path-mapping>`_, and can now
+successfully debug templates right from within VS Code.
+
+I have created a `teaser video <https://youtu.be/8tHKq_5-cXo>`_ to show it working in a limited fashion.
+
+It does not work yet with PhpStorm due to limitations in the IDE. I have filed
+a `bug report
+<https://youtrack.jetbrains.com/issue/WI-81344/Cant-Set-Breakpoints-in-Template-Files-Even-Though-I-Added-The-File-Name-Pattern-to-PHP>`_
+which hopefully will get addressed soon.
+
+More work is necessary, such as understand that some lines will not have code
+on them at all, and adding many more tests. I will also have to figure out
+ways to automatically create the source map as I did for the demo in the
+video.
+
+Xdebug Videos
+-------------
+
+I have created one new video in the last month:
+
+- `Xdebug 3.5: Native Path Mapping Teaser <https://youtu.be/8tHKq_5-cXo>`_
+
+All Xdebug videos can be watched on my `channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+If you have any suggestions, feel free to reach out to
+`me on Mastodon <https://phpc.social/@derickr>`_ or via `email
+<http://derickrethans/who.html>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+On GitHub sponsors, I am currently 40% towards my $2,500 per month goal, which
+is set to allow continued **maintenance** of Xdebug.
+
+If you are leading a team or company, then it is also possible to
+support Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In the last month, no new business supporters signed up.
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
+
+If you want to contribute to specific projects, you can find those on the
+`Projects <https://xdebug.org/funding>`_ page.
+
+Xdebug Cloud
+------------
+
+`Xdebug Cloud <https://xdebug.cloud>`_ is the *Proxy As A Service* platform to
+allow for debugging in more scenarios, where it is hard, or impossible, to
+have Xdebug make a connection to the IDE. It is continuing to operate as Beta
+release.
+
+Packages start at £49/month, and I have recently introduced a package
+for larger companies. This has a larger initial set of tokens, and
+discounted extra tokens.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailing list <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.
