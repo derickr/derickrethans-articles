@@ -58,7 +58,7 @@ engaging with, is often created to induce anger.
 Some platforms that used to be great at what they did in the past, now have
 been `enshittified <https://en.wikipedia.org/wiki/Enshittification>`_ to be
 able to save your more ads, and now also AI slop. You can't honestly say that
-Google is a great search engine for example.
+Google is a great search engine any more for example.
 
 In the open source ecosystem, the proliferation of using "big tech" is also
 proliferating, with many communities adopting Slack or Discourse as their
@@ -569,8 +569,12 @@ not to do so, or not so yet.
 
 Whichever option you pick, you will have full control over your output, but
 also on what you see. The Fediverse has a strong mantra to also not use
-algorithms to decide what you can see, or can see first; nor is it
-particularly keen on any sort of tracking or non-organic advertising.
+algorithms to decide what you can see, or what you see first; nor is it
+particularly keen on any sort of tracking or non-organic advertising. `Unlike
+big-tech apps <https://www.zeropartydata.es/p/localhost-tracking-explained-it-could>_`,
+the apps for the Fediverse have the fewest amount of permissions they can get
+away with. And even if one of them would request more, you can always select
+another one.
 
 There is also the opportunity of instances or services to require payments for
 access to the content. You would only be able to "follow" users when you have
