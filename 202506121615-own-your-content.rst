@@ -4,7 +4,7 @@ Own Your Content
 .. articleMetaData::
    :Where: London, UK
    :Date: 2025-06-12 16:15 Europe/London
-   :Tags: blog, php
+   :Tags: blog, php, fediverse
    :Short: own-your-content
 
 Before MySpace (2003), Orkut (2004-2014), Facebook (2004), Instagram (2010),
