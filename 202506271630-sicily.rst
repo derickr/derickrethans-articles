@@ -1,0 +1,44 @@
+Friday Night Dinner: Sicily
+===========================
+
+.. articleMetaData::
+   :Where: 2a Elizabeth Street, SW1W 9RB, London
+   :Date: 2025-06-27 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: sicily
+   :URL: https://www.eatatsicily.com/
+   :Costs: Starters: £10.25-£12.50; Mains: £14.00-£19.75; Wines from £23.50
+   :Rating: 4
+   :Author: Derick Rethans
+
+After a trip, we wanted something more relaxed and non-fussy. Sicily, close to
+Victoria Station, seemed to fit the bill on a warm summer evening. My wife
+commented that the restaurant had been here for many years—and like Chakra a
+few weeks ago—she’d walked past many times without ever visiting. Something we
+were rectifying.
+
+We were seated upstairs, and when we arrived, it wasn't very busy with only
+two other parties seated in the upstairs area. However, within half an hour,
+the place was full, with nearly every table occupied. Despite the influx of
+diners, the service was attentive and speedy.
+
+For her dinner, my wife chose the Fiorentina pizza, with tomato, fior di latte
+mozzarella, spinach, oregano, free range egg, and flaked parmigiano reggiano.
+The crust was crispy, the spinach wasn't overly wilted and dry, the cheese
+flakes across the top were generous, and the pizza wasn't too humungous
+overall. I picked the Rustichelle Salsiccia pasta—twisted pasta with pork and
+fennel sausage, with mushrooms, saffron, and cream. The sausage is what gave
+it the flavour, and the pasta and mushrooms the texture.
+
+We both had a glass of their Sicily Pilsner on draught to enjoy with our
+meals, which paired well with both our dishes. We decided against dessert.
+
+The price for the meal was very reasonable, the ambiance great, and the food
+well worth going back for again.
+
+.. carousel::
+   :name: sicily
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :sicily-1: Rustichelle Salsiccia Pasta
+   :sicily-2: Fiorentina Pizza
+   :sicily-3: Sicily Pilsner

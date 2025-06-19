@@ -1,0 +1,59 @@
+Friday Night Dinner: Veeraswamy
+===============================
+
+.. articleMetaData::
+   :Where: 99 Regent Street, W1B 4RS, London
+   :Date: 2025-06-20 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: veeraswamy
+   :URL: https://www.veeraswamy.com/
+   :Costs: Starters: £13-20; Mains: £24-£65; Cocktails: £16-£19; Menus: £41/£50/£90
+   :Rating: 4.5
+   :Author: Derick Rethans
+
+Through the media, we discovered that London’s oldest Indian restaurant,
+Veeraswamy, might have to close due to a building redevelopment that will
+remove their entrance. The restaurant has been operating in its current
+location for 99 years, but unless they manage to change the building owner’s
+mind they will have to move out. With that in mind, my wife had booked dinner
+for us on a sunny Friday evening.
+
+After going up by lift, we were shown to our table overlooking Swallow Street.
+The atmosphere was full of light. We had booked a fairly early table, at
+18:15, which meant we could still order from the pre-theatre menu.
+
+I probably would have ordered these dishes anyway, as I fancied the
+Anglo-Indian Muligatawny Soup as a starter from this menu. It was just the
+right thickness, with good levels of spice. My wife ignored the pre-theatre
+menu for her starter, and instead ordered the Calcutta Beetroot Croquettes.
+These were crunchy, served with Stilton cheese and the sweet beetroots
+inside—it sounds like an odd combination, but worked surprisingly well.
+
+Before and with our starters, we enjoyed some signature cocktails. I had the
+Citrus Burst spring special, and my wife had a new Old Fashioned.
+
+As my main, I chose the Grilled Fish Exotica. Which was both spicy and sweet,
+with the sweetness coming from small tomatoes. The fish's skin was crisp, and
+a serving of plain rice and the crispy naan bread were great for lapping up
+the juices from the plate. As her main, she picked the Chicken Dilkush, a
+chicken supreme served with a sauce of almond extract, which was also on the
+pre-theatre menu.
+
+With our pre-theatre menus we were also given a choice of dessert. I selected
+the dark chocolate and raspberry sorbets, and she enjoyed the pistachio and
+salted caramel gelato. A great way to finish our meal.
+
+With the rumours of Veeraswamy having to close, we might not have the
+opportunity to go back, but if they stay open, we would very much recommend a
+trip.
+
+
+.. carousel::
+   :name: veeraswamy
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :veeraswamy-1: Muligatawny Soup
+   :veeraswamy-2: Calcutta Beetroot Croquettes
+   :veeraswamy-3: Grilled Fish Exotica
+   :veeraswamy-4: Chicken Dilkush
+   :veeraswamy-5: Dark Chocolate and Raspberry Sorbets
+   :veeraswamy-6: Pistachio and Salted Caramel Gelato
