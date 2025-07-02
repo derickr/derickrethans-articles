@@ -1,0 +1,97 @@
+Xdebug Update: June 2025
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2025-07-03 15:10 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-25jun
+
+In this monthly update I explain what happened with Xdebug development.
+
+`GitHub <https://github.com/sponsors/derickr/>`_ and `Pro/Business supporters
+<https://xdebug.org/support>`_ will get it earlier, around the first of each
+month.
+
+In the last month, I spend around 22 hours on Xdebug, with 21 hours funded.
+
+Xdebug 3.4
+----------
+
+I spend most of the time this month working on bug fixes, resulting in the
+mid-month release of Xdebug 3.4.4. Most of the fixes revolved around
+exceptions and generating stack traces for them.
+
+While fixing these, I also stumbled upon another `bug
+<https://bugs.xdebug.org/2354>`_. The issue here was that Xdebug wouldn't
+include the argument name for ``__invoke()`` call frames in its output. This
+only matters to PHP 8.1 and before though.
+
+The rest of the month I spend on trying to resolve the
+code-coverage-with-fibers issue that I wrote about last month.
+
+I now have a `Pull Request <https://github.com/xdebug/xdebug/pull/1025>`_ that
+addresses the original bug and crash, but it does not yet fix all the problems
+that I discovered while running the test suite of `reactphp/async
+<https://github.com/reactphp/async>`_ with code coverage enabled. Therefore I
+did not manage to make another release this month addressing this issue. I
+hope to finalise this by the end of July.
+
+Native Path Mapping
+-------------------
+
+I have only played around with this during some demos in presentations showing
+this feature, but I did not make any progress with the feature itself.
+
+It also seems that the PhpStorm team has looked at my `bug report
+<https://youtrack.jetbrains.com/issue/WI-81344/Cant-Set-Breakpoints-in-Template-Files-Even-Though-I-Added-The-File-Name-Pattern-to-PHP>`_
+either.
+
+Xdebug Videos
+-------------
+
+I have created one new video in the last months:
+
+- `Xdebug 3.5: Native Path Mapping Teaser <https://youtu.be/8tHKq_5-cXo>`_
+
+All Xdebug videos can be watched on my `channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+If you have any suggestions, feel free to reach out to
+`me on Mastodon <https://phpc.social/@derickr>`_ or via `email
+<http://derickrethans/who.html>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+On GitHub sponsors, I am currently 42% towards my $2,500 per month goal, which
+is set to allow continued **maintenance** of Xdebug.
+
+If you are leading a team or company, then it is also possible to
+support Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In the last month, no new business supporters signed up.
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
+
+If you want to contribute to specific projects, you can find those on the
+`Projects <https://xdebug.org/funding>`_ page.
+
+Xdebug Cloud
+------------
+
+`Xdebug Cloud <https://xdebug.cloud>`_ is the *Proxy As A Service* platform to
+allow for debugging in more scenarios, where it is hard, or impossible, to
+have Xdebug make a connection to the IDE. It is continuing to operate as Beta
+release.
+
+Packages start at £49/month, and I have recently introduced a package
+for larger companies. This has a larger initial set of tokens, and
+discounted extra tokens.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailing list <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.
