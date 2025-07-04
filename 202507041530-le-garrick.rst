@@ -1,0 +1,43 @@
+Friday Night Dinner: le Garrick
+===============================
+
+.. articleMetaData::
+   :Where: 10-12 Garrick Street, WC2E 9BH, London
+   :Date: 2025-07-04 15:30 Europe/London
+   :Tags: blog, fnd
+   :Short: le-garrick
+   :URL: https://www.legarrick.co.uk/
+   :Costs: Starters: £8-£16; Mains: £17-£29.50; Wines from £25; Pre- / Post-Theatre Menu: £19.75/£25.50
+   :Rating: 4
+   :Author: Derick Rethans
+
+We have been to Le Garrick several times over the last decade. Once for my
+birthday, where I learned that Cassoulet is based on beans, not my favourite
+category of food. Although it is not a fine-dining restaurant, the meals we
+had there, have always been solid, albeit a little rustic.
+
+They also do a pre- and post-theatre menu, which is what brought us here this
+time. With a play in the early evening, a post-theatre menu is often good
+value, and usually speedily served.
+
+We both opted for a main and dessert. My wife chose the Onglet steak with a
+Béarnaise sauce, and I had the Moules Frites. While waiting for our meals to
+arrive, we enjoyed a lovely glass of Cremant — we had something to celebrate.
+
+The steak was juicy and served with a good amount of fries. My Moules were
+well-prepared in a rich and flavourful broth. The accompanying fries were
+excellent for dipping into this bowl of flavour.
+
+We picked the same dessert, the Tarte au Citron (lemon tart). This came served
+with lovely dollop of cream.
+
+Le Garrick was reliable as always, and after our meal we walked to our
+theatre. If you're in the neighbourhood for a similar reason, Le Garrick is a
+safe choice, with good food.
+
+.. carousel::
+   :name: le-garrick
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :le-garrick-1: Moules Frites
+   :le-garrick-2: Onglet Steak
+   :le-garrick-3: Tarte au Citron
