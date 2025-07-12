@@ -1,4 +1,4 @@
-Friday Night Dinner: le Garrick
+Friday Night Dinner: Le Garrick
 ===============================
 
 .. articleMetaData::
