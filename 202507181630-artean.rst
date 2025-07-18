@@ -1,0 +1,64 @@
+Friday Night Dinner: Artean
+===========================
+
+.. articleMetaData::
+   :Where: Paseo Colón 11, San Sebastián, Spain
+   :Date: 2025-07-18 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: artean
+   :URL: https://www.arteansansebastian.com/eng/
+   :Costs: €7.5-€16; Mains: €22-€42; Desserts: ~€9; Wines from €28
+   :Rating: 5
+   :Author: Derick Rethans
+
+San Sebastián, a city in the basqueland region of Northern Spain, is known as
+a culinary hot spot. It is therefore not short of plenty of pinxtos
+restaurants, fine dining, and a galaxy of Michelin stars.
+
+Artean is a small restaurant in the Gross area, not far from the beach. It has
+twelve seats, at the bar only. The bar chairs are comfy, and sitting at the
+bar creates an intimate atmosphere. The chefs are from Peru, and have worked
+in Michelin starred places, but the person serving was Danish. Artean does not
+have a start (yet?).
+
+We were the first customers that evening and got to choose our seats, which we
+did, near the kitchen towards the end of the bar counter.
+
+They offer a seven-course tasting menu (at €90), but also have an à la carte
+menu. We picked our meal from the latter. As our starters, we picked a
+selection of tapas. While waiting for them to be served, a lovely bread and a
+shot glass of a fresh and flavoursome gazpacho got us in the mood. A lovely
+crisp white Leirana wine made it to our table too.
+
+Our selection started with dressed oysters, and topped with salmon roe, served
+in a boat shaped bowl. They were slightly acidic, but the dressing toned it
+nicely down. Fat and juicy anchovies on toast, with a nice layer of butter in
+between then followed. And finally a duo of scallop gildas. Each consistent of
+two scallop halves slightly seared, on a bed of creamed parmigiana reggiano,
+roasted tomato, and topped with an olive, some anchovies and pine nuts. It was
+plated up right in front of us.
+
+After the starters we each chose a different main. My wife selected the catch
+of the day, a moist piece of hake on a pea oil, served with a couple grilled
+shrimps with a piece of samphire on top, which was delicious. I decided on the
+grilled octopus with green beans and pine nuts. It was a little sticky from a
+dressing, and cooked perfectly with a little bounce.
+
+After we finished our meal, we moved to a separate set of stools in front of
+their window for our dessert. That was all our doing as we had probably been a
+little slow with dinner. Here we enjoyed a dessert wine each, and a sheep's
+milk curd, topped with blue cheese, cider ice cream. Yum!
+
+Artean was a perfect meal, incorporating local flavours and ingredients with
+hints of Peru. And all at a very reasonable price. We would certainly return
+if we're in town again.
+
+.. carousel::
+   :name: artean
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :artean-1: Dressed Oysters
+   :artean-2: Anchovies on Toast
+   :artean-3: Scallop Gildas
+   :artean-4: Hake, the Catch of the Day
+   :artean-5: Grilled Octopus
+   :artean-6: Sheep Milk's Curd with Cider Ice Cream and Blue Cheese
