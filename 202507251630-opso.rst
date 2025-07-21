@@ -1,0 +1,46 @@
+Friday Night Dinner: OPSO
+=========================
+
+.. articleMetaData::
+   :Where: 10 Paddington Street, W1U 5QL, London
+   :Date: 2025-07-25 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: opso
+   :URL: https://www.opso.co.uk/
+   :Costs: £9-£19; Mains: £16-£68; Wines from £58
+   :Rating: 3
+   :Author: Derick Rethans
+
+OPSO styles themselves as a modern Greek restaurant. They're based just off
+Marylebone High Street. We first ate here when they opened, just over a decade
+ago, and recalled that experience positively, and as it was a lovely warm
+summer evening, perfect for some Greek food we thought we'd return.
+
+It seems however, that in the last decade, the prices had gone up
+significantly. Wine starting at £58 is a bit of a joke really… but it's
+Marylebone, so perhaps the locals don't notice or care? Instead we settled on
+some beers from Greek breweries that we hadn't tried yet.
+
+We were not overly hungry, and as a result decided on a slightly lighter meal.
+We started with a duo of souvlaki kebabs, which were served on top of a
+slightly charred pitta bread. They were dressed with a dollop of yoghurt and
+red onions. With the kebabs, we also had some tzatziki and slightly spicy
+flatbreads. The tzatziki was fresh and the flatbreads crispy.
+
+For our mains, we shared the slightly seared tuba, which was dressed with
+sugar snap peas, tomato, mint, and capers. This combination really worked
+well, and the tuna was spot on. I always think that tuna is better mostly raw,
+but seared on the outside To accompany the tuna, we also shared a spanakorizo
+— spinach, rice, and goat's curd, baked in the oven.
+
+The food was delicious, and the atmosphere lively, but we did think that
+perhaps some value has been lost along the way.
+
+.. carousel::
+   :name: opso
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :opso-1: Souvlaki Kebabs
+   :opso-2: Tzatziki
+   :opso-3: Seared Tuna
+   :opso-4: Spanakorizo
+   :opso-5: Slightly Spicy Flatbreads
