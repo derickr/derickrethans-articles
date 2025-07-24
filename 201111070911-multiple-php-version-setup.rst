@@ -80,7 +80,7 @@ PEAR packages and PECL extensions in, and do my own extension development.
 Of course, each separated environment also comes with its own ``php.ini`` file
 (in ``/usr/local/php/{{variant}}/lib/php.ini``).
 
-.. _script: /files/php-build.sh.txt
+.. _script: https://github.com/derickr/php-build
 
 This set-up makes my life a whole lot easier, and I hope it is useful for you
 as well. Thanks for listening!
