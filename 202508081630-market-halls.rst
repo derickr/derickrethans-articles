@@ -1,0 +1,54 @@
+Friday Night Dinner: Market Halls
+=================================
+
+.. articleMetaData::
+   :Where: 9 Hollies Street, W1G 0BD, London
+   :Date: 2025-08-08 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: market-halls
+   :URL: https://markethalls.co.uk/venue/oxford-street/
+   :Costs: Courses: £7-£15
+   :Rating: 4
+   :Author: Derick Rethans
+
+Market Halls is situated not far from Oxford Circus, on the former location of
+BHS. It occupies the first floor of the building, and boasts a selection of
+small, street food pop-up type kitchens, although some of them look fairly
+permanent. They operate a few sites around London, but the one on Oxford
+Street is the only one that takes bookings for two (or more) people.
+
+The idea is that you pick a table, and then figure out what you want to eat
+from all the available vendors. You can order drinks at the bar, or through a
+QR code at the table. The beer choices were lacking, but there was a
+reasonable selection of wine and cocktails.
+
+After sitting down, we had a look at the menus, and made a plan, which we then
+didn't quite follow once we started ordering. As it's not really a restaurant,
+that also was not important.
+
+We started with a set of MOMO dumplings, from "Himalayan dumplings". They were
+juicy and filled with chicken. A slightly spicy dressing completed the dish.
+This pop-up also had a special on, which formed our second starter: crunchy
+pieces of puffed rice filled with potato, and served with tomatoes, cucumbers,
+and raw onion. The cucumber and tomato provided a cooling counterpoint to the
+spice in the rest of the dish.
+
+As my main I enjoyed the Chilli Jam Pork Belly from Krapow!, which was served
+on rice. The pork was a little crunchy, well seasoned with birdseye chilli,
+and sprinkled with some salad leaves. My wife ordered the lamb from Salt Shed,
+another temporary addition to their menu. The slices of perfectly cooked lamb
+had some sea salt sprinkled over them, and were served with very spicy
+chillis, pickled radishes, and a slightly garlicky dip.
+
+There are plenty of more pop-up restaurants to try out including a dessert
+place. If you feel like a good and low-key meal after a hard afternoon (or
+day!) of shopping, the options at Market Halls will easily satisfy your
+appetite.
+
+.. carousel::
+   :name: market-halls
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :market-halls-1: MOMO Himalayan Dumplings
+   :market-halls-2: Crunchy Snack
+   :market-halls-3: Chilli Jam Pork Belly
+   :market-halls-4: Lamb Steak Slices
