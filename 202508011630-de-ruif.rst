@@ -1,0 +1,50 @@
+Friday Night Dinner: De Ruif
+============================
+
+.. articleMetaData::
+   :Where: Heuvenseweg 6, Rheden, The Netherlands
+   :Date: 2025-08-01 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: de-ruif
+   :URL: https://restaurantderuif.nl/
+   :Costs: €8.50-€16.50; Mains: €24-€36; Toetjes: €9-€13; Set Menu: €39.50
+   :Rating: 4
+   :Author: Derick Rethans
+
+De Ruif (The Hay Rack) is situated at the edge of one of the Netherlands'
+national parks, de Veluwezoom. It's popular with walkers, but in the evening
+it is more of a traditional restaurant. They serve mostly French cuisine, but
+also some local classics.
+
+We visited not with just the two of us, but also with my parents to celebrate
+a birthday. We selected our dishes from the three course set-menu.
+
+My wife chose a seventies classic, the shrimp cocktail. In this case, it came
+with brown shrimps instead of the more usual prawns. It was well-dressed with
+Marie Rose sauce, and came with some lettuce and a lemon to squeeze. For my
+starter, I picked the "watermelon" carpaccio, although it came with three
+types of melon (watermelon, cantaloupe, and honeydew). The chunks were served
+on top of long strands of flavourful and thinly sliced parma ham.
+
+After our main, we both opted to go with the swordfish. This was served with a
+red risotto, a dressing, grilled baby tomatoes, and some vegetables. The
+portion sizes were on the larger side for both starter and main, but we still
+found some space for pudding.
+
+I selected the Aperol Spritz Sorbet, which turned out to be massive. But it
+was all the right kinds of sweet and bitter and juicy. My wife chose the
+Limoncello Tiramisu, served with a strawberry on top. This dessert was creamy,
+light, and refreshing.
+
+After all these courses, we were properly satisfied. We will likely be back,
+as there are not too many options in the area for dining out. But perhaps we
+won't have three courses again.
+
+.. carousel::
+   :name: de-ruif
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :de-ruif-1: Shrimp Cocktail
+   :de-ruif-2: Watermelon Carpaccio
+   :de-ruif-3: Swordfish
+   :de-ruif-4: Aperol Spritz Sorbet
+   :de-ruif-5: Limoncello Tiramisu
