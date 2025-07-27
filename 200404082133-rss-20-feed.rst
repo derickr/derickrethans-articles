@@ -2,7 +2,7 @@ RSS 2.0 feed
 ============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040408 2133 CEST
    :Tags: blog
 

@@ -2,7 +2,7 @@ Blurping
 ========
 
 .. articleMetaData::
-   :Where: Groessen, the Netherlands
+   :Where: Groessen, The Netherlands
    :Date: 20031205 1416 
    :Tags: 
 

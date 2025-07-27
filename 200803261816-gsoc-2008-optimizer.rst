@@ -2,7 +2,7 @@ GSoC 2008: Optimizer
 ====================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20080326 1816 CET
    :Tags: blog, cms, php
 

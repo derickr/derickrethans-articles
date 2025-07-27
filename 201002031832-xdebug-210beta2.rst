@@ -2,7 +2,7 @@ Xdebug 2.1.0beta2 released
 ==========================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 2010-02-03 18:51 Europe/London
    :Tags: blog, php, xdebug, extensions
 

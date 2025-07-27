@@ -2,7 +2,7 @@ Stranded and Date
 =================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20050311 1332 CET
    :Tags: work, php
 

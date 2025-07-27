@@ -2,7 +2,7 @@ Debugging Protocol Shoot-out (Part 2)
 =====================================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20060511 1613 CEST
    :Tags: php, xdebug
 

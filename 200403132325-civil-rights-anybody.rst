@@ -2,7 +2,7 @@ Civil Rights anybody?
 =====================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040313 2325 CET
    :Tags: politics
 

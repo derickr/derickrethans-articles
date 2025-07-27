@@ -2,7 +2,7 @@
 ========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050518 1057 CEST
    :Tags: blog
 

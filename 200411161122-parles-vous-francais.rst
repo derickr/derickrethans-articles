@@ -2,7 +2,7 @@ Parles vous Français?
 =====================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20041116 1122 CET
    :Tags: php, work
 

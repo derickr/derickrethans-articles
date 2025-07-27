@@ -2,7 +2,7 @@ Vancouver report
 ================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040128 2244 CET
    :Tags: 
 

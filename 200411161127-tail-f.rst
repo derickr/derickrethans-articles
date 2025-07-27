@@ -2,7 +2,7 @@ tail -f
 =======
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20041116 1127 CET
    :Tags: php, work
 

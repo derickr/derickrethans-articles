@@ -2,7 +2,7 @@ Xdebug 2.0.0RC2
 ===============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20061224 1600 CET
    :Tags: php, xdebug
 

@@ -2,7 +2,7 @@ Providing Support
 =================
 
 .. articleMetaData::
-   :Where: Arhnem, The Netherlands
+   :Where: Arnhem, The Netherlands
 
 Following up on my ranting about users and developers I now want to discuss
 the meaning of 'User Support' a litte.

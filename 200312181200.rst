@@ -2,7 +2,7 @@ MTU
 ===
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Since a week or so I have an ADSL connection by `XS4ALL`_ because I was so sick
 of having too much trouble with my cable connection. The installation went

@@ -1,8 +1,8 @@
-Bush Visiting the Netherlands
+Bush Visiting The Netherlands
 =============================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050507 1845 CEST
    :Tags: php, politics
 

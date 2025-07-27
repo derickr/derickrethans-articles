@@ -2,7 +2,7 @@ Xdebug archives
 ===============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040401 0015 CET
    :Tags: php, xdebug
 

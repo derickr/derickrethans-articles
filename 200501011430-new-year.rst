@@ -2,7 +2,7 @@ New Year
 ========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050101 1430 CET
    :Tags: php
 

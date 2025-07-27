@@ -2,7 +2,7 @@ Back in the fatherland
 ======================
 
 .. articleMetaData::
-   :Where: Schiphol, the Netherlands
+   :Where: Schiphol, The Netherlands
    :Date: 20040918 0915 CEST
    :Tags: 
 

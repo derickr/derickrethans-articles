@@ -1,8 +1,8 @@
-Goodbye the Netherlands!
+Goodbye The Netherlands!
 ========================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040524 0535 CEST
    :Tags: work
 

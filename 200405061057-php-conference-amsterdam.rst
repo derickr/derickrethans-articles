@@ -2,7 +2,7 @@ PHP Conference Amsterdam
 ========================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040506 1057 CEST
    :Tags: conference, php
 

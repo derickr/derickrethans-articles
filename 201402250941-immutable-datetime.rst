@@ -2,7 +2,7 @@ DateTimeImmutable
 =================
 
 .. articleMetaData::
-   :Where: Montreal, Canada
+   :Where: Montréal, Canada
    :Date: 2014-02-25 09:41 America/Montreal
    :Tags: blog, php, datetime
    :Short: dti

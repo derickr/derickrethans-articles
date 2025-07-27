@@ -2,7 +2,7 @@ Polarization filter
 ===================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050518 1104 CEST
    :Tags: photography
 

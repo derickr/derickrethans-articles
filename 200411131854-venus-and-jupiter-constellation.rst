@@ -2,7 +2,7 @@ Venus and Jupiter constellation
 ===============================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20041113 1854 CEST
    :Tags: photography
 

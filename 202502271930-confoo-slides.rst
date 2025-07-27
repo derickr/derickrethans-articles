@@ -2,7 +2,7 @@ ConFoo 2025 Slides
 ==================
 
 .. articleMetaData::
-   :Where: Montreal, Canada
+   :Where: Montréal, Canada
    :Date: 2025-02-27 14:30 America/Montreal
    :Tags: blog, php
    :Short: confoo25

@@ -2,7 +2,7 @@ SQLite filter
 =============
 
 .. articleMetaData::
-   :Where: Groessen, the Netherlands
+   :Where: Groessen, The Netherlands
    :Date: 20031205 1430 
    :Tags: 
 

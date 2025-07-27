@@ -2,7 +2,7 @@ Job Change
 ==========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040102 2022 CET
    :Tags: 
 

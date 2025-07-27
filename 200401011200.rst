@@ -2,7 +2,7 @@ PHP Look Back 2003
 ==================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Happy New Year!
 

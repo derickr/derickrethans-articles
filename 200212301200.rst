@@ -2,7 +2,7 @@ PHP Look Back
 =============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Hello!
 

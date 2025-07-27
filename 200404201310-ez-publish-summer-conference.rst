@@ -2,7 +2,7 @@ eZ Publish Summer Conference
 ============================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040420 1310 CEST
    :Tags: conference, php, work
 

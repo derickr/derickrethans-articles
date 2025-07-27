@@ -2,7 +2,7 @@ On the way to Québec again
 ==========================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20070309 1348 CET
    :Tags: blog, conference, holiday, php, travel, work
 

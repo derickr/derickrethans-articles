@@ -2,7 +2,7 @@ To GMT or not to GMT
 ====================
 
 .. articleMetaData::
-   :Where: Montreal, Canada
+   :Where: Montréal, Canada
    :Date: 2012-02-29 11:18 America/Montreal
    :Tags: blog, php, datetime
    :Short: gmt

@@ -2,7 +2,7 @@ Intl. PHP Conference slides
 ===========================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20071108 1258 CET
    :Tags: conference, php, travel, work
 

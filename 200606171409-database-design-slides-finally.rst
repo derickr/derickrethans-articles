@@ -2,7 +2,7 @@ Database Design Slides (finally)
 ================================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20060617 1409 CEST
    :Tags: conference, php, work
 

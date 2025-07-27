@@ -2,7 +2,7 @@ New talks
 =========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20031209 2337 
    :Tags: 
 

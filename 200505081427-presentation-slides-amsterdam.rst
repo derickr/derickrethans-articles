@@ -2,7 +2,7 @@ Presentation slides Amsterdam
 =============================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20050508 1427 CEST
    :Tags: conference, php, work
 

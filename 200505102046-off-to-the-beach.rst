@@ -2,7 +2,7 @@ Off to The Beach
 ================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050510 2046 CEST
    :Tags: conference, php, travel, work
 

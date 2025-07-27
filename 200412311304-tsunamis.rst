@@ -2,7 +2,7 @@ Tsunamis
 ========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20041231 1304 CET
    :Tags: cms, php, work
 

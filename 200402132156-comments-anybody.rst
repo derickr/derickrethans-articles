@@ -2,7 +2,7 @@ Comments anybody?
 =================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040213 2156 CET
    :Tags: 
 

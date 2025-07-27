@@ -2,7 +2,7 @@ PHP Related Spam?
 =================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20031224 1944 
    :Tags: 
 

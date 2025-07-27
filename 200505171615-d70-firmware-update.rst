@@ -2,7 +2,7 @@ D70 Firmware Update
 ===================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050517 1615 CEST
    :Tags: photography
 

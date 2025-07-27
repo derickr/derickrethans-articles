@@ -2,7 +2,7 @@ PHP Look Back 2004
 ==================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Hello! Here is this years look back, it takes a little more work then Zend's
 weeklies, and I can not say that it is 100% objective but it should give a

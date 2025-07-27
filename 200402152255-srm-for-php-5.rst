@@ -2,7 +2,7 @@ SRM for PHP 5?
 ==============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040215 2255 CET
    :Tags: 
 

@@ -2,7 +2,7 @@
 ===================================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040620 1225 CEST
    :Tags: php, work
 

@@ -2,7 +2,7 @@ Microsoft wants source code back
 ================================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Microsoft is sending out letters to get people to remove the leaked source code apparently.
 A person I know got the following e-mail:

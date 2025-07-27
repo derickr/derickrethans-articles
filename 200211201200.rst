@@ -2,7 +2,7 @@ Pasta alla Carbonara
 ====================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Here is a recipe for a simple but delicious meal: Pasta alla Carbonara.
 This special version is compiled by Jani Taskinen:

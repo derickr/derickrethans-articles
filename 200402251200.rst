@@ -2,7 +2,7 @@ Toolkit: Meld
 =============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 For my `work`_ I needed to merge differences between two files into a new file
 and doing this by just watching output from 'diff' is a little bit too annoying

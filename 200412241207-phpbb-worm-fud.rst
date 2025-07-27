@@ -2,7 +2,7 @@ phpBB worm FUD
 ==============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20041224 1207 CET
    :Tags: php
 

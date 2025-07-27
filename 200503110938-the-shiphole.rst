@@ -2,7 +2,7 @@ The Shiphole
 ============
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20050311 0938 CET
    :Tags: work, php
 

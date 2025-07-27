@@ -2,7 +2,7 @@ Reply-all
 =========
 
 .. articleMetaData::
-   :Where: Groessen, the Netherlands
+   :Where: Groessen, The Netherlands
    :Date: 20031209 1124 
    :Tags: 
 

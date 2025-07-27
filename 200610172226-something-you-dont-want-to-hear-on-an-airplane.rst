@@ -2,7 +2,7 @@ Something You Don't Want to Hear on an Airplane
 ===============================================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20061017 2226 CEST
    :Tags: holiday, php, travel
 

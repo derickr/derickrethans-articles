@@ -2,7 +2,7 @@ Xdebug 2.0.4
 ============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20081230 1646 CET
    :Tags: blog, cms, php, xdebug
 

@@ -2,7 +2,7 @@ Parsing dates
 =============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040418 1806 CEST
    :Tags: php
 

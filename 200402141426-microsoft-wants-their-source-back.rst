@@ -2,7 +2,7 @@ Microsoft wants their source back
 =================================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040214 1426 CET
    :Tags: 
 

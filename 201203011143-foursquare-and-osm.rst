@@ -2,7 +2,7 @@ Foursquare and OpenStreetMap
 ============================
 
 .. articleMetaData::
-   :Where: Montreal, Canada
+   :Where: Montréal, Canada
    :Date: 2012-03-01 11:43 America/Montreal
    :Tags: blog, php
    :Short: 4sq-osm

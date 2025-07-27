@@ -2,7 +2,7 @@ Xdebug/PHP Quebec slides
 ========================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040329 2154 CET
    :Tags: conference, php, xdebug
 

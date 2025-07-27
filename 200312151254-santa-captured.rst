@@ -2,7 +2,7 @@ Santa Captured!
 ===============
 
 .. articleMetaData::
-   :Where: Groessen, the Netherlands
+   :Where: Groessen, The Netherlands
    :Date: 20031215 1254 
    :Tags: 
 

@@ -2,7 +2,7 @@ Look Back French Translation
 ============================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040103 1651 CET
    :Tags: 
 

@@ -2,7 +2,7 @@ Patent issues revised
 =====================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 Apparently the EU is not totally democratic either. A few months ago the
 `Software Patents Working Group`_ of the `Foundation for a Free Information

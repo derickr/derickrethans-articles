@@ -2,7 +2,7 @@ Annoying users
 ==============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20031207 0002 
    :Tags: 
 

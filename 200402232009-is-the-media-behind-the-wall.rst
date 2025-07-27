@@ -2,7 +2,7 @@ Is the media behind the wall?
 =============================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040223 2009 CET
    :Tags: 
 

@@ -2,7 +2,7 @@ Namespaces in PHP
 =================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20080615 1353 CEST
    :Tags: blog, conference, php, work
 

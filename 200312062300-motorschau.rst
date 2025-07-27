@@ -2,7 +2,7 @@ Motorschau
 ==========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20031206 2300 
    :Tags: 
 

@@ -2,7 +2,7 @@ No Darwinism in the US
 ======================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20050507 1756 CEST
    :Tags: politics
 

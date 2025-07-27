@@ -2,7 +2,7 @@ Amsterdam Conference Photos
 ===========================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20050508 1350 CEST
    :Tags: conference, photography, php, travel, work
 

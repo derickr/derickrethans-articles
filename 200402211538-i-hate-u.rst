@@ -2,7 +2,7 @@ I hate 'u'.
 ===========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040221 1538 CET
    :Tags: 
 

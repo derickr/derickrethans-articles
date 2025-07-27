@@ -2,7 +2,7 @@ Look Back
 =========
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040101 2020 CET
    :Tags: 
 

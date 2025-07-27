@@ -2,7 +2,7 @@ The Unified Field Theory Explained
 ==================================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040619 1012 CEST
    :Tags: php
 

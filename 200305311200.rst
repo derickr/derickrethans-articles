@@ -2,7 +2,7 @@ Solar Eclipse
 =============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
 
 .. image:: images/content/solarvert.png
 

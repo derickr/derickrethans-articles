@@ -2,7 +2,7 @@ eZ components for x-mas
 =======================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20051224 1737 CET
    :Tags: cms, php, work
 

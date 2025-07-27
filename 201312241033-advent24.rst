@@ -2,7 +2,7 @@ Contributing Advent 24: Wrapping up!
 ====================================
 
 .. articleMetaData::
-   :Where: Dieren, Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 2013-12-24 10:33 Europe/Amsterdam
    :Tags: blog, php, xdebug, openstreetmap
    :Short: adv1324

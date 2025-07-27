@@ -2,7 +2,7 @@ Indexing Freeform-Tagged Data
 =============================
 
 .. articleMetaData::
-   :Where: Dieren, Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 2012-06-26 09:11 Europe/Amsterdam
    :Tags: blog, php, mongodb, openstreetmap
    :Short: freetagidx

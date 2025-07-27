@@ -2,7 +2,7 @@ Debugging with multiple users
 =============================
 
 .. articleMetaData::
-   :Where: Amsterdam, the Netherlands
+   :Where: Amsterdam, The Netherlands
    :Date: 20090611 1047 CEST
    :Tags: blog, cms, php, work
 

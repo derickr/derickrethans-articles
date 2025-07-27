@@ -2,7 +2,7 @@ Christmas time
 ==============
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20051223 1713 CET
    :Tags: blog, work
 

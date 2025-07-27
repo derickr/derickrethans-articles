@@ -2,7 +2,7 @@ Conférence PHP Québec
 =====================
 
 .. articleMetaData::
-   :Where: Dieren, the Netherlands
+   :Where: Dieren, The Netherlands
    :Date: 20040226 0111 CET
    :Tags: 
 
