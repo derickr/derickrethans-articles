@@ -1,0 +1,102 @@
+Xdebug Update: July 2025
+========================
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2025-08-07 15:10 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: xdebug-25jul
+
+In this monthly update I explain what happened with Xdebug development.
+
+`GitHub <https://github.com/sponsors/derickr/>`_ and `Pro/Business supporters
+<https://xdebug.org/support>`_ will get it earlier, around the first of each
+month.
+
+In the last month, I spend around 14 hours on Xdebug, with 23 hours funded. I
+went on a holiday!
+
+Xdebug 3.4
+----------
+
+In the first half of the month, I finished fixing the complicated issue with
+fibers and path coverage that I wrote about last month. This resulted in the
+release of `Xdebug 3.4.5 <https://xdebug.org/announcements/2025-07-14>`_. This
+release also addresses an issue where Xdebug called the code backing a property,
+resulting in the hooked property's value to change.
+
+PHP 8.5
+-------
+
+In the remained of the month, I looked at how best to support PHP 8.5's new
+pipes. These allow you to chain method calls together. Due to this, there is
+no intermediate value that you can look at in the debugger.
+
+I have created a `patch for PHP <https://github.com/php/php-src/pull/19377>`_
+which introduces intermediate steps which `Xdebug can use with a patch
+<https://github.com/derickr/xdebug/commit/b6cb3f3e760c886214bfaf9ec7da3844b3c591be>`_
+to then visualise the values being send to the next pipe stage.
+
+Right now, this only works for non-closure-wrapped pipeline stages, and more
+work is necessary to make this work all nicely. There is some time before PHP
+8.5 comes out though.
+
+Native Path Mapping
+-------------------
+
+I have started to implement that lines, files, and directories can be mapped
+as "skip" — i.e., consider there to be just no code at this location, and
+hence don't initiate a breakpoint then. I ran into trouble here, as the
+data-structures that I keep to remember mappings can not handle this. It was
+only possible to skip single lines with this, but not files (or directories) —
+which is what I was testing it with. Stay tuned!
+
+Xdebug Videos
+-------------
+
+I have created no new videos in the last months, but I did add some to the
+Xdebug documentation as `related content
+<https://xdebug.org/docs/trace#related_content>`_ for function tracing, to
+demo flamegraphs.
+
+All Xdebug videos can be watched on my `channel
+<https://www.youtube.com/playlist?list=PLg9Kjjye-m1g_eXpdaifUqLqALLqZqKd4>`_.
+
+If you have any suggestions, feel free to reach out to
+`me on Mastodon <https://phpc.social/@derickr>`_ or via `email
+<http://derickrethans/who.html>`_.
+
+Business Supporter Scheme and Funding
+-------------------------------------
+
+On GitHub sponsors, I am currently 42% towards my $2,500 per month goal, which
+is set to allow continued **maintenance** of Xdebug.
+
+If you are leading a team or company, then it is also possible to
+support Xdebug through `a subscription <https://xdebug.org/support>`_.
+
+In the last month, no new business supporters signed up.
+
+Besides business support, I also maintain a `Patreon
+<https://www.patreon.com/derickr>`_ page, a profile on `GitHub sponsors
+<https://github.com/sponsors/derickr>`_, as well as an `OpenCollective
+<https://opencollective.com/xdebug>`_ organisation.
+
+If you want to contribute to specific projects, you can find those on the
+`Projects <https://xdebug.org/funding>`_ page.
+
+Xdebug Cloud
+------------
+
+`Xdebug Cloud <https://xdebug.cloud>`_ is the *Proxy As A Service* platform to
+allow for debugging in more scenarios, where it is hard, or impossible, to
+have Xdebug make a connection to the IDE. It is continuing to operate as Beta
+release.
+
+Packages start at £49/month, and I have recently introduced a package
+for larger companies. This has a larger initial set of tokens, and
+discounted extra tokens.
+
+If you want to be kept up to date with Xdebug Cloud, please sign up to
+the `mailing list <https://xdebug.cloud/newsletter>`_, which I will use
+to send out an update not more than once a month.
