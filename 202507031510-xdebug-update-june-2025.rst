@@ -43,7 +43,7 @@ Native Path Mapping
 I have only played around with this during some demos in presentations showing
 this feature, but I did not make any progress with the feature itself.
 
-It also seems that the PhpStorm team has looked at my `bug report
+It also seems that the PhpStorm team has not looked at my `bug report
 <https://youtrack.jetbrains.com/issue/WI-81344/Cant-Set-Breakpoints-in-Template-Files-Even-Though-I-Added-The-File-Name-Pattern-to-PHP>`_
 either.
 
