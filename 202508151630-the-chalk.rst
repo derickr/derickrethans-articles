@@ -1,0 +1,55 @@
+Friday Night Dinner: The Chalk
+==============================
+
+.. articleMetaData::
+   :Where: 25-27 Tryon Street, London SW3 3LG
+   :Date: 2025-08-15 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: the-chalk
+   :URL: https://thechalkfreehouse.co.uk/
+   :Costs: Starters: £11.50-£22.50; Mains: £23.50-£29.50; Desserts: £11.00-£15.50; Wines from £50
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+We have been to this location before, which is just off the Kings’ Road in
+Chelsea, when it was still called the Butcher's Tap and Grill. But Tom
+Kerridge, the proprietor decided to go in a slightly different direction. He
+renamed the pub "The Chalk", with an updated concept. Where the original
+concept was mostly pub fare with (big) cuts of meat to grill, it is now a more
+traditional gastropub with more refined dishes, and less of a focus on steaks
+and similar cuts of meat. Overall, we thought it has shifted a little more
+upmarket (not surprising given the location), and that perhaps Tom is trying
+to emulate of the success of The Coach in Marlow, with its one Michelin star.
+
+The restaurant wasn't quite full when we, arrived and were seated in a cosy
+booth in the downstairs area.  We were fairly peckish, so opted for some
+starters to get going. My wife had the 'nduja and smoked mozzarella sausage
+roll, which had a good kick to it. I picked the cheese and onion scone, which
+came with a very generous serving of mustard and herb butter. With our
+starters we enjoyed a half of the Rebellion IPA — sadly they had run out of
+their other two cask beers, although that does offer an excuse to pop back
+another time.
+
+As my main, I chose the rolled shoulder of lamb, with was served with charred
+onion wedges, ratatouille, and a crispy parcel. The flavours all worked well
+together. My wife enjoyed the butter roasted ray wing, which came with pickled
+cockles, diced cucumber, and an anchovy and garlic dressing. As the wines are
+fairly pricy, instead of a bottle to share, we just had a glass of wine each
+to match our dishes.
+
+We could have left it there, but felt the need to have some pudding as well.
+For that, we shared a Chelsea bun sitting in a bath of spiced custard with
+dried raisins or currants in, in.
+
+It's still a good spot, but we were not in total agreement whether it had
+improved since it was the Butcher's Tap and Grill. We might give it a go in
+another year or so.
+
+.. carousel::
+   :name: chalk
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :chalk-1: Cheese and Onion Scone
+   :chalk-2: 'Nduja and Smoked Mozzarella Sausage Roll
+   :chalk-3: Butter Roasted Ray Wing
+   :chalk-4: Rolled Shoulder of Lamb
+   :chalk-5: Chelsea Bun

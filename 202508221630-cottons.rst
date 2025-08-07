@@ -1,0 +1,54 @@
+Friday Night Dinner: Cottons
+============================
+
+.. articleMetaData::
+   :Where: 10 Flagstaff House, St. George's Wharf, London SW8 2LE
+   :Date: 2025-08-22 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: cottons
+   :URL: https://www.cottons-restaurant.co.uk/vauxhall
+   :Costs: Starters: £7.50-£10.50; Mains: £16.50-£27.50; Desserts: £7-£7.50; Cocktails: £13
+   :Rating: 4
+   :Author: Derick Rethans
+
+It's summer, which means trying out some food from a tropical place makes
+perfect sense. Cottons is situated next to Vauxhall Bridge alongside the
+Thames. There is a big outdoor space, where in the sunshine, cocktails, and
+music would be a ball, but this is a British summer, so it was a bit nippy,
+and a risk of rain! Instead, we sat inside the spacious establishment. While
+looking over the menu, we figured out it was happy hour, which meant
+two-for-one cocktails. That meant two of the same for the price of one, not
+two different cocktails for the price of one. And that is how we ended up with
+two cocktails each: An Exotica Sour, and a Rum Punch. Both delicious, and
+vaguely deadly.
+
+We started of with a starter each. My wife choose the salted cod fritters, and
+I had the jerk chicken spring rolls. The spring rolls were served with some
+salad and a sweet chilli sauce. They almost had an Asian flavour to it. The
+salted cod fritters were served with a spicy tomato sauce.
+
+Mains wise, my wife picked the curried mutton, served with rice'n'peas. The
+flavour had a good depth to it, and although it was a little spicy, it wasn't
+overpowering. The meat was soft and tender. As my main, I selected the pork
+ribs and fried chicken combo. The ribs came in a fairly spicy sauce, which
+worked well. The red and green chillies that were sprinkled over them, did not
+add much heat. The fried jerk chicken was a little too salty to my liking, but
+the sauce that was coating the ribs fixed that soon. Some fried plantains and
+rice'n'peas completed the meal. The sweetness of the plantains helped with
+balancing the heat.
+
+We were quite full after this, and decided against pudding while finishing the
+last of our (second) cocktail.
+
+The restaurant has a good atmosphere, the service was speedy and attentive,
+and the food delicious and affordable. It's a great spot near the river, and
+if the sun comes out there will be a Caribbean atmosphere too.
+
+.. carousel::
+   :name: cottons
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :cottons-2: Jerk Chicken Spring Rolls
+   :cottons-3: Salted Cod Fritters
+   :cottons-4: Pork Ribs and Fried Chicken
+   :cottons-5: Curried Mutton
+   :cottons-1: Rum Punch and Excotica Sour Cocktails
