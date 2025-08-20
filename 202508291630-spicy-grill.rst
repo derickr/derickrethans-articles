@@ -1,0 +1,54 @@
+Friday Night Dinner: Spicy Grill
+================================
+
+.. articleMetaData::
+   :Where: 122 Golders Green Road, London NW11 8HB
+   :Date: 2025-08-29 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: spicy-grill
+   :URL: https://www.thefork.co.uk/restaurant/spicy-grill-r839044 
+   :Costs: Starters: £3.00-£7.50; Mains: £9.50-£13.50
+   :Rating: 4
+   :Author: Derick Rethans
+
+We don't usually venture out to this part of North London, but on this warm
+Friday evening we found ourselves at Spicy Grill, a Korean BBQ restaurant in
+Golders Green. There is a large Jewish presence in this area, which meant that
+about half the restaurants were closed, due to it being a Friday evening.
+
+The restaurant itself is an open space with a scattering of smaller tables
+along the walls, and a larger table for groups in the middle. Each table has
+its own grill.
+
+The menu is extensive, with salads, appetizers, tempura, different meats for
+barbecuing, and even seafood. You can grill it yourself, or the kitchen can do
+it for you.
+
+We settled for some pumpkin croquettes and seaweed rolls to start. The
+croquettes had a crumbly coating, and were slightly spiced. The seaweed rolls
+were crunchy on the outside and filled with glass noodles. There were served
+with a sweet and sour dip, that worked well with it.
+
+For our mains, we ordered Bulgogi marinated beef and pork belly. We opted to
+have the grill on, and cook these ourselves. The pieces of meat were sliced
+thinly which meant for a quick cooking time. With this, we had some steamed
+rice and a selection of sauces. We thought that this would not be enough for
+the two of us, so we also picked a fried tofu salad. This wasn't really needed
+though, but still enjoyable to have some freshness. The tofu was prepared to
+actually have some flavour. With our mains, we also enjoyed a bottle of Cass,
+a Korean lager.
+
+It was a good spot, although a little far away. We were the only two
+non-Korean-looking people in the restaurant, which probably says something
+about its authenticity. If you're in the area, then Spicy Grill will provide a
+solid meal at a reasonable price. When walking to catch the bus home, we
+noticed another Korean barbecue restaurant, which may get a visit on another
+day.
+
+.. carousel::
+   :name: spicy-grill
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :spicy-grill-1: Pumpkin Croquettes and Seaweed Rolls
+   :spicy-grill-2: Steamed Rice and Sauces
+   :spicy-grill-3: Tofo Salad
+   :spicy-grill-4: Pork Belly on the Grill

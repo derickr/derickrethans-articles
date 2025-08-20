@@ -1,0 +1,50 @@
+Friday Night Dinner: The Jones Family Kitchen
+=============================================
+
+.. articleMetaData::
+   :Where: 7-8 Eccleston Yards, London SW1W 9AZ
+   :Date: 2025-09-05 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: jones-kitchen
+   :URL: https://jonesfamilykitchen.co.uk/
+   :Costs: Starters: £7.00-£19.50; Mains: £16.50-£55.00; Pudding: ~£9.00; Sides: ~£7.50; Wines from £30
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+This restaurant is located in Eccleston Yards, a recently renovated
+pedestrian-only historic courtyard, not far from Victoria Station. The Jones
+Family Kitchen is, what might be described as a “steak focused restaurant”
+but they also have a few other options for those avoiding red meat.  As well
+as a cosy dining area inside, there is a large outside terrace, where on this
+warm and sunny evening a lot of people were enjoying their meals and drinks.
+
+To start, we enjoyed some cheese polenta balls, which were served with a spicy
+mayonnaise. These were soft and crispy in all the right ways, and the mayo
+serving was very generous… so generous that we were able to enjoy it with the
+chips we had with our main course.
+
+For our mains, we both chose the same cut of meat, a 10 oz sirloin steak,
+medium rare. I opted for no condiments, but my wife added some béarnaise
+sauce. On the side, we shared a portion of triple cooked chips, and green
+beans. The steaks were perfectly cooked, well rested, and slightly charred on
+the outside, with the fat mostly rendered. The beans were nice and soft, and
+the chips crispy on the outside. Some of those chips got dipped in the spicy
+mayonnaise mentioned earlier. We also enjoyed a bottle of Rioja, which
+accompanied our steaks nicely.
+
+Afterwards, we fancied a little dessert. I had a scoop of apple sorbet, and my
+wife picked a rhubarb ice cream that tasted remarkably like peach ice
+cream—still tasty though.
+
+It's a bit on the pricier side if you go for steak, but the food was of
+excellent quality, and the service attentive. There are several other
+interesting looking restaurants around the same courtyard, so we might be back
+for those too.
+
+.. carousel::
+   :name: jones-kitchen
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :jones-kitchen-1: Cheese Polenta Balls
+   :jones-kitchen-2: Sirloin Steak
+   :jones-kitchen-3: Beans and Chips
+   :jones-kitchen-4: Sorbet and Ice Cream
