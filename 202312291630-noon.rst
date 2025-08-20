@@ -2,7 +2,7 @@ Friday Night Dinner: Noon
 =========================
 
 .. articleMetaData::
-   :Where: Griend 7, 6221 AJ Maastricht, The Netherlands
+   :Where: Griend 7, 6221 AJ Maastricht, Netherlands
    :Date: 2023-12-22 18:30 Europe/London
    :Tags: blog, fnd
    :Short: noon

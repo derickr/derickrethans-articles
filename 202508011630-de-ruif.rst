@@ -2,7 +2,7 @@ Friday Night Dinner: De Ruif
 ============================
 
 .. articleMetaData::
-   :Where: Heuvenseweg 6, Rheden, The Netherlands
+   :Where: Heuvenseweg 6, Rheden, Netherlands
    :Date: 2025-08-01 16:30 Europe/London
    :Tags: blog, fnd
    :Short: de-ruif

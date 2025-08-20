@@ -2,7 +2,7 @@ Friday Night Dinner: Het Schilderij
 ===================================
 
 .. articleMetaData::
-   :Where: Harderwijkerweg 3, 6952 AB Dieren, The Netherlands
+   :Where: Harderwijkerweg 3, 6952 AB Dieren, Netherlands
    :Date: 2024-12-06 16:30 Europe/London
    :Tags: blog, fnd
    :Short: het-schilderij

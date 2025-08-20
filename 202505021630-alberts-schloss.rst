@@ -2,7 +2,7 @@ Friday Night Dinner: Albert's Schloss
 =====================================
 
 .. articleMetaData::
-   :Where: 20-24 Shaftesbury Avenue, W1D 7EU, London
+   :Where: 20 Shaftesbury Avenue, W1D 7EU, London
    :Date: 2025-05-02 16:30 Europe/London
    :Tags: blog, fnd
    :Short: alberts-schloss

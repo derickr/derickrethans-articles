@@ -2,7 +2,7 @@ Friday Night Dinner: Akub
 =========================
 
 .. articleMetaData::
-   :Where: 27 Uxbridge Street, Notting Hill Gate, London
+   :Where: 27 Uxbridge Street, W8 7TQ, London
    :Date: 2024-02-16 18:30 Europe/London
    :Tags: blog, fnd
    :Short: akub

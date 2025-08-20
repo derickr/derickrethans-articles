@@ -2,7 +2,7 @@ Friday Night Dinner: The Grove Tavern
 =====================================
 
 .. articleMetaData::
-   :Where: 3 Hammersmith Grove, London W6 0NQ
+   :Where: 83 Hammersmith Grove, London W6 0NQ
    :Date: 2025-03-14 16:30 Europe/London
    :Tags: blog, fnd
    :Short: the-grove-tavern
