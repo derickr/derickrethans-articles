@@ -1,0 +1,56 @@
+Friday Night Dinner: Locatelli's
+================================
+
+.. articleMetaData::
+   :Where: Sainsbury Wing, National Gallery, Trafalgar Square, London, WC2N 5DN, United Kingdom
+   :Date: 2025-09-19 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: locatelli
+   :URL: https://locatelliatnationalgallery.co.uk/
+   :Costs: Starters: £12-£17; Pasta: £16-£28; Mains: £19.5-£36; Wines from £35
+   :Rating: 4
+   :Author: Derick Rethans
+
+We went to Locatelli's, a fairly new restaurant, situated in the redeveloped
+Sainsbury's wing of the National Gallery. This meant that we actually had to
+go into the gallery to go to the restaurant, including a security and bag
+check.
+
+It was a nice warm and sunny evening and when we got there, we walked up to
+the first floor and were sat down in quite a nice area. During the evening,
+the lighting varied a bit as somebody was seemingly playing with the dimmer
+switch inside the restaurant. This was slightly irritating. We really wanted
+them to pick a light level, and then stick with it.
+
+Because neither of us were massively hungry, we opted to have one of the
+snacks on the menu, rather than a full starter. My wife went for the Parma ham
+and Parmesan cheese starter, which came with delightful big chunks of cheese
+and a slightly salty ham. I had crackers with sesame seeds, and a full
+flavoured, and delicious whipped goat cream.
+
+For our mains, I selected a Stone Bass fillet, which came with samphire, some
+mushrooms, and some salad. The fish skin was nicely grilled and crisp, with
+the fish flaky.  My wife had a roast chicken, which came with polenta and some
+vegetables in a tomato sauce with some crisp sage leaves on top. To drink with
+our food, we shared a lovely and fresh bottle of wine made with Caterratto
+grapes.
+
+We really enjoyed it, and the restaurant had a good atmosphere. The service
+was speedy and friendly from the moment we arrived to the point we left. We
+didn't stay for dessert though, as we weren’t very hungry, but the dessert
+options sounded lovely… one for another visit, perhaps.
+
+Overall, dining in part of a gallery, located on the first floor adjacent to a
+gift shop is slightly strange.  But the meal was tasty, the service and
+ambience lovely, and it was fairly good value for a central London location.
+
+It would be a good place to go on a date, or if you just fancied a meal after
+some sightseeing, or gallery touring.
+
+.. carousel::
+   :name: locatelli
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :locatelli-1: Sesame Crackers with Whipped Goat Cream
+   :locatelli-2: Parma Ham with Parmesan Cheese Cubes
+   :locatelli-3: Stone Bass Fillet
+   :locatelli-4: Roast Chicken

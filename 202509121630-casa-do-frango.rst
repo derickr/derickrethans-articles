@@ -1,0 +1,51 @@
+Friday Night Dinner: Casa do Frango
+===================================
+
+.. articleMetaData::
+   :Where: 4 Sir Simon Milton Sq, London SW1E 5DJ, United Kingdom
+   :Date: 2025-09-12 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: casa-do-frango
+   :URL: https://casadofrango.co.uk/locations/victoria
+   :Costs: Small Plates: £6-£14; Grill: £14-£34; Sides: £5-£8; Dessert: £3-£8; Wines from £31
+   :Rating: 2.5
+   :Author: Morag Rethans
+
+This restaurant is situated in the new-ish development Sir Simon Milton
+Square, close to Victoria Station. We've visited this area previously when we
+dined at the Rail House Victoria, and at Camino Victoria, which are both close
+by however on a warm summer evening we decided to go for some Portuguese
+cuisine.
+
+Casa del Frango, specialise in Portuguese grill dishes. We started with a pair
+of Salgadinhos, crispy filled empanada pastry with kale, mushroom, and
+caramelised onions. These were hot and fresh and vanished quite quickly.
+
+For my main course, my husband chose the lamb chops, which were also nicely
+grilled and still moist. I picked the beef skewers, which were also well
+cooked. Neither of these dishes came with sides, so we ordered some house rice
+to go with our mains to make a full meal. Without the rice, we'd likely still
+have been hungry.
+
+Even after that, we still liked some dessert, and had one each. I had a Bolo
+de Bolocha, a Portuguese biscuit cake with vanilla ice cream and salted
+caramel, which was possibly a bit too sweet and creamy overall. And my husband
+had a classic Pastel de Nata, a custard tart. This came served with cinnamon
+ice cream on the side.
+
+Casa do Franco in Victoria is pretty good, but the service was slower than
+ideal, and in particular we had to wait a while to order. The food was nice,
+but the restaurant felt expensive and a little “big box”, lacking something in
+ambience. So although we like Portuguese food, I’m not sure if we’d return
+here. However, as there are many other restaurants in this development, we’ll
+no doubt be back in the area to try another soon. 
+
+.. carousel::
+   :name: casa-do-frango
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :casa-do-frango-1: Salgadinhos
+   :casa-do-frango-2: Lamb Chops
+   :casa-do-frango-3: House Rice
+   :casa-do-frango-4: Beef Skewers
+   :casa-do-frango-5: Pastel de Nata
+   :casa-do-frango-6: Bolo do Bolocha
