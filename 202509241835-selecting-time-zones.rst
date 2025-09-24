@@ -3,7 +3,7 @@ Selecting Time Zones
 
 .. articleMetaData::
    :Where: London, UK
-   :Date: 2025-09-25 15:15 Europe/London
+   :Date: 2025-09-24 18:35 Europe/London
    :Tags: blog, php
    :Short: select-tz
 
