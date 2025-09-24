@@ -1,0 +1,53 @@
+Friday Night Dinner: Oystermen
+==============================
+
+.. articleMetaData::
+   :Where: 32 Henrietta Street, London, WC2E 8NA, United Kingdom
+   :Date: 2025-10-03 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: oystermen
+   :URL: https://www.oystermen.co.uk/
+   :Costs: Oysters: £3.25-£6 (each); Starters: £11-£15; Mains: £23-£26; Wines from £25
+   :Rating: 4
+   :Author: Derick Rethans
+
+The Oystermen is a restaurant not far from Covent Garden. We've been before,
+but many years ago, probably pre-pandemic. As the name suggests they
+specialise in oysters and henceforth we had plenty of them.
+
+For our starter we picked a raw Jersey rock oyster each, which were fresh and
+delicious. However, this spot also does cooked oysters, which is more unusual,
+so we also enjoyed a couple of seaweed oysters which were served with a
+seaweed butter, and two tempura oysters.
+
+As our arrival drink we fancied a cocktail, and we're quite keen on Martinis.
+We decided to have a Martini with an oyster in it, because, you know… when at
+an oyster restaurant! It worked even better after we added a drop of the
+leftover oyster juice to our cocktail. The Oyster garnish took the place of
+the more usual olive and added a similar salty, briny tang. Definitely one to
+try if you get the opportunity.
+
+For our mains my wife ordered a mackerel, which came with a horseradish sauce.
+I ordered the Gurnard, curried, with a few chilli flakes. We also chose to
+have some fries on the side. These were crispy, with a lightly spiced coating
+which worked well with both main courses. We also ordered a glass of
+Chardonnay each.
+
+We still fancied a digestif. My wife had a glass of the Sazerac Straight Rye,
+which in my opinion could have done with a bit of ice. I selected a Somerset
+cider brandy, which I had never had before.
+
+We really enjoyed our time at the Oystermen. The food is excellent, the
+ambience is great, and on top of that they play recordings of the shipping
+forecast in the toilets, which are located downstairs. I think we'll be back
+at some point.
+
+.. carousel::
+   :name: oystermen
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :oystermen-1: Jersey Rock Oysters
+   :oystermen-2: Seaweed and Tempura Cooked Oysters
+   :oystermen-3: Curried Gurnard
+   :oystermen-4: Mackerel with Horseradish Sauce
+   :oystermen-5: Oyster Martini
+   :oystermen-6: Spiced Fries

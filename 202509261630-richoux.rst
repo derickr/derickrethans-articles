@@ -1,0 +1,50 @@
+Friday Night Dinner: Richoux
+============================
+
+.. articleMetaData::
+   :Where: 14-15 Langham Place, London, W1B 2QS, United Kingdom
+   :Date: 2025-09-26 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: richoux
+   :URL: https://www.richoux.co.uk/
+   :Costs: Starters: £13-£16; Mains: £16.5-£44; Wines from ~£40
+   :Rating: 3
+   :Author: Derick Rethans
+
+Richoux is a French bistro restaurant that used to be situated on Piccadilly
+near the Ritz, but they've now moved to Regent Street, next to the BBC
+Broadcasting House.
+
+We went when they still hadn't quite opened yet, their so-called "soft
+opening".
+
+I choose, as one of my favourite starters, the Escargots de Bourgogne: snails
+in a pesto-like sauce. The sauce was fairly oily, and I sort of wished I'd had
+some bread with that. My wife had the Rillette de Saumon,  a nice enough (but
+not overly exciting) salmon pate with some toasted bread.
+
+As her main, my wife picked the Steak Frites with a Béarnaise sauce. She
+ordered it medium rare. It was well cooked and well seasoned, but not too well
+rested. I had a Filet de Saumon, which was also quite nice, but nothing
+particularly very special. With our main, we also had a bottle of wine. Wines
+start at around £40.
+
+In the end, we thought the meal was a little disappointing and on the pricier
+side. One thing that was useful, is that because they were in their "soft
+opening" mode, all the food was half price.
+
+I don't think we're going back to Richoux. But if you're in a mood for some
+French food, near Regent's Street, then they'll be able to provide you with a
+solid meal. To be honest, if you really want French food, you’d be better
+heading to `Le Vieux Comptior
+<https://friday-night-dinners.co.uk/le-vieux-comptoir-ix9>`_, which isn't very
+far away in Marylebone, or `Le Garrick
+<https://friday-night-dinners.co.uk/le-garrick-ji3>`_ in Covent Garden.
+
+.. carousel::
+   :name: richoux
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :richoux-1: Snails in a Pesto Sauce
+   :richoux-2: Salmon Rillette
+   :richoux-3: Salmon Filet
+   :richoux-4: Steak Frites
