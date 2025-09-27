@@ -7,7 +7,7 @@ Friday Night Dinner: Myrtle
    :Tags: blog, fnd
    :Short: myrtle
    :URL: https://www.myrtlerestaurant.com/
-   :Costs: Tasting Menu with Wine: £375
+   :Costs: Tasting Menu with Wine: £167
    :Rating: 5
    :Author: Derick Rethans
 
