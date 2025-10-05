@@ -1,0 +1,12 @@
+<?php
+$mTest1 = new MongoClient( 'mongodb://user:user@whisky:27017/test', array( 'connect' => false ) );
+$mTest2 = new MongoClient( 'mongodb://user2:user2@whisky:27017/test2', array( 'connect' => false ) );
+
+$mTest1->test->test->findOne();
+$mTest2->test2->test->findOne();
+
+foreach ( $mTest2->getConnections() as $c )
+{
+	echo $c['hash'], "\n";
+}
+?>

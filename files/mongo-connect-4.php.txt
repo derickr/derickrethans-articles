@@ -1,0 +1,4 @@
+<?php
+$m = new MongoClient( 'mongodb://admin:admin@whisky:27017/admin' );
+var_dump( $m->getConnections()[0]['hash'] );
+?>

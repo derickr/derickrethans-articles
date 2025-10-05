@@ -1,0 +1,7 @@
+<?php
+$m = new MongoClient( 'mongodb://whisky:13001/?replicaSet=seta' );
+foreach ( $m->getConnections() as $c )
+{
+	echo $c['hash'], "\n";
+}
+?>

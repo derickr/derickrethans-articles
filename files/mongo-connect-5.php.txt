@@ -1,0 +1,7 @@
+<?php
+$m = new MongoClient( 'mongodb://user:user@whisky:27017/test' );
+
+$db = $m->test2;
+$collection = $db->collection;
+var_dump( $collection->findOne() );
+?>

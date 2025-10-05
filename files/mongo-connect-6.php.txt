@@ -1,0 +1,13 @@
+<?php
+$m = new MongoClient( 'mongodb://user:user@whisky:27017/test' );
+
+$db = $m->test2;
+$db->authenticate('user2', 'user2' );
+$collection = $db->collection;
+$collection->findOne();
+
+foreach ( $m->getConnections() as $c )
+{
+	echo $c['hash'], "\n";
+}
+?>
