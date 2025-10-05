@@ -79,7 +79,7 @@ set name* and in case of authenticated connections, the *database name*, the
 connections later. You can quite easily see which hash is created, by calling
 the MongoClient::`getConnections()`_ method:
 
-.. include:: ../files/mongo-connect-1.php.txt
+.. include:: ../articles/files/mongo-connect-1.php.txt
    :literal:
 
 Which outputs::
@@ -123,7 +123,7 @@ Upon instantiation, the driver will discover the replica set's topology. The
 following output shows that all visible data nodes of the replica set will have
 a connection registered in the manager after the ``new MongoClient()`` call:
 
-.. include:: ../files/mongo-connect-2.php.txt
+.. include:: ../articles/files/mongo-connect-2.php.txt
    :literal:
 
 Which outputs::
@@ -142,7 +142,7 @@ the TCP/IP socket. It also knows which nodes are *primary* nodes, and how "far
 away" a specific node is. This script shows how to retrieve this
 additional information:
 
-.. include:: ../files/mongo-connect-3.php.txt
+.. include:: ../articles/files/mongo-connect-3.php.txt
    :literal:
 
 Which outputs::
@@ -187,7 +187,7 @@ user name/password/database combinations, do not inadvertently use a wrongly
 authenticated connection. Let's see what the hash turns into if we connect
 to the *admin* database with the *admin* user:
 
-.. include:: ../files/mongo-connect-4.php.txt
+.. include:: ../articles/files/mongo-connect-4.php.txt
    :literal:
 
 Which outputs::
@@ -216,7 +216,7 @@ object is *different* then the one specified in the connection string then the
 driver has to create a new connection to prevent leaking of authentication
 between multiple requests. The following example illustrates this:
 
-.. include:: ../files/mongo-connect-5.php.txt
+.. include:: ../articles/files/mongo-connect-5.php.txt
    :literal:
 
 Which outputs::
@@ -230,7 +230,7 @@ database. If we authenticate, then it works (even though ``findOne()``
 does not actually find anything), and we can see all the 
 created connections:
 
-.. include:: ../files/mongo-connect-6.php.txt
+.. include:: ../articles/files/mongo-connect-6.php.txt
    :literal:
 
 Which outputs::
@@ -251,7 +251,7 @@ will see::
 The driver can do things much more optimised if you create *two*
 ``MongoClient`` objects instead:
 
-.. include:: ../files/mongo-connect-7.php.txt
+.. include:: ../articles/files/mongo-connect-7.php.txt
    :literal:
 
 With this, I conclude this post on the MongoDB driver's new connection
