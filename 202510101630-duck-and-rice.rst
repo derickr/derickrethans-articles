@@ -1,0 +1,61 @@
+Friday Night Dinner: Duck and Rice
+==================================
+
+.. articleMetaData::
+   :Where: 90 Berwick Street, London W1F 0QB, United Kingdom
+   :Date: 2025-10-10 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: duck-and-rice
+   :URL: https://theduckandrice.com/
+   :Costs: Dim Sum: £9.80-£13.80; Starters: £9.80-£15.50; Mains: £15.20-£45; Wines from £45
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+In SOHO, in the hubbub of central London, Duck & Rice is a busy establishment
+with a lively atmosphere. There is a big tank of Pilsner Urquell tank beer
+downstairs when you get in.
+
+We arrived a little before seven, and the place was nearly full, with hip
+people a fair bit younger than we are, as well as a some people about the same
+age or older. The menu is fairly extensive, but focuses on Cantonese food.
+
+We started with some sesame prawn toast as starter. The two pieces of toast
+were cut length wise, resulting in four tasty morsels. They were moist,
+flavourful, and the right amount of crispy.
+
+Our mains came shortly after the starters, way before we could finish the
+toast. I chose their signature dish, the "Duck & Rice" as my main dish. My
+wife had the king prawn Katsu curry rice, but I believe she was slightly
+wishing she'd had the Duck & Rice as well. That isn't to say that the prawns
+weren't well cooked, or the sauce wasn't perfectly nice, but sometimes you
+just have to have the signature dish; like the table of three next to us, but
+the missus was willing to "take one for the team" and ordered something else
+(thanks!)
+
+The Duck & Rice consisted of a roasted duck, with a sweet and crispy skin,
+over a well cooked rice. I was initially concerned as the duck also came with
+a leg with bones. I'm not too keen if I have to effectively gnaw meat off
+bones (spare ribs excluded). However, it was only the one leg, and I was
+pleased the rest of the meat was off the bone, as well as being perfectly
+cooked, spiced, and paired perfectly with the rice. Because the skin was
+slightly sweet, so were the juices that seeped into the rice. The cucumber
+added a pleasant bite of freshness.
+
+Instead of having wine, it made much more sense to us to have a beer,
+especially because they have some exclusive ones (we like beer). Which meant
+that with our dinner we enjoyed a Duck Pale Ale and an Orion Lager.
+
+When we booked, the table was reserved for two hours. However as the service
+was quick, and we only really had two courses, and one drink each, we were in
+and out in a smidgen under an hour. The quick service, and the location of
+Duck and Rice, close to many theatres, might make this an ideal spot for a
+pre-theatre meal. 
+
+We might be back at some point, to try some other intriguing dishes.
+
+.. carousel::
+   :name: duck-and-rice
+   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :duck-and-rice-1: Prawn Toast
+   :duck-and-rice-2: King Prawn Katsu Curry
+   :duck-and-rice-3: Duck and Rice
