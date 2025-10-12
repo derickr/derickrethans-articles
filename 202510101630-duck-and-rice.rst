@@ -55,7 +55,7 @@ We might be back at some point, to try some other intriguing dishes.
 
 .. carousel::
    :name: duck-and-rice
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :duck-and-rice-1: Prawn Toast
    :duck-and-rice-2: King Prawn Katsu Curry
    :duck-and-rice-3: Duck and Rice

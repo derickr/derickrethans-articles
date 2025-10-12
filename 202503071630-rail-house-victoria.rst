@@ -36,7 +36,7 @@ Instead, we popped over the road to Stoke House to enjoy a lovely cocktail.
 
 .. carousel::
    :name: rail-house-victoria
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :rail-house-victoria-1: Aged Gouda Croquette Balls
    :rail-house-victoria-2: Roast Lamb with Fried Rice
    :rail-house-victoria-3: Minute Sirlock Steak with Fried Egg

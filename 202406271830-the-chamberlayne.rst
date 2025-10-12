@@ -43,7 +43,7 @@ reasonable prices. An excellent local option.
 
 .. carousel::
    :name: the-chamberlayne
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :the-chamberlayne-1: Selection of Oysters
    :the-chamberlayne-2: Gurnard on Haricot Beans
    :the-chamberlayne-3: Beef Burger with Chips and Pickles

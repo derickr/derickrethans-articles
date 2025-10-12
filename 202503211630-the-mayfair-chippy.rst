@@ -43,5 +43,5 @@ though!
 
 .. carousel::
    :name: the-mayfair-chippy
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :the-mayfair-chippy-1: Haddock and Chips

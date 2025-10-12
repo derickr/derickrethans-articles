@@ -43,7 +43,7 @@ for those too.
 
 .. carousel::
    :name: jones-kitchen
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :jones-kitchen-1: Cheese Polenta Balls
    :jones-kitchen-2: Sirloin Steak
    :jones-kitchen-3: Beans and Chips

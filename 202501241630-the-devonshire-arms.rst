@@ -50,7 +50,7 @@ the service good, and the ambience lovely. A good night out all round.
 
 .. carousel::
    :name: devonshire-arms
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :devonshire-arms-1: Wild Boar Sausages, with English Mustard
    :devonshire-arms-2: Padron Peppers
    :devonshire-arms-3: Trout with Prawns

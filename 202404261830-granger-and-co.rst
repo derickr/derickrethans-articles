@@ -41,7 +41,7 @@ end to our meal at this Australian restaurant.
 
 .. carousel::
    :name: granger
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :granger-1: Courgette Chips
    :granger-2: Onglet with Vegetables
    :granger-3: Tiramisu

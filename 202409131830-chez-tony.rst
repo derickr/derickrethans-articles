@@ -47,7 +47,7 @@ no snobby waiters, but good French cooking; and with a good ambiance.
 
 .. carousel::
    :name: cafe-pasifico
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :chez-tony-1: The Restaurant
    :chez-tony-2: Piece de Boucher
    :chez-tony-3: Crême Brûlée

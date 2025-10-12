@@ -37,7 +37,7 @@ with decent food.
 
 .. carousel::
    :name: the-grove-tavern
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :the-grove-tavern-1: Crispy Halloumi
    :the-grove-tavern-2: Fish & Chips
    :the-grove-tavern-3: Onglet Steak

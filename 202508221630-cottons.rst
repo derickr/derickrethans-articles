@@ -46,7 +46,7 @@ if the sun comes out there will be a Caribbean atmosphere too.
 
 .. carousel::
    :name: cottons
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :cottons-2: Jerk Chicken Spring Rolls
    :cottons-3: Salted Cod Fritters
    :cottons-4: Pork Ribs and Fried Chicken

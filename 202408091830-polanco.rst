@@ -43,7 +43,7 @@ every table occupied.
 
 .. carousel::
    :name: polanco
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :polanco-1: Tortilla Chips with Guacamole
    :polanco-2: Green Chicken Enchiladas
    :polanco-3: Fish Tacos with Pickled Cabbage

@@ -49,7 +49,7 @@ bombs).
 
 .. carousel::
    :name: mowgli
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :mowgli-1: Patatas Bravas, Yoghurt Chat Bombs, and Gunpowder Chicken
    :mowgli-2: Rice; Butter Chicken, Temple Dahl, and Agra Ginger Chicken); and Roti
    :mowgli-3: Salted Caramel Ice Cream

@@ -43,7 +43,7 @@ served. We'd go back for those, and the soup… But not for the mains.
 
 .. carousel::
    :name: st-john
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :st-john-1: Venison Rissole with Aioli
    :st-john-2: Smoked Mackerel
    :st-john-3: Artichoke Soup

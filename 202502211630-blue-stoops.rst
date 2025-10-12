@@ -38,6 +38,6 @@ need a better look at their menu.
 
 .. carousel::
    :name: blue-stoops
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :blue-stoops-1: Oysters
    :blue-stoops-2: Onglet Steak, with Chips and an Egg

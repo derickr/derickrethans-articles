@@ -52,7 +52,7 @@ underwhelming, but it doesn’t put us off returning.
 
 .. carousel::
    :name: escoffier-room
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :escoffier-room-1: Beetroot Gnocchi
    :escoffier-room-2: Minestrone
    :escoffier-room-3: Roast Monkfish

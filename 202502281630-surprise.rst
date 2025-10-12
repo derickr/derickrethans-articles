@@ -47,7 +47,7 @@ Day. It's a great vibrant place for a meal, so we'd go again.
 
 .. carousel::
    :name: the-surprise
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :the-surprise-1: Chicken Croquets
    :the-surprise-2: Monk Fish, with Prawns and Mussels
    :the-surprise-3: Butternut Squash Gnocchi

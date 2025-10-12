@@ -48,7 +48,7 @@ thought quite worth the price, and are already thinking of a reason to return!
 
 .. carousel::
    :name: butchers-tag
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :butchers-tag-1: An Old Fashioned and a Bloody Mary
    :butchers-tag-2: Beef Wellington, with trimmings
    :butchers-tag-3: Sticky Toffee Pudding

@@ -46,7 +46,7 @@ bit on the pricier side, especially if you also share (or not) a main as well.
 
 .. carousel::
    :name: mountain
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :mountain-1: Cured Dairy Beef
    :mountain-2: Anchovies and Cheese
    :mountain-3: Girolle Ommelette

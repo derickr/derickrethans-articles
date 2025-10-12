@@ -49,7 +49,7 @@ next year though.
 
 .. carousel::
    :name: lore-of-the-land
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :lore-of-the-land-1: Bannock Bread
    :lore-of-the-land-2: Whisky Cured Salmon Tartlets
    :lore-of-the-land-3: Scallops with Cauliflower Purée

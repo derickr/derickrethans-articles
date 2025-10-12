@@ -55,7 +55,7 @@ if we're in town again.
 
 .. carousel::
    :name: artean
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :artean-1: Dressed Oysters
    :artean-2: Anchovies on Toast
    :artean-3: Scallop Gildas

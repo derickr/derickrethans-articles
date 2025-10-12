@@ -41,7 +41,7 @@ large glasses.
 
 .. carousel::
    :name: cafe-pasifico
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :cafe-pacifico-1: Classic Margaritas
    :cafe-pacifico-2: Crispy Empenadas
    :cafe-pacifico-3: Chicken Chimichanga with Black Beans

@@ -39,7 +39,7 @@ We'll certainly be back.
 
 .. carousel::
    :name: het-schilderij
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :het-schilderij-1: Oerbrood with Butters and Tapenade
    :het-schilderij-2: Venison Steak
    :het-schilderij-3: Accompaniments

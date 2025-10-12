@@ -47,7 +47,7 @@ another year or so.
 
 .. carousel::
    :name: chalk
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :chalk-1: Cheese and Onion Scone
    :chalk-2: 'Nduja and Smoked Mozzarella Sausage Roll
    :chalk-3: Butter Roasted Ray Wing

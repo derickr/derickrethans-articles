@@ -37,7 +37,7 @@ safe choice, with good food.
 
 .. carousel::
    :name: le-garrick
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :le-garrick-1: Moules Frites
    :le-garrick-2: Onglet Steak
    :le-garrick-3: Tarte au Citron

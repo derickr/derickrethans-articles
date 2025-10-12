@@ -36,7 +36,7 @@ at, so if we returned we'd try to be seated elsewhere (almost anywhere else).
 
 .. carousel::
    :name: demartino
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :demartino-1: Courgette Fries
    :demartino-2: Arancino
    :demartino-3: Wild Mushroom Risotto

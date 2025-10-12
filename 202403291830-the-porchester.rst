@@ -32,6 +32,6 @@ shouty for my liking. Therefore, we made a swift exit and headed home.
 
 .. carousel::
     :name: porchester
-    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
     :porchester-1: Ale Battered Haddock
 	:porchester-2: Bavette Steak

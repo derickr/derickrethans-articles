@@ -45,7 +45,7 @@ little out of the way, but well worth visiting.
 
 .. carousel::
    :name: apego
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :apego-1: Atlantic Bonito Crudo
    :apego-2: Corn Empanada with Mushrooms
    :apego-3: Pork Shank

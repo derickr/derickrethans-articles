@@ -44,7 +44,7 @@ relaxing, and the staff attentive. It certainly was no Nando's!
 
 .. carousel::
     :name: volta-do-mar
-    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
     :volta-do-mar-1: Blueberry Caipirinha
     :volta-do-mar-2: Sardine Pâte with Sourdough
     :volta-do-mar-3: Ham Hock and Chorizo Croquettes

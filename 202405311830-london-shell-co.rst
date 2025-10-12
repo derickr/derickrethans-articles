@@ -48,7 +48,7 @@ meal with fabulous fishy food.
 
 .. carousel::
    :name: london-shell-co
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :london-shell-co-1: Four oysters on a place with ice, with a slice of lemon.
    :london-shell-co-2: A whole plaice with lobster sauce.
    :london-shell-co-3: New potatoes in butter.

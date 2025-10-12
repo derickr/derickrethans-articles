@@ -38,7 +38,7 @@ well worth going back for again.
 
 .. carousel::
    :name: sicily
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :sicily-1: Rustichelle Salsiccia Pasta
    :sicily-2: Fiorentina Pizza
    :sicily-3: Sicily Pilsner

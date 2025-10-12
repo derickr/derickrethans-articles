@@ -47,7 +47,7 @@ visiting — especially after also having done a tour of their warehouses.
 
 .. carousel::
    :name: vinum
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :vinum-2: Fat Oysters
    :vinum-3: Seared Tuna Wrapped in Chard
    :vinum-4: Vace Velha Tataki

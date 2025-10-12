@@ -47,7 +47,7 @@ day.
 
 .. carousel::
    :name: spicy-grill
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :spicy-grill-1: Pumpkin Croquettes and Seaweed Rolls
    :spicy-grill-2: Steamed Rice and Sauces
    :spicy-grill-3: Tofo Salad

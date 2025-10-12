@@ -49,7 +49,7 @@ after a day of tourist-ing, and avoiding the nearby chain restaurants.
 
 .. carousel::
     :name: 50-kalo
-    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
     :kalo-1: Prosciutto Cotto
 	:kalo-2: Del Monaco
 	:kalo-3: Almond and Orange tarte

@@ -49,7 +49,7 @@ beers at `"The Bear" <https://www.thebearpaddington.com/>`_, a nearby pub.
 
 .. carousel::
    :name: turmeric-kitchen
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :turmeric-kitchen-1: Avocado Bombs
    :turmeric-kitchen-2: Murgh Makhani
    :turmeric-kitchen-3: Laal Maas

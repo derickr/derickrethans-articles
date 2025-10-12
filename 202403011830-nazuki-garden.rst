@@ -54,7 +54,7 @@ friends) side of the menu as well.
 
 .. carousel::
     :name: nazuki-garden
-    :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+    :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
     :nazuki-garden-1: Vegetable Gyoza
     :nazuki-garden-2: Japanese Fried Chicken
     :nazuki-garden-3: Teriyaki BBW Roasted Pork Donburi

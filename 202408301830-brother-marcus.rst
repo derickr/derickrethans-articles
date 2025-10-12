@@ -41,7 +41,7 @@ shuffling around old museum pieces will certainly fill your belly.
 
 .. carousel::
    :name: brother-marcus
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :brother-marcus-1: Rip and Dips Platter
    :brother-marcus-2: Pan-fried Halloumi
    :brother-marcus-3: Crispy Aubergine

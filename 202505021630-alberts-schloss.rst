@@ -42,6 +42,6 @@ though.
 
 .. carousel::
    :name: alberts-schloss
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :alberts-schloss-1: Cordon Bleu Schnitzel
    :alberts-schloss-2: Currywurst Platter

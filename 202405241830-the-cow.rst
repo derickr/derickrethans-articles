@@ -35,7 +35,7 @@ overhyped, and we will probably not go back.
 
 .. carousel::
    :name: the-cow
-   :directory: https://s3.drck.me/derickrethans-blog-photos.s3.eu-west-2.amazonaws.com/friday-night-dinners/
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
    :the-cow-1: Smoked Mackerel Paté with Sourdough and Butter
    :the-cow-2: Monkfish on a Bed of Courgette and Tomatoes
    :the-cow-3: Cuttlefish with Peas and Toasted Bread
