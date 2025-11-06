@@ -1,0 +1,59 @@
+Friday Night Dinner: Theo Randall
+=================================
+
+.. articleMetaData::
+   :Where: 1 Hamilton Place, Park Lane, London, W1J 7QY, United Kingdom
+   :Date: 2025-11-07 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: theo-randall
+   :URL: https://www.theorandall.com/
+   :Costs: Tasting Menu with Wine Pairing: £75
+   :Rating: 4
+   :Author: Derick Rethans
+
+You can find Theo Randall on the ground floor of the posh Intercontinental
+Hotel on Park Lane. The restaurant itself is elegant, but not pretentious. On
+Friday evening there is live music. We were seated at the other end of the
+spacious dining room, which meant being able to enjoy both the music and
+having a chat.
+
+Besides their à la carte menu, they also have a monthly "regional tasting
+menu" consisting of five courses, where three of them are paired with wine. We
+opted for this tasting menu, which in October was from Umbria.
+
+We started our "journey" with an Umbria cocktail, which was fruity with a
+slice of dried strawberry as a decoration. With this, we were enjoying some
+focaccia and a bruschetta, which was topped with a flavourful roasted tomato
+salsa.
+
+Our first course, the Antipasto, consisted of beef carpaccio with marinated
+artichokes and pecorino cheese. Strangozzi (think square cut wheat spaghetti),
+serviced with Italian sausage and a white wine and black truffle creamed was
+the Primo course. The pasta had a good bite to it, and the sausage was nicely
+cubed. The sauce bound everything together.
+
+Our Secondo, or "meat" course, was roasted guinea fowl breasts with pancetta
+and a sweet wine. It was served with squash purée under the crisp skin, and
+laid on a bed of lentils and some braised greens. The guinea fowl was still
+moist, and the skin crisp. The textures worked very well together.
+
+We finished the evening with Dolce, a chocolate and hazelnut cake with a Vin
+Santo gelato. The cake was rich and on the denser side, but the ice cream
+offset that. We were a bit cheeky, and enjoyed a glass of dessert wine as well
+with this final course.
+
+I believe the menu was good value, as the food was very tasty. The matching
+wines accompanied the dishes well. The dishes themselves were well presented,
+well cooked, and the whole meal was just the right amount. Perhaps not a
+restaurant to go to on a weekly basis, but if you have something to celebrate,
+or perhaps a fancier date night, it's a great spot, close to the centre of
+London.
+
+.. carousel::
+   :name: theo-randall
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :theo-randall-1: Focaccia and Bruschetta
+   :theo-randall-2: Beef Carpaccio with Marinated Artichokes
+   :theo-randall-3: Strangozzi with Italian Sausage
+   :theo-randall-4: Guinea Fowl Breasts with Pancetta
+   :theo-randall-5: Chocolate and Hazelnut Cake with Vin Santo Gelato

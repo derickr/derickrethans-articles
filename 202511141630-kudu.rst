@@ -1,0 +1,49 @@
+Friday Night Dinner: Kudu
+=========================
+
+.. articleMetaData::
+   :Where: 7 Moxon Street, London, W1U 4EP, United Kingdom
+   :Date: 2025-11-14 16:30 Europe/London
+   :Tags: blog, fnd
+   :Short: kudu
+   :URL: https://www.kuducollective.com/
+   :Costs: Starters: £9-£28; Mains: £24-£49; Wines from £45
+   :Rating: 4
+   :Author: Morag Rethans
+
+We went to Kudu, a restaurant offering a menu inspired by South African Braai
+on a wet Halloween. Let me start by saying, that whilst there were vegetarian
+items on the menu, this is very much not a restaurant for those who enjoy a
+meat free cuisine.
+
+We started our meal with a delicious tin of freshly baked bread, about the
+size of a large American muffin, helpfully portioned into four pieces. This
+was accompanied by a dish of a very tasty melted butter, featuring bits of
+bacon for the bread to be dipped into. This flavoursome starter set the tone
+for the mains.
+
+We enjoyed a spatchcock poussin which was coated in something slightly
+crunchy, salty, spicy — and delicious. The poussin was moist and tender and
+came off the bone very easily. Alongside this we had the lamb, which came on
+the bone, and partly sliced. This too had some sort of marinade or spicing
+applied, and was also tasty. If I'm being very critical, perhaps the fat could
+have been rendered a little more. We also had with our mains a dish of roasted
+carrots draped in a curry-ish, sauce, and in some ways I wish I'd had two of
+those. But alas with all the meat, there really was no room.
+
+From our high table seat we could see across about half the restaurant, which
+was busy. We noticed that many diners were unable to finish their food, so
+there were many "doggy bags" of leftovers being packaged up. We didn't need to
+do a takeaway, but this is only because we were more restrained on the side
+dishes.
+
+We'd go to Kudu again, but next time I'd probably have the spatchcock chicken
+between two, and a few of the sides and snack dishes to go with it.
+
+.. carousel::
+   :name: kudu
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :kudu-1: Freshly Baked Bread with Melted Butter
+   :kudu-2: Spatchcock Poussin
+   :kudu-3: The Lamb
+   :kudu-4: Curried Carrots
