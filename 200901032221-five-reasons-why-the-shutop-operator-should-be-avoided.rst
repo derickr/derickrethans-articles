@@ -118,7 +118,7 @@ The compiler generates:
 This shows that when the @-operator is used, the compiler does not
 generate the
 
-.. image:: /images/content/apfelstrudel.jpg
+.. image:: images/apfelstrudel.jpg
    :align: right
 
 much faster compiled variables

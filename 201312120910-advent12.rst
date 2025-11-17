@@ -14,7 +14,7 @@ Vincenty_ functions calculate distances on a globe, an implementation of the
 `Helmert transformation`_ algorithm converts between different datums_, and
 some general functions to convert from f.e. 16°45'12" N to 16.7533° N.
 
-.. image:: /images/content/advent2013-12a.png
+.. image:: images/advent2013-12a.png
    :align: left 
 
 These are all useful functions, but I'd like to talk about an algorithm that
@@ -71,7 +71,7 @@ We are left with::
 
 The image below shows the effect of ``ε = 2.75`` and other values:
 
-.. image:: /images/content/advent2013-12b.png
+.. image:: images/advent2013-12b.png
 
 In case you do not want to install a PHP extension to get that functionality,
 I also have an example implementation in PHP at

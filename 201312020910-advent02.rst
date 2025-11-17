@@ -19,7 +19,7 @@ I usually have to travel quite a bit from home to actually see a discrepancy,
 but since the update to the latest data set I actually found one very close to
 home: Opal Mews. On the site the discrepancy looked like:
 
-.. image:: /images/content/advent2013-02a.png
+.. image:: images/advent2013-02a.png
 
 In this case, the tag is simply missing on the way. However instead of adding
 the data directly from OS Locator, a survey is required. In some cases, the
@@ -31,7 +31,7 @@ http://www.openstreetmap.org/browse/changeset/19136631
 Now ITO World's OSM analysis does not have it listed as an inconsistency
 anymore:
 
-.. image:: /images/content/advent2013-02b.png
+.. image:: images/advent2013-02b.png
 
 One down, `18 thousand to go`_!
 

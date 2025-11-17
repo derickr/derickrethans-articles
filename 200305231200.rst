@@ -4,7 +4,7 @@ Lunar Eclipse
 .. articleMetaData::
    :Where: Dieren, The Netherlands
 
-.. image:: images/content/moonbig.png
+.. image:: images/moonbig.png
 
 May 16th, time to pick up my old hobby Astronomy again. Finally there was this
 nice opportunity to spot a lunar eclipse, but instead of only looking at it in
@@ -27,7 +27,7 @@ between eclipses of the same Saros the eclipses will shift about 120 degrees
 every time. A triple Saros is a period of 54 years and 34 days and produce
 about the same eclipse at the same location.
 
-.. image:: images/content/LE2003May16T.gif
+.. image:: images/LE2003May16T.gif
 
 In every Saros there are about 70 to 80 eclipses, a Saros cyclus has a limited
 lifetime because the two cycles of Synodic and Draconic months don't match up
@@ -53,7 +53,7 @@ errors with photographing the July 11th, 1999 solar eclipse I decided to
 alternate the settings a bit to have a better chance of making the best picture
 possible.
 
-.. image:: images/content/moon.png
+.. image:: images/moon.png
 
 The composition of photos on the right are made at respectively 4:10am, 4:15am
 and 4:25am, all with an aperture of 8 and an exposure time of 1/125 second. I

@@ -19,7 +19,7 @@ about 15 addresses, so in more densely populated areas you have more
 "postcodes-per-area". Doing this wasn't very difficult and it resulted in the
 following map:
 
-.. image:: /images/content/postcode-uk-scaled.jpg
+.. image:: images/postcode-uk-scaled.jpg
 
 You can very clearly see the more densely populated areas such as London.
 
@@ -27,7 +27,7 @@ This generated postcode-density map I wanted to overlay on a real map, such as
 OpenStreetMap provides. When I tried to align the image that I generated with
 the OSM map, I ended up with this:
 
-.. image:: /images/content/uk-osm-postcode-overlay.jpg
+.. image:: images/uk-osm-postcode-overlay.jpg
 
 Obviously, the maps don't align. In order to fix this, I ended up learning a
 lot more about map projections.
@@ -90,13 +90,13 @@ zoom level 7 we end up with a 1536x2048 map with the North-Western pixel being
 15360,9216. On this map, we can draw the latitudes and longitudes as well as
 the National Grid lines (full image is on flickr_):
 
-.. image:: /images/content/uk-osm-lines-crop.jpg
+.. image:: images/uk-osm-lines-crop.jpg
 
 The only thing left to do now, is to map the postcode density information to
 the map. I picked zoom level 6 for this, and the result is (after cropping it
 to 640 pixels width):
 
-.. image:: /images/content/uk-osm-postcode.jpg
+.. image:: images/uk-osm-postcode.jpg
 
 As you can see, this is perfect fit to the outlines of the country. But
 unfortunately, when we look very closely at the plotted map data, for example
@@ -104,7 +104,7 @@ for the *NW10 3* postcodes, we notice that the mapping is slightly off. The
 blue dots are what we plotted, and the red dots are what the locations
 **should** have been:
 
-.. image:: /images/content/uk-osm-nw103-1.png
+.. image:: images/uk-osm-nw103-1.png
 
 The reason for this is that when we converted the National Grid locations to
 Latitude/Longitude pairs to plot on the OSM maps, I forgot to take into account

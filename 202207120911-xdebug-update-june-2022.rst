@@ -38,7 +38,7 @@ Studio Code, if you'd like to try it out.
 
 In this GIF you can see how this is useful with fluent interfaces:
 
-.. image:: /images/content/return-value-fluent.gif
+.. image:: images/return-value-fluent.gif
 
 PHP Version Support
 -------------------

@@ -6,7 +6,7 @@ Blåfjell
    :Date: 20040607 2358 CEST
    :Tags: nature
 
-.. image:: /images/content/blafjell.png
+.. image:: images/blafjell.png
    :align: center
 
 After the `summer conference`_ Gunnstein, Gurudutt, Jan, Vera and I were not yet tired enough and

@@ -14,7 +14,7 @@ recording a trace with my GPS (successfully).
 Section 18
 ----------
 
-.. image:: /images/content/loop18-d36_9396.jpg
+.. image:: images/loop18-d36_9396.jpg
    :align: right
 
 Starting at Enfield Lock station, our first highlight was, as you might guess,
@@ -22,7 +22,7 @@ Starting at Enfield Lock station, our first highlight was, as you might guess,
 and then the `King George V reservoir`_, and finally the `Rammey March Flood
 Relief Channel`_. In a field we found some very tiny horses as well.
 
-.. image:: /images/content/loop18-d36_9406.jpg
+.. image:: images/loop18-d36_9406.jpg
    :align: left
 
 Crossing a road, our route was disrupted by a car boot sale.
@@ -47,7 +47,7 @@ directly to `The Royal Forest`_ for a refreshing pint.
 Section 19
 ----------
 
-.. image:: /images/content/loop19-d36_9420.jpg
+.. image:: images/loop19-d36_9420.jpg
    :align: left
 
 After the beverage, we continued, now on section 19 of the LOOP. Near the pub
@@ -63,7 +63,7 @@ thought it would be. Instead of walking through a town, the LOOP guided us in
 between residential areas through a patch of green ending at a pond (or
 reservoir).
 
-.. image:: /images/content/loop19-d36_9431.jpg
+.. image:: images/loop19-d36_9431.jpg
 
 After going around a David Lloyd sports centre the last part of the walk
 crossed the M11_ and got us past a road into Chigwell, were we celebrated yet

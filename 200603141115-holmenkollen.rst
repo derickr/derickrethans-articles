@@ -6,7 +6,7 @@ Holmenkollen
    :Date: 20060314 1115 CET
    :Tags: blog, photography
 
-.. image:: /images/content/holmenkollen1.png
+.. image:: images/holmenkollen1.png
    :align: left
 
 Every year there is a ski jumping event in Oslo, at the Holmenkollen
@@ -21,7 +21,7 @@ excellent weather: "warm" and sunny. We were a bit early so
 had to wait a bit but atleast there were some performances to get the
 audience going. Amazingly that seemed to work better than I expected.
 
-.. image:: /images/content/holmenkollen2.png
+.. image:: images/holmenkollen2.png
    :align: left
 
 There were 50 participants and they started in the order they were

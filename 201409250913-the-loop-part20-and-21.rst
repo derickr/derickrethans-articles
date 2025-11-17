@@ -14,7 +14,7 @@ miles. That meant getting up early too, and not spending ages getting
 breakfast. By the time we finished breakfast, we were already an hour behind
 schedule…
 
-.. image:: /images/content/loop-logo.jpg
+.. image:: images/loop-logo.jpg
    :align: left
 
 We traveled to Chigwell by means of Bakerloo to Oxford Circus and then the
@@ -43,7 +43,7 @@ without any regard for the public right of way. After pondering about we
 decided to go around the field, although I think we really should have crossed
 it. The PROW blockage has been reported.
 
-.. image:: /images/content/loop20-d36_9524.jpg
+.. image:: images/loop20-d36_9524.jpg
    :align: left
 
 After a while, we passed the `Chigwell Water Treatment Works`_ and wandered
@@ -55,7 +55,7 @@ push through a gate so small that I had to take off my backpack. Going through
 another gate got us into `Hainault Forest`_ where after a while we got to a
 lake full of "ducks" (where "ducks" means ducks, geese, swans and moor hens).
 
-.. image:: /images/content/loop20-d36_9537.jpg
+.. image:: images/loop20-d36_9537.jpg
    :align: right
 
 Walking around `Fox Burrow Farm`_ we could quite well see that autumn was
@@ -68,7 +68,7 @@ A while later we crossed a fairway of the `Hainault Golf Club`_ where I nearly
 got a golf ball on my head as it went the wrong way straight up into the
 trees.
 
-.. image:: /images/content/loop20-d36_9551.jpg
+.. image:: images/loop20-d36_9551.jpg
    :align: left
 
 We escaped the golf club through a stretch of wood, the Mile 
@@ -108,7 +108,7 @@ lot and some kept hidden in the undergrowth even when we were nearly on top of
 them. The view from the summit was great, but there were more horses following
 us. Nobody got electrocuted this time though.
 
-.. image:: /images/content/loop21-d36_9592.jpg
+.. image:: images/loop21-d36_9592.jpg
 
 We hit more brambles and stingy nettles, and walked around a corn field that
 we apparently should have gone through. We passed by some woods, but then also

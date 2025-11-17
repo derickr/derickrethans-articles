@@ -100,7 +100,7 @@ If the ``responseStatus`` is 200, then it worked and
 A screenshot shows the translation feature of Haunt_ in
 action:
 
-.. image:: /images/content/haunt.gif
+.. image:: images/haunt.gif
 
 You can find the implementation here_. Haunt also has a `project page`_.
 

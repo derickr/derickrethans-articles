@@ -43,18 +43,18 @@ Some months ago I did a twitter poll, where very few people were indicating
 that they were using HHVM—and even if they were, they would likely not choose
 to switch to HHVM given the current climate.
 
-.. image:: /images/content/hhvm-poll.png
+.. image:: images/hhvm-poll.png
    :title: Twitter HHVM Poll
 
 Some of the feedback on the poll was not very assuring either:
 
-.. image:: /images/content/craig.png
+.. image:: images/craig.png
    :title: https://twitter.com/craigmayhew/status/822214176059887621
 
-.. image:: /images/content/theo.png
+.. image:: images/theo.png
    :title: https://twitter.com/tfidry/status/822359593548292096
 
-.. image:: /images/content/doublecompile.png
+.. image:: images/doublecompile.png
    :title: https://twitter.com/doublecompile/status/822091880955596800
 
 With few users, frequent API breaks, and `curious bugs`_ we came to the

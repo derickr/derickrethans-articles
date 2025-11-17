@@ -19,7 +19,7 @@ Just after leaving Upminster Bridge station, we encountered a rather bizarre
 situation: an HGV lodged_ in a florist. Apparently it had clipped the bridge,
 and then went straight into the building. How rude.
 
-.. image:: /images/content/loop23-d36_9720.jpg
+.. image:: images/loop23-d36_9720.jpg
    :align: left
 
 Shortly after, we passed the Windmill pub, but only saw the `Upminster
@@ -33,7 +33,7 @@ Hornchurch`_. It was a fairly pleasant and level walk. One of the stranger
 features was the `Ingrebourne Hill Bike Park`_ however, when you can try out
 some mountain biking!
 
-.. image:: /images/content/loop23-d36_9738.jpg
+.. image:: images/loop23-d36_9738.jpg
    :align: right
 
 At the bottom of the park, we had to cross the busy A1306, but a new
@@ -68,7 +68,7 @@ misleading too. I have reported the mismatched signing, and I actually hope
 they redirect the LOOP through the Marshes instead of around factories and a
 land fill! 
 
-.. image:: /images/content/loop24-d36_9761.jpg
+.. image:: images/loop24-d36_9761.jpg
    :align: right
 
 Taking the mapped route did get us to the Thames quite soon though. Here we
@@ -77,7 +77,7 @@ factory we stumbled upon a dozen concrete barges, originally part of a
 `Mulberry Harbour`_ used in the D-Day landings of the second World War. We
 also spotted `The Diver`_, an artwork by John Kaufman.
 
-.. image:: /images/content/loop24-d36_9796.jpg
+.. image:: images/loop24-d36_9796.jpg
    :align: left
 
 The rest of the walk around the landfill area was kinda tedious, but easy
@@ -100,7 +100,7 @@ accomplished!
 .. _`Rainham Marshes`: http://www.rspb.org.uk/discoverandenjoynature/seenature/reserves/guide/r/rainhammarshes/
 .. _`visitor's centre`: http://www.rspb.org.uk/discoverandenjoynature/seenature/reserves/guide/r/rainhammarshes/cafe.aspx
 
-.. image:: /images/content/loop24-d36_9803.jpg
+.. image:: images/loop24-d36_9803.jpg
 
 We took 3½ hours for the last 18km. The weather was really chilly at around
 17°C. It got greyer and greyer but we managed not to get rained upon *until*

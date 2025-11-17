@@ -107,16 +107,16 @@ CPU instructions, for profiling by about 40%.
 I will continue to work on improving performance in September, but here are
 some graphs:
 
-.. image:: /images/content/2020-07-improvements-instructions.png
+.. image:: images/2020-07-improvements-instructions.png
 
-.. image:: /images/content/2020-07-improvements-wall-time.png
+.. image:: images/2020-07-improvements-wall-time.png
 
 You might notice that the Xdebug 2.9.6 data is off the chart, here are they
 with Xdebug 2.9.6 included ;-)
 
-.. image:: /images/content/2020-07-improvements-instructions-296.png
+.. image:: images/2020-07-improvements-instructions-296.png
 
-.. image:: /images/content/2020-07-improvements-wall-time-296.png
+.. image:: images/2020-07-improvements-wall-time-296.png
 
 
 Xdebug Cloud

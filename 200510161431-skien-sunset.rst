@@ -6,7 +6,7 @@ Skien Sunset
    :Date: 20051016 1431 CEST
    :Tags: photography
 
-.. image:: /images/content/astronomy/sunset.png
+.. image:: images/astronomy/sunset.png
    :align: center
 
 

@@ -32,13 +32,13 @@ horses, allotments and some stinky cows. The paths were easy going, with some
 gravel and some fields. This unfortunately all changed once we got to our
 first forest.
 
-.. image:: /images/content/loop13-20140511_134826a.jpg
+.. image:: images/loop13-20140511_134826a.jpg
 
 From this point on there was a lot of mud, sometimes half a foot deep. There
 were a lot of grumps and it was very slow going. I guess we should have known
 better after so much rain the past week.
 
-.. image:: /images/content/loop13-20140511_141147a.jpg
+.. image:: images/loop13-20140511_141147a.jpg
    :align: right
 
 There were plenty of nice parts of the walk as well, with fields and meadows.
@@ -50,7 +50,7 @@ towards the end of section 13.
 Section 14
 ----------
 
-.. image:: /images/content/loop14-20140511_141938.jpg
+.. image:: images/loop14-20140511_141938.jpg
    :align: left
 
 Section 14 started by going over `Sandy Lodge golf club`_ where we had to avoid
@@ -59,7 +59,7 @@ field full of buttercups. The LOOP continued through a few streets and back
 into the woods, Oxhey Woods. But it could also have been named for Oxhey Mud
 Bath. It was not as tough going as in section 13, but it was certainly no fun.
 
-.. image:: /images/content/loop14-20140511_175839a.jpg
+.. image:: images/loop14-20140511_175839a.jpg
    :align: right
 
 After a while we crossed another field, and continued walking along some

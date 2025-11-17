@@ -6,7 +6,7 @@ Hydrostrand
    :Date: 20040531 1408 CEST
    :Tags: work, nature
 
-.. image:: /images/content/hydrostrand.jpg
+.. image:: images/hydrostrand.jpg
    :align: center
 
 In this longer weekend I was invited to join Bård and Alexander at a cabin close to the sea.

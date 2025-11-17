@@ -72,7 +72,7 @@ protocol`_. You can find a "teaser GIF" below:
 .. _documentation: https://xdebug.org/docs/debugclient
 .. _`DBGp protocol`: https://xdebug.org/docs/dbgp
 
-.. image:: /images/content/debugclient.gif
+.. image:: images/debugclient.gif
 
 Business Supporter Scheme and Funding
 -------------------------------------

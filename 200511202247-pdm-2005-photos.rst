@@ -6,7 +6,7 @@ PDM 2005 photos
    :Date: 20051120 2247 CET
    :Tags: conference, photography, php, travel
 
-.. image:: /images/content/eiffel.png
+.. image:: images/eiffel.png
    :align: left
 
 Last
@@ -15,7 +15,7 @@ weekend we had a PHP developers meeting in Paris to discuss PHP 6.
 some of the sights. Together with `Marcus`_ , `Andrei`_ and Jani we toured the famous
 landmarks in Paris. On the left you can see `the Eiffel Tour`_ and below the `Arc de Triomphe`_ .
 
-.. image:: /images/content/arc-de-triomphe.png
+.. image:: images/arc-de-triomphe.png
    :align: center
 
 The other pictures can be found in my `gallery`_ .

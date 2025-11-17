@@ -6,7 +6,7 @@ London Conference
    :Date: 20060215 1021 CET
    :Tags: cms, conference, php, travel, work
 
-.. image:: /images/content/london-ghost.jpg
+.. image:: images/london-ghost.jpg
    :align: center
 
 Last Friday I spoke at the `PHP UK Conference`_ in London on the `eZ components`_ .

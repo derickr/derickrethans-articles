@@ -6,7 +6,7 @@ PHP on OpenMoko
    :Date: 20080831 1204 CEST
    :Tags: linux, php
 
-.. image:: /images/content/openmoko.png
+.. image:: images/openmoko.png
    :align: left
 
 Last
@@ -42,7 +42,7 @@ installed):
 	./configure --host=arm-angstrom-linux-gnueabi
 	make
 
-.. image:: /images/content/countdown.png
+.. image:: images/countdown.png
    :align: right
 
 From

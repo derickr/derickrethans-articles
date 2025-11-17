@@ -66,7 +66,7 @@ that commercial entities state. An except from MapMaker's reads:
 Note that it never mentions that you can do anything with the data
 yourself…
 
-.. image:: /images/content/stamen-hydepark.jpg
+.. image:: images/stamen-hydepark.jpg
    :align: left
 
 If you are contributing time and knowledge, why not allow yourself to

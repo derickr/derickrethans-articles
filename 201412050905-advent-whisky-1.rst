@@ -10,10 +10,10 @@ Whisky Advent: part 1
 December 1st: Glenrothes 9, by Douglas (Sherry Butt)
 ----------------------------------------------------
 
-.. image:: /images/content/whisky/day1-glass.jpg
+.. image:: images/whisky/day1-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day1-label.jpg
+.. image:: images/whisky/day1-label.jpg
    :align: left
 
 The first whisky on the calendar is a 9 year old Glenrothes_, bottled by
@@ -35,10 +35,10 @@ specific expressions of this remarkable spirit."
 December 2nd: GlenGrant 170th anniversary
 -----------------------------------------
 
-.. image:: /images/content/whisky/day2-glass.jpg
+.. image:: images/whisky/day2-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day2-label.jpg
+.. image:: images/whisky/day2-label.jpg
    :align: left
 
 Tonight's dram is a GlenGrant_ `170th anniversary`_, bottled to commemorate
@@ -55,10 +55,10 @@ smoke. Actually, a very long sherry flavoured finish.
 December 3rd: Benromach 2001 Cask Strength
 ------------------------------------------
 
-.. image:: /images/content/whisky/day3-glass.jpg
+.. image:: images/whisky/day3-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day3-label.jpg
+.. image:: images/whisky/day3-label.jpg
    :align: left
 
 Tonight we have a dram from Benromach_, a distillery that I actually visited as
@@ -78,10 +78,10 @@ two of water.
 December 4th: Arran Single Cask Sherry
 --------------------------------------
 
-.. image:: /images/content/whisky/day4-glass.jpg
+.. image:: images/whisky/day4-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day4-label.jpg
+.. image:: images/whisky/day4-label.jpg
    :align: left
 
 A single cask whisky from Arran_ distillery aged in Sherry Casks. It is 16

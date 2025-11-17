@@ -88,7 +88,7 @@ and then include a JavaScript file that is responsible for embedding them map::
 If you request the ``index.html`` page now through the browser, you will see
 something like:
 
-.. image:: /images/content/address-1.jpg
+.. image:: images/address-1.jpg
 
 **Adding the Address Search**
 
@@ -125,7 +125,7 @@ To style this, we add the following at the end of our CSS file::
 
 If we reload the page in our browser, we will see something like:
 
-.. image:: /images/content/address-2.jpg
+.. image:: images/address-2.jpg
 
 Now the only thing left to do is to implement the ``addr_search`` function. In
 our JS file (``js/map.js``) we add before ``window.onload = load_map;`` the
@@ -197,11 +197,11 @@ in better, but I will leave that for your own experiments - you'd want the
 In the end, if we click on the ``Search`` button, a list is presented of all
 our search results:
 
-.. image:: /images/content/address-3.jpg
+.. image:: images/address-3.jpg
 
 And after clicking one of the links, we see the map centered on Paris:
 
-.. image:: /images/content/address-4.jpg
+.. image:: images/address-4.jpg
 
 The code for this example is available on github in my ``osm-tools``
 repository at

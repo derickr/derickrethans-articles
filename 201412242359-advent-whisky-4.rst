@@ -10,10 +10,10 @@ Whisky Advent: part 4
 December 19th: GlenDronach Parliament 21
 ----------------------------------------
 
-.. image:: /images/content/whisky/day19-glass.jpg
+.. image:: images/whisky/day19-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day19-label.jpg
+.. image:: images/whisky/day19-label.jpg
    :align: left
 
 This is another bottle that I got given as a gift for Xdebug_. It is a 21 year
@@ -34,10 +34,10 @@ really help.
 December 20th: Springbank 15
 ----------------------------
 
-.. image:: /images/content/whisky/day20-glass.jpg
+.. image:: images/whisky/day20-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day20-label.jpg
+.. image:: images/whisky/day20-label.jpg
    :align: left
 
 Tonight we have a `Springbank 15`_, bought as a set of minatures from
@@ -63,10 +63,10 @@ Well balanced.
 December 21th: Cradle Mountain from Cadenhead
 ---------------------------------------------
 
-.. image:: /images/content/whisky/day21-glass.jpg
+.. image:: images/whisky/day21-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day21-label.jpg
+.. image:: images/whisky/day21-label.jpg
    :align: left
 
 Another unusual whisky. Tonight's `Cradle Mountain 15`_ is distilled by 
@@ -89,10 +89,10 @@ with tropical fruits.
 December 22nd: Highland Harvest Organic Batch 003
 -------------------------------------------------
 
-.. image:: /images/content/whisky/day22-glass.jpg
+.. image:: images/whisky/day22-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day22-label.jpg
+.. image:: images/whisky/day22-label.jpg
    :align: left
 
 A bottle that I got as a birthday gift, which is fitting as today is my
@@ -114,10 +114,10 @@ a cocktail whisky.
 December 23nd: The English Whisky 2010 - Chapter 9
 --------------------------------------------------
 
-.. image:: /images/content/whisky/day23-glass.jpg
+.. image:: images/whisky/day23-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day23-label.jpg
+.. image:: images/whisky/day23-label.jpg
    :align: left
 
 Tonight's whisky is a dram from `The English Whisky Company`_. Yes, a
@@ -138,10 +138,10 @@ it's rather sharp, but there are hints of citrus and pepper.
 December 24nd: Glenmorangie Quarter Century
 -------------------------------------------
 
-.. image:: /images/content/whisky/day24-glass.jpg
+.. image:: images/whisky/day24-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day24-label.jpg
+.. image:: images/whisky/day24-label.jpg
    :align: left
 
 This is the most expensive whisky in my collection, but I don't think it is

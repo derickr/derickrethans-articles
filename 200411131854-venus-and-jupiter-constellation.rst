@@ -6,7 +6,7 @@ Venus and Jupiter constellation
    :Date: 20041113 1854 CEST
    :Tags: photography
 
-.. image:: /images/content/venusandjupiter.jpg
+.. image:: images/venusandjupiter.jpg
    :align: center
 
 Unfortunately I could not make an image with the Moon and Mars in

@@ -6,7 +6,7 @@ eZ components for x-mas
    :Date: 20051224 1737 CET
    :Tags: cms, php, work
 
-.. image:: /images/content/ezcomponents.png
+.. image:: images/ezcomponents.png
    :align: left
 
 After four works of hard work

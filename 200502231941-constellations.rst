@@ -6,14 +6,14 @@ Constellations
    :Date: 20050223 1941 CET
    :Tags: photography
 
-.. image:: /images/content/moon3.png
+.. image:: images/moon3.png
    :align: center
    :target: http://photos.derickrethans.nl/moon/aaq
 
 During the weekend I made another trip to the coast near Langesund. Although the `Moon`_ was pretty bright, I did make some panoramic
 photos of the `skies`_ .
 
-.. image:: /images/content/north.jpg
+.. image:: images/north.jpg
    :align: center
    :target: http://photos.derickrethans.nl/constellations/aag
 

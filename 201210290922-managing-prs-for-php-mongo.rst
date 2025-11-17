@@ -48,7 +48,7 @@ and rebases it against master. This allows us to test whether the PR cleanly
 applies to the latest code in master. Without the rebasing, the commit history
 would also look really complex as this figure shows:
 
-.. image:: /images/content/git-branch-mess.png
+.. image:: images/git-branch-mess.png
 
 When all review comments are resolved, the code compiles and the test cases
 succeed, it is time to merge the patch. For this, I am using another small
@@ -66,13 +66,13 @@ Because we already have rebased against the latest master branch when running
 ``mongoprfetch 206``, a merge would mean that we lose the ability to see
 which commits belonged to the PR - as Git would simply use "fast forward":
 
-.. image:: /images/content/git-branch-flat.png
+.. image:: images/git-branch-flat.png
 
 We find this undesirable and hence we specify the ``--no-ff`` option to
 ``git merge`` as you can see in the ``mongoprmerge`` function. This produces
 histories that look like:
 
-.. image:: /images/content/git-branch-rebase-no-ff.png
+.. image:: images/git-branch-rebase-no-ff.png
 
 The only thing that we have not automated as part of merging pull requests is
 closing the associated Jira tickets as well. 

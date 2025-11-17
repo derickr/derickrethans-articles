@@ -7,7 +7,7 @@ Analemmas
    :Tags: blog, php, datetime
    :Short: analemma
 
-.. image:: /images/content/analemma.jpg
+.. image:: images/analemma.jpg
    :align: right
 
 Last week I listened to an episode_ of `The Sceptics' Guide to the Universe`_
@@ -139,7 +139,7 @@ With this script, we can then draw the analemma::
 
 The result:
 
-.. image:: /images/content/london-analemma.png
+.. image:: images/london-analemma.png
 
 **Credits**
 

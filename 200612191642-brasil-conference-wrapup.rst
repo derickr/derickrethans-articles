@@ -11,7 +11,7 @@ extra days as holiday there.
 
 During those extra days I flew to Foz do Iguaçu to have a look at the `Itaipu dam`_ on the border with Paraguay and `Iguaçu falls`_ .
 
-.. image:: /images/content/iguacu.png
+.. image:: images/iguacu.png
    :align: center
 
 Besides the falls there are many other things to see in the park, such

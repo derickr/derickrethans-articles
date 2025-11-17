@@ -6,7 +6,7 @@ Dark Side of the Moon
    :Date: 20050211 1957 CET
    :Tags: photography
 
-.. image:: /images/content/darksideofthemoon.png
+.. image:: images/darksideofthemoon.png
    :align: center
 
 I tried to make a photo of the light side - but because of it's current phase that didn't create enough

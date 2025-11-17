@@ -68,7 +68,7 @@ last day of a month. The following example demonstrates this::
 
 This outputs ``February 28th, 2010``. Internally the following happens:
 
-.. image:: /images/content/datebook-cover.jpg
+.. image:: images/datebook-cover.jpg
    :align: right
    :target: http://tinyurl.com/phpdatebookuk
 

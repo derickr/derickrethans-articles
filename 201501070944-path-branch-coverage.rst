@@ -108,7 +108,7 @@ with `GraphViz'`_ ``dot`` tool::
 
 And then this graph looks like:
 
-.. image:: /images/content/paths.png
+.. image:: images/paths.png
 
 With the functionaly added to VLD_, the next step was adding this code to
 Xdebug. Xdebug needs to know about all the paths, but also need figure out
@@ -147,13 +147,13 @@ like above::
 
 And then this graph looks like:
 
-.. image:: /images/content/paths-covered.png
+.. image:: images/paths-covered.png
 
 This clearly shows we have only covered two of the four possible paths through
 this particular function. PHP_CodeCoverage_ has not been updated yet to
 include this new functionality, so I made a mock-up in the mean while:
 
-.. image:: /images/content/paths-covered-mockup.png
+.. image:: images/paths-covered-mockup.png
 
 Now it's just waiting until Sebastian_ (or somebody else) has time to upgrade
 PHP_CodeCoverage_ to show the branch and path coverage. Happy hacking!

@@ -174,7 +174,7 @@ depends on the latitude of the location. So first we need to calculate the
 latitude boundaries as we have done above, and with that information calculate
 the longitude boundaries.
 
-.. image:: /images/content/sphere-distance.png
+.. image:: images/sphere-distance.png
 
 In the first step (red), we calculate the northern and southern boundaries of
 the circle. We then calculate the western and eastern boundaries for the

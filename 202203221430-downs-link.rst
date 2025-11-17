@@ -126,7 +126,7 @@ the horizon and the path once again deviated from the original railway. From
 here on towards the end there was very little to see of it, and instead the
 Downs Link started following the river Adur into Shoreham-on-Sea.
 
-.. image:: /images/content/bramber-reroute.jpg
+.. image:: images/bramber-reroute.jpg
    :title: Detour
    :align: left
 

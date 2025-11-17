@@ -6,7 +6,7 @@ Partial Solar Eclipse 3 October 2005
    :Date: 20051004 1037 CEST
    :Tags: nature, photography
 
-.. image:: /images/content/solformoerkelse.png
+.. image:: images/solformoerkelse.png
    :align: center
 
 Today we had `annular solar eclipse`_ which was unfortunately not visible from my

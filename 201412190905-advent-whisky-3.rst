@@ -10,10 +10,10 @@ Whisky Advent: part 3
 December 12th: Auchentoshan American Oak
 ----------------------------------------
 
-.. image:: /images/content/whisky/day12-glass.jpg
+.. image:: images/whisky/day12-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day12-label.jpg
+.. image:: images/whisky/day12-label.jpg
    :align: left
 
 Tonight's dram is an `Auchentoshan American Oak`_. It's from a bottle that I
@@ -40,10 +40,10 @@ woody). Does not compare well to the `Three Wood`_.
 December 13th: Cadenhead's Glen Moray 21 year old
 -------------------------------------------------
 
-.. image:: /images/content/whisky/day13-glass.jpg
+.. image:: images/whisky/day13-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day13-label.jpg
+.. image:: images/whisky/day13-label.jpg
    :align: left
 
 Another dram from Cadenhead's. It is a 21 year old whisky, distilled in 1992.
@@ -64,10 +64,10 @@ what to make of it really.
 December 14th: Single Cask Aberlour 22 years old
 ------------------------------------------------
 
-.. image:: /images/content/whisky/day14-glass.jpg
+.. image:: images/whisky/day14-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day14-label.jpg
+.. image:: images/whisky/day14-label.jpg
    :align: left
 
 I recently found the Whiskybase_ online, and noticed its extensive list of
@@ -95,10 +95,10 @@ toffee.
 December 15th: Mortlach Càrn Mòr Strictly Limited
 -------------------------------------------------
 
-.. image:: /images/content/whisky/day15-glass.jpg
+.. image:: images/whisky/day15-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day15-label.jpg
+.. image:: images/whisky/day15-label.jpg
    :align: left
 
 Tonight's dram is a whisky from the Mortlach_ distillery. Another whisky that
@@ -123,10 +123,10 @@ flavours come out more.
 December 16th: Millstone 1999 from Milroy's
 -------------------------------------------
 
-.. image:: /images/content/whisky/day16-glass.jpg
+.. image:: images/whisky/day16-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day16-label.jpg
+.. image:: images/whisky/day16-label.jpg
    :align: left
 
 The first non Scottish whisky in this calendar. Tonight we have a Dutch
@@ -146,10 +146,10 @@ finish is a bit oily and has a hint of oak and cherries.
 December 17th: Yamazaki 18
 --------------------------
 
-.. image:: /images/content/whisky/day17-glass.jpg
+.. image:: images/whisky/day17-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day17-label.jpg
+.. image:: images/whisky/day17-label.jpg
    :align: left
 
 This `Yamazaki 18`_ from Suntory_ distillery is another non-Scottish whisky.
@@ -173,10 +173,10 @@ the aftertaste that lingers quite a bit.
 December 18th: Imperial 1994
 ----------------------------
 
-.. image:: /images/content/whisky/day18-glass.jpg
+.. image:: images/whisky/day18-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day18-label.jpg
+.. image:: images/whisky/day18-label.jpg
    :align: left
 
 This `Imperial 1994`_ is bottled by `Gordon & MacPhail`_ as part of their

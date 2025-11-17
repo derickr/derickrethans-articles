@@ -64,7 +64,7 @@ available for Chrome, Firefox, and other browsers.
 
 I click on the debug icon and then on trace:
 
-.. image:: /images/content/browser-ext.png
+.. image:: images/browser-ext.png
 
 After requesting the home page, and documentation page, Xdebug's tracer
 created the following files in the ``/tmp`` directory::
@@ -113,7 +113,7 @@ output needs to be redirected to a file. On one line, we enter::
 
 You can now open this SVG file you can then open in a browser.
 
-.. image:: /images/content/flamegraph-docs.png
+.. image:: images/flamegraph-docs.png
 
 The stack shows how deep the code goes, and interestingly, for most of it,
 you'll see that a lot of time is taken up by Composer, as well as requiring
@@ -122,7 +122,7 @@ other files.
 You can dive in by clicking on specific bits. For example, I'll click on
 my template default controller:
 
-.. image:: /images/content/flamegraph-docs2.png
+.. image:: images/flamegraph-docs2.png
 
 
 You can reset the zoom in the top left.

@@ -10,7 +10,7 @@ well deserved vacation. I will add a detailed travel report to my site later
 this month. But now on to the more important things, the review of the holiwodization
 of "The Sum of all Fears".
 
-.. image:: images/content/saf.jpg
+.. image:: images/saf.jpg
 
 "SUM" is a novel by Tom Clancy, written a little over a decade ago. It's part
 of the phenomenal Jack Ryan series and is settled after "The Cardinal of the 

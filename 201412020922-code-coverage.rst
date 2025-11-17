@@ -201,7 +201,7 @@ If we were to use `PHP CodeCoverage`_ instead, the runner script
 
 Which outputs:
 
-.. image:: /images/content/code-coverage-current.png
+.. image:: images/code-coverage-current.png
 
 Lines ``6`` and ``7`` have not been executed, because we didn't pass in the
 variable ``$a``. Line ``13`` has not been executed because the code never

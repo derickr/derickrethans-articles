@@ -6,10 +6,10 @@ Moon and Jupiter conjunction
    :Date: 20050423 1059 EEST
    :Tags: photography
 
-.. image:: /images/content/astronomy/moon-and-jupiter.png
+.. image:: images/astronomy/moon-and-jupiter.png
    :align: center
 
-.. image:: /images/content/astronomy/moon-almost-full.png
+.. image:: images/astronomy/moon-almost-full.png
    :align: center
 
 When walking back from the restaurant where we've eaten on Friday night

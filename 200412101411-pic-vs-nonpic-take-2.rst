@@ -16,7 +16,7 @@ tested three different applications, a Hello World script (which
 doesn't print "Hello World", the homepage of a phpMyAdmin
 installation and three different configurations of `eZ publish`_ .
 
-.. image:: /images/content/pic.png
+.. image:: images/pic.png
    :align: center
 
 The "Hello World" application shows the largest performance

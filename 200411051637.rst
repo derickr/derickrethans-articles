@@ -4,7 +4,7 @@ PHP 5 Power Programming
 .. articleMetaData::
    :Where: Skien, Norway
 
-.. image:: images/content/p5pp.jpg
+.. image:: images/p5pp.jpg
 
 Finally the book is out, after about a year of hard work writing, and a couple
 of months revision the manuscript `PHP 5 Power Programming`_ is finally

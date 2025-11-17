@@ -20,19 +20,19 @@ I've run the tool on a few programs I've been involved with, and added
 some music track to the movies. Here are the results (click on each
 image to see the movie):
 
-.. image:: /images/content/cs-php.png
+.. image:: images/cs-php.png
    :align: center
    :target: http://schlitt.info/misc/php.mpg
 
 PHP
 
-.. image:: /images/content/cs-ezp.png
+.. image:: images/cs-ezp.png
    :align: center
    :target: http://schlitt.info/misc/ezp.mpg
 
 eZ Publish
 
-.. image:: /images/content/cs-ezc.png
+.. image:: images/cs-ezc.png
    :align: center
    :target: http://schlitt.info/misc/ezc.mpg
 

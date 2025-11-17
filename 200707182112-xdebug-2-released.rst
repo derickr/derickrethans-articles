@@ -6,7 +6,7 @@ Xdebug 2 released
    :Date: 20070718 2112 CEST
    :Tags: blog, php, work, xdebug
 
-.. image:: /images/content/xdebug2.png
+.. image:: images/xdebug2.png
    :align: center
 
 After almost four years of work, Xdebug 2 is finally ready. With

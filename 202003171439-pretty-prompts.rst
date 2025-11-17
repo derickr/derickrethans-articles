@@ -10,7 +10,7 @@ Pretty Prompts
 When giving recently, I got a question about my terminal prompt. Besides the
 standard ``user@host:path`` I show a whole bunch of other information too:
 
-.. image:: /images/content/pretty-prompts.png
+.. image:: images/pretty-prompts.png
 
 The first part is the GIT status and git branch. The colour indicates the
 state of the branch. Red means changes to files, yellow means untracked files,

@@ -8,7 +8,7 @@ I'm not alone!
 
 Apparently somebody at CNN doesn't like the guy either...
 
-.. image:: /images/content/bush.jpg
+.. image:: images/bush.jpg
    :align: center
    :target: http://photos.derickrethans.nl/fun/aay?full=1
 

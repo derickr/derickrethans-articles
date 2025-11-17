@@ -105,7 +105,7 @@ which displays (after formatting)::
 
 Graphically, it looks like:
 
-.. image:: /images/content/gc-part1-figure1.png
+.. image:: images/gc-part1-figure1.png
 
 You can see the three zval containers here: "a", "meaning" and "number".
 Similar rules apply for increasing and decreasing "refcounts". Below we add
@@ -126,7 +126,7 @@ which displays (after formatting)::
 
 Graphically, it looks like:
 
-.. image:: /images/content/gc-part1-figure2.png
+.. image:: images/gc-part1-figure2.png
 
 From the above Xdebug output,we see that both the old and new array elements
 now point to a zval container whose "refcount" is "2".  Although Xdebug's
@@ -169,7 +169,7 @@ which displays (after formatting)::
 
 Graphically, it looks like:
 
-.. image:: /images/content/gc-part1-figure3.png
+.. image:: images/gc-part1-figure3.png
 
 You can see that the array variable ("a") as well as the second element ("1")
 now point to a variable container that has a "refcount" of "2". The "..." in
@@ -189,7 +189,7 @@ from "2" to "1". This can be represented like::
 
 Graphically, it looks like:
 
-.. image:: /images/content/gc-part1-figure4.png
+.. image:: images/gc-part1-figure4.png
 
 Although there is no symbol in any scope pointing to this structure anymore,
 it can not be cleaned up either because the array element "1" still points to

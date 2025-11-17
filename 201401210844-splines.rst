@@ -19,12 +19,12 @@ specific events so I needed a different method to rotate the Earth.
 
 I started out with finding events and created two paths for them:
 
-.. image:: /images/content/path2.png
+.. image:: images/path2.png
 
 This one starts in Greenland, moves towards Brazil and then heads over Russia,
 India, the Philippines and ends in Indonesia.
 
-.. image:: /images/content/path1.png
+.. image:: images/path1.png
 
 The second one starts in Korea, moves through Africa, heads towards Antarctica
 and then heads back to France over Brazil. 
@@ -88,7 +88,7 @@ level are much smoother:
 Just focussing on the zoom aspect, I am also reproducing a line graph of the
 interpolated points here:
 
-.. image:: /images/content/spline.png
+.. image:: images/spline.png
 
 As you can see, between 1172 and 1328 it makes a very big dip—and that wrecked
 with my video as it zoomed in too much. I've fixed that manually for the

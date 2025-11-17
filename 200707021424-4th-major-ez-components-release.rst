@@ -6,7 +6,7 @@
    :Date: 20070702 1424 CEST
    :Tags: blog, cms, php, work
 
-.. image:: /images/content/ezc-2007.1.png
+.. image:: images/ezc-2007.1.png
    :align: center
 
 Earlier today we, the `eZ Components`_ development team, put out our fourth major release.

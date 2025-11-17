@@ -29,7 +29,7 @@ pretty good at coming up with excuses to not go running: *oh, it rains*, *oh,
 it is cold* (always works in Norway!), or *oh, I got out of bed too late*. One
 thing I did manage to do back in 2007, was actually buying running trainers!
 
-.. image:: /images/content/pebble-c25k.jpg
+.. image:: images/pebble-c25k.jpg
    :align: left
 
 Eight years later, I picked up these same running trainers. But I also needed
@@ -61,7 +61,7 @@ with about 500 people showing up. Excellent for novice and experienced
 runners alike. I set myself a goal for completing this race within an hour. I
 managed to cross the finish line in 59m13s. Great success!
 
-.. image:: /images/content/run-the-river.jpg
+.. image:: images/run-the-river.jpg
    :align: right
 
 Since the first run on a cold January morning, I ran 846km and completed

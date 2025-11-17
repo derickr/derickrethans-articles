@@ -6,7 +6,7 @@
    :Date: 20040620 1225 CEST
    :Tags: php, work
 
-.. image:: /images/content/demo2.jpg
+.. image:: images/demo2.jpg
    :align: center
    :target: http://kwiki.ffii.org/DemoKarlsruhe04En
 

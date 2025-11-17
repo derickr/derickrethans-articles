@@ -11,7 +11,7 @@ Anybody who is vaguely familiar with Xdebug_ probably has seen its glorious
 orange stack traces gracing their screens. In case you have not, they look
 like:
 
-.. image:: /images/content/advent2013-17d.png
+.. image:: images/advent2013-17d.png
 
 In this case, the ``tell_a_lie_and_hurt_you()`` function tried to call
 `strlen()`_ with incorrect arguments.
@@ -23,7 +23,7 @@ possible to trigger stack traces yourself. You can of course use
 ``xdebug_print_function_stack()`` instead of the erroneous ``strlen()``
 results in:
 
-.. image:: /images/content/advent2013-17a.png
+.. image:: images/advent2013-17a.png
 
 As the documentation state, you can also provide your own message::
 
@@ -36,7 +36,7 @@ As the documentation state, you can also provide your own message::
 
 Which then results in:
 
-.. image:: /images/content/advent2013-17b.png
+.. image:: images/advent2013-17b.png
 
 This was all good, and then my friend Rob_ asked: 
 
@@ -59,7 +59,7 @@ now supply a second argument to ``xdebug_print_function_stack()``::
 
 Which then results in a stack trace without header:
 
-.. image:: /images/content/advent2013-17c.png
+.. image:: images/advent2013-17c.png
 
 This new feature will be part of Xdebug 2.3.
 

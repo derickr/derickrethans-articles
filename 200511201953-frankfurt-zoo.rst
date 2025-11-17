@@ -10,20 +10,20 @@ During the conference in `Frankfurt`_ I visited the local
 Zoo with `Ilia`_ and `Sebastian`_ to take some
 pictures.
 
-.. image:: /images/content/lion.png
+.. image:: images/lion.png
    :align: center
 
 Unfortunately most of the animals were inside, and it's quite hard to
 take pictures through think glass. But atleast you can get really close
 up pictures without your head getting torn off.
 
-.. image:: /images/content/reptile.png
+.. image:: images/reptile.png
    :align: center
 
 This shows really well what an aperture of 1.2 does - you can see that
 only a very small amount is in the focus area here.
 
-.. image:: /images/content/leopard.png
+.. image:: images/leopard.png
    :align: center
 
 Outside we found two leopards, one was constantly moving, but this one

@@ -6,7 +6,7 @@ New eZ Components website and logo
    :Date: 20071108 1949 CET
    :Tags: cms, php, work
 
-.. image:: /images/content/logo-indigo-150x91.png
+.. image:: images/logo-indigo-150x91.png
    :align: left
    :target: http://ezcomponents.org
 

@@ -6,7 +6,7 @@ Cancún photos
    :Date: 20050517 1624 CEST
    :Tags: conference, nature, photography, php, travel
 
-.. image:: /images/content/cancun.jpg
+.. image:: images/cancun.jpg
    :align: center
 
 All photos from the `php|tropics`_ are now online `here`_ .

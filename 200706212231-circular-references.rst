@@ -37,7 +37,7 @@ an object:
 
 This creates the following structure in memory:
 
-.. image:: /images/content/circ1.png
+.. image:: images/circ1.png
    :align: center
 
 Now if we proceed to add a new element to the array, that points back to
@@ -51,7 +51,7 @@ the array with:
 
 We create a circular reference like this:
 
-.. image:: /images/content/circ2.png
+.. image:: images/circ2.png
    :align: center
 
 As you can see there are two variable names pointing to the array
@@ -65,7 +65,7 @@ decrease the refcount of the variable container the variable points to,
 in this case the array value. The structure in memory now looks like
 this:
 
-.. image:: /images/content/circ3.png
+.. image:: images/circ3.png
    :align: center
 
 Note that there is no variable pointing to the array container anymore.

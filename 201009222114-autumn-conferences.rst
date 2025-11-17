@@ -6,7 +6,7 @@ Autumn Conferences
    :Date: 2010-09-22 21:14 Europe/London
    :Tags: blog, php, conference, extensions
 
-.. image:: /images/content/map-autumn2010.png
+.. image:: images/map-autumn2010.png
 
 Autumn started yesterday, and that also marks the start of the 2010 autumn
 conference schedule. In the next two and a half months I'll be attending

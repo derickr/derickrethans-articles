@@ -21,11 +21,11 @@ but ITO World now also flagged up St. Johns Gardens. Both segments *were* mapped
 as St. John's Gardens in OpenStreetMap. OS Locator has the street as two
 **different** names. For the  `western segment`_ it has *St John's Gardens*:
 
-.. image:: /images/content/advent2013-16a.png
+.. image:: images/advent2013-16a.png
 
 For the `eastern segment`_ it has *St Johns Gardens*:
 
-.. image:: /images/content/advent2013-16b.png
+.. image:: images/advent2013-16b.png
 
 These images are extracts from another comparison tool between OS Locator and
 OpenStreetMap, called `OS Locator musical chairs`_, made by `Robert Scott`_.
@@ -34,7 +34,7 @@ In any case, after visiting Cowling Close slightly to the west, I came through
 Clarendon Road and there on the corner with St John's Gardens, I spotted the
 following sign:
 
-.. image:: /images/content/advent2013-16c.png
+.. image:: images/advent2013-16c.png
 
 Ah! So I concluded, the name of the street is St John's Gardens, with
 apostrophe.
@@ -42,15 +42,15 @@ apostrophe.
 I continued along the road towards St Johns Church, and on the corner with
 Lansdowne Road I found the following two signs:
 
-.. image:: /images/content/advent2013-16d.png
+.. image:: images/advent2013-16d.png
 
-.. image:: /images/content/advent2013-16e.png
+.. image:: images/advent2013-16e.png
 
 Argh, both without apostrophe! On the north end around the church, on the
 corner with Lansdowne Crescent, there two more signs without apostrophe
 (sorry, one was too blurry to add here):
 
-.. image:: /images/content/advent2013-16f.png
+.. image:: images/advent2013-16f.png
 
 I took another photo on the corner with Ladbroke Grove but didn't pay much
 attention to it and assumed it was without apostrophe as well. So with five
@@ -62,7 +62,7 @@ streets are *St Johns Gardens* and **not** *St John's Gardens*.
 Just now, while writing the article I had a better look at the sign on the
 corner with Ladbroke Grove:
 
-.. image:: /images/content/advent2013-16g.png
+.. image:: images/advent2013-16g.png
 
 And yes, there is indeed an apostrophe… What surprises me most however is that
 it's really up to the council to decide the spelling of street names, and

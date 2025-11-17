@@ -9,7 +9,7 @@ Singapore, Bangkok and Bintan
 In the last week of November and the first week of December I had my
 holiday, which I choose to spend in South East Asia.
 
-.. image:: /images/content/asia2005/dsc_6427.jpg
+.. image:: images/asia2005/dsc_6427.jpg
    :align: left
 
 The first stop
@@ -21,7 +21,7 @@ loud lightning strike - that was an excellent start.
 
 Singapore is a very `modern and western`_ city, albeit it has a lot of eastern influences.
 
-.. image:: /images/content/asia2005/dsc_6458.jpg
+.. image:: images/asia2005/dsc_6458.jpg
    :align: right
 
 Not only from
@@ -33,7 +33,7 @@ dedicated areas. There is Little India and of course China Town.
 Interestingly enough, the largest hindoe temple (to the right) is in
 China Town :).
 
-.. image:: /images/content/asia2005/dsc_6523.jpg
+.. image:: images/asia2005/dsc_6523.jpg
    :align: center
 
 When `Stamford Raffles`_ reached Singapore in the early 1800s he did not find a
@@ -42,7 +42,7 @@ rain forest. There is still some of it left, in the northern part of the
 country, in a nature reserve called `Bukit Timah`_ where monkeys still roam freely (although they also pester
 you near the entrance of the park).
 
-.. image:: /images/content/asia2005/dsc_6576.jpg
+.. image:: images/asia2005/dsc_6576.jpg
    :align: left
 
 From Singapore we made a
@@ -63,7 +63,7 @@ different temples (wat in Thai). As I like photography, all those
 temples are a nice subject to take shots of. At your left you find the
 46 meter long reclining buddha at `Wat Pho`_ .
 
-.. image:: /images/content/asia2005/dsc_6616.jpg
+.. image:: images/asia2005/dsc_6616.jpg
    :align: right
 
 Above is one of the decorations around the building housing the emerald
@@ -71,7 +71,7 @@ buddha at `Wat Phra Kaew`_ . This temple lies on the Grand Palace premises, whic
 houses a lot of other templates and the some buildings used for
 royalty.
 
-.. image:: /images/content/asia2005/dsc_6689.jpg
+.. image:: images/asia2005/dsc_6689.jpg
    :align: left
 
 We visited the day before
@@ -89,7 +89,7 @@ to spend some annoying time at the Indonesian embassy in Singapore. We
 managed to retrieve our passport with the visa just in time before
 going to Thailand so we were all set to go.
 
-.. image:: /images/content/asia2005/dsc_6766.jpg
+.. image:: images/asia2005/dsc_6766.jpg
    :align: center
 
 `Bintan`_ is a small
@@ -102,7 +102,7 @@ was the nice beach on which our shacks were located. We were the only
 tourists there and it was very nice and quiet to relax on for a whole
 day.
 
-.. image:: /images/content/asia2005/dsc_6874.jpg
+.. image:: images/asia2005/dsc_6874.jpg
    :align: right
 
 On the second day of our

@@ -6,7 +6,7 @@ More Moon pictures
    :Date: 20050618 0119 CEST
    :Tags: nature, photography
 
-.. image:: /images/content/astronomy/moon-2005-06-18.png
+.. image:: images/astronomy/moon-2005-06-18.png
    :align: center
 
 I finally managed to make some moderately sharp image of the Moon with

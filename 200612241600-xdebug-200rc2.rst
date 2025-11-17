@@ -6,7 +6,7 @@ Xdebug 2.0.0RC2
    :Date: 20061224 1600 CET
    :Tags: php, xdebug
 
-.. image:: /images/content/xdebug_logo.png
+.. image:: images/xdebug_logo.png
    :align: left
 
 This
@@ -19,9 +19,9 @@ instead shows only the file name, and the type of argument. If you hover
 your mouse of the items the full path and full variables' contents
 appear.
 
-.. image:: /images/content/stacktrace3b-thumb.png
+.. image:: images/stacktrace3b-thumb.png
    :align: left
-   :target: /images/content/stacktrace3b.png
+   :target: images/stacktrace3b.png
 
 (Click to see the full version)
 

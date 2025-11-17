@@ -12,7 +12,7 @@ PHP Applications (at `PFCongres`_), but mostly about MongoDB_ at various (PHP)
 user groups in the South West of the US. 10gen_ (the makers of MongoDB_ and my
 employers) covered my time and flight, and provided me with some beer money.
 
-.. image:: /images/content/mongodb-logo.png
+.. image:: images/mongodb-logo.png
    :align: left
 
 The tour concept started a few months ago when `Ligaya Turmelle`_ suggested
@@ -67,7 +67,7 @@ Chris and I discussed on the way from Atlanta, but also lots of other things
 (it was the booze talking afterall). The total recording time stands at two and
 a half hours, so let's see what Cal comes up with editting wise.
 
-.. image:: /images/content/d35_0468b.jpg
+.. image:: images/d35_0468b.jpg
    :align: right
 
 Cal left for Code Works 2012 on Monday moring so I was being chaperoned by Luke

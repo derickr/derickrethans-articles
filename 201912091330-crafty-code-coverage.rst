@@ -73,7 +73,7 @@ This cut down the time to run the test suite with code coverage for the
 `Document package`_ to **1.21** minutes. About 2½ times faster as Xdebug 2.7 and
 earlier. Anthony was also pleased and surprised:
 
-.. image:: /images/content/anthony-code-coverage.png
+.. image:: images/anthony-code-coverage.png
 
 Although I tend to make an Xdebug release only once a month, in this case I
 thought it warranted to expedite this. So here is your end-of-year present:

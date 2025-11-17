@@ -62,7 +62,7 @@ This greatly reduces complexity in the driver.
 Let's have a look at how the driver handles connection for a basic MongoDB
 setups with just one node.  
 
-.. image:: /images/content/sad-manager.png
+.. image:: images/sad-manager.png
    :align: right
    :alt: Sad manager, it has no connections yet.
 
@@ -93,7 +93,7 @@ script.
 
 This newly created connection is then registered with the manager:
 
-.. image:: /images/content/manager-1con.png
+.. image:: images/manager-1con.png
    :alt: One connection, to the whisky!
 
 Any time a connection is needed, for either an *insert*, *delete*, *update*,
@@ -134,7 +134,7 @@ Which outputs::
 Notice that the connection string made no reference to the ``whisky:13000``
 node. The manager has now registered two connections:
 
-.. image:: /images/content/manager-replcon.png
+.. image:: images/manager-replcon.png
    :alt: More whisky!
 
 The manager contains a bit more information than just the connection hash and
@@ -240,7 +240,7 @@ Which outputs::
 
 And we have two authenticated connections in our manager:
 
-.. image:: /images/content/manager-auth.png
+.. image:: images/manager-auth.png
    :alt: Safe whisky!
 
 But with one snag. If you have ``E_DEPRECATED`` notices turned on, you

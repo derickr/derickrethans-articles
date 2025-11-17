@@ -7,7 +7,7 @@ Foursquare and OpenStreetMap
    :Tags: blog, php
    :Short: 4sq-osm
 
-.. image:: /images/content/foursquare-osm.png
+.. image:: images/foursquare-osm.png
    :align: left
 
 Yesterday, FourSquare announced_ that they are "joining the OpenStreetMap

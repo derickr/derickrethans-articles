@@ -7,7 +7,7 @@ Mapping Lubumbashi
    :Tags: blog, php, openstreetmap
    :Short: lubum
 
-.. image:: /images/content/hot-logo.png
+.. image:: images/hot-logo.png
    :align: right
 
 I spent last Saturday helping out HOT, the `Humanitarian OpenStreetMap Team`_,
@@ -46,7 +46,7 @@ traced a whole of of other towns as well. And the mapping was not only
 remotely done from Berlin, but OpenStreetMap communities from Hungary_, Togo_,
 Burkina_ helped as well—a true global community.
 
-.. image:: /images/content/hot-lubumbashi.jpg
+.. image:: images/hot-lubumbashi.jpg
    :align: left
 
 Besides this initial road tracing job, there are a few other things still to

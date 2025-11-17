@@ -8,9 +8,9 @@ Travel Report: Lofoten
 
 *Day 1*
 
-.. image:: /images/content/photos/dsc_4399_mini.jpg
+.. image:: images/photos/dsc_4399_mini.jpg
    :align: left
-   :target: /images/content/photos/dsc_4399.jpg
+   :target: images/photos/dsc_4399.jpg
 
 We
 started our trip from Bodø, a small industrial city just above the
@@ -38,9 +38,9 @@ cabin. Rorbua are usually cheap, but sober, cabins which people now rent
 out to tourists to stay the night. We didn't say long there and
 proceeded to drive around on the island to see what's happening there.
 
-.. image:: /images/content/photos/dsc_4541_mini.jpg
+.. image:: images/photos/dsc_4541_mini.jpg
    :align: left
-   :target: /images/content/photos/dsc_4541.jpg
+   :target: images/photos/dsc_4541.jpg
 
 As a
 typical island in the Lofoten, Værøy has `ragged peeks`_ and
@@ -70,9 +70,9 @@ rorbu.
 
 *Day 4*
 
-.. image:: /images/content/photos/dsc_4818_mini.jpg
+.. image:: images/photos/dsc_4818_mini.jpg
    :align: right
-   :target: /images/content/photos/dsc_4818.jpg
+   :target: images/photos/dsc_4818.jpg
 
 From Å
 we drove past `Reine`_ on our way to Nusfjord, "Norways best preserved fiskevær". In
@@ -84,9 +84,9 @@ Kabelvåg, 5 minutes south of Svolvær.
 
 *Day 5*
 
-.. image:: /images/content/photos/dsc_4868_mini.jpg
+.. image:: images/photos/dsc_4868_mini.jpg
    :align: right
-   :target: /images/content/photos/dsc_4868.jpg
+   :target: images/photos/dsc_4868.jpg
 
 We
 decided to stay one more day in Svolvær to climb to `Svolværgeita`_ , a
@@ -95,18 +95,18 @@ experience to climb at all, we instead hiked to the backside of the
 formation, where we took a picture of Svolværgeita with Svolvær in the
 background.
 
-.. image:: /images/content/photos/dsc_4923_mini.jpg
+.. image:: images/photos/dsc_4923_mini.jpg
    :align: left
-   :target: /images/content/photos/dsc_4923.jpg
+   :target: images/photos/dsc_4923.jpg
 
 The view was `magnificant`_ from there. Too bad the weather wasn't a bit better as we got some rain,
 but that's to expect when you go to the Lofoten.
 
 *Day 6*
 
-.. image:: /images/content/photos/dsc_4930_mini.jpg
+.. image:: images/photos/dsc_4930_mini.jpg
    :align: right
-   :target: /images/content/photos/dsc_4930.jpg
+   :target: images/photos/dsc_4930.jpg
 
 From
 Svolvær we continued our trip to Andenes on Andøya, which is not part
@@ -127,9 +127,9 @@ tail.
 
 *Day 7*
 
-.. image:: /images/content/photos/dsc_5079_mini.jpg
+.. image:: images/photos/dsc_5079_mini.jpg
    :align: left
-   :target: /images/content/photos/dsc_5079.jpg
+   :target: images/photos/dsc_5079.jpg
 
 After
 the great whale safari it was time to start on our way back to Bodø,

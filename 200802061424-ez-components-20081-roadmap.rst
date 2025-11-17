@@ -6,7 +6,7 @@ eZ Components 2008.1 roadmap
    :Date: 20080206 1424 CET
    :Tags: blog, php, work
 
-.. image:: /images/content/logo-indigo-150x91.png
+.. image:: images/logo-indigo-150x91.png
    :align: left
    :target: http://ezcomponents.org
 

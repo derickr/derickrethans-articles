@@ -8,7 +8,7 @@ New Planet Discovered
 
 No, this is not something that `New Horizons`_ found as that mission hasn't been launched yet.
 
-.. image:: /images/content/logo_planet.png
+.. image:: images/logo_planet.png
    :align: right
 
 It's `Planet eZ publish`_ , an

@@ -6,7 +6,7 @@ Conférence PHP Québec
    :Date: 20040226 0111 CET
    :Tags: 
 
-.. image:: /images/content/cpq.speaker.jpg
+.. image:: images/cpq.speaker.jpg
    :align: left
 
 On `Friday March 26th`_ I will be `speaking`_ at the `Conférence PHP Québec`_ in

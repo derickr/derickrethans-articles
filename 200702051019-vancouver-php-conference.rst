@@ -6,7 +6,7 @@ Vancouver PHP Conference
    :Date: 20070205 1019 CET
    :Tags: cms, conference, php, travel, work, xdebug
 
-.. image:: /images/content/vancouver_conference_2007.gif
+.. image:: images/vancouver_conference_2007.gif
    :align: left
 
 Next week I will be

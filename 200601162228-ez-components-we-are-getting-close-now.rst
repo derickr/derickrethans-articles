@@ -6,7 +6,7 @@ eZ components - We are getting close now
    :Date: 20060116 2228 CET
    :Tags: cms, php, work
 
-.. image:: /images/content/ezcomponents-banner.jpg
+.. image:: images/ezcomponents-banner.jpg
    :align: left
 
 Just a couple of hours

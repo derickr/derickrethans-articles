@@ -36,7 +36,7 @@ resize my window from its current position all the way to the bottom of the
 screen. To each of the four directions and two methods I assigned keyboard
 shortcuts in ``xfce4-settings-manager``, Keyboard, Application Shortcuts.
 
-.. image:: /images/content/xfce-keyboard.png
+.. image:: images/xfce-keyboard.png
 
 The screenshot above shows those assigned keyboard shortcuts. I've put the
 modified script on github_. As you can see I hardcoded the width and height of

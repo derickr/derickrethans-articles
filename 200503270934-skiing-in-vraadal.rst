@@ -6,7 +6,7 @@ Skiing in Vrådal
    :Date: 20050327 0934 CEST
    :Tags: photography, holiday
 
-.. image:: /images/content/dsc_2208-2227-processed-a.jpg
+.. image:: images/dsc_2208-2227-processed-a.jpg
    :align: center
    :target: http://photos.derickrethans.nl/vraadal
 
@@ -14,14 +14,14 @@ Norwegians usually spend their long easter holiday in the Mountains in some cabi
 Together with Frederik, Ray and Judith we went skiing in Vrådal. Although the skiing area is not very large,
 we had a wonderful time and really excellent weather.
 
-.. image:: /images/content/dsc_2087-2107-processed-b.jpg
+.. image:: images/dsc_2087-2107-processed-b.jpg
    :align: center
    :target: http://photos.derickrethans.nl/asmosphere/aac
 
 This 22° Halo I first spotted when going up with the elevator to the mountain's summit again - I've been
 looking for this during the whole trip as I guessed that `conditions`_ would be perfect for it.
 
-.. image:: /images/content/dsc_2257-2271-processed-a.jpg
+.. image:: images/dsc_2257-2271-processed-a.jpg
    :align: center
    :target: http://photos.derickrethans.nl/vraadal/abj?full=1
 

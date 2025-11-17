@@ -10,7 +10,7 @@ Lots of things are happening in outerspace. Just yesterday the `ESA`_ had
 great success with their `Huygens`_ probe and
 there is also a comet - `Machholz`_ - on the horizon.
 
-.. image:: /images/content/astronomy/orion_pleiades.png
+.. image:: images/astronomy/orion_pleiades.png
    :align: center
 
 A couple of days ago I went with a friend to find this comet ... but no luck. Although our places was pretty
@@ -23,6 +23,6 @@ get some real equipment now... such as a telescope and a good digicam.
 .. _`ESA`: http://esa.int
 .. _`Huygens`: http://www.esa.int/SPECIALS/Cassini-Huygens/
 .. _`Machholz`: http://www.space.com/spacewatch/comet_winter_040917.html
-.. _`Orion`: /images/content/astronomy/orion.png
-.. _`Pleiades`: /images/content/astronomy/pleiades.png
+.. _`Orion`: images/astronomy/orion.png
+.. _`Pleiades`: images/astronomy/pleiades.png
 

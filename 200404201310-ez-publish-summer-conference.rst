@@ -6,7 +6,7 @@ eZ Publish Summer Conference
    :Date: 20040420 1310 CEST
    :Tags: conference, php, work
 
-.. image:: /images/content/summer_conf_2004.gif
+.. image:: images/summer_conf_2004.gif
    :align: right
    :target: http://ez.no/company/news/ez_publish_summer_conference_2004__1
 

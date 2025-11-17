@@ -6,7 +6,7 @@ Spring is here!
    :Date: 20040317 2333 CET
    :Tags: photography
 
-.. image:: /images/content/spring.jpg
+.. image:: images/spring.jpg
    :align: center
 
 Took this photo during lunch break, IMO it's a pretty good close-up

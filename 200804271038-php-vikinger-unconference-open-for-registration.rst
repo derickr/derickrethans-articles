@@ -6,7 +6,7 @@ PHP Vikinger unconference open for registration
    :Date: 20080427 1038 CEST
    :Tags: blog, cms, conference, php, travel
 
-.. image:: /images/content/phpv.gif
+.. image:: images/phpv.gif
    :align: center
 
 The `PHP Vikinger`_ unconference,

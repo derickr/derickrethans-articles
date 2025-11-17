@@ -58,7 +58,7 @@ the overloaded ``var_dump()`` listen to the limiting settings for variable
 display. After his patch, the following was the behaviour on the command line
 as long as stdout_ is a tty_ and `xdebug.cli_color`_ is set to ``1``.
 
-.. image:: /images/content/cli-color-linux.png
+.. image:: images/cli-color-linux.png
 
 I have extended this so that the settings regarding data display also work
 without ``xdebug.cli_color`` set to ``1``. Further more, in `Xdebug 2.2.0RC1`_,
@@ -76,7 +76,7 @@ environment variable is set, just like Xdebug would check whether stdout is a
 tty on a Unix platform. As a result, the equivalent console output as shown
 before looks like the following on Windows (providing ANSICON is installed):
 
-.. image:: /images/content/cli-color-windows.png
+.. image:: images/cli-color-windows.png
 
 Now the only thing left is adding complete documentation for this feature ;-)
 

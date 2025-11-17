@@ -23,7 +23,7 @@ Picking the palette of colours wasn't very simple especially because
 pink and purple are difficult to differentiate, as well as orange and brown.
 It required a little bit of effort, but we settled on the following colours:
 
-.. image:: /images/content/pw-colours.png
+.. image:: images/pw-colours.png
 
 Some of the colour names have multiple colour values attached to them; this was
 so that we can tune the analysing algorithm a little bit to provide better
@@ -34,7 +34,7 @@ create a mapping algorithm. It's difficult to do this with RGB values because
 they don't have the natural properties that we humans use for colours. However,
 the HSV model works a lot better. A HSV colour 'wheel' looks like:
 
-.. image:: /images/content/hsv-normal.png
+.. image:: images/hsv-normal.png
 
 On the X-axis we have the hue_ — a value that describes *which* colour it is on
 a scale from 0 to 360 (°). On The Y-axis we have both the saturation_ — a value
@@ -53,7 +53,7 @@ Image -> Mode -> Indexed -> "Use Custom Palette" and then pick your palette.
 Don't forget to change it back to RGB before you save it though.  The resulting
 image then looks like:
 
-.. image:: /images/content/hsv-normal-palette.png
+.. image:: images/hsv-normal-palette.png
 
 The script to draw this palette is::
 
@@ -158,7 +158,7 @@ The HSV-to-normalized-key algorithm looks like::
 
 To visualise this process, I've created a before and after image:
 
-.. image:: /images/content/phonebooth-normal.png
+.. image:: images/phonebooth-normal.png
 
 Sadly, as you can see, our typical red phone box isn't quite detected as being red, 
 but rather black and grey. For some reason the conversion from an arbitrary HSV value
@@ -173,21 +173,21 @@ the palette-drawing script::
 
 In a diagram, this looks like:
 
-.. image:: /images/content/hsv-corrections.png
+.. image:: images/hsv-corrections.png
 
 We use this new algorithm, to redraw a new HSV wheel:
 
-.. image:: /images/content/hsv-boost.png
+.. image:: images/hsv-boost.png
 
 And with The Gimp create a new palette:
 
-.. image:: /images/content/hsv-boost-palette.png
+.. image:: images/hsv-boost-palette.png
 
 This new palette we then scan to create the color map out off. With this
 new color map we re-analyse the image to count our primary image colours. The
 result is then:
 
-.. image:: /images/content/phonebooth-boost.png
+.. image:: images/phonebooth-boost.png
 
 Which tells us that red was the most prevalent colour with over 50% of the sampled
 pixels (13916 + 7822 out of 40000), grey being second with 35% and black with 19%.

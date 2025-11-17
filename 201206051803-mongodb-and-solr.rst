@@ -7,7 +7,7 @@ Fulltext Search with MongoDB and Solr
    :Tags: blog, php, mongodb
    :Short: mongosolr
 
-.. image:: /images/content/mongodb-logo.png
+.. image:: images/mongodb-logo.png
    :align: left
 
 In this article I am explaining how you can tie MongoDB_ and Solr_ together.
@@ -172,7 +172,7 @@ item for our ``article`` collection in the ``demo`` database.
 
 **Solr**
 
-.. image:: /images/content/solr.png
+.. image:: images/solr.png
    :align: right
 
 Now we have a way to wait for updates on the MongoDB side, we need to tie this

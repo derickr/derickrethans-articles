@@ -29,7 +29,7 @@ with contents::
 	0x7004B left
 	0x7004E right
 
-.. image:: /images/content/logitech-r400.png
+.. image:: images/logitech-r400.png
    :align: left
 
 This maps the two scan codes that the *Play* button (lower-left) both to *f11*,

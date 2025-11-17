@@ -7,7 +7,7 @@ Working at 10gen
    :Tags: blog, php, mongodb
    :Short: 10gen
 
-.. image:: /images/content/mongodb-logo.png
+.. image:: images/mongodb-logo.png
    :align: left
 
 As of today I am working for 10gen_, the company behind MongoDB_. I have been

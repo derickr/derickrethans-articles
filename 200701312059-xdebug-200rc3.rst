@@ -6,7 +6,7 @@ Xdebug 2.0.0RC3
    :Date: 20070131 2059 CET
    :Tags: blog, cms, php, xdebug
 
-.. image:: /images/content/xdebug_logo.png
+.. image:: images/xdebug_logo.png
    :align: left
 
 I

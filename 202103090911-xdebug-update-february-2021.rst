@@ -48,7 +48,7 @@ https://xdebug.cloud — which means that it is now possible to sign up!
 Packages start at £49/month, and revenue will also be used to further the
 development of Xdebug.
 
-.. image:: /images/content/xdebug-cloud-reveal.gif
+.. image:: images/xdebug-cloud-reveal.gif
 
 If you want to be kept up to date with Xdebug Cloud, please sign up to the
 `mailinglist <https://xdebug.cloud/newsletter>`_, which I will use to send out

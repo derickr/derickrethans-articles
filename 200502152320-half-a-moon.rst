@@ -6,7 +6,7 @@ Half a Moon
    :Date: 20050215 2320 CET
    :Tags: photography
 
-.. image:: /images/content/moon2a.png
+.. image:: images/moon2a.png
    :align: center
 
 With a borrowed 300mm lens I just made this image of the moon (not scaled, just cropped). 300mm focal

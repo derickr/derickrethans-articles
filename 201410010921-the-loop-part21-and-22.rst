@@ -15,7 +15,7 @@ short or so.
 Section 21 (part 2)
 -------------------
 
-.. image:: /images/content/loop22-d36_9621.jpg
+.. image:: images/loop22-d36_9621.jpg
    :align: left
 
 Just after we got off the bus, we spotted another couple doing the LOOP. They
@@ -40,7 +40,7 @@ vandalized.
 Section 22
 ----------
 
-.. image:: /images/content/loop22-d36_9647.jpg
+.. image:: images/loop22-d36_9647.jpg
    :align: right
 
 Continuing past the `Archibald Road allotments`_ we soon came upon `Harold
@@ -54,7 +54,7 @@ some small trees on the sides, than a "wood". It was quite pleasant though,
 and because it was quite warm, we decided to have a little picnic just before
 we left it. 
 
-.. image:: /images/content/loop22-d36_9655.jpg
+.. image:: images/loop22-d36_9655.jpg
 
 Then came a rather nasty section of the walk, past a road, and across the
 A127. Another mile later, we happily left the roads behind to go through some

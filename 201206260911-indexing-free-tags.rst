@@ -145,7 +145,7 @@ And in the second case, the explain output looks like::
 	}
 
 
-.. image:: /images/content/mongodb-logo.png
+.. image:: images/mongodb-logo.png
    :align: right
 
 In the first case, 12 documents are scanned and found. But in the second case,

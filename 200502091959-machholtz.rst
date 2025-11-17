@@ -6,10 +6,10 @@ Machholtz
    :Date: 20050209 1959 CET
    :Tags: photography
 
-.. image:: /images/content/machholtz.jpg
+.. image:: images/machholtz.jpg
    :align: center
 
-.. image:: /images/content/machholtz2.jpg
+.. image:: images/machholtz2.jpg
    :align: center
 
 Two photos of the comet Machholtz, which I took about a week ago. At the moment the weather is too bad to

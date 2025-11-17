@@ -6,7 +6,7 @@
    :Date: 20050306 0106 CET
    :Tags: photography
 
-.. image:: /images/content/halo.jpg
+.. image:: images/halo.jpg
    :align: center
    :target: http://photos.derickrethans.nl/asmosphere/aab
 

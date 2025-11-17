@@ -147,10 +147,10 @@ time, I also added lots of logging!
 
 .. _BSON: http://bsonspec.org
 
-.. image:: /images/content/mongo-git-messy-small.png
+.. image:: images/mongo-git-messy-small.png
    :align: left
 
-.. image:: /images/content/mongo-git-not-messy-small.png
+.. image:: images/mongo-git-not-messy-small.png
    :align: left
 
 With 1.3 out the door, Hannes_ started helping out, and because we were
@@ -186,7 +186,7 @@ Lastly, because each language driver was implementing its own
 version of the protocol to talk to MongoDB, we were doing a lot of
 duplicated work.
 
-.. image:: /images/content/mongo-new.png
+.. image:: images/mongo-new.png
    :align: right
 
 With this in mind, we set some goals for a new version of the driver:

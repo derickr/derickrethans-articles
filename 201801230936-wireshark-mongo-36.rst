@@ -35,7 +35,7 @@ Wireshark runs on various platforms_, and on Debian platforms can easily be
 installed by running ``apt install wireshark``. Starting Wireshark presents
 you with the following screen:
 
-.. image:: /images/content/wireshark-start.png
+.. image:: images/wireshark-start.png
 
 .. _platforms: https://www.wireshark.org/#download
 
@@ -53,7 +53,7 @@ MongoDB.
 After we connected with the MongoDB shell to the server, we can have a look at
 what Wireshark collected.
 
-.. image:: /images/content/wireshark-is-master.png
+.. image:: images/wireshark-is-master.png
 
 In this first screenshot we see that the MongoDB client's first packet is a
 ``Request : Query`` packet. In this first packet it sends an ``isMaster``
@@ -63,7 +63,7 @@ able to show us the various elements that make up the request. For example, it
 sends along which driver is being used to make the request (``MongoDB Internal
 Client``) in the ``client`` → ``driver`` → ``name`` element.
 
-.. image:: /images/content/wireshark-is-master-reply.png
+.. image:: images/wireshark-is-master-reply.png
 
 The result includes parameters such as the maximum size of a data packet
 (``maxMessageSizeBytes``), the ``localTime``, as well as the `wire version`_
@@ -101,7 +101,7 @@ revisions before it was merged_.
 The result of this first patch is that packets of the ``OP_MSG`` type can now
 also be visualised:
 
-.. image:: /images/content/wireshark-query-reply.png
+.. image:: images/wireshark-query-reply.png
 
 A ``Extensible Message Format`` packet consists of one more Sections_, which
 can either be a ``Body``, or a ``Document Sequence``. With a ``Body`` being
@@ -131,7 +131,7 @@ Supporting ``snappy`` required a bit more manual work.
 
 .. _`second patch`: https://github.com/wireshark/wireshark/commit/8225159e336610c25fb4d4129b0be156ed487c49
 
-.. image:: /images/content/wireshark-query-reply-compressed1.png
+.. image:: images/wireshark-query-reply-compressed1.png
 
 Compressed packets replace the original packet type (OpCode) with one
 (``2012``) to denote it is a compressed packet. The header that describes the

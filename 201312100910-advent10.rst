@@ -23,7 +23,7 @@ mapped as Flower Road (and OS Locator had it right), but the second one was
 wrong on OS Locator as it had thought there was an apostrophe in "Andrews"—the
 street sign disagreed.
 
-.. image:: /images/content/advent2013-10a.png
+.. image:: images/advent2013-10a.png
    :align: right
 
 The `platform at Dollis Hill`_ had this annoyingly nagging "FIXME" tag on it

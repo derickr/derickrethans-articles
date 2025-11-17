@@ -6,7 +6,7 @@ ApacheCon Europe
    :Date: 20050613 0916 CEST
    :Tags: cms, conference, php, travel, work
 
-.. image:: /images/content/apachecon05-speaker.gif
+.. image:: images/apachecon05-speaker.gif
    :align: center
    :target: http://apachecon.com/2005/EU/html/sessions.html
 

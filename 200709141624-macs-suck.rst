@@ -9,7 +9,7 @@ Macs Suck
 They do because whenever you put a writable medium in them they start
 adding all sorts of crap to my drive:
 
-.. image:: /images/content/mac-crap.png
+.. image:: images/mac-crap.png
    :align: center
 
 

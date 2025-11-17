@@ -6,7 +6,7 @@ Conference Time
    :Date: 20040804 0837 CEST
    :Tags: work, php
 
-.. image:: /images/content/phpworks.png
+.. image:: images/phpworks.png
    :align: left
 
 In the fall I will be touring around to talk at several
@@ -14,13 +14,13 @@ conferences. Those include `php|works`_ in Toronto
 where I will be speaking on `Xdebug`_ and Multi-lingual
 development,
 
-.. image:: /images/content/intphpconf2004.png
+.. image:: images/intphpconf2004.png
    :align: right
 
 the `International PHP Conference 2004`_ in Frankfurt where I will be speaking on
 "Migrating from PHP 4 to PHP 5" and `Enterprise PHP Bananas`_ and
 
-.. image:: /images/content/forumphp.png
+.. image:: images/forumphp.png
    :align: left
 
 Forum PHP Paris (hosted by the `AFUP`_ ),

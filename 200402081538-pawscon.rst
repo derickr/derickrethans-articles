@@ -6,7 +6,7 @@ PaWSCon
    :Date: 20040208 1538 CET
    :Tags: 
 
-.. image:: /images/content/hand.png
+.. image:: images/hand.png
    :align: left
 
 In about 10 days I will be speaking at `PaWSCon`_ in Manchester on PHP

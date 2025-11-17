@@ -11,7 +11,7 @@ For the preparation of my `Finding Pubs... (and other things)`_ presentation
 that I gave at the PHP NorthWest usergroup some time ago I created a demo that
 shows all my flickr photos_ on a map. For example like:
 
-.. image:: /images/content/flickr-gc1.png
+.. image:: images/flickr-gc1.png
 
 This example shows photos in the UK, Norway and Sweden as well as in Paris.
 
@@ -42,7 +42,7 @@ http://127.0.1.4/maps-flickr/fetch-poi.php?n=65.44000165965534&e=32.51953125&s=4
 Now if we scroll up a bit to include Iceland in the map, then we see that the
 photos in Paris disappear:
 
-.. image:: /images/content/flickr-gc2.png
+.. image:: images/flickr-gc2.png
 
 How is that possible? Let's first see what our polygon looks like::
 
@@ -101,7 +101,7 @@ The 5 array elements in here reflect in order the North East point, the North
 West point, the South West point, the South East point and again the North East
 point. If we draw lines between those points on the map, we find:
 
-.. image:: /images/content/flickr-gc3.png
+.. image:: images/flickr-gc3.png
 
 Which instantly shows you why I got missing photos! As you can see, the
 shortest line between vertical lines is a straight line on a sphere, but the
@@ -120,11 +120,11 @@ created points along the Northern and Southern border on the exact latitude.
 
 If you create one intermediate point, the result is:
 
-.. image:: /images/content/flickr-gc4.png
+.. image:: images/flickr-gc4.png
 
 And with five intermediate points you hardly notice the problem anymore:
 
-.. image:: /images/content/flickr-gc5.png
+.. image:: images/flickr-gc5.png
 
 Play around with the ``gc_segments`` URL parameter to see for yourself:
 

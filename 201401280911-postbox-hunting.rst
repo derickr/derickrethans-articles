@@ -7,7 +7,7 @@ Hunting for Postboxes (part 1)
    :Tags: openstreetmap, php, mongodb
    :Short: postbox1
 
-.. image:: /images/content/postbox-pebble.png
+.. image:: images/postbox-pebble.png
    :align: left
 
 The new year brings new hobby projects! In this year, I am going to try to
@@ -84,7 +84,7 @@ above returns ``$res``, and our first result is located in
 So postbox ``NW6 14`` is ``162.15`` meters away from ``-0.1979, 51.5385`` at
 ``-0.1960, 51.5376``, as you can see in this image:
 
-.. image:: /images/content/postbox1.png
+.. image:: images/postbox1.png
 
 To find a description of where the postbox is, we first find the closest
 road::
@@ -142,7 +142,7 @@ executing this query, ``$road`` now contains::
 
 As an image this looks like:
 
-.. image:: /images/content/postbox2.png
+.. image:: images/postbox2.png
 
 We are interested only in the name (``name=Brondesbury Road``) and the
 geometry (``l``). Right now, we can already assemble the description ``NW6
@@ -202,7 +202,7 @@ This returns nineteen roads. An extract looks like::
 
 As an image this looks like:
 
-.. image:: /images/content/postbox3.png
+.. image:: images/postbox3.png
 
 We are only interested in the roads that have a name and have a **different**
 name than the road we have run the intersection query for. In some cases,
@@ -246,7 +246,7 @@ corner of <roadname>`` (less thatn 25m) or ``near <roadname>`` if it's further
 away than 25m. For our example postbox, that makes ``NW6 14, on Brondesbury
 Road, near Algernon Road`` which is illustrated by this image:
 
-.. image:: /images/content/postbox4.png
+.. image:: images/postbox4.png
 
 The full code for this example can be found at
 https://github.com/derickr/3angle/tree/master/maps-postbox and you see it in

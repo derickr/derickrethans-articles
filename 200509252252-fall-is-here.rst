@@ -6,7 +6,7 @@ Fall is here
    :Date: 20050925 2252 CEST
    :Tags: nature, photography
 
-.. image:: /images/content/fall.jpg
+.. image:: images/fall.jpg
    :align: center
 
 Fall is well under way here, the trees are getting all yellow and red.

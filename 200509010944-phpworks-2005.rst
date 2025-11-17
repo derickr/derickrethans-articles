@@ -6,7 +6,7 @@ php|works 2005
    :Date: 20050901 0944 CEST
    :Tags: blog, conference, php, travel, work
 
-.. image:: /images/content/phpworks5.png
+.. image:: images/phpworks5.png
    :align: right
    :target: http://www.phparch.com/works/schedule.php
 

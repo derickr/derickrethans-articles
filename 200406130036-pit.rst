@@ -6,7 +6,7 @@ P.I.T.
    :Date: 20040613 0036 CEST
    :Tags: nature
 
-.. image:: /images/content/pit.png
+.. image:: images/pit.png
    :align: center
    :target: http://photos.derickrethans.nl/2004norway-pit
 

@@ -6,7 +6,7 @@ NGC confused
    :Date: 20040917 2149 CEST
    :Tags: 
 
-.. image:: /images/content/ngc.jpg
+.. image:: images/ngc.jpg
    :align: center
 
 While watching one of the only English channels here in Norway -

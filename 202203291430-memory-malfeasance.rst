@@ -38,7 +38,7 @@ I was happily surprised that Debian's APT repository also included a package
 for this memory testing tool. After I installed it, I rebooted my machine to
 see what it would say. The result:
 
-.. image:: /images/content/pcmemtest.jpg
+.. image:: images/pcmemtest.jpg
    :title: PCMemTest showing broken memory
 
 PCMemTest allows you to create a configuration line for the Grub configuration

@@ -44,15 +44,15 @@ differences according to the following script:
 
 Old:
 
-.. image:: /images/content/old.scaled.png
+.. image:: images/old.scaled.png
    :align: center
-   :target: /images/content/old.png
+   :target: images/old.png
 
 New:
 
-.. image:: /images/content/new.scaled.png
+.. image:: images/new.scaled.png
    :align: center
-   :target: /images/content/new.png
+   :target: images/new.png
 
 The code for this will make it into CVS soonish.
 

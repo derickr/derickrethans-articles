@@ -6,7 +6,7 @@ PHP5. Tajniki programowania
    :Date: 20050609 1033 CEST
    :Tags: php
 
-.. image:: /images/content/php5tp.jpg
+.. image:: images/php5tp.jpg
    :align: left
 
 `PHP5. Tajniki programowania`_ is the Polish translation of `PHP 5 Power Programming`_ , the

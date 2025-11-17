@@ -129,7 +129,7 @@ and ran ``mencoder`` to generate the AVI film::
 And this video I then uploaded to Vimeo_. Voilà! One OpenStreetMap mapping
 party progress animation!
 
-.. |Video| image:: /images/content/south-ken.jpg
+.. |Video| image:: images/south-ken.jpg
 .. _Video: http://vimeo.com/derickr/osm-south-ken
 .. _replication: http://wiki.openstreetmap.org/wiki/Minutely_Mapnik
 .. _Mapnik: http://mapnik.org/

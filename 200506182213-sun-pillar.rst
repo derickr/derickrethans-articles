@@ -6,7 +6,7 @@ Sun Pillar
    :Date: 20050618 2213 CEST
    :Tags: nature, photography
 
-.. image:: /images/content/astronomy/sunpillar.png
+.. image:: images/astronomy/sunpillar.png
    :align: center
 
 The sunset today looked a bit different than normally. It looked like

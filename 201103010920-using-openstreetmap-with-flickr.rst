@@ -107,7 +107,7 @@ here (and as download_)::
 After I configured my browser to use the Squid proxy running on localhost,
 Flickr is now shown with OpenStreetMap_ tiles as background:
 
-.. image:: /images/content/flickrosm.png
+.. image:: images/flickrosm.png
 
 And with the OpenStreetMap tiles in the background, I could place my photos on
 the correct location on the map_.

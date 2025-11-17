@@ -21,7 +21,7 @@ Apache's .htaccess functionality). However, for the case where multiple
 developers work on the same code, the .htaccess trick won't work as the
 directory in which the code lives is the same.
 
-.. image:: /images/content/xdebug_logo.png
+.. image:: images/xdebug_logo.png
    :align: left
 
 Now,

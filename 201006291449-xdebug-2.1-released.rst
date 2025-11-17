@@ -6,7 +6,7 @@ Xdebug 2.1
    :Date: 2010-06-29 15:17 Europe/London
    :Tags: blog, php, cms, xdebug, extensions
 
-.. image:: /images/content/xdebug_logo.png
+.. image:: images/xdebug_logo.png
    :align: right
 
 I've just released Xdebug_ 2.1. This new release contains all the bug fixes and

@@ -11,7 +11,7 @@ Another weekend, and another section of the LOOP_. This time Morag and I left
 home a bit earlier as we knew this was one of the longer sections of the LOOP
 at 9 miles. 
 
-.. image:: /images/content/loop4-d36_4734.jpg
+.. image:: images/loop4-d36_4734.jpg
    :align: right
 
 We took the train to Hayes (Kent) and followed a slightly different route to
@@ -23,7 +23,7 @@ to takes us right through a "lake", previously the Sparrows Den Playing
 Fields, but currently flooded due to high levels of ground water. Some
 jokers had also put a bunch of yellow rubber ducks on the "lake".
 
-.. image:: /images/content/loop4-d36_4753.jpg
+.. image:: images/loop4-d36_4753.jpg
    :align: left
 
 We found our way around the field and continued towards our first wooded
@@ -36,9 +36,9 @@ quiet in there that we continued by climbing up the `Addington Hills`_ to treat
 us to a fine panorama over London. Wembley Stadium, the City and Canary
 Wharf were all very easy to spot.
 
-.. image:: /images/content/loop4-d36_4917.jpg
+.. image:: images/loop4-d36_4917.jpg
 
-.. image:: /images/content/loop4-d36_4933.jpg
+.. image:: images/loop4-d36_4933.jpg
    :align: right
 
 After a quick break and avoiding having Chinese food we came onto
@@ -51,7 +51,7 @@ By now, we were definitely hungry (and thirsty) so we decided to make a
 slight detour into Selsdon to have a bite and pint at `The Sir Julian
 Huxley`_, a Weatherspoons.
 
-.. image:: /images/content/loop4-d36_4966.jpg
+.. image:: images/loop4-d36_4966.jpg
    :align: left
 
 After lunch we continued our walk by going through more woods: `Selsdon

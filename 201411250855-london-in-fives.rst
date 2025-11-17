@@ -45,7 +45,7 @@ In most of the scenes I used a `GorillaPod`_, a three legged flexible
 tripod where each leg can wrap around objects. In the later scenes, I used a
 normal stand-up tripod, a `Manfrotto befree`_.
 
-.. image:: /images/content/astro.png
+.. image:: images/astro.png
    :align: right
 
 The camera movements are all done in post production, except for the night
@@ -87,7 +87,7 @@ crashing the tool. The tool here is called with an output prefix of
 ``aligned/a`` and the ``-C`` auto-cropped the image sequence so that it covered an
 area that all images shared.
 
-.. image:: /images/content/londonin5s-align.png
+.. image:: images/londonin5s-align.png
 
 After the image alignment for this particular scene, I could process it the
 same as the other 20 scenes that were not taken with help from the Astro.
@@ -100,7 +100,7 @@ camera. For one scene, the Oxford Circus crossing one, I also had to adjust
 rotation as the horizon wasn't flush. The rotating and cropping was done
 through fairly simple PHP scripts using the GD library.
 
-.. image:: /images/content/londonin5s-camera-pan.png
+.. image:: images/londonin5s-camera-pan.png
 
 A simple script that I used for this is looks like::
 

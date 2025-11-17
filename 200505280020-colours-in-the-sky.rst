@@ -6,11 +6,11 @@ Colours in the sky
    :Date: 20050528 0020 CEST
    :Tags: nature, photography
 
-.. image:: /images/content/corona1.png
+.. image:: images/corona1.png
    :align: center
    :target: http://photos.derickrethans.nl/asmosphere/aai
 
-.. image:: /images/content/corona2.png
+.. image:: images/corona2.png
    :align: center
    :target: http://photos.derickrethans.nl/asmosphere/aam
 

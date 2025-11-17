@@ -14,14 +14,14 @@ pictures - just after sunset there is still some sunlight that hits the
 clouds turning them red. Here you see Sebastian taking a picture of just
 those red clouds:
 
-.. image:: /images/content/photos/dsc_0293.jpg
+.. image:: images/photos/dsc_0293.jpg
    :align: center
 
 After the sun sets the light decreases which allows you to play a little
 bit with longer exposures. You can get very nice effects such as in this
 four second exposure of waves breaking on the (rocky) shore:
 
-.. image:: /images/content/photos/dsc_0311.jpg
+.. image:: images/photos/dsc_0311.jpg
    :align: center
 
 If you instead of a close up take a bit wider image of the shore it
@@ -29,7 +29,7 @@ gives an eery feeling just like this shot of the waves and water flowing
 inbetween the rocks that were deposited here by a glacier a long time
 ago:
 
-.. image:: /images/content/photos/dsc_0333b.jpg
+.. image:: images/photos/dsc_0333b.jpg
    :align: center
 
 The rest of the images in this serie can be found in my `gallery`_ .

@@ -9,7 +9,7 @@ Ny i Norge
 After staying for a couple of months as 'tourist' in Norway, I am
 now formally allowed to live and work here for the next five years. Yippie!
 
-.. image:: /images/content/norge.jpg
+.. image:: images/norge.jpg
    :align: center
 
 

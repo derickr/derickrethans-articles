@@ -26,7 +26,7 @@ blog entry. `[3]`_ Our dedicated PHP troll Sir M. Lemos also had some opinions
 on the future of PHP's development and of course he plugged Metabase. `[4]`_
 This lovely thread had no conclusion and wasted 88 e-mails.
 
-.. image:: /images/content/php.gif
+.. image:: images/php.gif
 
 Two weeks later Edin Kadribasic emailed php-dev with the happy news that he
 added a Command Line Interface (CLI) version of PHP which does some neat tricks
@@ -97,7 +97,7 @@ being that register_globals flag was turned off by default. A message sent on
 the 27th by Theodore Brinkmann about "&lt;?php=" resulted in another useles
 discussion. `[16]`_
 
-.. image:: /images/content/pear.gif
+.. image:: images/pear.gif
 
 In May we started the PHP 4.2.1 release cycle to fix some bugs that were caused
 by enabling the mbstring module by default, and of course some other annoying
@@ -114,7 +114,7 @@ extension; `[21]`_ this action sparked a nice discussion which resulted in the
 reinstatement of the msession a few days later, even though Jani questioned
 "how many real users does it have?  30'000?". 
 
-.. image:: /images/content/pecl.gif
+.. image:: images/pecl.gif
 
 A day later a small discussion was started by Zeev and he explained that "the
 main problem with PECL right now is that when an extension is moved to PECL,
@@ -239,7 +239,7 @@ Yasuo went for another round of of useless bitching about implicit_flush.
 `[55]`_ To make Yasuo realize he was the only person who thought that implicit
 flush should be turned off for the CLI, Zeev started a poll. `[54]`_
 
-.. image:: /images/content/phpconf2002.jpg
+.. image:: images/phpconf2002.jpg
 
 November started with the PHP Conference in Frankfurt `[61]`_ and Andrei
 proposed to disable mbstring by default for PHP 4.3.0 `[62]`_ (yay! again).

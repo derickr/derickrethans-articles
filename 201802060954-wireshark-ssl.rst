@@ -34,7 +34,7 @@ The first option, providing Wireshark_ with the private keys, is by far the
 easiest. You can go to ``Edit`` → ``Preferences`` → ``Protocols`` → ``SSL``
 and add the private key to the ``RSA keys list``:
 
-.. image:: /images/content/wireshark-preferences.png
+.. image:: images/wireshark-preferences.png
 
 When you start using Wireshark with SSL encryption, it is also wise to
 configure an ``SSL debug file`` in the same screen. I have set it here to
@@ -95,7 +95,7 @@ place, and Wireshark configured to read the keys from this file through the
 ``(Pre)-Master-Secret log filename`` setting, we can now decrypt
 SSL-encrypted connections between MongoDB client and server:
 
-.. image:: /images/content/wireshark-ssl-SSL.png
+.. image:: images/wireshark-ssl-SSL.png
 
 There was one caveat: a small patch to Wireshark is needed for it to realise
 that MongoDB's connections can be SSL encrypted on the default port

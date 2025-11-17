@@ -4,7 +4,7 @@ International PHP Conference 2002
 .. articleMetaData::
    :Where: Frankfurt, Germany
 
-.. image:: images/content/phpconf2002.jpg
+.. image:: images/phpconf2002.jpg
 
 Finally back from the PHP Conference in Frankfurt, Germany. The last few days
 tons of people attended this years Conference to listen to sessions with PHP
@@ -18,7 +18,7 @@ Amsterdam, the Netherlands. Those folks asked me to be on the chair, so that
 I can help decide which talks get accepted. I'm pretty sure all talks will
 be in English, as having talks in Dutch would be plain stupid.
 
-.. image:: images/content/warchalking.jpg
+.. image:: images/warchalking.jpg
 
 S&S, the organisers of the conference finally announced the birth of
 a brandnew english PHP Magazine, surprisingly called "PHP Magazine". This

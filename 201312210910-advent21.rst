@@ -14,7 +14,7 @@ changes are announced at the absolutely `last moment`_, or, sometimes even after
 rules have come into effect. To track the craziness, have a look at `Time Zone
 News`_, and this image to see how many different rules there are!
 
-.. image:: /images/content/advent2013-21a.png
+.. image:: images/advent2013-21a.png
 
 The changes to rules, and the changes to them are tracked by a group of
 volunteers that maintain the `Olson TZ Database`_, named after the now retired

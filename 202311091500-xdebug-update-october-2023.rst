@@ -52,7 +52,7 @@ These two optimisations together resulted in a 20% reduction in CPU
 instructions (roughly equivalent to execution time) with the front page of
 WordPress' demo site.
 
-.. image:: /images/content/debug-optimisation.png
+.. image:: images/debug-optimisation.png
 
 The third optimisation that I worked is related to file/line breakpoints. Xdebug
 would evaluate whether an IDE has set a line breakpoint on the
@@ -69,7 +69,7 @@ loss for having line breakpoints from the **number of statements** to the
 **number of function calls**. This shift results in a roughly 25% performance
 boost with only four line breakpoints enabled.
 
-.. image:: /images/content/breakpoint-optimisation.png
+.. image:: images/breakpoint-optimisation.png
 
 After attending IPC and speaking to fellow Xdebug users, a question came up
 about long running scripts. Right now, Xdebug's step debugger can only be
@@ -90,7 +90,7 @@ which allows me to show the running PHP scripts, with PID, memory usage (in
 kb), running time, and Xdebug version. The ``xdebug`` command line tool allows
 you to control Xdebug through the socket:
 
-.. image:: /images/content/xdebug-ps-small.png
+.. image:: images/xdebug-ps-small.png
 
 I have not merged this feature yet, but I hope to do so once I have the
 step debugger interruption feature as well.

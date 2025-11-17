@@ -20,11 +20,11 @@ photos and memory, I re-created the gardens_ in JOSM_, my preferred
 OpenStreetMap editor and now it is available on the map_ — including the steps_
 and the elevator_:
 
-.. image:: /images/content/advent2013-14a.png
+.. image:: images/advent2013-14a.png
 
 There is also a 3D rendering available_:
 
-.. image:: /images/content/advent2013-14b.png
+.. image:: images/advent2013-14b.png
 
 .. _`ITO World`: /advent02.html
 .. _`OpenStreetMap notes`: /advent05.html

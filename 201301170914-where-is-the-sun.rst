@@ -60,7 +60,7 @@ The script_ produces CSV, that I redirect into a file::
 
 I then opened this file in LibreOffice and made a pretty graph out of it:
 
-.. image:: /images/content/sunpos.png
+.. image:: images/sunpos.png
 
 For Longyearbyen (yellow line) it shows that the Sun never rises as it always
 stays below the horizon. It also shows that the highest point over the horizon

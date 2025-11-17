@@ -6,7 +6,7 @@ Walls of Ice
    :Date: 20050213 1610 CET
    :Tags: photography
 
-.. image:: /images/content/ice.png
+.. image:: images/ice.png
    :align: center
 
 We had some snow overnight and as the sun was shining I decided to use this opportunity to make some

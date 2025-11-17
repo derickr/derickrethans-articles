@@ -6,7 +6,7 @@ PHP 5 aus erster Hand
    :Date: 20050626 2259 CEST
    :Tags: php
 
-.. image:: /images/content/php5aeh.jpg
+.. image:: images/php5aeh.jpg
    :align: left
 
 `PHP 5 aus erster Hand`_ is the German translation of `PHP 5 Power Programming`_ , the

@@ -6,7 +6,7 @@ Løveid-Kanal
    :Date: 20050530 0009 CEST
    :Tags: photography
 
-.. image:: /images/content/loeveid.jpg
+.. image:: images/loeveid.jpg
    :align: center
 
 Today I went on a small phototrip with Kristian to the `locks`_ in the `Telemark Channel`_ . The rest of the pictures can be found `here`_ .

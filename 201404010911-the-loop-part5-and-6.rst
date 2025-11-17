@@ -18,7 +18,7 @@ bit more of a chore than normally. It involved two tube trains to Victoria, a
 train to West Croydon and then another bus ride down the road to Ken's Auto
 at Hamsey Green. 
 
-.. image:: /images/content/loop5-d36_4980.jpg
+.. image:: images/loop5-d36_4980.jpg
    :align: right
 
 After a short section next to a road, we entered Riddlesdown_. With mostly
@@ -29,7 +29,7 @@ the hill on the other side of the valley.
 
 .. _Riddlesdown: http://en.wikipedia.org/wiki/Riddlesdown_Common
 
-.. image:: /images/content/loop5-d36_4992.jpg
+.. image:: images/loop5-d36_4992.jpg
    :align: left
 
 After some steps, and some more steep uphill part we came to `Kenley
@@ -51,7 +51,7 @@ walk past a road without footpath or pavement.
 
 .. _`Kenley Observatory`: http://www.croydonastro.org.uk/kenley-observatory.html
 
-.. image:: /images/content/loop5-d36_5007.jpg
+.. image:: images/loop5-d36_5007.jpg
 
 After that we passed by a field with a sole postbox and then made our way to
 `Happy Valley`_. With the Sun blazing and everything looking greener that it
@@ -74,7 +74,7 @@ section as well, section 6.
 Section 6
 ---------
 
-.. image:: /images/content/loop6-d36_5021.jpg
+.. image:: images/loop6-d36_5021.jpg
    :align: left
 
 Passing through South Coulsdon station we had a long climb up a residential
@@ -86,7 +86,7 @@ seen.
 
 .. _`Mayfield Lavender Fields`: http://www.mayfieldlavender.com/
 
-.. image:: /images/content/loop6-d36_5052.jpg
+.. image:: images/loop6-d36_5052.jpg
    :align: right
 
 We then walked through Oak's Park, after which there was another long

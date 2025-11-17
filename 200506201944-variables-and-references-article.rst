@@ -6,7 +6,7 @@ Variables and References Article
    :Date: 20050620 1944 CEST
    :Tags: php, work
 
-.. image:: /images/content/variables-article-cover.jpg
+.. image:: images/variables-article-cover.jpg
    :align: left
    :target: http://phparch.com/issue.php?mid=59
 

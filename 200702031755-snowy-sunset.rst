@@ -6,7 +6,7 @@ Snowy Sunset
    :Date: 20070203 1755 CET
    :Tags: photography
 
-.. image:: /images/content/snow-sunset.jpg
+.. image:: images/snow-sunset.jpg
    :align: center
 
 

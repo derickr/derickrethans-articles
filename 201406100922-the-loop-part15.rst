@@ -20,7 +20,7 @@ in an antique shop for sale.
 
 __ https://www.flickr.com/photos/derickrethans/14197856337/in/set-72157636982853053
 
-.. image:: /images/content/loop15-d36_6362.jpg
+.. image:: images/loop15-d36_6362.jpg
    :align: left
 
 Just after starting the section, we had to battle through some jungle. After a
@@ -36,7 +36,7 @@ only nettles and brambles. We walked past the Grims Dyke Golf Club and came
 upon a marker explaining about `Grim's Ditch`_ (or Grim's Dyke), an ancient
 earthwork. 
 
-.. image:: /images/content/loop15-d36_6385.jpg
+.. image:: images/loop15-d36_6385.jpg
    :align: right
 
 We turned into the woods—infested with mosquitoes as my legs now
@@ -49,7 +49,7 @@ we hit to top of Grim's Dyke with excellent views over central London. Not
 much after that, we stopped for a quick pint at The Case is Altered,
 probably the pub with the weirdest name I've been at.
 
-.. image:: /images/content/loop15-d36_6445.jpg
+.. image:: images/loop15-d36_6445.jpg
    :align: left
 
 After the pint we went back into the woods for a bit and after a while we
@@ -69,7 +69,7 @@ section. There was a leisurely walk along the `Aldenham Reservoir`_ at the
 `Aldenham Country Park`_. The last bit of the walk went over fields and over
 the Elstree Golf Club to end at Elstree & Borehamwood station.
 
-.. image:: /images/content/loop15-d36_6482.jpg
+.. image:: images/loop15-d36_6482.jpg
 
 The weather was mostly sunny with a few clouds at the start, and a few more at
 the finish. It was 24°C and not nearly as humid as we feared. We took nearly

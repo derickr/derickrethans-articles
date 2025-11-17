@@ -6,7 +6,7 @@ Upcoming conferences: php|works and PHP Northwest
    :Date: 20081103 1101 CET
    :Tags: conference, php, travel, work
 
-.. image:: /images/content/phpnw08_conference_logo_175x86.png
+.. image:: images/phpnw08_conference_logo_175x86.png
    :align: left
    :target: http://conference.phpnw.org.uk/phpnw08/
 

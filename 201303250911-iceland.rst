@@ -31,7 +31,7 @@ Originally the most recent solar maximum was forecasted to be in 2010 or 2011
 but more recent predictions expect it to be this autumn. For some unexpected
 reason, Auroras are strongest around the vernal and autumnal equinoxes_.
 
-.. image:: /images/content/pmapN-march17.gif
+.. image:: images/pmapN-march17.gif
    :align: right
 
 With it being so close to both the vernal equinox and solar maximum we set off
@@ -70,7 +70,7 @@ of Alþingi, the first Icelandic parliament that was founded in 930. It is
 situated in a rift valley that marks the crest of the `Mid-Atlantic Ridge`_
 and is part of Þingvellir National Park.
 
-.. image:: /images/content/thingvellir.jpg
+.. image:: images/thingvellir.jpg
 
 After Þingvellir we proceeded to the geyser Strokkur_ (Icelandic for "churn").
 It's quite spectacular to see a whole lot of water being launched in the air
@@ -82,7 +82,7 @@ different. It was so increadible windy and cold that we could hardly make it
 to view the waterfall. However, with the ice surrounding it it was quite
 beautiful:
 
-.. image:: /images/content/gullfoss.jpg
+.. image:: images/gullfoss.jpg
 
 **Smoke and Wind**
 
@@ -94,7 +94,7 @@ were beautiful, but there was a strong cold wind almost everywhere which made
 us want to go to the car very fast most of the time. Something to re-explore
 in summer I suppose.
 
-.. image:: /images/content/leif.jpg
+.. image:: images/leif.jpg
 
 **Blue Lagoon**
 

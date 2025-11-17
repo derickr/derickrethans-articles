@@ -14,7 +14,7 @@ a bit after midnight and started looking at the sky. There were
 quite a lot of shooting stars, about one a minute, but I only
 managed to catch one on (digital) film.
 
-.. image:: /images/content/meteor.png
+.. image:: images/meteor.png
    :align: center
 
 I also tried to make a few analog pictures of the Pleiades, but it

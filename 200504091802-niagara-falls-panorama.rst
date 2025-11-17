@@ -6,7 +6,7 @@ Niagara Falls Panorama
    :Date: 20050409 1802 CEST
    :Tags: photography
 
-.. image:: /images/content/niagara3-processed-a.jpg
+.. image:: images/niagara3-processed-a.jpg
    :align: center
    :target: http://photos.derickrethans.nl/phpworks04/ach
 

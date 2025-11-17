@@ -6,7 +6,7 @@ eZ Components 2006.2 released!
    :Date: 20061219 1121 CET
    :Tags: cms, php, work
 
-.. image:: /images/content/graph.png
+.. image:: images/graph.png
    :align: right
 
 I am

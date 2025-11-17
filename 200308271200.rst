@@ -19,7 +19,7 @@ patents September 1st?*
 
 Although software and business method patents are currently illegal in
 
-.. image:: images/content/patent_banner.png
+.. image:: images/patent_banner.png
 
 Europe, the European Patents Office (EPO) has been granting them
 anyway (because they make good money doing so). Now, certain people in

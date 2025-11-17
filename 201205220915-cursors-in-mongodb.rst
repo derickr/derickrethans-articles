@@ -19,7 +19,7 @@ MongoCollection_ object, like in::
 	$collection = $m->demoDb->demoCollection;
 	$cursor = $collection->find();
 
-.. image:: /images/content/cursor.gif
+.. image:: images/cursor.gif
    :align: right
 
 Just calling ``find()`` will only create a cursor object, and does not
@@ -39,13 +39,13 @@ in the first batch. The default *Batch Size* is 101. Let's have a look
 on what's get send on the wire in our simple query for all documents,
 sorted by name:
 
-.. image:: /images/content/01-find-sort-name.jpg
+.. image:: images/01-find-sort-name.jpg
 
 The *Number to Return* is 0, which means to use the default. So even
 although we only want to fetch one result (``getNext()`` asks the cursor
 for the next document **only**), the server returns 101 documents:
 
-.. image:: /images/content/02-find-sort-name.jpg
+.. image:: images/02-find-sort-name.jpg
 
 The driver stores all 101 documents locally and during the next 100 calls to
 ``getNext()`` the driver will simply return the documents from the local
@@ -62,11 +62,11 @@ same time it is issuing a query) without a specific batch size, the
 server fills up 4MB of documents. On the wire, the request for *Get More*
 looks like:
 
-.. image:: /images/content/03-find-sort-name.jpg
+.. image:: images/03-find-sort-name.jpg
 
 and the reply like:
 
-.. image:: /images/content/04-find-sort-name.jpg
+.. image:: images/04-find-sort-name.jpg
 
 As you can see, the returned data is ``4194378`` bytes, and the *Number
 Returned* is ``34673``.
@@ -84,7 +84,7 @@ to the server::
 
 When we run this script, we will see the following on the wire:
 
-.. image:: /images/content/05-batch25.jpg
+.. image:: images/05-batch25.jpg
 
 As expected, the *Number to Return* is now 25. During iteration, all
 query results are returned from the server to the driver in batches of 25
@@ -95,11 +95,11 @@ documents::
 
 Which creates this query:
 
-.. image:: /images/content/06-batch25.jpg
+.. image:: images/06-batch25.jpg
 
 And this reply:
 
-.. image:: /images/content/07-batch25.jpg
+.. image:: images/07-batch25.jpg
 
 As you can see, another 25 documents are returned, starting from the 25th
 document.
@@ -119,19 +119,19 @@ this script, the driver will request 50000 documents::
 
 On the wire we'll see:
 
-.. image:: /images/content/09-limit50000.jpg
+.. image:: images/09-limit50000.jpg
 
 Sadly, not all 50000 documents fit in the first reply (as every reply is
 limited to 4MB) and the server replies that it has only returned ``34678``
 documents:
 
-.. image:: /images/content/10-limit50000.jpg
+.. image:: images/10-limit50000.jpg
 
 The driver now calculates how many documents it still needs to fullfill it's
 limit of 50000: ``50000 - 34678 = 15322``. It then requests those images with a
 *Get More* query:
 
-.. image:: /images/content/11-limit50000.jpg
+.. image:: images/11-limit50000.jpg
 
 It is also possible to combine ``limit()`` and ``batchSize()``.
 
@@ -155,27 +155,27 @@ On the wire, we'll see the following exchange:
 
 Initial query:
 
-.. image:: /images/content/12-limitbatch.jpg
+.. image:: images/12-limitbatch.jpg
 
 First 50 documents:
 
-.. image:: /images/content/13-limitbatch.jpg
+.. image:: images/13-limitbatch.jpg
 
 First *Get More* for the second batch of 50:
 
-.. image:: /images/content/14-limitbatch.jpg
+.. image:: images/14-limitbatch.jpg
 
 The second batch of 50 documents:
 
-.. image:: /images/content/15-limitbatch.jpg
+.. image:: images/15-limitbatch.jpg
 
 The second and last *Get More* for a batch of 28 (``128 - 50 - 50 = 28``):
 
-.. image:: /images/content/16-limitbatch.jpg
+.. image:: images/16-limitbatch.jpg
 
 And the last batch of 28 documents returned:
 
-.. image:: /images/content/17-limitbatch.jpg
+.. image:: images/17-limitbatch.jpg
 
 I wouldn't quite suggest you use a small batch such as 50 though as it would
 incur lots of round trips from and to the server. In some cases a small
@@ -216,14 +216,14 @@ However, if you set a batch size of 2, it works just like you would expect::
 Now let's set a batch size of ``-2`` and see what happens on the wire. The
 request is:
 
-.. image:: /images/content/18-neg-batch.jpg
+.. image:: images/18-neg-batch.jpg
 
 As you can see, the driver really sends ``-2`` to the server, indicating that
 negative batch sizes are handled on the server side.
 
 And the reply is:
 
-.. image:: /images/content/19-neg-batch.jpg
+.. image:: images/19-neg-batch.jpg
 
 The *Cursor ID* is ``0`` in the reply, meaning that there is no cursor to
 fetch further documents.

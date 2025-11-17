@@ -14,13 +14,13 @@ saving `CICLOPS <https://ciclops.org>`_, the web site of the Cassini Imaging
 Central Laboratory for Operations, which was under threat of disappearing off
 the internet.
 
-.. image:: /images/content/ciclops-tweet.png
+.. image:: images/ciclops-tweet.png
 
 I have been enthusiastic about space since I was in my early teens, with at
 some point expressing the interest to be an astronaut. I never pursued that,
 but I have continued to express great interest in space exploration. 
 
-.. image:: /images/content/neowise.jpg
+.. image:: images/neowise.jpg
    :title: Comet C/2020 F3 NEOWISE
    :align: left
 
@@ -76,7 +76,7 @@ out to be written in PHP!
 To be honest, this took a lot more work than I originally had thought, with
 many hours spend on my side, all in the name of science.
 
-.. image:: /images/content/8697_20632_2.png
+.. image:: images/8697_20632_2.png
    :title: Planet Six — http://ciclops.org/view/8697/Planet-Six.html
 
 The resulting site is something to be proud of. The search is faster

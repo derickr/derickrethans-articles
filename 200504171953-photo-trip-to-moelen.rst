@@ -6,7 +6,7 @@ Photo Trip to Mølen
    :Date: 20050417 1953 CEST
    :Tags: photography
 
-.. image:: /images/content/koelen.jpg
+.. image:: images/koelen.jpg
    :align: center
    :target: http://photos.derickrethans.nl/2005norway-moelen/abl
 
@@ -16,7 +16,7 @@ this time also Auto-Focus. Together with Kristian and Łukasz we drove
 to Helgeroa over the old E18 to Mølen, a "famous" beach full
 with stones.
 
-.. image:: /images/content/stavern.jpg
+.. image:: images/stavern.jpg
    :align: center
    :target: http://photos.derickrethans.nl/2005norway-moelen/abn
 

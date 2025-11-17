@@ -6,7 +6,7 @@ eZ Components 2008.2 roadmap
    :Date: 20080624 1602 CEST
    :Tags: blog, cms, php, work
 
-.. image:: /images/content/ezc-logo.png
+.. image:: images/ezc-logo.png
    :align: center
    :target: http://ezcomponents.org/
 

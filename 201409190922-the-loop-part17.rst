@@ -11,7 +11,7 @@ We walked section 17 of the LOOP_ nearly a month ago on August 17th. I've
 procrastinated on writing about this section for way too long, so hopefully my
 memory has not degraded too much.
 
-.. image:: /images/content/loop17-d36_8949.jpg
+.. image:: images/loop17-d36_8949.jpg
    :align: right
 
 We started off in Cockfosters at the end of the Piccadilly Line and after
@@ -28,7 +28,7 @@ was already harvested. After quite a bit more farm land, part of the `Enfield
 Chase Estate`_ we climbed up another short hill and through newly created
 Brooke Wood to get to the outskirts of of Enfield.
 
-.. image:: /images/content/loop17-d36_8965.jpg
+.. image:: images/loop17-d36_8965.jpg
 
 We did not enter the town, but instead went north over a very nice new paved
 path, which continued onto an even nicer metalled path through woods and under
@@ -42,7 +42,7 @@ the `Gunpowder Plot`_, as it was *way* too loud in, and around the pub. Instead
 we continued onwards with `Turkey Brook`_ to our left, with the music slowly
 getting less loud over the next mile.
 
-.. image:: /images/content/loop17-d36_9028.jpg
+.. image:: images/loop17-d36_9028.jpg
    :align: left
 
 We entered `Forty Hall estate`_ where we made a detour to have lunch at the

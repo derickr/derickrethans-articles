@@ -6,7 +6,7 @@ Red Moon-set
    :Date: 20050420 2118 CEST
    :Tags: photography
 
-.. image:: /images/content/moon-red.png
+.. image:: images/moon-red.png
    :align: center
    :target: http://photos.derickrethans.nl/moon/aas
 

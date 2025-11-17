@@ -18,7 +18,7 @@ later.
 .. _mkgmap: http://wiki.openstreetmap.org/wiki/Mkgmap
 .. _OpenStreetMap: http://wiki.openstreetmap.org/
 
-.. image:: /images/content/garmin-osm.jpg
+.. image:: images/garmin-osm.jpg
    :align: left
 
 Because most of the data in OpenStreetMap has been surveyed by volunteers,

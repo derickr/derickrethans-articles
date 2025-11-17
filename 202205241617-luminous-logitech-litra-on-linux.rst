@@ -41,7 +41,7 @@ Although I could configure it to use a command line tool invocation, I thought
 it would be nicer if I could control it directly from that Go applications.
 Which meant that I had to write a Go driver for it. 
 
-.. image:: /images/content/streamdeck-litra.gif
+.. image:: images/streamdeck-litra.gif
    :title: Stream Deck controlling Litra
    :align: right
 

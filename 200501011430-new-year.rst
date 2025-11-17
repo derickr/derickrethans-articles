@@ -6,7 +6,7 @@ New Year
    :Date: 20050101 1430 CET
    :Tags: php
 
-.. image:: /images/content/new-year.jpg
+.. image:: images/new-year.jpg
    :align: center
 
 All the best for 2005!

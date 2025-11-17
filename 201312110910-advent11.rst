@@ -13,7 +13,7 @@ publicly observable cell tower and WiFi access point information". In other
 words, it is going to provide a similar service as Google's location service
 that Firefox currently uses for its `location aware browsing`_. 
 
-.. image:: /images/content/advent2013-11a.png
+.. image:: images/advent2013-11a.png
    :align: left
 
 In order to provide this service, they need geolocated data so that they know
@@ -24,7 +24,7 @@ services like this, and I think that Mozilla seems like a good caretaker of
 this data, respecting privacy. So I have installed MozStumbler_ and turn it on
 whenever I go on a new route through town. 
 
-.. image:: /images/content/advent2013-11b.png
+.. image:: images/advent2013-11b.png
    :align: right
 
 The application isn't the prettiest as you can see, but it does work well.

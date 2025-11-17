@@ -16,7 +16,7 @@ details of things that are mapped incorrectly, or not mapped at all.
 
 Take for example the following note:
 
-.. image:: /images/content/advent2013-05a.png
+.. image:: images/advent2013-05a.png
 
 This note can be found on the website_ too.
 
@@ -26,13 +26,13 @@ walking anyway, so walked from Baker Street towards Oxford Street in a
 zigzaggy line towards the pub. You can see the GPS trace here taken from a
 screenshot on OsmAnd_, which has a nice little Notes plugin/interface.
 
-.. image:: /images/content/advent2013-05b.png
+.. image:: images/advent2013-05b.png
 
 What this also shows, is the 5 notes that I closed (the green dots)!
 
 However, there are still plenty of notes left in central London:
 
-.. image:: /images/content/advent2013-05c.png
+.. image:: images/advent2013-05c.png
 
 If you have an OpenStreetMap account, and are logged in, you can add comments
 and/or resolve issues if you know how to edit OpenStreetMap. Maybe you can

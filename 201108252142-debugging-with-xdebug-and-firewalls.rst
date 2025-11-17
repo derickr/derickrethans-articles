@@ -77,12 +77,12 @@ session, go to the ``Connection``, ``SSH``, ``Tunnels`` section of the
 configuration and fill in ``Source port`` and ``Destination``, and select
 ``Remote``, just like in this screen shot:
 
-.. image:: /images/content/putty-tunnel-settings.png
+.. image:: images/putty-tunnel-settings.png
    :align: center
 
 Then click the ``Add`` button and you will see the following on your screen:
 
-.. image:: /images/content/putty-tunnel-result.png
+.. image:: images/putty-tunnel-result.png
    :align: center
 
 Don't forget to go back to the ``Session`` tab and press save. You're now

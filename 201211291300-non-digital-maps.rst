@@ -16,11 +16,11 @@ The first one, was a 1800s style rendering of London from `Wellingtons
 Travel`_ — fully hand-drawn. I found them quite beautiful, and would be happy
 to have one on my wall. Some pictures that I took of it are here:
 
-.. image:: /images/content/1800map1.jpg
+.. image:: images/1800map1.jpg
 
-.. image:: /images/content/1800map2.jpg
+.. image:: images/1800map2.jpg
 
-.. image:: /images/content/1800map3.jpg
+.. image:: images/1800map3.jpg
 
 I am even more excited about a second project: SplashMaps_. At some point you
 probably have been in a situation where you were out and about walking
@@ -38,7 +38,7 @@ map printed on cloth, water-proof, but you can still use a marker to mark out
 your route, wash it, and it is good as new again.  Here is a picture of one of
 their prototypes of the New Forest:
 
-.. image:: /images/content/splashmap.jpg
+.. image:: images/splashmap.jpg
 
 The maps are
 specifically made with walking and cycling (in national parks) in mind, so it

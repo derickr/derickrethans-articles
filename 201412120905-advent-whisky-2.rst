@@ -10,10 +10,10 @@ Whisky Advent: part 2
 December 5th: Blue Hanger, 8th Release
 --------------------------------------
 
-.. image:: /images/content/whisky/day5-glass.jpg
+.. image:: images/whisky/day5-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day5-label.jpg
+.. image:: images/whisky/day5-label.jpg
    :align: left
 
 This `Blue Hanger`_ is the only blend on the calendar, but this is an unusual
@@ -35,10 +35,10 @@ smoke.
 December 6th: Springbank 12 Green
 ---------------------------------
 
-.. image:: /images/content/whisky/day6-glass.jpg
+.. image:: images/whisky/day6-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day6-label.jpg
+.. image:: images/whisky/day6-label.jpg
    :align: left
 
 As this month's whisky of the month, I went to my favourite whisky shop in
@@ -63,10 +63,10 @@ lingers quite long with peat and a hint of sherry.
 December 7th: Single Cask Ardmore 16
 ------------------------------------
 
-.. image:: /images/content/whisky/day7-glass.jpg
+.. image:: images/whisky/day7-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day7-label.jpg
+.. image:: images/whisky/day7-label.jpg
    :align: left
 
 Tonight's dram is 16 years old, distilled in 1996 by Ardmore_ and bottled in
@@ -85,10 +85,10 @@ in the aftertaste.
 December 8th: anCnoc 22
 -----------------------
 
-.. image:: /images/content/whisky/day8-glass.jpg
+.. image:: images/whisky/day8-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day8-label.jpg
+.. image:: images/whisky/day8-label.jpg
    :align: left
 
 A typical winter warmer from anCnoc_. It is 22 years old, and as usual in a
@@ -104,10 +104,10 @@ of flavours. The finish is spicy.
 December 9th: Glenburgie 1994
 -----------------------------
 
-.. image:: /images/content/whisky/day9-glass.jpg
+.. image:: images/whisky/day9-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day9-label.jpg
+.. image:: images/whisky/day9-label.jpg
    :align: left
 
 This `17 year old whisky`_ is distilled by Glenburgie, and bottled by Gordon &
@@ -132,7 +132,7 @@ and cloves. The after taste is a little bit zesty, and has hints of oak.
 December 10th: Tomintoul 16
 ---------------------------
 
-.. image:: /images/content/whisky/day10-bottle.jpg
+.. image:: images/whisky/day10-bottle.jpg
    :align: left
 
 I spoke at `Glasgow PHP`_ this evening, which meant that I couldn't do my
@@ -152,10 +152,10 @@ had forgotten about it at all.
 December 11th: Mannochmore 12
 -----------------------------
 
-.. image:: /images/content/whisky/day11-glass.jpg
+.. image:: images/whisky/day11-glass.jpg
    :align: right
 
-.. image:: /images/content/whisky/day11-label.jpg
+.. image:: images/whisky/day11-label.jpg
    :align: left
 
 This latest whisky comes from the Mannochmore_ distillery, which produces for

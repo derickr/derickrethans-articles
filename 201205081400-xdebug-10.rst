@@ -8,7 +8,7 @@
    :Short: xdebug-10
 
 
-.. image:: /images/content/cake.jpg
+.. image:: images/cake.jpg
    :align: right
    :title: "landhere" — Creative Commons Attribution Share Alike — http://www.flickr.com/photos/landhere/384076624/
 
@@ -23,11 +23,11 @@ I've already written about that before, but here are the screenshots again:
 
 Linux/Mac:
 
-.. image:: /images/content/cli-color-linux.png
+.. image:: images/cli-color-linux.png
 
 Windows:
 
-.. image:: /images/content/cli-color-windows.png
+.. image:: images/cli-color-windows.png
 
 You can find an article about this here__.
 
@@ -114,7 +114,7 @@ suppression ignored for*" warning prepended to the actual error message.
 
 .. _`xdebug.scream`: http://xdebug.org/docs/all_settings#scream
 
-.. image:: /images/content/champagne.jpg
+.. image:: images/champagne.jpg
    :align: left
 
 **Changelog**

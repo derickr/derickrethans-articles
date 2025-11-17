@@ -23,7 +23,7 @@ mechanism in PHP 5.3, we'll dive into a solution to the problem with circular
 references. If we look quickly back, we found that by using code like the
 following, an in-request memory leak is created:
 
-.. image:: /images/content/gc-part2-figure1.png
+.. image:: images/gc-part2-figure1.png
 
 Traditionally, reference counting memory mechanisms such as PHP uses, fail to
 address those circular reference memory leaks. Back in 2007 while looking into
@@ -50,7 +50,7 @@ discover which parts are garbage by checking whether it is possible to
 decrease their refcount by one, and then check which of the zvals have a
 refcount of zero. 
 
-.. image:: /images/content/gc-part2-figure2.png
+.. image:: images/gc-part2-figure2.png
 
 To avoid having to call the checking of garbage cycles with every possible
 decrease of a refcount the algorithm instead puts all possible roots (zvals) in the

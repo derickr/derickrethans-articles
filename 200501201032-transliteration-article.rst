@@ -6,7 +6,7 @@ Transliteration Article
    :Date: 20050120 1032 CET
    :Tags: php, cms
 
-.. image:: /images/content/mag47.png
+.. image:: images/mag47.png
    :align: left
 
 `php|architect`_ published an article in the `January`_ issue about the `Transliteration Extension`_ . In this article I explain all the different filters

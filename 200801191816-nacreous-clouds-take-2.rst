@@ -6,7 +6,7 @@ Nacreous Clouds - take 2
    :Date: 20080119 1816 CET
    :Tags: blog, nature, photography, php
 
-.. image:: /images/content/nacreous2.jpg
+.. image:: images/nacreous2.jpg
    :align: center
 
 Finally another sighting of those rare nacreous clouds. More on `flickr`_ .

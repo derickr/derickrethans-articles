@@ -7,7 +7,7 @@ Leap Seconds and What To Do With Them
    :Tags: blog, cms, php, work, datetime
    :Short: leapsec
 
-.. image:: /images/content/clock.jpg
+.. image:: images/clock.jpg
    :align: right
 
 The start

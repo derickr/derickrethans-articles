@@ -28,7 +28,7 @@ Beyond a brief period in `early 2020 <https://xdebug.org/log>`_ when I was
 rewriting Xdebug to version 3, this amounts to funding for about 25 hours a
 month, with a steady decline.
 
-.. image:: /images/content/xdebug-funding-2022.png
+.. image:: images/xdebug-funding-2022.png
 
 Twenty-five hours a month is about the minimum needed to **maintain** Xdebug
 for newer versions of PHP, including support for new features, as well as
@@ -129,4 +129,4 @@ questions.
 In the past 21 years I have enjoyed working on Xdebug immensely, and I hope to
 be able to do this for another 21 years. Happy Birthday!
 
-.. image:: /images/content/cupcakes.png
+.. image:: images/cupcakes.png

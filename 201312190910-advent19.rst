@@ -15,7 +15,7 @@ now works a lot better again after Mozilla started doing their
 `location project`_). When I am at home, this background however has this
 (empty) spot on it:
 
-.. image:: /images/content/advent2013-19a.png
+.. image:: images/advent2013-19a.png
 
 And empty spots are annoying! So, during a lunch break in the last few days, I
 went out and walked over `The Avenue`_ to do some mapping. I find it way
@@ -26,7 +26,7 @@ shop's name or type.
 
 Notes on pen and paper I make plenty, and they look like this:
 
-.. image:: /images/content/advent2013-19b.png
+.. image:: images/advent2013-19b.png
 
 Over the past few years I have developed a short hand for all kinds of things.
 You can see house numbers (a), how many floors, the colour of the building,
@@ -36,7 +36,7 @@ extract above.
 With the notes on paper, I then use JOSM_ to add the information to the map.
 JOSM's interface looks like:
 
-.. image:: /images/content/advent2013-19c.png
+.. image:: images/advent2013-19c.png
 
 JOSM is a little bit like the VIM_, but then for editting OpenStreetMap. It is
 not the easiest editor, but so much more powerfull than the online editor iD_.
@@ -54,7 +54,7 @@ to the map:
 In the end, when everything has been added and uploaded, and the
 OpenStreetMap_ website rendered my updates, the map now looks like:
 
-.. image:: /images/content/advent2013-19d.png
+.. image:: images/advent2013-19d.png
 
 Now it is just a matter of adding the information from the other eight pages
 of notes I made on this trip!

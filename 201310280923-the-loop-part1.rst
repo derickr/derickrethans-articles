@@ -28,14 +28,14 @@ enough to walk although we got a bit lost with all the `odd paths`_ near the
 river. Once we got past all the scrap yards that seems to litter this area we
 finally got to the Thames on the Thames Path SE extension.
 
-.. image:: /images/content/loop1-d36_2850a.jpg
+.. image:: images/loop1-d36_2850a.jpg
 
 A pleasent walk past the Erith and Crayford marches. The QE2 bridge that makes
 up part of the Dartford crossing was easy to spot in the east. The Erith
 marshes contain quite a bit of World War II anti-aircraft equipment of which
 hints could still be seen. 
 
-.. image:: /images/content/loop1-d36_2852a.jpg
+.. image:: images/loop1-d36_2852a.jpg
    :align: left
 
 After a while along the Thames, we walked around another scrap metal yard and
@@ -47,7 +47,7 @@ of water from the Thames in times of high water. OpenStreetMap indicates that
 at some point there might be NCN_ going over/through it, but right now there is
 no way that is now.
 
-.. image:: /images/content/loop1-d36_2863a.jpg
+.. image:: images/loop1-d36_2863a.jpg
    :align: right
 
 After following the river Darent and the mud flats that surround it for about
@@ -56,7 +56,7 @@ bit of industrial land (another scrap yard!) the walk along the Cray river was
 pleasent, with autumn colours and muddy paths—just what you would expect for
 an autumn walk.
 
-.. image:: /images/content/loop1-d36_2872a.jpg
+.. image:: images/loop1-d36_2872a.jpg
    :align: left
 
 We stopped for lunch at the `Bear & Ragged Staff`_, a Greene
@@ -69,13 +69,13 @@ the river Cray again where the paths became muddier and the clouds darker.
 Once we managed to cross over the the railway and under the A2_ the drizzle
 started.
 
-.. image:: /images/content/loop1-d36_2881a.jpg
+.. image:: images/loop1-d36_2881a.jpg
 
 Turning into small woods on the way to Bexley, the trees saved us from most of
 the rain that had now started in earnest. However at the end, there was about
 500 meters to go into Bexley.
 
-.. image:: /images/content/loop1-d36_2883a.jpg
+.. image:: images/loop1-d36_2883a.jpg
    :align: left
 
 We took a bit of a side tour through St. Mary the Virgin's cemetary and after a

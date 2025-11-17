@@ -25,7 +25,7 @@ than the route that was suggested by National Rail Inquiries: train from
 Charing Cross to Plumstead, bus to Dartford, and then the train *back* to
 Bexley.
 
-.. image:: /images/content/loop2-d36_4581.jpg
+.. image:: images/loop2-d36_4581.jpg
    :align: left
 
 From Bexley startion we crossed under the railway and headed South. Just
@@ -36,9 +36,9 @@ fact, it was so high that many of the paths were either flooded—or very muddy.
 The muddy path opened up into the Stable and Footscray Meadows and a very lovely
 bridge, the Five Arches, crossing over the river Cray.
 
-.. image:: /images/content/loop2-d36_4585.jpg
+.. image:: images/loop2-d36_4585.jpg
 
-.. image:: /images/content/loop2-d36_4589.jpg
+.. image:: images/loop2-d36_4589.jpg
    :align: left
 
 I think there was a bit more water in the meadows than there usually was. Or
@@ -47,7 +47,7 @@ dry way out of the meadows into the direction we had to be going. The photo to
 the right just points out how much water we had to wade through. I estimate it
 was about 3 inches deep.
 
-.. image:: /images/content/loop2-d36_4604.jpg
+.. image:: images/loop2-d36_4604.jpg
    :align: right
 
 Past the meadows and All Saints Church we stopped in Sidcup for lunch.
@@ -61,7 +61,7 @@ Sidcup Place and crossing the A20 into Scadbury Park.
 __ http://www.openstreetmap.org/way/264155174#map=19/51.42186/0.10144
 .. _`Urban Food`: http://www.openstreetmap.org/way/264157127#map=19/51.42588/0.10368
 
-.. image:: /images/content/loop2-d36_4611.jpg
+.. image:: images/loop2-d36_4611.jpg
 
 `Scadbury Park`_ is rather large and a local nature reserve. It is also old
 and has a ruined moated manor in the middle, which was owned by the
@@ -73,9 +73,9 @@ route.
 
 __ http://www.openstreetmap.org/way/263138032
 
-.. image:: /images/content/loop2-d36_4616.jpg
+.. image:: images/loop2-d36_4616.jpg
 
-.. image:: /images/content/loop2-d36_4631.jpg
+.. image:: images/loop2-d36_4631.jpg
    :align: right
 
 From Scadbury park we crossed into Petts Wood, or rather perhaps it should be
@@ -84,7 +84,7 @@ times up to half a foot deep. An indication of the amount is visible in the
 image to the right. I don't think I've ever had this much mud on a walk
 actually.
 
-.. image:: /images/content/loop2-d36_4639.jpg
+.. image:: images/loop2-d36_4639.jpg
    :align: left
 
 This meant that we were a bit delayed and we would just miss the

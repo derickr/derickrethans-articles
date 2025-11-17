@@ -15,7 +15,7 @@ Publish`_.
 
 Here is also a screenshot of Meld in action:
 
-.. image:: images/content/meld.png
+.. image:: images/meld.png
 
 .. _`work`: http://ez.no
 .. _`Meld`: http://meld.sourceforge.net/

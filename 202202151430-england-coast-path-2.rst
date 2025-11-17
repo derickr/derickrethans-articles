@@ -98,7 +98,7 @@ dry side) are a `Site of Specific Scientific Interest
 have a fairly stable water level, and are apparently an important habitat for
 water voles.
 
-.. image:: /images/content/ecp-weird-loop.jpg
+.. image:: images/ecp-weird-loop.jpg
    :title: Weird Loop
    :align: right
 

@@ -4,7 +4,7 @@ What would you ask...
 .. articleMetaData::
    :Where: Dieren, The Netherlands
 
-.. image:: images/content/laden.jpg
+.. image:: images/laden.jpg
 
 World's most wanted bandit, `Mr Bin Laden`_.  My `sister`_ was asking on her
 `blog`_ (in Dutch) three questions to her audience. I started wondering and

@@ -31,7 +31,7 @@ tracker.
 Still tearing my hairs out, I contacted `Nikita Popov`_ to see if he knew
 whether there was anything special about ``php_addslashes``. His reply:
 
-.. image:: /images/content/nikita-suspicion.png
+.. image:: images/nikita-suspicion.png
    :alt: I have some suspicions...
 
 And his suspicion turned out to be right.

@@ -34,14 +34,14 @@ coordinates (52.37°N, 4.90°E) we can calculate the distance with::
 
 And on a map:
 
-.. image:: /images/content/distance-amsterdam-london.png
+.. image:: images/distance-amsterdam-london.png
 
 But what does a difference of "5.10°" actually mean? How far is this in useful
 units, such as meters?
 
 If we show the whole map of which the above is an extract, we come to:
 
-.. image:: /images/content/map-flat.png
+.. image:: images/map-flat.png
 
 The distance around the equator, and through the poles is roughly the same,
 40.000km (please be aware that the blue line only shows half of it, the other
@@ -76,7 +76,7 @@ The following diagram shows ones more that latitudinal degrees always
 correspond with the same distance in kilometer, whereas longitudinal degrees
 differ.
 
-.. image:: /images/content/sphere2.png
+.. image:: images/sphere2.png
 
 In the diagram the line A is a line from 0°N, 90°W to 10°N, 90°W. It has the
 same length as line B, from 30°N, 90°W to 40°N, 90°W: a 36th of the
@@ -108,7 +108,7 @@ whole sphere that connects both the start (point P) as well as the end (point
 V). Then with that circle the distance can be calculated. The following
 diagram shows this:
 
-.. image:: /images/content/great-circle.jpg
+.. image:: images/great-circle.jpg
 
 I will spare you how the function is derived, but the distance calculation
 ends up as being::

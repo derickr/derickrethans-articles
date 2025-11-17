@@ -6,7 +6,7 @@ eZ components article in php|architect
    :Date: 20060228 2120 CET
    :Tags: cms, php, work
 
-.. image:: /images/content/cover-components.png
+.. image:: images/cover-components.png
    :align: left
 
 In `this month's`_ issue of php|architect you can find an article on the `eZ components`_ . In

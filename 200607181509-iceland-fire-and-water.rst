@@ -34,7 +34,7 @@ long trip. A guesthouse is normally just a small step down from a hotel
 usually without people cleaning up your room every day. It does however
 provide a good and somewhat cheaper place to stay at.
 
-.. image:: /images/content/is-bluelagoon.jpg
+.. image:: images/is-bluelagoon.jpg
    :align: center
 
 The next day we toured around Reykjavik and the Reykjanes peninsula a
@@ -50,7 +50,7 @@ both off the road and on the roads.
 
 *Þingvellír (Thingvellir)*
 
-.. image:: /images/content/is-thingvellir.jpg
+.. image:: images/is-thingvellir.jpg
    :align: right
 
 Iceland begun quite some time ago with the first parliament ever in
@@ -78,7 +78,7 @@ our map had it in a totally wrong place, however my GPS map (!! add
 link) did have it correctly. (!! add stuff about this event). All that
 as left now is a crater which now houses a small lake in the middle.
 
-.. image:: /images/content/is-strokkur.jpg
+.. image:: images/is-strokkur.jpg
    :align: left
 
 The
@@ -100,7 +100,7 @@ the weather was fair so we could enjoy the magic of the great falls.
 
 *Past the great glacier*
 
-.. image:: /images/content/is-puffin.jpg
+.. image:: images/is-puffin.jpg
    :align: left
 
 Leaving Reykjavik behind we set off for Höfn (pronounced like
@@ -114,7 +114,7 @@ then proceeded our route to Höfn. When driving along the southern ring
 road we passed lots of lava fields and glacier tongues. The glacier
 toungues are all part of the largest icecap of Europe: Vatnajökull.
 
-.. image:: /images/content/is-glacier.jpg
+.. image:: images/is-glacier.jpg
    :align: center
 
 About an hour before Höfn we passed the Jökulsárlón bay which is
@@ -178,7 +178,7 @@ spray in the background already. Dettifoss is actually quite ugly with
 black water but it is the most powerful waterfall in Iceland so you
 shouldn't really miss it.
 
-.. image:: /images/content/is-pothole.jpg
+.. image:: images/is-pothole.jpg
    :align: right
 
 From
@@ -197,7 +197,7 @@ Hverarönd area which also has a lot of interesting pools.
 
 *Dimmuborgir*
 
-.. image:: /images/content/is-dimmu.jpg
+.. image:: images/is-dimmu.jpg
    :align: center
 
 On our last day on the North side of the country we again traveled to
@@ -213,7 +213,7 @@ visited the Laufás farm museum which has some restored old homes.
 
 *To the west*
 
-.. image:: /images/content/is-kirkufjell.jpg
+.. image:: images/is-kirkufjell.jpg
    :align: left
 
 After Akureyri we traveled to the Snæfellsness peninsula on the west
@@ -227,7 +227,7 @@ early.
 
 *Snæfellsness Peninsula*
 
-.. image:: /images/content/is-arnarstapi.jpg
+.. image:: images/is-arnarstapi.jpg
    :align: right
 
 At the westernern part of Iceland is the Snæfellsness peninsula with

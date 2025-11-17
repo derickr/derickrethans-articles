@@ -44,7 +44,7 @@ on the command line::
 
 And you get an extract that looks something like this:
 
-.. image:: /images/content/josm-tzshapefile2.png 
+.. image:: images/josm-tzshapefile2.png 
 
 JOSM then allows us to save it as an OSM file that we subsequently can import
 with the MongoDB/OSM import script that I wrote about in `importing
@@ -139,12 +139,12 @@ It's output (after formatting) is::
 
 If we represent that as an image, we'll see:
 
-.. image:: /images/content/tz-terschelling.png
+.. image:: images/tz-terschelling.png
 
 With the Timezone Identifier that we find (``$s['ts']``) we can now find all
 the other documents that have the same Timezone Identifier:
 
-.. image:: /images/content/tz-nederland.png
+.. image:: images/tz-nederland.png
 	:align: right
 
 ::
@@ -175,7 +175,7 @@ the other documents that have the same Timezone Identifier:
 Territorial Waters
 ------------------
 
-.. image:: /images/content/tz-france.png
+.. image:: images/tz-france.png
 	:align: left
 
 With the above two snippets we can now find the timezone, and hence the time,
@@ -323,7 +323,7 @@ We create a fake polygon to show the area::
 
 Which results in:
 
-.. image:: /images/content/tz-nautical.png
+.. image:: images/tz-nautical.png
 
 A demo is available at http://maps.derickrethans.nl/?q=timezone&zoom=5 and
 the code is available through https://github.com/derickr/3angle with the

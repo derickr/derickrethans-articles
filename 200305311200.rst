@@ -4,7 +4,7 @@ Solar Eclipse
 .. articleMetaData::
    :Where: Dieren, The Netherlands
 
-.. image:: images/content/solarvert.png
+.. image:: images/solarvert.png
 
 Only two weeks after the `Lunar eclipse on May 16th`_ we had another eclipse, a
 partial `annular solar eclipse`_. Because much of the theory is the same as
@@ -16,7 +16,7 @@ at 5:29am today so I had to get up early in order to witness this event.  When
 I drove to my spot I saw that I wasn't the only person waking up to see the
 event, and I ended up watching with about 15 other people.
 
-.. image:: images/content/solarbirds.png
+.. image:: images/solarbirds.png
 
 In the first ten minutes there was nothing to see, until 5:41 where we finally
 spotted the sun. I started taking pictures every 30 to 60 seconds in order to
@@ -36,7 +36,7 @@ written permission.
 .. _`PHP`: http://www.php.net/
 .. _`Lunar eclipse on May 16th`: /20030523.php
 .. _`annular solar eclipse`: http://sunearth.gsfc.nasa.gov/eclipse/ASE2003/ASE2003.html
-.. _`path`: images/content/ASE2003-3b.GIF
+.. _`path`: rst/images/ASE2003-3b.GIF
 .. _`first photo in the series, taken at 5:41:15am`: http://photos.derickrethans.nl/solar2003/aaa?full=1
 .. _`last photo in the series, taken at 6:06:45am`: http://photos.derickrethans.nl/solar2003/abf?full=1
 .. _`here`: http://photos.derickrethans.nl/solar2003

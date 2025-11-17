@@ -6,7 +6,7 @@ IR remote for D70 and startrails
    :Date: 20050427 0103 CEST
    :Tags: photography
 
-.. image:: /images/content/astronomy/star-trails1.jpg
+.. image:: images/astronomy/star-trails1.jpg
    :align: center
    :target: http://photos.derickrethans.nl/constellations/aaj?full=1
 

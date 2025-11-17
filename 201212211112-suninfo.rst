@@ -7,7 +7,7 @@ Weather from the Norwegians, sunset and sunrise
    :Tags: blog, php
    :Short: sun
 
-.. image:: /images/content/pi-sun.png
+.. image:: images/pi-sun.png
    :align: right
    :alt: Weather widget
 
@@ -183,7 +183,7 @@ follows::
 		$symbol = sprintf( "%02dn", $nr );
 	}
 
-.. image:: /images/content/weather-symbols.png
+.. image:: images/weather-symbols.png
    :align: center
    :alt: Yr's weather symbols
 

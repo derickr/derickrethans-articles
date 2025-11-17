@@ -36,7 +36,7 @@ After a cup of tea in a café full of loonies, we left for the show. We
 had a great time, although his accent was sometimes a bit hard to
 understand for me. A cab brought me back to the "hotel".
 
-.. image:: /images/content/edinburgh.jpg
+.. image:: images/edinburgh.jpg
    :align: right
 
 After
@@ -77,7 +77,7 @@ early and wandered about the really windy harbour. They also tried to
 fool me that my ferry would be two hours later, but that I didn't go
 for. The trip of the Firth of Clyde was windy, bumpy and slight sunny.
 
-.. image:: /images/content/falkirk.jpg
+.. image:: images/falkirk.jpg
    :align: left
 
 When I
@@ -91,7 +91,7 @@ a bit for the hikes of the following day.
 
 *Isle of Arran, August 12th, 2008*
 
-.. image:: /images/content/machrie.jpg
+.. image:: images/machrie.jpg
    :align: right
 
 Hiking
@@ -118,7 +118,7 @@ the day.
 
 *Isle of Arran to Isle of Skye, August 13th, 2008.*
 
-.. image:: /images/content/stalker.jpg
+.. image:: images/stalker.jpg
    :align: right
 
 A heavy
@@ -144,7 +144,7 @@ walk to the Cave of Gold but was met by some bulls in a field that I had
 to cross. I gave up in fear of my life, and instead drove to Neist's
 point and enjoyed the view there in the setting sun.
 
-.. image:: /images/content/quiraing.jpg
+.. image:: images/quiraing.jpg
    :align: center
 
 I had dinner at "Old School" restaurant. Actually, I had
@@ -154,7 +154,7 @@ have been *my* accent of course as well). Both dinners were
 excellent; if you want to eat here as well, make sure you book on time,
 one, if not two days before hand.
 
-.. image:: /images/content/storr.jpg
+.. image:: images/storr.jpg
    :align: left
 
 The second
@@ -181,7 +181,7 @@ all the heaths were blossoming. I was staying in a small village, Edzell
 at the Kelvingrove B&B. I had dinner at the Panmure Arms Hotel,
 which has an interesting setting. The food however was excellent.
 
-.. image:: /images/content/eilean_donan.jpg
+.. image:: images/eilean_donan.jpg
    :align: center
 
 *Angus, August 17th, 2008*
@@ -200,7 +200,7 @@ to walk, the rain started to pour down as well. So I aborted and went
 back to the B&B to eat, pack and watch a movie. The following day I
 was going home again.
 
-.. image:: /images/content/glamis.jpg
+.. image:: images/glamis.jpg
    :align: center
 
 *Final notes*

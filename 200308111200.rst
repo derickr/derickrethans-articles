@@ -262,7 +262,7 @@ laptop at home... the lag was not too bad fortunately. After the
 presentation we went with some of the attendees went for some food and
 a drink to `Steamworks`_.
 
-.. image:: images/content/lamps.jpg
+.. image:: images/lamps.jpg
 
 *Day #10*: With a slow start we begun our day. Shane and Beth, our hosts
 had to go to work so we were kicked out of the house to do something
@@ -292,7 +292,7 @@ other sections, such as a tropical forest (including crocs and
 butterflies). One of the major events there is the whale show, where
 Beluga Whales do little tricks in orer to get more fish ;).
 
-.. image:: images/content/celebration-of-light.png
+.. image:: images/celebration-of-light.png
 
 The aquarium is a nice place to visit, and outside the site itself, they
 also provide advise to and support other environment related projects

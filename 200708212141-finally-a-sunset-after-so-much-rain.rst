@@ -6,7 +6,7 @@ Finally a sunset after so much rain.
    :Date: 20070821 2141 CEST
    :Tags: blog, nature, photography, php
 
-.. image:: /images/content/sunset.jpg
+.. image:: images/sunset.jpg
    :align: center
    :target: http://www.flickr.com/photos/derickrethans/1196582162/in/set-72157601593025371/
 

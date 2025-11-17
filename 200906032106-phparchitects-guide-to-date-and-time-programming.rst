@@ -6,7 +6,7 @@ php|architect's Guide to Date and Time Programming
    :Date: 20090603 2106 CEST
    :Tags: blog, php, work, datetime
 
-.. image:: /images/content/datebook-cover.jpg
+.. image:: images/datebook-cover.jpg
    :align: left
    :target: http://phpdatebook.com
 

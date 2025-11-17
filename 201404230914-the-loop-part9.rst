@@ -10,7 +10,7 @@ Walking the London LOOP - part 9
 Due to abysmal weather, we moved our walk to Monday this weekend. That was not
 much of a problem as it was Easter Monday.
 
-.. image:: /images/content/loop9-d36_5167.jpg
+.. image:: images/loop9-d36_5167.jpg
    :align: left
 
 We traveled back to Kingston and crossed the bridge over the Thames. Just
@@ -19,7 +19,7 @@ of shoes in them! All a similar style as well. The first part through Bushy
 Park were open fields, and a few ponds with birds nesting in the reeds around
 it.
 
-.. image:: /images/content/loop9-d36_5185.jpg
+.. image:: images/loop9-d36_5185.jpg
    :align: right
 
 After a while we crossed a road and ended up at the `Woodland Gardens`_. They
@@ -43,13 +43,13 @@ After picking up lunch we followed a few residential streets and found the
 `Crane River`_, past which we would walk for almost all of the rest of the
 walk.
 
-.. image:: /images/content/loop9-d36_5201.jpg
+.. image:: images/loop9-d36_5201.jpg
 
 The park near the river had some good walking paths and it was also the place
 where we enjoyed our bought sandwiches, crisps and drinks on a bench, in the
 sun, with flocks of parakeets and airlines flying over.
 
-.. image:: /images/content/loop9-d36_5206.jpg
+.. image:: images/loop9-d36_5206.jpg
    :align: right
 
 After a while we came upon the `Shot Tower`_, where they previously made
@@ -61,7 +61,7 @@ there on we continued through Brazil Mill Woods, Donkey Wood and the
 Causeway all the way to the Great South West Road. I think we were lucky that
 it was a Sunday, as there was nearly no traffic.
 
-.. image:: /images/content/loop9-d36_5214.jpg
+.. image:: images/loop9-d36_5214.jpg
    :align: left
 
 The end of the walk was at Hatton Cross station, near the end of Heathrow's

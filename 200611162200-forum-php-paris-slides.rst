@@ -6,7 +6,7 @@ Forum PHP Paris slides
    :Date: 20061116 2200 CET
    :Tags: cms, conference, php, travel, work
 
-.. image:: /images/content/eiffel2.png
+.. image:: images/eiffel2.png
    :align: right
 
 Last week after returning from Frankfurt I continued my way to Paris to

@@ -6,7 +6,7 @@ php|works
    :Date: 20060705 1113 CEST
    :Tags: cms, conference, php, work
 
-.. image:: /images/content/phpw_button_Speaker_2006.gif
+.. image:: images/phpw_button_Speaker_2006.gif
    :align: left
 
 I'll be speaking at `php|works`_ (September 12-14)

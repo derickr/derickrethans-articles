@@ -23,7 +23,7 @@ rumours go that I get to buy you guys and girls a drink as well.
 In the end, after discussing with other web/PHP usergroups in the South
 East of the US, we came to the following schedule:
 
-.. image:: /images/content/mongo-tour.png
+.. image:: images/mongo-tour.png
    :align: left
 
 **Boca Raton, Florida - SoFloPHP - Tuesday, September 18**

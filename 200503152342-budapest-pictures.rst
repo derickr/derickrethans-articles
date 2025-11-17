@@ -9,15 +9,15 @@ Budapest Pictures
 I've been speaking at the `PHP Konferencia`_ in Budapest. Of
 course I had also some time for sightseeing - and of course make some photos:
 
-.. image:: /images/content/bud-waterfront.jpg
+.. image:: images/bud-waterfront.jpg
    :align: center
    :target: http://photos.derickrethans.nl/phpconf-budapest/aax
 
-.. image:: /images/content/bud-castle.jpg
+.. image:: images/bud-castle.jpg
    :align: center
    :target: http://photos.derickrethans.nl/phpconf-budapest/abc
 
-.. image:: /images/content/bud-heroes.jpg
+.. image:: images/bud-heroes.jpg
    :align: center
    :target: http://photos.derickrethans.nl/phpconf-budapest/aav
 

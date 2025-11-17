@@ -10,7 +10,7 @@ I finally took the effort to buy a new camera. It's a Nikon D70. I decided again
 (crappy) bundled lenses but instead bough a f=1.2 55mm second hand. As soon as I got the camera and lens
 assembled I started playing with it ofcourse, and fortunately the sky was looking really nice.
 
-.. image:: /images/content/sky1.jpg
+.. image:: images/sky1.jpg
    :align: center
 
 I'm not sure how this effect occurs, but the sun is already below the horizon and shining from below on the

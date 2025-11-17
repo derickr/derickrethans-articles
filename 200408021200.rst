@@ -37,7 +37,7 @@ was a rather good surprise.
 
 
 
-.. image:: images/content/panorama/thumb/rondane.jpg
+.. image:: images/panorama/thumb/rondane.jpg
 
 
 Panorama from the summit of Størronden
@@ -86,7 +86,7 @@ was also having his master-of-the-river examination so we actually had
 another guide, Wilhelm, to oversee his handling. We were the first
 (out of three) boats to go.
 
-.. image:: images/content/holiday2004/rafting.jpg
+.. image:: images/holiday2004/rafting.jpg
 
 Riding the rapids
 
@@ -122,7 +122,7 @@ the very narrow stairs to one of the two towers of the church.
 
 
 
-.. image:: images/content/panorama/thumb/trollsvegen.jpg
+.. image:: images/panorama/thumb/trollsvegen.jpg
 
 
 
@@ -135,7 +135,7 @@ Atlantershavsvehen, a stretch of asphalt laid over 17 small islands in
 the Atlantic ocean interconnected with bridges in various forms and
 sizes.
 
-.. image:: images/content/holiday2004/seilet.jpg
+.. image:: images/holiday2004/seilet.jpg
 
 Rica Seilet
 
@@ -155,7 +155,7 @@ with a whole lot of tricks to build roads here. The first hurdle we
 encountered where a few ferries which cost around 80 NOK each; the
 trip over the fjords are magnificent though.
 
-.. image:: images/content/holiday2004/trollstigen.jpg
+.. image:: images/holiday2004/trollstigen.jpg
 
 
 Trollstigen and the Stigfossen waterfall
@@ -167,7 +167,7 @@ roads. The road is pretty much too small to fit two passing cars, let
 alone buses or German campers so it's quite a hassle to get up to
 the top.
 
-.. image:: images/content/holiday2004/geiranger.jpg
+.. image:: images/holiday2004/geiranger.jpg
 
 Geiranger fjorden
 
@@ -182,7 +182,7 @@ stunning view.
 
 
 
-.. image:: images/content/panorama/thumb/sognefjorden.jpg
+.. image:: images/panorama/thumb/sognefjorden.jpg
 
 
 Panorama of the Lusterfjorden
@@ -191,7 +191,7 @@ We stayed one more day in Sogndal to tour around the Lusterfjorden. We
 started by heading to Nigardsbreen, one of the glacier tongues that is part of
 Europe's largest ice field: Jostedalsbreen.
 
-.. image:: images/content/holiday2004/nigradsbreen.jpg
+.. image:: images/holiday2004/nigradsbreen.jpg
 
 The Nigardsbreen glacier
 
@@ -205,7 +205,7 @@ After the visit to the glacier we continued our way to Lom where the
 road passes over highlands (up to 1440 meter) with a bizarre landscape
 full of ice-cold lakes, snowy summits and bare rocks.
 
-.. image:: images/content/holiday2004/urnes.jpg
+.. image:: images/holiday2004/urnes.jpg
 
 The staffkirke at Urnes
 
@@ -223,7 +223,7 @@ church at Urnes.
 *Day 9: Sogndal to Bergen.*
 
 
-.. image:: images/content/panorama/thumb/aurlandsfjorden.jpg
+.. image:: images/panorama/thumb/aurlandsfjorden.jpg
 
 Panorama of the Aurlandsfjorden
 
@@ -237,7 +237,7 @@ E16 after Voss we made another de-tour that brought us past the
 Hardanger fjord which also featured another section with countless
 hairpin bends on the road.
 
-.. image:: images/content/holiday2004/bergen.jpg
+.. image:: images/holiday2004/bergen.jpg
 
 Buildings near the waterfront in Bergen
 
@@ -269,7 +269,7 @@ for Norway.
 
 *Day 11: Trip to Preikestolen*
 
-.. image:: images/content/holiday2004/preikestolen.jpg
+.. image:: images/holiday2004/preikestolen.jpg
 
 Preikestolen and the Lysefjord
 
@@ -318,7 +318,7 @@ from Skien; at least, if you're not using the E18 highway. We parked
 our car at Oslo Sentral Station and explored the city by public
 transport and on foot.
 
-.. image:: images/content/holiday2004/vikingship.jpg
+.. image:: images/holiday2004/vikingship.jpg
 
 Vikingship in the museum in Oslo
 
@@ -333,7 +333,7 @@ guided tour that explained about the history of the fortress and its
 inhabitants. This free guided tour is available in the summer months
 every two hours (at 10, 12, 14 and 16).
 
-.. image:: images/content/holiday2004/vigiland.jpg
+.. image:: images/holiday2004/vigiland.jpg
 
 Main statue in Vigiland park
 

@@ -6,7 +6,7 @@ Frequently Flying
    :Date: 20050925 2039 CEST
    :Tags: cms, conference, php, travel, work
 
-.. image:: /images/content/cn-tower.png
+.. image:: images/cn-tower.png
    :align: left
 
 During
@@ -27,7 +27,7 @@ a couple of us on a trip through Toronto's downtown for dinner, and
 drinks. Toronto has plenty of `interesting bars and restaurants`_ , anf ofcourse we only went to a couple of
 them.
 
-.. image:: /images/content/cityhall.png
+.. image:: images/cityhall.png
    :align: right
 
 On

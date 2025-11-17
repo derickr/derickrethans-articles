@@ -87,7 +87,7 @@ you probably do want to retry (after a certain timeout).
 So to repeat our major change:
 **The new MongoClient class uses acknowledged writes by default**.
 
-.. image:: /images/content/elephpant-ice.jpg
+.. image:: images/elephpant-ice.jpg
 
 .. _published: http://groups.google.com/forum/?hl=en_US&fromgroups=#!topic/mongodb-announce/Oc6UkdvPcvM 
 .. _MongoDB: http://mongodb.org

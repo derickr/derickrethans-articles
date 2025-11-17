@@ -9,14 +9,14 @@ eZ publish Camp 2005 - photos
 Traveling in Norway always makes you see interesting and beautiful
 scenery. The same was true during my trip to Gaustablikk for the `eZ publish Camp`_ .
 
-.. image:: /images/content/ezcamp1.png
+.. image:: images/ezcamp1.png
    :align: center
    :target: http://photos.derickrethans.nl/ezcamp2005/aaa
 
 On our way to Gaustablikk we drove past the `Heddal stavkirke`_ in Notodden - Norway's largest stavkirke. It's not as old as the one in `Urnes`_ ,
 but still very typical.
 
-.. image:: /images/content/ezcamp2.png
+.. image:: images/ezcamp2.png
    :align: center
    :target: http://photos.derickrethans.nl/ezcamp2005?page=5
 
@@ -25,14 +25,14 @@ first two days. It did create an execellent atmosphere for taking
 pictures. Together with Gunnstein and the `phpedit`_ guys we went on a small
 hike around the nearby lakes.
 
-.. image:: /images/content/ezcamp3.png
+.. image:: images/ezcamp3.png
    :align: center
    :target: http://photos.derickrethans.nl/ezcamp2005/adu
 
 At the last day Gaustablikk finally showed up after the mist evaporated
 and plenty of people started photographing and `posing with it`_ .
 
-.. image:: /images/content/ezcamp4.png
+.. image:: images/ezcamp4.png
    :align: center
    :target: http://photos.derickrethans.nl/ezcamp2005?page=9
 

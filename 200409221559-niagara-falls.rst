@@ -6,7 +6,7 @@ Niagara Falls
    :Date: 20040922 1559 EDT
    :Tags: nature
 
-.. image:: /images/content/niagara.jpg
+.. image:: images/niagara.jpg
    :align: center
 
 Today I made a small trip to the Niagara Falls which is at about a

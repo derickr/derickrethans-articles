@@ -11,7 +11,7 @@ Walking the London LOOP - part 7 and 8
 Section 7
 ---------
 
-.. image:: /images/content/loop7-d36_5118.jpg
+.. image:: images/loop7-d36_5118.jpg
    :align: left
 
 Another double whammy. We started out with a trek to Banstead. A trek, because
@@ -20,7 +20,7 @@ then trying to find the national rail station there—not an easy feat, then a
 train to Epson and then finally a bus ride to Belmont, where we had to walk
 over the Banstead Downs, and the golf course, to the start of section 7.
 
-.. image:: /images/content/loop7-d36_5124.jpg
+.. image:: images/loop7-d36_5124.jpg
    :align: right
 
 Section 7 is one of the shortest sections, at only 3½ miles. It starts by
@@ -30,7 +30,7 @@ and flowers, like tulips. Even though the streets are not busy, it would have
 been better if we could go past another golf course, but apparently they're
 been annoying and not granting access past their course.
 
-.. image:: /images/content/loop7-d36_5127.jpg
+.. image:: images/loop7-d36_5127.jpg
    :align: left
 
 After a while we walked through `Warren Farm`_, just before we got to `Nonsuch
@@ -53,7 +53,7 @@ After lunch we came through `Bourne Hall Park`_ where section 7 ends and
 section 8 starts. With 7 being so short, there was plenty of time to also
 finish section 8. 
 
-.. image:: /images/content/loop8-d36_5140.jpg
+.. image:: images/loop8-d36_5140.jpg
    :align: left
 
 The start of section 8 is also the source of the Hogsmill_ river. And the
@@ -62,12 +62,12 @@ some places that was not really possible so we had some diversions through
 residential areas, and slightly smellier, through the Hogsmill Valley Sewage
 Treatment Works. But most of it, was pleasent walking past the river.
 
-.. image:: /images/content/loop8-d36_5151.jpg
+.. image:: images/loop8-d36_5151.jpg
 
 Near the end we came to Kingston-Upon-Thames were it was again a bit trickier
 to follow the river.
 
-.. image:: /images/content/loop8-d36_5157.jpg
+.. image:: images/loop8-d36_5157.jpg
    :align: right
 
 With the weather being so nice, we *had* to stop for

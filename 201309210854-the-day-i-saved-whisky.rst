@@ -16,7 +16,7 @@ was on our own accord at Albanach_ in Edinburgh, but we also participated in a
 three day Whisky tasting tour with `Rabbie's Trail Blazers`_ in Speyside_,
 home to more than 50 distilleries. 
 
-.. image:: /images/content/scotland-georgianhouse.jpg
+.. image:: images/scotland-georgianhouse.jpg
    :align: left
 
 But before we embarked on the boozy tour, we spent some time in Edinburgh. I
@@ -47,7 +47,7 @@ Hotel`_.
 
 .. _`Garth Hotel`: http://www.garthhotel.com/
 
-.. image:: /images/content/scotland-dalwhinnie.jpg
+.. image:: images/scotland-dalwhinnie.jpg
 
 The following morning we got up early for a 9:30! tour of the Benromach_
 distillery. This tour of one of the smallest distilleries was led by a veteran
@@ -78,7 +78,7 @@ ended up having a curry at Sylhet. After dinner we had a nice long walk in the
 woods North of Grantown on Spey before retiring to the Craig Bar for a little
 dram before bed time.
 
-.. image:: /images/content/scotland-castle.jpg
+.. image:: images/scotland-castle.jpg
    :align: left
 
 On our last day our first stop was at the Glenlivet_ distillery. Another large
@@ -97,7 +97,7 @@ you taste his own selections... After six tastings I ended up leaving with two
 exclusive bottles and a very good mood. After a quick photo-op of the `Forth
 Rail Bridge`_ we made it back to Edinburgh.
 
-.. image:: /images/content/scotland-bridge.jpg
+.. image:: images/scotland-bridge.jpg
    :align: right
 
 On our last day we hoped to see the pandas and `Edinburgh Zoo`_, but with Tian
@@ -216,7 +216,7 @@ __ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
 I have tasting notes for most of those, but that will have to wait until a new
 post. Slàinte!
 
-.. image:: /images/content/whisky.jpg
+.. image:: images/whisky.jpg
 
 .. _Albanach: http://www.albanach-edinburgh.co.uk/
 .. _`Rabbie's Trail Blazers`: http://www.rabbies.com/

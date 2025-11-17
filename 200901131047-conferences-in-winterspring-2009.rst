@@ -10,14 +10,14 @@ In the next five months I've lined up quite a few conferences. First of
 all, there is `Web Programcıları Platformu`_ in Istanbul, where I will be giving the
 closing keynote to inspire Turkish talent on January 24th.
 
-.. image:: /images/content/phpquebec-logo.gif
+.. image:: images/phpquebec-logo.gif
    :align: left
 
 The week after that I'll be traveling to Barcelona for the `eZ International Winter Conference`_ to give a tutorial to the new `MvcTools`_ component.
 
 In March I will speak at `PHP Quebec Conference`_ on `searching with PHP`_ , `simple application design`_ and `eZ Components`_ .
 
-.. image:: /images/content/img-tek_09_badge_speaker-71470.gif
+.. image:: images/img-tek_09_badge_speaker-71470.gif
    :align: right
 
 In April I

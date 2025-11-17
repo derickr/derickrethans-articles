@@ -6,7 +6,7 @@ Polarization filter
    :Date: 20050518 1104 CEST
    :Tags: photography
 
-.. image:: /images/content/polarization.png
+.. image:: images/polarization.png
    :align: center
 
 Finally got myself a new polization filter (Circular from B&W).

@@ -6,7 +6,7 @@ eZ Awards
    :Date: 20080623 1338 CEST
    :Tags: blog, cms, php, work
 
-.. image:: /images/content/ezc-logo.png
+.. image:: images/ezc-logo.png
    :align: center
 
 Last Thursday, during the `Open Nordic Conference 2008`_  `eZ Systems`_ handed out its annual awards again. For the `eZ Components`_ award, there were

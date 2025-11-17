@@ -73,7 +73,7 @@ memory that PHP uses itself when it starts up:
 	}
 	?>
 
-.. image:: /images/content/gc-part3-example1-graph.png
+.. image:: images/gc-part3-example1-graph.png
 
 In this very academic example we are creating an object of which a property is
 set to point back to the object itself. When the $a variable in the script is

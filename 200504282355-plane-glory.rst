@@ -6,7 +6,7 @@ Plane Glory
    :Date: 20050428 2355 CEST
    :Tags: photography, travel
 
-.. image:: /images/content/astronomy/plane-glory.png
+.. image:: images/astronomy/plane-glory.png
    :align: center
    :target: http://photos.derickrethans.nl/asmosphere/aah
 

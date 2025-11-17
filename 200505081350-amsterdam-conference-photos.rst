@@ -6,7 +6,7 @@ Amsterdam Conference Photos
    :Date: 20050508 1350 CEST
    :Tags: conference, photography, php, travel, work
 
-.. image:: /images/content/canal.png
+.. image:: images/canal.png
    :align: center
 
 As I `wrote a week ago`_ I've been
