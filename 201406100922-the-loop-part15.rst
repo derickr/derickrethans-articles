@@ -4,7 +4,7 @@ Walking the London LOOP - part 15
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-06-10 09:22 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop15
 
 We took a bit of a rest after last time's mud fest. But this Sunday was very

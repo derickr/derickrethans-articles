@@ -4,7 +4,7 @@ Downstream — Trip 1
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-08-10 11:12 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstreamt01
 
 As you might have picked up on, I am walking the whole length of the `Thames

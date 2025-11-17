@@ -4,7 +4,7 @@ Walking the London LOOP - part 10
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-04-30 09:22 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop10
 
 We set of by tube to Hatton Cross to resume our LOOP walk. This section

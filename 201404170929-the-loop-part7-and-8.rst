@@ -4,7 +4,7 @@ Walking the London LOOP - part 7 and 8
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-04-17 09:29 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop78
 
 

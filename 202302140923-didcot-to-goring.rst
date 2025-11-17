@@ -4,7 +4,7 @@ Walking: Didcot to Goring
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-02-14 09:23 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: did-gor
 
 Last Saturday I decided to walk across some humps that I had seen a few times

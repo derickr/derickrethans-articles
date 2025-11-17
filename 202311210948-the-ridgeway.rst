@@ -4,7 +4,7 @@ The Ridgeway
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-11-21 09:48 Europe/London
-   :Tags: blog, hiking, photography
+   :Tags: walking, photography
    :Short: ridgeway
 
 I have walked some of the UK's local and national trails in the past, first

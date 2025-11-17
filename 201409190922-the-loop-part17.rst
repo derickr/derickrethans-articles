@@ -4,7 +4,7 @@ Walking the London LOOP - part 17
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-09-19 09:22 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop17
 
 We walked section 17 of the LOOP_ nearly a month ago on August 17th. I've

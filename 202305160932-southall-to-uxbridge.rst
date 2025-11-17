@@ -4,7 +4,7 @@ Walking: Southall to Uxbridge
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-05-16 09:32 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: sou-uxb
 
 There were strikes on this weekend, so instead of taking a train out of London

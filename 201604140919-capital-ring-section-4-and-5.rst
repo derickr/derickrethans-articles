@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 4 and 5
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-04-14 09:19 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr04-05
 
 We found ourselves walking another few sections of the Capital Ring last

@@ -4,7 +4,7 @@ Walking the London LOOP - part 9
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-04-23 09:14 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop9
 
 Due to abysmal weather, we moved our walk to Monday this weekend. That was not

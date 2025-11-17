@@ -4,7 +4,7 @@ Hunting for Postboxes (part 1)
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-01-28 09:11 Europe/London
-   :Tags: blog, openstreetmap, maps, php, mongodb
+   :Tags: openstreetmap, php, mongodb
    :Short: postbox1
 
 .. image:: /images/content/postbox-pebble.png

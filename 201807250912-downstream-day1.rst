@@ -4,7 +4,7 @@ Downstream — Day 1
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-07-25 09:12 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream01
 
 I have started walking the whole length of the `Thames Path`_. 184 miles from

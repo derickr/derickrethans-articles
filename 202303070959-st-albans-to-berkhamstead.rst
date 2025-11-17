@@ -4,7 +4,7 @@ Walking: St. Albans to Berkhamstead
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-03-07 09:50 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: sta-ber
 
 After two weeks away from the trails, this Saturday I set out for another walk

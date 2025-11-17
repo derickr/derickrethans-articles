@@ -4,7 +4,7 @@ Walking: Tring to Amersham
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-01-31 09:23 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: tri-ame
 
 .. image:: https://live.staticflickr.com/65535/52655954287_f44f8aef7f_w_d.jpg

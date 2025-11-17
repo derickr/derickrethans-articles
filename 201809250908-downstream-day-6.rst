@@ -4,7 +4,7 @@ Downstream — Trip 4
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-09-25 09:08 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream04
 
 On the `previous trip`_ I walked from Shillingford_ to Reading_ on the Thames

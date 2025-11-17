@@ -4,7 +4,7 @@ Walking: Cobham to Addlestone
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-04-13 09:32 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: cob-add
 
 For the Easter weekend walk, I thought I would pioneer a SlowWays walk,

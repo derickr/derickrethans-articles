@@ -4,7 +4,7 @@ Walking: Downs Link
 .. articleMetaData::
    :Where: London, UK
    :Date: 2022-03-22 14:30 Europe/London
-   :Tags: hiking, nature
+   :Tags: walking, nature
    :Short: dl
 
 As I have mentioned in earlier posts, I would like to walk the `South Downs

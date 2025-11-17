@@ -4,7 +4,7 @@ Walking: Hillingdon Trail
 .. articleMetaData::
    :Where: London, UK
    :Date: 2022-03-01 14:30 Europe/London
-   :Tags: hiking, nature
+   :Tags: walking, nature
    :Short: ht
 
 Over the last year I have walked many routes in and near London, but I never

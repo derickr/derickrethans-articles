@@ -4,7 +4,7 @@ Downstream — Trip 7
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-10-30 09:17 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream07
 
 On the `previous trip`_ I walked from to Staines_ to `Teddington Lock`_.

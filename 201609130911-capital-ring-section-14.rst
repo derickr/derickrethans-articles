@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 14
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-09-13 09:11 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr14
 
 Section 14

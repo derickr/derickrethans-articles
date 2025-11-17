@@ -4,7 +4,7 @@ PHP and Ordnance Survey Mapping
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-04-27 14:27 Europe/London
-   :Tags: blog, php, mapping, extensions, openstreetmap
+   :Tags: php, extensions, openstreetmap
 
 About a month ago, `Ordnance Survey`_ opened_ up some of their data for public
 consumption under a brand called OpenData_. The data is licenced_ under a

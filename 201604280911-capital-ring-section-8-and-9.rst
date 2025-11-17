@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 8 and 9
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-04-28 09:11 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr08-09
 
 Another nice weekend for a walk. Again, it was a little chilly, but nice

@@ -4,7 +4,7 @@ Walking the London LOOP - part 13 and 14
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-05-15 15:19 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop1314
 
 Another Sunday, another walk. You know the drill. 

@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 1
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-03-30 09:23 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr01
 
 .. image:: images/cr-d37_6759a.jpg

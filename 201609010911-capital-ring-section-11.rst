@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 11
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-09-01 09:11 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr11
 
 In which we finish up Section 10, and complete Section 11. With the weather

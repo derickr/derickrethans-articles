@@ -4,7 +4,7 @@ VMWare on Debian Unstable
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-08-07 16:08 Europe/London
-   :Tags: blog, php, vmware, linux
+   :Tags: blog, php, linux
 
 In the past week I've been doing some work on the `MongoDB PHP Driver`_, and
 while running the test cases I noticed that there are some issues with

@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 6 and 7
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-04-21 09:19 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr06-07
 
 New weekend, same drill. The weather was forecasted to be a little chilly, but

@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 10
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-08-30 09:11 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr10
 
 I'm way behind typing these up. About two months!

@@ -4,7 +4,7 @@ Downstream — Trip 2
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-08-21 10:23 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream02
 
 It had been a few weeks since the previous_ walk. It had been quite hot and

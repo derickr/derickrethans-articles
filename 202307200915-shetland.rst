@@ -4,7 +4,7 @@ Shetland
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-07-20 09:15 Europe/London
-   :Tags: blog, hiking, holiday, photography
+   :Tags: walking, holiday, photography
    :Short: shetland
 
 My wife and I went on holiday to Shetland at the beginning of June. Our

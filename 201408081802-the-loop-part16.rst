@@ -4,7 +4,7 @@ Walking the London LOOP - part 16
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-08-08 18:02 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop16
 
 Two months, getting married and a honeymoon later, it was finally time to

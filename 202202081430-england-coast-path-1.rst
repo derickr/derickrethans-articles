@@ -4,7 +4,7 @@ Walking: England Coast Path (part 1)
 .. articleMetaData::
    :Where: London, UK
    :Date: 2022-02-08 14:30 Europe/London
-   :Tags: hiking, nature
+   :Tags: walking, nature
    :Short: ecp
 
 In the last few years I have walked a lot. Longer distance paths such as the

@@ -4,7 +4,7 @@ MongoDB and Drupal (@ DrupalCon)
 .. articleMetaData::
    :Where: London, UK
    :Date: 2012-08-27 09:17 Europe/London
-   :Tags: blog, php, mongodb, drupal
+   :Tags: php, mongodb
    :Short: drupalmongo
 
 Last week I spent in Munich, Germany attending and speaking at DrupalCon_.

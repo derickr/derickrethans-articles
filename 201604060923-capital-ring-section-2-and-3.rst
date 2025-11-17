@@ -4,7 +4,7 @@ Walking the Capital Ring - Section 2 and 3
 .. articleMetaData::
    :Where: London, UK
    :Date: 2016-04-06 09:23 Europe/London
-   :Tags: blog, capitalring
+   :Tags: blog, capitalring, walking
    :Short: cr02-03
 
 Another weekend, another walk. As we did not have anything else to do, and the

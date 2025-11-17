@@ -4,7 +4,7 @@ Walking the London LOOP - part 2
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-03-04 09:23 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop2
 
 Back in October 2013, Morag and I started walking the London LOOP_ - with

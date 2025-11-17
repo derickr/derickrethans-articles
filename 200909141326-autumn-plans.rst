@@ -4,7 +4,7 @@ Autumn Plans
 .. articleMetaData::
    :Where: London, UK
    :Date: 20090914 1326 BST
-   :Tags: blog, openmoko, php, work, xdebug
+   :Tags: linux, php, work, xdebug
 
 I've been missing-in-action on my own blog for some time. Moving to
 London does that to you. Anyway, I've not been idle in the meanwhile at

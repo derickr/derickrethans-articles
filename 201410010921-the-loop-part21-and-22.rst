@@ -4,7 +4,7 @@ Walking the London LOOP - part 21 (part 2) and 22
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-10-01 09:21 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop2122
 
 We traveled to Noak Hill by various means of transport. We traveled to

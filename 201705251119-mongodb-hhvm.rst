@@ -4,7 +4,7 @@ HHVM and MongoDB
 .. articleMetaData::
    :Where: London, UK
    :Date: 2017-05-25 11:19 America/New_York
-   :Tags: blog, php, mongodb, php
+   :Tags: php, mongodb
    :Short: hhvm-mongo
 
 At the start of 2015 we began work on an HHVM driver for MongoDB, as part

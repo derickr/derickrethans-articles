@@ -4,7 +4,7 @@ Downstream — Trip 6
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-10-23 09:15 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream06
 
 On the `previous trip`_ I walked from `Bourne End`_ to Staines_. Staines is

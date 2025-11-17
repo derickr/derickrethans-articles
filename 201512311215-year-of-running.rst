@@ -4,7 +4,7 @@ A Year of Running
 .. articleMetaData::
    :Where: London, UK
    :Date: 2015-12-31 12:15 Europe/London
-   :Tags: blog, running, php
+   :Tags: walking
    :Short: run15
 
 Today is the last day of the year. Champagne has been acquired, and I am

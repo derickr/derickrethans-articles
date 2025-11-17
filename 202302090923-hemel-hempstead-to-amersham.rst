@@ -4,7 +4,7 @@ Walking: Hemel Hempstead to Amersham
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-02-09 09:23 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: hem-ame
 
 I had originally planned to continue `last week's </tring-to-amersham.html>`_

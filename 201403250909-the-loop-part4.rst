@@ -4,7 +4,7 @@ Walking the London LOOP - part 4
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-03-25 09:09 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop4
 
 Another weekend, and another section of the LOOP_. This time Morag and I left

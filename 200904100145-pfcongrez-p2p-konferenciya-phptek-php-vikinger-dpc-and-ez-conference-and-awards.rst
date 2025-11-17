@@ -4,7 +4,7 @@ pfcongrez, P2P Конференция, php|tek, PHP Vikinger, DPC and eZ Confere
 .. articleMetaData::
    :Where: London, UK
    :Date: 20090410 0145 CEST
-   :Tags: blog, conference, openmoko, php, travel, work, xdebug
+   :Tags: conference, php, travel, work, xdebug
 
 The above mentioned conferences all have one thing in common: I'll be
 speaking. At the first conference, `pfcongrez`_ I will be talking on

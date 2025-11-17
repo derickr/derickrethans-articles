@@ -4,7 +4,7 @@ Walking the London LOOP - part 23 and 24
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-10-15 09:21 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop2324
 
 The last one! So insisted we had our breakfast at Jack's. It was sort of a

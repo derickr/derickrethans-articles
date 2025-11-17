@@ -4,7 +4,7 @@ Mapping Munchies
 .. articleMetaData::
    :Where: London, UK
    :Date: 2025-09-02 12:50 Europe/London
-   :Tags: blog, php, openstreetmap, maps
+   :Tags: php, openstreetmap
    :Short: fndmap
 
 

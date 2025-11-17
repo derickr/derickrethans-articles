@@ -4,7 +4,7 @@ Joind.in's API
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-02-12 22:27 Europe/London
-   :Tags: blog, php, conference, talks
+   :Tags: blog, php, conference
 
 I speak at many conferences_ and more and more of those conferences are using a
 service called `joind.in`_. The joind.in website allows attendees of

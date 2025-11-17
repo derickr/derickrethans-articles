@@ -4,7 +4,7 @@ Walking the London LOOP - part 20 and 21 (part 1)
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-09-25 09:13 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop2021
 
 Another weekend, another walk. While having a few beers on Sunday, we had a

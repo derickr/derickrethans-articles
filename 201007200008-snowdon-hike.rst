@@ -4,7 +4,7 @@ Snowdon Hike
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-07-20 00:08 Europe/London
-   :Tags: blog, hiking, photography
+   :Tags: walking, photography
 
 This weekend I escaped London to enjoy two of my other hobbies: hiking and
 photography_. This time I headed to Wales to climb up the 1085 meter high

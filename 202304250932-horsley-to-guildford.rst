@@ -4,7 +4,7 @@ Walking: Horsley to Guildford
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-04-25 09:32 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: hor-gui
 
 I had a lovely walk last week, from East Horsley to Guildford via Gomshall, but

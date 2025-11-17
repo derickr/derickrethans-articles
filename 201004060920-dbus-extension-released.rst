@@ -4,7 +4,7 @@ First release of the D-Bus extension
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-04-06 10:33 Europe/London
-   :Tags: blog, php, cms, dbus, extensions
+   :Tags: php, opensource, extensions
 
 A few days ago I made the first beta release of the `D-Bus extension`_ that I have
 been working on for a while. D-Bus_ is a message bus system, a simple way for

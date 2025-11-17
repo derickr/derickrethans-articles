@@ -4,7 +4,7 @@ Walking: England Coast Path (part 3)
 .. articleMetaData::
    :Where: London, UK
    :Date: 2022-02-22 14:30 Europe/London
-   :Tags: hiking, nature
+   :Tags: walking, nature
    :Short: ecp3
 
 The weekend after my `second walk </england-coast-path-2.html>`_ along the new

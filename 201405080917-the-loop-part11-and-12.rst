@@ -4,7 +4,7 @@ Walking the London LOOP - part 11 and 12
 .. articleMetaData::
    :Where: London, UK
    :Date: 2014-05-08 09:16 Europe/London
-   :Tags: blog, theloop
+   :Tags: blog, theloop, walking
    :Short: loop1112
 
 Bank holiday Monday walking, I like it.

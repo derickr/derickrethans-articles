@@ -4,7 +4,7 @@ Fulltext Search with MongoDB and Solr
 .. articleMetaData::
    :Where: Berlin, Germany
    :Date: 2012-06-05 18:03 Europe/Berlin
-   :Tags: blog, php, mongodb, solr
+   :Tags: blog, php, mongodb
    :Short: mongosolr
 
 .. image:: /images/content/mongodb-logo.png

@@ -4,7 +4,7 @@ Downstream — Trip 8
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-11-13 09:12 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream08
 
 On the `previous trip`_ I walked from `Teddington Lock`_ to the `Golden

@@ -4,7 +4,7 @@ XFCE and moving windows around with the keyboard
 .. articleMetaData::
    :Where: London, UK
    :Date: 2011-11-17 09:31 Europe/London
-   :Tags: blog, xfce, keyboard
+   :Tags: blog, linux
    :Short: xfcekeyb
 
 During a recent ``apt-get update && apt-get dist-upgrade`` I suddenly found

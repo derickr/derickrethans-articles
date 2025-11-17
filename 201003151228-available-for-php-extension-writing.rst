@@ -4,7 +4,7 @@ Available for PHP Extension Writing
 .. articleMetaData::
    :Where: London, UK
    :Date: 2010-03-15 12:28 Europe/London
-   :Tags: blog, php, xdebug, cms, work, life, extensions
+   :Tags: blog, php, xdebug, cms, work, extensions
 
 Slightly more than a month ago I left my job as team-lead of `eZ Components`_ at `eZ
 Systems`_ behind, to focus on something new. During the past month I've been

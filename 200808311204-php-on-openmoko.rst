@@ -4,7 +4,7 @@ PHP on OpenMoko
 .. articleMetaData::
    :Where: Skien, Norway
    :Date: 20080831 1204 CEST
-   :Tags: openmoko, php
+   :Tags: linux, php
 
 .. image:: /images/content/openmoko.png
    :align: left

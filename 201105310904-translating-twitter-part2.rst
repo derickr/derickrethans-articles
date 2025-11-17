@@ -4,7 +4,7 @@ Translating Twitter, part 2
 .. articleMetaData::
    :Where: London, UK
    :Date: 2011-05-31 09:04 Europe/London
-   :Tags: blog, php, opensource, twitter
+   :Tags: php, opensource
    :Short: bing-translate
 
 A while ago I wrote in `an article`_ about translating tweets in my client

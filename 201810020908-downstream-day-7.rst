@@ -4,7 +4,7 @@ Downstream — Trip 5
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-10-02 09:08 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream05
 
 On the `previous trip`_ I walked from Reading_ to `Bourne End`_ on the Thames

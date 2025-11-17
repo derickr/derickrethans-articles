@@ -4,7 +4,7 @@ Downstream — Trip 3
 .. articleMetaData::
    :Where: London, UK
    :Date: 2018-09-04 09:41 Europe/London
-   :Tags: blog, downstream
+   :Tags: blog, downstream, walking
    :Short: downstream03
 
 On the `previous trip`_ I walked from Oxford to Shillingford_ on the Thames Path, and

@@ -4,7 +4,7 @@ Maps (the non-digital variety)
 .. articleMetaData::
    :Where: London, UK
    :Date: 2012-11-29 13:00 Europe/London
-   :Tags: blog, php, osm
+   :Tags: php, openstreetmap
    :Short: maps
 
 As you probably know, I am pretty much into OpenStreetMap_ and digital maps.

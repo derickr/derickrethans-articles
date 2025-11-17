@@ -4,7 +4,7 @@ Compiling HHVM with GCC 4.9/5.2 and Boost
 .. articleMetaData::
    :Where: London, UK
    :Date: 2015-10-13 09:28 Europe/London
-   :Tags: blog, mongo, hhvm
+   :Tags: mongodb
    :Short: hhvm-gcc
 
 For my development environment I prefer using Debian unstable, as it usually

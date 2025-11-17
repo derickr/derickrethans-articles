@@ -4,7 +4,7 @@ Translating Twitter
 .. articleMetaData::
    :Where: London, UK
    :Date: 2011-01-05 09:04 Europe/London
-   :Tags: blog, php, opensource, twitter
+   :Tags: php, opensource
 
 *Note: Google deprecated_ the API used in this article. See the `new article`_
 that uses `Bing Translate`_ instead.*

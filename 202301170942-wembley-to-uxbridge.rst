@@ -4,7 +4,7 @@ Walking: Wembley to Uxbridge
 .. articleMetaData::
    :Where: London, UK
    :Date: 2023-01-17 09:42 Europe/London
-   :Tags: blog, hiking, slowways
+   :Tags: walking, slowways
    :Short: web-uxb
 
 I have been walking `SlowWays <https://slowways.org>`_ routes for about a year
