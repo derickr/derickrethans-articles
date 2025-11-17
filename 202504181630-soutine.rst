@@ -5,6 +5,7 @@ Friday Night Dinner: Soutine
    :Where: 60 St. John's Wood High Street, NW8 7SH, London
    :Date: 2025-04-18 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: French
    :Short: soutine
    :URL: https://www.soutine.co.uk/
    :Costs: Starters: £13.25-£16.25; Mains: £17.50-£38.50; Wines from £35

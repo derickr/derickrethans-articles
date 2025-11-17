@@ -5,6 +5,7 @@ Friday Night Dinner: Nazuki Garden
    :Where: 161 Whitfield Street, London W1T 5ET, UK
    :Date: 2024-03-01 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Japanese
    :Short: nazuki-garden
    :URL: https://www.nazukigarden.co.uk/
    :Costs: Food: £60, Wine: £28 (from £28, also by the glass)

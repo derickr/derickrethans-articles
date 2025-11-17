@@ -5,6 +5,7 @@ Friday Night Dinner: OPSO
    :Where: 10 Paddington Street, W1U 5QL, London
    :Date: 2025-07-25 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Greek
    :Short: opso
    :URL: https://www.opso.co.uk/
    :Costs: £9-£19; Mains: £16-£68; Wines from £58

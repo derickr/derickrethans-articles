@@ -5,6 +5,7 @@ Friday Night Dinner: The Devonshire
    :Where: 17 Denman Street, London W1D 7HW, United Kingdom
    :Date: 2024-06-14 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: devonshire
    :URL: https://www.devonshiresoho.co.uk/
    :Costs: Starters: £32 (£8-£16); Mains: £53 (£19-£39); Wine: £50 (£32-£130); Pudding: £8 (£8-£16); Dessert Wine: £20

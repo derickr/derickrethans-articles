@@ -5,6 +5,7 @@ Friday Night Dinner: Don't Tell Dad
    :Where: 10-14 Lonsdale Road, NW6 6RD, London
    :Date: 2025-04-11 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: dont-tell-dad
    :URL: https://www.donttelldad.co.uk/
    :Costs: £10-£14; Mains: £18-£33; Wines from £36

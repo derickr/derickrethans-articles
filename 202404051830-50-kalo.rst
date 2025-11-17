@@ -5,6 +5,7 @@ Friday Night Dinner: 50 Kalò
    :Where: 7 Northumberland Ave, London WC2N 5BY
    :Date: 2024-04-05 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: 50-kalo
    :URL: https://www.50kalo.it/ciro__salvo.php
    :Costs: Food: £40, Drinks: £27

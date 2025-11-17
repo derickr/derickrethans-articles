@@ -5,6 +5,7 @@ Friday Night Dinner: Vinum
    :Where: Rua do Agro 141 (Caves Graham's), 4400-003 Vila Nova de Gaia, Portugal
    :Date: 2024-07-26 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Portuguese
    :Short: vinum
    :URL: https://vinumatgrahams.com/en/
    :Costs: Starters: €8-€24; Mains: €22-€34; Dessert: €7-€15; Wines: €19-€1250

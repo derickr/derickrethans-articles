@@ -5,6 +5,7 @@ Friday Night Dinner: Mountain
    :Where: 16-18 Beak Street, London W1F 9RD
    :Date: 2024-08-23 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: European
    :Short: mountain
    :URL: https://mountainbeakstreet.com/ 
    :Costs: Starters: £4.80-£18.50; Small(er) Plates: £14.80-£26; Mains: £36-£95; Wines: from £34

@@ -5,6 +5,7 @@ Friday Night Dinner: Broken Eggs
    :Where: 24-25 Foley Street, Fitzrovia, London W1W 6DX
    :Date: 2024-12-20 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Spanish
    :Short: broken-eggs
    :URL: https://brokeneggs.co.uk/
    :Costs: Starters: £5-£7; Tortillas: £12-£15; Wines from £32

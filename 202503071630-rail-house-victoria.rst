@@ -5,6 +5,7 @@ Friday Night Dinner: Rail House Victoria
    :Where: 8 Sir Simon Milton Sq, London SW1E 5DJ
    :Date: 2025-03-07 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: rail-house-victoria
    :URL: https://www.riding.house/locations/victoria
    :Costs: Starters:  £8-£13.5; Mains £15.50-£28; Wines from £32

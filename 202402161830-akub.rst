@@ -5,6 +5,7 @@ Friday Night Dinner: Akub
    :Where: 27 Uxbridge Street, W8 7TQ, London
    :Date: 2024-02-16 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Middle Eastern
    :Short: akub
    :URL: https://www.akub-restaurant.com/
    :Costs: Beer: £12; Pudding: £9; Food: £55

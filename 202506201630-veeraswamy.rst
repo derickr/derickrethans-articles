@@ -5,6 +5,7 @@ Friday Night Dinner: Veeraswamy
    :Where: 99 Regent Street, W1B 4RS, London
    :Date: 2025-06-20 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Indian
    :Short: veeraswamy
    :URL: https://www.veeraswamy.com/
    :Costs: Starters: £13-20; Mains: £24-£65; Cocktails: £16-£19; Menus: £41/£50/£90

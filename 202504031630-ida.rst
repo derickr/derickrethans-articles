@@ -5,10 +5,11 @@ Friday Night Dinner: Ida
    :Where: 222a Kilburn Lane, W10 4AT, London
    :Date: 2025-04-03 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: ida
    :URL: https://www.idarestaurant.co.uk/
    :Costs: Starters: £6.50-£12.50; Mains: £18.50-£23.50; Wines from £26.50; Deserts: £5.00-£9.00
-   :Rating: 4
+   :Rating: 4.5
    :Author: Morag and Derick Rethans
 
 This was our second trip to Ida. We first visited in summer 2023, and although

@@ -5,6 +5,7 @@ Friday Night Dinner: Locatelli's
    :Where: Sainsbury Wing, National Gallery, Trafalgar Square, London, WC2N 5DN, United Kingdom
    :Date: 2025-09-19 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: locatelli
    :URL: https://locatelliatnationalgallery.co.uk/
    :Costs: Starters: £12-£17; Pasta: £16-£28; Mains: £19.5-£36; Wines from £35

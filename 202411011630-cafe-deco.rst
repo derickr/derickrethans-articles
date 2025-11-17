@@ -5,6 +5,7 @@ Friday Night Dinner: Café Deco
    :Where: 43 Store Street, London WC1E 7DB
    :Date: 2024-11-01 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: cafe-deco
    :URL: https://www.cafe-deco.co.uk
    :Costs: Snacks: £4.5-£12; Starters: £10-£19; Mains: £23-£37; Wines: £39+

@@ -5,6 +5,7 @@ Friday Night Dinner: St. JOHN
    :Where: 98 Marylebone Lane, London W1U 2QA
    :Date: 2024-11-08 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: European
    :Short: st-john
    :URL: https://stjohnrestaurant.com/a/restaurants/marylebone
    :Costs: Starters: £5-£14; Small Plates: £10-16.80; Large Plates: £24-£35; Wines from £36

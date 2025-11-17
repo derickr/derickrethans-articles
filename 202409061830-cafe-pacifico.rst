@@ -5,6 +5,7 @@ Friday Night Dinner: Cafe Pacifico
    :Where: 5 Langley Street, Covent Garden, London WC2H 9JA
    :Date: 2024-09-06 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Mexican
    :Short: cafe-pacifico
    :URL: https://cafe-pacifico.com/
    :Costs: Starters: £8.50-£12.95; Mains: £15.95-£26; Dessert: £4.75-£7.50

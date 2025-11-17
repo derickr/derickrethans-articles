@@ -5,6 +5,7 @@ Friday Night Dinner: Le Garrick
    :Where: 10-12 Garrick Street, WC2E 9BH, London
    :Date: 2025-07-04 15:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: French
    :Short: le-garrick
    :URL: https://www.legarrick.co.uk/
    :Costs: Starters: £8-£16; Mains: £17-£29.50; Wines from £25; Pre- / Post-Theatre Menu: £19.75/£25.50

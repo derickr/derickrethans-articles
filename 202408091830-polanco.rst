@@ -5,6 +5,7 @@ Friday Night Dinner: Polanco
    :Where: 43 Chamberlayne Road, London NW10 3NB, United Kingdom
    :Date: 2024-08-09 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Mexican
    :Short: polanco
    :URL: https://polancomex.co.uk/
    :Costs: Tacos/Small Plates: £7-£12; Cocktails: £10-£12; Wines: £23-£36

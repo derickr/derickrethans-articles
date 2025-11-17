@@ -5,6 +5,7 @@ Friday Night Dinner: The Mayfair Chippy
    :Where: 14 North Audley Street, London W1K 6WE
    :Date: 2025-03-21 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: the-mayfair-chippy
    :URL: https://www.mayfairchippy.com/mayfair
    :Costs: Starters: £4.75-£13.25; Mains: £17.50-£33.50; Wines from £30.95

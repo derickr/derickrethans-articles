@@ -5,6 +5,7 @@ Friday Night Dinner: London Shell Co.
    :Where: Unit 4 Sonny Heights, Swain's Lane, London N6 6AG, United Kingdom
    :Date: 2024-05-31 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Seafood
    :Short: london-shell-co
    :URL: https://swainslane.londonshellco.com/
    :Costs: Starters: £17; Mains: £60; Dessert: £15; Drinks £51

@@ -5,7 +5,8 @@ Friday Night Dinner: Butcher's Tap and Grill
    :Where: 25-27 Tryon Street, London SW3 3LG
    :Date: 2024-11-29 16:30 Europe/London
    :Tags: blog, fnd
-   :Short: butchers-tag
+   :Cuisine: British
+   :Short: butchers-tap
    :URL: https://www.thebutcherstapandgrill.co.uk/chelsea
    :Costs: Starters: £9.5; Burgers: £15-£18.50; Beef: £16-£108; Other: £19.50-£42.50; Wines from £42
    :Rating: 5

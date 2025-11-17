@@ -5,6 +5,7 @@ Friday Night Dinner: Sudu
    :Where: 30 Salusbury Rd, London, NW6 6NL, United Kingdom
    :Date: 2024-05-03 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Malaysian
    :Short: sudu
    :URL: http://sudu.uk
    :Costs: Food £39; Drinks £22

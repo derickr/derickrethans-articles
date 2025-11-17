@@ -5,6 +5,7 @@ Friday Night Dinner: Chakra
    :Where: 14 Formosa Street, W9 1EE, London
    :Date: 2025-06-06 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Indian
    :Short: chakra
    :URL: https://chakra.restaurant/
    :Costs: Starters: £4-£9; Mains: £10-£18

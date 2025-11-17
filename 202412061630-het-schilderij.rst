@@ -5,6 +5,7 @@ Friday Night Dinner: Het Schilderij
    :Where: Harderwijkerweg 3, 6952 AB Dieren, Netherlands
    :Date: 2024-12-06 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Dutch
    :Short: het-schilderij
    :URL: https://schilderij.net/
    :Costs: Starters: €5.95-€13.50; Mains: €20.95-€29.75; Wines from €23

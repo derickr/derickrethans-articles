@@ -5,6 +5,7 @@ Friday Night Dinner: The Devonshire Arms
    :Where: 37 Marloes Road, London W8 6LA
    :Date: 2025-01-24 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: devonshire-arms
    :URL: https://www.thedevonshirearmskensington.co.uk
    :Costs: Starters: £5-£13.30; Mains: £17-£33; Wines from £31

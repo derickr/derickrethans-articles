@@ -5,6 +5,7 @@ Friday Night Dinner: The Chalk
    :Where: 25-27 Tryon Street, London SW3 3LG
    :Date: 2025-08-15 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: the-chalk
    :URL: https://thechalkfreehouse.co.uk/
    :Costs: Starters: £11.50-£22.50; Mains: £23.50-£29.50; Desserts: £11.00-£15.50; Wines from £50

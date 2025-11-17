@@ -5,6 +5,7 @@ Friday Night Dinner: Kudu
    :Where: 7 Moxon Street, London, W1U 4EP, United Kingdom
    :Date: 2025-11-14 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: South African
    :Short: kudu
    :URL: https://www.kuducollective.com/
    :Costs: Starters: £9-£28; Mains: £24-£49; Wines from £45

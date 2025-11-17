@@ -5,6 +5,7 @@ Friday Night Dinner: Oystermen
    :Where: 32 Henrietta Street, London, WC2E 8NA, United Kingdom
    :Date: 2025-10-03 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Seafood
    :Short: oystermen
    :URL: https://www.oystermen.co.uk/
    :Costs: Oysters: £3.25-£6 (each); Starters: £11-£15; Mains: £23-£26; Wines from £25

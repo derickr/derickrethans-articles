@@ -5,6 +5,7 @@ Friday Night Dinner: 27 Old Compton Street
    :Where: 27 Old Compton Street, London W1D 5JP, United Kingdom
    :Date: 2025-10-24 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: 27-old-compton-street
    :URL: https://www.27oldcomptonstreet.com/
    :Costs: Pasta: £13.90-£17.90; Pudding: £7

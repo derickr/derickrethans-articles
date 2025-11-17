@@ -5,6 +5,7 @@ Friday Night Dinner: The Porchester
    :Where: 88 Bishops Bridge Road, London W2 5AA
    :Date: 2024-03-29 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: porchester
    :URL: https://www.theporchester.co.uk/
    :Costs: Food: £41, Drinks: £35

@@ -5,6 +5,7 @@ Friday Night Dinner: De Ruif
    :Where: Heuvenseweg 6, Rheden, Netherlands
    :Date: 2025-08-01 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Dutch
    :Short: de-ruif
    :URL: https://restaurantderuif.nl/
    :Costs: €8.50-€16.50; Mains: €24-€36; Toetjes: €9-€13; Set Menu: €39.50

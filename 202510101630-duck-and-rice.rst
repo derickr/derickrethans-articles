@@ -5,6 +5,7 @@ Friday Night Dinner: Duck and Rice
    :Where: 90 Berwick Street, London W1F 0QB, United Kingdom
    :Date: 2025-10-10 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Asian
    :Short: duck-and-rice
    :URL: https://theduckandrice.com/
    :Costs: Dim Sum: £9.80-£13.80; Starters: £9.80-£15.50; Mains: £15.20-£45; Wines from £45

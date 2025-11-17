@@ -5,6 +5,7 @@ Friday Night Dinner: Camino Victoria
    :Where: 5-6, Zig Zag Building, 68 Victoria Street, SW1E 6SQ, London
    :Date: 2025-05-16 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Spanish
    :Short: camino
    :URL: https://camino.uk.com/restaurant/victoria/
    :Costs: Tapas: £4.50-£22.50; Wines: £29.50-£95

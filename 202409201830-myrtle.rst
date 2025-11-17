@@ -5,6 +5,7 @@ Friday Night Dinner: Myrtle
    :Where: 1a Langton Street, Chelsea, London SW10 0JL, United Kingdom
    :Date: 2024-09-20 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Irish
    :Short: myrtle
    :URL: https://www.myrtlerestaurant.com/
    :Costs: Tasting Menu with Wine: £167

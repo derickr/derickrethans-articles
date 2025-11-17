@@ -5,6 +5,7 @@ Friday Night Dinner: Sicily
    :Where: 2a Elizabeth Street, SW1W 9RB, London
    :Date: 2025-06-27 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: sicily
    :URL: https://www.eatatsicily.com/
    :Costs: Starters: £10.25-£12.50; Mains: £14.00-£19.75; Wines from £23.50

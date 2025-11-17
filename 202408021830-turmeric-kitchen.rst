@@ -5,6 +5,7 @@ Friday Night Dinner: Turmeric Kitchen
    :Where: 55 Westbourne Terrace, London W2 3UY, United Kingdom
    :Date: 2024-08-02 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Indian
    :Short: turmeric-kitchen
    :URL: https://turmerickitchen.co.uk
    :Costs: £8-£10; Mains: £9-£15; Wines: £25-£60

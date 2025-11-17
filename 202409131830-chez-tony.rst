@@ -5,6 +5,7 @@ Friday Night Dinner: Chez Tony
    :Where: 34 Rue Bois le Vent, 75016 Paris, France
    :Date: 2024-09-13 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: French
    :Short: chez-tony
    :URL: https://www.thefork.co.uk/restaurant/chez-tony-r60583/reviews
    :Costs: Dinner: €18-€25; Wines: ~€18-€50

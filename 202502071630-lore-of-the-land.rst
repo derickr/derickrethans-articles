@@ -5,6 +5,7 @@ Friday Night Dinner: Lore of the Land
    :Where: 4 Conway Street, London W1T 6BB
    :Date: 2025-02-07 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: lore-of-the-land
    :URL: https://gritchiepubs.com/
    :Costs: Starters: £6.50-£14; Mains: £22-£32; Wines from £37

@@ -5,6 +5,7 @@ Friday Night Dinner: Le Vieux Comptoir
    :Where: 26-28 Moxon Street, London W1U 4EU
    :Date: 2024-12-27 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: French
    :Short: le-vieux-comptoir
    :URL: https://www.levieuxcomptoir.co.uk/
    :Costs: Starters: £8-£19; Mains: £14-38; Wines from £32

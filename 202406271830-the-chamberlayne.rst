@@ -5,6 +5,7 @@ Friday Night Dinner: The Chamberlayne
    :Where: 83 Chamberlayne Road, London NW10 3ND, United Kingdom
    :Date: 2024-06-27 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: the-chamberlayne
    :URL: https://thechamberlayne.com/
    :Costs: Starters: £18 (£10-£18); Mains: £45 (£16.50-£28); Pudding: £6 (£3-£10); Wines: £32 (£28-£78)

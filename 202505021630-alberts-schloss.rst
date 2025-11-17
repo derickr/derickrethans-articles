@@ -5,6 +5,7 @@ Friday Night Dinner: Albert's Schloss
    :Where: 20 Shaftesbury Avenue, W1D 7EU, London
    :Date: 2025-05-02 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: German
    :Short: alberts-schloss
    :URL: https://albertsschloss.com/location/london/
    :Costs: Starters: £5-£13; Sandwiches: £16; Mains: £14-£26

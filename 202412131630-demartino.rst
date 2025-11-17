@@ -5,6 +5,7 @@ Friday Night Dinner: Demartino
    :Where: 196-198 Great Portland Street, London W1W 5QF
    :Date: 2024-12-13 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: demartino
    :URL: https://www.demartinorestaurant.com/
    :Costs: Starters: £10-£18; Mains: £13.90-£37.50; Wines from £26.50

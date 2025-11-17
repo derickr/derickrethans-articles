@@ -5,6 +5,7 @@ Friday Night Dinner: The Cow
    :Where: 89 Westbourne Park Road, London W2 5QH, United Kingdom
    :Date: 2024-05-24 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: the-cow
    :URL: https://thecowlondon.com/
    :Costs: Cover Charge: £4; Starter: £14; Mains: £43; Wine: £35

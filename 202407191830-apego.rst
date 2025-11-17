@@ -5,6 +5,7 @@ Friday Night Dinner: Apego
    :Where: Rua de Santa Catarina 1198, 4000-457 Porto, Portugal
    :Date: 2024-07-19 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Portuguese
    :Short: apego
    :URL: https://www.thefork.co.uk/restaurant/apego-r413165
    :Costs: Starters: €28, Mains: €54, Wine €34 (4 glasses), Dessert + Digestive: €35

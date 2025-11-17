@@ -5,6 +5,7 @@ Friday Night Dinner: Bubala
    :Where: 15 Poland Street, SOHO, London W1F 8QE
    :Date: 2024-10-11 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Middle Eastern
    :Short: bubala
    :URL: https://www.bubala.co.uk/soho
    :Costs: Mezzes: £8-£16.50; Wines £33-£60

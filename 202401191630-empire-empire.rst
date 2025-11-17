@@ -5,6 +5,7 @@ Friday Night Dinner: Empire Empire
    :Where: 16 All Saints Road, London, W11 1HH, UK
    :Date: 2024-01-19 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Jamaican
    :Short: empire
    :URL: https://www.empire-empire.restaurant/ 
    :Costs: Food: £50, Drinks: £12

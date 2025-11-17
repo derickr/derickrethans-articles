@@ -5,6 +5,7 @@ Friday Night Dinner: Lita
    :Where: 7-9 Paddington Street, London W1U 5QH, United Kingdom
    :Date: 2024-06-07 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: European
    :Short: lita
    :URL: https://litamarylebone.com/
    :Costs: £20 (£8-29); Mains: £44 (£14-£160); Drinks: £36 (carafe, bottles from £54)

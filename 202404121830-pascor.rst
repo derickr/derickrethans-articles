@@ -6,6 +6,7 @@ Friday Night Dinner: Pascor
    :Date: 2024-04-12 18:30 Europe/London
    :Tags: blog, fnd
    :Short: pascor
+   :Cuisine: Middle Eastern
    :URL: https://www.pascor.co.uk/
    :Costs: Wine: £40, Food: £25, Desert: £18.5
    :Rating: 3.5
@@ -14,7 +15,7 @@ Friday Night Dinner: Pascor
 *From the archive: We visited Pascor in January 2023*
 
 Right on Kensington High Street, near the Design Museum is Pascor. A Levantine
-“Fire” restaurant, which we picked as our first place to go to in the new
+"Fire" restaurant, which we picked as our first place to go to in the new
 year.
 
 The restaurant is over two levels, with the lower part smaller, and close to a

@@ -5,6 +5,7 @@ Friday Night Dinner: The Grove Tavern
    :Where: 83 Hammersmith Grove, London W6 0NQ
    :Date: 2025-03-14 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: the-grove-tavern
    :URL: https://www.thegrovetavern.uk/
    :Costs: Starters: £6.50-£9.95; Mains: £15.95-£29.50; Wines from £27.50

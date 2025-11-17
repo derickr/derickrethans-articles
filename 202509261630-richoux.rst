@@ -5,6 +5,7 @@ Friday Night Dinner: Richoux
    :Where: 14-15 Langham Place, London, W1B 2QS, United Kingdom
    :Date: 2025-09-26 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: French
    :Short: richoux
    :URL: https://www.richoux.co.uk/
    :Costs: Starters: £13-£16; Mains: £16.5-£44; Wines from ~£40

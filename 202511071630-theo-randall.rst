@@ -5,6 +5,7 @@ Friday Night Dinner: Theo Randall
    :Where: 1 Hamilton Place, Park Lane, London, W1J 7QY, United Kingdom
    :Date: 2025-11-07 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Italian
    :Short: theo-randall
    :URL: https://www.theorandall.com/
    :Costs: Tasting Menu with Wine Pairing: £75

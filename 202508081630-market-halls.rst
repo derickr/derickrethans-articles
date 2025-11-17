@@ -5,6 +5,7 @@ Friday Night Dinner: Market Halls
    :Where: 9 Hollies Street, W1G 0BD, London
    :Date: 2025-08-08 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Asian
    :Short: market-halls
    :URL: https://markethalls.co.uk/venue/oxford-street/
    :Costs: Courses: £7-£15

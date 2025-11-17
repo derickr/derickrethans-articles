@@ -5,6 +5,7 @@ Friday Night Dinner: The Vincent Rooms: Escoffier Room
    :Where: 76 Vincent Square, London SW1P 2PD
    :Date: 2025-02-14 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: escoffier-room
    :URL: https://www.thevincentrooms.co.uk/menus/escoffier-menu/
    :Costs: Set menus at £45, with a £45 wine pairing — other drinks available too

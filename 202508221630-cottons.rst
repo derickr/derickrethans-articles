@@ -5,6 +5,7 @@ Friday Night Dinner: Cottons
    :Where: 10 Flagstaff House, St. George's Wharf, London SW8 2LE
    :Date: 2025-08-22 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Jamaican
    :Short: cottons
    :URL: https://www.cottons-restaurant.co.uk/vauxhall
    :Costs: Starters: £7.50-£10.50; Mains: £16.50-£27.50; Desserts: £7-£7.50; Cocktails: £13

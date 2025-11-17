@@ -5,6 +5,7 @@ Friday Night Dinner: Granger and Co
    :Where: 105 Marylebone High St, London, W1U 4RS, United Kingdom
    :Date: 2024-04-26 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: granger
    :URL: https://grangerandco.com/marylebone
    :Costs: Food £78; Drinks £29

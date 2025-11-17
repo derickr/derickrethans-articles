@@ -5,6 +5,7 @@ Friday Night Dinner: Brother Marcus
    :Where: 1-3 Pelham Street, South Kensington, London SW7 2ND
    :Date: 2024-08-30 18:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Middle Eastern
    :Short: brother-marcus
    :URL: https://brothermarcus.co.uk/locations/southkensington/
    :Costs: Snacks: £2.80-£7.20; Mezze: £8.20-£18.20; Wines: £29-£56; Cocktails: £12.50

@@ -5,6 +5,7 @@ Friday Night Dinner: Mowgli
    :Where: 5 Charlotte Street, W1T 1RE, London
    :Date: 2025-04-25 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Indian
    :Short: mowgli
    :URL: https://www.mowglistreetfood.com/
    :Costs: Dishes for sharing: £6.50-£11; Sharing Platters: £25-£35; Cocktails: £8.75-£10.50; Wines from £26

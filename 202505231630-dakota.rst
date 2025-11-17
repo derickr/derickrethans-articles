@@ -5,6 +5,7 @@ Friday Night Dinner: Dakota
    :Where: 8 Russell Street, LS1 5RN, Leeds
    :Date: 2025-05-23 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: dakota
    :URL: https://dakotahotels.co.uk/leeds/grill/
    :Costs: Starters: £10-18; Mains: £20-£50; Grill: £35-£85; Wines from £36

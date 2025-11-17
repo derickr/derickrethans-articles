@@ -5,6 +5,7 @@ Friday Night Dinner: Casa do Frango
    :Where: 4 Sir Simon Milton Sq, London SW1E 5DJ, United Kingdom
    :Date: 2025-09-12 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Portuguese
    :Short: casa-do-frango
    :URL: https://casadofrango.co.uk/locations/victoria
    :Costs: Small Plates: £6-£14; Grill: £14-£34; Sides: £5-£8; Dessert: £3-£8; Wines from £31

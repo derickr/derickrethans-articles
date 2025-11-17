@@ -5,6 +5,7 @@ Friday Night Dinner: The Surprise
    :Where: 6 Christchurch Terrace, London SW3 4AJ
    :Date: 2025-02-28 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: British
    :Short: surprise
    :URL: https://www.thesurprise-chelsea.co.uk/
    :Costs: Starters: £9-£12.50; Mains: £19.50-£37; Wines from £30

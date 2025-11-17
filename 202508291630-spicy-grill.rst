@@ -5,6 +5,7 @@ Friday Night Dinner: Spicy Grill
    :Where: 122 Golders Green Road, London NW11 8HB
    :Date: 2025-08-29 16:30 Europe/London
    :Tags: blog, fnd
+   :Cuisine: Korean
    :Short: spicy-grill
    :URL: https://www.thefork.co.uk/restaurant/spicy-grill-r839044 
    :Costs: Starters: £3.00-£7.50; Mains: £9.50-£13.50
