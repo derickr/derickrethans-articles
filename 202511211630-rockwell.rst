@@ -1,0 +1,65 @@
+Friday Night Dinner: Rockwell
+=============================
+
+.. articleMetaData::
+   :Where: 2 Spring Gardens, London, SW1A 2TS, United Kingdom
+   :Date: 2025-11-21 16:30 Europe/London
+   :Tags: fnd
+   :Cuisine: Mediterranean
+   :Short: rockwell
+   :URL: https://trafalgarstjames.com/rockwell/
+   :Costs: Small Plates: £6.5-£12.75; Wines from £38
+   :Rating: 2.5
+   :Author: Derick Rethans
+
+Rockwell is a bar/restaurant on the ground floor of the Trafalgar St. James
+hotel. They specialise in small plates, and also have some Wagyu beef dishes
+on their menu. The recommendation was "two to three plates each". For once, we
+followed this, and it was spot on.
+
+We selected six dishes between the two of us. The Ibérico ham croquetas, which
+were served with a saffron sauce and some pecorino shavings, showed up first.
+These were served hot with the ham joined by a flavourful cheese sauce within
+the croquette, covered by a thin, crisp shell. At the same time we also
+received the gnocchi with beetroot. These were adorned with hazelnuts,
+beetroot cream, and rainbow chard. The flavours worked well together, and the
+sauce was scrumptious. The fried potato terrine with aioli were soft and
+butter on the inside, with nice crisp edges which added a lovely texture.
+
+A little later the other three courses turned up. The zucchini fritti were
+well-made, but were a little dry and could have done with a sauce. As my main,
+I chose the crispy sea bass with Salsa Verde. The skin was crisp, the fish
+flaky and moist, and the Salsa Verde added a little acidity. My wife preferred
+the Wagyu rosemary grilled bavette steak. Unfortunately, that was the real
+disappointment of the meal. It was dry, and, given it was allegedly Wagyu,
+criminally tough. It did have an interesting marinade, but this overwhelmed
+the flavour of the beef. If you're serving Wagyu, the flavour and texture of
+the meat itself should be the highlight, but I think the chef missed that
+memo.
+
+The wines start a bit on the expensive side, so instead we had a carafe of a
+tasty Prunus Dão Tinto from Portugal. Curiously, this was presented by pouring
+500ml out of a bottle into a carafe at our table, but the bottle itself did
+not appear to be listed on the wine list.
+
+Just like at Theo Randall a few weeks ago, on Friday evening there is
+entertainment. This time, in the form of a jazz singer, who proceeded to
+“reinterpret” aka massacre well known tunes, by artists including Michael
+Jackson, Bryan Adams and Maroon 5. However, unlike at Theo's, the music was at
+a conversation stifling level. It also involved the singer walking around the
+restaurant. As an observation, it was probably not entirely the singer's fault
+as the restaurant generally had terrible acoustics. It was quite difficult to
+hear our conversation over the table before the music started.
+
+Rockwell was an intriguing experience. The food was generally good, but the
+music too loud, and the criminal treatment of the Wagyu beef a let-down.
+
+.. carousel::
+   :name: rockwell
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :rockwell-1: Ibérico Ham Croquetas
+   :rockwell-2: Gnocchi with Beetroot Salad
+   :rockwell-5: Crispy Seabass with Salsa Verde
+   :rockwell-6: Wagyu Beef Bavette Steak
+   :rockwell-3: Fried Potato Terrine
+   :rockwell-4: Zucchini Fritti
