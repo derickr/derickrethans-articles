@@ -1,0 +1,57 @@
+Friday Night Dinner: Ottolenghi
+===============================
+
+.. articleMetaData::
+   :Where: 32 Rosslyn Hill, London, NW3 1NH, United Kingdom
+   :Date: 2025-12-05 16:30 Europe/London
+   :Tags: fnd
+   :Cuisine: Mediterranean
+   :Short: ottolenghi
+   :URL: https://ottolenghi.co.uk/pages/locations/hampstead
+   :Costs: Nibbles: £5.5-£7; Sharing Dishes: £13.3-£19.5; Pudding from £7; Wines from £36
+   :Rating: 4
+   :Author: Derick and Morag Rethans
+
+Ottolenghi has several restaurants in London, but we enjoyed dinner in their
+Hampstead venue on a cheeky Monday to celebrate.
+
+The menu doesn't have starters or mains, but only nibbles and sharing dishes,
+which was made abundantly clear by our waiter. However, there is a selection
+of cold and warm sharing dishes which by necessity are served in two waves:
+the cold ones, and the warm ones — nicely separating them in starters and main
+courses. Did I mention everything is meant to share?
+
+We started our meal with a crisp glass of pét-nat, a naturally sparkling wine,
+while munching on za'atar pita chips with a yoghurt and red chilli dip.
+
+As our starter (sorry, cold sharing dish), we chose the burrata with marinated
+mandarins. The freshness of the mandarins worked well with the burrata, and
+the rocket added some extra pepperiness.
+
+We picked our mains as non-sharing, but ended up sharing a fair bit anyway. My
+wife picked the Adana lamb kebabs with babaganoush and picked onions. These
+were nicely spiced, with the babaganoush adding the necessary moisture. I
+selected the crispy chicken 'chop', which was served with a tahini and walnut
+sauce. The chicken 'chop' had a nice crispy skin, and the sauce was excellent.
+The portion size of the chicken dish was somewhat larger than the
+lamb kebabs.
+
+With our mains we enjoyed a lovely bottle of red wine, a Garnacha from
+Navarra. At the end, we went back and forth about ordering pudding. We ended
+up settling on sharing a Bakewell tart. With crispy edges, a nicely sour
+filling, and some pistachio nuts sprinkled on top.
+
+We enjoyed Ottolenghi, but we're not in agreement on the ambience. Although we
+both found it relaxed and welcoming, I also found it a little pretentious.
+Particularly the "cold and warm sharing dishes" shtick instead of the starters
+and mains they would have been in other restaurants. All of the dishes were
+really tasty, well presented, and the staff were great. We would return.
+
+.. carousel::
+   :name: ottolenghi
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :ottolenghi-1: Pita Chips with Yoghurt
+   :ottolenghi-2: Burrata with Marinated Mandarins
+   :ottolenghi-3: Crispy Chicken "Chop"
+   :ottolenghi-4: Adana Lamb Kebabs
+   :ottolenghi-5: Bakewell Tart

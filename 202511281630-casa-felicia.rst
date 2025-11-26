@@ -1,0 +1,48 @@
+Friday Night Dinner: Casa Felicia
+=================================
+
+.. articleMetaData::
+   :Where: 79 Salusbury Road, London, NW6 6NH, United Kingdom
+   :Date: 2025-11-28 16:30 Europe/London
+   :Tags: fnd
+   :Cuisine: Italian
+   :Short: casa-felicia
+   :URL: https://casa-felicia.uk/
+   :Costs: Starters: £5-£15; Pasta: £17-£21; Secondi: £23-£45; Dolci: £9-£11; Wines from £30
+   :Rating: 4
+   :Author: Derick Rethans
+
+Casa Felicia is close to home, and sits on a stretch near Queen's Park tube
+station with many other restaurants. It has recently opened, but it was full
+on this drizzly evening. Bookings are definitely required.
+
+The menu isn't very extensive. A few starters and pasta dishes, which are
+supplemented by a few special "secondi" from a black board menu. The menu
+however, was entirely in Italian, which required a translation service to
+navigate. A short description under each of the titles would have really
+helped, as would the menu being printed in a darker ink (or the lighting
+turned up a little). Clearly we're old, but the menu wasn't that easy to read,
+and we noticed a few fellow patrons using their phone torches to see it
+properly 
+
+As our starters we shared the Salame Napoli, thicker cut slices of slightly
+peppery salami, and the Salsiccia & Friarielli, a deliciously spiced sliced
+sausage with a jus, and served with sprouting broccoli.
+
+For our mains my wife chose the pappardelle ragu — pasta in the shape of
+butter flies with a spiced ragu, served with chives and cheese shavings. I
+picked from their blackboard menu a pork chop, covered in ham, and smothered
+in a tonne of cheese. It was just on the "too much" side of a meal, and hence,
+we decided not to have pudding as well.
+
+We enjoyed Casa Felicia. There is good food, and a good buzz. It also helps
+that it is a fairly short walk from home. Although it's not quite as good as
+Ida, I think we would need little persuasion to return. 
+
+.. carousel::
+   :name: casa-felicia
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :casa-felicia-1: Salame Napoli
+   :casa-felicia-2: Salsiccia & Friarielli
+   :casa-felicia-3: Pork Chop
+   :casa-felicia-4: Parpardelle Ragu
