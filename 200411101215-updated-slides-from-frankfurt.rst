@@ -10,5 +10,5 @@ I added some more slides to my SRM presentation "Enterprise PHP
 Bananas" which can be found `here`_ .
 
 
-.. _`here`: http://derickrethans.nl/files/srm-ffm2004.pdf
+.. _`here`: https://s3.drck.me/derickrethans-talks.s3.eu-west-par.io.cloud.ovh.net/srm-ffm2004.pdf
 

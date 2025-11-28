@@ -34,7 +34,7 @@ written permission.
 .. _`International PHP Magazine`: http://www.php-mag.net/
 .. _`Xdebug`: http://xdebug.org/
 .. _`PHP`: http://www.php.net/
-.. _`Lunar eclipse on May 16th`: /20030523.php
+.. _`Lunar eclipse on May 16th`: /lunar_eclipse.html
 .. _`annular solar eclipse`: http://sunearth.gsfc.nasa.gov/eclipse/ASE2003/ASE2003.html
 .. _`path`: rst/images/ASE2003-3b.GIF
 .. _`first photo in the series, taken at 5:41:15am`: http://photos.derickrethans.nl/solar2003/aaa?full=1

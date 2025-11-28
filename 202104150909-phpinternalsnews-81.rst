@@ -10,7 +10,7 @@ PHP Internals News: Episode 81: noreturn type
 
 In this episode of "PHP Internals News" I chat with Matthew Brown (`Twitter
 <https://twitter.com/mattbrowndev>`_) and Ondřej Mirtes (`Twitter
-<OndrejMirtes>`_) about the "noreturn type" RFC.
+<https://twitter.com/OndrejMirtes>`_) about the "noreturn type" RFC.
 
 The RSS feed for this podcast is
 https://derickrethans.nl/feed-phpinternalsnews.xml, you can download_ this

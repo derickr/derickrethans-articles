@@ -239,7 +239,7 @@ little `FUD buster`_ and PHP.net now also has `a statement`_.
 .. _`quite a lot`: http://news.php.net/php.internals/12838
 .. _`realpatch cache`: http://news.php.net/php.internals/12919
 .. _`submitted a patch`: http://news.php.net/php.internals/12854
-.. _`proven`: http://derickrethans.nl/month-2004-12.php?item=200412101411#200412101411
+.. _`proven`: /pic-vs-nonpic-take-2.html
 .. _`wrote about problems`: http://news.php.net/php.internals/12974
 .. _`claiming`: http://news.php.net/php.pecl.dev/1392
 .. _`ran some benchmarks`: http://news.php.net/php.internals/13146
@@ -269,6 +269,6 @@ little `FUD buster`_ and PHP.net now also has `a statement`_.
 .. _`Santy`: http://news.bbc.co.uk/2/hi/technology/4117711.stm
 .. _`put out`: http://www.phpbb.com/phpBB/viewtopic.php?f=14&t=248046
 .. _`bogus`: http://ilia.ws/archives/31-phpBB-unserialize-bug.html
-.. _`FUD buster`: http://derickrethans.nl/month-2004-12.php?item=200412241207#200412241207
+.. _`FUD buster`: /phpbb-worm-fud.html
 .. _`a statement`: http://php.net/
 

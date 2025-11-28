@@ -12,8 +12,6 @@ protocol is meant to be a powerfull cross-language protocol with which IDEs can
 communicate with different debug engines, such as `Xdebug`_, written by myself,
 but also with the engines from Active State for Perl, Python and TCL.
 
-.. image:: images/maguma_big.png
-
 The protocol uses a command line syntax for sending commands to the debug
 engine, and the reply from the debug engine to the IDE is in an XML format. For
 a full description of this open protocol, see `the draft`_. The protocol is not

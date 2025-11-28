@@ -172,7 +172,7 @@ rocked', and too bad that work starts again tomorrow.
 .. _`xdebug`: http://xdebug.org/
 .. _`PHP`: http://www.php.net/
 .. _`Jan`: http://dahlia.dasmoped.net/
-.. _`Schiphol Airport`: www.schiphol.nl
+.. _`Schiphol Airport`: https://www.schiphol.nl
 .. _`Dan`: http://www.deadmime.org/~dank/
 .. _`White House`: http://www.whitehouse.gov
 .. _`Bush' statement`: http://www.whitehouse.gov/news/releases/2003/03/20030317-7.html

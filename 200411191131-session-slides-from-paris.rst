@@ -9,5 +9,5 @@ Session Slides from Paris
 The slides for my presentations are now online: `Xdebug`_ .
 
 
-.. _`Xdebug`: http://derickrethans.nl/files/xdebug-paris2004.pdf
+.. _`Xdebug`: https://s3.drck.me/derickrethans-talks.s3.eu-west-par.io.cloud.ovh.net/xdebug-paris2004.pdf
 
