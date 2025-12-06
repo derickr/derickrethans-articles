@@ -1,0 +1,52 @@
+Friday Night Dinner: The Salusbury
+==================================
+
+.. articleMetaData::
+   :Where: 50-52 Salusbury Road, London, NW6 6NN, United Kingdom
+   :Date: 2025-12-12 16:30 Europe/London
+   :Tags: fnd
+   :Cuisine: British
+   :Short: salusbury
+   :URL: https://thesalusbury.co.uk/
+   :Costs: Starters: £12-£16; Mains: £21-£43
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+The Salusbury Pub has been a feature of Queen's Park for as long as we have
+lived in the area. They recently had a refurbishment, and as we had never
+eaten there, we decided to give it a try.
+
+We were on the earlier side, and it was quiet when we arrived.
+
+For our starters, my wife ordered the Parmesan Churros. Instead of them being
+sweet as you'd expect in their dessert form, they were fluffy, light, and
+savoury, with delightful Parmesan twang. I had a single oyster, which was
+served in a cucumber and jalapeño "hot" sauce. It was only slightly spicy, and
+didn't overpower the flavour of the oyster itself.
+
+As her main, my wife chose the Roast Venison. It was served with caramelised
+onions, some chard, and a jus with cranberries to tie the whole meal together.
+The venison itself was perfectly cooked, and still pink on the inside. For my
+main course, I selected the Somerset Saxon chicken, served with herb gnocchi
+and girolle mushrooms. The chicken was well cooked, and had a well-seasoned
+and crispy skin, while the meat was soft and moist. The gnocchi were light,
+with the herbs adding some flavour. The girolles and sauce made it all work
+better.
+
+We were still a little peckish, and decided to share a dessert. The menu had
+an "apple crumble". However, it wasn't an actual crumble, but rather a soufflé
+with apple flavour, and some crumbs to add some texture. Some vanilla ice
+cream cooled it down a little.
+
+The courses at the Salusbury were excellent, and we should really have tried
+going much sooner. As it's pretty close by I am sure we will return.
+
+
+.. carousel::
+   :name: salusbury
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :salusbury-1: Parmesan Chorros
+   :salusbury-2: Oyster
+   :salusbury-3: Saxon Chicken
+   :salusbury-4: Venison
+   :salusbury-5: Apple Crumble Souffle
