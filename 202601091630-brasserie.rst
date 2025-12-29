@@ -1,0 +1,65 @@
+Friday Night Dinner: The Vincent Rooms: Brasserie
+=================================================
+
+.. articleMetaData::
+   :Where: 76 Vincent Square, London, SW1P 2PD, United Kingdom
+   :Date: 2026-01-09 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: brasserie
+   :URL: https://www.thevincentrooms.co.uk/menus/brasserie-menu/
+   :Costs: Set menus at £39; Wines starting at £28
+   :Rating: 4
+   :Author: Derick Rethans
+
+We had been at the Vincent Rooms earlier in the year, but as I wrote in our
+review then, we usually try to have a Christmas meal first. Their Escoffier
+Rooms were busy again, so we "settled" for the Brasserie.
+
+The Vincent Rooms is a restaurant of the Capital City College — where they
+train chefs. The meals and service are all done by the students (with suitable
+supervision). This has little effect on the dishes, but it does sometimes make
+for a more haphazard service. That is okay though, as we are now used to this,
+and students learn by doing these things.
+
+As it is now Christmas time, the evening's menu was suitably themed. It was a
+set-menu, catering for Christmas parties, of which several were going on when
+we arrived. We decided to join in with a glass of prosecco, because why not.
+
+Each course (starter, main, dessert) had three options. My wife chose the
+pumpkin velouté as her starter, which was slightly spicy, and full of pumpkin
+goodness. Some puffed rice on top added a bit of texture. I had the
+Lincolnshire game terrine, which was wrapped in Parma ham, and served with a
+cranberry compote and some pistachios for texture.
+
+With our mains we shared a bottle of a crisp Australian Chardonnay. This was a
+great choice for my wife's main, as she selected the Norwegian Saithe. This
+was served as a fillet, with a crispy skin. It came served with a rosti, and a
+lovely mussel and vegetable mixture. I decided on going full Turkey with the
+Christmas roast. The turkey was served as both breast and leg slices. The red
+cabbage and sprouts were just the right kind of soft. The roast potatoes were
+okay (I'm really picky about them, and *mine* are the best). The turkey was
+topped with a pig in blanket, and served with a gravy that lifted it nicely
+up. It's probably the best roast meal I have had in a long time.
+
+For dessert, neither of us chose the traditional pudding. I enjoyed the spiced
+milk chocolate mousse, which was surrounded by a collar of caramel with
+hazelnut flakes, and served with a caramel dip. My wife opted for the mulled
+wine bavarois, which was nice and soft, and served with flavourful poached red
+fruits and a ginger biscuit.
+
+The meal, as always, was excellent. The service also seemed much more like in
+a normal restaurant on this occasion too. We'll surely be back for next year's
+Christmas.
+
+.. carousel::
+   :name: brasserie
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :brasserie-2: Lincolnshire Game Terrine
+   :brasserie-3: Pumpkin Velouté
+   :brasserie-4: Norwegian Saithe
+   :brasserie-5: Christmas Roast
+   :brasserie-1: Home-made Bread
+   :brasserie-6: Mulled Wine Bavarois
+   :brasserie-7: Spiced Milk Chocolate Mousse
+   :brasserie-8: Mince Pies
