@@ -181,8 +181,8 @@ things with PHP, posted a message in which he expressed his ideas about having
 threads in PHP, but the proposal did not seem viable. `[34]`_
 
 August made a slow start, mostly because it was still holiday time. In the 2nd
-part of the month Wez requested some HTTP/FTP gurus to work on the http:// and
-ftp:// wrappers and a little discussion of using cURL for this started up.
+part of the month Wez requested some HTTP/FTP gurus to work on the ``http://`` and
+``ftp://`` wrappers and a little discussion of using cURL for this started up.
 `[35]`_ Wez went along with the normal wrappers, but there are now some little
 hooks for the cURL streams. A few days later Rasmus went ballistic `[36]`_
 because of the "Use of trans sid may risk your users security." addition by

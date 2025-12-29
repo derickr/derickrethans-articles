@@ -112,15 +112,15 @@ Flickr is now shown with OpenStreetMap_ tiles as background:
 And with the OpenStreetMap tiles in the background, I could place my photos on
 the correct location on the map_.
 
-.. _Flickr: http://www.flickr.com/photos/derickrethans/map
+.. _Flickr: https://www.flickr.com/photos/derickrethans/map
 .. _EXIF: http://en.wikipedia.org/wiki/Exif
 .. _`Yahoo! Maps`: http://maps.yahoo.co.uk/
 .. _compared: http://sautter.com/map/?zoom=16&lat=53.05598&lon=-1.78709&layers=00000B0TFFFFFTFF
-.. _Bejing : http://www.flickr.com/map?&fLat=39.9123&fLon=116.4179&zl=7
+.. _Bejing : https://www.flickr.com/map?&fLat=39.9123&fLon=116.4179&zl=7
 .. _places: http://en.wikipedia.org/wiki/OpenStreetMap#Flickr
 .. _Upside-Down-Ternet: http://www.ex-parrot.com/pete/upside-down-ternet.html
 .. _Squid: http://www.squid-cache.org/
 .. _url_rewrite_program: http://www.squid-cache.org/Doc/config/url_rewrite_program/
 .. _download: /files/redirectYahooMapsToOsm.php.txt
 .. _OpenStreetMap: http://openstreetmap.org
-.. _map: http://www.flickr.com/photos/36163802@N00/sets/72157625953902689/map?&fLat=53.0599&fLon=-1.7893&zl=4&order_by=recent
+.. _map: https://www.flickr.com/photos/36163802@N00/sets/72157625953902689/map?&fLat=53.0599&fLon=-1.7893&zl=4&order_by=recent

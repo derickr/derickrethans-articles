@@ -12,7 +12,7 @@ it can get some more testing. After this testing round the plan is to
 put this extension by default in the PHP distributions.
 
 
-.. _`Input Filter`: /input_filter.php
+.. _`Input Filter`: /input-filter.html
 .. _`extension`: http://files.derickrethans.nl/filter_extension.html
 .. _`PECL package`: http://pecl.php.net/filter
 

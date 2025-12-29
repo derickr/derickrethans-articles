@@ -40,5 +40,5 @@ changes in the near future.
 .. _Document: http://ezcomponents.org/s/Document
 .. _Feed: http://ezcomponents.org/s/Feed
 .. _dopplr: http://dopplr.com
-.. _flickr: http://flickr.com
+.. _flickr: https://flickr.com
 .. _twitter: http://twitter.com

@@ -21,7 +21,7 @@ topics.
 .. _`Skien, Norway`: http://tinyurl.com/6c2ybw=
 .. _`eZ Systems`: http://ez.no
 .. _`conference`: http://conference.ez.no
-.. _`previous years`: http://www.flickr.com/photos/tags/phpvikinger
+.. _`previous years`: https://www.flickr.com/photos/tags/phpvikinger
 .. _`PHP Norge`: http://php.no
 .. _`last year`: http://php.no/phpvikinger
 

@@ -84,4 +84,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`August 16th, 2014`: http://www.wunderground.com/history/airport/EGLL/2004/8/16/DailyHistory.html?req_city=NA&req_state=NA&req_statename=NA
 .. _gpsbabel: http://www.gpsbabel.org/
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14752910700
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14752910700

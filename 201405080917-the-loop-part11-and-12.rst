@@ -98,4 +98,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`Slough Arm`: http://en.wikipedia.org/wiki/Slough_Arm
 .. _`The Old Orchard`: http://www.brunningandprice.co.uk/oldorchard/
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13930759437
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13930759437

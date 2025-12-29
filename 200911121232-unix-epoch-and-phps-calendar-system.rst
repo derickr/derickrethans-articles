@@ -29,7 +29,7 @@ which is a pain to do proper date calculations with. Therefore the ISO
 .. _`commit`: http://news.php.net/php.doc.cvs/5325
 .. _`PHP bug #50155`: http://bugs.php.net/bug.php?edit=1&id=50155
 .. _`proleptic`: http://dictionary.reference.com/browse/proleptic
-.. _`Leap Seconds and What To Do With Them`: /leap_seconds_and_what_to_do_with_them.php
+.. _`Leap Seconds and What To Do With Them`: /leap-seconds-and-what-to-do-with-them.html
 .. _`ISO 8601 calendar`: http://en.wikipedia.org/wiki/ISO_8601#Years
 .. _`Gregorian`: http://en.wikipedia.org/wiki/Gregorian_calendar
 .. _`Astronomical year numbering`: http://en.wikipedia.org/wiki/Astronomical_year_numbering

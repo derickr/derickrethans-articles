@@ -85,4 +85,4 @@ other sections of the LOOP_, are available as a `Flickr set`_.
 .. _`The King William IV`: http://www.thekingwilliamiv.co.uk/home/
 .. _OpenStreetMap: http://openstreetmap.org
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/15269393882
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/15269393882

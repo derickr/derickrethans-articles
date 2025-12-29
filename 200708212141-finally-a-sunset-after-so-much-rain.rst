@@ -8,7 +8,7 @@ Finally a sunset after so much rain.
 
 .. image:: images/sunset.jpg
    :align: center
-   :target: http://www.flickr.com/photos/derickrethans/1196582162/in/set-72157601593025371/
+   :target: https://www.flickr.com/photos/derickrethans/1196582162/in/set-72157601593025371/
 
 
 

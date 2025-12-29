@@ -148,4 +148,4 @@ other sections of the LOOP_, are available as a `Flickr set`_.
 .. _pheasants: http://en.wikipedia.org/wiki/Pheasant
 .. _`The Bear`: http://www.sizzlingpubs.co.uk/thebearromford/
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/15332976775
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/15332976775

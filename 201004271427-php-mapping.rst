@@ -130,7 +130,7 @@ necessary calculations in a `PHP extension`_ to speed up the calculations
 .. _OpenData: http://www.ordnancesurvey.co.uk/oswebsite/opendata/
 .. _licenced: http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/docs/licence.pdf
 .. _`Code-Point Open`: http://www.ordnancesurvey.co.uk/oswebsite/products/code-point-open/
-.. _pictures: http://www.flickr.com/photos/derickrethans/map
+.. _pictures: https://www.flickr.com/photos/derickrethans/map
 .. _OpenStreetMap: http://www.openstreetmap.org/
 .. _`National Grid`: http://en.wikipedia.org/wiki/British_national_grid_reference_system#Grid_letters
 __ http://en.wikipedia.org/wiki/File:National_Grid_for_Great_Britain_with_central_meridian.gif

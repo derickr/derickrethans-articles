@@ -60,8 +60,8 @@ IRC_.
 .. _toying: http://blog.foursquare.com/2012/02/29/foursquare-is-joining-the-openstreetmap-movement-say-hi-to-pretty-new-maps/#comment-452722147
 .. _`mapping parties`: http://wiki.openstreetmap.org/wiki/Mapping_party
 .. _video: http://vimeo.com/37255594
-.. _`"OpenStreetMap: A Year of Edits"`: http://drck.me/osmyoe11-9nz
-.. _before: http://drck.me/what-is-osm-8my
+.. _`"OpenStreetMap: A Year of Edits"`: https://drck.me/osmyoe11-9nz
+.. _before: https://drck.me/what-is-osm-8my
 .. _wiki: http://wiki.openstreetmap.org/wiki/Main_Page
 .. _IRC: http://wiki.openstreetmap.org/wiki/Irc
 

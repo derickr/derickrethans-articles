@@ -126,4 +126,4 @@ lots of new friends.  I might be tempted to this again.
 .. _`oldest city`: http://en.wikipedia.org/wiki/St._Augustine,_Florida
 .. _talks: /talks.html
 .. _MongoDB: http://mongodb.org
-.. _flickr: http://www.flickr.com/photos/derickrethans/sets/72157631576287910/
+.. _flickr: https://www.flickr.com/photos/derickrethans/sets/72157631576287910/

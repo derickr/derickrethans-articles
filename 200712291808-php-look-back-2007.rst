@@ -12,5 +12,5 @@ whole year. No more! It's taking too much of my time, so `last year's`_ is going
 one. Sorry folks :-)
 
 
-.. _`last year's`: /php_look_back_2006.php
+.. _`last year's`: /php-look-back-2006.html
 

@@ -27,7 +27,7 @@ Unicode support for PHP 6.
 
 
 .. _`PHP Conference`: http://phpconference.com
-.. _`problems`: /what_is_it_with_all_those_dutch_people_in_this_plane.php
+.. _`problems`: /what-is-it-with-all-those-dutch-people-in-this-plane.html
 .. _`writing extensions`: http://somabo.de/talks/200511_php_code_camp.pdf
 .. _`Ilia`: http://ilia.ws
 .. _`Class typehints and = null`: http://files.derickrethans.nl/patches/ze-typehint-class-null-2005-11-10.diff.txt

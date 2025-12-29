@@ -114,4 +114,4 @@ other sections of the LOOP_, are available as a `Flickr set`_.
 
 .. _`Upminster Bridge`: http://en.wikipedia.org/wiki/Upminster_Bridge_tube_station
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/15519518162
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/15519518162

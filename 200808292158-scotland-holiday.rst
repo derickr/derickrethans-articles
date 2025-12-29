@@ -222,5 +222,5 @@ My pictures from the trip are on `flickr`_ .
 
 
 .. _`Roskhill House`: http://www.roskhillhouse.co.uk/
-.. _`flickr`: http://flickr.com/photos/derickrethans/sets/72157606886274251/
+.. _`flickr`: https://flickr.com/photos/derickrethans/sets/72157606886274251/
 

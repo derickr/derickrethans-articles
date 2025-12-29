@@ -82,4 +82,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`Bulls Bridge`: http://canalplan.eu/gazetteer/ukca
 .. _`Nestlé`: http://en.wikipedia.org/wiki/Nestl%C3%A9
 .. _`West Drayton`: http://en.wikipedia.org/wiki/West_Drayton
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14066588415/
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14066588415/

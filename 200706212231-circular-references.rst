@@ -82,7 +82,7 @@ and I can hardly wait until I can play with it :)
 
 .. _`Application Server`: http://blog.milkfarmsoft.com/?p=51
 .. _`eZ Components`: http://ez.no/ezcomponents
-.. _`article on this`: /php_references_article.php
+.. _`article on this`: /php-references-article.html
 .. _`php|architect`: http://phparch.com
 .. _`garbage collection`: http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29
 .. _`cyclic tracing`: http://www.research.ibm.com/people/d/dfb/papers/Bacon01Concurrent.pdf

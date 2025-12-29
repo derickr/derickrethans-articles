@@ -49,7 +49,7 @@ you think Xdebug is useful, feel free to donate_ as well!
 
 .. _Xdebug: http://xdebug.org
 .. _asked: http://derickrethans.nl/xdebug-2-released.html
-.. _mention: http://drck.me/xdebug-2.1-7x2
+.. _mention: https://drck.me/xdebug-2.1-7x2
 .. _donations: http://xdebug.org/donate.php
 .. _issue: https://bugs.kde.org/show_bug.cgi?id=256425#c10
 .. _KCacheGrind: http://kcachegrind.sourceforge.net/html/Home.html

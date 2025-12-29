@@ -14,6 +14,6 @@ on the `talks`_ page.
 
 .. _`our`: http://ez.no
 .. _`Forum PHP`: http://www.afup.org/pages/forumphp2007
-.. _`Flickr`: http://flickr.com/photos/derickrethans/sets/
+.. _`Flickr`: https://flickr.com/photos/derickrethans/sets/
 .. _`talks`: /talks.php
 

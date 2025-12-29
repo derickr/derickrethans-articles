@@ -78,4 +78,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`The Sir Julian Huxley`: http://www.jdwetherspoon.co.uk/home/pubs/the-sir-julian-huxley
 .. _`Selsdon Wood`: http://en.wikipedia.org/wiki/Selsdon_Wood
 .. _`Puplet Wood`: 
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13378241064
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13378241064

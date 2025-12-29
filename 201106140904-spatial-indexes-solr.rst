@@ -13,9 +13,9 @@ storage.  In this article we're going to have a look at importing the data into
 something else than a relational database: the search platform Solr_. (Yes, I
 know I've skipped PostgreSQL, but I'll come back to that).
 
-.. _`The spherical Earth model`: http://drck.me/spat-dist-8kf
-.. _`SQLite`: http://drck.me/spat-osm-sqlite-8la
-.. _`MySQL`: http://drck.me/spat-mysql-8ls
+.. _`The spherical Earth model`: https://drck.me/spat-dist-8kf
+.. _`SQLite`: https://drck.me/spat-osm-sqlite-8la
+.. _`MySQL`: https://drck.me/spat-mysql-8ls
 
 **Solr**
 

@@ -14,6 +14,6 @@ will also give a tutorial/workshop on (proper) database design and
 optimization.
 
 
-.. _`wrote`: /phptek_conference.php
+.. _`wrote`: /phptek-conference.html
 .. _`php|tek`: http://phparch.com/tek
 

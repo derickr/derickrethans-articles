@@ -84,4 +84,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`Shot Tower`: http://en.wikipedia.org/wiki/Crane_Park
 .. _`Crane Park Nature Reserve`: http://en.wikipedia.org/wiki/Crane_Park_Island
 .. _`Hounslow Heath`: http://en.wikipedia.org/wiki/Hounslow_Heath
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13964310102/
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13964310102/

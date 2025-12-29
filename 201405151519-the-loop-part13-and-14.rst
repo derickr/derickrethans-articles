@@ -83,4 +83,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`Sandy Lodge golf club`: http://www.sandylodge.co.uk/
 .. _elephpants: https://www.flickr.com/groups/elephpants
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13977244037
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13977244037

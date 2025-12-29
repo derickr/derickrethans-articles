@@ -112,7 +112,7 @@ Albanach, and a climb up `Calton Hill`_ marked the end of the holiday.
 
 The photos of this trip can be found on flickr__.
 
-__ http://www.flickr.com/photos/derickrethans/sets/72157635475131074/
+__ https://www.flickr.com/photos/derickrethans/sets/72157635475131074/
 
 *The tasted whiskies*
 

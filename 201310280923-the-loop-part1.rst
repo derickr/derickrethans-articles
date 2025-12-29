@@ -106,5 +106,5 @@ For the full photo series, see my `Flickr set`_.
 .. _`Bear & Ragged Staff`: http://www.yelp.co.uk/biz/bear-and-ragged-staff-crayford
 .. _`Hall Place`: http://www.bexleyheritagetrust.org.uk/hallplace/
 .. _A2: http://osm.org/go/0EEG5pLoS--?m=
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/
 

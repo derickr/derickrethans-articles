@@ -90,6 +90,6 @@ definitely would not be the selling point on why somebody should
 
 
 .. _`Guy Harpaz`: http://guyharpaz.blogspot.com/
-.. _`Debugger Protocol Shoot-out`: /debugging_protocol_shootout.php
+.. _`Debugger Protocol Shoot-out`: /debugging-protocol-shootout.html
 .. _`post`: http://guyharpaz.blogspot.com/2006/05/php-ide-debug-protocol.html
 

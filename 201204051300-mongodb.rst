@@ -32,5 +32,5 @@ a look at the job posting here_ if you are interested.
 .. _MongoDB: http://mongodb.org
 .. _driver: http://php.net/mongodb
 .. _talks: http://derickrethans.nl/talks.html
-.. _know: http://derickrethans.nl/who.html
+.. _know: https://derickrethans.nl/who.html
 .. _here: http://jobvite.com/m?3kW8hfwp 

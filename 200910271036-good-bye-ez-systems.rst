@@ -20,6 +20,6 @@ you can provide me with a new challenge, feel free to contact `me`_.
 
 .. _`eZ Systems`: http://ez.no
 .. _`eZ Components`: http://ezcomponents.org
-.. _`moved to London`: /good_bye_norway_hello_london.php
-.. _`me`: /who.php
+.. _`moved to London`: /good-bye-norway-hello-london.html
+.. _`me`: /who.html
 

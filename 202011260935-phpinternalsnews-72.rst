@@ -191,7 +191,7 @@ Derick Rethans  29:08
 Show Notes
 ----------
 
-- Episode `#33 <https://phpinternals.news/33>`_: `Union Types <https://wiki.php.net/rfc/union_types_v2 >`_
+- Episode `#33 <https://phpinternals.news/33>`_: `Union Types <https://wiki.php.net/rfc/union_types_v2>`_
 - Episode `#38 <https://phpinternals.news/38>`_: `WeakMaps <https://wiki.php.net/rfc/weak_maps>`_
 - Episode `#39 <https://phpinternals.news/39>`_: `Stringable Interface <https://wiki.php.net/rfc/stringable>`_
 - Episode `#40 <https://phpinternals.news/40>`_: `Static Return Type <https://wiki.php.net/rfc/static_return_type>`_, `Class Name Literal on Object <https://wiki.php.net/rfc/class_name_literal_on_object>`_, and `Variable Syntax Tweaks <https://wiki.php.net/rfc/variable_syntax_tweaks>`_

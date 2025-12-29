@@ -84,4 +84,4 @@ __ http://www.openstreetmap.org/way/10363604#map=16/51.6488/-0.2811&layers=C
 .. _`Jack's Lake`: http://www.monkenhadleycommon.net/tour.html
 .. _Cockfosters: http://en.wikipedia.org/wiki/Cockfosters_tube_station
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14652696350
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14652696350

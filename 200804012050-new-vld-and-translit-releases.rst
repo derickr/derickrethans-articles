@@ -53,8 +53,8 @@ Both extensions are available through PECL and installable like:
 	pecl install translit
 
 
-.. _`VLD`: /vld.php
-.. _`Google Summer of Code project`: /gsoc_2008_optimizer.php
-.. _`Optimizer`: http://wiki.php.net/gsoc/2008#make_ilia_s_optimizer_production_ready
-.. _`translit`: /translit.php
+.. _`VLD`: /projects.html#vld
+.. _`Google Summer of Code project`: /gsoc-2008-optimizer.html
+.. _`Optimizer`: https://wiki.php.net/gsoc/2008#make_ilia_s_optimizer_production_ready
+.. _`translit`: /projects.html#translit
 

@@ -25,7 +25,7 @@ you can use if(), for() and while() just like you would in PHP code. Of
 course, support for the old syntax has been kept.
 
 `Improved support for internal links`_ : Now you can simply use
-eznode://galleries/misc_flowers in links. These links are automatically
+``eznode://galleries/misc_flowers`` in links. These links are automatically
 updated when you move this node to a new location.
 
 

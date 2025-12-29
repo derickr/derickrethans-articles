@@ -43,4 +43,4 @@ manually monitored during the taking of the images.
 The rest of the images are on flickr_.
 
 .. _conjunction: http://en.wikipedia.org/wiki/Conjunction_%28astronomy_and_astrology%29
-.. _flickr: http://www.flickr.com/photos/derickrethans/sets/72157629602684483/detail/
+.. _flickr: https://www.flickr.com/photos/derickrethans/sets/72157629602684483/detail/

@@ -10,6 +10,6 @@ My presentations from the `conference`_ are over, and as
 usual you can find the slides on the `talks`_ page.
 
 
-.. _`conference`: /frankfurt_conference.php
-.. _`talks`: /talks.php
+.. _`conference`: /frankfurt-conference.html
+.. _`talks`: /talks.html
 

@@ -17,8 +17,8 @@ put them online at `flickr`_ .
 I am waiting for more ;-) (Address is `here`_ ).
 
 
-.. _`released`: http://xdebug.org/#x_2_0_2
-.. _`released Xdebug 2.0.0`: http://www.derickrethans.nl/xdebug_2_released.php
-.. _`flickr`: http://flickr.com/photos/derickrethans/sets/72157601485462007/map
-.. _`here`: /who.php
+.. _`released`: https://xdebug.org/#x_2_0_2
+.. _`released Xdebug 2.0.0`: http://www.derickrethans.nl/xdebug-2-released.php
+.. _`flickr`: https://flickr.com/photos/derickrethans/sets/72157601485462007/map
+.. _`here`: /who.html
 

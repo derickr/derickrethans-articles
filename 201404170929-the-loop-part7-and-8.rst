@@ -86,4 +86,4 @@ The photos that I took on this section, as well as the photos of the
 other sections of the LOOP, are available as a `Flickr set`_.
 
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13893364715
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13893364715

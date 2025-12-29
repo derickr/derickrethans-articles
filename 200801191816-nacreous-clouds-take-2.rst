@@ -12,5 +12,5 @@ Nacreous Clouds - take 2
 Finally another sighting of those rare nacreous clouds. More on `flickr`_ .
 
 
-.. _`flickr`: http://flickr.com/photos/derickrethans/sets/72157603752195727/
+.. _`flickr`: https://flickr.com/photos/derickrethans/sets/72157603752195727/
 

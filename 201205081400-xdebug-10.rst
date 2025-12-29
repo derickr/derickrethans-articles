@@ -10,7 +10,7 @@
 
 .. image:: images/cake.jpg
    :align: right
-   :title: "landhere" — Creative Commons Attribution Share Alike — http://www.flickr.com/photos/landhere/384076624/
+   :title: "landhere" — Creative Commons Attribution Share Alike — https://www.flickr.com/photos/landhere/384076624/
 
 Today it has been ten years since the first release of Xdebug: version 0.7.0. I
 would like to celebrate this tenth anniversary with a new release: Xdebug 2.2.0.
@@ -32,8 +32,8 @@ Windows:
 You can find an article about this here__.
 
 .. _`var_dump() overloading`: http://xdebug.org/docs/display
-__ /clicolor-9cr
-.. _`colours on the command line`: /clicolor-9cr
+__ /cli-color.html
+.. _`colours on the command line`: /cli-color.html
 
 
 **Better support for closures in stack and function traces**

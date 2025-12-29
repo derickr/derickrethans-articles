@@ -14,7 +14,7 @@ and build extensions against all those different PHP configurations I have
 adopted a simple method that I'm sharing with you here.
 
 .. _hobby: http://derickrethans.nl/projects.html
-.. _commercial: http://derickrethans.nl/who.html#derickrethansltd
+.. _commercial: https://derickrethans.nl/who.html#derickrethansltd
 
 The major part of it is that I use a different installation prefix for
 every configuration of PHP that I make. Right now, ``ls /usr/local/php``

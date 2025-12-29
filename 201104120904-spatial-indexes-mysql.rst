@@ -13,8 +13,8 @@ In this article we're going to have a look at importing the data into
 MySQL_ and finding out how to best store and query spatial data in 
 the databases.
 
-.. _`The spherical Earth model`: http://drck.me/spat-dist-8kf
-.. _`importing data`: http://drck.me/spat-osm-sqlite-8la
+.. _`The spherical Earth model`: https://drck.me/spat-dist-8kf
+.. _`importing data`: https://drck.me/spat-osm-sqlite-8la
 .. _MySQL: http://dev.mysql.com/
 .. _PostgreSQL: http://www.postgresql.org/
 

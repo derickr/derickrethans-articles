@@ -15,7 +15,7 @@ there are 172 days left to convert your applications to PHP 5 - good
 luck!
 
 
-.. _`April 1st`: /php_quebec_conference_rip_php_4.php
+.. _`April 1st`: /php-quebec-conference-rip-php-4.html
 .. _`discussion`: http://thread.gmane.org/gmane.comp.php.devel/43537
 .. _`official`: http://www.php.net/index.php#2007-07-13-1
 

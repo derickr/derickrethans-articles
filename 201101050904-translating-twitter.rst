@@ -13,7 +13,7 @@ that uses `Bing Translate`_ instead.*
 by a reader.*
 
 .. _deprecated: http://googlecode.blogspot.com/2011/05/spring-cleaning-for-some-of-our-apis.html
-.. _`new article`: http://drck.me/bing-translate-8nq
+.. _`new article`: https://drck.me/bing-translate-8nq
 .. _`Bing Translate`: http://www.microsofttranslator.com/dev/
 
 As the author of Xdebug_ I am interested in finding out what people think of

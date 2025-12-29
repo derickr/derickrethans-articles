@@ -36,4 +36,4 @@ PHP extension in C, please feel free to contact_ me.
 .. _`Twig's`: http://twig.sensiolabs.org/
 .. _SensioLabs: http://sensiolabs.com/
 .. _twig-ext: https://github.com/derickr/twig-ext
-.. _contact: http://derickrethans.nl/who.html
+.. _contact: https://derickrethans.nl/who.html

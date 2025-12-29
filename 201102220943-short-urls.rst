@@ -71,13 +71,13 @@ define my own.
 
 Now, once we have the short URLs, they need to be used. Instead of my long main
 domain http://derickrethans.nl, I registered a new one just for short URLs:
-http://drck.me to reduce the URL length even more. For the current article,
+https://drck.me to reduce the URL length even more. For the current article,
 the length of the URL shrinks from 39 to 26 characters. The short URL is
 also embedded in the HTML source with a ``rev=canonical`` tag and a
 ``rel=shortlink`` tag, such as::
 
-    <link rev="canonical" type="text/html" href="http://drck.me/shrturl-8ju">
-    <link rel="shortlink" type="text/html" href="http://drck.me/shrturl-8ju">
+    <link rev="canonical" type="text/html" href="https://drck.me/shrturl-8ju">
+    <link rel="shortlink" type="text/html" href="https://drck.me/shrturl-8ju">
 
 This tag is meant to provide alternative URLs for the current one. For more
 information on ``rev=canonical`` see http://revcanonical.appspot.com/ or Chris
@@ -85,7 +85,7 @@ Shiflett's entry_, and for ``rel=shortlink`` see the microformats_ site. The
 `shortlink specification`_ also recommends the use of the HTTP ``Link:``
 header::
 
-	Link: <http://drck.me/shrturl-8ju>; rel=shortlink
+	Link: <https://drck.me/shrturl-8ju>; rel=shortlink
 
 The two tags and the HTTP header make it possible for services that prefer an
 as short as possible URL to

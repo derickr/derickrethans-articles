@@ -105,8 +105,8 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`section 2`: /the-loop-part2.html
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
 .. _`Jack's`: http://www.jacks-cafe.com/
-.. _`Queen's Park Panda`: http://www.flickr.com/photos/derickrethans/5424181369/
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13046875634
+.. _`Queen's Park Panda`: https://www.flickr.com/photos/derickrethans/5424181369/
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/13046875634
 .. _`High Elms Park`: http://www.bromley.gov.uk/info/1008/nature_reserves/400/high_elms_country_park_local_nature_reserve
 .. _`Green Roof Cafe`: http://www.bromley.gov.uk/info/469/countryside-visitor_centres/384/bromley_environmental_education_centre_at_high_elms_beeche/4
 .. _`Bromley Millennium Rock`: http://www.londonremembers.com/memorials/bromley-millennium-rock

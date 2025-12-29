@@ -45,15 +45,15 @@ course).
 
 To see all the pictures, please visit my `flickr set "Snowdon"`_.
 
-.. _photography: http://www.flickr.com/photos/derickrethans/
+.. _photography: https://www.flickr.com/photos/derickrethans/
 .. _Snowdon: http://en.wikipedia.org/wiki/Snowdon
 .. _Llanberis: http://en.wikipedia.org/wiki/Llanberis
 .. _Caernarfon: http://en.wikipedia.org/wiki/Caernarfon
 .. _`Tal Menai`: http://www.talmenaiguesthouse.co.uk/
 .. _far: http://osm.org/go/euXrxrDlz-
 .. _`Menai Strait`: http://en.wikipedia.org/wiki/Menai_Strait
-.. _sunsets: http://www.flickr.com/photos/derickrethans/4805922697/
+.. _sunsets: https://www.flickr.com/photos/derickrethans/4805922697/
 .. _Pen-y-Pass: http://en.wikipedia.org/wiki/Pen-y-Pass
-.. _view: http://www.flickr.com/photos/derickrethans/4805926313/
+.. _view: https://www.flickr.com/photos/derickrethans/4805926313/
 .. _OpenStreetMap: http://osm.org/go/eucX5xgY--
-.. _`flickr set "Snowdon"`: http://www.flickr.com/photos/derickrethans/sets/72157624539800410/detail/
+.. _`flickr set "Snowdon"`: https://www.flickr.com/photos/derickrethans/sets/72157624539800410/detail/

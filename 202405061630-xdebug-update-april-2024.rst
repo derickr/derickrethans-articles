@@ -88,7 +88,7 @@ And several for writing PHP extensions, as part of a new `series <https://www.yo
 
 If you have any suggestions, feel free to reach out to
 `me on Mastodon <https://phpc.social/@derickr>`_ or via `email
-<http://derickrethans/who.html>`_.
+<https://derickrethans.nl/who.html>`_.
 
 Business Supporter Scheme and Funding
 -------------------------------------

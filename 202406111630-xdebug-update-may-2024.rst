@@ -73,7 +73,7 @@ previous ones on my `channel
 
 If you have any suggestions, feel free to reach out to
 `me on Mastodon <https://phpc.social/@derickr>`_ or via `email
-<http://derickrethans/who.html>`_.
+<https://derickrethans.nl/who.html>`_.
 
 Business Supporter Scheme and Funding
 -------------------------------------

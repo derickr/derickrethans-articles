@@ -92,4 +92,4 @@ other sections of the LOOP, are available as a `Flickr set`_.
 .. _`Aldenham Country Park`: http://en.wikipedia.org/wiki/Aldenham_Country_Park
 .. _`The Fishery`: http://www.thefisheryinelstree.co.uk
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14197856337
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/14197856337

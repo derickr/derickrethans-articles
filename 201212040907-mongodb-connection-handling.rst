@@ -262,17 +262,17 @@ the new aggregation framework that comes with MongoDB 2.2.
 .. credit::
    :Type: photo
    :Description: Sad T-rex
-   :Link: http://www.flickr.com/photos/ijammin/5456757507/
+   :Link: https://www.flickr.com/photos/ijammin/5456757507/
 
 .. credit::
    :Type: photo
    :Description: Whisky glass
-   :Link: http://www.flickr.com/photos/feastguru_kirti/5396934673
+   :Link: https://www.flickr.com/photos/feastguru_kirti/5396934673
 
 .. credit::
    :Type: photo
    :Description: Lock
-   :Link: http://www.flickr.com/photos/leehaywood/4141478822
+   :Link: https://www.flickr.com/photos/leehaywood/4141478822
 
 .. _MongoDB: http://mongodb.org
 .. _`getConnections()`: http://www.php.net/manual/en/mongoclient.getconnections.php

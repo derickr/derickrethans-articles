@@ -178,7 +178,7 @@ Show Notes
 
 - RFC: `Non-Capturing Catches <https://wiki.php.net/rfc/non-capturing_catches>`_
 - RFC: `Always available JSON extension <https://wiki.php.net/rfc/always_enable_json>`_
-- RFC: `Unbundle ext/xmlrpc <https://wiki.php.net/rfc/unbundle_xmlprc >`_
+- RFC: `Unbundle ext/xmlrpc <https://wiki.php.net/rfc/unbundle_xmlprc>`_
 
 Credits
 -------

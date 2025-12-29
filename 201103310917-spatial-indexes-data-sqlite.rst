@@ -12,7 +12,7 @@ spherical Earth model'. In this article we're going to have a look at fetching
 a data set and importing them into a SQLite database to query from PHP. What
 better data set is there to import than all of the UK's pubs?
 
-.. _article: http://drck.me/spat-dist-8kf
+.. _article: https://drck.me/spat-dist-8kf
 
 **Getting the Data**
 
@@ -187,7 +187,7 @@ spherical Earth model is::
   ?>
 
 .. _functions: http://www.sqlite.org/lang_corefunc.html
-.. _previous: http://drck.me/spat-dist-8kf
+.. _previous: https://drck.me/spat-dist-8kf
 
 One solution would be to query the database, and then use the ``distance()``
 function to filter out unwanted elements, like::

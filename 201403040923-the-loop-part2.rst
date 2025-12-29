@@ -103,5 +103,5 @@ For the full photo series of the LOOP, see my `Flickr set`_.
 .. _LOOP: http://www.walklondon.org.uk/route.asp?R=5
 .. _`section 1`: /the-loop-part1.html
 .. _`PHP UK Conference`: 
-.. _`Flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/12730866274/
+.. _`Flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157636982853053/with/12730866274/
 

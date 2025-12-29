@@ -88,11 +88,11 @@ article. I'd be happy to hear why you would think that OpenStreetMap is not a
 good fit for your applications and usage.
 
 __ http://wiki.openstreetmap.org/wiki/Xml_schema
-__ http://drck.me/spat-osm-sqlite-8la
+__ https://drck.me/spat-osm-sqlite-8la
 __ http://open.mapquest.co.uk/link/6-eU7PhaC7
 __ http://tinyurl.com/34l8wqu
 
-.. _`gets it wrong`: http://www.flickr.com/photos/harrywood/5702396769/
+.. _`gets it wrong`: https://www.flickr.com/photos/harrywood/5702396769/
 .. _OpenStreetMap: http://openstreetmap.org
 .. _`slippy map`: http://wiki.openstreetmap.org/wiki/Slippy_Map
 .. _`Google maps`: http://maps.google.co.uk/

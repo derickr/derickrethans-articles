@@ -32,7 +32,7 @@ was quietly laying and watching around.
 The rest of the pictures from the Zoo are in my `gallery`_ .
 
 
-.. _`Frankfurt`: /frankfurt_conference.php
+.. _`Frankfurt`: /frankfurt-conference.html
 .. _`Ilia`: http://ilia.ws
 .. _`Sebastian`: http://sebastian-bergmann.de
 .. _`gallery`: http://photos.derickrethans.nl/animals

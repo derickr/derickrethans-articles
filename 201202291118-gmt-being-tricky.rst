@@ -107,6 +107,6 @@ please get a copy of my book
 .. _twitter: https://twitter.com/skoop/status/174794576312287232
 .. _`@skoop`: https://twitter.com/skoop
 .. _documentation: http://ca.php.net/manual/en/timezones.others.php
-.. _`"Leap Seconds and What To Do With Them"`: http://drck.me/lsawtdwt-6ye
+.. _`"Leap Seconds and What To Do With Them"`: https://drck.me/lsawtdwt-6ye
 .. _`"php|architect's Guide to Date and Time Programming"`: http://phpdatebook.com/
 

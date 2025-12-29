@@ -43,7 +43,7 @@ PayPal.
 .. _donate: http://xdebug.org/donate.php
 .. _Another: http://bugs.xdebug.org/bug_view_page.php?bug_id=00000642
 .. _this: http://bugs.xdebug.org/bug_view_page.php?bug_id=00000639
-.. _experiment: http://drck.me/sponsor-xdebug-8ky
+.. _experiment: https://drck.me/sponsor-xdebug-8ky
 .. _twitter: https://twitter.com/xdebug
 .. _mailinglist: http://xdebug.org/support.php#list
 .. _profiler: http://xdebug.org/docs/profiler

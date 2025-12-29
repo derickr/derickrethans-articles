@@ -115,7 +115,7 @@ For further photos and timelapses, please see my `flickr set`_.
 .. _excursion: http://www.re.is/DayTours/Activity/Details/Northern-Lights-Tour-March-April/
 .. _`aurora buddy`: https://play.google.com/store/apps/details?id=com.combatdave.aurorabuddy&hl=en
 .. _location: http://osm.org/go/e0UIZxt2-
-__ http://www.flickr.com/photos/derickrethans/tags/aurora/
+__ https://www.flickr.com/photos/derickrethans/tags/aurora/
 .. _`Þingvellir`: http://en.wikipedia.org/wiki/Thingvellir
 .. _`Alþingi`: http://en.wikipedia.org/wiki/Alþingi
 .. _`Mid-Atlantic Ridge`: http://en.wikipedia.org/wiki/Mid-Atlantic_Ridge
@@ -127,4 +127,4 @@ __ http://www.flickr.com/photos/derickrethans/tags/aurora/
 .. _`Seltún`: http://en.wikipedia.org/wiki/Kr%C3%BDsuv%C3%ADk
 .. _Gunnuhver: http://visitreykjanes.is/Searchresults/Attraction/gunnuhver
 .. _`"Bridge between two continents"`: http://en.wikipedia.org/wiki/Leif_the_Lucky_Bridge
-.. _`flickr set`: http://www.flickr.com/photos/derickrethans/sets/72157633051319974/show/
+.. _`flickr set`: https://www.flickr.com/photos/derickrethans/sets/72157633051319974/show/
