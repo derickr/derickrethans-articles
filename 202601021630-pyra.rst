@@ -1,0 +1,45 @@
+Friday Night Dinner: Pyrá
+=========================
+
+.. articleMetaData::
+   :Where: 6A-8A Lonsdale Road, London, NW6 6RD, United Kingdom
+   :Date: 2026-01-02 16:30 Europe/London
+   :Tags: fnd
+   :Cuisine: Greek
+   :Short: pyra
+   :URL: https://www.pyralondon.com/
+   :Costs: Starters: £7-£18; Mains: £14-£26; Wines from £28
+   :Rating: 3
+   :Author: Morag and Derick Rethans
+
+Pyrá is a recent addition to the line-up of restaurants on Lonsdale Road.
+Their menu is on the shorter side, and they also cater for parties. When we
+rocked up, there was a wedding reception going on in their loft. Pyrá has a
+menu with both Greek and Spanish influences, a more unusual combination, but
+one which on reading appeared to work well. We shared a portion of the chorizo
+and manchego croquettes. These were a little spicy and salty, including some
+chunky bits of manchego.
+
+For our main courses, I picked the deconstructed lamb gyros, which came served
+with fluffy flatbreads, chips, a chilli dip, tzatziki, and an onion and tomato
+salad. My wife chose the roasted Merton sole, with saffron rice, and oyster
+mushrooms. It came served whole, with a dressing of some lemon and roasted
+garlic. However, service was slow, with a noticeable wait until the mains
+showed up, and then the mains not being served together. My wife's sole
+eventually appeared almost half an hour after the gyros. This may have been
+due to the large party upstairs, but no warning was given of a possible delay,
+and no apology was forthcoming either. Overall, this wasn't the most positive.
+
+The food (when it came) was nice and well cooked, and the portions were fairly
+generous, which meant that we skipped dessert.
+
+We enjoyed Pyrá, but the long wait in between our main dishes being served let
+them down, and would probably mean it was not our first choice in Queens Park
+for a revisit.
+
+.. carousel::
+   :name: pyra
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :pyra-1: Chorizo and Manchego Croquettes
+   :pyra-2: Deconstructed Lamb Gyros
+   :pyra-3: Dips
