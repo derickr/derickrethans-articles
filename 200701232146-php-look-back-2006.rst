@@ -42,7 +42,7 @@ where this might happen in your code. To "fix" the issue, you
 can apply either a patch that increases the refcount data type, or in
 cases where you can not do that, and you want to be able to debug weird
 crashes, I have a patch for PHP 4.4 that tells you when the refcount
-reaches `50000`_ .
+reaches 50000.
 
 Leon Matthews made the suggestion to add "friend classes"
 support to PHP, but most people thought that `"friends ... seemed kind of hackish"`_ (and that's why nobody likes PHP anymore ;-)
@@ -575,7 +575,6 @@ That was it for this year. I hope that I didn't miss any important
 discussions in this wrap up. Have a good 2007!
 
 
-.. _`50000`: http://files.derickrethans.nl/patches/refcount-overflow-check-2006-11-06.diff.txt
 .. _`"friends ... seemed kind of hackish"`: http://news.php.net/php.internals/21478
 .. _`PHP 4.4.2`: http://www.php.net/release_4_4_2.php
 .. _`PDM`: http://php.net/~derick/meeting-notes.html

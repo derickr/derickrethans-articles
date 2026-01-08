@@ -17,7 +17,6 @@ group of awesome supporters.
 
 Xdebug will continue to be available for benefactors on a limited number of
 platforms that I have access to (Linux 32/64bit and Windows). Please refer to
-the FAQ_ for further information.
+the FAQ for further information.
 
 .. _donations: http://xdebug.org/donate.php
-.. _FAQ: http://derickrethans.nl/files/dump/faq.html

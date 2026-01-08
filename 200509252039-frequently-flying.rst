@@ -43,7 +43,7 @@ Slides of all the talks can as usual be found on my `Talks`_ page.
 
 
 .. _`php|works`: http://phparch.com/works
-.. _`The PHP Toolbox`: /files/toolbox.pdf
+.. _`The PHP Toolbox`: /talks/toolbox
 .. _`eZ`: http://ez.no
 .. _`The Great Kahn`: http://www.mongoliangrill-gk.com/index.htm
 .. _`interesting bars and restaurants`: http://photos.derickrethans.nl/phpworks05?page=2

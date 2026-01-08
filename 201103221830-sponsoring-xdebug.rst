@@ -47,13 +47,13 @@ Xdebug features. I plan on releasing to write up some more thoughts about that
 soon. I expect Xdebug 2.1.1 to come out before the end of the month. If
 you think Xdebug is useful, feel free to donate_ as well!
 
-.. _Xdebug: http://xdebug.org
-.. _asked: http://derickrethans.nl/xdebug-2-released.html
+.. _Xdebug: https://xdebug.org
+.. _asked: /xdebug-2-released.html
 .. _mention: https://drck.me/xdebug-2.1-7x2
-.. _donations: http://xdebug.org/donate.php
+.. _donations: https://xdebug.org/donate.php
 .. _issue: https://bugs.kde.org/show_bug.cgi?id=256425#c10
 .. _KCacheGrind: http://kcachegrind.sourceforge.net/html/Home.html
-.. _profiler: http://xdebug.org/docs/profiler
+.. _profiler: https://xdebug.org/docs/profiler
 .. _experiment: http://sebastian-bergmann.de/archives/909-On-Sponsored-Open-Source-Development.html
 .. _`Pale Purple`: http://www.palepurple.co.uk/
 .. _`React`: http://www.react.nl/
@@ -62,4 +62,4 @@ you think Xdebug is useful, feel free to donate_ as well!
 .. _source: http://xdebug.org/download.php#releases
 .. _`Xdebug 2.1.1RC1`: http://xdebug.org/updates.php#x_2_1_0rc1
 .. _`code coverage`: http://xdebug.org/docs/code_coverage
-.. _donate: http://xdebug.org/donate.php
+.. _donate: https://xdebug.org/donate.php

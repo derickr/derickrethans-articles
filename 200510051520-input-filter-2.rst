@@ -13,6 +13,6 @@ put this extension by default in the PHP distributions.
 
 
 .. _`Input Filter`: /input-filter.html
-.. _`extension`: http://files.derickrethans.nl/filter_extension.html
+.. _`extension`: https://www.php.net/filter
 .. _`PECL package`: http://pecl.php.net/filter
 

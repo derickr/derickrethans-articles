@@ -18,7 +18,7 @@ for the following cases:
 E_NOTICE: Just for little notices to inform the user that something
 might have gone wrong.
 
-E_WARNING: Something went wrong, probably resulting in unwanted behavior
+E_WARNING: Something went wrong, probably resulting in unwanted behaviour
 - should be fixed by the script's writer.
 
 E_RECOVERABLE_ERROR: An error situation occurred, which is probably
@@ -32,15 +32,12 @@ catchable by a user defined error handler.
 For now the new error level E_RECOVERABLE_ERROR is only implemented for
 type-hints, but lots of extensions are still using E_ERROR, when there
 is no need for it. They need updating to make those errors
-E_RECOVERABLE_ERROR, or preferrably E_WARNING (or even
+E_RECOVERABLE_ERROR, or preferably E_WARNING (or even
 E_NOTICE).
 
 Update: We renamed E_RECOVERABLE to E_RECOVERABLE_ERROR.
 
-The patch is online for `6.0`_ (already committed) and `5.1`_ (not committed).
+The patch is online for ``6.0`` (already committed) and ``5.1`` (not committed).
 
 
 .. _`posting`: http://news.php.net/php.internals/17581
-.. _`6.0`: http://files.derickrethans.nl/patches/e_recoverable_error-20050825.diff.txt
-.. _`5.1`: http://files.derickrethans.nl/patches/e_recoverable_error-php-5.1-20050826.diff.txt
-

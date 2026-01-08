@@ -23,6 +23,6 @@ get some real equipment now... such as a telescope and a good digicam.
 .. _`ESA`: http://esa.int
 .. _`Huygens`: http://www.esa.int/SPECIALS/Cassini-Huygens/
 .. _`Machholz`: http://www.space.com/spacewatch/comet_winter_040917.html
-.. _`Orion`: images/astronomy/orion.png
-.. _`Pleiades`: images/astronomy/pleiades.png
+.. _`Orion`: rst/images/astronomy/orion.png
+.. _`Pleiades`: rst/images/astronomy/pleiades.png
 

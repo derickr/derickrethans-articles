@@ -15,7 +15,7 @@ on.
 On Monday evening Marcus hosted a talk on `writing extensions`_ for PHP, where `Ilia`_ ,
 Johannes and I assited attendees by solving extensions related
 problems. There were little questions so instead I backported a fix to
-PHP 5.1 regarding `Class typehints and = null`_ .
+PHP 5.1 regarding class typehints and = null.
 
 On Tuesday a few of the PHP developers (Marcus, Aaron, Ilia, me, and
 others) were the main attraction. In the `PHP Lounge`_ attendees got the chance to discuss whatever PHP topic they
@@ -30,6 +30,5 @@ Unicode support for PHP 6.
 .. _`problems`: /what-is-it-with-all-those-dutch-people-in-this-plane.html
 .. _`writing extensions`: http://somabo.de/talks/200511_php_code_camp.pdf
 .. _`Ilia`: http://ilia.ws
-.. _`Class typehints and = null`: http://files.derickrethans.nl/patches/ze-typehint-class-null-2005-11-10.diff.txt
 .. _`PHP Lounge`: http://phpconference.com/konferenzen/divers/psecom,id,260,nodeid,332,_language,uk.html
 

@@ -18,7 +18,7 @@ I am waiting for more ;-) (Address is `here`_ ).
 
 
 .. _`released`: https://xdebug.org/#x_2_0_2
-.. _`released Xdebug 2.0.0`: http://www.derickrethans.nl/xdebug-2-released.php
+.. _`released Xdebug 2.0.0`: https://www.derickrethans.nl/xdebug-2-released.html
 .. _`flickr`: https://flickr.com/photos/derickrethans/sets/72157601485462007/map
 .. _`here`: /who.html
 

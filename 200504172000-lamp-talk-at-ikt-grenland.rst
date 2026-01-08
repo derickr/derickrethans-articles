@@ -12,5 +12,5 @@ to me. It turned out to be just fine fortunately. Slides can be found `here`_ .
 
 
 .. _`IKT Grenland's`: http://www.iktgrenland.no
-.. _`here`: http://files.derickrethans.nl/lamp-ikt-grenland.pdf
+.. _`here`: /talks/lamp-ikt-grenland
 

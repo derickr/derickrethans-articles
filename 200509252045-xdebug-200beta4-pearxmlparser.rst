@@ -17,10 +17,9 @@ PackageFile and XMLParser handle UTF-8 and XML. In PHP 5 the XML parsers
 output always UTF-8, which was not taken into account and because of
 misunderstandings they suggested to use entities for weird characters,
 such as the norwegian "æ". But entities are *HTML* features, which do not exist in XML - so this didn't work properly
-either. I cooked up a small `patch`_ which should make "pear convert" and "pear package"
+either. I cooked up a small patch which should make "pear convert" and "pear package"
 deal with UTF-8 and non-ASCII characters in a more proper way.
 
 
-.. _`Xdebug`: http://xdebug.org
-.. _`patch`: http://files.derickrethans.nl/patches/pear-utf8-2005-09-24.diff.txt
+.. _`Xdebug`: https://xdebug.org
 

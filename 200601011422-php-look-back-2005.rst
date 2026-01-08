@@ -115,7 +115,7 @@ APC will soon support PHP 5.
 *May* had a slow start, and things only got interesting at the end
 of the month. The first thing that came up was Ilia's removal of
 dangling commas from enums, something that `"was in c language from the first day"`_ . Apparently, GCC 4 is `"becoming worse and worse"`_ , but luckily we can still just `ignore the warnings`_ .
-After a small private discussion with Dmitry about Marcus' and my `reference fix patch`_ , he came to the conclusion that this patch breaks binary
+After a small private discussion with Dmitry about Marcus' and my reference fix patch, he came to the conclusion that this patch breaks binary
 compatibility and that this problem doesn't warrant a PHP 4.4 release.
 As this reference problem has been affecting many users, and definitely `us`_ over the past months, I `wrote an email`_ to
 the list stating that it is "totally irresponsible" not to
@@ -374,7 +374,6 @@ messages ;-), and to all others who made PHP happen this year.
 .. _`"was in c language from the first day"`: http://news.php.net/php.cvs/31895
 .. _`"becoming worse and worse"`: http://news.php.net/php.cvs/31898
 .. _`ignore the warnings`: http://news.php.net/php.cvs/31924
-.. _`reference fix patch`: http://files.derickrethans.nl/patches/ze1-return-reference-20050429.diff.txt
 .. _`wrote an email`: http://news.php.net/php.internals/16312
 .. _`Zeev`: http://news.php.net/php.internals/16314
 .. _`happier`: http://news.php.net/php.internals/16329

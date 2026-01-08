@@ -13,7 +13,7 @@ The `front page`_ now always shows the last 24
 articles and/or blurps. In case there is an article among those 24
 items it is shown on the left side, and all blurps are then
 positioned on the right side (like it was previously). In case
-there is no article among those last items the blurps are devided
+there is no article among those last items the blurps are divided
 equally between the two columns. The last item is now highlighted
 in a shade of blue.
 
@@ -29,6 +29,6 @@ it was impossible to link to old blurps on the site.
 
 .. _`front page`: /
 .. _`archive section`: /archive.php
-.. _`Monthly`: /month-2004-06.php
-.. _`linked to`: /month-2004-06.php?item=200406292041#200406292041
+.. _`Monthly`: /archive.html#june_2004
+.. _`linked to`: /archive.html#june_2004
 

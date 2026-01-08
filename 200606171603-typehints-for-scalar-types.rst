@@ -9,7 +9,7 @@ Typehints for scalar types
 An attendee at the `PHP New York Conference`_ asked me on some tips on how to implement typehinting
 for scalar types (integer, float, string, boolean...). In about 20
 minutes I explained how it could be done, but I got a bit bored at my
-flight back so I finished the `patch`_ already. The patch is most likely not the best way of implementing this
+flight back so I finished the patch already. The patch is most likely not the best way of implementing this
 either, and I am also not sure if this patch should be applied to PHP's
 CVS at all. It might be useful for people that have more control over
 their PHP setup so I decided to publish it here instead.
@@ -41,5 +41,4 @@ in /tmp/test.php on line 12
 
 
 .. _`PHP New York Conference`: http://phpnycon.com
-.. _`patch`: http://files.derickrethans.nl/patches/ze-type-hint-2006-06-17.diff.txt
 

@@ -22,12 +22,13 @@ up-to-date, and some mirrors are still running PHP 5.3.
 It is likely no longer necessary to have a mirror system in place, as unlike
 20 years ago, it is not nearly has hard as setting up a distributed cache
 system. As a matter of fact, some of the PHP.net web site, through
-http://www.php.net/, already sits behind a Content Delivery Network (CDN) from
+https://www.php.net/, already sits behind a Content Delivery Network (CDN) from
 Myra_, which is sponsored by long time PHP contributor Sascha Schumann.
 
 With these preliminaries out of the way, I would therefore like to announce
 the discontinuation of PHP.net's mirroring program. Instead of having mirrors,
-we are moving all of PHP.net to HTTPS (and get rid of https://secure.php.net),
+we are moving all of PHP.net to HTTPS (and get rid of https://secure.php.net,
+which we don't need any more),
 and move them behind Myra's CDN, with the same local content delivery
 opportunities, but at significantly less administration requirements.
 

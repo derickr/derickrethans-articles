@@ -11,5 +11,5 @@ from PHP 4 to PHP 5 can be found `here`_ .
 
 
 .. _`PHP Conference`: http://phpconference.com
-.. _`here`: /pres-breaking/talk.html
+.. _`here`: /talks/breaking
 

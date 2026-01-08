@@ -11,6 +11,6 @@ online: `Multi-lingual development`_ and `Xdebug`_ .
 
 
 .. _`php|works`: http://phparch.com/phpworks/
-.. _`Multi-lingual development`: http://www.derickrethans.nl/files/wereldveroverend-phpworks04.pdf
-.. _`Xdebug`: http://www.derickrethans.nl/files/xdebug-phpworks04.pdf
+.. _`Multi-lingual development`: https://www.derickrethans.nl/talks/wereldveroverend-phpworks04
+.. _`Xdebug`: https://www.derickrethans.nl/talks/xdebug-phpworks04
 
