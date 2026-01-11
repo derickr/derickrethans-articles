@@ -11,17 +11,18 @@ activities.
 
 Now that life returned to normal busyness I managed to recover my photos
 from New York. (I wiped them off my memory card... which is not smart).
-The photos from the New York trip are `here`_ .
+The photos from the New York trip `are here`_ .
 
 During last week there were several different events as well. On Tuesday
 we had a crew day where I for the first time met *all* of my
-collegues. And the last weekend there was `PHP Vikinger`_ - an unconference
+colleagues. And the last weekend there was `PHP Vikinger`_ - an unconference
 about PHP related things.
 
-All events were very succesful. Photos can be found `here`_ .
+All events were very successful. Photos can be found `here`_ .
 
 
 .. _`eZ publish`: http://ez.no/company/events/ez_publish_conference_2006
-.. _`here`: http://photos.derickrethans.nl/ezconf2006
+.. _`are here`: https://www.flickr.com/photos/derickrethans/albums/72157601909051208
+.. _`here`: https://www.flickr.com/photos/derickrethans/albums/72157601235393113
 .. _`PHP Vikinger`: http://phpvikinger.org/
 

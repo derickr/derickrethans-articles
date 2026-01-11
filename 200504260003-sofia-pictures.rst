@@ -8,11 +8,6 @@ Sofia Pictures
 
 .. image:: images/national-theater-sofia.png
    :align: center
-   :target: http://photos.derickrethans.nl/2005-sofia
 
 During my trip to Sofia I took some pictures of course, you can find
-them `here`_ .
-
-
-.. _`here`: http://photos.derickrethans.nl/2005-sofia
-
+them here.

@@ -18,12 +18,7 @@ landmarks in Paris. On the left you can see `the Eiffel Tour`_ and below the `Ar
 .. image:: images/arc-de-triomphe.png
    :align: center
 
-The other pictures can be found in my `gallery`_ .
-
-
 .. _`Marcus`: http://marcus-boerger.de
 .. _`Andrei`: http://gravitonic.com
 .. _`the Eiffel Tour`: http://en.wikipedia.org/wiki/Eiffel_Tower
 .. _`Arc de Triomphe`: http://en.wikipedia.org/wiki/Arc_de_Triomphe
-.. _`gallery`: http://photos.derickrethans.nl/pdm2005
-

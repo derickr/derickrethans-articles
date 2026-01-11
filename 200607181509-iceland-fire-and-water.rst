@@ -244,10 +244,6 @@ catch the next day's early morning flight.
 
 *Pictures*
 
-For pictures of the whole trip, see `my gallery`_ ,
-panoramas are `here`_ .
+For pictures of the whole trip, see `my gallery`_.
 
-
-.. _`my gallery`: http://photos.derickrethans.nl/iceland
-.. _`here`: http://photos.derickrethans.nl/iceland-panoramas
-
+.. _`my gallery`: https://www.flickr.com/photos/derickrethans/albums/72157601386963892

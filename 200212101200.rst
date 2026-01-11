@@ -55,10 +55,8 @@ more nice blog entries.
 
 Besides the serious things we also had lots of fun touring Paris, with the
 Eiffel Tower being the biggest success (although it was very cold there).  If
-you are looking for my slides, see `here`_ and for photos of the event
-check `this`_.
+you are looking for my slides, see `here`.
 
 .. _`PHP Magazine`: http://www.php-mag.net/
-.. _`here`: http://pres.derickrethans.nl/ze-ext
-.. _`this`: http://photos.derickrethans.nl/paris2002
+.. _`here`: https://derickrethans.nl/talks/ze-ext
 

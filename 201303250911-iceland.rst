@@ -121,7 +121,7 @@ __ https://www.flickr.com/photos/derickrethans/tags/aurora/
 .. _`Mid-Atlantic Ridge`: http://en.wikipedia.org/wiki/Mid-Atlantic_Ridge
 .. _Gullfoss: http://en.wikipedia.org/wiki/Gullfoss
 .. _`Hvítá`: http://en.wikipedia.org/wiki/Hv%C3%ADt%C3%A1,_%C3%81rness%C3%BDsla
-.. _`Gullfoss in summer`: http://photos.derickrethans.nl/iceland/abz
+.. _`Gullfoss in summer`: https://www.flickr.com/photos/derickrethans/1092799831/in/album-72157601386963892
 .. _Strokkur: http://en.wikipedia.org/wiki/Strokkur
 .. _`Kerið`: http://en.wikipedia.org/wiki/Kerid
 .. _`Seltún`: http://en.wikipedia.org/wiki/Kr%C3%BDsuv%C3%ADk

@@ -8,7 +8,6 @@
 
 .. image:: images/halo.jpg
    :align: center
-   :target: http://photos.derickrethans.nl/asmosphere/aab
 
 When flying into Manchester Airport `last week`_ on my way to
 the Sheffield LUG Seminar I noticed a rainbow coloured circle (actually, only a part of a circle) around the

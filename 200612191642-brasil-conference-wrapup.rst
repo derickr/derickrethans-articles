@@ -15,25 +15,20 @@ During those extra days I flew to Foz do Iguaçu to have a look at the `Itaipu d
    :align: center
 
 Besides the falls there are many other things to see in the park, such
-as `butterflies`_ and `very big ants`_ .
+as `butterflies`_ and very big ants.
 
 After visiting the park I travelled further south to visit one of my
-colleagues, `Melissa`_ .
+colleagues, Melissa.
 Together we travelled to Gramado, a very German `looking city`_ .
 
 For the rest of the pictures check my `gallery`_ . There
-are also a few `panoramas`_ available.
-
+are also a few panoramas available.
 
 .. _`PHP Conference Brasil`: http://www.temporealeventos.com.br/?area=13
 .. _`Xdebug`: http://xdebug.org
 .. _`eZ Components`: http://ez.no/ezcomponents
-.. _`Itaipu dam`: http://photos.derickrethans.nl/brasil2006/aab
-.. _`Iguaçu falls`: http://photos.derickrethans.nl/brasil2006/aak
-.. _`butterflies`: http://photos.derickrethans.nl/brasil2006/aao
-.. _`very big ants`: http://photos.derickrethans.nl/brasil2006/abi
-.. _`Melissa`: http://photos.derickrethans.nl/brasil2006/abq
-.. _`looking city`: http://photos.derickrethans.nl/brasil2006/abm
-.. _`gallery`: http://photos.derickrethans.nl/brasil2006
-.. _`panoramas`: http://photos.derickrethans.nl/brasil2006-panorama
-
+.. _`Itaipu dam`: https://www.flickr.com/photos/derickrethans/53002647425/in/album-72177720309330105
+.. _`Iguaçu falls`: https://www.flickr.com/photos/derickrethans/53002394731/in/album-72177720309330105
+.. _`butterflies`: https://www.flickr.com/photos/derickrethans/53002418564/in/album-72177720309330105
+.. _`looking city`: https://www.flickr.com/photos/derickrethans/53002423434/in/album-72177720309330105
+.. _`gallery`: https://www.flickr.com/photos/derickrethans/albums/72177720309330105

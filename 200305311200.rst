@@ -22,10 +22,8 @@ In the first ten minutes there was nothing to see, until 5:41 where we finally
 spotted the sun. I started taking pictures every 30 to 60 seconds in order to
 make a nice composition photo of the progress of the eclipse. All images are
 taken with a Minolta 404 camera on a Fujicolor 200 film, F=5.6 and the shutter
-speed varies from 1/60th ( `first photo in the series, taken at 5:41:15am`_) to
-1/250th ( `last photo in the series, taken at 6:06:45am`_). The best photos are
-placed here, all other pictures can be found `here`_.
-
+speed varies from 1/60th (first photo in the series, taken at 5:41:15am) to
+1/250th (last photo in the series, taken at 6:06:45am).
 Disclaimer: Diagrams linked are © `Fred Espenaks`_ page. Photos are © by
 `Derick Rethans`_ and can not be used in print or electronic publishing without
 written permission.
@@ -37,9 +35,6 @@ written permission.
 .. _`Lunar eclipse on May 16th`: /lunar_eclipse.html
 .. _`annular solar eclipse`: http://sunearth.gsfc.nasa.gov/eclipse/ASE2003/ASE2003.html
 .. _`path`: rst/images/ASE2003-3b.GIF
-.. _`first photo in the series, taken at 5:41:15am`: http://photos.derickrethans.nl/solar2003/aaa?full=1
-.. _`last photo in the series, taken at 6:06:45am`: http://photos.derickrethans.nl/solar2003/abf?full=1
-.. _`here`: http://photos.derickrethans.nl/solar2003
 .. _`Fred Espenaks`: http://sunearth.gsfc.nasa.gov/eclipse/ASE2003/ASE2003.html
 .. _`Derick Rethans`: /who.php
 

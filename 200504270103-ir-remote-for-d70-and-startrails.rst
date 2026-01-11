@@ -8,7 +8,6 @@ IR remote for D70 and startrails
 
 .. image:: images/astronomy/star-trails1.jpg
    :align: center
-   :target: http://photos.derickrethans.nl/constellations/aaj?full=1
 
 I've been looking for some time for a remote control for my Nikon D70 in
 order to make very long exposure times possible (> 30 secs). I know

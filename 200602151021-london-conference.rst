@@ -24,10 +24,6 @@ missed my talk in London, I will be giving a similar presentation
 through `php|architect`_ by means of
 a webcast next Friday. This is a free webcast for which you can sign up `here`_ .
 
-Of course a trip by me never goes without taking pictures, you can find
-them in my `gallery`_ .
-
-
 .. _`PHP UK Conference`: http://phpconference.co.uk
 .. _`eZ components`: http://ez.no/products/ez_components
 .. _`talks`: /talks.php
@@ -35,5 +31,4 @@ them in my `gallery`_ .
 .. _`Ajax and Latency`: http://www.sitepoint.com/blogs/2006/02/10/ajaxlocalhost/
 .. _`php|architect`: http://phparch.com
 .. _`here`: http://phparch.com/shop_product.php?itemid=108
-.. _`gallery`: http://photos.derickrethans.nl/phpconfuk6
 

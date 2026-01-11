@@ -8,11 +8,6 @@ Sun and Moon
 
 .. image:: images/astronomy/fingers-of-god.png
    :align: center
-   :target: http://photos.derickrethans.nl/asmosphere/aat
 
 .. image:: images/astronomy/moon-in-clouds.png
    :align: center
-   :target: http://photos.derickrethans.nl/moon/aay
-
-
-

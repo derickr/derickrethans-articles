@@ -26,6 +26,6 @@ December 31st, 2007.
 
 
 .. _`PHP User Group`: http://phpquebec.org/
-.. _`here`: http://photos.derickrethans.nl/quebec07
+.. _`here`: https://www.flickr.com/photos/derickrethans/albums/72157601908631074
 .. _`talks`: /talks.php
 

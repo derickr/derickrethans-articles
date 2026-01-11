@@ -8,7 +8,6 @@ Plane Glory
 
 .. image:: images/astronomy/plane-glory.png
    :align: center
-   :target: http://photos.derickrethans.nl/asmosphere/aah
 
 When flying back from `WebTech`_ in Sofia last Sunday I noticed a halo around the shadow of my plane on
 the clouds. This effect is called `a glory`_ .

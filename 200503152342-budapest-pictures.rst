@@ -11,19 +11,12 @@ course I had also some time for sightseeing - and of course make some photos:
 
 .. image:: images/bud-waterfront.jpg
    :align: center
-   :target: http://photos.derickrethans.nl/phpconf-budapest/aax
 
 .. image:: images/bud-castle.jpg
    :align: center
-   :target: http://photos.derickrethans.nl/phpconf-budapest/abc
 
 .. image:: images/bud-heroes.jpg
    :align: center
-   :target: http://photos.derickrethans.nl/phpconf-budapest/aav
-
-Other pictures are `here`_
-
 
 .. _`PHP Konferencia`: /php_konferencia_budapest.php
-.. _`here`: http://photos.derickrethans.nl/phpconf-budapest
 

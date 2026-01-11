@@ -8,11 +8,9 @@ Colours in the sky
 
 .. image:: images/corona1.png
    :align: center
-   :target: http://photos.derickrethans.nl/asmosphere/aai
 
 .. image:: images/corona2.png
    :align: center
-   :target: http://photos.derickrethans.nl/asmosphere/aam
 
 When I was walking home from work today I spotted some colours in a
 cloud near the Sun. When I got home I decided to make some pictures of
@@ -22,5 +20,5 @@ droplets. I have some more pictures `here`_ .
 
 
 .. _`coronae`: http://www.sundog.clara.co.uk/droplets/corona.htm
-.. _`here`: http://photos.derickrethans.nl/asmosphere
+.. _`here`: https://www.flickr.com/photos/derickrethans/albums/72157601593025371/
 

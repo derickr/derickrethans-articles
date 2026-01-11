@@ -10,8 +10,4 @@ Spring is here!
    :align: center
 
 Took this photo during lunch break, IMO it's a pretty good close-up
-coming out of my Canon A 70 camera. For the full version, see `here`_ .
-
-
-.. _`here`: http://photos.derickrethans.nl/spring/aab?full=1
-
+coming out of my Canon A 70 camera.

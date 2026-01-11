@@ -14,5 +14,5 @@ Today I went on a small phototrip with Kristian to the `locks`_ in the `Telemark
 
 .. _`locks`: http://www.telemarkskanalen.no/kanalweb/Dokumentbase.nsf/webDocuments/B7C7B364D4D82413C1256CF7003EADDD?OpenDocument
 .. _`Telemark Channel`: http://www.telemarkskanalen.no/
-.. _`here`: http://photos.derickrethans.nl/loeveid-kanal
+.. _`here`: https://www.flickr.com/photos/derickrethans/albums/72157601231479570
 

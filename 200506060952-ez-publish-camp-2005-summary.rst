@@ -37,8 +37,7 @@ discussions continued into the (very) late hours of
 Saturday.
 
 On Sunday everybody returned home, although some people finally tried to
-make it to the top of Gaustablikk. Pictures of the entire event can be
-found `here`_ .
+make it to the top of Gaustablikk.
 
 
 .. _`eZ systems`: http://ez.no
@@ -50,5 +49,4 @@ found `here`_ .
 .. _`content server`: http://xrow.de/home/services/software_products/content_server_commercial
 .. _`Vision WT`: http://visionwt.com
 .. _`eZUS edu usergroup`: http://ez.no/community/user_groups/ezug_edu
-.. _`here`: http://photos.derickrethans.nl/ezcamp2005
 

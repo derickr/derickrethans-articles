@@ -14,11 +14,8 @@ speak about the `eZ components`_ at Forum PHP. You can find my slides online on 
 
 Besides the conference I also took the opportunity to travel to
 Versailles, but unfortunately that was closed. Of course, some shots of
-the Eiffel tour had to be taken. All photos that I took during the trip
-can be found `here`_ .
-
+the Eiffel tour had to be taken.
 
 .. _`eZ components`: http://ez.no/ezcomponents
 .. _`talks`: /talks.php
-.. _`here`: http://photos.derickrethans.nl/forumphp2006
 

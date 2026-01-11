@@ -8,7 +8,6 @@ P.I.T.
 
 .. image:: images/pit.png
    :align: center
-   :target: http://photos.derickrethans.nl/2004norway-pit
 
 Today the Porsgrunn International Theater festival started with a
 performance by the French group 'Trance Express'. Together with

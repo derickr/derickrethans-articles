@@ -29,11 +29,6 @@ only a very small amount is in the focus area here.
 Outside we found two leopards, one was constantly moving, but this one
 was quietly laying and watching around.
 
-The rest of the pictures from the Zoo are in my `gallery`_ .
-
-
 .. _`Frankfurt`: /frankfurt-conference.html
 .. _`Ilia`: http://ilia.ws
 .. _`Sebastian`: http://sebastian-bergmann.de
-.. _`gallery`: http://photos.derickrethans.nl/animals
-

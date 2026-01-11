@@ -113,9 +113,6 @@ fish in the village. Bintan gave me a small tan and I relaxed quite
 nicely. In the afternoon of the second day we went back to Singapore
 where I concluded my holiday.
 
-For all the other pictures that I made during the trip see my `gallery`_ .
-
-
 .. _`some family`: http://bijfemme.nl
 .. _`airport`: http://en.wikipedia.org/wiki/Singapore_Changi_Airport
 .. _`modern and western`: http://en.wikipedia.org/wiki/Singapore
@@ -130,5 +127,4 @@ For all the other pictures that I made during the trip see my `gallery`_ .
 .. _`Indonesia`: http://en.wikipedia.org/wiki/Indonesia
 .. _`Bintan`: http://en.wikipedia.org/wiki/Bintan
 .. _`Shady Shack`: http://www.lobo.kinemotion.de/
-.. _`gallery`: http://photos.derickrethans.nl/asia05
 

@@ -12,11 +12,10 @@ Amsterdam Conference Photos
 As I `wrote a week ago`_ I've been
 attending and speaking on the International PHP Conference in Amsterdam.
 During the conference we spend some time in the city too, where I shot a
-couple of pictures together with `Andrei`_ . You can find the full album `here`_ .
+couple of pictures together with `Andrei`_ .
 There are no picture of the conference venue itself though.
 
 
-.. _`wrote a week ago`: /no_need_for_a_map.php
+.. _`wrote a week ago`: /no-need-for-a-map.html
 .. _`Andrei`: http://gravitonic.com
-.. _`here`: http://photos.derickrethans.nl/phpconf-adam5/
 

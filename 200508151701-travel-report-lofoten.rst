@@ -122,7 +122,7 @@ luck as it wasn't very windy, so the sea was quite calm. After an hour
 steeming we approached the area where the whales appear. At this place
 the continental sheft `abruptly`_ ends making it an ideal place to see `sperm whales`_ and
 minke whales. We were quite lucky and saw 3 sperm whales and a minke
-whale. Unfortunately the latter one had also some `whalers`_ on its
+whale. Unfortunately the latter one had also some whalers on its
 tail.
 
 *Day 7*
@@ -152,31 +152,30 @@ found in my `gallery`_ , with
 additional panoramic pictures `here`_ .
 
 
-.. _`the city`: http://photos.derickrethans.nl/album/lofoten-panorama/aad.thumb.png
-.. _`the coast`: http://photos.derickrethans.nl/album/lofoten-panorama/aae.thumb.png
+.. _`the city`: https://www.flickr.com/photos/derickrethans/4211211456/in/album-72157623062299086
+.. _`the coast`: https://www.flickr.com/photos/derickrethans/4211211600/in/album-72157623062299086
 .. _`Saltstraumen`: http://home.c2i.net/rune.dahl/saltstraumen2.html#anchor69661
 .. _`reflecting in the water`: http://photos.derickrethans.nl/album/lofoten-panorama/aaf.thumb.jpg
-.. _`fortress`: http://photos.derickrethans.nl/lofoten/abi
-.. _`the harbour`: http://photos.derickrethans.nl/lofoten/abp
-.. _`Værøy`: http://photos.derickrethans.nl/lofoten/abu
-.. _`ragged peeks`: http://photos.derickrethans.nl/lofoten/aca
-.. _`this mountain`: http://photos.derickrethans.nl/lofoten/acl
-.. _`seaguls`: http://photos.derickrethans.nl/lofoten/acl
-.. _`seals`: http://photos.derickrethans.nl/lofoten/act
-.. _`eagles`: http://photos.derickrethans.nl/lofoten/acx
-.. _`toppskarv`: http://photos.derickrethans.nl/lofoten/adc
-.. _`Måstad`: http://photos.derickrethans.nl/lofoten/adh
-.. _`refreshing bath`: http://photos.derickrethans.nl/lofoten/adn
+.. _`fortress`: https://www.flickr.com/photos/derickrethans/4210452971/in/album-72157623062299086
+.. _`the harbour`: https://www.flickr.com/photos/derickrethans/4211220700/in/album-72157623062299086
+.. _`Værøy`: https://www.flickr.com/photos/derickrethans/4210456467/in/album-72157623062299086
+.. _`ragged peeks`: https://www.flickr.com/photos/derickrethans/4211223734/in/album-72157623062299086
+.. _`this mountain`: https://www.flickr.com/photos/derickrethans/4211226140/in/album-72157623062299086
+.. _`seaguls`: https://www.flickr.com/photos/derickrethans/4211226140/in/album-72157623062299086
+.. _`seals`: https://www.flickr.com/photos/derickrethans/4211227666/in/album-72157623062299086
+.. _`eagles`: https://www.flickr.com/photos/derickrethans/4210463097/in/album-72157623062299086
+.. _`toppskarv`: https://www.flickr.com/photos/derickrethans/4211230154/in/album-72157623062299086
+.. _`Måstad`: https://www.flickr.com/photos/derickrethans/4210465289/in/album-72157623062299086
+.. _`refreshing bath`: https://www.flickr.com/photos/derickrethans/4210466565/in/album-72157623062299086
 .. _`Reine`: http://photos.derickrethans.nl/lofoten-panorama?page=2
-.. _`out to dry`: http://photos.derickrethans.nl/lofoten/adz
+.. _`out to dry`: https://www.flickr.com/photos/derickrethans/4211234820/in/album-72157623062299086
 .. _`place`: http://mathisvika12.no/
-.. _`Svolværgeita`: http://photos.derickrethans.nl/lofoten/aem
+.. _`Svolværgeita`: https://www.flickr.com/photos/derickrethans/4211238462/in/album-72157623062299086
 .. _`magnificant`: http://photos.derickrethans.nl/album/lofoten-panorama/aap.jpg
-.. _`plains and lakes`: http://photos.derickrethans.nl/lofoten/aey
-.. _`lighthouse`: http://photos.derickrethans.nl/lofoten/afc
+.. _`plains and lakes`: https://www.flickr.com/photos/derickrethans/4210474987/in/album-72157623062299086
+.. _`lighthouse`: https://www.flickr.com/photos/derickrethans/4210475855/in/album-72157623062299086
 .. _`abruptly`: http://whalesafari.com/whalesafari/whalesafari.html
-.. _`sperm whales`: http://photos.derickrethans.nl/lofoten/afh
-.. _`whalers`: http://photos.derickrethans.nl/lofoten/afn
+.. _`sperm whales`: https://www.flickr.com/photos/derickrethans/4210477515/in/album-72157623062299086
 .. _`here`: http://photos.derickrethans.nl/lofoten-panorama
-.. _`gallery`: http://photos.derickrethans.nl/lofoten
+.. _`gallery`: https://www.flickr.com/photos/derickrethans/albums/72157623062299086
 

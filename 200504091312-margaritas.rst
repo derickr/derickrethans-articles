@@ -9,7 +9,7 @@ Margarita's
 We're having a Mexican party tonight.. so it seems like a good plan to make some Margarita's for that. Here
 follows a (famous) recipe:
 
-`Ingredients:`_
+Ingredients:
 
 ::
 
@@ -20,14 +20,9 @@ follows a (famous) recipe:
 	3 tablespoons sugar
 
 Steeping the margarita mixture: Mix the sugar with 1 cup of warm water until sugar dissolves. Then mix it
-with the tequila, Grand Marnier, lime juice and `lime zest`_ in a glass or plastic pitcher or bottle. `Cover and refrigerate`_ at least 2 hours (but
+with the tequila, Grand Marnier, lime juice and lime zest in a glass or plastic pitcher or bottle. Cover and refrigerate at least 2 hours (but
 no more than 24 hours). Strain and drink.
 
 If you want, you can rub the rims of your glasses with lime wedges then dip them into coarse salt. Serve
 them either straight up or on the rocks.
-
-
-.. _`Ingredients:`: http://photos.derickrethans.nl/margerita/aaa
-.. _`lime zest`: http://photos.derickrethans.nl/margerita/aab
-.. _`Cover and refrigerate`: http://photos.derickrethans.nl/margerita/aag
 

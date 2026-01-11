@@ -14,9 +14,4 @@ assembled I started playing with it ofcourse, and fortunately the sky was lookin
    :align: center
 
 I'm not sure how this effect occurs, but the sun is already below the horizon and shining from below on the
-clouds. If anybody can explain why it colours so nices, please leave a comment. You can find a high(er)
-resolution version `here`_ .
-
-
-.. _`here`: http://photos.derickrethans.nl/astro/aac?full=1
-
+clouds. If anybody can explain why it colours so nice, please leave a comment.

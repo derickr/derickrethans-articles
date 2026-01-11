@@ -10,8 +10,4 @@ Fall is here
    :align: center
 
 Fall is well under way here, the trees are getting all yellow and red.
-Too bad that the weather wasn't that good today, otherwise `the pictures`_ would even have been nicer.
-
-
-.. _`the pictures`: http://photos.derickrethans.nl/2005norway-fall
-
+Too bad that the weather wasn't that good today, otherwise the pictures would even have been nicer.

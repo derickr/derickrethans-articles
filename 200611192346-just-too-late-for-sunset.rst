@@ -25,16 +25,12 @@ four second exposure of waves breaking on the (rocky) shore:
    :align: center
 
 If you instead of a close up take a bit wider image of the shore it
-gives an eery feeling just like this shot of the waves and water flowing
-inbetween the rocks that were deposited here by a glacier a long time
+gives an eerie feeling just like this shot of the waves and water flowing
+in between the rocks that were deposited here by a glacier a long time
 ago:
 
 .. image:: images/photos/dsc_0333b.jpg
    :align: center
 
-The rest of the images in this serie can be found in my `gallery`_ .
-
-
 .. _`Sebastian`: http://sebastian-bergmann.de
-.. _`gallery`: http://photos.derickrethans.nl/moelen_sunset
 
