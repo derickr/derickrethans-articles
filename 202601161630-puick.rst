@@ -1,0 +1,74 @@
+Friday Night Dinner: Puick
+==========================
+
+.. articleMetaData::
+   :Where: Veemarktstreet 56, 4811 ZJ Breda, Netherlands
+   :Date: 2026-01-16 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: European
+   :Short: puick
+   :URL: https://www.puick.nl/diner
+   :Costs: Tasting menu: €58; Matching wines: €39
+   :Rating: 5
+   :Author: Derick Rethans
+
+On one of our pre-Christmas adventures to the Netherlands, we went to Breda, a
+small city in the south of the Netherlands. As my birthday is also close to
+Christmas, we usually also use this opportunity to get a nice birthday meal.
+This year, we settled on Puick, a small restaurant that offers a dinner menu
+Friday through Sunday. Dinner consists of a single tasting menu, which is
+served to all tables. It only offers a single tasting menu, which changes
+every two months. It’s also worth noting that whilst they will try to
+accommodate allergies and intolerances, they don’t accommodate dietary
+preferences. So if you’re vegetarian, vegan, or perhaps less adventurous with
+your food, we’re sorry to say that Puick is not the restaurant for you.
+
+The short lifespan of the menu probably makes describing the dishes below a
+little superfluous, but at least it will give you an idea of the sort of thing
+they  cook up.
+
+The dishes that we got served were:
+
+- Carrots with soy foam and speculaas spices
+- A bao bun, filled with tofu cream, sesame oil, pumpkin seeds, lemon grass,
+  and chilli syrup
+- A raw prawn with red beet, lemon pepper cream, candied hazelnuts
+- Parsnip with clementine slices, curry spices, cocos, and walnuts
+- Black rice with oxtail, peppadew and pear
+- Red beets, with red onion, smoked cheese, marmite, and hoisin sauce
+- Sweet potato, with a kale curry, kefir, and peanuts
+- A deer steak with atjar, broccoli, mustard seed, and almonds
+
+And for dessert:
+
+- A dark chocolate mousse, with olive oil and capers
+- Gorgonzola, served with chestnut honey, trail mix, and pane carasau (an
+  Italian flatbread)
+
+We decided that having the wine pairing would make the drinks selection easier
+given the variety of dishes that would be served. This turned out to be a
+great decision, as we had some lovely wines that all went well with the food.
+There is also an alcohol-free “botanical pairing” option available.
+
+Dinner at Puick was an eclectic and exciting mix of cuisines, flavours,
+textures, and ingredients. Each dish was excellent, and well explained by the
+team. Puick also offers a lunch menu, with either matching wines, or
+alcohol-free “botanical pairings”.
+
+We really enjoyed our time at Puick. The dishes were delicious, the service
+great, and the atmosphere cosy and relaxed. If you’re up for an interesting
+tasting menu, we can heartily recommend Puick for when you're ever in Breda.
+
+.. carousel::
+   :name: puick
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :puick-1: Carrots with Speculaas 
+   :puick-2: Bao Buns
+   :puick-3: Parsnips and Clementines
+   :puick-4: Raw Prawns with Red Beets
+   :puick-5: Black Rice with Oxtail
+   :puick-6: Red Beets with Red Onion
+   :puick-7: Deer Steak with Atjar and Broccoli
+   :puick-8: Sweet Potato with Kale Curry
+   :puick-9: Gorgonzola with Chestnut Honey
+   :puick-10: Dark Chocolate Mousse with Capers
