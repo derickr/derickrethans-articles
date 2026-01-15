@@ -1,0 +1,55 @@
+Friday Night Dinner: Maggie Jones's
+===================================
+
+.. articleMetaData::
+   :Where: 6 Old Court Place, Kensington Church Street, London, W8 4PL, United Kingdom
+   :Date: 2026-01-09 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: maggie-jones
+   :URL: https://maggie-jones.co.uk/
+   :Costs: Starters: £12-£15; Mains: £31-£44; Puddings: £9; Set Menu at £37.95 for two courses, or £44.95 for three; Wines from £31.50
+   :Rating: 4.5
+   :Author: Derick Rethans
+
+Maggie Jones's has recently reopened after a fire, but it has been on its
+location since 1964. It's situated at the east end of Kensington High Street,
+near Kensington Palace, tucked away just off the main road. The interior is
+what might be described as cosily rustic, with vintage china old metal
+advertising signs, and downstairs much of the seating is provided by wooden
+high backed benches, alongside somewhat battered wooden tables.
+
+The restaurant specialises in classic British food, and the menu on the day we
+ate there included classics such as roast rump of Lamb, Guinea Fowl, Fish Pie,
+and Steak & Kidney Pie. The puddings are also British classics. Beyond the à
+la carte menu, there is also a set menu, which had many tasty sounding
+options.
+
+We went on a cold January evening, and were welcomed into the cosy restaurant
+with a serving of rustic bread and butter. For her main, my wife ordered the
+fish pie, which was stuffed with fish and seafood, including prawns and
+salmon, and topped with a fluffy mash, slightly charred and crisp on top. I
+chose the roast lamb rump, which was (like all their mains) also served with
+mashed potatoes. Although I think my own mashed potatoes are better — I add a
+*lot* of butter —  the roast lamb was probably the best one I have ever had. I
+ordered it medium, and it was exactly that. Slightly caramelized on the
+outside, and pink and moist in the middle. It was seasoned with a rosemary and
+garlic breadcrumbs which added a lovely sweet twang, and some texture.
+
+We followed our mains with some piping hot desserts. An apple crumble with a
+boat of custard (really too much custard), and my wife had a soft bread and
+butter pudding, which had a bit of spice and some plump raisins providing
+texture.
+
+Maggie Jones's hit the spot really well, with bold flavours in a cosy
+environment, especially on this cold winter evening. We'd gladly take friends
+and family there on a return visit.
+
+.. carousel::
+   :name: maggie-jones
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :maggie-jones-1: Fish Pie
+   :maggie-jones-2: Roast Lamb Rump
+   :maggie-jones-4: Bread and Butter Pudding
+   :maggie-jones-5: Apple Crumble
+   :maggie-jones-3: Mashed Potato
