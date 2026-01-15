@@ -1,0 +1,50 @@
+Friday Night Dinner: Mamuśka!
+=============================
+
+.. articleMetaData::
+   :Where: 9 Addington Street, London, SE1 7RY, United Kingdom
+   :Date: 2026-01-30 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Polish
+   :Short: mamuska
+   :URL: https://www.mamuska.net/
+   :Costs: Starters: £4-£15; Big plates: £12-£20.80; Desserts: £6.50
+   :Rating: 2
+   :Author: Derick Rethans
+
+On a cold winter evening, there is nothing better than hearty food. As such,
+we visited Mamuśka, in the arches under Waterloo Station. The restaurant
+specialises in Polish food and drinks, including vodka and (alcohol-free)
+Polish craft beer.
+
+The menu features all the Polish classics, from Barszcz and Pieorogis, to
+Placki and Schabowy. We definitely had to look some of these names up to
+figure out what they were.
+
+We started our meal with a set of 10 mixed pierogies. That alone was nearly
+enough already, as they were filling. Some fillings were nicer than the
+others. My wife preferred the goats cheese ones, finding the meaty ones a bit
+samey and underwhelming. I liked the pork filled ones, but I was less
+enamoured with the Ruskie ones. Maybe because of the name.
+
+For her mains, my wife had chosen the Salmon Fillet, which was served with
+mashed potato (which was a Christmas / seasonal special). The salmon was okay,
+but a little on the dry side. I picked the Schabowy Breaded Pork Loin, with a
+mushroom sauce. The meat was nice and tender, with a creamy sauce covering the
+batter which had gone a little soggy due to the sauce. It was also too much —
+a huge portion, the salmon was noticeably more restrained in size.
+
+With our meal, we enjoyed a selection of the Polish Craft Beers. Two
+alcohol-free ones, and two alcohol full ones.
+
+We found Mamuśka a little underwhelming. Unfortunately we sat next to one of
+the brick walls, which meant our table was quite chilly with cold air
+emanating from the brickwork — but this might make it a good spot in summer.
+But we were definitely no longer hungry.
+
+.. carousel::
+   :name: mamuska
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :mamuska-1: Pierogi Platter
+   :mamuska-2: Schabowy Breaded Pork Loin
+   :mamuska-3: Salmon Fillet
