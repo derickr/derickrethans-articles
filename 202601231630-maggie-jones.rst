@@ -2,8 +2,8 @@ Friday Night Dinner: Maggie Jones's
 ===================================
 
 .. articleMetaData::
-   :Where: 6 Old Court Place, Kensington Church Street, London, W8 4PL, United Kingdom
-   :Date: 2026-01-09 16:30 Europe/London
+   :Where: 6 Old Court Place, London, W8 4PL, United Kingdom
+   :Date: 2026-01-23 16:30 Europe/London
    :Tags: blog, fnd
    :Cuisine: British
    :Short: maggie-jones

@@ -2,7 +2,7 @@ Friday Night Dinner: Puick
 ==========================
 
 .. articleMetaData::
-   :Where: Veemarktstreet 56, 4811 ZJ Breda, Netherlands
+   :Where: Veemarktstraat 56, 4811 ZJ Breda, Netherlands
    :Date: 2026-01-16 16:30 Europe/London
    :Tags: blog, fnd
    :Cuisine: European
