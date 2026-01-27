@@ -120,7 +120,7 @@ put on a lot of warm clothes (I used 5 layers) and got our photo gear as
 we wanted to put those whales on the picture ofcourse. We had a lot of
 luck as it wasn't very windy, so the sea was quite calm. After an hour
 steeming we approached the area where the whales appear. At this place
-the continental sheft `abruptly`_ ends making it an ideal place to see `sperm whales`_ and
+the continental shelf `abruptly`_ ends making it an ideal place to see `sperm whales`_ and
 minke whales. We were quite lucky and saw 3 sperm whales and a minke
 whale. Unfortunately the latter one had also some whalers on its
 tail.
@@ -147,15 +147,14 @@ to Sandefjord. On the first leg the plane actually stopped in another
 place before continuing to Trondheim. First time that happened to me. We
 made it safely back home after this wonderful trip.
 
-For the best images of this trip, have a look `here`_ . The full album with photos can be
-found in my `gallery`_ , with
-additional panoramic pictures `here`_ .
+The full album with photos can be in my `gallery`_, with
+additional panoramic pictures.
 
 
 .. _`the city`: https://www.flickr.com/photos/derickrethans/4211211456/in/album-72157623062299086
 .. _`the coast`: https://www.flickr.com/photos/derickrethans/4211211600/in/album-72157623062299086
 .. _`Saltstraumen`: http://home.c2i.net/rune.dahl/saltstraumen2.html#anchor69661
-.. _`reflecting in the water`: http://photos.derickrethans.nl/album/lofoten-panorama/aaf.thumb.jpg
+.. _`reflecting in the water`: https://www.flickr.com/photos/derickrethans/55064316463/in/album-72157715443858486
 .. _`fortress`: https://www.flickr.com/photos/derickrethans/4210452971/in/album-72157623062299086
 .. _`the harbour`: https://www.flickr.com/photos/derickrethans/4211220700/in/album-72157623062299086
 .. _`Værøy`: https://www.flickr.com/photos/derickrethans/4210456467/in/album-72157623062299086
@@ -167,15 +166,14 @@ additional panoramic pictures `here`_ .
 .. _`toppskarv`: https://www.flickr.com/photos/derickrethans/4211230154/in/album-72157623062299086
 .. _`Måstad`: https://www.flickr.com/photos/derickrethans/4210465289/in/album-72157623062299086
 .. _`refreshing bath`: https://www.flickr.com/photos/derickrethans/4210466565/in/album-72157623062299086
-.. _`Reine`: http://photos.derickrethans.nl/lofoten-panorama?page=2
+.. _`Reine`: https://www.flickr.com/photos/derickrethans/55063235967/in/album-72157715443858486
 .. _`out to dry`: https://www.flickr.com/photos/derickrethans/4211234820/in/album-72157623062299086
 .. _`place`: http://mathisvika12.no/
 .. _`Svolværgeita`: https://www.flickr.com/photos/derickrethans/4211238462/in/album-72157623062299086
-.. _`magnificant`: http://photos.derickrethans.nl/album/lofoten-panorama/aap.jpg
+.. _`magnificant`: https://www.flickr.com/photos/derickrethans/55063236342/in/album-72157715443858486
 .. _`plains and lakes`: https://www.flickr.com/photos/derickrethans/4210474987/in/album-72157623062299086
 .. _`lighthouse`: https://www.flickr.com/photos/derickrethans/4210475855/in/album-72157623062299086
-.. _`abruptly`: http://whalesafari.com/whalesafari/whalesafari.html
+.. _`abruptly`: https://whalesafari.no/whale-watching-from-andenes-with-traditional-boat
 .. _`sperm whales`: https://www.flickr.com/photos/derickrethans/4210477515/in/album-72157623062299086
-.. _`here`: http://photos.derickrethans.nl/lofoten-panorama
 .. _`gallery`: https://www.flickr.com/photos/derickrethans/albums/72157623062299086
 

@@ -42,5 +42,5 @@ include it in upcoming versions of alpine.
 .. _`discontinued`: http://mailman1.u.washington.edu/pipermail/pine-info/2006-November/055017.html
 .. _`alpine`: http://www.washington.edu/alpine/
 .. _`available`: http://packages.qa.debian.org/a/alpine.html
-.. _`here`: http://files.derickrethans.nl/patches/alpine-fancy-thread-interface-2007-04-03.diff.txt
+.. _`here`: https://derickrethans.nl/files/patches/alpine-fancy-thread-interface-2007-04-03.diff.txt
 
