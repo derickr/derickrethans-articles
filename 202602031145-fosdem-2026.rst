@@ -1,5 +1,5 @@
-Friday Night Dinner: FOSDEM 2026 Reflections
-============================================
+FOSDEM 2026 Reflections
+=======================
 
 .. articleMetaData::
    :Date: 2026-02-03 11:45 Europe/London
