@@ -3,7 +3,7 @@ FOSDEM 2026 Reflections
 
 .. articleMetaData::
    :Date: 2026-02-03 11:45 Europe/London
-   :Tags: politics, conference, opensource
+   :Tags: politics, conference, FOSDEM, opensource
    :Short: fosdem26
 
 
