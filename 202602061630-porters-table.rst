@@ -1,0 +1,56 @@
+Friday Night Dinner: The Porter's Table
+=======================================
+
+.. articleMetaData::
+   :Where: 28 Shelton Street, London, WC2H 9JE, United Kingdom
+   :Date: 2026-02-06 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: porters-table
+   :URL: https://opengatelondon.guinness.com/en/the-porters-table
+   :Costs: Snacks: £3-£18; Starters: £12-£16; Grill: £14-£40; Desserts: £7-£18
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+The Porter's Table is part of the massive new Guinness Open Gate London
+development, which features a brewery and tour, a beer garden, and several
+restaurants. They have a different approach to the original Open Gate in
+Dublin, where they mostly try out new beers on unsuspecting punters.
+
+Where Gilroy's Loft specialises in seafood, The Porter's Table is focussed on
+grilling vegetables, fish, and meat. And of course there is a fair amount of
+different beers to sample as well.
+
+After finding the restaurant, we soon got ourselves one of those while looking
+over the menu.
+
+We originally only chose the frickels as our starter (beer-batter deep-friend
+cornichons), but after realising that we didn't have any vegetables with our
+mains, we decided to add the seasonal Brussels sprouts. When these came (after
+the frickels, and before the mains), we were glad that we did. They were
+prepared with beetroot and orange, which made for a delightful combination.
+
+For her main, my wife had the butcher's skewer; lovely cubes of rib-eye,
+marinated, and grilled on a skewer with red peppers, tomatoes, and red onion
+slices. I had the pork chop, which came with half a roasted bulb of garlic,
+cut through horizontally. I enjoyed prising the sweet roasted cloves of garlic
+flesh out of the papery skin. My meal was seasoned, and nicely moist. We
+ordered some chips on the side, which were crisp and fluffy. The serving of
+mayonnaise was too small, but I nearly always find that his the case.
+
+The food was nice, but the service was quite haphazard. Orders went slightly
+wrong, and were offered food that we hadn't ordered — nor did the tables next
+to us.
+
+We'll likely return to the Open Gate, but probably to try Gilroy's Loft (the
+seafood restaurant), or the beer garden with food truck later in the year when
+the weather is much improved.
+
+.. carousel::
+   :name: porters-table
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :porters-table-1: Frickles
+   :porters-table-2: Seasonal Brussels Sprouts
+   :porters-table-3: Pork Chop
+   :porters-table-5: Butcher's Skewer
+   :porters-table-4: Fries
