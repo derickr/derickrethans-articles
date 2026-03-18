@@ -1,0 +1,56 @@
+Friday Night Dinner: The Island
+===============================
+
+.. articleMetaData::
+   :Where: 123 College Road, London, NW10 5HA, United Kingdom
+   :Date: 2026-03-06 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: the-island
+   :URL: https://theislandnw10.com/
+   :Costs: Starters: £6-£18; Mains: £16.50-£26; Wines from £29
+   :Rating: 2
+   :Author: Derick Rethans
+
+I had many a pint in The Island when I moved to London 16 years ago, as it was
+the closest reasonable pub. I don't remember haven eaten there, but having
+walked past more recently, I suggested it for a Friday Night Dinner.
+
+On a rainy evening we headed to this pub in the middle of a residential
+neighbourhood. It was already buzzing outside, with people hiding away from
+the rain under the awnings, smoking away. My wife could also unfortunately
+smell this cigarette smoke when seated inside, close to a window, which put
+her off the food.
+
+For our starter, we picked a scotch egg to share. It was nicely flavoured with
+a runny yolk, and was served with a sweet curry sauce. For my main I choose
+the slow roast free-range pork belly, served with white beans, winter kale,
+salsa verde. The skin wasn't particularly very crackly, and a little chewy at
+times. The white beans were OK, but could have been a bit softer too. My wife
+had the onglet steak, which was served with gentleman's relish and fries. The
+fries were nicely cooked and crispy, but the steak was cooked medium to
+well-done, rather than the ordered medium rare.
+
+But what left down the meal, and the Island experience generally was the
+haphazard service. Upon arrival, it was speedy, although my wife, who arrived
+first, had to wait quite some time for the table to be prepared. We felt left
+to our own devices after our mains. It took a very long time for the dessert
+menu to show up, and then a significant amount of time before we could
+request, and then receive the bill. 
+
+One of my personal pet peeves in restaurants is that when the bill is
+presented, the waiting staff often do not have the payment terminal with them,
+and have to go and fetch it separately. This is a waste of everyone's time
+especially as we'd like to get going, and I'm sure the restaurant would like
+to fill the table with some more paying guests. In this case with the meal
+being mediocre it was more annoying than usual. 
+
+Unfortunately The Island didn't live up to my memories, nor our expectations,
+and it seems unlikely we'll be back for a meal or drinks.
+
+.. carousel::
+   :name: the-island
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :the-island-1: Scotch Egg 
+   :the-island-2: Slow Roast Pork Belly
+   :the-island-3: Onglet Steak with Fries
