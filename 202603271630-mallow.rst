@@ -1,0 +1,64 @@
+Friday Night Dinner: Mallow
+===========================
+
+.. articleMetaData::
+   :Where: 1 Cathedral Street, London, SE1 9DE, United Kingdom
+   :Date: 2026-03-27 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: vegan
+   :Short: mallow
+   :URL: https://mallowlondon.com/
+   :Costs: Tasting Menu: £42; Starters: £9-£17; Mains: £19-£20; Wines from £30
+   :Rating: 4
+   :Author: Morag Rethans
+
+Mallow is a plant based restaurant housed in an old building just outside
+Borough Market, around the corner from the Golden Hind.
+
+We visited on a Friday evening. I picked Mallow, as I heard three separate
+groups of people raving about it when I was out and about in London. One group
+at the gym, one on the tube, and the third group whilst walking down Regent
+Street.
+
+Whilst there were many lovely sounding things on the menu, we opted for the
+set sharing menu, with wine pairing, as an introduction to what Mallow had to
+offer.
+
+The menu started with some plump Gordal olives, alongside some pimped up
+hummus (or tahini chickpeas as the menu puts it), served with squashy flat
+bread. We also enjoyed some tofu in a smoky red pepper sauce topped with some
+pickled veggies — there was a slight aniseed flavour which I am normally not a
+fan of, but found it palatable enough. Our starters were paired with a
+fragrant rosé wine.
+
+The middle courses were a mushroom tortellini (which the table next door
+decided against, as its “default veggie you get everywhere”), and a mixed
+salad. The tortellini was tasty, with a good mushroom-y filling. We also
+enjoyed the lovely mixed salad with juicy bits of tangerine, a light dressing,
+candied nuts, caper berries, and pine nuts. These two came with a
+crowd-pleasingly fruity red wine.
+
+Finally, there was a coconut Pasanda curry with cauliflower and tofu cubes. It
+came served with a flavoured pilau rice, which included almonds, pomegranate,
+and apricots. This was paired with a medium bodied white wine.
+
+We considered dessert briefly, but were both too full, so we called it a
+night. We were delighted that when we asked for the bill, the waiter came with
+it, and the card machine — no hanging around here.
+
+We would definitely return to Mallow, but would probably pick off the à la
+carte menu, and have fewer dishes — but even as people who aren't into a plant
+based diet, this was food we enjoyed, and we didn't miss the lack of meat or
+fish.
+
+.. carousel::
+   :name: mallow
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :mallow-2: Tofu in Smokey Red Pepper Sauce
+   :mallow-5: Mushroom Tortellini
+   :mallow-6: Mixed Leaf Salad
+   :mallow-8: Pasanda Curry with Cauliflower
+   :mallow-1: Gordal Olives
+   :mallow-3: Tahini Chickpeas
+   :mallow-4: Flatbreads
+   :mallow-7: Pilau Rice

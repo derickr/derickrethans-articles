@@ -3,7 +3,7 @@ Friday Night Dinner: The Island
 
 .. articleMetaData::
    :Where: 123 College Road, London, NW10 5HA, United Kingdom
-   :Date: 2026-03-06 16:30 Europe/London
+   :Date: 2026-03-20 16:30 Europe/London
    :Tags: blog, fnd
    :Cuisine: British
    :Short: the-island
