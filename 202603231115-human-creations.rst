@@ -64,6 +64,7 @@ Just like the Luddites weren't against new technology, but how this technology
 was used to exploit them.
 
 .. image:: images/my-books.png
+   :title: A photo of my two books — © Derick Rethans
 
 I have written two books in my life, many years ago. The material in them has
 been slurped up into the LLMs, and one of them was originally part of the
@@ -130,6 +131,7 @@ artists. I thought that computers were around to do the boring monotonous
 work?
 
 .. image:: images/260119-AI.jpg
+   :title: AI takeover — © Tjeerd Royaards — Used under licence
 
 This cartoon, by `Tjeerd Royaards <https://www.tjeerdroyaards.com/>`_, nails it on the head.
 
