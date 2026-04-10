@@ -1,0 +1,55 @@
+Friday Night Dinner: Fish!
+==========================
+
+.. articleMetaData::
+   :Where: Cathedral Street, London, SE1 9AL, United Kingdom
+   :Date: 2026-04-10 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Seafood
+   :Short: fish
+   :URL: https://www.fishboroughmarket.com/
+   :Costs: Starters: £9-£19.50; Mains: £18.50-£32.50; Pudding: £9-£12; Wines from £33
+   :Rating: 4
+   :Author: Derick Rethans
+
+Close to Borough Market, Fish! is a long-established seafood restaurant, and
+along the street from Mallow which we visited a couple of weeks ago.
+Fish! is located in a glass lined and roofed building, which I suppose in
+summer could get quite warm. My wife — who picks the restaurants — commented
+that she had never dined in Fish! but had been fancying trying it for several
+years. When we arrived at around seven, the service was just getting going.
+
+We were shown to our table very speedily, by a friendly waiter who briefly
+explained the menu. We decided to go for a calamari to share to start, which
+came with a very garlicky mayonnaise. An oyster each add some extra flair.
+
+My wife enjoyed a sightly "brunchy" main of smoked haddock with bubble and
+squeak, and a poached egg on top — unfortunately the poached egg was set,
+rather than being runny. The dish came with a pot of a well-made hollandaise
+sauce which finished things off nicely.
+
+I had the roast Sea Bream special, which was served with cockles and mussels
+in a slightly spicy tomato-y sauce. The skin was crisp, and the bisque
+delicious enough that I ask for a spoon to slurp up the leftovers.
+
+For dessert, my wife enjoyed an apple ice cream with a shot of Calvados,
+Affogato style — these paired really well and made a nice change from the
+traditional espresso and vanilla ice cream version. I enjoyed a dense
+chocolate mousse. Delicious, but probably a little too much!
+
+With our meal we enjoyed a crisp bottle of Txakoli, a lightly sparkling wine
+from the Basque region of Spain that we very much enjoyed when we were in San
+Sebastián last summer. This paired well with the food and was an immediate
+choice when we saw it on the menu.
+
+If you like fish and seafood, we can recommend Fish!
+
+.. carousel::
+   :name: fish
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :fish-1: Oyster au Naturel
+   :fish-2: Calamari with Garlic Mayonaise
+   :fish-3: Roast Sea Bream
+   :fish-4: Smoked Haddock Bubble and Squeak
+   :fish-5: Chocolate Mousse
+   :fish-6: Apple Ice Cream with Calvados
