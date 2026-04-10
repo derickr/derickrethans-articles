@@ -3,9 +3,9 @@ Friday Night Dinner: Bertie Blossoms
 
 .. articleMetaData::
    :Where: 323 Portobello Road, London, W10 5SY, United Kingdom
-   :Date: 2026-04-01 16:30 Europe/London
+   :Date: 2026-04-03 16:30 Europe/London
    :Tags: blog, fnd
-   :Cuisine: spanish
+   :Cuisine: Spanish
    :Short: bertie-blossoms
    :URL: https://www.bertieblossoms.co.uk/
    :Costs: Snacks: £4-£9; To Share: £10-£16; Mains: £20/£30; Wines from £30

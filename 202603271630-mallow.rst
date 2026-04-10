@@ -5,7 +5,7 @@ Friday Night Dinner: Mallow
    :Where: 1 Cathedral Street, London, SE1 9DE, United Kingdom
    :Date: 2026-03-27 16:30 Europe/London
    :Tags: blog, fnd
-   :Cuisine: vegan
+   :Cuisine: Vegan
    :Short: mallow
    :URL: https://mallowlondon.com/
    :Costs: Tasting Menu: £42; Starters: £9-£17; Mains: £19-£20; Wines from £30
