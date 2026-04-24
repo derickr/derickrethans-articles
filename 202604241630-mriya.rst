@@ -1,0 +1,51 @@
+Friday Night Dinner: Mriya Neo Bistro
+=====================================
+
+.. articleMetaData::
+   :Where: 275 Old Brompton Road, London, SW5 9JA, United Kingdom
+   :Date: 2026-04-24 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Ukrainian
+   :Short: mriya
+   :URL: https://mriyaneobistro.com/
+   :Costs: Starters: £11-£16; Mains: £14-£29; Puddings: £10-£13; Wines from £48
+   :Rating: 4
+   :Author: Derick Rethans
+
+Out of the way, near the Brompton Cemetery, behind an unassuming shop window,
+a cosy little restaurant is hiding. It is named Mriya, which means dream in
+Ukrainian. The small restaurant has a short menu of Ukrainian dishes, in
+Ukrainian and English.
+
+When we arrived, a fiery horseradish infused shot of vodka, to go with a
+canapé with Salo (a slice of salt-cured pork subcutaneous fat), which we'd
+pre-booked was waiting for us. An excellent start to the meal.
+
+For once, we decided on a wine first, and chose a Ukrainian white wine from
+the Odesa region. It was nice and crisp, and worked fine with the rest of our
+dishes.
+
+As our starters we shared the Matthias forshmak, chopped herring served with
+boiled potatoes, onions, and eggs; and a cheburek, a deed-fried turnover
+filled with (in our case) a four cheese blend. We enjoyed the forshmak with
+some bread and whipped butter.
+
+After our starters, my wife picked as her main the salted cheese varenyky
+(dumplings) with wild garlic pesto. The filling was flavourful, with the
+wild-garlic pesto adding a bit of a kick. I decided on the Kyiv fried chicken,
+with mashed potato. The chicken was filled with a delightful garlic butter,
+and had a nice crisp coating. The mash was very smooth, and was served with
+two sauces.
+
+After all of this, we also decided on a sour cherry varenyky to share as
+desert. And to round our meal off, we enjoyed that with a shot of a
+sour-cherry infused vodka. Budmo!
+
+.. carousel::
+   :name: mriya
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :mriya-1: Forshmak
+   :mriya-2: Four Cheese Cheburek
+   :mriya-4: Salted Cheese Varenyky
+   :mriya-5: Kyiv Fried Chicken
+   :mriya-6: Sour Cherry Varenyky
