@@ -1,0 +1,48 @@
+Friday Night Dinner: Et House
+=============================
+
+.. articleMetaData::
+   :Where: 65 Fairfax Road, London, NW6 4EE, United Kingdom
+   :Date: 2026-05-08 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Turkish
+   :Short: et-house
+   :URL: https://www.thefork.co.uk/restaurant/et-house-swiss-cottage-r826215
+   :Costs: Starters: £7.45-£10.45; Mains: £17.45-£32.95; Wines from £25
+   :Rating: 3
+   :Author: Derick Rethans
+
+A couple of months ago, I asked my wife to see if she could book some
+different cuisines for our Friday nights out. This request resulted in the
+visit to Mriya Neo Bistro, and a reservation at Et House, a Turkish restaurant
+close to Swiss Cottage. When we arrived at the restaurant it was pretty quiet,
+but we were welcomed in, picking a table up towards the back of the
+restaurant. 
+
+For our starters, we shared some Babaganush, which was served with a flat
+bread, and Mantar, sautéed mushrooms with butter and garlic, covered in melted
+cheese.
+
+For her main, my wife chose the Sarma Lamb Beyti — minced with spices and
+garlic, and served in a lava bread with some yoghurt on the side. A spicy
+tomato-y sauce completed the dish. I had the Mixed Shish — marinated chicken
+and lamb cubes, served with a salad, rice, and bulgur wheat. 
+
+With our meal I enjoyed a bottle of Efes Draft, and my wife a Turkish red
+wine.
+
+The dishes were all nicely spiced, not too strong, but with a good flavour.
+The meal was nothing very special, but enjoyable and decently priced. We did
+order too much though, as the portions were generous.
+
+If you're near Swiss Cottage and fancy a low-key meal, Et House will do just
+fine.
+
+.. carousel::
+   :name: et-house
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :et-house-1: Babaganush
+   :et-house-2: Mantar
+   :et-house-3: Mixed Shish
+   :et-house-4: Lamb Beyti
+   :et-house-5: Onion Salad
