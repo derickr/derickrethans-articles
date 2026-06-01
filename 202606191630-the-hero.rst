@@ -1,0 +1,48 @@
+Friday Night Dinner: The Hero
+=============================
+
+.. articleMetaData::
+   :Where: 55 Shirland Road, London, W9 2JS, United Kingdom
+   :Date: 2026-06-19 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: the-hero
+   :URL: https://theherow9.com/
+   :Costs: Snacks/Starters: £6–£15; Mains: £25-£62.5; Wines from £40
+   :Rating: 4
+   :Author: Derick Rethans
+
+The Hero has had many names in the past: idlewild when I moved into the area
+15+ years ago. Via the Trustcot Arms, and The Hero of Maida, it now operates
+under the name The Hero.
+
+It's a delightful pub, attracting a younger crowd on the ground floor, with
+two more floors above doing dinner. We had a table on the top floor, dubbed
+the Library, which provided a more relaxed setting than the busy hubbub of the
+pub below.
+
+Both of us chose a bar snack as a starter. My wife had a fish finger roll. The
+roll was a lovely soft and sweet bun. The fish fingers were hand-made and
+resembled smaller versions of the fish in "fish and chips". The tartare sauce
+added some salt and sourness to it. I had the pork pie as a starter. The pork
+was well seasoned, and the pickled cauliflower and green bean parts added some
+nice and sharp sourness.
+
+Four our mains, I enjoyed a Barnsley Chop — succulent lamb on the bone with a
+mint and lamb sauce. It was server with sweet and tender carrots. My wife had
+a whole butterflied mackerel on the bone from the special menu. It was well
+cooked, and served with a tomato sauce — which she thought was slightly too
+salty.
+
+A bottle of a white Ochoa Blanco complemented our meal well.
+
+It's a little on the pricier side, but the food at The Hero was excellent, and
+the staff friendly and competent. A worthwhile upgrade to the neighbourhood.
+
+.. carousel::
+   :name: the-hero
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :the-hero-1: Fishfinger Bun
+   :the-hero-2: Pork Pie
+   :the-hero-3: Barnsley Lamb Chop
+   :the-hero-4: Butterflied Mackerel

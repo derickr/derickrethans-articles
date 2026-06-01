@@ -1,0 +1,49 @@
+Friday Night Dinner: Khao Bird
+==============================
+
+.. articleMetaData::
+   :Where: 24 Brewer Street, London, W1F 0SN, United Kingdom
+   :Date: 2026-06-12 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Thai
+   :Short: khao-bird
+   :URL: https://www.khaobird.com/
+   :Costs: Small dishes: £7.4-£11.9; Medium dishes: £11.9-£13.4; Larger dishes: £26.4-£27.4; Wines from £33
+   :Rating: 4
+   :Author: Derick Rethans
+
+The restaurant is situated on a busy Soho street, with sadly still some
+traffic around. It has more of a street-foodie-cafe vibe than a restaurant
+vibe. Which makes perfect sense in this neighbourhood.
+
+As many contemporary restaurants now do, the dishes come "when they are
+ready". We ordered as our starters, some shan meat balls and a watermelon
+salad. The meatballs were made with chicken, and wrapped in caul fat. They
+were cola glazed and barbecued with crispy garlic and ginger. The flavours
+were very much new. The same can be said for the watermelon salad, which was
+pungent and spicy with a fish sauce caramel, with Thai basil.
+
+For our mains, my wife chose the mutton fries: chips topped with a braised
+Burmese mutton curry, served with some sour cream and crispy leaves. It looked
+more like a starter than a main course, but it was oh so tasty. I picked a
+more traditional main in the form of the Hung-Ley pork curry. This was a
+delicious and tender curry with fish sauce and pineapple flavours. Some
+jasmine rice made sure that I could enjoy all the tasty curry juices too.
+
+A bottle of Viognier complemented our meal well.
+
+The flavours of the dishes at Khao Bird, although spicy, were novel and
+exciting. We easily could have selected a lot of more things from the menu.
+However, we were wise not to follow the suggestion of picking: two small, one
+medium, and two larger dishes. That would have been too much (we find this is
+often the case). The size of our selection was spot on, which means there is
+plenty to chose from on a return visit. It's also reasonably priced.
+
+.. carousel::
+   :name: khao-bird
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :khao-bird-2: Shan Chicken Meatballs
+   :khao-bird-3: Watermelon Salad
+   :khao-bird-1: Mutton Chips
+   :khao-bird-4: Hung-Ley Pork Curry
+   :khao-bird-5: Jasmine Rice

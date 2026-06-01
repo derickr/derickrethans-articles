@@ -1,0 +1,55 @@
+Friday Night Dinner: The Shed
+=============================
+
+.. articleMetaData::
+   :Where: 122 Palace Gardens Terrace, London, W8 4RT, United Kingdom
+   :Date: 2026-06-05 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: the-shed
+   :URL: https://www.theshed-restaurant.com/
+   :Costs: Starters: £4-£9.5; Small dishes: £12.5-£19.5; Main courses: £21-£38, £72; Accompaniments: £6-£14; Wines from £30
+   :Rating: 4
+   :Author: Derick Rethans
+
+We had originally booked to dine at Gourmet Sushi before seeing a film at The
+Gate cinema in Notting Hill Gate. But when we got there, it turned out to be
+closed for renovations, and it was clear no sushi was going to be made there
+that evening! After a quick look on The Fork, we found The Shed nearby and
+made a really last minute booking. So late, that the restaurant hadn't
+received it yet when we got there. Luckily, they had a spot for two, albeit
+for a shorter time than normal. That suited us fine, as we were going to see a
+film afterwards anyway.
+
+We didn't have an enormous amount of time, and hence we started with something
+small. Instead of a full starter, we enjoyed an amuse-bouche first. For me
+that was a delightful goats cheese tartlet, and for my wife a mushroom marmite
+éclair. Marmite isn't a flavour I agree with, but she loves it.
+
+For our mains, we both chose the Sussex lamb. The lamb was moist and
+succulent, and probably one of the best cooked ones I've had so far. It came
+with a beetroot salad, which was earthy and complimented the dish well.
+
+With this, we shared a side order of English asparagus, which were served with
+a saffron emulsion. Some almond dust added some texture.
+
+We still had some time, and space for pudding. As dessert, we enjoyed sharing
+the Rum Baba. It was presented in a boa-bun like contraption with a creaming
+rum sauce as filling. Some slightly sour raw strawberries complemented the
+sweetness of the dish.
+
+Alongside our meal, we had a bottle of a full flavoured white wine which stood
+up well to the lamb.
+
+The Shed was comforting and cosy, with great service. We were a little short
+on time, so couldn't try something for a full three-course meal. As it was so
+nice, I think we will be back when we have more time, and can book a little
+further away in time!
+
+.. carousel::
+   :name: the-shed
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :the-shed-1: Goats Cheese Tartlet and Mushroom Marmite Eclair
+   :the-shed-2: Sussex Lamb
+   :the-shed-3: English Asparagus
+   :the-shed-4: Rum Baba
