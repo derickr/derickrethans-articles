@@ -4,7 +4,7 @@ Humans in the LLM Loop
 .. articleMetaData::
    :Where: London, UK
    :Date: 2026-06-09 19:00 Europe/London
-   :Tags: blog, php, xdebug
+   :Tags: blog, php, xdebug, ai
    :Short: xdebug-llm-reports
 
 In the last few weeks, I have been working through some bug reports for
