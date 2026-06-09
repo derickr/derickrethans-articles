@@ -18,19 +18,25 @@ two different sources and methodologies.
 Although all of these issues where indeed bugs that I now have fixed, I don't
 think any of them can be classified even as having a ``low`` security impact.
 
-But there was a whole host of other issues with these reports —
-particularly how they were tested, and how minimal, and sometimes incomplete,
-the implementation of the fixes was.
+But there was a whole host of other issues with these reports. The reports
+themselves can be unnaturally verbose — and also fairly alarmist using terms
+like "victim" and "attacker". The tests that were present in the reports were
+often minimal, and sometimes incomplete, and so were some of their suggested
+fixes.
 
-The first four were reported by `Ilia Ashanetsky <https://ilia.ws/>`_, a long
-time, and recently returned, contributor to PHP.
+The humans forwarding the reports took care not to flood the issue tracker
+with reports out of the blue, and reached out to me first. They've also been
+helpful discussing the reported issues.
+
+The first four cases were reported by `Ilia Alshanetsky <https://ilia.ws/>`_,
+a long time, and recently returned, contributor to PHP.
 
 The first report, `#2421 <https://bugs.xdebug.org/2421>`_, deals with sending
 wrong option characters with commands through the DBGp protocol, that an IDE
 and Xdebug use to communicate.
 
 Xdebug would allocate an array for 27 of these, representing the 26 lower case
-letters of the latin alphabet, and the ``-`` character. What Xdebug did not do
+letters of the Latin alphabet, and the ``-`` character. What Xdebug did not do
 is to make sure the option letters were indeed in the range ``[a-z-]``, and
 would happily accept ``-@`` or ``-\x00``. This makes it possible to overwrite
 a few points.
@@ -79,8 +85,8 @@ The fourth and last issue through Ilia, `#2424
 functionality, where its parser would not handle empty or large command
 packets correctly.
 
-The second set of reports were shared with me in a private gist, as part of
-the PHP Foundation's `Ecosystem Security Team
+The second set of reports were shared with me in a private gist by Volker, as
+part of the PHP Foundation's `Ecosystem Security Team
 <https://thephp.foundation/blog/2026/05/18/announcing-ecosystem-security-team/>`_.
 
 The first one was a duplicate of `bug #2421 <https://bugs.xdebug.org/2421>`_.
@@ -118,7 +124,7 @@ names, but not formatting link files through ``xdebug.file_link_format`` nor
 profiling files. 
 
 The patch it suggested was also wrong, as it would remove
-the trailing % instead of keeping it. One of three locations where the
+the trailing ``%`` instead of keeping it. One of three locations where the
 trailing ``%`` was not handled, was internal only, and hence couldn't be
 triggered by making configuration errors.
 
@@ -134,7 +140,7 @@ the problem.
 A further report, `#2430 <https://bugs.xdebug.org/2430>`_ showed a problem if either an IDE through the step debugging
 protocol, or a user themselves would request the contents of a variable
 "named" ``:::``. The step debugger uses ``::`` to indicate "all the static
-variables for this class".
+variables for this class", and following that up with a ``:`` isn't valid.
 
 The fix was good, but I couldn't directly use the test case, as it tested for
 the *broken* behaviour. The test was fairly trivial to write as the
@@ -148,24 +154,28 @@ Even with the code fixed, the new correct test would also surface another issue,
 it would have resulted in Xdebug to open a directory as it was a file, and then
 fail.
 
-**Conclusion**: Although the LLM models did find bugs, none of them were
-particularly interesting. Some of the bugs would also have been found by
+**Conclusion**: Although the LLM tools did find bugs, they were not
+particularly groundbreaking. Some of the bugs would also have been found by
 fuzzing, and used a lot less resources in that process.
 
 Most of the crashes and potential "security" issues would only be a problem if
 an attacker didn't already have access to the machine that the code runs on
 itself, or have an IDE talking to Xdebug already. 
 
-If you have access to the machine, you can do worse without these bugs. And if
-you have client access to Xdebug through DBGp, you would have all the
-functionality that PHP provides, including reading all files on the file system.
+If you have access to the machine, you can do worse without these bugs
+present. If you have client access to Xdebug through DBGp, you would have all
+the functionality that PHP provides, including reading all files on the file
+system and running code.
 
 The generated test cases were generally rubbish, or incomplete. The patches
 that the models came up with were not always comprehensive, or correct. I also
 spent too much time getting AddressSanitizer to do anything, unsuccessfully.
 
-I think I would have been as quick writing these patches and actual test
-cases myself, when provided with the issues' causes and the reasoning that
-was provided.
+I think I would have been as quick writing these patches and actual test cases
+myself, when provided with the issues' causes and the reasoning that was
+provided.
 
-I don't think I'll be spending time trying to get these tools to work myself.
+I don't think I'll be spending time trying to get these tools to work myself,
+but in the right hands with people that know what they're doing, they can find
+issues that needs to be addressed. But the value comes from the humans
+interpreting their results.
