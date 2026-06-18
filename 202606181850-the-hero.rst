@@ -3,7 +3,7 @@ Friday Night Dinner: The Hero
 
 .. articleMetaData::
    :Where: 55 Shirland Road, London, W9 2JS, United Kingdom
-   :Date: 2026-06-19 16:30 Europe/London
+   :Date: 2026-06-18 18:50 Europe/London
    :Tags: blog, fnd
    :Cuisine: British
    :Short: the-hero
