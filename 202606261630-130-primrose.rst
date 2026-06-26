@@ -1,0 +1,56 @@
+Friday Night Dinner: 130 Primrose
+=================================
+
+.. articleMetaData::
+   :Where: 130 Primrose Road, London, NW1 8XL, United Kingdom
+   :Date: 2026-06-26 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: 130-primrose
+   :URL: https://www.130primrose.org/
+   :Costs: Starters: £10-£15; Mains: £14-£22
+   :Rating: 4
+   :Author: Derick Rethans
+
+We became aware of this places through an article that said that Monica
+Galetti, from Masterchef and Mere fame, took up the role of trustee and head
+chef of the charity that runs this restaurant. 130 Primrose isn't just a
+restaurant, but it's a charity built on a social-impact fine dinging model by
+using hospitality as a pathway into employment for people with experience of
+homelessness.
+
+When we arrived, we had the choice of a few tables, and sat down at a table on
+the ground floor with loads of light and soft furnishings — too many pillows,
+really. It is a cosy space, and looks really inviting. But we were here for
+the food.
+
+For our starter, we shared a baked Camembert with rosemary, honey, and picked
+mixed fruit. We used a serving of sourdough to scoop up all the lovely
+gooeyness.
+
+Mains wise, my wife selected the pan fried bavette steak, service with a black
+and green peppercorn sauce. The peppercorn sauce really did pack a punch.
+
+I had the pan fried sea bass, which came with very crispy kale, and a brown
+butter caper sauce, with some extra crispy shallots. A roasted bit of fennel
+on the side elevated the dish. We shared a side of green beans.
+
+After our mains, we were not quite satisfied, and therefore shared a creamy
+pistachio cheesecake to finish our meal. This was rich with pistachio
+flavours, and had some good texture too due to the crushed nuts.
+
+With our meal, we enjoyed a bottle of a Portuguese white wine, which
+complimented most of our dishes well.
+
+We enjoyed our time at 130 Primrose. The food was great, the ambience nice,
+and the service excellent. Definitely something to recommend if you're in the
+neighbourhood.
+
+.. carousel::
+   :name: 130-primrose
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :130-primrose-1: Baked Camembert
+   :130-primrose-2: Bavette Steak
+   :130-primrose-3: Pan Fried Sea Bass
+   :130-primrose-4: Green Beans
+   :130-primrose-5: Pistachio Cheesecake
