@@ -1,0 +1,38 @@
+Friday Night Dinner: Pho
+========================
+
+.. articleMetaData::
+   :Where: 102 Baker Street, London, W1U 6TL, United Kingdom
+   :Date: 2026-07-03 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Vietnamese
+   :Short: pho
+   :URL: https://www.phocafe.co.uk/locations/baker-street/
+   :Costs: Starters: £7.95-£10.50; Salads/Mains: £9.95-£16.50; Beers: £5.95-£6.50; Wines: £23.95-£30.50
+   :Rating: 2.5
+   :Author: Derick Rethans
+
+Not far from Baker Street station, on the named street itself, is a whole row
+of more down-to-earth eateries. Pho is one of them, specialising in Pho, a
+Vietnamese broth. It has more of a café lunch vibe, than an evening dinner
+vibe, but that doesn't mean they can't crack out tasty dishes for dinner.
+
+We were sat in the back, with some 90s golden oldies playing as tunes.
+
+We shared a starter of pork spring rolls, served with a nước chấm sauce. We
+thought it would be more authentic than a peanut sauce. The rolls came at the
+same time as our mains, and very quickly after ordering. For her main, my wife
+had a green papaya salad, with prawns. I enjoyed the phở xào — wok fried
+noodles with lemongrass, chilli, and Asian greens — served with chicken and
+prawns. They were both well flavoured dishes, although the chopsticks made it
+a bit of a challenge to eat leisurely.
+
+Pho was a quick and tasty meal, but nothing particularly exciting. Maybe we
+can try their actual phở in winter time.
+
+.. carousel::
+   :name: pho
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :pho-1: Pork Spring Rolls
+   :pho-2: Phở Xào
+   :pho-3: Green Papaya Salad
