@@ -1,0 +1,52 @@
+Friday Night Dinner: Buvette
+============================
+
+.. articleMetaData::
+   :Where: 2 Neal's Yard, London, WC2H 9DP, United Kingdom
+   :Date: 2026-07-24 17:10 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: French
+   :Short: buvette
+   :URL: https://buvette-london.com
+   :Costs: Sharing Dishes: £12-£17; Wines from £45
+   :Rating: 4
+   :Author: Derick Rethans
+
+Hidden away in Neal's Yard, there are a bunch of wine bars, a café, and a new
+restaurant: Buvette does sharing dishes at (very) small tables. There are also
+locations in New York, Tokyo, and Seoul, although we can't comment on the
+table sizes of those restaurants.
+
+We went in the midst of summer, with all the doors opening wide out onto
+Neal's Yard. It was warm, and people were having a good time. The menu isn't
+very extensive, but has a good selection of sharing dishes, separated into
+four sections: Tartlets, Fish, Vegetables, and Meats.
+
+We picked four of the dishes, which was plenty. My wife was most keen on the
+Brandade de Morue, whipped house salt cod with olive oil, cream, and garlic;
+and I fancied the Tartare de Thon, raw tuna cubes, cournichons, capers, and
+avocado. Both were served with toasted bread with some olive oil. Beyond our
+"main dishes", we also shared the Dauphinois Potatoes — nice and creamy, but
+not quite enough garlic to my liking — and the Carotte Rapées — julienned
+carrot, with pistachios, coriander, and lemon.
+
+To finish our meal, we shared a Café Gourmand, a slightly warm crème brûlée,
+without a crispy top, but with a spoonful of chocolate mousse and cream.
+
+With our meal, we enjoyed a Picpoul — which seemed to be a popular choice
+among the other diners. It was a crisp wine, complementing our dinner in the
+sunshine well. 
+
+We liked Buvette. The interior restaurant also looked cosy, so would
+potentially also be good in the winter. It's a place where you could also just
+have a few dishes on an afternoon after a long day shopping. They also serve
+breakfast, brunch, and dinner.
+
+.. carousel::
+   :name: buvette
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :buvette-1: Tartare de Thon
+   :buvette-2: Dauphinois Potatoes
+   :buvette-3: Brandade de Morue
+   :buvette-4: Carotte Rapées
+   :buvette-5: Crème Brûlée
