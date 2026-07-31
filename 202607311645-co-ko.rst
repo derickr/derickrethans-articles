@@ -1,0 +1,49 @@
+Friday Night Dinner: Co & Ko
+============================
+
+.. articleMetaData::
+   :Where: 72 Berwick Street, London, W1F 8TD, United Kingdom
+   :Date: 2026-07-31 16:45 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Korean
+   :Short: co-ko
+   :URL: https://www.cookandkorea.com/
+   :Costs: Starters: £5-£10.5; Dishes: £10.5-£25.5
+   :Rating: 4
+   :Author: Derick Rethans
+
+Situated in SOHO, this small restaurant has a large selection of Korean
+dishes. We didn't fancy the warm soups and broths on such a warm day, but
+instead opted for the traditional grilled meats. We're sure that the broths
+would work very well in the autumn or winter.
+
+As our starter we shared a bowl of K Pop Chicken, which turned out to be
+crispy cubes of chicken with a sweet sauce. For our mains, my wife enjoyed a
+classic Lamb Bulgogi — pan-fried thin-sliced marinated lamb. I opted for
+something new from their menu, the Bossam — a 12-hour slow cooked and grilled
+Pork belly.
+
+One of the reasons why we chose Korean cuisine for this evening, was to try a
+Korean beer and a Makgeolli. The beer as part of our quest to try a beer from
+each of the 48 participating World Cup countries. The Makgeolli because it was
+a style of Korean drink that we had never previously tried.  We had the plain
+variant at Co & Ko, and subsequently purchased a chestnut flavoured option
+from one of the South Korean supermarkets that seem to be springing up in
+London.
+
+The food at Ko & Co was nice, and it had a good ambiance. On a hot summer
+evening we were grateful to be sat in front of the open window. Judging by the
+rest of the clientele, the restaurant seems to be popular with the Korean
+community. There was a steady stream of diners coming and going, enjoying the
+delicious looking food.
+
+After our meal, we were still a little thirsty — it was a hot evening after
+all — and shared a Soju. An enjoyable and relaxing way to finish our meal. We
+would definitely return and recommend Co & Ko.
+
+.. carousel::
+   :name: co-ko
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :co-ko-1: K Pop Chicken
+   :co-ko-2: Bossam
+   :co-ko-3: Lamb Bulgogi

@@ -1,0 +1,50 @@
+Friday Night Dinner: Zylia
+==========================
+
+.. articleMetaData::
+   :Where: 6 Bedford Street, London, WC2E 9HZ, United Kingdom
+   :Date: 2026-08-07 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Greek
+   :Short: zylia
+   :URL: https://zyliataverna.com/
+   :Costs: Mezedakia: £5-18.5; Grill: £13.5-£34; Wines from £34
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+The former TGI Fridays site in Covent Garden has been replaced by a food and
+cocktail court arrangement. There is a coffee shop and pancake place, but also
+a few restaurants around the perimeter with their own entrance. One of these
+is Zylia, a Greek/Cypriot restaurant.
+
+Most of the dishes on the menu are meant for the table, so going with the
+sharing approach we opted for a selection of cold and warm Mezedakia to start.
+Their Taramosalata was probably one of the best variants that we've had. It
+wasn't oily, or overly salty, but thick and flavourful. Some of the bread that
+we ordered with it had the resemblance of a supermarket burger bun sliced
+vertically, oiled and seeded. It was also a bit salty, and the pittas served
+alongside were better.
+
+We also shared the Spanakopita stack, consisting of crispy layers of filo
+pastry, with generous dollops of  soft feta and spinach. The fried cheese
+croquettes were ball-shaped, and super hot fresh out of the fryer. They came
+with a sticky honey sauce.
+
+From the Grill, we shared the Sheftalia (caul fat-wrapped pork parcels, think
+koftas), and the Chicken Souvlakia — marinated chicken thighs with lemon oil
+and oregano. Both meats were nicely cooked, and also full of flavour.
+
+It is a bustling place, with a young audience. But it was also just a bit too
+noisy, to the point where it was difficult to have a conversation. The food
+however is delightful, and our five selected dishes were spot on quantity
+wise.
+
+.. carousel::
+   :name: zylia
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :zylia-1: Spanakopita Stack
+   :zylia-2: Taramosalata
+   :zylia-3: Chicken Souvlakia
+   :zylia-4: Sheftalia
+   :zylia-5: Pitta and Bread Selection
+   :zylia-6: Fried Cheese Croquettes
