@@ -1,0 +1,51 @@
+Friday Night Dinner: Poon's at Somerset House
+=============================================
+
+.. articleMetaData::
+   :Where: New Wing, Somerset House, Lancaster Place, London, WC2R 1LA, United Kingdom
+   :Date: 2026-08-14 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Chinese
+   :Short: poons
+   :URL: https://www.poonslondon.com/restaurant
+   :Costs: Snacks: £3.5-£8; Starters: £10-£15; Mains: £13-32
+   :Rating: 4.5
+   :Author: Derick Rethans
+
+Poon's is a stone throw away from the bustling Lancaster Place, in the New
+Wing of Somerset House. The room is bright, and has normal tables, a few high
+tables, and a communal style arrangement. We were seated at one of the high
+tables in the corner near the entrance, facing out with a good view over the
+interior.
+
+At first glance the menu looks deceptively simple, but on closer examination
+there were many delicious options to choose from 
+
+We started with some pan-fried wind-dried sausage, which was slightly sticky,
+salty and delicious. We also shared a portion of The Hill That Amy Didn't Die
+On, a long-winded name for a prawn toast. But well done, and more like
+croquettes than the traditional flat shape — we're not sure that it actually
+involved bread.
+
+For our mains I ordered the Char Siu, beautifully roasted pork belly with a
+sticky glaze. Some steamed rice was great for soaking up the juices. My wife
+chose the Steamed Catch of the Day. Today's was a Brill, which was presented
+whole, but taken off the bone for us. It was served with mushrooms — some of
+which were cut into strips and tied into little knots — and some greens. We
+shared more of these dishes than we would normally do.
+
+We did not have space for desert as well, and instead enjoyed a digestive.
+
+The meal was great, but it did end up being a little pricier than originally
+expected. But our digestive had something to do with that.
+
+Poon's had a wonderful atmosphere, delicious food and welcoming staff, we'd
+definitely return and would recommend.
+
+.. carousel::
+   :name: poons
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :poons-1: The Hill that Amy Didn't Die On
+   :poons-2: Wind-Dried Sausages
+   :poons-3: Char Siu
+   :poons-4: Steamed Brill
