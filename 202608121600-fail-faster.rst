@@ -1,0 +1,55 @@
+Fail Faster
+===========
+
+.. articleMetaData::
+   :Where: London, UK
+   :Date: 2026-08-12 16:00 Europe/London
+   :Tags: blog, php, xdebug
+   :Short: fail-faster
+
+For a long time I have heard complaints that Xdebug, with its debugger
+enabled, slows down applications, even if there is no IDE listening.
+
+I have never been able to reproduce this, as on Linux (and macOS), TCP
+connections to a localhost ports fail immediately if that port is not open.
+
+Xdebug waits for up to ``200ms`` when making a debug connection. This is
+configurable with the `xdebug.connect_timeout_ms
+<https://xdebug.org/docs/all_settings#connect_timeout_ms>`_ setting.
+
+But if there is nothing listening, there should not be any delay, as it ought
+to be an immediate error.
+
+I wrote a comment `in an issue from 2024
+<https://bugs.xdebug.org/view.php?id=2267#c6967>`_:
+
+	The error message ``ERR: Time-out connecting to debugging client, waited:
+	200 ms.`` indicates that your network stack doesn't immediately reject the
+	connection if it can't be made. That's usually due to a (misconfigured)
+	firewall.
+
+It turns out, that it is not a firewall, but that Windows itself behaves bad
+here. Instead of failing immediately, it **does** retry sending TCP SYN
+packets to try to establish a connection. This is pointless on the local
+loopback interface, as network packets cannot get lost.
+
+Through a `post by Daniel Stenberg
+<https://phpc.social/@bagder@mastodon.social/117047792935439078>`_ on
+Mastodon, I found out the cause, and a solution.
+
+He explains how it affects curl's `Happy Eyeballs
+<https://en.wikipedia.org/wiki/Happy_Eyeballs>`_ algorithm in a `blog post
+from 2024
+<https://daniel.haxx.se/blog/2024/08/14/slow-tcp-connect-on-windows/>`_.
+Although Xdebug does not use Happy Eyeballs, the underlying problem is the
+same.
+
+Last week, `Marcel Jamin wrote to the curl mailing list
+<https://curl.se/mail/lib-2026-08/0002.html>`_, with a solution. This solution
+disables the retry mechanism to establish a connection. And in turn that
+means, that there is no longer a delay on Windows either.
+
+I have today merged a `pull request
+<https://github.com/xdebug/xdebug/pull/1100/changes>`_ for Xdebug which
+implements this solution. The patch is part of the upcoming Xdebug 3.6
+release.
