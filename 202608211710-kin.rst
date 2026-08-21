@@ -1,0 +1,55 @@
+Friday Night Dinner: Kin
+========================
+
+.. articleMetaData::
+   :Where: 21a Foley Street, London, W1W 6DS, United Kingdom
+   :Date: 2026-08-21 17:10 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Vegan
+   :Short: kin
+   :URL: https://kinlondon.com/restaurant
+   :Costs: Appetisers: £12-£14; Small Plates: £9-£11; Large Plates: £20-£23; Wines from £34
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+Almost next to BBC Broadcasting House, Kin is a plant based restaurant. During
+the day it's a café with vegan snacks. In the evening it transforms into a
+modern restaurant with plant based dishes. 
+
+On a warm evening, we decided to sit inside in a fairly cool and quiet space.
+There were a few other diners enjoying the fine weather, eating outside. We
+usually avoid sitting outside as smoking and vaping tends to spoil the
+experience. 
+
+To start our meal, we shared the Sticky Cashew Tofu, and the Mushroom Skewers
+(on toast). The tofu was flavourful, and crispy, and the carrot dip added a
+bit more creaminess — this was my wife's favourite starter. The Mushroom
+Skewers were made up of oyster mushrooms, which were a little chewy to create
+some texture, and were served with an artichoke dip spread. Heaps of spring
+onion and chilli were tossed on top.
+
+For her main, my wife chose the Cauliflower and Butter Bean Curry — Thai
+flavours and with roasted cashew nuts for texture, which she very much
+enjoyed. I had the Miso-Glazed Aubergine, which was served with cauliflower
+purée. The flavours were great, and the aubergine worked well with the
+cauliflower, but I found it mono-textural, lacking something crunchy as a
+contrasting texture. I also thought it was too much portion wise, but that was
+perhaps because we also already had starters too, or maybe we have smaller
+appetites. We were really full, so pudding didn't appeal, and we left to walk
+the fairly short distance to the tube. 
+
+When we left, it was a lot busier inside, and also a lot louder — perhaps a
+little too loud for our general liking.
+
+All-in-all, we enjoyed a flavourful meal, and although most of the dishes had
+some texture, I found the aubergine dish lacking. But it's a good place for
+plant-based cuisine.
+
+
+.. carousel::
+   :name: kin
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :kin-1: Oyster Mushroom Skewers
+   :kin-2: Sticky Cashew Tofu
+   :kin-3: Miso-Glazed Aubergine
+   :kin-4: Cauliflower and Butter Bean Curry
