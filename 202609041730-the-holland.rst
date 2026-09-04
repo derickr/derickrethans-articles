@@ -1,0 +1,47 @@
+Friday Night Dinner: The Holland
+================================
+
+.. articleMetaData::
+   :Where: 25 Earls Court Road, London, W8 6EB, United Kingdom
+   :Date: 2026-09-04 17:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: the-holland
+   :URL: https://thehollandkensington.co.uk/
+   :Costs: Starters: £8-£14.50; Mains: £19.50-£25; Sides: £5.50; Wines from £35
+   :Rating: 4
+   :Author: Derick Rethans
+
+It's a pub, not far from the Design Museum in Kensington, just off the main
+road which forms High Street Kensington. The Holland is on a busy-ish road,
+but inside it is a calm and relaxing spot. There are some tables outside too.
+When we visited, it wasn't especially busy, with a couple of groups inside and
+standing outside having some drinks in the warm weather. The staff were very
+friendly and attentive, and before we knew it, we had our menus to pick our
+dishes.
+
+For her starter, my wife had the potted crab on toast. The portion size was
+excellent, the crab tasty, and also nicely presented. I enjoyed the steak
+tartare, which was mixed with tomato and a little horseradish. It was served
+heaped with Parmesan cheese, and a potato cake (thin layers of potato, fried).
+
+For my main, I had the "Fish of the Day" with a Vierge sauce and some spinach.
+Today's fish was Pollock. It had a lovely crispy skin, and the sauce was
+punchy with tomato, basil, and a large squeeze of lemon — maybe a little too
+much though, which made it a touch too sour to my liking. My wife chose the
+sweetcorn risotto. It was slightly sweet from the corn, with a touch of spice
+and well cooked rice. The usual sprinkling of cheese added a bit of balance.
+
+With our meal, we enjoyed a crisp Grüner Veltliner, by the bottle.
+
+We did book this through "The Fork", which gave us £20 off as we had enough
+"yums", which was nice! The Fork is one of the booking platforms we use to
+find restaurants. 
+
+.. carousel::
+   :name: the-holland
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :the-holland-1: Steak Tartare
+   :the-holland-2: Potted Crab on Toast
+   :the-holland-3: Pollock
+   :the-holland-4: Sweetcorn Risotto
