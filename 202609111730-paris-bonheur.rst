@@ -1,0 +1,56 @@
+Friday Night Dinner: Paris Bonheur
+==================================
+
+.. articleMetaData::
+   :Where: 10 place du Maréchal Juin, 75017 Paris, France
+   :Date: 2026-09-11 17:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: French
+   :Short: paris-bonheur
+   :URL: https://bonheur.paris/
+   :Costs: Starters: €9-€16; Mains: €24-€40; Wines from €7/glass
+   :Rating: 4
+   :Author: Derick Rethans
+
+We visited on a wet Thursday evening, and even though we ran from the metro
+station around the square, we were still fairly damp by the time we arrived.
+Inside, we were warmly welcome and seated in the window.
+
+We started our meal with a glass of cremant, because why not. After selecting
+our starters and mains, we asked the waiter for wine recommendations. We each
+had different starters and mains, which called for something that suited each
+dish. 
+
+While we were waiting for our starters, we were presented with a stack of
+home-made pretzels, and a cucumber gazpacho. I'm usually not a fan of the
+original tomato version, but this variation with cucumber and tzatziki was
+outstanding. The fresh cucumber with the yoghurt worked well, and little cubes
+of perfectly even cucumber added a bit of crunch. One of the best dishes we
+enjoyed this year.
+
+For our starters, my wife had the fried squid and mussel salad, served with
+some sweet grilled vine tomatoes. I enjoyed the pan-fried girolle mushrooms
+and snails, finished with a vin jaune sauce. The sauce was rich and bound the
+dish together. Some crunchy croutons added some texture.
+
+For her main, my wife ordered the steak, and this is where Paris Bonheur let
+us down a little. Although it was a good cut, it was sadly a little tough. The
+fries were really good, and came freshly cooked and in a generous portion — if
+only they had arrived with the steak as intended, rather than being served to
+an adjacent table. This error was very quickly noticed and rectified. I chose
+the smoked duckling with red fruits and beetroot as my main dish. The duck was
+well cooked, although in my opinion the skin should have been crispy. The red
+fruits added acidity, and the beetroot some welcome earthiness. 
+
+We did not have a dessert, as we were too full! Overall we'd thoroughly
+recommend this spot.
+
+
+.. carousel::
+   :name: paris-bonheur
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :paris-bonheur-1: Homemade Pretzels
+   :paris-bonheur-2: Cucumber and Tzaziki Gaspacho
+   :paris-bonheur-3: Squid and Mussel Salad
+   :paris-bonheur-4: Mushrooms and Snails 
+   :paris-bonheur-5: Duckling with Red Fruits and Beetroot
