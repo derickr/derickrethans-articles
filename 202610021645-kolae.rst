@@ -1,0 +1,56 @@
+Friday Night Dinner: Kolae
+==========================
+
+.. articleMetaData::
+   :Where: 6 Park Street, London, SE1 9AB, United Kingdom
+   :Date: 2026-10-02 16:45 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Thai
+   :Short: kolae
+   :URL: https://kolae.com/
+   :Costs: Starters: £5-£7.5; Small plates: £8-£14; Larger plates: £15-£18; Set Menu: £42pp
+   :Rating: 
+   :Author: Derick Rethans
+
+   We've been exploring the restaurants near Borough Market for a while now, and this time our eye fell on Kolae, a Thai Grill restaurant. The ground floor consists of a bar area, with a few tables sprinkled around. Our table was on the second floor, with about a dozen tables in an L-shaped room, with rough brick walls.
+
+The menu is extensive, and as we didn't quite know what to pick, we went for
+the easy option, and chose the set menu. We had the non-vegetarian set menu,
+but we see the website has a vegetarian set menu too. Both were dairy free, if
+that is a consideration.
+
+The meal started with Biryani Rice Crackers with Pickled Ginger and Green Nahm
+Jim. A stack of crispy and tangy crackers showed up, with hints of spice and
+sour. For our starters, we were served Kolae Grilled Tiger Prawns. These had a
+lovely sauce covered, and were served with some kind of fruit, with the
+flavours of grape and citrus to squeeze on top. The Green Mango salad was also
+spicy, but at the same time sweet, with dried shrimp adding some crunch. The
+Soy-Braised Pork Belly showed up a while later — the kitchen had mixed
+something up. The wait was well worth it, as this was in our opinion the best
+dish on the menu. The sauce was sticky and rich, and the pork succulent and
+tender. The sauce was so good. A spoon was deployed to not leave any of the
+sauce behind. Due to the wait, we were also served a Chicken Bamboo Skewer,
+which was also awesome, this is an optional extra on the set menu.
+
+As our main course, the menu provided us with Stir Fried Farm Greens, with
+some garlic and soybeans. At first, this looked really spicy due to the big
+chilly on top, but it turned out fairly mild. It fit well together with the
+Stonebass Curry, and the Hom Mali Rice.
+
+We did not have space for dessert after this. It was a great meal, with
+interesting flavours. The restaurant is in a good location, very close to the
+Borough High Street exit of the London Bridge tube station. We would
+definitely recommend it, with the only critique that it can be a bit noisy
+upstairs if there is a loud group nearby.
+
+.. carousel::
+   :name: kolae
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :kolae-1: Biryani Rice Crackers
+   :kolae-2: Grilled Tiger Prawns
+   :kolae-3: Green Mango Salad
+   :kolae-4: Chicken Bamboo Skewer
+   :kolae-5: Phuket Style Pork Belly
+   :kolae-6: Stir Fry of Farm Greens
+   :kolae-7: Gati Stonebass Curry
+   :kolae-8: New Season Hom Mali Rice
