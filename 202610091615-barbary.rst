@@ -1,0 +1,55 @@
+Friday Night Dinner: The Barbary
+================================
+
+.. articleMetaData::
+   :Where: 16 Neal's Yard, London, WC2H 9DP, United Kingdom
+   :Date: 2026-10-09 16:15 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Mediterranean
+   :Short: barbary
+   :URL: https://www.thebarbary.co.uk/neals-yard
+   :Costs: Starters: £5-£8.5; Snacks: £7.5-£12; (Larger) Dishes: £9.5-£29.5; Pudding: £7.5-£11; Wines from £38
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+A hip place in Covent Garden. We were a little early, and while waiting had a
+good overview of the place: A big kitchen area in the middle, with a coal
+fire, and around that a horseshoe of bar stools.
+
+We started our meal with a naan, made right in front of us in a tandoori from
+a bundle of though. It was fluffy and crispy, and the cod's roe with spring
+onions was an excellent dip.
+
+After this followed the starters, a trio of croquettes, with a dip. It's a
+weird number for a sharing-style restaurant catering for mostly couples.
+
+For our mains, we shared a mushroom kebab, coffee rubbed chicken, and a
+poached and grilled trout. The Mushroom kebab was underwhelming, and the
+portion size was small. The trout was still very moist, and the crisply skin
+added flavour; some pickled meaty tomatoes and onion slices accompanied it.
+Our favourite was the coffee rub chicken. Moist, juicy, and with a proper
+splash of heat from the topping and tasty pickled courgette.
+
+We enjoyed the atmosphere was good, even though it was fairly noisy. But it
+wasn't so bad so we could not near each other. The flames from the grill made
+it on the warmer side — we were seated less than 3 metres from it. The
+extraction was excellent and hence it wasn't smokey — not even when one of the
+chefs refilled the fuel.
+
+The downside of the Barbary were the cramped seating arrangements with fixed
+backless bar stools by the counter. Long legs made it necessary to man-spread,
+which isn't great for the unknown customers sitting next to you having to do
+the same. The restaurant is also not accessible, but this is made clear on
+their website when you use their booking tool. There is a terrace
+across/around the corner which would be better for seating, but it was too
+cold for that to be pleasant.
+
+.. carousel::
+   :name: barbary
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :barbary-1: Naan
+   :barbary-2: Cod's Roe
+   :barbary-3: Croquettes
+   :barbary-4: Mushroom Kebab
+   :barbary-5: Trout
+   :barbary-6: Coffee Rubbed Chicken
