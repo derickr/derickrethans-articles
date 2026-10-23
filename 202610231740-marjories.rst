@@ -1,0 +1,48 @@
+Friday Night Dinner: Marjorie's
+===============================
+
+.. articleMetaData::
+   :Where: 26 Foubert's Place, London, W1F 7PP, United Kingdom
+   :Date: 2026-10-23 17:40 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: French
+   :Short: marjories
+   :URL: https://www.marjorieslondon.co.uk/
+   :Costs: Starters: £3-£7.5; Smaller Plates: £13-£15; Larger Plates: £17-£29; Wines from £46
+   :Rating: 3
+   :Author: Derick Rethans
+
+A wine bar tucked around the corner of Carnaby Street. The restaurant is
+narrow, and although they have a few tables for small groups, many of the
+tables are larger and are seating multiple parties. It was a bit of a surprise
+when we got seated downstairs at a large round table, with space for 8 people.
+When we arrived, 6 other diners (all couples) were enjoying their meals.
+
+Because it is a wine bar, the wines are on the expensive side. We picked a
+lovely claret for just under £50 to go with our meal.
+
+To start we ordered some bread, and brown butter, and a saucisson with some
+cournichons, and a slice of the squash tart. The tart looked almost like a
+slice of pizza, but had nice sweet squash flavoured layers interspersed with
+cream and cheese, on a slightly crunchy base.
+
+For my main, I picked the Mackerel, with pumpkin, pickles, and herbs. The
+combination was a little on the sour side for me, but the fish was well cooked
+and prepared. My wife chose the Bavette steak which was served with an egg
+york emulsion — a similar idea to the egg yolk that often sits atop a steak
+tartare. It was well seasoned, but slightly under for the medium that she'd
+ordered.
+
+Curiously, we did have to ask for the bread and saucisson a few times, and
+these only arrived after our mains were served. This was disappointing, but
+overall the meal, and the ambience were both lovely. There was definitely more
+legroom than at the Barbary.
+
+.. carousel::
+   :name: marjories
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :marjories-1: Squash Tart
+   :marjories-2: Mackerel
+   :marjories-3: Bavette Steak
+   :marjories-4: Saucisson ad Cournichons
+   :marjories-5: Bread and Brown Butter
