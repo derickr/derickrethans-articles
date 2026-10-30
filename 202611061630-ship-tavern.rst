@@ -1,0 +1,50 @@
+Friday Night Dinner: The Ship Tavern
+====================================
+
+.. articleMetaData::
+   :Where: 12 Gate Street, London, WC2A 3HP, United Kingdom
+   :Date: 2026-11-06 16:30 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: British
+   :Short: ship-tavern
+   :URL: https://theshiptavern.co.uk/
+   :Costs: Starters: £10-£13; Mains: £21-£42; Wines from £32
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+A cosy no-nonsense gastropub, right next to Holborn station; that's how I
+would describe this place. Which when we visited was decorated for Halloween
+with pumpkins lining the stairs up to the busy dining room.
+
+The menu has your standard pub fare (Fish & Chips, Steak, Beef and Ale Pie),
+but also more sophisticated dishes, such as a Venison Loin and a Beef
+Wellington to share. We chose two of their specials.
+
+My wife had a Salmon Wellington, served on mashed potatoes with some leek. A
+good wavy crust enveloped the well-cooked salmon. The mash was smooth and
+buttery, with the leek adding some texture.
+
+I enjoyed the Duck Breast, which turned out to be a duck breast and a confit
+duck leg. The breast was pink and juicy, and the leg just as it is supposed to
+be with a crispy skin. This was served with Tenderstem broccoli, some mash,
+and a few roast potatoes. These roast potatoes were probably the best I've had
+in a London pub, after never really been happy with any served with a Sunday
+roast. If I have any criticism of the roasties, it's that they were on the
+salty side.
+
+When ordering, we asked our waiter what our mains came with. He didn't seem to
+know this, and advised ordering vegetables with the Salmon Wellington, so we
+went for a portion of maple-glazed carrots. But whilst the carrots were nice,
+they were unnecessary as the salmon came with mash and leeks. This meant there
+was too much food overall, as the portions of everything were very generous.
+
+The food was excellent, and as it is close to the British Museum, it would
+make for a great place to go after a day out at the museum. Booking ahead is
+likely required for a Friday or Saturday evening.
+
+.. carousel::
+   :name: ship-tavern
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :ship-tavern-1: Duck Breast and Duck Leg
+   :ship-tavern-2: Salmon Encroute
+   :ship-tavern-3: Maple Glazed Carrots

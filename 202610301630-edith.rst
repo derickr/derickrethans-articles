@@ -1,0 +1,38 @@
+Friday Night Dinner: Edith
+==========================
+
+.. articleMetaData::
+   :Where: 7 Rue du Pont Vieux, Nice, 06300, France
+   :Date: 2026-10-30 16:20 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: French
+   :Short: edith
+   :URL: https://www.edith-restaurant-nice.fr/
+   :Costs: Mains: €20-€30; Glasses of wine from about €8
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+On our holiday, we had a few beers across the street at Le Brassitorium, which
+we would recommend going to if you happen to be in Nice. Whilst sitting
+outside in the warm weather, we noticed Edith across the street, and decided
+that it looked like a good place for dinner. We had not booked, but they had a
+table available when we showed up — probably because it was on the earlier
+side for dinner in the South of France.
+
+For her main, my wife chose the "Aioli", which wasn't just garlic mayonnaise.
+Instead, a well-cooked white fish — just slightly flaky — appeared with
+char-grilled carrots, fennel, and courgette sections. And of course the garlic
+mayonnaise. I picked the steak tartare, served with the standard egg yolk.
+This was served with pan-fried potato cubes and some lettuce. It was
+well-seasoned, and had little bits of cournichon embedded in the chopped meat.
+
+Still a little peckish, we shared a delicious silky Crème Brûlée to finish. We
+had a lovely meal, in this no-nonsense restaurant, serving original home
+cooked meals without fuss and a lovely atmosphere.
+
+.. carousel::
+   :name: edith
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :edith-1: Steak Tartare
+   :edith-2: White Fish with Veggies
+   :edith-3: Crème Brûlée
