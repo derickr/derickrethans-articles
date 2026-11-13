@@ -1,0 +1,56 @@
+Friday Night Dinner: Oorja
+==========================
+
+.. articleMetaData::
+   :Where: 13-14 Thayer Street, London, W1U 3JR, United Kingdom
+   :Date: 2026-11-13 16:00 Europe/London
+   :Tags: blog, fnd
+   :Cuisine: Indian
+   :Short: oorja
+   :URL: https://www.oorja.co.uk/
+   :Costs: Small Plates: £10-£14; Curries: £12-£23; Wines from £36
+   :Rating: 3.5
+   :Author: Derick Rethans
+
+This new location for Oorja is at the bottom of Marylebone High Street, a
+little out of the way. We visited during their soft launch, which brought some
+teething issues. More about that later.
+
+Curiously each diner is provided with a fabric apron to wear, to protect their
+clothes which was a bit of a novelty.
+
+We had some popadoms when we arrived, and we have an issue with them. There
+were only three actual popadoms; the rest (majority) were star shaped piped
+"crisps". These reminded us slightly of an M&S packet of crisps with different
+shapes — although I'm sure they were made in house. Traditional popadoms from
+an Indian restaurant are wonderful things, thin and crispy, but although the
+sauces were great, this box wasn't really as good as that.
+
+The food generally was lovely. My wife ordered the black daal, which she
+thought was amazingly tasty. The railway chicken curry that I had was also
+delicious. A particular shout out for the cheese and onion bhajis that we had
+as our starters — we're not sure that we ever had an onion bhaji with cheese,
+but it worked well. But as usual, they came in portions of three — most
+parties are two, which makes sharing them harder.
+
+But onto the teething problems. The circular table at the top of the stairs
+that we were sat at, was too small for two to dine comfortably. When we
+arrived there were plenty of other tables for two free, and which remained
+free during our whole visit. We felt like being squeezed in as a "walk in",
+rather than for someone who had booked.
+
+Service was attentive but not intrusive. Empty plates etc., were removed
+swiftly. The pacing of courses was also good; not too, fast or too slow.
+
+Desserts weren't available, so no comments on that. Overall we'd recommend
+this place, and I hope it does well.
+
+.. carousel::
+   :name: oorja
+   :directory: https://s3.drck.me/derickrethans-images.s3.uk.io.cloud.ovh.net/friday-night-dinners/
+   :oorja-1: Popadoms
+   :oorja-2: Cheese and Onion Bhajis
+   :oorja-3: Black Daal
+   :oorja-4: Railway Curry
+   :oorja-5: Naan
+   :oorja-6: Rice
